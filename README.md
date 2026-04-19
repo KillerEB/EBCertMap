@@ -59,7 +59,7 @@ EBCertMap/
 **Requirements:** Node.js 18+
 
 ```bash
-git clone https://github.com/EB/EBCertMap.git
+git clone https://github.com/KillerEB/EBCertMap.git
 cd EBCertMap
 npm install
 npm run dev
