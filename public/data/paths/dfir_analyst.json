@@ -1,0 +1,223 @@
+{
+  "role_id": "dfir_analyst",
+  "label": "DFIR Analyst",
+  "description": "Investigates security incidents through digital forensics and incident response. Covers endpoint forensics, memory analysis, malware triage, network forensics, and threat hunting across enterprise and cloud environments.",
+  "job_titles": [
+    "DFIR Analyst",
+    "Digital Forensics Examiner",
+    "Incident Response Analyst",
+    "Malware Analyst",
+    "Threat Hunter",
+    "Forensic Investigator",
+    "Cyber Incident Responder",
+    "IR Consultant"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "dfir_enterprise",
+      "name": "Enterprise DFIR Track",
+      "rationale": "The most recognized combination for corporate IR teams, Big 4 consulting firms, and MSSP incident response practices. DoD 8140 approved throughout and expected by name in most senior DFIR job postings.",
+      "estimated_timeline": "18-30 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "DoD 8140 approved throughout",
+        "GCFE + GCFA + GCIH covers virtually every enterprise DFIR job requirement",
+        "Most recognized path at large enterprises and consulting firms",
+        "Open-book exams reward deep understanding over memorization"
+      ],
+      "cons": [
+        "High cost \u2014 SANS training significantly increases total investment beyond exam fees",
+        "MCQ-heavy format \u2014 25% practical weight doesn't fully validate hands-on forensics skill",
+        "Slow path \u2014 each GIAC cert requires substantial preparation time"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Windows operating system internals",
+          "Basic file system concepts (FAT, NTFS)",
+          "Networking fundamentals",
+          "Basic log analysis"
+        ],
+        "recommended_certs": [],
+        "experience": "Some IT operations or security operations experience is advantageous. BTL1 as a first step before GCFE is worth considering if you're entering DFIR without prior security experience."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcfe",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "The entry-level GIAC forensics cert and the starting point for the enterprise DFIR track. Open-book \u2014 build comprehensive indexed notes organized by artifact type. The 13Cubed 'Investigating Windows Endpoints' course covers approximately 80-90% of the GCFE curriculum at a fraction of the SANS cost and is widely recommended as preparation. Without SANS training, use 13Cubed + community index notes + practice tests."
+        },
+        {
+          "cert_id": "gcfa",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "The advanced GIAC forensics cert and the most recognized senior DFIR credential. Covers memory forensics, timeline super-analysis, anti-forensics detection, and enterprise-scale incident investigation. GCFE gives you the Windows artifact foundation \u2014 GCFA builds on it with deeper investigation methodology and threat hunting through forensic evidence. The community GCFA index notes are particularly valuable given the breadth of content."
+        },
+        {
+          "cert_id": "gcih",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "Completes the enterprise DFIR stack by adding the most recognized incident response credential. GCIH is frequently listed alongside GCFA in senior IR job requirements \u2014 they're complementary, with GCFA validating forensic analysis depth and GCIH validating incident handling process and coordination. By this stage you'll have strong forensics foundations \u2014 the GCIH content on containment, eradication, and recovery will feel immediately practical."
+        }
+      ]
+    },
+    {
+      "id": "dfir_practical",
+      "name": "Practical Skills Track",
+      "rationale": "Balances strong practical skill validation with recognized vendor-neutral credentials. BTL1 establishes genuine foundational skill; 13Cubed builds deep forensics capability; GCFA adds the senior credential that opens enterprise and consulting roles.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2794,
+      "pros": [
+        "BTL1 and 13Cubed build genuine hands-on forensics skill before any GIAC exam",
+        "More affordable than all-GIAC path",
+        "13Cubed content quality rivals SANS FOR500/FOR508 at a fraction of the cost",
+        "GCFA adds the recognized senior credential employers look for"
+      ],
+      "cons": [
+        "BTL1 and 13Cubed have limited employer name recognition compared to GIAC",
+        "Not fully DoD 8140 compliant \u2014 only GCFA is approved",
+        "More complex to explain to traditional HR filters"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Windows operating system basics",
+          "Basic networking",
+          "Security fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "No prior security experience required. BTL1 is explicitly designed as a genuine entry point for DFIR."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl1",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Start here. The 24-hour practical exam covers phishing analysis, digital forensics, SIEM investigation, log analysis, and network analysis \u2014 a genuinely broad introduction to defensive security that gives DFIR context. Work through all Security Blue Team course content. Use Blue Team Labs Online free tier and TryHackMe's SOC Level 1 path for additional hands-on practice."
+        },
+        {
+          "cert_id": "13c-iwe",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "13Cubed's Windows endpoint forensics course and certification. Richard Davis (Microsoft DART) teaches this at SANS quality for under $800. Work through every lesson, use all three disk images, complete both capstone challenges before attempting the assessment. The practical component requires actual forensic analysis of a compromised image \u2014 this is real skill development, not exam prep."
+        },
+        {
+          "cert_id": "13c-iwm",
+          "order": 3,
+          "estimated_time": "2-3 months",
+          "notes": "13Cubed's memory forensics course. Covers Volatility 2/3 and MemProcFS more deeply than SANS FOR508. Work through all seven memory images systematically. After IWE and IWM combined you'll have stronger Windows forensics and memory analysis skills than most GCFE holders \u2014 which sets you up to genuinely understand GCFA content rather than just index-note your way through it."
+        },
+        {
+          "cert_id": "gcfa",
+          "order": 4,
+          "estimated_time": "3-5 months",
+          "notes": "The senior DFIR credential that opens consulting and enterprise IR roles. Having completed BTL1, IWE, and IWM before approaching GCFA means you arrive with genuine forensic skill rather than needing to learn the concepts from scratch through the GIAC course. Build thorough indexed notes. The community GCFA prep resources are excellent. This cert transforms your practical skills into a credential that HR filters and hiring managers recognize."
+        }
+      ]
+    },
+    {
+      "id": "dfir_cloud",
+      "name": "Cloud DFIR Track",
+      "rationale": "Forward-looking path for DFIR analysts whose scope increasingly includes cloud infrastructure. As organizations migrate to cloud and attackers follow, cloud forensics and IR skills represent a growing and underserved specialization.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "GCFR is the only dedicated cloud forensics certification on the market",
+        "Uniquely positions for growing cloud IR market \u2014 very few practitioners hold GCFR",
+        "Both DoD 8140 approved",
+        "GCIH + GCFR combination is increasingly sought by organizations with hybrid environments"
+      ],
+      "cons": [
+        "GCFR is newer with less market recognition than GCFA",
+        "Narrower specialization \u2014 less applicable to traditional endpoint-heavy investigations",
+        "Same GIAC MCQ format limitations"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Basic cloud platform concepts (AWS, Azure, or GCP)",
+          "Networking fundamentals",
+          "Basic incident response concepts",
+          "Log analysis fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "Prior cloud platform experience is valuable. Familiarity with at least one major cloud provider's console and logging services (CloudTrail, Azure Monitor, GCP Audit Logs) is strongly recommended before pursuing GCFR."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcfe",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Foundational Windows forensics \u2014 builds the artifact analysis mindset that underpins all DFIR work regardless of environment. Even for cloud-focused analysts, understanding traditional endpoint forensics provides essential context for hybrid investigations."
+        },
+        {
+          "cert_id": "gcih",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "The incident handling framework \u2014 detection, containment, eradication, recovery. Critical for cloud IR work where the coordination and process elements are as important as the technical forensics. GCIH alongside GCFE gives you the foundational IR methodology before specializing in cloud."
+        },
+        {
+          "cert_id": "gcfr",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Currently the only dedicated cloud forensics certification. Covers AWS, Azure, and GCP log analysis, cloud artifact collection, container forensics, and investigation of cloud-native attacks. Employers running cloud infrastructure increasingly list GCFR by name in senior IR roles. At this stage you'll have the forensics and IR foundation to make GCFR content immediately applicable rather than abstract."
+        }
+      ]
+    },
+    {
+      "id": "dfir_offsec",
+      "name": "OffSec DFIR Track",
+      "rationale": "OffSec's full defensive operations stack \u2014 OSDA, OSTH, and OSIR together cover defense analysis, threat hunting, and incident response in a 100% practical progression. Less recognized than GIAC but significantly cheaper, fully practical, and OffSec's brand is gaining traction on the defensive side after their PEN-200 dominance.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2097,
+      "pros": [
+        "100% practical throughout \u2014 no MCQ at any level",
+        "OffSec brand recognition extending to defensive space",
+        "Covers the full DFIR workflow: defense analysis, threat hunting, and incident response",
+        "Significantly cheaper than equivalent GIAC stack"
+      ],
+      "cons": [
+        "Less employer name recognition than GCFE + GCFA + GCIH stack",
+        "OffSec defensive certs are newer \u2014 building market presence",
+        "No DoD 8140 approval currently"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security operations fundamentals",
+          "Windows and Linux system internals",
+          "Basic malware awareness",
+          "Network traffic analysis basics"
+        ],
+        "recommended_certs": [
+          "btl1"
+        ],
+        "experience": "BTL1 or equivalent SOC analyst experience strongly recommended before this path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl1",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "Security Blue Team Level 1 \u2014 practical foundation covering log analysis, SIEM triage, phishing analysis, and basic incident investigation. Ensures you have hands-on detection and response foundations before the OffSec defensive stack."
+        },
+        {
+          "cert_id": "osda",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Defense Analyst \u2014 covers defensive security analysis, log analysis, malware behavioral analysis, and detection methodology. 24-hour practical exam. The OffSec entry point for the defensive side. Complete the SOC-200 course fully."
+        },
+        {
+          "cert_id": "osth",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Threat Hunter \u2014 covers proactive threat hunting methodology, behavioral analytics, and hunting for advanced adversaries in endpoint and network data. Practical exam. Builds directly on OSDA's detection foundation by adding the proactive hunting dimension."
+        },
+        {
+          "cert_id": "osir",
+          "order": 4,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Incident Responder \u2014 covers enterprise incident response, containment, and forensic investigation. The capstone of the OffSec defensive stack. With OSDA and OSTH completed you arrive at OSIR with strong detection and hunting context \u2014 OSIR adds the full incident response lifecycle."
+        }
+      ]
+    }
+  ]
+}

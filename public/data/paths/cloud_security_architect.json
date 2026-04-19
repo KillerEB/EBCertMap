@@ -1,0 +1,110 @@
+{
+  "role_id": "cloud_security_architect",
+  "label": "Cloud Security Architect",
+  "description": "Designs cloud security architecture at a strategic level \u2014 reference architectures, security patterns, cloud governance frameworks, and multi-cloud security strategy.",
+  "job_titles": [
+    "Cloud Security Architect",
+    "Principal Cloud Security Architect",
+    "Enterprise Cloud Security Architect",
+    "Multi-Cloud Security Architect",
+    "Cloud Security Advisor"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "cloud_arch_aws",
+      "name": "AWS Architecture Track",
+      "rationale": "CCSP plus AWS Security Specialty is the recognized senior AWS security architect credential combination.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 1592,
+      "pros": [
+        "CCSP is the most recognized senior cloud security credential globally",
+        "AWS Security Specialty validates deep AWS security engineering expertise",
+        "CCSK provides vendor-neutral cloud security framework foundation"
+      ],
+      "cons": [
+        "CCSP requires 5 years experience \u2014 cannot be accelerated",
+        "High cost and long timeline"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Advanced AWS security engineering",
+          "Cloud security architecture principles",
+          "Governance and risk management"
+        ],
+        "recommended_certs": [
+          "aws-security-specialty",
+          "ccsk"
+        ],
+        "experience": "5 years IT security experience required for CCSP. Senior cloud security engineering experience specifically. Not a mid-level path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "CSA foundation \u2014 vendor-neutral cloud security framework establishing the governance and architecture language that underpins CCSP."
+        },
+        {
+          "cert_id": "aws-security-specialty",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Deep AWS security engineering before architecture-level work. You design better architectures when you deeply understand what the security services actually do."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 3,
+          "estimated_time": "5-8 months",
+          "notes": "ISC2 Certified Cloud Security Professional \u2014 the senior cloud security architect credential. Cloud architecture, data security, platform security, application security, operations, and legal/compliance. Study with the official ISC2 CCSP study guide and Boson practice exams."
+        }
+      ]
+    },
+    {
+      "id": "cloud_arch_azure",
+      "name": "Azure Architecture Track",
+      "rationale": "SC-100 is the Azure security architect credential; CCSP adds the vendor-neutral senior recognition.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 1291,
+      "pros": [
+        "SC-100 increasingly required for senior Azure security architecture roles",
+        "CCSP adds vendor-neutral recognition alongside Microsoft stack",
+        "Relevant in the largest enterprise cloud deployments \u2014 Azure dominates enterprise"
+      ],
+      "cons": [
+        "Annual renewal cycles on Microsoft certifications",
+        "SC-100 requires AZ-500 prerequisite knowledge"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Azure security engineering (AZ-500 level)",
+          "Security architecture principles",
+          "Zero Trust design"
+        ],
+        "recommended_certs": [
+          "az-500"
+        ],
+        "experience": "Senior Azure security engineering experience. AZ-500 completion recommended before SC-100."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Vendor-neutral cloud security foundation."
+        },
+        {
+          "cert_id": "sc-100",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "Microsoft Cybersecurity Architect \u2014 Azure security architect credential. Tests architectural judgment across Zero Trust design, security operations architecture, and governance. Harder than AZ-500 because it requires synthesis and design thinking."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "Adds ISC2 senior cloud security credential that opens architecture roles outside Microsoft environments and provides vendor-neutral framework credibility that SC-100 alone cannot."
+        }
+      ]
+    }
+  ]
+}

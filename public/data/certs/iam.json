@@ -1,0 +1,1359 @@
+[
+  {
+    "id": "cidpro",
+    "acronym": "CIDPRO",
+    "full_name": "Certified Identity Professional",
+    "issuing_body": "IDPro",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance",
+      "access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 595,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "identity_lifecycle_management",
+      "access_management_concepts",
+      "authentication_protocols",
+      "authorization_models",
+      "federation_and_sso",
+      "iam_governance",
+      "identity_standards"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iam_fundamentals",
+        "security_concepts",
+        "directory_services_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The only vendor-neutral IAM practitioner certification from IDPro \u2014 the professional body specifically for identity practitioners. Covers the breadth of IAM including identity lifecycle, access management, authentication, federation, and governance without tying to any specific platform. Launched in 2023 and still building employer name recognition relative to established certs, but backed by serious IAM practitioners who designed the curriculum. Not DoD 8140 approved. Best suited for IAM practitioners who want vendor-neutral validation of their conceptual knowledge across the full identity domain rather than platform-specific skills. Recognition is growing but expect CISSP Domain 5, SC-300, or CyberArk certs to carry more immediate hiring weight.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://idpro.org/cidpro/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sc-300",
+    "acronym": "SC-300",
+    "full_name": "Microsoft Certified: Identity and Access Administrator Associate",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "iam",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "access_management",
+      "identity_governance",
+      "federation_sso"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "microsoft_entra_id",
+      "identity_lifecycle_management",
+      "conditional_access",
+      "privileged_identity_management",
+      "external_identities",
+      "application_access_management",
+      "identity_governance_microsoft"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "microsoft_365_familiarity",
+        "azure_basics",
+        "security_concepts",
+        "directory_services_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's IAM certification covering the full Microsoft Entra ID (formerly Azure AD) platform \u2014 identity lifecycle, conditional access, PIM, external identities, and application access management. Given Microsoft's dominance in enterprise identity infrastructure, this is arguably the most practically relevant IAM certification for the majority of enterprise environments. One-year renewal keeps it current with rapidly evolving Microsoft IAM capabilities. Not DoD 8140 approved. If an organization runs Microsoft for identity \u2014 which is most organizations \u2014 SC-300 is effectively mandatory knowledge for IAM practitioners and increasingly listed as a requirement rather than a nice-to-have.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 8,
+      "time_to_prepare": 4,
+      "overall": 5.7
+    }
+  },
+  {
+    "id": "ocp",
+    "acronym": "OCP",
+    "full_name": "Okta Certified Professional",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso",
+      "access_management"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_platform_basics",
+      "user_provisioning_okta",
+      "application_integration_basics",
+      "mfa_configuration_okta",
+      "sso_configuration_basics",
+      "okta_admin_console"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_iam_concepts",
+        "directory_services_awareness",
+        "basic_security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Okta's entry-level certification covering basic Okta platform administration, user provisioning, SSO configuration, and MFA setup. All Okta exams now test Okta Identity Engine (OIE) exclusively \u2014 Classic Engine exam content was retired June 2024. Not DoD 8140 approved. Okta has significant enterprise market share in workforce identity, making this the natural starting point for administrators and analysts entering Okta-heavy environments. The Professional cert establishes baseline Okta literacy before pursuing the Administrator or Consultant tier certs.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 2,
+      "overall": 3.1
+    }
+  },
+  {
+    "id": "oca",
+    "acronym": "OCA",
+    "full_name": "Okta Certified Administrator",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso",
+      "access_management",
+      "identity_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_advanced_administration",
+      "lifecycle_management_okta",
+      "advanced_sso_configuration",
+      "group_and_policy_management",
+      "reporting_and_monitoring_okta",
+      "okta_workflows_basics",
+      "troubleshooting_okta"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "okta_platform_experience",
+        "iam_concepts",
+        "directory_services"
+      ],
+      "recommended_certs": [
+        "ocp"
+      ]
+    },
+    "summary": "Okta's administrator-level certification covering advanced administration, lifecycle management, advanced SSO, group policy, and basic Workflows. The most commonly required Okta cert in job postings for Okta administrators and IAM engineers. Not DoD 8140 approved. Tests Okta Identity Engine (OIE) exclusively. In organizations running Okta for workforce identity, OCA is the benchmark credential for the practitioners managing day-to-day identity operations. Employer recognition is strong wherever Okta is deployed.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "occ",
+    "acronym": "OCC",
+    "full_name": "Okta Certified Consultant",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso",
+      "access_management"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_implementation_design",
+      "customer_requirements_analysis",
+      "okta_architecture",
+      "migration_planning",
+      "advanced_integration_patterns",
+      "okta_consulting_methodology"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "okta_advanced",
+        "project_management_basics",
+        "enterprise_iam_design"
+      ],
+      "recommended_certs": [
+        "oca"
+      ]
+    },
+    "summary": "Okta's certification for implementation consultants covering Okta deployment design, customer requirements analysis, migration planning, and advanced integration patterns. Targeted at partners and professional services staff who implement Okta for enterprise customers. Not DoD 8140 approved. Less relevant for in-house IAM staff than OCA or OCTA, but valuable for consultants and system integrators building Okta implementations as a core business activity.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "ocd",
+    "acronym": "OCD",
+    "full_name": "Okta Certified Developer",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso",
+      "access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_api_development",
+      "oidc_oauth_implementation",
+      "sdk_usage_okta",
+      "custom_application_integration",
+      "sign_in_widget_customization",
+      "token_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "software_development_experience",
+        "api_concepts",
+        "oauth_oidc_basics",
+        "javascript_or_similar"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Okta's developer certification covering API integration, OIDC/OAuth2 implementation, SDK usage, and custom application integration with Okta. Targeted at developers building applications that use Okta for authentication and authorization rather than platform administrators. Not DoD 8140 approved. Valuable for developers building customer-facing or internal applications where Okta is the identity provider \u2014 tests practical implementation knowledge rather than platform administration.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "octa",
+    "acronym": "OCTA",
+    "full_name": "Okta Certified Technical Architect",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso",
+      "access_management",
+      "identity_governance"
+    ],
+    "level": "elite",
+    "practical_weight": 40,
+    "cost_usd": 5000,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_enterprise_architecture",
+      "complex_identity_design",
+      "multi_org_okta_design",
+      "identity_migration_strategy",
+      "okta_performance_at_scale",
+      "advanced_customization"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "okta_expert_level",
+        "enterprise_architecture",
+        "complex_iam_design"
+      ],
+      "recommended_certs": [
+        "oca",
+        "occ"
+      ]
+    },
+    "summary": "Okta's highest certification \u2014 a $5,000 board-defense style assessment where candidates present and defend a complex Okta architecture design before a panel of Okta technical experts. Unlike other Okta certs which are MCQ, OCTA involves a 40% practical component through the architecture defense. Not DoD 8140 approved. Held by very few practitioners globally \u2014 the cost and format make it inaccessible to most, but it carries genuine prestige in Okta partner ecosystems and for senior IAM architects. More common at large system integrators and Okta strategic partners than in-house enterprise teams.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 7,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "ocag",
+    "acronym": "OCAG",
+    "full_name": "Okta Certified Access Gateway Specialty",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "access_management",
+      "federation_sso"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta Access Gateway is deployed",
+    "skills": [
+      "okta_access_gateway_administration",
+      "on_prem_application_integration",
+      "header_based_authentication",
+      "legacy_app_modernization",
+      "okta_ag_deployment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "okta_platform_proficiency",
+        "linux_administration",
+        "web_application_concepts"
+      ],
+      "recommended_certs": [
+        "oca"
+      ]
+    },
+    "summary": "Okta's specialty certification for Access Gateway \u2014 the on-premises component that extends Okta SSO to legacy applications that can't natively support SAML or OIDC. Niche cert relevant specifically in hybrid environments where legacy applications need to be integrated into modern SSO infrastructure. Not DoD 8140 approved. Most organizations won't need this unless they have significant legacy application estates requiring header-based authentication bridging.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "ocw",
+    "acronym": "OCW",
+    "full_name": "Okta Certified Workflows Specialty",
+    "issuing_body": "Okta",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance",
+      "access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 150,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Okta is deployed",
+    "skills": [
+      "okta_workflows_development",
+      "no_code_automation",
+      "identity_process_automation",
+      "connector_usage_okta",
+      "flow_design",
+      "identity_lifecycle_automation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "okta_platform_proficiency",
+        "basic_logic_and_flow_concepts"
+      ],
+      "recommended_certs": [
+        "oca"
+      ]
+    },
+    "summary": "Okta's Workflows specialty certification covering no-code/low-code identity automation using the Okta Workflows platform. Covers flow design, connector usage, and automating identity lifecycle events. Not DoD 8140 approved. As organizations mature their identity programs beyond basic provisioning toward automated identity governance workflows, Okta Workflows skills are increasingly valuable. Most relevant for IAM engineers building automated provisioning, access reviews, and identity event responses.",
+    "flags": [],
+    "official_url": "https://www.okta.com/services/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "cyberark-trustee",
+    "acronym": "CCT",
+    "full_name": "CyberArk Certified Trustee",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk is deployed",
+    "skills": [
+      "cyberark_platform_awareness",
+      "pam_fundamentals",
+      "privileged_account_concepts",
+      "cyberark_vault_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_concepts",
+        "pam_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CyberArk's entry-level awareness certification covering fundamental PAM concepts and basic CyberArk platform awareness. Free. Not DoD 8140 approved. The starting point on the CyberArk certification path \u2014 primarily useful as an on-ramp before the Defender exams rather than a standalone career credential. Most practitioners move quickly from Trustee to Defender without spending much time at this level.",
+    "flags": [
+      "free",
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 1,
+      "practical_depth": 1,
+      "employer_recognition": 3,
+      "community_respect": 3,
+      "salary_impact": 2,
+      "time_to_prepare": 1,
+      "overall": 2.0
+    }
+  },
+  {
+    "id": "cyberark-defender-pam",
+    "acronym": "CCD-PAM",
+    "full_name": "CyberArk Certified Defender \u2013 PAM",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 300,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk PAM is deployed",
+    "skills": [
+      "cyberark_pam_administration",
+      "vault_administration",
+      "privileged_session_management",
+      "account_onboarding",
+      "safe_management",
+      "cyberark_psm",
+      "privileged_account_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "pam_fundamentals",
+        "windows_administration",
+        "basic_networking"
+      ],
+      "recommended_certs": [
+        "cyberark-trustee"
+      ]
+    },
+    "summary": "CyberArk's core PAM administration certification covering Vault administration, Privileged Session Manager, safe management, and account onboarding in the CyberArk Privileged Access Manager platform. Pearson VUE proctored, 90 minutes, MCQ. Not DoD 8140 approved. CyberArk dominates the PAM market \u2014 most large enterprises and government agencies that have deployed PAM are running CyberArk. This cert is widely recognized in job postings for PAM engineers and administrators. The most essential CyberArk cert for practitioners managing the platform day to day.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "cyberark-sentry-pam",
+    "acronym": "CCS-PAM",
+    "full_name": "CyberArk Certified Sentry \u2013 PAM",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 400,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk PAM is deployed",
+    "skills": [
+      "advanced_cyberark_pam",
+      "disaster_recovery_cyberark",
+      "high_availability_pam",
+      "advanced_psm_configuration",
+      "cyberark_apis",
+      "complex_onboarding_automation",
+      "cyberark_cpm"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cyberark_pam_proficiency",
+        "enterprise_architecture",
+        "scripting_basics"
+      ],
+      "recommended_certs": [
+        "cyberark-defender-pam"
+      ]
+    },
+    "summary": "CyberArk's advanced PAM certification covering high availability, disaster recovery, advanced PSM configuration, API integration, and complex automation. Pearson VUE proctored. Not DoD 8140 approved. The expert tier of the CyberArk PAM path \u2014 expected for senior PAM engineers designing and maintaining enterprise-scale CyberArk deployments. Requires solid platform experience that goes beyond daily administration into architecture and resilience design.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "cyberark-guardian",
+    "acronym": "CCG",
+    "full_name": "CyberArk Certified Guardian",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management"
+    ],
+    "level": "elite",
+    "practical_weight": 30,
+    "cost_usd": 600,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk is deployed",
+    "skills": [
+      "cyberark_full_platform_mastery",
+      "enterprise_pam_architecture",
+      "cyberark_program_design",
+      "advanced_troubleshooting_cyberark",
+      "multi_product_integration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cyberark_advanced_expertise",
+        "enterprise_security_architecture"
+      ],
+      "recommended_certs": [
+        "cyberark-sentry-pam"
+      ]
+    },
+    "summary": "CyberArk's highest practitioner certification covering mastery of the full CyberArk platform \u2014 multi-product integration, enterprise PAM program design, and advanced troubleshooting at the architectural level. Pearson VUE proctored. Not DoD 8140 approved. Held by a small number of senior CyberArk architects and consultants globally. Career-defining credential for those building PAM programs at enterprise scale. Requires deep cross-product CyberArk experience that cannot be acquired without years of hands-on deployment work.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 6,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 6.5
+    }
+  },
+  {
+    "id": "cyberark-defender-epm",
+    "acronym": "CCD-EPM",
+    "full_name": "CyberArk Certified Defender \u2013 Endpoint Privilege Manager",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 300,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk EPM is deployed",
+    "skills": [
+      "cyberark_epm_administration",
+      "endpoint_privilege_management",
+      "least_privilege_enforcement",
+      "application_control",
+      "epm_policy_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "endpoint_security_concepts",
+        "windows_administration",
+        "pam_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CyberArk's certification for the Endpoint Privilege Manager product \u2014 covering least privilege enforcement, application control, and EPM policy management on endpoints. Separate from the core PAM Defender cert and focused specifically on endpoint privilege rather than server/vault PAM. Not DoD 8140 approved. Relevant in organizations deploying CyberArk EPM alongside or independently of the core PAM platform. As least privilege on endpoints becomes standard practice, EPM skills are increasingly in demand.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "cyberark-defender-identity",
+    "acronym": "CCD-Identity",
+    "full_name": "CyberArk Certified Defender \u2013 Identity",
+    "issuing_body": "CyberArk",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "access_management",
+      "privileged_access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 300,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where CyberArk Identity is deployed",
+    "skills": [
+      "cyberark_identity_administration",
+      "mfa_cyberark",
+      "sso_cyberark_identity",
+      "adaptive_mfa",
+      "user_lifecycle_cyberark",
+      "cyberark_identity_flows"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iam_concepts",
+        "authentication_protocols",
+        "directory_services"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CyberArk's certification for their Identity platform \u2014 covering MFA, SSO, adaptive authentication, and user lifecycle management through the CyberArk Identity product (formerly Idaptive). Separate track from the core PAM certs, targeting workforce identity rather than privileged access. Not DoD 8140 approved. Relevant in organizations using CyberArk Identity as their primary workforce IAM platform alongside CyberArk PAM.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://www.cyberark.com/services-support/training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "sailpoint-iiq-associate",
+    "acronym": "SC-IIQ Associate",
+    "full_name": "SailPoint Certified IdentityIQ Associate",
+    "issuing_body": "SailPoint",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance"
+    ],
+    "level": "beginner",
+    "practical_weight": 15,
+    "cost_usd": 300,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Customer and partner access only",
+    "skills": [
+      "sailpoint_iiq_basics",
+      "identity_governance_fundamentals",
+      "provisioning_basics",
+      "access_request_basics",
+      "iiq_navigation",
+      "role_management_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iam_fundamentals",
+        "directory_services_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "SailPoint's entry-level IdentityIQ certification covering fundamentals of the on-premises IGA platform. Pearson VUE proctored (SailPoint uses Proctor360), DOMC format, 2-year validity. Customer and partner access only \u2014 not publicly available. $300, includes two exam attempts. Not DoD 8140 approved. IdentityIQ is the dominant on-premises IGA platform in large enterprise and government, making this the entry point for administrators and engineers learning the platform. Recertification status for this cert is still being clarified \u2014 currently may require retaking rather than the new credit-hour path.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "sailpoint-iiq-engineer",
+    "acronym": "SC-IIQ Engineer",
+    "full_name": "SailPoint Certified IdentityIQ Engineer",
+    "issuing_body": "SailPoint",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 400,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Customer and partner access only",
+    "skills": [
+      "sailpoint_iiq_engineering",
+      "connector_configuration",
+      "custom_rule_development",
+      "workflow_development_iiq",
+      "provisioning_policy_design",
+      "reporting_and_certification_iiq",
+      "beanshell_scripting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "sailpoint_iiq_experience",
+        "java_or_beanshell_basics",
+        "identity_governance_concepts"
+      ],
+      "recommended_certs": [
+        "sailpoint-iiq-associate"
+      ]
+    },
+    "summary": "SailPoint's advanced IdentityIQ engineering certification covering connector configuration, custom rule development, workflow design, and BeanShell scripting for platform customization. DOMC format, Proctor360 proctored, 2-year validity, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. The most recognized SailPoint technical certification in the market \u2014 expected for senior IdentityIQ engineers and implementation consultants. Requires real hands-on platform experience that cannot be studied without access to a running IIQ environment.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 5.7
+    }
+  },
+  {
+    "id": "sailpoint-ise",
+    "acronym": "SC-ISE",
+    "full_name": "SailPoint Certified Identity Security Engineer",
+    "issuing_body": "SailPoint",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 400,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Customer and partner access only",
+    "skills": [
+      "sailpoint_identity_security_cloud",
+      "cloud_iga_engineering",
+      "provisioning_design_cloud",
+      "access_certification_design",
+      "role_management_cloud",
+      "connector_development_cloud",
+      "api_integration_sailpoint"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "sailpoint_platform_experience",
+        "cloud_identity_concepts",
+        "api_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "SailPoint's cloud IGA engineering certification for the Identity Security Cloud platform (formerly IdentityNow). DOMC format, Proctor360 proctored, 2-year validity, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. As SailPoint's cloud platform becomes the primary deployment model replacing on-premises IdentityIQ, SC-ISE is increasingly the key certification for SailPoint engineers. The successor to the retired SC-IDN Engineer cert with expanded cloud-native coverage.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 5.7
+    }
+  },
+  {
+    "id": "sailpoint-isa",
+    "acronym": "SC-ISA",
+    "full_name": "SailPoint Certified Identity Security Administrator",
+    "issuing_body": "SailPoint",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 400,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Customer and partner access only",
+    "skills": [
+      "sailpoint_isc_administration",
+      "platform_configuration",
+      "virtual_appliance_management",
+      "identity_lifecycle_administration",
+      "provisioning_administration",
+      "access_management_administration",
+      "governance_administration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "sailpoint_platform_basics",
+        "iam_concepts",
+        "linux_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "SailPoint's newest certification \u2014 launched February 17, 2026 \u2014 targeting administrators of the Identity Security Cloud platform. Covers platform configuration, virtual appliance management, identity lifecycle administration, and governance administration. SailPoint recommends six months of hands-on experience. DOMC format, Proctor360 proctored, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. Fills the gap between the foundational Knowledge Credentials and the technical SC-ISE \u2014 designed for administrators who configure and maintain the platform rather than build custom integrations.",
+    "flags": [
+      "new",
+      "tool_vendor"
+    ],
+    "official_url": "https://university.sailpoint.com/sailpoint-certified-identity-security-administrator",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "hashicorp-vault-associate",
+    "acronym": "HCV-A",
+    "full_name": "HashiCorp Certified: Vault Associate",
+    "issuing_body": "HashiCorp (IBM)",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management",
+      "secrets_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 70,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "vault_fundamentals",
+      "secrets_management",
+      "dynamic_secrets",
+      "vault_authentication_methods",
+      "vault_policies",
+      "encryption_as_a_service",
+      "vault_deployment_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_concepts",
+        "basic_security_concepts",
+        "linux_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "HashiCorp's foundational Vault certification covering secrets management, dynamic secrets, authentication methods, and encryption as a service. Pearson VUE proctored. Not DoD 8140 approved. HashiCorp Vault is the dominant secrets management platform in cloud-native and DevOps environments, making Vault skills broadly applicable. At $70 it's excellent value. The secrets management use case overlaps with PAM \u2014 Vault handles machine and application credentials while traditional PAM focuses on human privileged access. Essential knowledge for cloud and DevSecOps practitioners.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.hashicorp.com/certification/vault-associate",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 3,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "hashicorp-vault-professional",
+    "acronym": "HCV-Pro",
+    "full_name": "HashiCorp Certified: Vault Operations Professional",
+    "issuing_body": "HashiCorp (IBM)",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "privileged_access_management",
+      "secrets_management"
+    ],
+    "level": "expert",
+    "practical_weight": 50,
+    "cost_usd": 295,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "vault_operations_advanced",
+      "vault_clustering",
+      "vault_agent",
+      "secrets_engine_advanced",
+      "vault_performance_replication",
+      "disaster_recovery_vault",
+      "audit_and_monitoring_vault"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "vault_proficiency",
+        "enterprise_infrastructure",
+        "linux_administration"
+      ],
+      "recommended_certs": [
+        "hashicorp-vault-associate"
+      ]
+    },
+    "summary": "HashiCorp's professional Vault certification covering advanced operations including clustering, replication, Vault Agent, performance tuning, and disaster recovery. Contains a practical lab component alongside the written exam. Not DoD 8140 approved. Requires HCV-A as prerequisite. For senior platform engineers operating Vault at enterprise scale in cloud-native environments, this is the benchmark advanced credential. The practical component meaningfully differentiates it from the associate tier.",
+    "flags": [],
+    "official_url": "https://www.hashicorp.com/certification/vault-operations-professional",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 6,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 6.3
+    }
+  },
+  {
+    "id": "ping-pf-professional",
+    "acronym": "CP-PF",
+    "full_name": "Certified Professional \u2013 PingFederate",
+    "issuing_body": "Ping Identity",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "federation_sso"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Ping Identity is deployed",
+    "skills": [
+      "pingfederate_administration",
+      "saml_federation",
+      "oauth_oidc_pingfederate",
+      "adapter_configuration",
+      "token_translation",
+      "sp_and_idp_configuration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "federation_protocols",
+        "iam_concepts",
+        "web_technologies"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Ping Identity's professional-level PingFederate certification covering SAML federation, OAuth/OIDC implementation, adapter configuration, and token translation. Currently suspended \u2014 Pearson VUE ceased delivering all Ping Identity exams on May 14, 2025 and no replacement platform has been announced. Existing Credly badges remain valid and recognized but new certifications cannot be obtained through any confirmed channel. Include with paused flag. If Ping restores exam delivery this becomes immediately relevant given PingFederate's significant enterprise and government market presence.",
+    "flags": [
+      "paused",
+      "tool_vendor"
+    ],
+    "official_url": "https://training.pingidentity.com/",
+    "active": false,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "ping-am-professional",
+    "acronym": "CP-PAM",
+    "full_name": "Certified Professional \u2013 PingAM",
+    "issuing_body": "Ping Identity",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "access_management",
+      "federation_sso"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Ping Identity / ForgeRock AM is deployed",
+    "skills": [
+      "pingam_administration",
+      "authentication_trees",
+      "oauth_oidc_am",
+      "saml_configuration_am",
+      "policy_management_am",
+      "journeys_configuration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iam_concepts",
+        "authentication_protocols",
+        "federation_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Ping Identity's professional-level PingAM certification (formerly ForgeRock Access Management) covering authentication trees, journeys, OAuth/OIDC, SAML, and policy management. Currently suspended \u2014 same Pearson VUE departure as all other Ping certs in May 2025. ForgeRock/PingAM has significant government and financial services deployment including UK government digital identity programs. No replacement platform announced. Include as paused \u2014 highly relevant if exam delivery is restored.",
+    "flags": [
+      "paused",
+      "tool_vendor"
+    ],
+    "official_url": "https://training.pingidentity.com/",
+    "active": false,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "ping-idm-professional",
+    "acronym": "CP-IDM",
+    "full_name": "Certified Professional \u2013 PingIDM",
+    "issuing_body": "Ping Identity",
+    "domain": [
+      "iam"
+    ],
+    "subdomain": [
+      "identity_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Ping Identity / ForgeRock IDM is deployed",
+    "skills": [
+      "pingidm_administration",
+      "identity_synchronization",
+      "provisioning_pingidm",
+      "workflow_configuration_idm",
+      "connector_configuration_idm",
+      "reconciliation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iam_concepts",
+        "provisioning_concepts",
+        "scripting_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Ping Identity's professional-level PingIDM certification (formerly ForgeRock Identity Management) covering identity synchronization, provisioning, connector configuration, and workflow design. Currently suspended since May 2025 \u2014 Pearson VUE no longer delivers Ping exams and no replacement platform is confirmed. Existing holders' badges remain valid. ForgeRock IDM has significant deployment in UK government and European organizations. Include as paused.",
+    "flags": [
+      "paused",
+      "tool_vendor"
+    ],
+    "official_url": "https://training.pingidentity.com/",
+    "active": false,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "az-500",
+    "acronym": "AZ-500",
+    "full_name": "Microsoft Certified: Azure Security Engineer Associate",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "iam",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "access_management",
+      "privileged_access_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "azure_iam",
+      "azure_pim",
+      "conditional_access",
+      "managed_identities",
+      "azure_ad_b2c",
+      "azure_key_vault",
+      "azure_rbac"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "azure_fundamentals",
+        "security_concepts",
+        "identity_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's Azure security engineering certification with approximately 25-30% IAM content \u2014 covering Azure RBAC, PIM, conditional access, managed identities, and B2C. Listed here as a cross-domain entry since IAM is a core exam domain alongside network security and data protection. Not DoD 8140 approved. For Azure-deployed environments SC-300 and AZ-500 together provide comprehensive Microsoft IAM coverage from both the identity administrator and security engineer perspectives.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 8,
+      "time_to_prepare": 5,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "cissp-iam",
+    "acronym": "CISSP",
+    "full_name": "Certified Information Systems Security Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "iam",
+      "security_architecture",
+      "grc"
+    ],
+    "subdomain": [
+      "identity_governance",
+      "access_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 749,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "identity_and_access_management",
+      "access_control_models",
+      "authentication_mechanisms",
+      "identity_provisioning",
+      "federated_identity",
+      "authorization_frameworks"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "networking",
+        "risk_management",
+        "cryptography_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CISSP Domain 5 is entirely dedicated to Identity and Access Management \u2014 covering access control models, authentication mechanisms, identity federation, and authorization frameworks. Listed here as a cross-domain entry given that IAM is one of the eight CISSP domains. DoD 8140 approved. For practitioners whose primary focus is IAM, CISSP validates the broader security context within which identity programs operate. See security_architecture.json for the full CISSP profile.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/cissp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 2,
+      "employer_recognition": 10,
+      "community_respect": 8,
+      "salary_impact": 10,
+      "time_to_prepare": 8,
+      "overall": 6.8
+    }
+  }
+]

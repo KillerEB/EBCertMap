@@ -1,0 +1,106 @@
+{
+  "role_id": "bcdr_manager",
+  "label": "Business Continuity / DR Manager",
+  "description": "Develops and manages business continuity, disaster recovery, and organizational resilience programs \u2014 BIA, recovery strategy design, plan development, testing, and maintenance.",
+  "job_titles": [
+    "Business Continuity Manager",
+    "DR Manager",
+    "Resilience Manager",
+    "BCM Program Manager",
+    "Cyber Resilience Manager",
+    "BCDR Specialist"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "bcdr_dri",
+      "name": "DRI International Track",
+      "rationale": "DRI International CBCP is the most recognized BC certification in North America. CBCP to MBCP validates increasing competency in business continuity program management.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1595,
+      "pros": [
+        "CBCP is the most recognized BC credential in North America",
+        "MBCP validates advanced competency in complex BC programs",
+        "Strong demand in financial services, healthcare, and government"
+      ],
+      "cons": [
+        "Require professional experience and peer review",
+        "DRI primarily North America-recognized \u2014 BCI is stronger in Europe"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Business continuity planning concepts",
+          "Business impact analysis methodology",
+          "Recovery strategies and RTO/RPO concepts",
+          "Risk assessment basics"
+        ],
+        "recommended_certs": [],
+        "experience": "2 years BC/DR experience required for CBCP."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "abcp",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "DRI Associate Business Continuity Professional \u2014 entry-level DRI credential with no experience requirement. Good starting credential while accumulating experience toward CBCP. Study with DRI Professional Practices for Business Continuity Management."
+        },
+        {
+          "cert_id": "cbcp",
+          "order": 2,
+          "estimated_time": "3-6 months",
+          "notes": "DRI Certified Business Continuity Professional \u2014 requires 2 years experience and qualifying exam. Most recognized BC certification in North America. Study with DRI Professional Practices and BCI Good Practice Guidelines."
+        },
+        {
+          "cert_id": "mbcp",
+          "order": 3,
+          "estimated_time": "4-8 months",
+          "notes": "DRI Master Business Continuity Professional \u2014 requires 5 years experience, written examination, and submission of a professional paper demonstrating BC program leadership. The MBCP distinguishes senior BC professionals who have led programs from those who participated in them."
+        }
+      ]
+    },
+    {
+      "id": "bcdr_iso",
+      "name": "ISO 22301 Track",
+      "rationale": "For BC/DR managers in organizations pursuing formal ISO 22301 BCMS certification \u2014 or those working with European and Asia-Pacific clients where ISO standards are preferred.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1595,
+      "pros": [
+        "ISO 22301 LI and LA widely recognized for BCMS implementation and audit work",
+        "Strong European and Asia-Pacific recognition",
+        "BCI credentials add professional body recognition"
+      ],
+      "cons": [
+        "Less recognized than DRI credentials in North American market"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Business continuity management concepts",
+          "ISO management system structure",
+          "Audit methodology basics"
+        ],
+        "recommended_certs": [],
+        "experience": "BC or risk management experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cbci",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "BCI Certificate \u2014 BCI foundational credential covering Good Practice Guidelines. Strong European recognition with lower experience requirements than DRI CBCP."
+        },
+        {
+          "cert_id": "pecb-iso22301-li",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "ISO 22301 Lead Implementer \u2014 BCMS design, implementation, and management per ISO 22301. Requires 5-day accredited training course. Primary credential for leading ISO 22301 implementation projects."
+        },
+        {
+          "cert_id": "mbci",
+          "order": 3,
+          "estimated_time": "3-6 months",
+          "notes": "BCI Member \u2014 advanced BCI credential requiring 5 years demonstrated BC experience and professional assessment. Senior BCI credential recognized in European and global BC programs."
+        }
+      ]
+    }
+  ]
+}

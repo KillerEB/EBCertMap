@@ -1,0 +1,988 @@
+[
+  {
+    "id": "cissp",
+    "acronym": "CISSP",
+    "full_name": "Certified Information Systems Security Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "security_architecture",
+      "grc",
+      "iam"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "security_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 749,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_architecture_design",
+      "asset_security",
+      "security_engineering",
+      "network_security_architecture",
+      "identity_and_access_management",
+      "security_assessment",
+      "security_operations",
+      "software_development_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "networking",
+        "risk_management",
+        "cryptography_basics",
+        "access_control_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The gold standard senior security certification globally and the most recognized credential for security management and architecture roles. Covers all eight CISSP domains across the breadth of information security \u2014 architecture, engineering, network security, IAM, asset security, assessment, operations, and software security. Requires five years of paid work experience in two or more domains. DoD 8140 approved and expected for CISO, security architect, and senior security manager roles in enterprise and government. The main criticism is that it's broad rather than deep \u2014 it validates strategic and managerial security knowledge rather than hands-on technical skill. Despite this, CISSP remains the single most career-impactful security certification available.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/cissp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 2,
+      "employer_recognition": 10,
+      "community_respect": 8,
+      "salary_impact": 10,
+      "time_to_prepare": 8,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "issap",
+    "acronym": "ISSAP",
+    "full_name": "Information Systems Security Architecture Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "cryptography_pki"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_architecture_frameworks",
+      "iam_architecture",
+      "cryptography_and_pki_design",
+      "requirements_analysis",
+      "technology_related_business_continuity",
+      "network_and_infrastructure_security_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_architecture_advanced",
+        "cryptography",
+        "enterprise_security_design"
+      ],
+      "recommended_certs": [
+        "cissp"
+      ]
+    },
+    "summary": "ISC2's CISSP concentration for security architects \u2014 requires active CISSP certification as a prerequisite. Covers security architecture frameworks, IAM architecture design, cryptography and PKI architecture, requirements analysis, and network infrastructure architecture. DoD 8140 approved. The ISSAP concentration validates deep architectural expertise beyond the breadth of CISSP itself. Most valuable for security architects in large enterprise or government environments who design complex security systems rather than operate them. Requires CISSP first, making the overall investment significant but well-recognized in senior architecture roles.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/issap",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "issep",
+    "acronym": "ISSEP",
+    "full_name": "Information Systems Security Engineering Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "security_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in US government and defense sectors",
+    "skills": [
+      "systems_security_engineering",
+      "certification_and_accreditation",
+      "technical_management",
+      "us_government_ia_policies",
+      "security_engineering_principles"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_engineering",
+        "systems_engineering_concepts",
+        "us_government_security_frameworks"
+      ],
+      "recommended_certs": [
+        "cissp"
+      ]
+    },
+    "summary": "ISC2's CISSP concentration for security engineers \u2014 requires active CISSP. Covers systems security engineering, certification and accreditation processes, technical management, and US government information assurance policies. DoD 8140 approved and particularly valued in US government, defense contractor, and intelligence community roles where formal system accreditation and C&A processes are mandatory. Less relevant in commercial environments but carries significant weight in government security engineering positions. Developed in partnership with the NSA.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/issep",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "issmp",
+    "acronym": "ISSMP",
+    "full_name": "Information Systems Security Management Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "security_architecture",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "security_program_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_leadership",
+      "security_program_management",
+      "security_compliance_management",
+      "business_continuity_planning",
+      "law_and_ethics_management",
+      "personnel_security_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_program_management",
+        "leadership_experience",
+        "compliance_frameworks"
+      ],
+      "recommended_certs": [
+        "cissp"
+      ]
+    },
+    "summary": "ISC2's CISSP concentration for security managers and program leads \u2014 requires active CISSP. As of October 2023, ISSMP no longer requires CISSP as a prerequisite for the exam itself, but CISSP is still needed for the full concentration designation. Covers security leadership, program management, compliance management, BCP, and personnel security management. DoD 8140 approved. Most relevant for security managers and CISOs who want to validate their management and program oversight skills at a level above the base CISSP. Sits at the intersection of technical security knowledge and management competency.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/issmp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.0
+    }
+  },
+  {
+    "id": "scf",
+    "acronym": "SCF",
+    "full_name": "SABSA Chartered Foundation",
+    "issuing_body": "The SABSA Institute",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 1500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly strong in UK, Europe, Australia",
+    "skills": [
+      "sabsa_framework",
+      "security_architecture_methodology",
+      "risk_driven_architecture",
+      "business_attribute_profiling",
+      "contextual_architecture",
+      "conceptual_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "enterprise_architecture_concepts",
+        "risk_management_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The foundation level of the SABSA (Sherwood Applied Business Security Architecture) certification \u2014 one of the most rigorous and respected security architecture frameworks globally. SABSA provides a comprehensive business-driven security architecture methodology used by major financial institutions, telcos, and government agencies. The exam tests both the framework methodology and practical application through essay questions. Not DoD 8140 approved but highly respected in architecture consulting and enterprise environments, particularly in UK, Europe, and Australia. More demanding than most vendor-neutral certs because SABSA requires genuine architectural thinking rather than memorization.",
+    "flags": [],
+    "official_url": "https://sabsa.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "scp",
+    "acronym": "SCP",
+    "full_name": "SABSA Chartered Practitioner",
+    "issuing_body": "The SABSA Institute",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 50,
+    "cost_usd": 2500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly strong in UK, Europe, Australia",
+    "skills": [
+      "sabsa_applied_methodology",
+      "logical_and_physical_architecture",
+      "component_architecture",
+      "security_service_management",
+      "operational_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "sabsa_framework_proficiency",
+        "security_architecture_experience",
+        "practical_architecture_work"
+      ],
+      "recommended_certs": [
+        "scf"
+      ]
+    },
+    "summary": "The practitioner tier of SABSA certification covering the logical, physical, component, and operational architecture layers \u2014 moving from framework knowledge into applied methodology. Significant practical component including architecture assignment reviews. Not DoD 8140 approved. Requires SCF plus documented practical architecture experience. Held by experienced security architects who have applied SABSA in real engagements. More commonly seen on CVs of senior consultants in UK, European, and Australian markets than in US commercial environments.",
+    "flags": [],
+    "official_url": "https://sabsa.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 5,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "scm",
+    "acronym": "SCM",
+    "full_name": "SABSA Chartered Master",
+    "issuing_body": "The SABSA Institute",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture"
+    ],
+    "level": "elite",
+    "practical_weight": 70,
+    "cost_usd": 4000,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly strong in UK, Europe, Australia",
+    "skills": [
+      "sabsa_mastery",
+      "enterprise_security_architecture_leadership",
+      "security_architecture_governance",
+      "architecture_methodology_customization"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "sabsa_advanced",
+        "extensive_architecture_experience"
+      ],
+      "recommended_certs": [
+        "scp"
+      ]
+    },
+    "summary": "The highest SABSA certification \u2014 held by a very small number of senior security architects globally. Requires SCF and SCP plus extensive documented architecture experience and a comprehensive master's-level assignment. Not DoD 8140 approved. The SCM designation represents genuine mastery of enterprise security architecture methodology and is the most advanced vendor-neutral architecture credential available anywhere. Extremely time and cost intensive \u2014 most senior architects peak at SCF or SCP in practice.",
+    "flags": [],
+    "official_url": "https://sabsa.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 6,
+      "employer_recognition": 6,
+      "community_respect": 8,
+      "salary_impact": 7,
+      "time_to_prepare": 8,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "securityx",
+    "acronym": "SecurityX",
+    "full_name": "CompTIA SecurityX",
+    "issuing_body": "CompTIA",
+    "domain": [
+      "security_architecture",
+      "vulnerability_management",
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "security_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 509,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_architecture_design",
+      "advanced_threat_management",
+      "enterprise_security_operations",
+      "iam_architecture",
+      "advanced_cryptography",
+      "governance_and_risk",
+      "cloud_security_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_operations_experience",
+        "advanced_security_concepts",
+        "networking_and_infrastructure"
+      ],
+      "recommended_certs": [
+        "security-plus",
+        "cysa-plus"
+      ]
+    },
+    "summary": "CompTIA's advanced security practitioner certification \u2014 rebranded from CASP+ to SecurityX in 2024. Covers enterprise security architecture, advanced threat management, IAM architecture, cryptography, governance, and cloud security at an expert level without requiring management experience. DoD 8140 approved and positioned as the technical expert credential for practitioners who want depth without the management focus of CISSP. Performance-based questions add meaningful practical elements. A strong credential for technical security architects and senior practitioners in government and contractor roles where CompTIA certs are recognized and CISSP management requirements aren't met.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.comptia.org/certifications/securityx",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "cism",
+    "acronym": "CISM",
+    "full_name": "Certified Information Security Manager",
+    "issuing_body": "ISACA",
+    "domain": [
+      "security_architecture",
+      "grc",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "security_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "information_security_governance",
+      "information_risk_management",
+      "security_program_development",
+      "incident_management_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_management",
+        "risk_management",
+        "governance_frameworks"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's information security management certification and one of the most recognized credentials for security managers and CISOs globally. Covers security governance, risk management, security program development, and incident management from a management perspective. Requires five years of IS management experience. DoD 8140 approved. Often positioned alongside or compared to CISSP \u2014 CISM is more management and governance-focused while CISSP covers broader technical domains. Highly valued in financial services, audit-heavy industries, and any organization where the CISO role is primarily a governance and risk management function.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cism",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 9,
+      "community_respect": 7,
+      "salary_impact": 9,
+      "time_to_prepare": 7,
+      "overall": 6.1
+    }
+  },
+  {
+    "id": "cgeit",
+    "acronym": "CGEIT",
+    "full_name": "Certified in the Governance of Enterprise IT",
+    "issuing_body": "ISACA",
+    "domain": [
+      "security_architecture",
+      "grc"
+    ],
+    "subdomain": [
+      "security_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "it_governance_frameworks",
+      "strategic_alignment",
+      "value_delivery",
+      "risk_optimization",
+      "resource_optimization",
+      "performance_measurement"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "it_governance",
+        "enterprise_architecture_concepts",
+        "business_strategy_alignment"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's IT governance certification covering the strategic alignment of IT with business objectives, value delivery, risk optimization, and resource management. Not DoD 8140 approved. CGEIT sits above CISM in terms of seniority \u2014 it's targeted at CIOs, IT directors, and senior executives responsible for IT governance rather than security practitioners. For security architects who also own the enterprise IT governance function or work closely with the board on IT strategy, CGEIT complements CISM or CISSP well. Less common on security CVs than CISM but carries weight in governance-heavy organizations.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cgeit",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 8,
+      "time_to_prepare": 7,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "cciso",
+    "acronym": "CCISO",
+    "full_name": "Certified Chief Information Security Officer",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "security_architecture",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "security_program_management"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 999,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_governance",
+      "security_program_management",
+      "strategic_planning",
+      "financial_management_security",
+      "security_core_competencies",
+      "audit_management",
+      "project_management_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "senior_security_management_experience",
+        "governance_and_risk",
+        "security_program_oversight"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's executive-level security leadership certification targeting current and aspiring CISOs. Covers security governance, program management, strategic planning, financial management, and audit management. DoD 8140 approved. Requires significant security leadership experience \u2014 the exam is supplemented by experience verification. EC-Council's reputation is mixed in the practitioner community, but CCISO has genuine value for practitioners targeting CISO roles who want a dedicated certification and the DoD approval it provides. Often pursued alongside CISSP or CISM rather than as a replacement for either.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 5,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "sc-100",
+    "acronym": "SC-100",
+    "full_name": "Microsoft Certified: Cybersecurity Architect Expert",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "security_architecture",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "zero_trust_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "zero_trust_architecture_microsoft",
+      "security_architecture_design_microsoft",
+      "compliance_architecture",
+      "identity_architecture_microsoft",
+      "hybrid_security_architecture",
+      "cloud_security_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "microsoft_security_ecosystem_advanced",
+        "security_architecture",
+        "cloud_security"
+      ],
+      "recommended_certs": [
+        "az-500",
+        "sc-200"
+      ]
+    },
+    "summary": "Microsoft's expert-level cybersecurity architect certification covering Zero Trust design, security operations strategies, and security architecture across the Microsoft cloud and hybrid ecosystem. Requires a prerequisite associate-level Microsoft security cert. One-year renewal cycle keeps it current with Azure's rapid evolution. Not DoD 8140 approved. Valuable for security architects in organizations with significant Microsoft investment who need to validate design and architecture skills beyond the engineering-level AZ-500. The expert-level requirement for a prerequisite cert means this is genuinely targeted at senior practitioners.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.5
+    }
+  },
+  {
+    "id": "gdsa",
+    "acronym": "GDSA",
+    "full_name": "GIAC Defensible Security Architecture",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "security_architecture",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture",
+      "zero_trust_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "defensible_architecture_design",
+      "zero_trust_implementation",
+      "network_security_architecture",
+      "detection_architecture",
+      "threat_informed_defense",
+      "segmentation_design",
+      "cloud_security_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "network_security_advanced",
+        "cloud_architecture",
+        "security_operations",
+        "threat_modeling"
+      ],
+      "recommended_certs": [
+        "gcih",
+        "gcfa"
+      ]
+    },
+    "summary": "GIAC's certification for designing defensible security architectures covering Zero Trust implementation, network segmentation, detection architecture, and threat-informed defensive design. DoD 8140 approved. Bridges the gap between technical security operations and architectural design \u2014 particularly valuable for senior practitioners transitioning from operations into architecture roles. Less platform-specific than cloud vendor certs but more architecturally rigorous. Pairs well with GCAD for a comprehensive GIAC architecture credential stack for practitioners operating in hybrid and cloud environments.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/defensible-security-architecture-gdsa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "gcad",
+    "acronym": "GCAD",
+    "full_name": "GIAC Cloud Security Architecture and Design",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "security_architecture",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_architecture",
+      "cloud_network_design",
+      "identity_architecture_cloud",
+      "data_protection_architecture",
+      "cloud_threat_modeling",
+      "multi_cloud_security_design",
+      "zero_trust_cloud_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_platforms_multi",
+        "security_architecture_principles",
+        "networking_advanced"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "GIAC's cloud security architecture certification covering the design and architectural aspects of securing cloud environments \u2014 threat modeling, network architecture, identity design, and data protection at a strategic level. DoD 8140 approved. Addresses the architectural gap that AWS/Azure specialty certs leave unfilled \u2014 those certs test platform operations while GCAD tests how to design secure cloud architectures independent of specific platform implementation details. Most valuable for senior cloud security architects designing multi-cloud or hybrid environments. Paired with GDSA, forms a comprehensive GIAC architecture credential stack.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "gslc",
+    "acronym": "GSLC",
+    "full_name": "GIAC Security Leadership Certification",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "security_architecture",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "security_program_management",
+      "security_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_program_management",
+      "risk_management_governance",
+      "security_policy_development",
+      "project_management_security",
+      "security_team_leadership",
+      "compliance_management",
+      "vendor_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_management_experience",
+        "risk_management",
+        "compliance_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's security leadership and management certification covering security program management, risk governance, policy development, compliance management, and security team leadership. DoD 8140 approved. Positioned for security managers, program managers, and practitioners moving into leadership roles who want a GIAC-branded management credential. Less technically focused than other GIAC certs \u2014 it validates management and governance competency rather than technical security skill. Complements GCIH or GCFA for practitioners who have the technical credentials and need to document their management development.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/security-leadership-gslc/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.6
+    }
+  },
+  {
+    "id": "gstrt",
+    "acronym": "GSTRT",
+    "full_name": "GIAC Strategic Planning, Policy, and Leadership",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "security_architecture",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "security_governance",
+      "security_program_management"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_strategy_development",
+      "security_policy_leadership",
+      "board_level_communication",
+      "security_investment_justification",
+      "organizational_security_change",
+      "metrics_and_measurement"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "senior_security_experience",
+        "organizational_leadership",
+        "strategic_planning_concepts"
+      ],
+      "recommended_certs": [
+        "gslc"
+      ]
+    },
+    "summary": "GIAC's strategic security leadership certification covering security strategy development, board-level communication, security investment justification, and metrics-driven governance. DoD 8140 approved. Sits above GSLC in seniority \u2014 where GSLC covers security program management, GSTRT covers the strategic and executive communication layer. Most relevant for senior CISOs, deputy CISOs, and security directors who need to bridge technical security with business strategy. Relatively newer GIAC cert that reflects the growing demand for CISOs who can communicate risk in business terms.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.0
+    }
+  },
+  {
+    "id": "open-fair",
+    "acronym": "Open FAIR",
+    "full_name": "Open FAIR 2 Certification",
+    "issuing_body": "The Open Group",
+    "domain": [
+      "security_architecture",
+      "grc"
+    ],
+    "subdomain": [
+      "security_governance",
+      "enterprise_security_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 320,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "fair_risk_model",
+      "quantitative_risk_analysis",
+      "loss_event_frequency_estimation",
+      "vulnerability_analysis_fair",
+      "threat_estimation",
+      "risk_communication_quantitative"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_fundamentals",
+        "statistical_concepts_basics",
+        "security_governance"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The Open Group's FAIR (Factor Analysis of Information Risk) certification covering quantitative cyber risk analysis \u2014 the methodology for expressing cybersecurity risk in financial terms that business leaders understand. Based on the Open FAIR 2 standard (superseding the original Open FAIR). Not DoD 8140 approved but growing in recognition as organizations shift from qualitative to quantitative risk management. Particularly valued in financial services, insurance, and any environment where security risk must be expressed in dollar terms for business decision-making. Pairs naturally with CRISC for a comprehensive risk quantification credential stack.",
+    "flags": [],
+    "official_url": "https://www.opengroup.org/certifications/openfair",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "cczt",
+    "acronym": "CCZT",
+    "full_name": "Certificate of Competence in Zero Trust",
+    "issuing_body": "Cloud Security Alliance (CSA)",
+    "domain": [
+      "security_architecture",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "zero_trust_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "zero_trust_principles",
+      "zero_trust_architecture_design",
+      "identity_centric_security",
+      "microsegmentation",
+      "zero_trust_implementation_planning",
+      "zero_trust_maturity_assessment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_security_basics",
+        "networking_fundamentals",
+        "identity_management_concepts"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "The only vendor-neutral certification dedicated specifically to Zero Trust architecture and implementation. Based on the CSA's Zero Trust Advancement Center framework. Not DoD 8140 approved but increasingly relevant as Zero Trust becomes a regulatory and compliance requirement across government and enterprise. Best suited for architects and security engineers implementing Zero Trust frameworks rather than operations staff. Has growing recognition as organizations respond to executive orders and regulatory guidance mandating Zero Trust adoption. First standalone Zero Trust cert with meaningful community recognition.",
+    "flags": [],
+    "official_url": "https://cloudsecurityalliance.org/education/cczt",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "togaf-irs",
+    "acronym": "TOGAF IRS",
+    "full_name": "TOGAF Integrating Risk and Security Credential",
+    "issuing_body": "The Open Group",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "enterprise_security_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 495,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "togaf_risk_integration",
+      "security_architecture_in_enterprise_architecture",
+      "risk_management_in_adm",
+      "security_patterns",
+      "security_architecture_deliverables"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "enterprise_architecture_concepts",
+        "risk_management_basics",
+        "security_governance"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The Open Group's credential for integrating security and risk into TOGAF-based enterprise architecture work. Covers how to embed security requirements, risk management, and security architecture into the TOGAF Architecture Development Method (ADM). Not DoD 8140 approved. Most relevant for enterprise architects working in organizations using TOGAF as their EA framework who need to incorporate security systematically. Niche but fills a genuine gap \u2014 most EA certifications treat security as an afterthought while this credential makes it central to the architecture process.",
+    "flags": [],
+    "official_url": "https://www.opengroup.org/certifications/togaf-irs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 3.4
+    }
+  }
+]

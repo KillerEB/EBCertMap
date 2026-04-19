@@ -1,0 +1,102 @@
+{
+  "role_id": "siem_engineer",
+  "label": "SIEM / Security Platform Engineer",
+  "description": "Builds, operates, and scales SIEM and security data platform infrastructure \u2014 ingestion pipelines, log parsing, data modeling, and platform architecture rather than detection content development.",
+  "job_titles": [
+    "SIEM Engineer",
+    "Security Platform Engineer",
+    "Splunk Engineer",
+    "Sentinel Engineer",
+    "Security Data Engineer",
+    "Log Management Engineer"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "siem_splunk",
+      "name": "Splunk Platform Track",
+      "rationale": "Splunk is the most deployed enterprise SIEM. The certification progression from Power User through Admin to Architect maps directly to platform engineering career levels.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1495,
+      "pros": [
+        "Splunk Admin and Architect certs required by name at most Splunk engineering roles",
+        "Clear platform-aligned progression",
+        "Strong employer recognition where Splunk is deployed",
+        "SIEM engineering commands premium compensation"
+      ],
+      "cons": [
+        "Platform-specific \u2014 Splunk skills don't fully transfer to Elastic or Sentinel",
+        "Splunk licensing costs make personal lab environments expensive"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Linux administration",
+          "Networking fundamentals",
+          "SPL basics",
+          "Data pipeline concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "Linux system administration experience strongly recommended. SIEM engineering is fundamentally infrastructure engineering with security data."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "splk-1002",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Splunk Core Certified Power User \u2014 SPL query proficiency foundation. Required before Admin cert. Splunk offers a free developer license for lab practice."
+        },
+        {
+          "cert_id": "splk-3001",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "Splunk Enterprise Certified Admin \u2014 deployment architecture, forwarder management, indexes, data inputs, user management. Core platform engineering credential."
+        },
+        {
+          "cert_id": "splk-5002",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Splunk Certified Consultant \u2014 advanced deployment patterns, distributed search, data fabric, and enterprise-scale architecture. Senior platform engineering credential."
+        }
+      ]
+    },
+    {
+      "id": "siem_microsoft",
+      "name": "Microsoft Sentinel Track",
+      "rationale": "For SIEM engineers whose primary platform is Microsoft Sentinel \u2014 the fastest-growing cloud-native SIEM.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 893,
+      "pros": [
+        "SC-200 widely required at Microsoft-focused organizations",
+        "Low cost relative to Splunk certification path",
+        "Growing deployment base as organizations migrate to cloud SIEM"
+      ],
+      "cons": [
+        "Annual renewal cycles",
+        "Platform-specific to Microsoft environments"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Azure fundamentals",
+          "KQL basics",
+          "Security monitoring concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "Azure or Microsoft 365 administration experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "sc-200",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Microsoft Security Operations Analyst \u2014 Sentinel operations, ingestion configuration, analytics rule management, and investigation workflows. Foundation for Sentinel engineering."
+        },
+        {
+          "cert_id": "sc-100",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Microsoft Cybersecurity Architect \u2014 adds the architectural layer covering Sentinel workspace design and integration patterns. Opens senior Sentinel engineering and architecture roles."
+        }
+      ]
+    }
+  ]
+}

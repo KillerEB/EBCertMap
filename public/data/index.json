@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "domains": [
+    {
+      "id": "offensive",
+      "file": "certs/offensive.json",
+      "cert_count": 67
+    },
+    {
+      "id": "dfir",
+      "file": "certs/dfir.json",
+      "cert_count": 45
+    },
+    {
+      "id": "defensive_soc",
+      "file": "certs/defensive_soc.json",
+      "cert_count": 29
+    },
+    {
+      "id": "cloud_security",
+      "file": "certs/cloud_security.json",
+      "cert_count": 18
+    },
+    {
+      "id": "appsec",
+      "file": "certs/appsec.json",
+      "cert_count": 22
+    },
+    {
+      "id": "threat_intelligence",
+      "file": "certs/threat_intelligence.json",
+      "cert_count": 9
+    },
+    {
+      "id": "vulnerability_management",
+      "file": "certs/vulnerability_management.json",
+      "cert_count": 19
+    },
+    {
+      "id": "network_security",
+      "file": "certs/network_security.json",
+      "cert_count": 23
+    },
+    {
+      "id": "security_architecture",
+      "file": "certs/security_architecture.json",
+      "cert_count": 19
+    },
+    {
+      "id": "iam",
+      "file": "certs/iam.json",
+      "cert_count": 26
+    },
+    {
+      "id": "ot_ics_iot",
+      "file": "certs/ot_ics_iot.json",
+      "cert_count": 16
+    },
+    {
+      "id": "grc",
+      "file": "certs/grc.json",
+      "cert_count": 24
+    },
+    {
+      "id": "data_privacy",
+      "file": "certs/data_privacy.json",
+      "cert_count": 17
+    },
+    {
+      "id": "ai_security",
+      "file": "certs/ai_security.json",
+      "cert_count": 16
+    },
+    {
+      "id": "oversight_leadership",
+      "file": "certs/oversight_leadership.json",
+      "cert_count": 13
+    }
+  ]
+}

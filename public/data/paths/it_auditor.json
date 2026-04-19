@@ -1,0 +1,107 @@
+{
+  "role_id": "it_auditor",
+  "label": "IT Auditor",
+  "description": "Conducts independent assessments of IT controls, information security programs, and regulatory compliance \u2014 producing audit reports, working papers, and attestations.",
+  "job_titles": [
+    "IT Auditor",
+    "IT Audit Manager",
+    "Information Systems Auditor",
+    "SOX IT Auditor",
+    "IT Assurance Senior",
+    "Technology Risk Auditor"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "it_audit_isaca",
+      "name": "CISA Track",
+      "rationale": "CISA is the gold standard IT audit credential globally \u2014 listed as required in virtually every IT audit job posting.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 1294,
+      "pros": [
+        "CISA is the most recognized IT audit credential globally",
+        "DoD 8140 approved",
+        "Required by name at Big 4, internal audit, and government IT audit",
+        "CIA adds internal audit methodology depth"
+      ],
+      "cons": [
+        "CISA requires 5 years IS audit/control/security experience",
+        "CIA is a 3-part exam series requiring significant study investment"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "IT governance and control frameworks (COBIT)",
+          "Risk management concepts",
+          "Audit methodology and evidence collection"
+        ],
+        "recommended_certs": [],
+        "experience": "5 years IT audit, control, or security experience required for CISA application. Pursue GRCP while accumulating experience."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "grcp",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "OCEG GRC Professional \u2014 accessible entry credential covering GRC framework, policy management, and compliance program structure. Pursue while accumulating the work experience required for CISA."
+        },
+        {
+          "cert_id": "cisa",
+          "order": 2,
+          "estimated_time": "4-8 months",
+          "notes": "ISACA Certified Information Systems Auditor \u2014 the gold standard. IS audit process, IT governance, information systems acquisition, IS operations, protection of information assets. Study with ISACA CISA Review Manual and Hemang Doshi question bank."
+        },
+        {
+          "cert_id": "cia",
+          "order": 3,
+          "estimated_time": "4-8 months",
+          "notes": "IIA Certified Internal Auditor \u2014 three-part exam. Adds internal audit methodology depth. CISA plus CIA is the most recognized combination for senior IT audit roles at large enterprises."
+        }
+      ]
+    },
+    {
+      "id": "it_audit_iso",
+      "name": "ISO 27001 Audit Track",
+      "rationale": "For IT auditors specializing in ISO 27001 ISMS audits \u2014 conducting implementation assessments and formal certification audits.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1595,
+      "pros": [
+        "ISO 27001 LA widely recognized for ISMS certification audit work",
+        "Strong demand in European and Asia-Pacific markets",
+        "GSNA adds technical systems audit depth alongside governance credentials"
+      ],
+      "cons": [
+        "Less recognized than CISA for general IT audit in US market",
+        "ISO certification audit work requires accredited certification body affiliation"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "ISO 27001 standard structure",
+          "Information security management concepts",
+          "Audit methodology"
+        ],
+        "recommended_certs": [],
+        "experience": "IT or information security experience beneficial. Lower experience barriers than CISA."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pecb-iso27001-foundation",
+          "order": 1,
+          "estimated_time": "1 month",
+          "notes": "ISO 27001 Foundation \u2014 quick overview of the standard structure. Often bundled with Lead Implementer training from the same provider."
+        },
+        {
+          "cert_id": "pecb-iso27001-la",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "ISO 27001 Lead Auditor \u2014 audit planning, execution, reporting, and follow-up per ISO 19011. Requires 5-day training from an accredited PECB provider. Primary credential for conducting formal ISMS certification audits."
+        },
+        {
+          "cert_id": "gsna",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Systems and Network Auditor \u2014 adds technical systems and network audit depth. DoD 8140 approved. With ISO 27001 LA providing governance framework, GSNA adds the technical review capability ISO 27001 governance auditors often lack."
+        }
+      ]
+    }
+  ]
+}

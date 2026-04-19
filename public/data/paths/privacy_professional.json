@@ -1,0 +1,157 @@
+{
+  "role_id": "privacy_professional",
+  "label": "Privacy Professional",
+  "description": "Manages data privacy programs covering regulatory compliance, data subject rights, privacy impact assessments, privacy engineering, and cross-jurisdictional data protection requirements.",
+  "job_titles": [
+    "Privacy Analyst",
+    "Data Protection Officer (DPO)",
+    "Privacy Engineer",
+    "Privacy Counsel",
+    "Chief Privacy Officer (CPO)",
+    "Data Privacy Manager",
+    "Privacy Compliance Analyst",
+    "GDPR Compliance Manager"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "privacy_gdpr",
+      "name": "GDPR / European Privacy Track",
+      "rationale": "For privacy professionals working in European data protection \u2014 the strictest and most globally influential privacy regime. IAPP CIPP/E is the recognized credential for GDPR practitioners.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1195,
+      "pros": [
+        "CIPP/E is the recognized credential for GDPR-focused roles",
+        "CIPM adds program management depth alongside legal knowledge",
+        "PECB ISO 27701 adds the privacy information management standard increasingly required alongside ISO 27001"
+      ],
+      "cons": [
+        "Limited applicability to non-European data protection regimes",
+        "No DoD 8140 coverage",
+        "Legal content requires genuine law familiarity"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "GDPR regulation awareness",
+          "Data protection principles",
+          "Privacy program management concepts",
+          "Basic legal literacy"
+        ],
+        "recommended_certs": [],
+        "experience": "Legal, compliance, or privacy operations experience is beneficial. DPO roles often require legal qualifications beyond certifications."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cipp-e",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "IAPP's European privacy credential and the gold standard for GDPR practitioners. Study with the IAPP CIPP/E textbook. The exam tests genuine knowledge of EU data protection law \u2014 it cannot be crammed without understanding the GDPR's structure and the legal context of each requirement. Multiple-choice format but genuinely requires legal comprehension."
+        },
+        {
+          "cert_id": "cipm",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "IAPP's privacy management credential covering privacy program frameworks, operational privacy management, and privacy governance. Complements CIPP/E's legal focus with program management skills \u2014 the combination is the recognized standard for senior privacy management roles and DPO positions."
+        },
+        {
+          "cert_id": "pecb-iso27701-li",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "ISO 27701 Privacy Information Management System Lead Implementer \u2014 the standard for organizations implementing a PIMS alongside their ISO 27001 ISMS. Increasingly required as organizations pursue formal privacy certification. With CIPP/E and CIPM providing the legal and program management foundation, ISO 27701 LI adds the systematic privacy management implementation credential."
+        }
+      ]
+    },
+    {
+      "id": "privacy_us",
+      "name": "US Privacy Track",
+      "rationale": "For privacy professionals working in US privacy regimes \u2014 CCPA, HIPAA, and state-level regulations. CIPP/US is the recognized credential for US privacy law.",
+      "estimated_timeline": "8-12 months",
+      "total_cost_usd": 995,
+      "pros": [
+        "CIPP/US is the recognized credential for US privacy law practitioners",
+        "HCISPP is DoD 8140 approved for healthcare privacy roles",
+        "Covers the patchwork of US state and federal privacy regulations"
+      ],
+      "cons": [
+        "US privacy law is fragmented \u2014 no single comprehensive federal regulation",
+        "Rapidly evolving state law landscape requires continuous updates",
+        "Less internationally recognized than CIPP/E"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "US privacy law landscape (CCPA, HIPAA, state regulations)",
+          "Data protection principles",
+          "Basic legal literacy"
+        ],
+        "recommended_certs": [],
+        "experience": "Legal, compliance, or healthcare privacy operations experience is beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cipp-us",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "IAPP's US privacy law credential covering federal and state privacy regulations, CCPA/CPRA, HIPAA, and sector-specific US privacy requirements. Study with the IAPP CIPP/US textbook."
+        },
+        {
+          "cert_id": "cipm",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "Privacy program management \u2014 builds the operational and governance skills alongside US privacy legal knowledge."
+        },
+        {
+          "cert_id": "hcispp",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "ISC2's healthcare information security and privacy credential \u2014 DoD 8140 approved and specifically targets HIPAA compliance and healthcare privacy roles. If your focus is healthcare privacy, HCISPP alongside CIPP/US is the most recognized combination. Requires 2 years healthcare industry experience."
+        }
+      ]
+    },
+    {
+      "id": "privacy_technical",
+      "name": "Privacy Engineering Track",
+      "rationale": "For privacy professionals with a technical background who implement privacy controls rather than just advise on them. Combines legal privacy knowledge with technical privacy implementation credentials.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1393,
+      "pros": [
+        "CIPT is the recognized credential for technical privacy practitioners",
+        "CDPSE adds ISACA's technical data privacy credential",
+        "Rare combination \u2014 privacy engineers with both legal and technical credentials are scarce"
+      ],
+      "cons": [
+        "Broad credential set \u2014 deep technical privacy expertise requires additional hands-on experience beyond certifications",
+        "No DoD 8140 coverage"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Software development or data engineering background",
+          "Privacy-by-design principles",
+          "Data classification and data lifecycle management",
+          "Privacy regulations (GDPR, CCPA awareness)"
+        ],
+        "recommended_certs": [],
+        "experience": "Technical background in software development, data engineering, or security engineering is strongly recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cipp-e",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Legal privacy foundation \u2014 understanding GDPR requirements is essential for building systems that comply with them. Even for engineers, the legal framework drives the technical requirements."
+        },
+        {
+          "cert_id": "cipt",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "IAPP's privacy technology credential \u2014 the only IAPP credential specifically designed for technical practitioners. Covers privacy-by-design, anonymization and pseudonymization, data classification, encryption, and privacy-enhancing technologies. The technical privacy credential most recognized by employers hiring privacy engineers."
+        },
+        {
+          "cert_id": "cdpse",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "ISACA's Certified Data Privacy Solutions Engineer \u2014 covers data privacy governance, privacy architecture, and data lifecycle from an engineering perspective. Complements CIPT with ISACA's governance framework approach. CIPT + CDPSE together provide the most complete technical privacy engineering credential combination available."
+        }
+      ]
+    }
+  ]
+}

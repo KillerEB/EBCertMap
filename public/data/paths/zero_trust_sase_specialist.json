@@ -1,0 +1,107 @@
+{
+  "role_id": "zero_trust_sase_specialist",
+  "label": "Zero Trust / SASE Specialist",
+  "description": "Designs and implements Zero Trust network access, SASE frameworks, and cloud-delivered network security including ZTNA, SWG, CASB, and FWaaS.",
+  "job_titles": [
+    "Zero Trust Architect",
+    "SASE Engineer",
+    "SSE Engineer",
+    "ZTNA Engineer",
+    "Zero Trust Security Engineer",
+    "Cloud Network Security Engineer"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "zt_neutral",
+      "name": "Vendor-Neutral Zero Trust Track",
+      "rationale": "CSA CCZT is the only recognized vendor-neutral Zero Trust certification \u2014 applicable across all ZTNA and SASE implementations.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 998,
+      "pros": [
+        "CCZT is vendor-neutral \u2014 applicable across all ZTNA and SASE platforms",
+        "CSA credentials recognized across cloud and network security",
+        "Strong architectural foundation before vendor specialization"
+      ],
+      "cons": [
+        "Zero Trust certification market still developing",
+        "Less prescriptive than vendor-specific paths"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Network security fundamentals",
+          "Cloud security basics",
+          "IAM concepts",
+          "Security architecture principles"
+        ],
+        "recommended_certs": [],
+        "experience": "Network security or cloud security engineering experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "CSA cloud security foundation \u2014 establishes the cloud security context that ZTNA and SASE implementations operate within."
+        },
+        {
+          "cert_id": "cczt",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "CSA Certificate of Competence in Zero Trust \u2014 the only vendor-neutral Zero Trust credential. Covers Zero Trust principles, ZTNA design patterns, SDP architecture, and implementation methodology. Open-book using CSA guidance documents."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISC2 CCSP adds the senior cloud security architecture credential that contextualizes Zero Trust within broader cloud security strategy. Opens architect-level roles."
+        }
+      ]
+    },
+    {
+      "id": "zt_zscaler",
+      "name": "Zscaler (SASE) Track",
+      "rationale": "Zscaler is the dominant SASE platform. ZDTA and ZDTE are required by name in Zscaler deployment and administration roles.",
+      "estimated_timeline": "8-12 months",
+      "total_cost_usd": 995,
+      "pros": [
+        "Zscaler is the leading SASE platform \u2014 high demand for certified engineers",
+        "Required at most Zscaler-deployed organizations",
+        "Strong salary premium for Zscaler specialists"
+      ],
+      "cons": [
+        "Platform-specific \u2014 skills less transferable to Netskope or Palo Alto SASE",
+        "Difficult without platform access"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Network security fundamentals",
+          "Proxy and web filtering concepts",
+          "Cloud delivery basics"
+        ],
+        "recommended_certs": [],
+        "experience": "Network security engineering experience recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cczt",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "Vendor-neutral Zero Trust foundation before platform specialization."
+        },
+        {
+          "cert_id": "zdta",
+          "order": 2,
+          "estimated_time": "3-4 months",
+          "notes": "Zscaler Zero Trust Tenet Associate \u2014 foundational ZIA and ZPA administration. Required before ZDTE. Zscaler provides free training through their learning portal."
+        },
+        {
+          "cert_id": "zdte",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Zscaler Zero Trust Tenet Expert \u2014 advanced ZIA/ZPA configuration, troubleshooting, and enterprise deployment design. Primary Zscaler engineering credential required at most Zscaler-deployed organizations."
+        }
+      ]
+    }
+  ]
+}

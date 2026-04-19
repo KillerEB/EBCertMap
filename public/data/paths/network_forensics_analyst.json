@@ -1,0 +1,56 @@
+{
+  "role_id": "network_forensics_analyst",
+  "label": "Network Forensics Analyst",
+  "description": "Investigates security incidents through network traffic analysis \u2014 PCAP analysis, protocol reconstruction, intrusion analysis, and network-based threat hunting.",
+  "job_titles": [
+    "Network Forensics Analyst",
+    "Intrusion Analyst",
+    "NSM Analyst",
+    "Packet Analyst",
+    "Network Security Monitor",
+    "Network Threat Hunter"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "network_forensics_standard",
+      "name": "Network Forensics Track",
+      "rationale": "GCIA and GNFA together provide the strongest network forensics credential combination \u2014 intrusion analysis paired with advanced network artifact reconstruction.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "GCIA and GNFA both DoD 8140 approved",
+        "GNFA is the only dedicated network forensics GIAC cert",
+        "Strong for NSM, MSSP, and government network analysis roles"
+      ],
+      "cons": [
+        "High cost without SANS training",
+        "Deep TCP/IP knowledge is a prerequisite that takes time to develop"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals (TCP/IP, DNS, HTTP)",
+          "Wireshark proficiency",
+          "IDS/IPS concepts",
+          "Basic security monitoring"
+        ],
+        "recommended_certs": [],
+        "experience": "Network administration or SOC analyst background strongly recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcia",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Intrusion Analyst \u2014 network traffic analysis, IDS/IPS tuning, protocol analysis, network-based threat detection. DoD 8140 approved. CyberLive requires actual packet analysis. Wireshark daily practice is essential preparation. Associated with SANS SEC503."
+        },
+        {
+          "cert_id": "gnfa",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Network Forensic Analyst \u2014 advanced network forensics covering full packet capture analysis, protocol reconstruction (VoIP, email, HTTP/S), artifact recovery, and network timeline reconstruction. Most recognized dedicated network forensics credential. Associated with SANS FOR572."
+        }
+      ]
+    }
+  ]
+}

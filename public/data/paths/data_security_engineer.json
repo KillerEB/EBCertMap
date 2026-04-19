@@ -1,0 +1,61 @@
+{
+  "role_id": "data_security_engineer",
+  "label": "Data Security / DLP Engineer",
+  "description": "Implements and manages data security controls \u2014 data classification, DLP policy, data governance frameworks, insider threat monitoring, and information protection technologies.",
+  "job_titles": [
+    "Data Security Engineer",
+    "DLP Engineer",
+    "Information Protection Administrator",
+    "Data Governance Engineer",
+    "Insider Risk Analyst"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "data_security_microsoft",
+      "name": "Microsoft Purview Track",
+      "rationale": "Microsoft Purview is the dominant enterprise data security and DLP platform. SC-401 is the primary Microsoft credential for information protection administrators.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 892,
+      "pros": [
+        "SC-401 directly applicable in Microsoft 365 environments",
+        "CDPSE adds ISACA data privacy engineering credential alongside technical skills",
+        "High demand at organizations running M365"
+      ],
+      "cons": [
+        "Platform-specific to Microsoft environments",
+        "SC-401 annual renewal"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Microsoft 365 fundamentals",
+          "Data classification concepts",
+          "Privacy regulations awareness (GDPR, CCPA)",
+          "Information rights management"
+        ],
+        "recommended_certs": [],
+        "experience": "Microsoft 365 administration experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "sc-401",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Microsoft Information Security Administrator Associate (SC-401, successor to SC-400) \u2014 Microsoft Purview data classification, DLP policies, sensitivity labels, insider risk management, and information barriers. Use Microsoft Learn free SC-401 path. Hands-on practice in a Microsoft 365 developer tenant is essential."
+        },
+        {
+          "cert_id": "cdpse",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "ISACA Certified Data Privacy Solutions Engineer \u2014 data privacy governance, privacy architecture, and data lifecycle management from an engineering perspective. Complements SC-401 Microsoft-specific knowledge with vendor-neutral governance framework. The most technically-oriented privacy credential available."
+        },
+        {
+          "cert_id": "cdmp",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "DAMA Certified Data Management Professional \u2014 data governance and data management framework knowledge. Data quality, metadata management, and data lifecycle chapters are directly relevant to data security program design. Recognized by data governance teams as the professional body credential for data management practitioners."
+        }
+      ]
+    }
+  ]
+}

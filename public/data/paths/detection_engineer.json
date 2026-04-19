@@ -1,0 +1,204 @@
+{
+  "role_id": "detection_engineer",
+  "label": "Detection Engineer",
+  "description": "Builds and maintains detection logic for SIEM and EDR platforms \u2014 Sigma rules, KQL queries, SPL, and YARA signatures to identify attacker behavior across enterprise and cloud environments.",
+  "job_titles": [
+    "Detection Engineer",
+    "Threat Detection Engineer",
+    "Security Detection Analyst",
+    "Detection Content Developer",
+    "SIEM Content Developer"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "detection_microsoft",
+      "name": "Microsoft Sentinel Track",
+      "rationale": "Microsoft Sentinel is the dominant cloud-native SIEM. SC-200 and GCDA together provide the strongest detection engineering credential combination for Microsoft-heavy environments.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1896,
+      "pros": [
+        "SC-200 widely required in Microsoft-focused detection roles",
+        "GCDA covers detection engineering methodology beyond platform specifics",
+        "Both widely recognized"
+      ],
+      "cons": [
+        "SC-200 annual renewal",
+        "GCDA relatively new \u2014 building market recognition"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "SIEM concepts",
+          "KQL (Kusto Query Language)",
+          "MITRE ATT&CK framework",
+          "Log analysis fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "SOC analyst experience strongly recommended. Detection engineers write better rules when they have operated on the receiving end of detections."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "sc-200",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Microsoft Security Operations Analyst \u2014 covers Sentinel, Defender XDR, detection and investigation workflows. KQL is heavily tested \u2014 practice daily in Sentinel Log Analytics workspace. Microsoft Learn SC-200 path is comprehensive free preparation."
+        },
+        {
+          "cert_id": "gcda",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Detection Analyst \u2014 detection engineering methodology, MITRE ATT&CK-based detection design, Sigma rule development, and behavioral detection across platforms. Most recognized dedicated detection engineering credential. Open-book \u2014 build notes indexed by ATT&CK tactic."
+        }
+      ]
+    },
+    {
+      "id": "detection_splunk",
+      "name": "Splunk Track",
+      "rationale": "For detection engineers whose primary platform is Splunk \u2014 still the most deployed enterprise SIEM in large organizations.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1895,
+      "pros": [
+        "Splunk certification widely required where Splunk is deployed",
+        "Clear progression from user to content developer",
+        "GCDA adds vendor-neutral detection methodology alongside Splunk-specific credentials"
+      ],
+      "cons": [
+        "Platform-specific",
+        "Splunk cert path can feel granular with many smaller exams"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Splunk basics",
+          "SPL (Splunk Processing Language)",
+          "SIEM concepts",
+          "Log analysis"
+        ],
+        "recommended_certs": [],
+        "experience": "SOC analyst using Splunk is the ideal starting point."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "splk-1002",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Splunk Core Certified Power User \u2014 SPL query foundation. Required before security-focused Splunk exams."
+        },
+        {
+          "cert_id": "splk-5001",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "Splunk Core Certified Consultant \u2014 advanced SPL, data modeling, and content development. The detection content developer Splunk credential."
+        },
+        {
+          "cert_id": "gcda",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "Adds vendor-neutral detection engineering methodology making Splunk-built detections more rigorous and transferable. MITRE ATT&CK-based design and Sigma principles apply across all SIEM platforms."
+        }
+      ]
+    },
+    {
+      "id": "detection_crowdstrike",
+      "name": "CrowdStrike / Falcon Track",
+      "rationale": "For detection engineers whose primary platform is CrowdStrike Falcon. CCFH validates advanced detection and hunting query development in Falcon \u2014 the core detection engineering skill in CrowdStrike environments. Paired with GCDA for the vendor-neutral detection methodology that makes Falcon-built detections more principled.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1856,
+      "pros": [
+        "CrowdStrike Falcon custom detection development is a high-demand skill",
+        "CCFH validates behavioral hunting query writing in the dominant EDR platform",
+        "GCDA adds vendor-neutral detection engineering methodology alongside platform-specific skills",
+        "Strong combination for detection engineers at CrowdStrike-deployed enterprises"
+      ],
+      "cons": [
+        "Platform-specific to CrowdStrike environments",
+        "Requires Falcon access for preparation and exam",
+        "Less transferable to non-CrowdStrike EDR platforms"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "CrowdStrike Falcon administration",
+          "Threat detection methodology",
+          "MITRE ATT&CK framework",
+          "Basic query language experience"
+        ],
+        "recommended_certs": [
+          "ccfa"
+        ],
+        "experience": "CCFA recommended before CCFR. SOC analyst experience in a CrowdStrike environment is essential."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccfa",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "CrowdStrike Certified Falcon Administrator \u2014 Falcon platform foundation. Required prerequisite before CCFR and the starting point for all Falcon detection engineering work."
+        },
+        {
+          "cert_id": "ccfr",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "CrowdStrike Certified Falcon Responder \u2014 investigation and detection analysis in Falcon. Gives the responder perspective that informs better detection development \u2014 you write better detections when you understand how analysts investigate them."
+        },
+        {
+          "cert_id": "ccfh",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "CrowdStrike Certified Falcon Hunter \u2014 the core detection engineering credential in Falcon. Covers custom detection development, behavioral hunting query writing, and proactive detection strategy. The validation of detection engineering skill in CrowdStrike environments."
+        },
+        {
+          "cert_id": "gcda",
+          "order": 4,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Certified Detection Analyst \u2014 adds vendor-neutral detection engineering methodology: MITRE ATT&CK-based detection design, Sigma rule development, and behavioral detection principles. Makes your Falcon detection work more transferable and more rigorous."
+        }
+      ]
+    },
+    {
+      "id": "detection_paloalto",
+      "name": "Palo Alto XDR Track",
+      "rationale": "For detection engineers working in Palo Alto Cortex environments. Cortex XDR's custom detection capabilities and XSOAR's detection automation are growing rapidly in enterprise deployments.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1857,
+      "pros": [
+        "Directly applicable to Cortex XDR custom detection development",
+        "XSOAR skills add automation depth to detection engineering",
+        "GCDA provides the vendor-neutral methodology foundation",
+        "Palo Alto is growing rapidly in enterprise security operations"
+      ],
+      "cons": [
+        "Platform-specific to Palo Alto environments",
+        "Palo Alto detection engineering cert market is newer",
+        "Less recognized outside Palo Alto environments"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security operations fundamentals",
+          "Threat detection methodology",
+          "MITRE ATT&CK framework"
+        ],
+        "recommended_certs": [],
+        "experience": "SOC analyst experience recommended. Palo Alto Beacon free training covers foundational knowledge."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcda",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Detection Analyst first \u2014 establish the vendor-neutral detection engineering methodology before platform specialization. MITRE ATT&CK-based design and Sigma rule principles apply directly to Cortex XDR custom detection work."
+        },
+        {
+          "cert_id": "panw-xdr-analyst",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "Palo Alto Networks Certified XDR Analyst \u2014 Cortex XDR operations and detection investigation. The operational context that makes custom detection development meaningful."
+        },
+        {
+          "cert_id": "panw-xsoar-engineer",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "Palo Alto Networks Certified XSOAR Engineer \u2014 detection automation and playbook development. Detection engineers who can also automate response to their detections are significantly more valuable than those who only write the rules."
+        }
+      ]
+    }
+  ]
+}

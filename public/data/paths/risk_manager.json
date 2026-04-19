@@ -1,0 +1,108 @@
+{
+  "role_id": "risk_manager",
+  "label": "IT / Cyber Risk Manager",
+  "description": "Identifies, quantifies, and manages IT and cyber risk \u2014 risk assessments, risk treatment plans, risk quantification (FAIR), and risk reporting to senior stakeholders.",
+  "job_titles": [
+    "IT Risk Manager",
+    "Cyber Risk Manager",
+    "Technology Risk Officer",
+    "Enterprise Risk Analyst",
+    "Operational Risk Manager (Cyber)"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "risk_isaca",
+      "name": "ISACA Risk Track",
+      "rationale": "CRISC is the most recognized IT risk management credential globally. CISM plus CRISC is the strongest risk manager credential stack for enterprise and regulated industry roles.",
+      "estimated_timeline": "14-24 months",
+      "total_cost_usd": 1594,
+      "pros": [
+        "CRISC is the recognized gold standard for IT risk management",
+        "DoD 8140 approved throughout",
+        "CISM + CRISC is the most recognized combination for senior risk manager roles",
+        "Particularly strong in financial services and regulated industries"
+      ],
+      "cons": [
+        "Both require significant verified work experience",
+        "CRISC requires 3 years IT risk management experience specifically"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Risk management frameworks (NIST, ISO 31000)",
+          "IT governance concepts",
+          "Business impact analysis",
+          "Control design and assessment"
+        ],
+        "recommended_certs": [],
+        "experience": "3 years IT risk management experience required for CRISC. 5 years security management experience for CISM."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cism",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA Certified Information Security Manager \u2014 security management foundation. Study with ISACA CISM Review Manual. Provides the security governance context that makes CRISC risk methodology immediately applicable."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA Certified in Risk and Information Systems Control \u2014 the gold standard. Risk identification, assessment, response, and monitoring. Study with ISACA CRISC Review Manual and Hemang Doshi practice questions."
+        },
+        {
+          "cert_id": "cgeit",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA Certified in Governance of Enterprise IT \u2014 IT governance capstone covering COBIT, strategic alignment, and board-level accountability. Adds governance depth for risk managers moving into senior GRC leadership roles."
+        }
+      ]
+    },
+    {
+      "id": "risk_quantitative",
+      "name": "Quantitative Risk Track",
+      "rationale": "For risk managers specializing in quantitative cyber risk \u2014 translating technical risk into financial terms using FAIR methodology. High demand and low supply of qualified practitioners.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1392,
+      "pros": [
+        "FAIR is the leading quantitative cyber risk framework \u2014 high demand, low supply",
+        "Open FAIR 2 updated for NIST CSF 2.0 alignment",
+        "Quantitative risk expertise commands significant salary premium"
+      ],
+      "cons": [
+        "FAIR methodology requires significant practice to apply correctly",
+        "Requires ability to communicate risk in financial terms \u2014 not just technical terms"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Basic statistics and probability",
+          "Risk management concepts",
+          "IT and security fundamentals",
+          "Spreadsheet modeling"
+        ],
+        "recommended_certs": [],
+        "experience": "IT or security experience helpful. FAIR is learnable from diverse backgrounds but requires strong analytical thinking."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "crisc",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "Qualitative IT risk foundation before quantitative specialization. CRISC risk assessment frameworks provide context for where FAIR quantitative approach adds value."
+        },
+        {
+          "cert_id": "open-fair",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "Open Group Open FAIR 2 Foundation \u2014 FAIR risk quantification methodology. Updated 2025 for NIST CSF 2.0 alignment. Study with Jack Jones Measuring and Managing Information Risk book alongside the Open Group FAIR standard."
+        },
+        {
+          "cert_id": "pecb-iso31000-lrm",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "ISO 31000 Lead Risk Manager \u2014 international standard for risk management program design. Adds formal risk program governance credentials alongside FAIR quantitative methodology."
+        }
+      ]
+    }
+  ]
+}

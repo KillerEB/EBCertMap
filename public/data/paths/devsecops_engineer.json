@@ -1,0 +1,112 @@
+{
+  "role_id": "devsecops_engineer",
+  "label": "DevSecOps Engineer",
+  "description": "Integrates security into software delivery pipelines \u2014 SAST, DAST, SCA, container security, IaC security, and secrets management embedded in CI/CD workflows.",
+  "job_titles": [
+    "DevSecOps Engineer",
+    "Platform Security Engineer",
+    "CI/CD Security Engineer",
+    "Security Automation Engineer",
+    "AppSec Pipeline Engineer"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "devsecops_standard",
+      "name": "Practical DevSecOps Track",
+      "rationale": "CDP is the de facto DevSecOps standard. CDE adds advanced automation depth. GCSA provides GIAC vendor-neutral cloud security automation recognition alongside the Practical DevSecOps stack.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "CDP is the most recognized DevSecOps credential in the practitioner community",
+        "All Practical DevSecOps certs 100% practical",
+        "GCSA adds GIAC recognition alongside CDP practitioner credibility",
+        "Strong combination for DevSecOps engineering roles at mature organizations"
+      ],
+      "cons": [
+        "CDP is not DoD 8140 approved",
+        "High total cost",
+        "Requires actual DevOps engineering experience to be effective"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Linux command line",
+          "Basic scripting (Python or Bash)",
+          "CI/CD concepts (GitLab CI, GitHub Actions, or Jenkins)",
+          "Container basics",
+          "OWASP Top 10 awareness"
+        ],
+        "recommended_certs": [],
+        "experience": "Software development or DevOps engineering background strongly recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cdp",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "Practical DevSecOps flagship cert. SAST, DAST, SCA tool integration into CI/CD, container security, IaC security, compliance-as-code. 6-hour practical exam with 5 challenges plus report. Requires basic Linux and scripting proficiency."
+        },
+        {
+          "cert_id": "cde",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "Certified DevSecOps Expert \u2014 requires CDP. Custom SAST rule development, advanced DAST automation, RASP/IAST, secrets management with HashiCorp Vault. 24-hour practical exam \u2014 the most demanding in the Practical DevSecOps portfolio."
+        },
+        {
+          "cert_id": "gcsa",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Cloud Security Automation \u2014 DevSecOps in cloud environments, IaC security, container security automation. Adds GIAC recognition that CDP lacks. Associated with SANS SEC540."
+        }
+      ]
+    },
+    {
+      "id": "devsecops_supply_chain",
+      "name": "Supply Chain Security Track",
+      "rationale": "For DevSecOps engineers focused on software supply chain security \u2014 SBOM, SLSA framework, dependency security, and code signing. Fast-growing specialization driven by regulatory pressure.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1797,
+      "pros": [
+        "CSSE is currently the only dedicated supply chain security cert",
+        "EO 14028 and NIST SSDF creating regulatory demand for this expertise",
+        "CSSE + CDP gives the broadest DevSecOps credential coverage"
+      ],
+      "cons": [
+        "CSSE very new \u2014 employer recognition still developing",
+        "Supply chain security requires understanding the full software development lifecycle"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Software development lifecycle basics",
+          "Package management and dependency concepts",
+          "Container basics",
+          "CI/CD pipeline fundamentals"
+        ],
+        "recommended_certs": [
+          "cdp"
+        ],
+        "experience": "CDP completion recommended before CSSE."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cdp",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "Foundation DevSecOps credential. The pipeline security foundation that supply chain work builds on."
+        },
+        {
+          "cert_id": "csse",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Certified Software Supply Chain Security Expert \u2014 SLSA framework, SBOM generation and analysis, dependency security, code signing, cloud supply chain attacks. 6-hour practical exam. One of the only dedicated credentials in this space."
+        },
+        {
+          "cert_id": "cks",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Certified Kubernetes Security Specialist \u2014 container and K8s security bridges DevSecOps and supply chain through image security, registry scanning, and runtime security. Prerequisite: active CKA certification."
+        }
+      ]
+    }
+  ]
+}

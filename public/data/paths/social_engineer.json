@@ -1,0 +1,62 @@
+{
+  "role_id": "social_engineer",
+  "label": "Social Engineer / Physical Pentester",
+  "description": "Conducts human-based security assessments \u2014 phishing simulations, vishing, physical intrusion testing, and OSINT-based pretexting evaluating organizational security awareness and physical controls.",
+  "job_titles": [
+    "Social Engineering Specialist",
+    "Physical Penetration Tester",
+    "Red Team SE Specialist",
+    "Security Awareness Consultant",
+    "OSINT Analyst"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "social_eng_standard",
+      "name": "Social Engineering & Physical Track",
+      "rationale": "Thin formal certification market. TCM OSINT certs provide digital reconnaissance foundations; CESE from Social-Engineer LLC is the primary specialized SE credential.",
+      "estimated_timeline": "6-12 months",
+      "total_cost_usd": 847,
+      "pros": [
+        "CESE is from Social-Engineer LLC \u2014 the most recognized SE training organization",
+        "TCM OSINT certs cover digital reconnaissance component of SE engagements",
+        "Niche specialization with strong demand from mature security programs"
+      ],
+      "cons": [
+        "Thin cert market \u2014 portfolio and demonstrated experience matters more",
+        "Physical pentesting has no widely recognized dedicated certification",
+        "Hiring decisions based on reputation more than cert count in this niche"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "OSINT research methodology",
+          "Basic networking and web concepts",
+          "Communication and writing skills",
+          "Social psychology fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "Strong communication skills are as important as technical skills. Prior security awareness or red team experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pjpt",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "Foundation pentesting cert \u2014 establishes technical baseline. Report writing and engagement simulation directly relevant to SE work."
+        },
+        {
+          "cert_id": "porp",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "TCM Security OSINT and reconnaissance cert. OSINT methodology, target profiling, social media intelligence, and digital footprint analysis \u2014 the intelligence gathering phase that precedes every effective SE campaign."
+        },
+        {
+          "cert_id": "papa",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "Note: CESE (Certified Social Engineering Professional) from Social-Engineer LLC at social-engineer.com is the primary goal cert for this specialization. Research current availability directly. After certification build experience through red team engagements, phishing simulation programs, and documented SE assessments \u2014 portfolio matters more than cert count."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "role_id": "ciso",
+  "label": "CISO / Security Leader",
+  "description": "Leads an organization's information security program at the executive level. Accountable for security strategy, risk governance, board communication, security program management, and alignment of security with business objectives.",
+  "job_titles": [
+    "Chief Information Security Officer (CISO)",
+    "VP of Information Security",
+    "Director of Information Security",
+    "Head of Cybersecurity",
+    "Security Program Director",
+    "Associate CISO",
+    "Deputy CISO"
+  ],
+  "experience_level": "senior_to_executive",
+  "paths": [
+    {
+      "id": "ciso_standard",
+      "name": "Standard CISO Track",
+      "rationale": "The combination most commonly held by practicing CISOs globally. CISSP and CISM together cover security management, governance, risk, and technical breadth \u2014 and both are recognized by boards and executive hiring committees.",
+      "estimated_timeline": "18-30 months",
+      "total_cost_usd": 1597,
+      "pros": [
+        "CISSP and CISM are the two most recognized credentials at CISO level",
+        "CISM specifically designed for security management \u2014 aligns with CISO role expectations",
+        "Both DoD 8140 approved",
+        "Recognized globally across all industry sectors"
+      ],
+      "cons": [
+        "Both require 5+ years experience \u2014 cannot be accelerated",
+        "Theory-heavy path \u2014 no practical technical exams",
+        "Credentials alone do not substitute for leadership and communication experience"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Broad security domain knowledge",
+          "Risk management frameworks",
+          "Security governance and program management",
+          "Business and executive communication"
+        ],
+        "recommended_certs": [],
+        "experience": "5+ years security leadership or senior management experience. CISO roles typically require demonstrated program ownership, board communication, and budget management experience beyond certifications."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cissp",
+          "order": 1,
+          "estimated_time": "4-8 months",
+          "notes": "The universal senior security credential. Think like a risk manager and business stakeholder throughout \u2014 the CISSP tests security judgment at the management level, not technical exploitation skill. With senior experience the content validates what you already know rather than teaching new concepts. Focus preparation on the domains furthest from your experience."
+        },
+        {
+          "cert_id": "cism",
+          "order": 2,
+          "estimated_time": "3-6 months",
+          "notes": "ISACA's security management credential \u2014 specifically designed for practitioners managing security programs at the organizational level. Covers information security governance, risk management, program development, and incident management from a management perspective. CISM alongside CISSP is the most common credential combination at CISO level globally."
+        },
+        {
+          "cert_id": "cgeit",
+          "order": 3,
+          "estimated_time": "3-6 months",
+          "notes": "ISACA's IT governance credential \u2014 covers IT governance frameworks (COBIT), board-level accountability, strategic alignment of IT with business, and enterprise risk. More relevant for CISOs at large enterprises or regulated industries where formal IT governance structures are required. Signals readiness for the most senior executive security roles."
+        }
+      ]
+    },
+    {
+      "id": "ciso_isaca",
+      "name": "ISACA Leadership Track",
+      "rationale": "For security leaders who want the deepest ISACA governance stack. CISM + CRISC + CGEIT together cover security management, IT risk quantification, and IT governance \u2014 the combination used by CISOs in banking, insurance, and other heavily regulated industries.",
+      "estimated_timeline": "24-36 months",
+      "total_cost_usd": 2397,
+      "pros": [
+        "CRISC is the most recognized IT risk management credential \u2014 valued in regulated industries",
+        "CISM + CRISC + CGEIT is the strongest ISACA combination for board-level credibility",
+        "All three DoD 8140 approved",
+        "Particularly strong for financial services, healthcare, and government CISO roles"
+      ],
+      "cons": [
+        "All require significant experience \u2014 very long runway",
+        "High total cost",
+        "Overlapping content means diminishing returns on pure credentialing"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security program management experience",
+          "IT risk management and risk quantification",
+          "IT governance frameworks (COBIT, ISO)"
+        ],
+        "recommended_certs": [],
+        "experience": "10+ years of progressive security leadership experience. This path targets experienced CISOs seeking additional governance credentials, not practitioners entering leadership."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cism",
+          "order": 1,
+          "estimated_time": "3-6 months",
+          "notes": "The most CISO-relevant ISACA credential. Start here."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "IT Risk and Information Systems Control \u2014 the most recognized IT risk management credential globally and particularly valued in regulated industries. Covers risk identification, assessment, response, and monitoring from an enterprise governance perspective. CRISCs frequently collaborate with the CISO function \u2014 holding it yourself signals risk governance fluency to boards and audit committees."
+        },
+        {
+          "cert_id": "cgeit",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "IT governance capstone. Board-level framework and strategic alignment. With CISM and CRISC already completed, CGEIT is the logical governance credential completion."
+        }
+      ]
+    },
+    {
+      "id": "ciso_technical",
+      "name": "Technical CISO Track",
+      "rationale": "For CISOs who want to maintain technical credibility alongside executive credentials \u2014 the increasingly common 'hacker CISO' profile who can discuss both board risk strategy and technical threat landscape authentically.",
+      "estimated_timeline": "24-36 months",
+      "total_cost_usd": 2748,
+      "pros": [
+        "Unique combination of technical and executive credentials",
+        "CCISO specifically designed for security executives with technical backgrounds",
+        "Technical credibility differentiates from purely governance-focused peers",
+        "GSLC + GSTRT adds security leadership and strategy depth"
+      ],
+      "cons": [
+        "Extremely long timeline \u2014 not a near-term path",
+        "High total cost",
+        "CCISO is less universally recognized than CISSP or CISM"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Technical security background",
+          "Security program leadership",
+          "Executive communication"
+        ],
+        "recommended_certs": [
+          "oscp",
+          "cissp"
+        ],
+        "experience": "Prior technical security practitioner career (pentesting, incident response, security engineering) transitioning to leadership. CISSP should already be held."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cism",
+          "order": 1,
+          "estimated_time": "3-6 months",
+          "notes": "The most recognized security management credential. Adds governance credibility alongside your existing technical background."
+        },
+        {
+          "cert_id": "cciso",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "EC-Council's CISO credential \u2014 designed specifically for security executives covering governance, risk, controls, finance, vendor management, program management, and strategic planning from an executive perspective. More directly CISO-relevant than CISSP in its content focus even if CISSP has broader market recognition. The five domains of CCISO map directly to CISO accountabilities."
+        },
+        {
+          "cert_id": "gslc",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Security Leadership Certification \u2014 covers security project management, communication, policy, and organizational structure from a leadership perspective. Connects your technical GIAC background (if any) to the leadership credential tier. Open-book exam."
+        },
+        {
+          "cert_id": "gstrt",
+          "order": 4,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Strategic Planning, Policy, and Leadership \u2014 covers security strategy development, program alignment with business objectives, and board-level communication. The strategic capstone of the GIAC leadership track. By this point you have the full spectrum: technical depth, management framework, executive credentials, and strategic leadership validation."
+        }
+      ]
+    }
+  ]
+}

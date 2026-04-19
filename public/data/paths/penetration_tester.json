@@ -1,0 +1,221 @@
+{
+  "role_id": "penetration_tester",
+  "label": "Penetration Tester",
+  "description": "Conducts authorized offensive security assessments against networks, applications, and systems to identify and exploit vulnerabilities. Produces professional reports with remediation guidance.",
+  "job_titles": [
+    "Penetration Tester",
+    "Ethical Hacker",
+    "Red Team Operator",
+    "Offensive Security Consultant",
+    "Security Researcher",
+    "Vulnerability Analyst",
+    "Bug Bounty Hunter"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "pentest_standard",
+      "name": "Industry Standard Track",
+      "rationale": "The OSCP-centered path that the overwhelming majority of hiring managers recognize. Every step is practical, builds directly on the previous, and culminates in the credential most commonly listed as a requirement in penetration testing job postings.",
+      "estimated_timeline": "12-24 months",
+      "total_cost_usd": 2797,
+      "pros": [
+        "OSCP is the gold standard \u2014 listed as a requirement at most serious pentesting employers",
+        "Every cert is 100% practical \u2014 no MCQ cramming",
+        "CRTO adds the most respected red team / AD-specific credential",
+        "Clear progressive difficulty: beginner \u2192 intermediate \u2192 advanced"
+      ],
+      "cons": [
+        "OSCP requires significant lab time \u2014 budget 3-6 months of focused preparation",
+        "High total cost without employer sponsorship",
+        "No DoD 8140 coverage"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals (TCP/IP, DNS, HTTP, routing)",
+          "Linux command line proficiency",
+          "Basic scripting (Python or Bash)",
+          "Understanding of common vulnerabilities (OWASP Top 10 awareness)"
+        ],
+        "recommended_certs": [],
+        "experience": "No prior security certifications required. IT or networking background is helpful. Start at eJPT regardless of background \u2014 it establishes your baseline honestly."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ejpt",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Your first practical pentesting cert. Do the INE Penetration Testing Student course fully before attempting the exam. Don't rush \u2014 understanding the methodology matters more than passing quickly. This cert proves to yourself (and future employers) that you can execute a basic pentest."
+        },
+        {
+          "cert_id": "pnpt",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "TCM Security's flagship cert and the best OSCP preparation available at its price point. The 5-day practical exam with a live debrief is excellent preparation for OSCP's format. Complete the included courses \u2014 especially the Active Directory course \u2014 before attempting. Many practitioners recommend PNPT before OSCP specifically because the report-writing requirement builds skills OSCP will test."
+        },
+        {
+          "cert_id": "oscp",
+          "order": 3,
+          "estimated_time": "3-6 months",
+          "notes": "The goal. Allocate serious lab time \u2014 3 months minimum of consistent daily practice. Work through the entire PEN-200 course before hitting the labs. In the labs, prioritize understanding exploitation chains over box count. The exam is 24 hours \u2014 time management and note-taking discipline matter as much as technical skill. Having completed PNPT first means you arrive at OSCP already comfortable with the format and report writing."
+        },
+        {
+          "cert_id": "crto",
+          "order": 4,
+          "estimated_time": "2-3 months",
+          "notes": "The natural next step after OSCP for practitioners specializing in red team operations. Covers Cobalt Strike operation, C2 framework usage, and advanced Active Directory attack chains that go beyond OSCP's scope. Unlimited exam retakes included. With OSCP already completed, the CRTO content will click faster \u2014 you have the foundational exploitation skill and just need to layer on the red team tradecraft and C2 framework operation."
+        }
+      ]
+    },
+    {
+      "id": "pentest_government",
+      "name": "Government / DoD Track",
+      "rationale": "For penetration testers targeting government, military, or cleared contractor positions where DoD 8140 approved credentials are mandatory. Balances DoD compliance with meaningful practical content.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 2753,
+      "pros": [
+        "DoD 8140 compliant throughout",
+        "CEH + GPEN covers most government pentesting job requirements",
+        "GXPN is one of the few DoD-approved credentials covering exploit development",
+        "Opens cleared penetration testing roles unavailable to non-DoD-approved practitioners"
+      ],
+      "cons": [
+        "High cost \u2014 GPEN and GXPN are exam-only; SANS training adds significantly more",
+        "MCQ-heavy format validates knowledge rather than exploitation skill",
+        "Community respect is lower than OSCP-centered paths",
+        "GPEN holders will frequently be outperformed by OSCP holders on actual engagements"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals",
+          "Basic security concepts",
+          "Operating system administration"
+        ],
+        "recommended_certs": [
+          "security-plus"
+        ],
+        "experience": "Security+ is commonly a prerequisite for government roles. Obtain it first if you don't already have it."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ceh",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "The DoD 8140 entry point for offensive security roles. Crammable with standard study materials \u2014 Matt Walker's CEH All-in-One is the standard reference. Don't expect the content to make you a better pentester. Pass it, get the DoD checkbox, move on. If employer will fund SANS training, skip straight to GPEN."
+        },
+        {
+          "cert_id": "pentest-plus",
+          "order": 2,
+          "estimated_time": "1-2 months",
+          "notes": "DoD 8140 approved with performance-based questions that add some practical element. Lower cost than GPEN and covers similar ground at a shallower depth. A reasonable intermediate step if GPEN cost is prohibitive at this stage."
+        },
+        {
+          "cert_id": "gpen",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "The DoD-approved pentesting credential that hiring managers in government actually look for. Open-book exam \u2014 build indexed notes from the course material. If your employer funds SANS SEC560 training, take it. The CyberLive component adds hands-on questions that require real technique understanding, not just memorization. GPEN alongside CEH satisfies virtually all government penetration testing job postings."
+        },
+        {
+          "cert_id": "gxpn",
+          "order": 4,
+          "estimated_time": "4-6 months",
+          "notes": "The DoD-approved elite credential for exploit research and advanced pentesting. Requires genuine understanding of exploit development concepts \u2014 assembly language, memory management, and advanced network attacks. This one cannot be memorized. Associated with SANS SEC660. A career-defining credential for government offensive security practitioners who want to move into vulnerability research or advanced red team roles."
+        }
+      ]
+    },
+    {
+      "id": "pentest_budget",
+      "name": "Budget Track",
+      "rationale": "Builds a credible and genuinely skilled penetration tester using high-quality practical certifications at a fraction of the OffSec price. Best for self-funded candidates who cannot yet afford OSCP.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 848,
+      "pros": [
+        "Under $850 total including training \u2014 all certs include training courses",
+        "All exams 100% practical",
+        "None expire \u2014 no renewal fees ever",
+        "PNPT increasingly accepted as OSCP alternative at skill-focused employers"
+      ],
+      "cons": [
+        "OSCP is still expected at many enterprise employers \u2014 this path may need supplementing",
+        "BSCP covers web only \u2014 no network pentesting at expert level",
+        "Less name recognition at traditional enterprise hiring managers"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Basic networking",
+          "Linux command line basics",
+          "Security fundamentals awareness"
+        ],
+        "recommended_certs": [],
+        "experience": "No prior experience required. This path is designed to take you from zero to employed."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ejpt",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "First practical credential. Complete the INE Penetration Testing Student course. Never skip labs \u2014 the methodology matters more than the cert itself at this stage."
+        },
+        {
+          "cert_id": "pnpt",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "The centrepiece of the budget path. At $499 including 5 courses, one retake, a live debrief, and a credential that never expires, this is the best value intermediate pentesting cert available. Many hiring managers now accept PNPT in lieu of OSCP for junior pentesting roles. The report-writing component is a genuine differentiator."
+        },
+        {
+          "cert_id": "bscp",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "PortSwigger Web Security Academy is free \u2014 complete the entire curriculum before attempting the exam. The 4-hour practical exam is genuinely hard. At $99 it is extraordinary value for a credential that the practitioner community considers the gold standard for web application security skill. Complements PNPT perfectly \u2014 PNPT covers network pentesting, BSCP covers web application exploitation."
+        }
+      ]
+    },
+    {
+      "id": "pentest_htb",
+      "name": "HTB Track",
+      "rationale": "HackTricks Training's full penetration testing progression \u2014 100% practical, community-respected, and the most affordable complete pentesting cert stack available. HTB CPTS is the primary competitor to OSCP in community recognition. Ideal for self-funded practitioners or those who prefer flag-based practical exams over OSCP's report-based format.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 598,
+      "pros": [
+        "100% practical throughout \u2014 no MCQ at any stage",
+        "Lowest total cost of any complete pentesting cert stack",
+        "HTB CPTS has strong community recognition as an OSCP alternative",
+        "Flag-based format appeals to CTF practitioners"
+      ],
+      "cons": [
+        "OSCP still wins at enterprise HR filter level \u2014 CPTS not yet universally recognized",
+        "Flag-based format doesn't build the report writing skills enterprise employers expect",
+        "HTB certs newer \u2014 government and large enterprise recognition still developing"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Linux and Windows command line",
+          "Basic networking",
+          "Security fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "Complete the HTB Academy Penetration Tester job-role path before attempting CPTS \u2014 it directly maps to the exam content."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "htb-cjca",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "HTB Certified Junior Cybersecurity Associate \u2014 entry-level HTB credential establishing fundamentals before the full CPTS prep. Good confidence builder. Can skip if you already have solid security foundations."
+        },
+        {
+          "cert_id": "htb-cpts",
+          "order": 2,
+          "estimated_time": "4-8 months",
+          "notes": "HTB Certified Penetration Testing Specialist \u2014 the primary HTB pentesting cert and main OSCP community alternative. 10-day practical exam on a realistic network with Active Directory, web apps, and privilege escalation chains. The full HTB Academy Penetration Tester path is mandatory prep \u2014 do not skip any module. Harder than eJPT, comparable to OSCP in actual difficulty."
+        },
+        {
+          "cert_id": "htb-cwes",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "HTB Certified Web Exploitation Specialist adds web application depth to the CPTS network foundation. Together they cover the full pentesting attack surface. Optional if your work is primarily network-focused."
+        }
+      ]
+    }
+  ]
+}

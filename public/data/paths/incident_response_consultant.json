@@ -1,0 +1,161 @@
+{
+  "role_id": "incident_response_consultant",
+  "label": "Incident Response Consultant",
+  "description": "Leads and manages cyber incident response engagements \u2014 detection, containment, eradication, recovery, and breach investigation across enterprise environments.",
+  "job_titles": [
+    "Incident Response Consultant",
+    "IR Lead",
+    "Cyber Incident Handler",
+    "Breach Response Lead",
+    "IR Manager",
+    "CIRT Lead"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "ir_enterprise",
+      "name": "Enterprise IR Track",
+      "rationale": "GCIH is the benchmark IR credential; GEIR adds advanced enterprise-scale response methodology; GCIL adds leadership depth for senior IR roles.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "GCIH is the most recognized IR credential and DoD approved",
+        "GEIR covers advanced enterprise IR methodology",
+        "GCIL adds IR leadership depth",
+        "Strong combination for consulting and enterprise IR team roles"
+      ],
+      "cons": [
+        "High cost without SANS training sponsorship"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security monitoring fundamentals",
+          "Windows and Linux operating systems",
+          "Network traffic analysis",
+          "Basic malware awareness"
+        ],
+        "recommended_certs": [
+          "security-plus"
+        ],
+        "experience": "SOC analyst or security operations experience strongly recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcih",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Incident Handler \u2014 the most recognized IR credential globally. Full incident handling lifecycle, attack techniques, network forensics in IR context, containment/eradication/recovery. Open-book \u2014 build indexed notes by phase. Required by name in most enterprise IR and MSSP job postings."
+        },
+        {
+          "cert_id": "geir",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Enterprise Incident Response \u2014 advanced IR methodology covering enterprise-scale investigations, threat actor profiling during active incidents, and advanced containment strategies."
+        },
+        {
+          "cert_id": "gcil",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Cyber Incident Leadership \u2014 IR team management, stakeholder communication, regulatory notification requirements, and IR program governance. Essential for IR leads who interface with executives and legal counsel during major breaches."
+        }
+      ]
+    },
+    {
+      "id": "ir_practical",
+      "name": "Practical IR Track",
+      "rationale": "Builds strong practical IR skill through hands-on certifications before the major GIAC investment. Good for practitioners building toward an IR consultant role from SOC foundations.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1498,
+      "pros": [
+        "BTL2 100% practical \u2014 proves genuine IR investigation skill",
+        "Lower cost than GIAC-first approach",
+        "Good progression from SOC analyst toward IR consultant"
+      ],
+      "cons": [
+        "Lower employer name recognition than GCIH",
+        "Newer certs building market recognition"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security monitoring and alert triage",
+          "SIEM basics",
+          "Windows and Linux fundamentals"
+        ],
+        "recommended_certs": [
+          "btl1"
+        ],
+        "experience": "BTL1 or equivalent SOC experience before this path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl2",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Security Blue Team Level 2 \u2014 covering threat hunting, malware analysis, and complex incident investigations. 24-hour practical exam. Demonstrates genuine IR investigation skill."
+        },
+        {
+          "cert_id": "ecih",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "EC-Council Certified Incident Handler \u2014 broader IR methodology including legal aspects, regulatory considerations, and enterprise IR program design."
+        },
+        {
+          "cert_id": "gcih",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "The senior recognition credential. With BTL2 and eCIH providing strong foundations, GCIH preparation focuses on deepening attack technique knowledge rather than learning IR concepts from scratch."
+        }
+      ]
+    },
+    {
+      "id": "ir_offsec",
+      "name": "OffSec IR Track",
+      "rationale": "OffSec's incident response cert combined with GCIH's recognized IR credential. OSIR provides practical hands-on IR investigation validation while GCIH covers the methodology and governance layer. Cheaper than the full GIAC enterprise IR stack while still including the most important GIAC credential.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 2076,
+      "pros": [
+        "OSIR is 100% practical \u2014 validates genuine IR investigation skill",
+        "GCIH adds the most recognized IR credential alongside OffSec's practical proof",
+        "More affordable than GCIH + GEIR + GCIL stack",
+        "Strong combination of recognized methodology and practical validation"
+      ],
+      "cons": [
+        "OSIR has lower name recognition than GEIR at enterprise HR filters",
+        "OffSec IR certs newer \u2014 building market presence",
+        "Missing the leadership layer that GCIL provides in the full enterprise track"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security monitoring fundamentals",
+          "Windows and Linux forensics basics",
+          "Network traffic analysis",
+          "Basic malware awareness"
+        ],
+        "recommended_certs": [
+          "btl1"
+        ],
+        "experience": "SOC analyst or security operations experience recommended before this path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcih",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Incident Handler first \u2014 the most recognized IR credential provides the methodology foundation. Open-book exam, build indexed notes by incident phase. Getting GCIH early establishes the employer-recognized credential while you build toward practical depth."
+        },
+        {
+          "cert_id": "osda",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Defense Analyst \u2014 adds practical defense analysis and malware behavioral analysis skills that complement GCIH's incident handling methodology. 24-hour practical exam."
+        },
+        {
+          "cert_id": "osir",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Incident Responder \u2014 practical enterprise IR investigation. With GCIH providing the methodology framework and OSDA the detection analysis foundation, OSIR adds the hands-on investigation and containment skill validation. The combination of GCIH's recognized certification and OSIR's practical proof is a strong IR consultant credential stack."
+        }
+      ]
+    }
+  ]
+}

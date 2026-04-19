@@ -1,0 +1,61 @@
+{
+  "role_id": "security_program_manager",
+  "label": "Security Program Manager",
+  "description": "Manages information security programs at the organizational level \u2014 security project portfolio management, vendor management, security budget planning, and security initiative coordination.",
+  "job_titles": [
+    "Security Program Manager",
+    "InfoSec Manager",
+    "Security PMO Lead",
+    "Cybersecurity Program Manager",
+    "Information Security Manager"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "sec_pm_track",
+      "name": "Security Program Management Track",
+      "rationale": "CISM provides the most widely recognized security management credential. GSLC and GSTRT are GIAC security management credentials for practitioners executing programs rather than owning the full CISO function.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 2996,
+      "pros": [
+        "CISM widely recognized at enterprise and government employers",
+        "GSLC and GSTRT are the most technically-grounded security management credentials",
+        "Strong combination for practitioners from technical backgrounds moving into program management"
+      ],
+      "cons": [
+        "GSLC and GSTRT have less market recognition than CISM at traditional HR filters",
+        "All require significant security experience"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security program management fundamentals",
+          "Project management methodology",
+          "Security governance concepts",
+          "Stakeholder communication"
+        ],
+        "recommended_certs": [],
+        "experience": "5+ years security experience including project or program management responsibilities."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cism",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA CISM \u2014 the most widely recognized security management credential. Establishes the management framework recognition at enterprise and government employers before adding GIAC leadership depth."
+        },
+        {
+          "cert_id": "gslc",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Security Leadership Certification \u2014 security project management, communication, organizational structure, and policy. Connects technical GIAC background to management credentialing. Open-book \u2014 build indexed notes by management domain."
+        },
+        {
+          "cert_id": "gstrt",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Strategic Planning, Policy, and Leadership \u2014 security strategy development, program alignment with business objectives, and board-level communication. Strategic capstone of the GIAC leadership track. With CISM providing recognized management credential and GSLC operational depth, GSTRT completes the strategic leadership layer."
+        }
+      ]
+    }
+  ]
+}

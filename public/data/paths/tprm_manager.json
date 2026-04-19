@@ -1,0 +1,62 @@
+{
+  "role_id": "tprm_manager",
+  "label": "Third-Party Risk Manager",
+  "description": "Manages vendor and third-party risk programs \u2014 SIG questionnaire-based assessments, vendor tiering, continuous monitoring, contractual security requirements, and supply chain risk.",
+  "job_titles": [
+    "TPRM Manager",
+    "Vendor Risk Analyst",
+    "Supplier Security Assessor",
+    "Third Party Risk Analyst",
+    "Supply Chain Risk Manager"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "tprm_standard",
+      "name": "TPRM Standard Track",
+      "rationale": "Shared Assessments CTPRP and CTPRA are the recognized credentials for third-party risk program management and assessment. Together they cover program design and operational assessor skills.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1593,
+      "pros": [
+        "CTPRP and CTPRA are the leading dedicated TPRM credentials",
+        "Practical and directly applicable to vendor risk work",
+        "CRISC adds recognized IT risk framework credential alongside TPRM-specific certs",
+        "Growing regulatory demand for formal TPRM programs"
+      ],
+      "cons": [
+        "Lower name recognition than CISA or CRISC at HR filter level",
+        "Narrower applicability than broader GRC credentials"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Vendor risk assessment methodology",
+          "SIG questionnaire familiarity",
+          "Contract and procurement processes",
+          "Risk management concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "Vendor management, procurement, or GRC experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ctprp",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Shared Assessments Certified Third-Party Risk Professional \u2014 TPRM program design, vendor tiering methodology, assessment frameworks, and regulatory requirements. Primary credential for TPRM program managers who design and oversee vendor risk programs."
+        },
+        {
+          "cert_id": "ctpra",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "Shared Assessments Certified Third-Party Risk Assessor \u2014 conducting vendor assessments using the SIG questionnaire, evaluation methodology, and findings reporting. Complementary to CTPRP \u2014 program design vs. assessment execution. Many practitioners hold both."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA CRISC adds the recognized IT risk management credential that contextualizes TPRM within enterprise risk management. TPRM programs increasingly need to report in terms of enterprise risk impact \u2014 CRISC risk vocabulary is essential for that conversation."
+        }
+      ]
+    }
+  ]
+}

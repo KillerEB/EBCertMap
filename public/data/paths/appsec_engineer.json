@@ -1,0 +1,212 @@
+{
+  "role_id": "appsec_engineer",
+  "label": "AppSec Engineer",
+  "description": "Secures software throughout the development lifecycle. Covers web application penetration testing, secure code review, DevSecOps pipeline integration, threat modeling, and API security.",
+  "job_titles": [
+    "Application Security Engineer",
+    "AppSec Engineer",
+    "Product Security Engineer",
+    "Web Application Penetration Tester",
+    "DevSecOps Engineer",
+    "Secure Software Developer",
+    "Bug Bounty Hunter",
+    "Security Researcher"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "appsec_pentester",
+      "name": "Web Pentesting Specialist Track",
+      "rationale": "For AppSec engineers whose primary function is hands-on web application security testing \u2014 bug bounty, consulting, or in-house red team with web focus. Builds from entry-level practical to the most respected web security credentials.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2097,
+      "pros": [
+        "BSCP is the community gold standard for web security skill validation",
+        "OSWE proves white-box testing capability that very few practitioners have",
+        "Entire path is 100% practical \u2014 no MCQ",
+        "BSCP + OSWE together cover both black-box and white-box approaches"
+      ],
+      "cons": [
+        "OSWE is very demanding \u2014 requires real programming skill",
+        "High total cost for the OSWE component",
+        "Less program management / governance coverage than DevSecOps track"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Web technologies (HTTP, HTML, JavaScript, server-side languages)",
+          "Burp Suite basics",
+          "OWASP Top 10 awareness",
+          "Basic scripting (Python)"
+        ],
+        "recommended_certs": [],
+        "experience": "Web development or web application familiarity is strongly advantageous. Complete PortSwigger Web Security Academy free content before any exam in this path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pwpa",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "TCM Security's entry-level web pentesting cert. 100% practical \u2014 2 days exam, 2 days report writing, reviewed by humans. Builds the foundational web testing and report-writing methodology. Complete the included Practical Bug Bounty course. The report writing requirement from day one develops a professional habit that BSCP and OSWE will reward."
+        },
+        {
+          "cert_id": "bscp",
+          "order": 2,
+          "estimated_time": "4-8 months",
+          "notes": "The primary goal of this track and the most respected web security cert in the practitioner community. Work through the entire PortSwigger Web Security Academy free curriculum \u2014 all topics, all labs, all practitioner and expert labs. This is non-negotiable preparation. The 4-hour exam is genuinely hard \u2014 two multi-stage web app targets, no hints. Most practitioners spend 4-8 months on the Academy before attempting. Requires Burp Suite Professional ($499/yr)."
+        },
+        {
+          "cert_id": "oswe",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "OffSec's advanced white-box web exploitation cert \u2014 a fundamentally different skill from BSCP's black-box approach. You receive source code and must read it to find and chain vulnerabilities for RCE. Requires genuine programming proficiency \u2014 Python scripting is essential. Complete the WEB-300 course material fully before attempting. After BSCP, your web vulnerability knowledge is strong \u2014 OSWE teaches you to translate that into source code reading and custom exploit development."
+        }
+      ]
+    },
+    {
+      "id": "appsec_devsecops",
+      "name": "DevSecOps Track",
+      "rationale": "For AppSec engineers embedded in engineering teams who own pipeline security, threat modeling, and SDLC governance. Builds the combination of security testing knowledge and program management that mature AppSec roles require.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 1897,
+      "pros": [
+        "CDP is the de facto standard for DevSecOps credentialing",
+        "BSCP proves practical web testing skill alongside program management credentials",
+        "CSSLP adds DoD 8140 coverage and SDLC governance depth",
+        "Broad coverage: testing, pipeline security, threat modeling, SDLC"
+      ],
+      "cons": [
+        "CDP is not DoD 8140 approved",
+        "Broader than deep \u2014 less specialized web testing depth than Pentesting track",
+        "Higher total cost if all three are pursued"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Basic software development lifecycle",
+          "Linux command line",
+          "Basic DevOps/CI-CD concepts",
+          "OWASP Top 10 awareness",
+          "Basic scripting"
+        ],
+        "recommended_certs": [],
+        "experience": "Software development or DevOps engineering background is strongly advantageous for CDP. Security engineering experience helps with CSSLP."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "bscp",
+          "order": 1,
+          "estimated_time": "4-8 months",
+          "notes": "Start with practical web testing skill before pipeline security theory. An AppSec engineer who can actually find and demonstrate web vulnerabilities is fundamentally more effective than one who can only configure scanners. Complete the full PortSwigger Web Security Academy curriculum. This investment pays dividends across the entire AppSec career."
+        },
+        {
+          "cert_id": "cdp",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Practical DevSecOps's flagship cert and the most recognized DevSecOps credential. 6-hour practical exam covering SAST, DAST, SCA tool integration into CI/CD pipelines, container security, and IaC. Work through the full course. Requires basic Linux and scripting \u2014 your BSCP preparation has already built command-line comfort. After CDP you can implement and defend security tooling decisions in engineering conversations."
+        },
+        {
+          "cert_id": "csslp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISC2's SDLC security credential and the DoD 8140 approved option for AppSec program management roles. Theory-heavy \u2014 validates process and governance knowledge rather than hands-on testing. Requires 4 years SDLC experience. Study with the Official ISC2 Study Guide. With BSCP and CDP already completed, you have strong practical foundations that make CSSLP's governance framework immediately meaningful rather than abstract."
+        }
+      ]
+    },
+    {
+      "id": "appsec_government",
+      "name": "Government / DoD Track",
+      "rationale": "For AppSec engineers targeting government, defense contractor, or cleared positions. Prioritizes DoD 8140 approved credentials while maintaining meaningful technical depth.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 2398,
+      "pros": [
+        "GWEB is the DoD 8140 approved web application security credential",
+        "CSSLP covers SDLC governance with DoD 8140 approval",
+        "GXPN adds advanced technical depth with DoD approval",
+        "Opens cleared AppSec roles unavailable to non-DoD-approved practitioners"
+      ],
+      "cons": [
+        "GWEB and GXPN are MCQ-heavy \u2014 less practical depth than BSCP or OSWE",
+        "High cost without employer SANS training sponsorship",
+        "Community respect for GWEB is lower than BSCP"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Web technologies and HTTP protocol",
+          "Security fundamentals",
+          "Basic software development experience"
+        ],
+        "recommended_certs": [
+          "security-plus"
+        ],
+        "experience": "Security+ is commonly required as a baseline for government positions."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gweb",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "The DoD 8140 approved web application penetration testing credential. CyberLive practical component adds hands-on weight beyond standard MCQ. Open-book \u2014 build indexed notes. Associated with SANS SEC542. Without SANS training, use community index notes and PortSwigger Web Security Academy free content to build the technical background."
+        },
+        {
+          "cert_id": "csslp",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "DoD 8140 approved SDLC security credential. The program management and governance layer that complements GWEB's testing focus. Requires 4 years SDLC experience \u2014 plan accordingly."
+        },
+        {
+          "cert_id": "gxpn",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "DoD 8140 approved elite credential covering exploit research and advanced techniques. A significant step up in technical difficulty \u2014 requires genuine understanding of assembly, memory management, and advanced exploitation. Associated with SANS SEC660. With GWEB's web security foundation, focus GXPN prep on the network attack and exploit development content that doesn't overlap."
+        }
+      ]
+    },
+    {
+      "id": "appsec_secure_dev",
+      "name": "Secure Development Track",
+      "rationale": "For AppSec engineers embedded in development teams rather than performing pure testing. CSSLP validates secure SDLC governance; CASE validates language-specific secure coding review capability. Paired with CDP for the pipeline integration layer. The profile most valued by engineering organizations building security into development rather than bolting it on.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2497,
+      "pros": [
+        "CSSLP is DoD 8140 approved and the recognized secure SDLC governance credential",
+        "CASE validates language-specific secure code review \u2014 a rare and valued skill",
+        "CDP adds DevSecOps pipeline integration depth",
+        "Strong combination for embedded AppSec engineer roles at mature engineering organizations"
+      ],
+      "cons": [
+        "CSSLP requires 4 years of SDLC experience \u2014 not an entry-level credential",
+        "CASE is vendor-specific to EC-Council \u2014 lower community respect than OSWE or BSCP",
+        "Less recognized in pure pentesting roles \u2014 this path is for development-embedded AppSec"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Software development lifecycle",
+          "At least one programming language (Java or .NET strongly recommended)",
+          "Basic web security concepts",
+          "Secure coding principles"
+        ],
+        "recommended_certs": [],
+        "experience": "Software development or DevOps background required. CSSLP requires 4 years SDLC experience. This is not an entry-level path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "csslp",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "ISC2 Certified Secure Software Lifecycle Professional \u2014 the governance layer covering secure design principles, threat modeling, security testing methodology, and secure SDLC management. DoD 8140 approved. Study with the official ISC2 CSSLP study guide. The 4-year experience requirement means you're likely already working in AppSec before pursuing this."
+        },
+        {
+          "cert_id": "case-java",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "EC-Council Certified Application Security Engineer \u2013 Java. Covers Java-specific secure coding patterns, common Java vulnerability classes, and code review methodology. Choose CASE Java or CASE .NET based on your organization's primary language. Lower community respect than OSWE but directly validates language-specific secure coding review that most AppSec certs don't cover."
+        },
+        {
+          "cert_id": "cdp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "Certified DevSecOps Professional \u2014 adds the pipeline security integration layer. For AppSec engineers embedded in dev teams, knowing how to integrate SAST, DAST, and SCA into CI/CD is as important as knowing how to find vulnerabilities manually. CSSLP's governance knowledge directly informs better DevSecOps policy implementation in CDP."
+        }
+      ]
+    }
+  ]
+}

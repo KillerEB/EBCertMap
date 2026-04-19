@@ -1,0 +1,60 @@
+{
+  "role_id": "wireless_specialist",
+  "label": "Wireless Security Specialist",
+  "description": "Specializes in wireless network security assessment \u2014 WPA2/WPA3 attacks, enterprise wireless, rogue access points, Bluetooth attacks, and wireless intrusion detection.",
+  "job_titles": [
+    "Wireless Security Specialist",
+    "Wireless Pentester",
+    "RF Security Consultant",
+    "Wireless Security Auditor"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "wireless_standard",
+      "name": "Wireless Security Track",
+      "rationale": "OSWP, GAWN, and CWSP cover wireless security from practical exploitation through advanced attacks to enterprise wireless architecture.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1797,
+      "pros": [
+        "OSWP proves hands-on wireless attack capability",
+        "GAWN covers advanced attacks beyond OSWP scope",
+        "CWSP adds enterprise wireless architecture knowledge"
+      ],
+      "cons": [
+        "Thin employer demand specifically for wireless certs vs broader security roles",
+        "OSWP curriculum criticized as dated regarding WPA3 and enterprise wireless",
+        "Physical hardware required for practice"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals (802.11 protocols)",
+          "Linux command line",
+          "Basic security concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "Requires dedicated wireless testing hardware \u2014 a compatible USB wireless adapter with monitor mode and injection support."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "oswp",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "OffSec wireless pentesting cert. WEP/WPA/WPA2 attacks, fake access points, client attacks. 3-hour practical exam. Complete PEN-210 course. Prepare a hardware lab with two compatible wireless adapters."
+        },
+        {
+          "cert_id": "gawn",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC wireless security cert \u2014 advanced attacks beyond OSWP including enterprise wireless (WPA2-Enterprise/802.1X) and Bluetooth attacks. Open-book. Associated with SANS SEC617. DoD 8140 approved."
+        },
+        {
+          "cert_id": "cwsp",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "CWNP enterprise wireless security cert covering WLAN security policies and wireless intrusion prevention. More defensive and architecture-focused \u2014 adds enterprise design perspective for network security engineer roles with wireless scope."
+        }
+      ]
+    }
+  ]
+}

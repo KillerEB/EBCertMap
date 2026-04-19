@@ -1,0 +1,855 @@
+[
+  {
+    "id": "cipp-us",
+    "acronym": "CIPP/US",
+    "full_name": "Certified Information Privacy Professional \u2013 United States",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Content specific to US privacy law; globally relevant for US-focused roles",
+    "skills": [
+      "us_privacy_law",
+      "hipaa_compliance",
+      "ccpa_compliance",
+      "federal_privacy_regulations",
+      "sectoral_privacy_frameworks",
+      "us_data_protection_enforcement"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_legal_awareness",
+        "data_handling_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most widely held privacy certification in the United States covering the full landscape of US federal and state privacy law including HIPAA, CCPA/CPRA, FERPA, GLBA, COPPA, and sector-specific regulations. Not DoD 8140 approved but IAPP certifications are the de facto standard for privacy professionals globally. Requires passing a proctored exam \u2014 no experience requirement. The benchmark entry credential for privacy professionals working with US organizations or handling US personal data. Frequently listed as a requirement alongside CIPM or CIPT in privacy job postings at US companies.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 4,
+      "overall": 5.3
+    }
+  },
+  {
+    "id": "cipp-e",
+    "acronym": "CIPP/E",
+    "full_name": "Certified Information Privacy Professional \u2013 Europe",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Content specific to EU/EEA privacy law; globally relevant for organizations handling EU data",
+    "skills": [
+      "gdpr_compliance",
+      "eu_data_protection_law",
+      "data_subject_rights",
+      "lawful_basis_processing",
+      "dpia_methodology",
+      "cross_border_data_transfers",
+      "supervisory_authority_engagement"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_legal_awareness",
+        "data_handling_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most widely held European privacy certification and the benchmark credential for GDPR compliance globally. Covers the full GDPR framework including lawful basis, data subject rights, DPIAs, controller/processor relationships, cross-border transfer mechanisms, and enforcement. Not DoD 8140 approved but CIPP/E is effectively required for privacy roles at any organization subject to GDPR \u2014 which includes virtually all multinational companies. The single most recognized privacy credential outside the US for practitioners working with European personal data. Often the first privacy cert pursued by security professionals expanding into privacy roles.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 8,
+      "community_respect": 8,
+      "salary_impact": 7,
+      "time_to_prepare": 4,
+      "overall": 5.5
+    }
+  },
+  {
+    "id": "cipp-c",
+    "acronym": "CIPP/C",
+    "full_name": "Certified Information Privacy Professional \u2013 Canada",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "Content specific to Canadian privacy law \u2014 PIPEDA, CPPA, provincial laws",
+    "skills": [
+      "pipeda_compliance",
+      "canadian_privacy_law",
+      "cppa_framework",
+      "provincial_privacy_laws",
+      "public_sector_privacy_canada",
+      "canadian_data_breach_notification"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_legal_awareness",
+        "data_handling_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's Canadian privacy certification covering PIPEDA, the proposed CPPA framework, provincial privacy legislation, and public sector privacy in Canada. Not DoD 8140 approved. Most relevant for privacy professionals working with Canadian organizations or handling Canadian personal data. Less globally recognized than CIPP/US or CIPP/E but essentially required for privacy roles at Canadian organizations. PIPEDA is being replaced by CPPA \u2014 the cert content is actively updated to reflect the transition.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "cipp-a",
+    "acronym": "CIPP/A",
+    "full_name": "Certified Information Privacy Professional \u2013 Asia",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "Content specific to Asia-Pacific privacy laws \u2014 PDPA variants, APEC Privacy Framework",
+    "skills": [
+      "apac_privacy_law",
+      "pdpa_compliance_variants",
+      "apec_privacy_framework",
+      "asia_data_localization",
+      "cross_border_transfer_asia"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_legal_awareness",
+        "data_handling_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's Asia-Pacific privacy certification covering privacy laws across the region including Singapore PDPA, Thailand PDPA, South Korea PIPA, Japan APPI, and the APEC Privacy Framework. Not DoD 8140 approved. Most relevant for privacy professionals at organizations operating across Asia-Pacific markets where privacy regulation has accelerated significantly since 2020. Less commonly listed in job requirements than CIPP/E or CIPP/US but increasingly relevant as Asian privacy regulation matures.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "cipp-cn",
+    "acronym": "CIPP/CN",
+    "full_name": "Certified Information Privacy Professional \u2013 China",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "Content specific to China privacy and data law \u2014 PIPL, DSL, CSL",
+    "skills": [
+      "pipl_compliance",
+      "china_data_security_law",
+      "cybersecurity_law_china",
+      "cross_border_data_transfer_china",
+      "data_localization_china",
+      "chinese_regulatory_framework"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_legal_awareness",
+        "data_handling_concepts",
+        "china_regulatory_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's China-specific privacy certification covering the Personal Information Protection Law (PIPL), Data Security Law (DSL), and Cybersecurity Law (CSL) \u2014 China's comprehensive data governance framework. Not DoD 8140 approved. China's data regulations are among the most complex and rapidly evolving in the world, and CIPP/CN is one of very few structured credentials for practitioners navigating them. Most relevant for privacy professionals at multinational organizations operating in or transferring data from China, where PIPL's extraterritorial reach is significant.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://iapp.org/certify/cipp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "cipm",
+    "acronym": "CIPM",
+    "full_name": "Certified Information Privacy Manager",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "data_protection_classification",
+      "privacy_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "privacy_program_management",
+      "privacy_governance",
+      "privacy_risk_assessment",
+      "privacy_operations",
+      "data_protection_by_design",
+      "privacy_metrics_and_reporting",
+      "dpo_responsibilities"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "privacy_fundamentals",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's privacy management certification covering the operational side of running a privacy program \u2014 governance frameworks, privacy risk assessment, data mapping, privacy operations, and Data Protection Officer responsibilities. Not DoD 8140 approved. Where CIPP concentrations cover the legal frameworks, CIPM covers the management and operational implementation of privacy programs. The most common companion cert to CIPP/E or CIPP/US \u2014 together they cover both regulatory knowledge and program management. Expected for Data Protection Officers and Privacy Program Managers at organizations with formal privacy functions.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipm/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 4,
+      "overall": 5.0
+    }
+  },
+  {
+    "id": "cipt",
+    "acronym": "CIPT",
+    "full_name": "Certified Information Privacy Technologist",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_engineering",
+      "data_protection_classification"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "privacy_by_design",
+      "privacy_engineering",
+      "data_minimization_implementation",
+      "anonymization_and_pseudonymization",
+      "privacy_enhancing_technologies",
+      "privacy_risk_in_systems",
+      "technical_privacy_controls"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "privacy_fundamentals",
+        "technical_systems_background",
+        "data_management_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's technology-focused privacy certification bridging the gap between legal privacy requirements and technical implementation. Covers Privacy by Design, anonymization, pseudonymization, privacy-enhancing technologies, and how to embed privacy controls into systems and processes. Not DoD 8140 approved. The most relevant IAPP certification for security engineers, developers, and architects who need to implement privacy requirements technically rather than just understand them legally. The technical focus differentiates CIPT from CIPM (management) and CIPP (law) \u2014 together these three cover the full privacy professional competency framework.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/cipt/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "aigp",
+    "acronym": "AIGP",
+    "full_name": "AI Governance Professional",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy",
+      "ai_security"
+    ],
+    "subdomain": [
+      "privacy_law_compliance",
+      "ai_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_governance_frameworks",
+      "eu_ai_act",
+      "ai_risk_management",
+      "algorithmic_accountability",
+      "ai_ethics",
+      "ai_privacy_intersection",
+      "nist_ai_rmf"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "privacy_fundamentals",
+        "basic_ai_awareness",
+        "regulatory_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's AI governance certification covering the intersection of AI regulation, ethics, risk management, and privacy \u2014 launched to address the EU AI Act and global AI governance frameworks. Not DoD 8140 approved. One of very few exam-backed AI governance credentials and currently the most recognized. Covers EU AI Act compliance, NIST AI RMF, algorithmic accountability, and the privacy implications of AI systems. Growing rapidly in demand as organizations prepare for EU AI Act enforcement and other jurisdictions follow with similar regulation. Best suited for privacy professionals and compliance officers expanding into AI governance.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://iapp.org/certify/aigp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "fip",
+    "acronym": "FIP",
+    "full_name": "Fellow of Information Privacy",
+    "issuing_body": "IAPP",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance",
+      "privacy_engineering"
+    ],
+    "level": "elite",
+    "practical_weight": 10,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_privacy_expertise",
+      "privacy_leadership",
+      "cross_jurisdictional_privacy",
+      "privacy_program_leadership"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "advanced_privacy_expertise",
+        "privacy_leadership_experience"
+      ],
+      "recommended_certs": [
+        "cipp-us",
+        "cipm"
+      ]
+    },
+    "summary": "IAPP's highest designation \u2014 not a standalone exam but an elevated status requiring active CIPP certification plus either CIPM or CIPT, demonstrating comprehensive privacy expertise across law, management, and technology dimensions. The fee for FIP designation is included with IAPP membership. Not DoD 8140 approved. FIP denotes a privacy professional who has validated competency across the full privacy practitioner spectrum. Recognizable as a senior privacy credential \u2014 the equivalent of holding multiple complementary privacy certifications and receiving formal recognition for that breadth.",
+    "flags": [],
+    "official_url": "https://iapp.org/certify/fip/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 5,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "cdpse",
+    "acronym": "CDPSE",
+    "full_name": "Certified Data Privacy Solutions Engineer",
+    "issuing_body": "ISACA",
+    "domain": [
+      "data_privacy",
+      "iam"
+    ],
+    "subdomain": [
+      "privacy_engineering",
+      "data_protection_classification"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "privacy_architecture",
+      "privacy_by_design_technical",
+      "data_governance_technical",
+      "privacy_risk_technical",
+      "identity_and_access_privacy",
+      "data_lifecycle_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "technical_systems_background",
+        "privacy_concepts",
+        "data_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's technical privacy certification covering the engineering and architecture aspects of privacy solutions \u2014 how to technically implement privacy controls, data governance, and privacy by design. Requires two years of privacy engineering experience. Not DoD 8140 approved. Bridges the gap between ISACA's traditional GRC certifications and the technical privacy space that CIPT covers from the IAPP side. CDPSE is stronger on the security and data governance technical implementation while CIPT is stronger on privacy engineering methodology. Worth considering as a complement to CISA or CRISC for technical GRC professionals adding privacy to their credential stack.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cdpse",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "sc-401",
+    "acronym": "SC-401",
+    "full_name": "Microsoft Certified: Information Security Administrator Associate",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "data_loss_prevention",
+      "data_protection_classification"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant in Microsoft 365 environments",
+    "skills": [
+      "microsoft_purview_dlp",
+      "information_protection_labels",
+      "data_classification_microsoft",
+      "insider_risk_management",
+      "microsoft_purview_compliance",
+      "ediscovery",
+      "communication_compliance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "microsoft_365_familiarity",
+        "security_concepts",
+        "data_governance_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's information security and compliance certification \u2014 launched in 2025 replacing the retired SC-400. Covers Microsoft Purview for data classification, DLP, information protection labels, insider risk management, and eDiscovery. One-year renewal. Not DoD 8140 approved. In organizations running Microsoft 365 \u2014 which is most enterprises \u2014 this is the primary technical certification for practitioners implementing data protection and compliance controls. The Purview platform has become comprehensive enough that SC-401 covers significant ground across DLP, classification, and privacy operations.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "exin-pdpf",
+    "acronym": "PDPF",
+    "full_name": "EXIN Privacy and Data Protection Foundation",
+    "issuing_body": "EXIN",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "beginner",
+    "practical_weight": 5,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "Particularly recognized in Netherlands, Belgium, and broader EU",
+    "skills": [
+      "gdpr_fundamentals",
+      "data_protection_principles",
+      "data_subject_rights_basics",
+      "privacy_awareness",
+      "basic_compliance_concepts"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_it_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EXIN's foundational privacy certification covering GDPR basics and data protection principles. Not DoD 8140 approved. Particularly recognized in Netherlands and Benelux markets where EXIN originates. A reasonable entry point to GDPR awareness training, though IAPP's CIPP/E is the more globally recognized option at intermediate and above. Best suited as a structured awareness credential for non-privacy professionals who need documented GDPR foundation knowledge.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.exin.com/data-protection-security/exin-privacy-and-data-protection/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 1,
+      "employer_recognition": 3,
+      "community_respect": 3,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 2.2
+    }
+  },
+  {
+    "id": "exin-pdpp",
+    "acronym": "PDPP",
+    "full_name": "EXIN Privacy and Data Protection Practitioner",
+    "issuing_body": "EXIN",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_law_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 350,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "Particularly recognized in Netherlands, Belgium, and broader EU",
+    "skills": [
+      "gdpr_implementation",
+      "dpia_execution",
+      "data_protection_officer_role",
+      "privacy_governance_basics",
+      "data_breach_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "gdpr_fundamentals",
+        "basic_compliance_concepts"
+      ],
+      "recommended_certs": [
+        "exin-pdpf"
+      ]
+    },
+    "summary": "EXIN's practitioner-level privacy certification covering GDPR implementation, DPIA execution, DPO responsibilities, and data breach management. Not DoD 8140 approved. More practical than the Foundation cert but covers similar ground to IAPP's CIPP/E and CIPM at a lower price point. Stronger recognition in Benelux and parts of Europe than globally. For practitioners in those markets who want a structured GDPR practitioner credential without the IAPP membership cost model, EXIN PDPP is a valid alternative.",
+    "flags": [],
+    "official_url": "https://www.exin.com/data-protection-security/exin-privacy-and-data-protection/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.3
+    }
+  },
+  {
+    "id": "pecb-iso27701-li",
+    "acronym": "ISO 27701 LI",
+    "full_name": "PECB Certified ISO/IEC 27701 Lead Implementer",
+    "issuing_body": "PECB",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_engineering",
+      "data_protection_classification"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East, Asia",
+    "skills": [
+      "iso_27701_pims_implementation",
+      "privacy_information_management",
+      "gdpr_technical_implementation",
+      "privacy_controls_design",
+      "controller_processor_requirements_technical"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isms_concepts",
+        "privacy_fundamentals",
+        "iso_27001_basics"
+      ],
+      "recommended_certs": [
+        "pecb-iso27001-foundation"
+      ]
+    },
+    "summary": "PECB's ISO/IEC 27701 Lead Implementer certification covering the Privacy Information Management System (PIMS) standard \u2014 the privacy extension to ISO 27001. Covers implementing privacy controls as an extension of an existing ISMS, addressing GDPR controller and processor requirements through the ISO framework. Not DoD 8140 approved. Most relevant for organizations that are already ISO 27001 certified and want to extend their management system to cover privacy formally. Increasingly recognized as organizations seek to combine security and privacy certification under a unified management system.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27701",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "onetrust-otcpp",
+    "acronym": "OTCPP",
+    "full_name": "OneTrust Certified Privacy Professional",
+    "issuing_body": "OneTrust",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "privacy_engineering",
+      "data_protection_classification"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where OneTrust is deployed",
+    "skills": [
+      "onetrust_platform",
+      "dpia_onetrust",
+      "data_mapping_onetrust",
+      "consent_management",
+      "privacy_request_management",
+      "vendor_risk_onetrust"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "privacy_fundamentals",
+        "compliance_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OneTrust's platform certification covering their privacy management platform \u2014 the most widely deployed privacy operations tool globally. Free for OneTrust customers. Covers data mapping, DPIA workflow, consent management, privacy request handling, and vendor risk management within the OneTrust platform. Not DoD 8140 approved. Like all vendor platform certs, validates platform proficiency rather than privacy expertise. Given OneTrust's dominant market position in privacy tech, this cert has genuine value for privacy operations practitioners who use the platform daily.",
+    "flags": [
+      "free",
+      "tool_vendor"
+    ],
+    "official_url": "https://www.onetrust.com/training/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 3.5
+    }
+  },
+  {
+    "id": "hcispp",
+    "acronym": "HCISPP",
+    "full_name": "HealthCare Information Security and Privacy Practitioner",
+    "issuing_body": "ISC2",
+    "domain": [
+      "data_privacy",
+      "grc"
+    ],
+    "subdomain": [
+      "privacy_law_compliance",
+      "data_protection_classification"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Primarily relevant in US healthcare; internationally recognized",
+    "skills": [
+      "hipaa_security_rule",
+      "hipaa_privacy_rule",
+      "healthcare_data_protection",
+      "healthcare_compliance_frameworks",
+      "phi_handling",
+      "healthcare_risk_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "healthcare_sector_awareness",
+        "security_fundamentals",
+        "privacy_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISC2's healthcare-specific security and privacy certification covering HIPAA Security Rule, Privacy Rule, PHI handling, and healthcare compliance frameworks. Not DoD 8140 approved. The intersection of security and privacy makes HCISPP uniquely suited for practitioners working in healthcare who need both skill sets validated in a single credential. Required or preferred in many healthcare IT security and privacy roles. Complements CIPP/US for those needing dedicated HIPAA depth alongside broader US privacy law coverage.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/hcispp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "cdmp",
+    "acronym": "CDMP",
+    "full_name": "Certified Data Management Professional",
+    "issuing_body": "DAMA International",
+    "domain": [
+      "data_privacy"
+    ],
+    "subdomain": [
+      "data_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 300,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "data_governance",
+      "data_quality_management",
+      "metadata_management",
+      "data_architecture",
+      "data_security_governance",
+      "master_data_management",
+      "data_lifecycle_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "data_management_experience",
+        "database_concepts",
+        "business_intelligence_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "DAMA International's data management certification covering the full DAMA-DMBOK2 knowledge framework including data governance, quality, architecture, security, and lifecycle management. Not DoD 8140 approved. CDMP is the primary credential for data management professionals and provides the data governance foundation that privacy programs build on. Available at Associate, Practitioner, and Master levels based on exam scores. Most relevant for data stewards, data governance leads, and practitioners who need formal data management methodology credentials alongside privacy certifications.",
+    "flags": [],
+    "official_url": "https://www.dama.org/cpages/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  }
+]

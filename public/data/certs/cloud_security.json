@@ -1,0 +1,1053 @@
+[
+  {
+    "id": "ccsp",
+    "acronym": "CCSP",
+    "full_name": "Certified Cloud Security Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_architecture",
+      "cloud_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_architecture",
+      "cloud_data_security",
+      "cloud_platform_infrastructure_security",
+      "cloud_application_security",
+      "cloud_operations",
+      "legal_risk_compliance",
+      "cloud_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_platform_fundamentals",
+        "security_architecture_concepts",
+        "risk_management",
+        "networking"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "The gold standard vendor-neutral cloud security certification and the most recognized cloud security credential globally for senior roles. Covers the full cloud security domain across architecture, data security, platform security, application security, operations, and compliance \u2014 all six ISC2 domains at a strategic and technical level. Requires five years of IT experience including three in cloud security. DoD 8140 approved and expected for senior cloud security architect and CISO roles in government and large enterprise. The main criticism is that it's broad rather than deep, reflecting the breadth of the ISC2 CBK approach. Valuable primarily for demonstrating cloud security seniority and satisfying compliance requirements rather than proving hands-on technical cloud skill.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/ccsp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 9,
+      "community_respect": 7,
+      "salary_impact": 9,
+      "time_to_prepare": 7,
+      "overall": 6.1
+    }
+  },
+  {
+    "id": "ccsk",
+    "acronym": "CCSK",
+    "full_name": "Certificate of Cloud Security Knowledge",
+    "issuing_body": "Cloud Security Alliance (CSA)",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_fundamentals",
+      "cloud_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_fundamentals",
+      "cloud_risk_management",
+      "cloud_architecture_security",
+      "data_security_cloud",
+      "incident_response_cloud",
+      "cloud_compliance",
+      "shared_responsibility_model"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_cloud_concepts",
+        "security_fundamentals",
+        "networking_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The Cloud Security Alliance's foundational cloud security certification and one of the most recognized vendor-neutral cloud security credentials at the intermediate level. Based on the CSA's Security Guidance and the ENISA Cloud Computing Risk Assessment \u2014 open-book exam using those documents. Covers cloud risk, architecture, data security, incident response, and compliance from a governance and architectural perspective rather than platform-specific technical skills. Not DoD 8140 approved but widely respected in the industry and often listed as a prerequisite or co-requisite for CCSP preparation. Best suited for architects, managers, and consultants rather than hands-on cloud engineers.",
+    "flags": [],
+    "official_url": "https://cloudsecurityalliance.org/education/ccsk",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 3,
+      "overall": 4.6
+    }
+  },
+  {
+    "id": "ccak",
+    "acronym": "CCAK",
+    "full_name": "Certificate of Cloud Auditing Knowledge",
+    "issuing_body": "Cloud Security Alliance (CSA) / ISACA",
+    "domain": [
+      "cloud_security",
+      "grc"
+    ],
+    "subdomain": [
+      "cloud_governance",
+      "cloud_compliance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_audit_methodology",
+      "cloud_controls_assessment",
+      "csa_ccm_framework",
+      "cloud_governance_audit",
+      "cloud_risk_audit",
+      "third_party_cloud_audit",
+      "cloud_compliance_assessment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_security_basics",
+        "audit_concepts",
+        "risk_management_basics"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "A joint CSA and ISACA certification covering cloud auditing methodology, controls assessment using the CSA Cloud Controls Matrix (CCM), and governance auditing. Fills the gap between technical cloud security and compliance audit \u2014 designed for auditors, compliance professionals, and GRC practitioners working in cloud environments. Not DoD 8140 approved. Less well-known than CCSK or CCSP but occupies a genuine niche for professionals who audit cloud providers and cloud-native environments. Recommended for those already holding CISA or similar audit credentials who need cloud-specific audit methodology.",
+    "flags": [],
+    "official_url": "https://cloudsecurityalliance.org/education/ccak",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "cczt",
+    "acronym": "CCZT",
+    "full_name": "Certificate of Competence in Zero Trust",
+    "issuing_body": "Cloud Security Alliance (CSA)",
+    "domain": [
+      "cloud_security",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "zero_trust_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "zero_trust_principles",
+      "zero_trust_architecture_design",
+      "identity_centric_security",
+      "microsegmentation",
+      "zero_trust_implementation",
+      "zero_trust_maturity_assessment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_security_basics",
+        "networking_fundamentals",
+        "identity_management_basics"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "The only vendor-neutral certification dedicated specifically to Zero Trust architecture and implementation. Covers Zero Trust principles, design, identity-centric security, microsegmentation, and maturity assessment based on the CSA's Zero Trust Advancement Center framework. Not DoD 8140 approved but increasingly relevant as Zero Trust becomes a regulatory and compliance requirement across government and enterprise. Best suited for architects and security engineers implementing Zero Trust frameworks rather than operations staff. As the first standalone Zero Trust cert, it has growing recognition but limited competition to benchmark against.",
+    "flags": [],
+    "official_url": "https://cloudsecurityalliance.org/education/cczt",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "aws-security-specialty",
+    "acronym": "AWS Security Specialty",
+    "full_name": "AWS Certified Security \u2013 Specialty",
+    "issuing_body": "Amazon Web Services",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_engineering",
+      "cloud_iam"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 300,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "aws_iam",
+      "aws_network_security",
+      "aws_data_protection",
+      "aws_logging_monitoring",
+      "aws_incident_response",
+      "aws_security_services",
+      "infrastructure_protection_aws"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "aws_fundamentals",
+        "cloud_security_concepts",
+        "networking",
+        "encryption_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most recognized cloud security certification for AWS environments and a near-requirement for senior cloud security roles in AWS-heavy organizations. Covers IAM, network security, data protection, logging, monitoring, and incident response specifically within the AWS ecosystem using native services (GuardDuty, Security Hub, Macie, WAF, etc.). Not DoD 8140 approved but AWS certification has substantial employer recognition in both commercial and government cloud environments. The specialty-level difficulty means this isn't an entry credential \u2014 meaningful AWS operational experience is genuinely needed to pass and apply the knowledge. Essential for cloud security engineers and architects working primarily in AWS.",
+    "flags": [],
+    "official_url": "https://aws.amazon.com/certification/certified-security-specialty/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 8,
+      "time_to_prepare": 6,
+      "overall": 6.0
+    }
+  },
+  {
+    "id": "az-500",
+    "acronym": "AZ-500",
+    "full_name": "Microsoft Certified: Azure Security Engineer Associate",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "cloud_security",
+      "iam"
+    ],
+    "subdomain": [
+      "cloud_security_engineering"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "azure_iam",
+      "azure_network_security",
+      "azure_security_center",
+      "azure_defender",
+      "azure_key_vault",
+      "azure_monitor_security",
+      "azure_policy_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "azure_fundamentals",
+        "networking",
+        "identity_management",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's Azure security engineering certification covering identity, network security, data protection, and security operations within the Azure platform. The most relevant Microsoft security cert for hands-on cloud security engineers and a natural complement to SC-200 for those operating in Microsoft-heavy environments. Performance-based questions add some practical element. One-year renewal is aggressive but keeps the content current with Azure's rapid evolution. Not DoD 8140 approved. Widely recognized by employers and seen in job requirements across commercial and government Azure deployments. For cloud security roles in organizations running Microsoft Azure, AZ-500 is effectively mandatory.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 8,
+      "time_to_prepare": 5,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "sc-100",
+    "acronym": "SC-100",
+    "full_name": "Microsoft Certified: Cybersecurity Architect Expert",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "cloud_security",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "cloud_security_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_architecture_microsoft",
+      "zero_trust_design_microsoft",
+      "cloud_security_design",
+      "compliance_architecture",
+      "identity_architecture",
+      "hybrid_security_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "microsoft_security_ecosystem",
+        "security_architecture_concepts",
+        "cloud_security"
+      ],
+      "recommended_certs": [
+        "az-500",
+        "sc-200"
+      ]
+    },
+    "summary": "Microsoft's expert-level security architecture certification requiring a prerequisite associate-level cert (AZ-500 or SC-200 or similar). Covers designing Zero Trust architectures, security operations strategies, and security posture across the Microsoft ecosystem. Designed for cybersecurity architects who design security solutions rather than implement or operate them. One-year renewal keeps it current. Not DoD 8140 approved. Valuable for senior security architects in organizations with significant Microsoft investment. Requires demonstrable breadth across the Microsoft security portfolio \u2014 a genuine expert-level credential rather than an accessible intermediate cert.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.5
+    }
+  },
+  {
+    "id": "gcp-security-engineer",
+    "acronym": "GCP Security Engineer",
+    "full_name": "Google Cloud Professional Cloud Security Engineer",
+    "issuing_body": "Google Cloud",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 200,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "gcp_iam",
+      "gcp_network_security",
+      "gcp_data_protection",
+      "gcp_security_operations",
+      "google_cloud_armor",
+      "gcp_compliance",
+      "vpc_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "gcp_fundamentals",
+        "cloud_security_concepts",
+        "networking",
+        "identity_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Google Cloud's security engineering certification covering IAM, network security, data protection, and security operations within the GCP ecosystem. Less commonly required than AWS Security Specialty or AZ-500 purely because GCP has a smaller market share than AWS and Azure, but essential for security engineers working in GCP-heavy environments. Not DoD 8140 approved. The two-year renewal strikes a reasonable balance between AWS's three-year and Microsoft's one-year cycles. For practitioners working across multi-cloud environments the combination of AWS Security Specialty and AZ-500 is typically prioritized before GCP, but GCP roles increasingly list this cert as required.",
+    "flags": [],
+    "official_url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 5,
+      "overall": 5.3
+    }
+  },
+  {
+    "id": "gcsa",
+    "acronym": "GCSA",
+    "full_name": "GIAC Cloud Security Automation",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_engineering",
+      "devsecops"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_automation",
+      "infrastructure_as_code_security",
+      "ci_cd_security",
+      "container_security",
+      "kubernetes_security",
+      "devsecops_practices",
+      "cloud_native_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_platforms_experience",
+        "scripting_python_or_bash",
+        "devops_concepts",
+        "security_engineering"
+      ],
+      "recommended_certs": [
+        "gcad"
+      ]
+    },
+    "summary": "GIAC's cloud security automation certification targeting practitioners who build secure cloud-native infrastructure and CI/CD pipelines. Covers IaC security, container and Kubernetes security, DevSecOps practices, and cloud-native security automation \u2014 the engineering side of cloud security rather than governance or operations. DoD 8140 approved. Relatively rare cert that fills an important gap between cloud security governance (CCSP) and cloud platform security (AWS/Azure specialty certs). Most valuable for cloud security engineers and DevSecOps practitioners building secure infrastructure at scale. Requires genuine scripting and DevOps experience to get value from the content.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "gcad",
+    "acronym": "GCAD",
+    "full_name": "GIAC Cloud Security Architecture and Design",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "cloud_security",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "cloud_security_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_architecture",
+      "cloud_network_design",
+      "identity_architecture_cloud",
+      "data_protection_architecture",
+      "cloud_threat_modeling",
+      "multi_cloud_security_design",
+      "cloud_zero_trust_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_platforms_multi",
+        "security_architecture_principles",
+        "networking_advanced",
+        "identity_management"
+      ],
+      "recommended_certs": [
+        "ccsk"
+      ]
+    },
+    "summary": "GIAC's cloud security architecture certification covering the design and architectural aspects of securing cloud environments \u2014 threat modeling, network architecture, identity design, and data protection at a strategic level. DoD 8140 approved. Complements GCSA (automation/engineering) and fills the architecture gap that AWS/Azure specialty certs don't address. Most valuable for senior cloud security architects designing multi-cloud or hybrid environments rather than engineers implementing specific cloud services. Paired with GCSA, it forms a comprehensive GIAC cloud security credential stack.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "cloud-plus",
+    "acronym": "Cloud+",
+    "full_name": "CompTIA Cloud+",
+    "issuing_body": "CompTIA",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_fundamentals"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 358,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_architecture_basics",
+      "cloud_security_controls",
+      "cloud_deployment_models",
+      "virtualization_security",
+      "identity_management_cloud",
+      "cloud_incident_response",
+      "cloud_governance_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "virtualization_concepts",
+        "security_basics"
+      ],
+      "recommended_certs": [
+        "security-plus"
+      ]
+    },
+    "summary": "CompTIA's vendor-neutral cloud security certification covering cloud architecture, deployment models, security controls, and governance. DoD 8140 approved which is its primary competitive advantage. Less technical depth than AWS Security Specialty or GCAD but accessible without platform-specific cloud experience. Fills the government/contractor pipeline requirement for a cloud security credential that doesn't mandate AWS or Azure knowledge. In the practitioner community it's considered less rigorous than platform-specific alternatives, but for government roles where DoD approval matters and platform neutrality is required, Cloud+ serves a genuine purpose.",
+    "flags": [],
+    "official_url": "https://www.comptia.org/certifications/cloud",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 3,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.4
+    }
+  },
+  {
+    "id": "ztca",
+    "acronym": "ZTCA",
+    "full_name": "Zscaler Zero Trust Cyber Associate",
+    "issuing_body": "Zscaler",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "zero_trust_architecture",
+      "cloud_security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Zscaler products are deployed",
+    "skills": [
+      "zero_trust_fundamentals",
+      "sase_concepts",
+      "zscaler_platform_awareness",
+      "cloud_security_basics",
+      "secure_access_concepts"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "security_fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Zscaler's entry-level certification covering Zero Trust and SASE concepts with a focus on the Zscaler platform. Currently free to attempt, making it an accessible starting point for practitioners entering the Zscaler ecosystem or wanting foundational Zero Trust knowledge. Like all vendor platform certs, validates Zscaler-specific knowledge rather than transferable zero trust engineering skill. Not DoD 8140 approved. Most valuable as a first step in the Zscaler certification path for administrators and architects working with Zscaler products.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.3
+    }
+  },
+  {
+    "id": "zdta",
+    "acronym": "ZDTA",
+    "full_name": "Zscaler for Users Administrator",
+    "issuing_body": "Zscaler",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "sase_operations",
+      "zero_trust_architecture"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 250,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Zscaler products are deployed",
+    "skills": [
+      "zscaler_internet_access_admin",
+      "zpa_administration",
+      "zscaler_policy_management",
+      "ssl_inspection_configuration",
+      "zscaler_reporting",
+      "user_access_management_zscaler"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_concepts",
+        "sase_awareness"
+      ],
+      "recommended_certs": [
+        "ztca"
+      ]
+    },
+    "summary": "Zscaler's administrator-level certification for managing Zscaler Internet Access (ZIA) and Zscaler Private Access (ZPA) \u2014 the core Zscaler SASE products. Covers policy management, SSL inspection, and access controls. Requires access to a Zscaler environment for meaningful preparation. Not DoD 8140 approved. Valuable for administrators in organizations running Zscaler as their SASE or zero trust network access platform. Zscaler has significant enterprise and government market penetration, making this cert relevant in a meaningful number of environments.",
+    "flags": [],
+    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.3
+    }
+  },
+  {
+    "id": "zdte",
+    "acronym": "ZDTE",
+    "full_name": "Zscaler for Users Engineer",
+    "issuing_body": "Zscaler",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "sase_operations",
+      "zero_trust_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 350,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Zscaler products are deployed",
+    "skills": [
+      "zscaler_advanced_configuration",
+      "zscaler_troubleshooting",
+      "zscaler_architecture_design",
+      "api_integration_zscaler",
+      "advanced_policy_engineering",
+      "zscaler_deployment_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_advanced",
+        "security_architecture",
+        "cloud_concepts"
+      ],
+      "recommended_certs": [
+        "zdta"
+      ]
+    },
+    "summary": "Zscaler's advanced engineering certification covering complex Zscaler architecture design, advanced configuration, troubleshooting, and API integration. Targets engineers designing and building Zscaler deployments rather than administrators maintaining them. Not DoD 8140 approved. The highest individual technical Zscaler certification and meaningful in organizations with complex Zscaler deployments where engineering depth is needed. Requires solid networking and security architecture background beyond basic Zscaler familiarity.",
+    "flags": [],
+    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "panw-cloud-security-professional",
+    "acronym": "PANW Cloud Security Professional",
+    "full_name": "Palo Alto Networks Certified Cloud Security Professional",
+    "issuing_body": "Palo Alto Networks",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_engineering"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 200,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "prisma_cloud_operations",
+      "cloud_security_posture_management",
+      "cloud_workload_protection",
+      "cloud_network_security_panw",
+      "code_security_panw",
+      "iac_security_scanning"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_platforms_basics",
+        "security_concepts",
+        "networking"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Palo Alto Networks' cloud security certification covering Prisma Cloud \u2014 their CNAPP (Cloud Native Application Protection Platform) covering CSPM, CWPP, and code security. Part of the new role-based framework replacing the retired PCCSE cert. In-person only exam since March 2025, 2-year validity. Not DoD 8140 approved. Relevant in organizations using Prisma Cloud for cloud security posture management and workload protection. As CNAPP adoption grows this cert becomes more relevant, but Prisma Cloud's market position relative to alternatives (Wiz, Lacework, Orca) affects the cert's long-term relevance.",
+    "flags": [],
+    "official_url": "https://www.paloaltonetworks.com/services/education/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "cks",
+    "acronym": "CKS",
+    "full_name": "Certified Kubernetes Security Specialist",
+    "issuing_body": "Cloud Native Computing Foundation (CNCF) / Linux Foundation",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "container_security",
+      "devsecops"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 395,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "kubernetes_security",
+      "container_security",
+      "pod_security",
+      "network_policies_kubernetes",
+      "rbac_kubernetes",
+      "supply_chain_security",
+      "runtime_security_kubernetes",
+      "image_scanning"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "kubernetes_administration",
+        "container_concepts",
+        "linux_administration",
+        "networking"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The only practitioner certification dedicated specifically to Kubernetes security \u2014 100% hands-on two-hour exam in a live Kubernetes cluster environment. Covers cluster hardening, network policies, RBAC, pod security, supply chain security, and runtime protection. Requires passing CKA (Certified Kubernetes Administrator) first or demonstrating equivalent knowledge. Not DoD 8140 approved but highly respected in the cloud engineering and DevSecOps communities. As Kubernetes dominates container orchestration, this is increasingly essential for cloud security engineers and DevSecOps practitioners working in container-native environments. The fully practical format is a genuine differentiator.",
+    "flags": [],
+    "official_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 6.3
+    }
+  },
+  {
+    "id": "gdsa",
+    "acronym": "GDSA",
+    "full_name": "GIAC Defensible Security Architecture",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "cloud_security",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "cloud_security_architecture",
+      "zero_trust_architecture"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "defensible_architecture_design",
+      "zero_trust_implementation",
+      "network_security_architecture",
+      "cloud_security_design",
+      "detection_architecture",
+      "threat_informed_defense",
+      "segmentation_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "network_security_advanced",
+        "cloud_architecture",
+        "security_operations",
+        "threat_modeling"
+      ],
+      "recommended_certs": [
+        "gcih",
+        "gcfa"
+      ]
+    },
+    "summary": "GIAC's certification for designing defensible security architectures \u2014 covering Zero Trust implementation, network segmentation, detection architecture, and threat-informed defensive design. Bridges the gap between technical security operations and architectural design. DoD 8140 approved. Particularly relevant for senior practitioners transitioning from operations into architecture roles, or architects wanting to validate their defensive design skills. Less platform-specific than AWS/Azure certs but more architectural than most operational certs. Pairs well with GCAD for a comprehensive GIAC architecture credential stack.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/defensible-security-architecture-gdsa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "oci-security-professional",
+    "acronym": "OCI Security Professional",
+    "full_name": "Oracle Cloud Infrastructure 2025 Certified Security Professional",
+    "issuing_body": "Oracle",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 245,
+    "renewal": "1.5 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant in Oracle Cloud environments",
+    "skills": [
+      "oci_iam",
+      "oci_network_security",
+      "oci_data_protection",
+      "oci_key_management",
+      "oci_security_services",
+      "oci_compliance_tools"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "oci_fundamentals",
+        "cloud_security_concepts",
+        "networking",
+        "identity_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Oracle's cloud security certification covering IAM, network security, data protection, and security services within Oracle Cloud Infrastructure. Updated annually \u2014 the 2025 version reflects current OCI services and security capabilities. Not DoD 8140 approved. Oracle Cloud has significant adoption in database-heavy enterprise environments and government, making this cert relevant in those specific contexts. Less commonly seen in job requirements than AWS or Azure security certs due to OCI's smaller market share, but valuable for security practitioners working specifically in Oracle Cloud environments.",
+    "flags": [],
+    "official_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional/pexam_1Z0-1104-25",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "kcsa",
+    "acronym": "KCSA",
+    "full_name": "Kubernetes and Cloud Native Security Associate",
+    "issuing_body": "Cloud Native Computing Foundation (CNCF)",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "container_security",
+      "kubernetes_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "kubernetes_security",
+      "container_security",
+      "container_security_basics",
+      "pod_security",
+      "rbac_kubernetes",
+      "cloud_security_fundamentals",
+      "supply_chain_security_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "kubernetes_fundamentals",
+        "container_concepts",
+        "linux_administration",
+        "cloud_platform_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CNCF's entry-level Kubernetes and cloud native security certification, delivered as a 60-question MCQ exam with a free retake included. Does not require CKA as a prerequisite, making it accessible to practitioners building toward the full CKS. Covers the Kubernetes security model, pod security standards, RBAC, network policies, supply chain security fundamentals, and cloud native security concepts. A natural entry point for cloud security engineers and DevSecOps practitioners moving into Kubernetes security before committing to the CKA prerequisite path.",
+    "flags": [
+      "new",
+      "low_cost"
+    ],
+    "official_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 5,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "gctd",
+    "acronym": "GCTD",
+    "full_name": "GIAC Cloud Threat Detection",
+    "issuing_body": "GIAC",
+    "domain": [
+      "cloud_security",
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "cloud_security_operations",
+      "threat_detection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cloud_security_fundamentals",
+      "threat_detection",
+      "cloud_logging_monitoring",
+      "detection_rule_development",
+      "behavioral_analytics",
+      "cloud_incident_response"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Cloud platform fundamentals (AWS, Azure, or GCP)",
+        "Security monitoring basics",
+        "Log analysis"
+      ],
+      "recommended_certs": [
+        "gcsa"
+      ]
+    },
+    "summary": "GIAC's cloud-native threat detection certification covering detection engineering and threat hunting in cloud environments. Validates the ability to detect adversarial activity across major cloud platforms through log analysis, behavioral analytics, and cloud-native detection tooling. Complements GCSA (cloud security automation) with a detection-focused perspective. Ideal for cloud SOC analysts and detection engineers whose scope includes cloud workloads alongside on-premises environments. Open-book exam \u2014 build notes indexed by cloud provider and detection technique. DoD 8140 status unconfirmed \u2014 verify at public.cyber.mil before pursuing for government roles.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/cloud-threat-detection-gctd/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.5
+    }
+  }
+]

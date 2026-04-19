@@ -1,0 +1,1240 @@
+[
+  {
+    "id": "cisa",
+    "acronym": "CISA",
+    "full_name": "Certified Information Systems Auditor",
+    "issuing_body": "ISACA",
+    "domain": [
+      "grc",
+      "vulnerability_management"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "risk_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "information_systems_audit",
+      "it_governance_audit",
+      "systems_and_infrastructure_audit",
+      "it_asset_management_audit",
+      "it_operations_audit",
+      "protection_of_information_assets"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "it_audit_methodology",
+        "it_governance",
+        "security_controls",
+        "risk_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The gold standard IT audit certification globally and one of the most recognized credentials in the GRC space. Covers IS audit process, IT governance, systems and infrastructure, IT asset management, and information asset protection. Requires five years of IS audit work experience. DoD 8140 approved and expected in internal audit, compliance, and IT risk roles across financial services, government, and enterprise. One of the highest-paying certifications in cybersecurity when combined with audit experience. For practitioners wanting to move into audit or compliance leadership, CISA is the single most important credential to pursue.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cisa",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 9,
+      "community_respect": 8,
+      "salary_impact": 9,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "cism",
+    "acronym": "CISM",
+    "full_name": "Certified Information Security Manager",
+    "issuing_body": "ISACA",
+    "domain": [
+      "grc",
+      "security_architecture",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "information_security_management",
+      "risk_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "information_security_governance",
+      "information_risk_management",
+      "security_program_development",
+      "incident_management_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_management_experience",
+        "risk_management",
+        "governance_frameworks"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's information security management certification and one of the most recognized credentials for security managers and CISOs globally. Requires five years of IS management experience. DoD 8140 approved. CISM is explicitly management-focused \u2014 it validates governance, risk management, and program oversight rather than technical security skill, which is why it pairs well with technical certs like GCIH or GCFA rather than replacing them. Highly valued in financial services, audit-heavy industries, and senior management pipelines. Often listed alongside CISSP in CISO job requirements as the ISACA alternative for those who prefer the management orientation.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cism",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 9,
+      "community_respect": 7,
+      "salary_impact": 9,
+      "time_to_prepare": 7,
+      "overall": 6.1
+    }
+  },
+  {
+    "id": "crisc",
+    "acronym": "CRISC",
+    "full_name": "Certified in Risk and Information Systems Control",
+    "issuing_body": "ISACA",
+    "domain": [
+      "grc",
+      "vulnerability_management"
+    ],
+    "subdomain": [
+      "risk_management",
+      "compliance_audit"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "it_risk_identification",
+      "it_risk_assessment",
+      "risk_response",
+      "risk_monitoring",
+      "control_design",
+      "risk_reporting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "it_risk_management",
+        "security_controls",
+        "business_process_understanding",
+        "governance_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's IT risk management certification and the most recognized credential specifically for IT risk professionals. Requires three years of IT risk management experience. Not DoD 8140 approved but highly recognized in enterprise, financial services, and consulting. CRISC covers the full risk lifecycle from identification through assessment, response, and monitoring \u2014 more operationally focused on risk management processes than the broad audit scope of CISA. Often the companion cert to CISA for practitioners who want both audit and risk management credentials. One of the best-compensated ISACA credentials in the market.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/crisc",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 8,
+      "community_respect": 7,
+      "salary_impact": 9,
+      "time_to_prepare": 7,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "cgeit",
+    "acronym": "CGEIT",
+    "full_name": "Certified in the Governance of Enterprise IT",
+    "issuing_body": "ISACA",
+    "domain": [
+      "grc",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "information_security_management",
+      "security_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 760,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "it_governance_framework",
+      "strategic_alignment",
+      "value_delivery_governance",
+      "risk_optimization",
+      "resource_optimization",
+      "performance_measurement"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "it_governance",
+        "enterprise_architecture_concepts",
+        "business_strategy_alignment"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's IT governance certification covering strategic alignment of IT with business objectives, value delivery, risk optimization, and performance measurement. Targeted at CIOs, IT directors, and senior executives responsible for IT governance rather than operational security practitioners. Not DoD 8140 approved. Most relevant for senior GRC professionals who need to demonstrate governance competency at the board and executive level. Sits above CISM in seniority \u2014 CISM is for security managers, CGEIT is for IT governance executives.",
+    "flags": [],
+    "official_url": "https://www.isaca.org/credentialing/cgeit",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 8,
+      "time_to_prepare": 7,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "cgrc",
+    "acronym": "CGRC",
+    "full_name": "Certified in Governance, Risk and Compliance",
+    "issuing_body": "ISC2",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "risk_management",
+      "information_security_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in US federal government",
+    "skills": [
+      "risk_management_framework",
+      "authorization_process",
+      "continuous_monitoring",
+      "nist_rmf",
+      "security_assessment",
+      "governance_documentation",
+      "supply_chain_risk"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_frameworks",
+        "security_controls",
+        "it_governance"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISC2's GRC certification \u2014 formerly known as CAP (Certified Authorization Professional) \u2014 covering the NIST Risk Management Framework, authorization processes, and continuous monitoring for federal systems. DoD 8140 approved and particularly recognized in US federal government and contractors operating under FISMA, FedRAMP, and RMF requirements. The name change from CAP to CGRC in 2022 broadened its positioning beyond federal authorization, but the content remains heavily US government framework oriented. Strong for practitioners in the federal civilian and defense contractor space who need to validate RMF expertise.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/cgrc",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "pecb-iso27001-li",
+    "acronym": "ISO 27001 LI",
+    "full_name": "PECB Certified ISO/IEC 27001 Lead Implementer",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "information_security_management",
+      "compliance_audit"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East, Asia",
+    "skills": [
+      "iso_27001_isms_implementation",
+      "risk_assessment_iso27001",
+      "security_control_selection",
+      "isms_documentation",
+      "gap_analysis",
+      "isms_program_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "information_security_management_concepts",
+        "risk_management_basics",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's ISO/IEC 27001 Lead Implementer certification covering the design and implementation of an Information Security Management System (ISMS) based on ISO 27001. Not DoD 8140 approved but ISO 27001 is the dominant international ISMS standard \u2014 particularly in Europe, the Middle East, and Asia where ISO certification is often a contractual or regulatory requirement. The Lead Implementer cert validates the ability to build an ISMS from scratch and guide an organization through ISO 27001 certification. Essential for GRC consultants and security managers in organizations pursuing ISO 27001 certification.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "pecb-iso27001-la",
+    "acronym": "ISO 27001 LA",
+    "full_name": "PECB Certified ISO/IEC 27001 Lead Auditor",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "information_security_management"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East, Asia",
+    "skills": [
+      "iso_27001_audit_methodology",
+      "isms_audit_planning",
+      "audit_evidence_collection",
+      "audit_reporting",
+      "nonconformity_identification",
+      "third_party_audit_process"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isms_concepts",
+        "audit_methodology",
+        "iso_27001_standard"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's ISO/IEC 27001 Lead Auditor certification covering third-party audit methodology for ISMS \u2014 the credential for practitioners who audit organizations against ISO 27001 rather than implement it. Not DoD 8140 approved. Widely recognized wherever ISO 27001 audit is a business service \u2014 particularly in Europe, the Middle East, and internationally. Lead Auditor is required for practitioners working at accredited certification bodies (CBs) that issue ISO 27001 certificates to organizations. Most relevant for GRC consultants who conduct external audits and for internal auditors assessing ISMS effectiveness.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "pecb-iso27001-foundation",
+    "acronym": "ISO 27001 Foundation",
+    "full_name": "PECB Certified ISO/IEC 27001 Foundation",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "information_security_management"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East, Asia",
+    "skills": [
+      "iso_27001_basics",
+      "isms_concepts",
+      "information_security_fundamentals",
+      "iso_27001_structure"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's entry-level ISO 27001 certification covering foundational ISMS concepts and ISO 27001 standard structure. Not DoD 8140 approved. The starting point on the PECB ISO 27001 path before Lead Implementer or Lead Auditor. Useful for practitioners new to ISO 27001 who want documented foundation knowledge before pursuing more advanced certification. Limited standalone hiring value \u2014 most employers require LI or LA rather than Foundation.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 1,
+      "employer_recognition": 3,
+      "community_respect": 3,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 2.2
+    }
+  },
+  {
+    "id": "pecb-iso31000-lrm",
+    "acronym": "ISO 31000 LRM",
+    "full_name": "PECB Certified ISO 31000 Lead Risk Manager",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "risk_management"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East",
+    "skills": [
+      "iso_31000_risk_framework",
+      "enterprise_risk_management",
+      "risk_treatment_planning",
+      "risk_communication",
+      "risk_monitoring_and_review",
+      "risk_culture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_concepts",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's ISO 31000 risk management certification covering the international standard for enterprise risk management \u2014 a technology-agnostic framework applicable to any type of organizational risk. Not DoD 8140 approved. ISO 31000 is the foundation for many organization-wide risk programs and is referenced in industry regulations globally. Most valuable for GRC managers and risk officers who need vendor-neutral risk management methodology credentials beyond the IT-specific CRISC.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-31000",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "pecb-iso27005-lrm",
+    "acronym": "ISO 27005 LRM",
+    "full_name": "PECB Certified ISO/IEC 27005 Lead Risk Manager",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "risk_management",
+      "information_security_management"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East",
+    "skills": [
+      "iso_27005_risk_methodology",
+      "information_security_risk_assessment",
+      "asset_based_risk_analysis",
+      "threat_and_vulnerability_analysis_iso",
+      "risk_treatment_isms"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isms_concepts",
+        "risk_management_methodology"
+      ],
+      "recommended_certs": [
+        "pecb-iso27001-foundation"
+      ]
+    },
+    "summary": "PECB's ISO/IEC 27005 certification covering information security risk management methodology specific to ISMS \u2014 the companion standard to ISO 27001 that provides detailed guidance on risk assessment and treatment. Not DoD 8140 approved. Provides the risk assessment methodology depth that ISO 27001 itself doesn't prescribe. Most relevant for GRC practitioners and consultants who need to demonstrate competency in formal information security risk assessment methodology, particularly in European and Middle Eastern markets where ISO standards dominate.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "pecb-iso22301-li",
+    "acronym": "ISO 22301 LI",
+    "full_name": "PECB Certified ISO 22301 Lead Implementer",
+    "issuing_body": "PECB",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East",
+    "skills": [
+      "bcms_implementation",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "crisis_management",
+      "continuity_plan_development",
+      "iso_22301_isms"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "business_continuity_concepts",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's ISO 22301 Lead Implementer certification covering the design and implementation of a Business Continuity Management System (BCMS) based on the international BCM standard. Not DoD 8140 approved. ISO 22301 is the globally recognized BCMS standard and required for organizations seeking formal BC certification, particularly in Europe and the Middle East. Essential for BCM practitioners and GRC consultants in organizations pursuing ISO 22301 certification.",
+    "flags": [],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-22301",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "grcp",
+    "acronym": "GRCP",
+    "full_name": "GRC Professional",
+    "issuing_body": "OCEG",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "security_governance",
+      "compliance_audit",
+      "risk_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "grc_principles",
+      "integrated_governance",
+      "performance_management",
+      "compliance_management",
+      "risk_management_grc",
+      "assurance_processes"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "governance_concepts",
+        "risk_management_basics",
+        "compliance_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OCEG's GRC Professional certification covering integrated governance, risk, and compliance methodology based on the GRC Capability Model (OCEG Redbook). Not DoD 8140 approved. OCEG positions GRC as an integrated discipline rather than three separate functions \u2014 the GRCP validates this integrated thinking. Recognized in GRC consulting and enterprise risk management roles. Less technical than CISA or CRISC but covers the integration and strategic GRC perspective those certs don't address. Relevant for GRC program managers and consultants who need to demonstrate cross-functional governance competency.",
+    "flags": [],
+    "official_url": "https://www.oceg.org/certifications/grc-professional-certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "grca",
+    "acronym": "GRCA",
+    "full_name": "GRC Auditor",
+    "issuing_body": "OCEG",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "risk_management"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 395,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "grc_audit_methodology",
+      "integrated_assurance",
+      "audit_planning_grc",
+      "control_assessment_grc",
+      "audit_reporting_grc"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "audit_concepts",
+        "grc_principles"
+      ],
+      "recommended_certs": [
+        "grcp"
+      ]
+    },
+    "summary": "OCEG's GRC Auditor certification covering the audit and assurance methodology for integrated GRC programs. Not DoD 8140 approved. Complements GRCP for practitioners who focus on the assurance and audit side of GRC rather than implementation. Less common in job postings than CISA for audit roles but relevant for practitioners working within OCEG framework-based GRC programs. Typically pursued after GRCP by those specializing in GRC assurance.",
+    "flags": [],
+    "official_url": "https://www.oceg.org/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.3
+    }
+  },
+  {
+    "id": "cbcp",
+    "acronym": "CBCP",
+    "full_name": "Certified Business Continuity Professional",
+    "issuing_body": "DRI International",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 400,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in North America",
+    "skills": [
+      "business_continuity_program_management",
+      "business_impact_analysis",
+      "recovery_strategy_development",
+      "continuity_plan_testing",
+      "crisis_communications",
+      "supply_chain_continuity"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "business_continuity_experience",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "DRI International's professional-level business continuity certification and the most recognized BC credential in North America. Requires two years of BC experience and a written exam covering all ten Professional Practices. Not DoD 8140 approved but recognized across financial services, healthcare, government, and enterprise BCM programs. DRI certs are the North American standard for BC professionals in the same way BCI credentials are in the UK and Europe. Essential for practitioners whose primary role is business continuity program management.",
+    "flags": [],
+    "official_url": "https://www.drii.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "mbcp",
+    "acronym": "MBCP",
+    "full_name": "Master Business Continuity Professional",
+    "issuing_body": "DRI International",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "elite",
+    "practical_weight": 30,
+    "cost_usd": 600,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in North America",
+    "skills": [
+      "advanced_bcm_program_leadership",
+      "strategic_continuity_planning",
+      "enterprise_resilience",
+      "advanced_crisis_management",
+      "bcm_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "advanced_bcm_experience",
+        "strategic_planning"
+      ],
+      "recommended_certs": [
+        "cbcp"
+      ]
+    },
+    "summary": "DRI International's master-level business continuity certification \u2014 the highest credential in DRI's pathway requiring the CBCP plus five additional years of BC experience and a comprehensive exam. Not DoD 8140 approved. Held by senior BCM professionals and executives leading enterprise-wide resilience programs. Recognizes deep expertise and leadership in business continuity at a strategic level beyond program management.",
+    "flags": [],
+    "official_url": "https://www.drii.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "abcp",
+    "acronym": "ABCP",
+    "full_name": "Associate Business Continuity Professional",
+    "issuing_body": "DRI International",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in North America",
+    "skills": [
+      "business_continuity_fundamentals",
+      "bcm_concepts",
+      "continuity_plan_awareness",
+      "basic_risk_concepts"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_business_operations_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "DRI International's entry-level business continuity certification for those new to the BCM field \u2014 no experience requirement, just passing the Professional Practices exam. Not DoD 8140 approved. The starting point on the DRI certification path before CBCP. Valid for three years during which the holder builds toward the experience requirements for CBCP. A reasonable entry credential for GRC professionals pivoting into business continuity.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.drii.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 1,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 2.7
+    }
+  },
+  {
+    "id": "ccrp",
+    "acronym": "CCRP",
+    "full_name": "Certified Cyber Resilience Professional",
+    "issuing_body": "DRI International",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity",
+      "information_security_management"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in North America",
+    "skills": [
+      "cyber_resilience_program_management",
+      "incident_response_governance",
+      "cyber_recovery_planning",
+      "cyber_risk_governance",
+      "business_continuity_cyber_integration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "bcm_experience",
+        "cybersecurity_awareness",
+        "incident_response_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "DRI International's cyber resilience certification bridging business continuity and cybersecurity \u2014 specifically covering how organizations recover from cyber incidents rather than just natural disasters or operational failures. Not DoD 8140 approved. Fills a genuine gap between traditional BCM and cybersecurity IR \u2014 cyber resilience requires different recovery planning than traditional BC scenarios. Most relevant for GRC practitioners in organizations where cyber-specific recovery planning is a formal function distinct from general BCM.",
+    "flags": [],
+    "official_url": "https://www.drii.org/certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.6
+    }
+  },
+  {
+    "id": "mbci",
+    "acronym": "MBCI",
+    "full_name": "Member of the Business Continuity Institute",
+    "issuing_body": "Business Continuity Institute (BCI)",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 600,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in UK, Europe, Australia",
+    "skills": [
+      "bcm_program_management",
+      "business_impact_analysis",
+      "continuity_strategy",
+      "crisis_management",
+      "supply_chain_resilience",
+      "bcm_governance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "bcm_intermediate_experience",
+        "organizational_resilience_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The Business Continuity Institute's membership-level certification and the primary BC credential in the UK and European markets \u2014 the BCI equivalent of DRI's CBCP. Requires demonstrated BCM experience and competency assessment against the BCI's Good Practice Guidelines. Not DoD 8140 approved. The BCI is the leading BCM professional body in Europe and internationally recognized outside North America where DRI dominates. For BCM professionals in UK, European, or globally-recognized organizations, MBCI carries equivalent or greater weight than CBCP.",
+    "flags": [],
+    "official_url": "https://www.thebci.org/membership-and-certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "cbci",
+    "acronym": "CBCI",
+    "full_name": "Certificate of the Business Continuity Institute",
+    "issuing_body": "Business Continuity Institute (BCI)",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "business_continuity"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 400,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in UK, Europe, Australia",
+    "skills": [
+      "bcm_fundamentals_bci",
+      "bci_good_practice_guidelines",
+      "business_continuity_concepts",
+      "continuity_planning_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_bcm_awareness",
+        "organizational_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The BCI's entry-level certification based on their Good Practice Guidelines \u2014 the foundation credential on the BCI path before MBCI. Not DoD 8140 approved. Recognized across European and Commonwealth BCM markets as a structured entry point to business continuity practice. Required as a stepping stone for those targeting MBCI membership in BCI-dominant markets.",
+    "flags": [],
+    "official_url": "https://www.thebci.org/membership-and-certification/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 3.3
+    }
+  },
+  {
+    "id": "cia",
+    "acronym": "CIA",
+    "full_name": "Certified Internal Auditor",
+    "issuing_body": "Institute of Internal Auditors (IIA)",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "risk_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 695,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "internal_audit_methodology",
+      "governance_audit",
+      "risk_assessment_audit",
+      "control_evaluation",
+      "internal_control_frameworks",
+      "fraud_risk_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "audit_principles",
+        "organizational_governance",
+        "risk_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The IIA's flagship internal audit certification and the globally recognized credential for internal auditors. Covers internal audit methodology, governance, risk assessment, and control evaluation \u2014 not technology-specific but directly applicable to IT and security audit work. Not DoD 8140 approved. CIA is the audit profession's primary credential globally \u2014 more broadly recognized in audit departments than CISA, which is specifically IS audit. For GRC practitioners whose primary function is internal audit across multiple domains including IT, CIA is often the primary credential with CISA as a specialization.",
+    "flags": [],
+    "official_url": "https://www.theiia.org/en/certifications/cia/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 5.4
+    }
+  },
+  {
+    "id": "ctprp",
+    "acronym": "CTPRP",
+    "full_name": "Certified Third Party Risk Professional",
+    "issuing_body": "Shared Assessments",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "third_party_risk",
+      "risk_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 595,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Strongest recognition in financial services and regulated industries",
+    "skills": [
+      "third_party_risk_assessment",
+      "vendor_risk_management",
+      "due_diligence_methodology",
+      "tprm_program_design",
+      "contractual_risk_controls",
+      "continuous_monitoring_tprm"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_fundamentals",
+        "vendor_management_concepts",
+        "audit_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Shared Assessments' certification for third-party risk management professionals \u2014 one of the only dedicated TPRM credentials in the market. Covers vendor risk assessment methodology, due diligence processes, TPRM program design, and continuous monitoring. Not DoD 8140 approved but well-recognized in financial services, healthcare, and technology sectors where vendor risk management is a formal function under regulatory scrutiny. As supply chain risk has escalated to boardroom priority, CTPRP has grown significantly in recognition and demand.",
+    "flags": [],
+    "official_url": "https://sharedassessments.org/tprm-certification/ctprp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "ctpra",
+    "acronym": "CTPRA",
+    "full_name": "Certified Third Party Risk Assessor",
+    "issuing_body": "Shared Assessments",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "third_party_risk",
+      "compliance_audit"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 495,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Strongest recognition in financial services and regulated industries",
+    "skills": [
+      "third_party_assessment_execution",
+      "standardized_information_gathering",
+      "sig_questionnaire",
+      "assessment_evidence_review",
+      "onsite_assessment_methodology"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "audit_basics",
+        "risk_assessment_concepts",
+        "vendor_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Shared Assessments' assessor-level certification focused on executing third-party assessments using the Standardized Information Gathering (SIG) questionnaire framework. More operationally focused than CTPRP \u2014 while CTPRP covers TPRM program design, CTPRA covers actually conducting vendor assessments. Not DoD 8140 approved. Relevant for practitioners who perform vendor risk assessments as a primary function, including at GRC consulting firms, managed risk service providers, and in-house TPRM teams.",
+    "flags": [],
+    "official_url": "https://sharedassessments.org/tprm-certification/ctpra/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "hitrust-ccsfp",
+    "acronym": "CCSFP",
+    "full_name": "HITRUST Certified CSF Practitioner",
+    "issuing_body": "HITRUST",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_audit",
+      "information_security_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 700,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Primarily recognized in US healthcare and regulated industries",
+    "skills": [
+      "hitrust_csf_framework",
+      "hitrust_assessment_methodology",
+      "healthcare_compliance",
+      "control_assessment_hitrust",
+      "hitrust_certification_process"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "information_security_management",
+        "compliance_frameworks",
+        "healthcare_regulatory_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "HITRUST's practitioner certification for their Common Security Framework \u2014 the dominant security compliance framework in US healthcare and increasingly in other regulated industries. Covers CSF structure, assessment methodology, and the HITRUST certification process. Not DoD 8140 approved but effectively mandatory for GRC practitioners and assessors working with US healthcare organizations, health insurers, and their business associates. HITRUST certification has become a de facto compliance requirement for healthcare vendors and partners, making CCSFP valuable in that specific ecosystem.",
+    "flags": [],
+    "official_url": "https://hitrustalliance.net/education-training/hitrust-ccsfp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "fair-ccrp",
+    "acronym": "FAIR-CCRP",
+    "full_name": "FAIR Certified Cyber Risk Professional",
+    "issuing_body": "FAIR Institute",
+    "domain": [
+      "grc",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "risk_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 500,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "fair_risk_model",
+      "quantitative_cyber_risk_analysis",
+      "risk_scenario_development",
+      "loss_magnitude_estimation",
+      "threat_analysis_fair",
+      "risk_communication_financial"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_fundamentals",
+        "basic_probability_concepts",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The FAIR Institute's cyber risk quantification certification \u2014 launched with a tiered structure in early 2026 covering the FAIR (Factor Analysis of Information Risk) model for expressing cybersecurity risk in financial terms. Not DoD 8140 approved but growing rapidly in recognition as organizations and boards demand financial quantification of cyber risk. FAIR is the dominant quantitative cyber risk methodology and FAIR-CCRP validates the ability to build risk scenarios, estimate loss magnitudes, and communicate risk in dollar terms that business leaders can act on. A forward-looking credential for risk practitioners in organizations maturing toward quantitative risk management.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.fairinstitute.org/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  },
+  {
+    "id": "gsna",
+    "acronym": "GSNA",
+    "full_name": "GIAC Systems and Network Auditor",
+    "issuing_body": "GIAC",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "it_audit",
+      "technical_audit"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 979,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "information_systems_audit",
+      "audit_evidence_collection",
+      "network_infrastructure_audit",
+      "it_governance_audit",
+      "audit_reporting",
+      "compliance_management",
+      "security_controls_assessment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "it_audit_methodology",
+        "operating_system_fundamentals",
+        "basic_security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's IT systems and network auditing certification \u2014 the technical audit companion to governance-focused credentials like CISA. Covers network infrastructure audit techniques, operating system audit procedures, web application audit basics, and audit evidence collection. DoD 8140 approved. Open-book exam \u2014 build indexed notes by audit domain. Particularly valuable for IT auditors who need technical depth beyond governance frameworks, and for ISO 27001 auditors adding technical review capability to their governance-oriented certification stack.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/systems-network-auditor-gsna/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 4.9
+    }
+  }
+]

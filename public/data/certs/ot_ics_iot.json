@@ -1,0 +1,820 @@
+[
+  {
+    "id": "gicsp",
+    "acronym": "GICSP",
+    "full_name": "GIAC Global Industrial Cyber Security Professional",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security",
+      "ot_network_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ics_security_fundamentals",
+      "scada_security",
+      "ot_network_architecture",
+      "industrial_protocols",
+      "ics_risk_assessment",
+      "ot_incident_response_basics",
+      "it_ot_convergence"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_concepts",
+        "basic_ics_ot_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most recognized OT/ICS security certification globally and the benchmark credential for practitioners entering the industrial cybersecurity space. Jointly developed by GIAC, SANS, and asset owners from the energy, utilities, and manufacturing sectors \u2014 which means the content reflects actual operational technology security challenges rather than purely academic frameworks. Covers ICS architecture, industrial protocols, SCADA security, IT/OT convergence, and incident response in OT environments. DoD 8140 approved and consistently required in critical infrastructure, energy sector, and government ICS security roles. The MCQ format is less of a limitation here than in other domains because ICS security genuinely requires broad conceptual knowledge across both IT and OT domains.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/global-industrial-cyber-security-professional-gicsp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 8,
+      "community_respect": 8,
+      "salary_impact": 8,
+      "time_to_prepare": 6,
+      "overall": 6.0
+    }
+  },
+  {
+    "id": "grid",
+    "acronym": "GRID",
+    "full_name": "GIAC Response and Industrial Defense",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ot_ics_iot",
+      "dfir"
+    ],
+    "subdomain": [
+      "ics_security",
+      "incident_response_ot"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ot_incident_response",
+      "ics_forensics",
+      "scada_investigation",
+      "ot_network_analysis",
+      "it_ot_convergence_ir",
+      "industrial_protocol_analysis",
+      "ot_threat_hunting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "ics_ot_fundamentals",
+        "incident_response_basics",
+        "networking_concepts"
+      ],
+      "recommended_certs": [
+        "gicsp"
+      ]
+    },
+    "summary": "GIAC's advanced OT/ICS certification focused specifically on incident response and forensic investigation in industrial environments \u2014 the blue team companion to GICSP. Covers active defense, network monitoring, threat hunting, and forensic investigation in OT/SCADA environments where IT IR methodologies often cannot be directly applied. DoD 8140 approved and one of very few certifications that addresses the unique IR challenges in operational technology environments where taking systems offline for investigation could disrupt physical processes. Expected for senior ICS security analysts and IR specialists in critical infrastructure.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/response-industrial-defense-grid/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "gcip",
+    "acronym": "GCIP",
+    "full_name": "GIAC Critical Infrastructure Protection",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "critical_infrastructure_protection",
+      "ics_security"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly relevant in US critical infrastructure and NERC CIP environments",
+    "skills": [
+      "nerc_cip_compliance",
+      "electric_sector_security",
+      "critical_infrastructure_frameworks",
+      "ics_risk_management",
+      "regulatory_compliance_ot",
+      "cip_program_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "ics_ot_security_intermediate",
+        "regulatory_framework_awareness",
+        "electric_utility_operations_basics"
+      ],
+      "recommended_certs": [
+        "gicsp"
+      ]
+    },
+    "summary": "GIAC's critical infrastructure protection certification with a specific focus on NERC CIP compliance and electric sector security. Covers NERC CIP standards, electric utility security programs, and critical infrastructure protection frameworks. DoD 8140 approved. Most relevant for practitioners working in the electric utility sector where NERC CIP regulatory compliance is mandatory \u2014 a significant and well-funded part of the OT security market. Less applicable in manufacturing or oil-and-gas OT environments but essential in power generation, transmission, and distribution.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/critical-infrastructure-protection-gcip/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "isa-62443-fundamentals",
+    "acronym": "ISA 62443 Fundamentals",
+    "full_name": "ISA/IEC 62443 Cybersecurity Fundamentals Specialist",
+    "issuing_body": "ISA (International Society of Automation)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security",
+      "scada_security"
+    ],
+    "level": "beginner",
+    "practical_weight": 15,
+    "cost_usd": 800,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "isa_62443_framework",
+      "ics_security_concepts",
+      "security_levels",
+      "zones_and_conduits",
+      "ot_risk_concepts",
+      "industrial_cybersecurity_fundamentals"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_ics_ot_awareness",
+        "security_fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The entry-level ISA/IEC 62443 certification establishing foundational knowledge of the most widely adopted OT/ICS security standard globally. Covers the ISA-62443 framework including security levels, zones and conduits, and fundamental risk concepts. Not DoD 8140 approved but ISA-62443 certification is increasingly required by asset owners, system integrators, and product suppliers demonstrating compliance with the standard. The ISA-62443 series is the only internationally recognized ICS security standard with a full certification pathway \u2014 recognized across energy, manufacturing, water, and transportation sectors globally.",
+    "flags": [],
+    "official_url": "https://www.isa.org/training-and-certifications/isa-certification/isa-isci/cybersecurity-certificate-programs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 3,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "isa-62443-risk",
+    "acronym": "ISA 62443 Risk Assessment",
+    "full_name": "ISA/IEC 62443 Cybersecurity Risk Assessment Specialist",
+    "issuing_body": "ISA (International Society of Automation)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security",
+      "critical_infrastructure_protection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 1000,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "isa_62443_risk_assessment_methodology",
+      "target_security_levels",
+      "vulnerability_assessment_ot",
+      "consequence_analysis",
+      "countermeasure_identification",
+      "risk_reporting_ot"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isa_62443_fundamentals",
+        "ics_ot_environment_experience",
+        "risk_assessment_concepts"
+      ],
+      "recommended_certs": [
+        "isa-62443-fundamentals"
+      ]
+    },
+    "summary": "The second tier of ISA-62443 certification covering risk assessment methodology specific to industrial control systems. Covers target security level determination, vulnerability and consequence analysis, countermeasure identification, and risk reporting within the IEC 62443 framework. Not DoD 8140 approved. Required for practitioners conducting formal ISA-62443 risk assessments for asset owners or as system integrators performing compliance assessments. Building recognition as a standard requirement in regulated OT environments.",
+    "flags": [],
+    "official_url": "https://www.isa.org/training-and-certifications/isa-certification/isa-isci/cybersecurity-certificate-programs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "isa-62443-design",
+    "acronym": "ISA 62443 Design",
+    "full_name": "ISA/IEC 62443 Cybersecurity Design Specialist",
+    "issuing_body": "ISA (International Society of Automation)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security",
+      "ot_network_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 1000,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "isa_62443_design_methodology",
+      "security_zone_design",
+      "conduit_design",
+      "security_requirements_specification",
+      "countermeasure_design",
+      "ics_architecture_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isa_62443_risk_assessment",
+        "ics_ot_architecture",
+        "network_design_basics"
+      ],
+      "recommended_certs": [
+        "isa-62443-risk"
+      ]
+    },
+    "summary": "The third tier of ISA-62443 certification covering the design of security zones, conduits, and countermeasures for ICS environments. Focuses on translating risk assessment results into concrete security architecture designs compliant with ISA-62443 requirements. Not DoD 8140 approved. Relevant for system integrators and automation engineers who design OT security architectures for compliance and best practice. Together with the Risk Assessment cert, covers the design side of ICS security program implementation.",
+    "flags": [],
+    "official_url": "https://www.isa.org/training-and-certifications/isa-certification/isa-isci/cybersecurity-certificate-programs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "isa-62443-maintenance",
+    "acronym": "ISA 62443 Maintenance",
+    "full_name": "ISA/IEC 62443 Cybersecurity Maintenance Specialist",
+    "issuing_body": "ISA (International Society of Automation)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 1000,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "isa_62443_maintenance_procedures",
+      "patch_management_ot",
+      "security_program_maintenance",
+      "change_management_ot",
+      "continuous_monitoring_ot",
+      "compliance_maintenance"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "isa_62443_design",
+        "ics_operations_experience"
+      ],
+      "recommended_certs": [
+        "isa-62443-design"
+      ]
+    },
+    "summary": "The fourth tier of ISA-62443 certification covering the operational maintenance of ICS security programs \u2014 patching, change management, continuous monitoring, and ongoing compliance in live industrial environments. Not DoD 8140 approved. Addresses the unique challenge of maintaining security in OT environments where systems often cannot be patched or restarted without significant operational disruption. Relevant for OT security managers and operations technology staff responsible for maintaining security posture in running industrial facilities.",
+    "flags": [],
+    "official_url": "https://www.isa.org/training-and-certifications/isa-certification/isa-isci/cybersecurity-certificate-programs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "isa-62443-expert",
+    "acronym": "ISA 62443 Expert",
+    "full_name": "ISA/IEC 62443 Cybersecurity Expert",
+    "issuing_body": "ISA (International Society of Automation)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ics_security",
+      "critical_infrastructure_protection"
+    ],
+    "level": "expert",
+    "practical_weight": 30,
+    "cost_usd": 2500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "isa_62443_complete_framework",
+      "ics_security_program_leadership",
+      "advanced_ot_risk_management",
+      "compliance_program_design",
+      "security_culture_ot",
+      "stakeholder_management_ot"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "all_isa_62443_specialist_levels",
+        "senior_ics_security_experience"
+      ],
+      "recommended_certs": [
+        "isa-62443-fundamentals",
+        "isa-62443-risk",
+        "isa-62443-design",
+        "isa-62443-maintenance"
+      ]
+    },
+    "summary": "The capstone ISA-62443 certification requiring all four specialist certificates plus a comprehensive assessment covering program leadership, advanced risk management, and compliance program design. The highest ISA ICS security credential and the most comprehensive OT/ICS security certification available. Not DoD 8140 approved but carries significant weight in regulated industrial environments globally. Held by senior OT security program managers, consultants, and auditors operating at the intersection of operational technology and enterprise security governance.",
+    "flags": [],
+    "official_url": "https://www.isa.org/training-and-certifications/isa-certification/isa-isci/cybersecurity-certificate-programs",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 4,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 6.1
+    }
+  },
+  {
+    "id": "cssa",
+    "acronym": "CSSA",
+    "full_name": "Certified SCADA Security Architect",
+    "issuing_body": "IACRB (Information Assurance Certification Review Board)",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "scada_security",
+      "ics_security"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "scada_security_architecture",
+      "ics_network_design",
+      "scada_vulnerability_assessment",
+      "industrial_protocol_security",
+      "scada_access_control",
+      "remote_access_security_ot"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "scada_systems_experience",
+        "networking_fundamentals",
+        "security_architecture_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IACRB's SCADA security architecture certification covering SCADA system architecture, vulnerability assessment, industrial protocol security, and access control design. Not DoD 8140 approved. Less well-known than GIAC GICSP or ISA-62443 but provides a dedicated SCADA architecture focus that neither covers quite as specifically. Most relevant for system architects and engineers designing security into SCADA systems rather than operating or assessing existing systems. The IACRB is a smaller certification body with more limited employer recognition than GIAC or ISA.",
+    "flags": [],
+    "official_url": "https://www.iacrb.com/certifications/cssa",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 5,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "ciotsp",
+    "acronym": "CIoTSP",
+    "full_name": "Certified IoT Security Practitioner",
+    "issuing_body": "CertNexus",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "iot_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 300,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "iot_security_architecture",
+      "embedded_device_security",
+      "iot_network_security",
+      "iot_data_privacy",
+      "iot_vulnerability_management",
+      "edge_computing_security",
+      "iot_identity_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_concepts",
+        "basic_iot_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CertNexus's IoT security practitioner certification covering IoT architecture security, embedded device hardening, network security for IoT deployments, and privacy considerations. Not DoD 8140 approved. One of very few certifications dedicated specifically to IoT security as a discipline \u2014 most OT/ICS certs focus on industrial control systems rather than consumer or enterprise IoT. CertNexus is ANAB accredited which gives this more credibility than many IoT training completions. Relevant for practitioners securing connected device deployments in healthcare, manufacturing, smart building, and enterprise IoT contexts.",
+    "flags": [],
+    "official_url": "https://certnexus.com/certification/ciotsp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "ciotp",
+    "acronym": "CIoTP",
+    "full_name": "Certified IoT Practitioner",
+    "issuing_body": "CertNexus",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "iot_security"
+    ],
+    "level": "beginner",
+    "practical_weight": 15,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "iot_fundamentals",
+      "iot_architecture_basics",
+      "iot_connectivity",
+      "iot_security_basics",
+      "iot_data_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "basic_it_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CertNexus's entry-level IoT certification covering IoT architecture, connectivity, data management, and basic security concepts. Not DoD 8140 approved. More a technology awareness cert than a security practitioner credential \u2014 useful as a foundation before CIoTSP for those new to IoT. Limited security depth compared to the Practitioner cert. Best suited for IT professionals needing to develop IoT awareness before specializing in IoT security.",
+    "flags": [],
+    "official_url": "https://certnexus.com/certification/ciotp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 2,
+      "employer_recognition": 3,
+      "community_respect": 3,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 2.5
+    }
+  },
+  {
+    "id": "opswat-oose",
+    "acronym": "OOSE",
+    "full_name": "OPSWAT OT Security Expert",
+    "issuing_body": "OPSWAT Academy",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ot_network_security",
+      "ics_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ot_security_concepts",
+      "industrial_cybersecurity",
+      "ot_network_monitoring",
+      "critical_infrastructure_protection_basics",
+      "it_ot_convergence_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "security_fundamentals",
+        "basic_ics_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OPSWAT Academy's free OT security certification covering industrial cybersecurity concepts, OT network monitoring, and critical infrastructure protection fundamentals. Not DoD 8140 approved. OPSWAT has a genuine product presence in critical infrastructure security (file scanning, secure data transfer for air-gapped environments), giving their training content some practical grounding. Free and accessible as a learning pathway. Limited employer hiring weight compared to GICSP or ISA-62443 certs but a reasonable entry point for practitioners building OT security awareness.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://www.opswat.com/academy",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 2,
+      "employer_recognition": 3,
+      "community_respect": 3,
+      "salary_impact": 2,
+      "time_to_prepare": 2,
+      "overall": 2.5
+    }
+  },
+  {
+    "id": "opswat-icip",
+    "acronym": "ICIP",
+    "full_name": "OPSWAT Introduction to Critical Infrastructure Protection",
+    "issuing_body": "OPSWAT Academy",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "critical_infrastructure_protection"
+    ],
+    "level": "beginner",
+    "practical_weight": 10,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "critical_infrastructure_concepts",
+      "ot_it_differences",
+      "cip_frameworks",
+      "nist_csf_basics",
+      "industrial_threat_landscape"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OPSWAT Academy's free entry-level critical infrastructure protection certification covering CIP concepts, OT/IT differences, regulatory frameworks, and the industrial threat landscape. Not DoD 8140 approved. Foundational awareness cert rather than a practitioner credential \u2014 useful for IT professionals transitioning into OT/ICS roles or security practitioners needing a structured introduction to critical infrastructure security concepts before pursuing GICSP or ISA-62443 training.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://www.opswat.com/academy",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 1,
+      "practical_depth": 1,
+      "employer_recognition": 2,
+      "community_respect": 2,
+      "salary_impact": 1,
+      "time_to_prepare": 1,
+      "overall": 1.5
+    }
+  },
+  {
+    "id": "nozomi-nnce",
+    "acronym": "NNCE",
+    "full_name": "Nozomi Networks Certified Engineer",
+    "issuing_body": "Nozomi Networks",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "ot_network_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Nozomi Networks is deployed",
+    "skills": [
+      "nozomi_platform_administration",
+      "ot_asset_discovery",
+      "ot_network_monitoring",
+      "alert_management_nozomi",
+      "ot_vulnerability_management",
+      "industrial_protocol_detection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "ot_ics_basics",
+        "security_monitoring"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Nozomi Networks' engineer-level certification for their OT/ICS network visibility and security platform. Free for Nozomi customers. Covers asset discovery, network monitoring, alert management, and vulnerability management using the Nozomi platform. Not DoD 8140 approved. Nozomi has significant market presence in critical infrastructure \u2014 particularly energy, manufacturing, and utilities sectors. Like all vendor platform certs, validates platform-specific proficiency. Worth obtaining for engineers actively managing Nozomi deployments.",
+    "flags": [
+      "free",
+      "tool_vendor"
+    ],
+    "official_url": "https://academy.nozominetworks.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "pipa",
+    "acronym": "PIPA",
+    "full_name": "Practical IoT Pentest Associate",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "ot_ics_iot"
+    ],
+    "subdomain": [
+      "iot_security",
+      "embedded_systems_security"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 249,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "iot_device_pentesting",
+      "firmware_analysis_basics",
+      "hardware_interaction",
+      "iot_network_attack_techniques",
+      "iot_web_interface_testing",
+      "iot_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "linux_basics",
+        "basic_security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TCM Security's IoT penetration testing certification \u2014 100% practical exam covering IoT device security testing including firmware analysis, hardware interaction, network attack techniques, and web interface testing. Never expires. Not DoD 8140 approved. One of very few practical IoT security certifications. Fills a genuine gap \u2014 most IoT security certs are conceptual awareness credentials while PIPA tests actual device security testing skill. At $249 including training it's excellent value for a practical IoT security credential. Most relevant for penetration testers expanding into IoT target scopes and for product security teams testing their own devices.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/pipa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 8,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "fcss-ot",
+    "acronym": "FCSS OT",
+    "full_name": "Fortinet Certified Solution Specialist \u2013 OT Security",
+    "issuing_body": "Fortinet",
+    "domain": [
+      "ot_ics_iot",
+      "network_security"
+    ],
+    "subdomain": [
+      "ot_network_security"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 300,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant in Fortinet-deployed OT environments",
+    "skills": [
+      "fortinet_ot_security",
+      "fortigate_ot_configuration",
+      "ot_network_segmentation",
+      "industrial_dmz_design",
+      "fortinet_ot_use_cases",
+      "ot_security_fabric"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "fortinet_platform_proficiency",
+        "ot_ics_security_concepts",
+        "network_security"
+      ],
+      "recommended_certs": [
+        "fcp-secure-networking"
+      ]
+    },
+    "summary": "Fortinet's OT security specialist certification covering their Fortinet Security Fabric for OT environments \u2014 network segmentation, industrial DMZ design, and FortiGate configuration for OT/ICS protection. Part of the post-October 2025 FCSS tier. Note: there were reports of the FCSS OT exam being retired in October 2025 alongside the program restructure \u2014 verify current availability before listing candidates to pursue this. Not DoD 8140 approved. Most relevant in organizations running Fortinet as their IT/OT convergence security platform.",
+    "flags": [
+      "tool_vendor"
+    ],
+    "official_url": "https://training.fortinet.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.4
+    }
+  }
+]

@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "bscp",
+    "acronym": "BSCP",
+    "full_name": "Burp Suite Certified Practitioner",
+    "issuing_body": "PortSwigger",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 99,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_vulnerability_exploitation",
+      "burp_suite_advanced",
+      "authentication_bypass",
+      "access_control_exploitation",
+      "sql_injection",
+      "xss_advanced",
+      "ssrf",
+      "xxe",
+      "deserialization_attacks",
+      "web_cache_poisoning"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies_fundamentals",
+        "http_protocol",
+        "burp_suite_basics",
+        "owasp_top_10"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most respected web application security certification in the practitioner community and genuinely one of the hardest to pass \u2014 a 4-hour fully hands-on exam with two multi-stage web application targets, no multiple choice, and no hints. PortSwigger's Web Security Academy is the standard learning resource for web hackers globally, and BSCP validates mastery of that entire curriculum. Not DoD 8140 approved and relatively new, but has achieved remarkable community recognition in a short time. At $99 it is also extraordinary value. If you can pass BSCP, employers know you can actually hack web applications \u2014 this cert has become the gold standard signal for web application security skill.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://portswigger.net/web-security/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 10,
+      "employer_recognition": 7,
+      "community_respect": 10,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 8.6
+    }
+  },
+  {
+    "id": "oswe",
+    "acronym": "OSWE",
+    "full_name": "OffSec Web Expert",
+    "issuing_body": "OffSec",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting",
+      "source_code_review"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1749,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "white_box_web_testing",
+      "source_code_review",
+      "authentication_bypass",
+      "type_juggling",
+      "sql_injection_advanced",
+      "xss_advanced",
+      "custom_exploit_development",
+      "script_automation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_application_security_intermediate",
+        "at_least_one_programming_language",
+        "http_protocol_advanced",
+        "basic_exploit_development_concepts"
+      ],
+      "recommended_certs": [
+        "oscp"
+      ]
+    },
+    "summary": "OffSec's advanced web application exploitation certification and one of the most technically demanding AppSec credentials available. Unlike black-box web testing certs, OSWE focuses on white-box testing \u2014 you have access to source code and must read it to find and exploit vulnerabilities. The 48-hour practical exam tests your ability to chain vulnerabilities for remote code execution. Respected by serious web security practitioners and consulting firms. The white-box focus is OSWE's genuine differentiator from BSCP \u2014 it tests a distinct and complementary skillset. Requires real programming knowledge, not just tool operation.",
+    "flags": [],
+    "official_url": "https://www.offsec.com/courses/web-300/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 9,
+      "practical_depth": 10,
+      "employer_recognition": 8,
+      "community_respect": 9,
+      "salary_impact": 8,
+      "time_to_prepare": 8,
+      "overall": 9.0
+    }
+  },
+  {
+    "id": "oswa",
+    "acronym": "OSWA",
+    "full_name": "OffSec Web Assessor",
+    "issuing_body": "OffSec",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 1749,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_vulnerability_exploitation",
+      "owasp_top_10_exploitation",
+      "authentication_attacks",
+      "sql_injection",
+      "xss",
+      "file_inclusion",
+      "ssrf",
+      "web_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies_fundamentals",
+        "http_protocol",
+        "linux_command_line",
+        "basic_scripting"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OffSec's intermediate web application security certification covering OWASP Top 10 exploitation in a fully practical 48-hour exam. Positioned between beginner web testing and OSWE \u2014 it covers black-box web testing methodology without the source code review component of OSWE. Not DoD 8140 approved. Good stepping stone toward OSWE or BSCP for practitioners building web testing skills with the OffSec credential brand. Less community recognition than BSCP at similar skill level \u2014 if choosing between the two for intermediate web testing validation, BSCP at $99 is harder to argue against.",
+    "flags": [],
+    "official_url": "https://www.offsec.com/courses/web-200/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 8,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "gweb",
+    "acronym": "GWEB",
+    "full_name": "GIAC Web Application Penetration Tester",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_application_recon",
+      "authentication_attacks",
+      "sql_injection",
+      "xss",
+      "csrf",
+      "file_upload_attacks",
+      "web_service_testing",
+      "api_security_testing",
+      "burp_suite_usage"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies",
+        "http_protocol",
+        "basic_security_concepts",
+        "networking_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's web application penetration testing certification and the DoD 8140 approved option in the web app security space. Covers the full web application testing methodology including authentication, injection, XSS, CSRF, API testing, and web service vulnerabilities. The MCQ format is a significant weakness compared to BSCP or OSWE \u2014 it validates knowledge of techniques rather than the ability to execute them. DoD 8140 approval is the primary differentiator that keeps GWEB relevant despite the practical format limitations. For government and contractor roles requiring DoD-approved web application security certification, GWEB is the standard option.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 4,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.6
+    }
+  },
+  {
+    "id": "csslp",
+    "acronym": "CSSLP",
+    "full_name": "Certified Secure Software Lifecycle Professional",
+    "issuing_body": "ISC2",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "secure_software_development",
+      "devsecops"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "secure_sdlc",
+      "security_requirements",
+      "secure_design_principles",
+      "secure_coding_practices",
+      "software_testing_security",
+      "software_supply_chain_security",
+      "software_deployment_security",
+      "threat_modeling"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "software_development_lifecycle",
+        "programming_concepts",
+        "security_fundamentals",
+        "risk_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISC2's software security certification covering the full secure software development lifecycle \u2014 from security requirements through secure design, coding, testing, deployment, and operations. DoD 8140 approved and the primary credential for application security professionals operating at a program or architecture level rather than hands-on testing. Requires four years of paid SDLC experience. The theory-heavy format means it validates process and management knowledge rather than technical application security skill. Most valuable for application security managers, architects, and program leads in organizations with formal SDLC processes \u2014 less relevant for hands-on penetration testers.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/csslp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 7,
+      "community_respect": 5,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "case-java",
+    "acronym": "CASE Java",
+    "full_name": "Certified Application Security Engineer \u2013 Java",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "secure_software_development"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "secure_java_development",
+      "input_validation",
+      "authentication_implementation",
+      "authorization_implementation",
+      "cryptography_implementation",
+      "error_handling_security",
+      "owasp_top_10_mitigation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "java_programming",
+        "web_development_basics",
+        "basic_security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's application security certification for Java developers covering secure coding practices, vulnerability mitigation, and security controls implementation in Java applications. Language-specific focus makes it directly applicable for Java development teams implementing secure coding standards. Not DoD 8140 approved. Less well-known than CSSLP but more technically specific to developers \u2014 CSSLP covers the lifecycle broadly while CASE targets developers writing code. Limited employer recognition compared to CSSLP or GWEB, but useful for organizations embedding security into Java development teams who want a structured credential for their developers.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "case-net",
+    "acronym": "CASE .NET",
+    "full_name": "Certified Application Security Engineer \u2013 .NET",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "secure_software_development"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "secure_dotnet_development",
+      "input_validation",
+      "authentication_implementation",
+      "authorization_implementation",
+      "cryptography_implementation_dotnet",
+      "error_handling_security",
+      "owasp_top_10_mitigation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "dotnet_programming",
+        "web_development_basics",
+        "basic_security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's application security certification for .NET developers \u2014 the Microsoft stack equivalent of CASE Java. Covers secure coding in C# and .NET, vulnerability mitigation, and security control implementation. Not DoD 8140 approved. Same recognition limitations as CASE Java \u2014 narrowly applicable to .NET development teams implementing security training programs. Useful when organizations need a structured credential program for their .NET developers but want language-specific coverage rather than CSSLP's lifecycle breadth.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "ewpt",
+    "acronym": "eWPT",
+    "full_name": "eLearnSecurity Web Application Penetration Tester",
+    "issuing_body": "INE Security",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 200,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_application_testing",
+      "owasp_top_10",
+      "http_protocol_analysis",
+      "authentication_testing",
+      "sql_injection",
+      "xss",
+      "burp_suite_basics",
+      "web_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies_basics",
+        "http_protocol",
+        "basic_networking"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "INE Security's entry-level web application penetration testing certification with a fully practical exam format. Covers OWASP Top 10 fundamentals and basic web testing methodology through a hands-on assessment. Not DoD 8140 approved. Good value entry-level practical web security cert \u2014 less recognized than BSCP but more accessible as a starting point before attempting BSCP's harder exam. Community recognition is moderate \u2014 BSCP at $99 has largely captured the entry-to-intermediate web security certification conversation, making eWPT more of a stepping stone than a destination credential.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://ine.com/security/certifications/ewpt-certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 7,
+      "employer_recognition": 4,
+      "community_respect": 5,
+      "salary_impact": 3,
+      "time_to_prepare": 4,
+      "overall": 5.0
+    }
+  },
+  {
+    "id": "ewptx",
+    "acronym": "eWPTX",
+    "full_name": "eLearnSecurity Web Application Penetration Tester eXtreme",
+    "issuing_body": "INE Security",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 400,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_web_exploitation",
+      "web_cache_poisoning",
+      "prototype_pollution",
+      "advanced_sql_injection",
+      "ssrf_advanced",
+      "xxe_advanced",
+      "deserialization",
+      "jwt_attacks",
+      "oauth_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_security_intermediate",
+        "http_advanced",
+        "javascript_basics",
+        "owasp_top_10_exploitation"
+      ],
+      "recommended_certs": [
+        "ewpt"
+      ]
+    },
+    "summary": "INE Security's advanced web application penetration testing certification covering complex and chained vulnerabilities beyond the OWASP Top 10 basics. Practical exam format. Covers advanced topics like prototype pollution, web cache poisoning, OAuth flaws, and JWT attacks. Not DoD 8140 approved. Sits in similar territory to BSCP at a higher price point \u2014 BSCP's harder exam and lower price ($99 vs $400) makes eWPTX a harder recommendation unless you're already embedded in the INE ecosystem. Still a genuine practical cert that proves real advanced web testing skill.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://ine.com/security/certifications/ewptx-certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 8,
+      "employer_recognition": 4,
+      "community_respect": 5,
+      "salary_impact": 4,
+      "time_to_prepare": 6,
+      "overall": 5.9
+    }
+  },
+  {
+    "id": "pwpa",
+    "acronym": "PWPA",
+    "full_name": "Practical Web Pentest Associate",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 249,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_application_recon",
+      "owasp_top_10",
+      "authentication_testing",
+      "sql_injection",
+      "xss",
+      "access_control_testing",
+      "web_pentest_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies_basics",
+        "http_protocol",
+        "basic_linux"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TCM Security's entry-level web application penetration testing certification \u2014 formerly called PJWT (Practical Junior Web Tester), renamed November 2024. 100% practical exam: a 2-day hands-on web application pentest followed by 2 days to write a professional report, reviewed by human graders. No multiple choice, no flags. Includes the full Practical Bug Bounty training course. Never expires. Not DoD 8140 approved. At $249 including training it's excellent value for a practical entry-level web testing credential. Report writing component is a genuine differentiator \u2014 developing that skill from the start is valuable. Good foundation before PWPP or BSCP.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/pwpa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 7,
+      "employer_recognition": 3,
+      "community_respect": 7,
+      "salary_impact": 2,
+      "time_to_prepare": 2,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "pwpp",
+    "acronym": "PWPP",
+    "full_name": "Practical Web Pentest Professional",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 499,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_web_exploitation",
+      "nosql_injection",
+      "race_conditions",
+      "mass_assignment",
+      "ssrf",
+      "template_injection",
+      "api_security_testing",
+      "vulnerability_chaining"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_application_security_fundamentals",
+        "owasp_top_10_exploitation",
+        "burp_suite_proficiency"
+      ],
+      "recommended_certs": [
+        "pwpa"
+      ]
+    },
+    "summary": "TCM Security's intermediate web pentesting certification covering advanced exploitation techniques beyond OWASP Top 10 basics \u2014 NoSQL injection, race conditions, SSRF, template injection, API testing, and vulnerability chaining. 3-day practical exam plus 2-day report. Includes Practical Web Hacking and Practical API Hacking courses. Never expires. Not DoD 8140 approved. Sits in similar territory to BSCP for intermediate web testing but covers a different set of techniques. At $499 including training it's comparable value to BSCP. Both are worth doing \u2014 they complement rather than duplicate each other.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/pwpp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 8,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 3,
+      "time_to_prepare": 4,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "pwpe",
+    "acronym": "PWPE",
+    "full_name": "Practical Web Pentest Expert",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 799,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "vulnerability_chaining_advanced",
+      "graphql_attacks",
+      "prototype_pollution",
+      "web_cache_poisoning",
+      "javascript_analysis",
+      "frontend_security",
+      "advanced_exploitation_techniques",
+      "complex_web_pentest_reporting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_security_advanced",
+        "javascript_proficiency",
+        "api_security",
+        "advanced_exploitation_concepts"
+      ],
+      "recommended_certs": [
+        "pwpp"
+      ]
+    },
+    "summary": "TCM Security's expert-level web pentesting certification covering sophisticated attack techniques including GraphQL attacks, prototype pollution, cache poisoning, and complex JavaScript analysis. 3-day practical exam plus 2-day report. Includes the Advanced Web Hacking course. Never expires. Newest addition to the TCM web certification path. Not DoD 8140 approved. At the expert level it competes with OSWE \u2014 OSWE covers white-box testing while PWPE remains black-box but with more advanced techniques. Both are legitimate expert credentials for serious web security practitioners.",
+    "flags": [],
+    "official_url": "https://certifications.tcm-sec.com/pwpe/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 4,
+      "time_to_prepare": 6,
+      "overall": 6.5
+    }
+  },
+  {
+    "id": "htb-cwes",
+    "acronym": "HTB CWES",
+    "full_name": "HTB Certified Web Exploitation Specialist",
+    "issuing_body": "Hack The Box",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting",
+      "bug_bounty"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 210,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "web_vulnerability_exploitation",
+      "owasp_top_10",
+      "bug_bounty_methodology",
+      "authentication_attacks",
+      "sql_injection",
+      "xss",
+      "ssrf",
+      "file_inclusion",
+      "web_recon"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_technologies_fundamentals",
+        "http_protocol",
+        "basic_linux"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "HTB's web exploitation and bug bounty certification \u2014 renamed from CBBH (Certified Bug Bounty Hunter) in October 2025. The only exam-backed certification with an explicit bug bounty methodology focus. 7-day practical exam with flag-based challenges covering web exploitation across the full HTB Bug Bounty Hunter learning path. Not DoD 8140 approved. HTB's brand is strong in the practitioner community and this cert is well-regarded as evidence of practical web testing skill. At approximately $210 it's competitive with eWPT at a lower price with better community recognition. Good option for practitioners targeting bug bounty programs.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 8,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 4,
+      "time_to_prepare": 5,
+      "overall": 6.3
+    }
+  },
+  {
+    "id": "htb-cwee",
+    "acronym": "HTB CWEE",
+    "full_name": "HTB Certified Web Exploitation Expert",
+    "issuing_body": "Hack The Box",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 490,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_web_exploitation",
+      "prototype_pollution",
+      "web_cache_deception",
+      "oauth_attacks",
+      "graphql_attacks",
+      "advanced_ssrf",
+      "http_request_smuggling",
+      "dom_based_attacks",
+      "advanced_xxe"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_security_advanced",
+        "javascript_advanced",
+        "http_protocol_deep_knowledge",
+        "owasp_exploitation_experience"
+      ],
+      "recommended_certs": [
+        "htb-cwes"
+      ]
+    },
+    "summary": "HTB's expert-level web exploitation certification covering advanced and novel web attack techniques. 7-day practical CTF-style exam with flag-based challenges at significantly higher difficulty than CWES. Covers techniques like HTTP request smuggling, DOM clobbering, web cache deception, and complex chained exploits. Not DoD 8140 approved. HTB's hardest web certification and respected by the community for genuine difficulty. Competes with OSWE and BSCP for expert-level web security credentials \u2014 OSWE focuses on white-box testing while CWEE and BSCP are black-box. All three are legitimate and complement each other.",
+    "flags": [],
+    "official_url": "https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 5,
+      "time_to_prepare": 7,
+      "overall": 7.0
+    }
+  },
+  {
+    "id": "cdp",
+    "acronym": "CDP",
+    "full_name": "Certified DevSecOps Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "devsecops",
+      "secure_software_development"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 899,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ci_cd_security",
+      "sast_implementation",
+      "dast_implementation",
+      "sca_tools",
+      "container_security_basics",
+      "iac_security",
+      "compliance_as_code",
+      "devsecops_pipeline_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "linux_basics",
+        "owasp_top_10_awareness",
+        "basic_devops_concepts",
+        "scripting_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's flagship certification and the most recognized DevSecOps credential in the practitioner community. Covers integrating SAST, DAST, and SCA tools into CI/CD pipelines across multiple platforms (GitLab CI, GitHub Actions, Jenkins), plus container security, IaC, and compliance as code. 6-hour practical exam with 5 challenges plus report. Not DoD 8140 approved but widely respected \u2014 CDP has become the de facto standard for DevSecOps credentialing in the absence of vendor-neutral alternatives. Includes extensive training. Best suited for security engineers embedding security into software delivery pipelines rather than traditional application security testers.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 8,
+      "employer_recognition": 6,
+      "community_respect": 8,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "cde",
+    "acronym": "CDE",
+    "full_name": "Certified DevSecOps Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "devsecops",
+      "secure_software_development"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1199,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_sast_custom_rules",
+      "advanced_dast_automation",
+      "rasp_iast",
+      "threat_modeling_as_code",
+      "container_security_advanced",
+      "secrets_management",
+      "kubernetes_security_basics",
+      "devsecops_program_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "devsecops_intermediate",
+        "ci_cd_experience",
+        "scripting_python_or_bash",
+        "container_familiarity"
+      ],
+      "recommended_certs": [
+        "cdp"
+      ]
+    },
+    "summary": "Practical DevSecOps's advanced DevSecOps certification requiring CDP as a prerequisite. Covers custom SAST rule development, advanced DAST automation, RASP/IAST, threat modeling as code, advanced container security, and secrets management with Vault. 24-hour practical exam \u2014 the longest in the PDSO portfolio. Not DoD 8140 approved. The combination of CDP + CDE represents a comprehensive DevSecOps credential stack and is increasingly recognized in security engineering hiring. For practitioners who have completed CDP and want to go deeper into DevSecOps engineering, CDE is the natural progression.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-devsecops-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 8,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 6.1
+    }
+  },
+  {
+    "id": "casp-pdso",
+    "acronym": "CASP",
+    "full_name": "Certified API Security Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "api_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 899,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "api_vulnerability_testing",
+      "owasp_api_top_10",
+      "api_authentication_attacks",
+      "broken_object_authorization",
+      "api_security_automation",
+      "rest_api_security",
+      "graphql_security",
+      "api_security_in_ci_cd"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "api_concepts",
+        "http_protocol",
+        "basic_security_testing",
+        "owasp_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's API security certification covering the OWASP API Top 10, authentication attacks, authorization flaws, and API security automation in CI/CD pipelines. 6-hour practical exam. Not DoD 8140 approved. API security is one of the most in-demand and underserved AppSec specializations \u2014 most web testing certs cover APIs superficially while CASP makes it the primary focus. Good complement to BSCP or CDP for practitioners who specialize in API security testing and want a dedicated credential for that specialization.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-api-security-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "ctmp",
+    "acronym": "CTMP",
+    "full_name": "Certified Threat Modeling Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "threat_modeling"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 899,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "stride_methodology",
+      "pasta_methodology",
+      "threat_modeling_agile",
+      "mitre_attack_threat_modeling",
+      "code_based_threat_modeling",
+      "privacy_threat_modeling",
+      "threat_model_documentation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "software_development_basics",
+        "risk_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's threat modeling certification covering STRIDE, PASTA, DREAD, and agile/code-based threat modeling methodologies. 6-hour practical exam. Fills a genuine gap \u2014 threat modeling is a critical AppSec discipline with almost no dedicated certifications. Not DoD 8140 approved. Building employer recognition as organizations mature their AppSec programs beyond testing toward proactive security design. Most valuable for security architects, AppSec leads, and developers who want to validate systematic threat modeling skills for security requirements and design review work.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-threat-modeling-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "csse",
+    "acronym": "CSSE",
+    "full_name": "Certified Software Supply Chain Security Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "software_supply_chain_security"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 799,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "supply_chain_attack_analysis",
+      "slsa_framework",
+      "sbom_generation",
+      "dependency_security",
+      "container_supply_chain",
+      "code_signing",
+      "solarwinds_log4shell_analysis",
+      "cloud_supply_chain"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "devsecops_basics",
+        "software_development_process",
+        "container_concepts",
+        "dependency_management"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's software supply chain security certification \u2014 one of the first dedicated credentials in this increasingly critical space. Covers supply chain attack vectors, SLSA framework, SBOM generation and analysis, dependency security, code signing, and cloud supply chain attacks using real-world incident analysis (SolarWinds, Log4Shell). 6-hour practical exam. Not DoD 8140 approved but highly timely given regulatory pressure around software supply chain security (EO 14028, NIST SSDF). For AppSec engineers and DevSecOps practitioners building supply chain security programs, this is currently one of the only structured credentials in the space.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.practical-devsecops.com/certified-software-supply-chain-security-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "gh-500",
+    "acronym": "GHAS",
+    "full_name": "GitHub Advanced Security",
+    "issuing_body": "GitHub (Microsoft)",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "devsecops",
+      "software_supply_chain_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 15,
+    "cost_usd": 99,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "codeql_analysis",
+      "secret_scanning",
+      "dependabot_configuration",
+      "dependency_review",
+      "code_scanning_configuration",
+      "sbom_generation",
+      "github_security_features",
+      "ghas_enterprise_administration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "github_platform_familiarity",
+        "basic_software_development",
+        "security_concepts_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GitHub's proctored certification (exam GH-500) covering the full GitHub Advanced Security feature set \u2014 CodeQL, secret scanning, Dependabot, dependency review, and SBOM generation. Delivered via Pearson VUE with genuine proctoring. At $99 and 100 minutes, it's accessible and increasingly required by organizations deploying GHAS at enterprise scale. Not DoD 8140 approved. The content is platform-specific but GitHub's dominance in version control means GHAS skills are broadly applicable. Dependabot/dependency management content constitutes 35% of the exam \u2014 the single largest domain. 2-year renewal keeps it reasonably current with GitHub's evolving security features.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "gxpn",
+    "acronym": "GXPN",
+    "full_name": "GIAC Exploit Researcher and Advanced Penetration Tester",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "appsec",
+      "offensive"
+    ],
+    "subdomain": [
+      "web_application_pentesting",
+      "exploit_development"
+    ],
+    "level": "elite",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "exploit_development",
+      "fuzzing",
+      "advanced_network_attacks",
+      "cryptographic_attacks",
+      "web_application_advanced_attacks",
+      "shellcode_development",
+      "heap_exploitation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "penetration_testing_advanced",
+        "programming_python_and_c",
+        "assembly_basics",
+        "memory_management",
+        "advanced_networking"
+      ],
+      "recommended_certs": [
+        "gpen",
+        "oscp"
+      ]
+    },
+    "summary": "GIAC's most advanced penetration testing certification, covering exploit research, advanced network attacks, cryptographic attacks, fuzzing, and heap exploitation. DoD 8140 approved and one of the most technically rigorous certifications in the entire security domain. Despite the MCQ format, the content requires genuine expert-level understanding that can't be memorized \u2014 you must deeply understand the techniques to answer correctly. Primarily valuable for advanced penetration testers who also do exploit development and vulnerability research. Considered a career-defining credential in the offensive security community when combined with practical work.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 4,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 5.9
+    }
+  },
+  {
+    "id": "cpent",
+    "acronym": "CPENT",
+    "full_name": "Certified Penetration Testing Professional",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "appsec",
+      "offensive"
+    ],
+    "subdomain": [
+      "web_application_pentesting"
+    ],
+    "level": "expert",
+    "practical_weight": 50,
+    "cost_usd": 999,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "penetration_testing_methodology",
+      "web_application_testing",
+      "network_penetration_testing",
+      "exploit_development_basics",
+      "active_directory_attacks",
+      "iot_pentesting",
+      "pentest_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_concepts",
+        "basic_penetration_testing",
+        "linux_and_windows"
+      ],
+      "recommended_certs": [
+        "ceh"
+      ]
+    },
+    "summary": "EC-Council's practical penetration testing certification and replacement for the retired ECSA. 24-hour practical exam covering web applications, network penetration, Active Directory, and IoT testing. Scoring 90%+ on CPENT simultaneously earns the LPT (Master) designation. DoD 8140 approved which is its primary competitive advantage over community alternatives. The practical component is meaningful, though practitioners generally regard OSCP as more rigorous. For government and contractor roles requiring a DoD-approved practical penetration testing credential, CPENT fills that requirement at a lower cost and time commitment than GIAC alternatives.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 8,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6.2
+    }
+  }
+]

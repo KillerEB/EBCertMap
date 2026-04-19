@@ -1,0 +1,169 @@
+{
+  "role_id": "security_architect",
+  "label": "Security Architect",
+  "description": "Designs and owns an organization's security architecture across enterprise, cloud, and application domains. Bridges technical security controls with business risk and governance requirements.",
+  "job_titles": [
+    "Security Architect",
+    "Enterprise Security Architect",
+    "Cloud Security Architect",
+    "Zero Trust Architect",
+    "Principal Security Engineer",
+    "Security Solutions Architect",
+    "Information Security Architect"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "secarch_enterprise",
+      "name": "Enterprise Architecture Track",
+      "rationale": "The most recognized path for enterprise security architect roles. CISSP provides the universal architecture credential; SABSA methodology certifications add the structured framework for designing enterprise security architectures.",
+      "estimated_timeline": "18-30 months",
+      "total_cost_usd": 2097,
+      "pros": [
+        "CISSP is the single most recognized credential for senior security architect roles",
+        "SABSA SCF/SCP adds structured architecture methodology used by major consulting firms",
+        "Strong combination for both in-house architect and consulting positions"
+      ],
+      "cons": [
+        "CISSP requires 5 years security experience \u2014 cannot be rushed",
+        "SABSA certifications are expensive and less recognized outside architecture-focused roles",
+        "Theory-heavy path \u2014 limited hands-on technical depth"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Broad security domain knowledge across all security domains",
+          "Enterprise architecture concepts",
+          "Risk management frameworks",
+          "Security governance and compliance"
+        ],
+        "recommended_certs": [],
+        "experience": "5 years paid security experience required for CISSP. Architecture roles typically expect prior security engineering or senior analyst experience. This is not an entry-level path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cissp",
+          "order": 1,
+          "estimated_time": "4-8 months",
+          "notes": "The most recognized senior security credential globally and the universal gate for security architect roles. Study with Mike Chapple and David Seidl's Official Study Guide plus Boson practice exams. Approach the exam as a management-level risk thinker \u2014 think like a CISO, not a penetration tester. The CAT adaptive exam format means question difficulty adjusts in real time. With the right mindset and study approach most experienced practitioners pass within 3-4 months of focused preparation."
+        },
+        {
+          "cert_id": "scf",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "SABSA Chartered Foundation \u2014 the entry point to the SABSA enterprise security architecture methodology used by major consulting firms and large enterprises globally. Covers the SABSA framework, risk-driven security architecture design, and the layered model for translating business risk into security controls. The structured methodology complements CISSP's conceptual breadth with a practical architecture design framework."
+        },
+        {
+          "cert_id": "scp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "SABSA Chartered Practitioner \u2014 the advanced SABSA credential covering complex architecture design, architecture governance, and enterprise-scale security program design. At this level you're developing complete security architectures for real organizational scenarios. The SCP is the credential that separates architects who know the theory from those who can apply it systematically."
+        }
+      ]
+    },
+    {
+      "id": "secarch_cloud",
+      "name": "Cloud Architecture Track",
+      "rationale": "For security architects whose primary focus is cloud-native or hybrid cloud environments. Combines the universal CISSP recognition with cloud-specific architecture credentials.",
+      "estimated_timeline": "16-26 months",
+      "total_cost_usd": 1763,
+      "pros": [
+        "CISSP + CCSP is the recognized senior cloud security architect combination",
+        "SC-100 adds Azure-specific architect credential for Microsoft-heavy organizations",
+        "Strong consulting profile for cloud transformation engagements"
+      ],
+      "cons": [
+        "Both CISSP and CCSP require significant experience \u2014 long runway",
+        "SC-100 one-year renewal adds maintenance burden",
+        "Less structured architecture methodology than SABSA track"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Cloud platform experience (AWS, Azure, or GCP)",
+          "Security domain breadth across all CISSP domains",
+          "Cloud security concepts and shared responsibility model"
+        ],
+        "recommended_certs": [],
+        "experience": "5 years security experience for CISSP. Cloud security engineering experience for CCSP. Not an entry-level path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Cloud security foundations and the natural CCSP prerequisite. Establishes vendor-neutral cloud security framework knowledge."
+        },
+        {
+          "cert_id": "cissp",
+          "order": 2,
+          "estimated_time": "4-8 months",
+          "notes": "The universal architect credential. Essential before CCSP \u2014 the CISSP security domain breadth provides the governance and risk context that CCSP's cloud content builds on."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISC2's cloud security architect credential and the most recognized senior cloud security cert globally. With CISSP already completed the overlap in ISC2 examination methodology and security domain coverage makes CCSP preparation significantly more efficient. Focus preparation on the cloud-specific content: cloud data security, cloud application security, and the legal/compliance frameworks that differ from on-premise."
+        },
+        {
+          "cert_id": "sc-100",
+          "order": 4,
+          "estimated_time": "3-5 months",
+          "notes": "Microsoft Cybersecurity Architect \u2014 the Azure architecture cert for organizations running Microsoft cloud. Covers Zero Trust architecture, security operations architecture, and cloud security posture management at a strategic level. Valuable addition for architects working in Microsoft-heavy environments alongside the vendor-neutral CISSP and CCSP."
+        }
+      ]
+    },
+    {
+      "id": "secarch_microsoft",
+      "name": "Microsoft Architecture Track",
+      "rationale": "For security architects in Microsoft-first organizations. Builds the full Microsoft security certification stack from engineering to architecture level.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 1157,
+      "pros": [
+        "Lower cost than CISSP + CCSP track",
+        "Directly applicable in Microsoft-heavy enterprise environments",
+        "CISSP adds vendor-neutral recognition alongside Microsoft stack",
+        "AZ-500 + SC-100 combination is increasingly required for Azure architect roles"
+      ],
+      "cons": [
+        "Annual renewal cycles across multiple Microsoft certs",
+        "Less recognized outside Microsoft environments",
+        "No SABSA or CCSP for broad architecture methodology"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Azure platform depth",
+          "Microsoft security products (Defender, Sentinel, Entra ID)",
+          "Security domain breadth"
+        ],
+        "recommended_certs": [],
+        "experience": "Prior Azure security engineering experience. AZ-500 before SC-100 is expected."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "az-500",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Azure security engineering foundation. The prerequisite mindset for SC-100 architecture."
+        },
+        {
+          "cert_id": "sc-200",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "Microsoft Security Operations Analyst \u2014 covers Sentinel and Defender XDR from an operational perspective. Adds SOC context to the architecture understanding: you design security architectures better when you understand how analysts operate within them."
+        },
+        {
+          "cert_id": "sc-100",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "The Microsoft Cybersecurity Architect credential. Tests architectural judgment \u2014 how to design Zero Trust implementations, security operations architectures, and governance frameworks. Harder than AZ-500 because it requires synthesis across the full Microsoft security stack."
+        },
+        {
+          "cert_id": "cissp",
+          "order": 4,
+          "estimated_time": "4-8 months",
+          "notes": "Adds vendor-neutral recognition that opens opportunities outside Microsoft environments. With strong Microsoft security depth already built, CISSP preparation focuses on the domains where your experience is thinner \u2014 physical security, cryptography, and software development security."
+        }
+      ]
+    }
+  ]
+}

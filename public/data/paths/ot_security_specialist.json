@@ -1,0 +1,120 @@
+{
+  "role_id": "ot_security_specialist",
+  "label": "OT / ICS Security Specialist",
+  "description": "Secures operational technology, industrial control systems, SCADA environments, and critical infrastructure. Covers OT-specific threat modeling, network segmentation, incident response, and regulatory compliance.",
+  "job_titles": [
+    "OT Security Engineer",
+    "ICS Security Analyst",
+    "SCADA Security Specialist",
+    "Critical Infrastructure Security Engineer",
+    "Industrial Cybersecurity Engineer",
+    "OT/IT Security Specialist",
+    "Control Systems Security Engineer"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "ot_standard",
+      "name": "Standard OT Security Track",
+      "rationale": "The most recognized combination for OT security roles across energy, manufacturing, and critical infrastructure. GICSP is the gold standard OT security credential; ICS-specific training provides the operational technology foundations.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2498,
+      "pros": [
+        "GICSP is the most recognized OT/ICS security credential globally",
+        "DoD 8140 approved for ICS security roles",
+        "GRID adds incident response depth for OT environments",
+        "Strong combination for energy, utilities, and critical infrastructure employers"
+      ],
+      "cons": [
+        "High cost \u2014 SANS training significantly increases total investment",
+        "MCQ-heavy format as with all GIAC certifications",
+        "OT systems knowledge is largely experiential \u2014 certs alone don't substitute for hands-on time in OT environments"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Industrial control systems concepts",
+          "OT networking protocols (Modbus, DNP3, Profibus, EtherNet/IP)",
+          "IT security fundamentals",
+          "Basic networking"
+        ],
+        "recommended_certs": [
+          "security-plus"
+        ],
+        "experience": "OT engineering, control systems, or industrial automation experience is strongly recommended. OT security is a specialization that typically requires prior OT operational experience."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gicsp",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "The Global Industrial Cyber Security Professional credential \u2014 the most recognized OT security cert globally and DoD 8140 approved. Developed by GIAC in partnership with ICS-CERT. Associated with SANS ICS410. Open-book \u2014 build comprehensive indexed notes covering ICS architecture, industrial protocols, network security for OT, and incident response in OT environments. The content bridges IT security concepts with OT-specific constraints and threat models."
+        },
+        {
+          "cert_id": "grid",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Response and Industrial Defense \u2014 covers incident response specifically in ICS/SCADA environments where standard IT IR procedures are inappropriate or dangerous. DoD 8140 approved. Associated with SANS ICS515. With GICSP providing the architecture foundation, GRID adds the operational response capability for OT security specialists moving into senior or IR-focused roles."
+        },
+        {
+          "cert_id": "cssa",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "Certified SCADA Security Architect \u2014 covers SCADA-specific security architecture and design. Complements GICSP and GRID with an architecture focus for practitioners moving into senior OT security engineering or architecture roles."
+        }
+      ]
+    },
+    {
+      "id": "ot_isa62443",
+      "name": "ISA/IEC 62443 Framework Track",
+      "rationale": "For OT security professionals whose work centers on ISA/IEC 62443 compliance \u2014 the primary international standard for industrial automation and control systems security. Most relevant in regulated industries and organizations pursuing formal ICS security certification.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1995,
+      "pros": [
+        "ISA/IEC 62443 is the primary international standard for ICS security",
+        "ISA certifications are globally recognized for standard compliance work",
+        "Practical progression through the standard from fundamentals to expert",
+        "Increasingly required in regulated critical infrastructure environments"
+      ],
+      "cons": [
+        "ISA certifications not DoD 8140 approved",
+        "More narrowly focused than GICSP for general OT security roles",
+        "Less recognized outside ISA 62443 compliance contexts"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "OT/ICS operational environment experience",
+          "Basic security concepts",
+          "Industrial automation concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "OT engineering or operations experience is required \u2014 the ISA 62443 certifications assume familiarity with industrial automation and control systems from an operational perspective."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "isa-62443-fundamentals",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "ISA/IEC 62443 Fundamentals Specialist \u2014 the entry point to the standard covering its structure, scope, and core concepts. Required before higher-level ISA 62443 certifications."
+        },
+        {
+          "cert_id": "isa-62443-risk",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "ISA/IEC 62443 Risk Assessment Specialist \u2014 covers IACS risk assessment methodology per the standard. Directly applicable to organizations conducting formal risk assessments for regulatory compliance."
+        },
+        {
+          "cert_id": "isa-62443-design",
+          "order": 3,
+          "estimated_time": "2-3 months",
+          "notes": "ISA/IEC 62443 Design Specialist \u2014 covers security design requirements for IACS. Translates the standard's requirements into practical system design decisions."
+        },
+        {
+          "cert_id": "isa-62443-expert",
+          "order": 4,
+          "estimated_time": "4-6 months",
+          "notes": "ISA/IEC 62443 Expert \u2014 the capstone credential validating mastery of the complete standard across all domains. Held by a small number of practitioners globally. The most recognized credential for ISA 62443 consulting and auditing work."
+        }
+      ]
+    }
+  ]
+}

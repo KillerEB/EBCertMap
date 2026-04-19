@@ -1,0 +1,57 @@
+{
+  "role_id": "security_awareness_manager",
+  "label": "Security Awareness / Human Risk Manager",
+  "description": "Designs and manages security awareness programs and human risk management \u2014 phishing simulation, security culture measurement, behavior change programs, and security awareness metrics.",
+  "job_titles": [
+    "Security Awareness Manager",
+    "Human Risk Manager",
+    "Security Culture Lead",
+    "Security Education & Training Manager",
+    "Security Awareness Program Lead"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "awareness_standard",
+      "name": "Security Awareness Track",
+      "rationale": "SSAP from SANS is the only widely recognized dedicated security awareness professional credential. Combined with CISM management framework recognition, this covers both the specialized awareness domain and broader security management.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1797,
+      "pros": [
+        "SSAP is the primary dedicated credential for security awareness professionals",
+        "Covers behavior change science, program design, and metrics \u2014 not just technical security",
+        "CISM adds security management recognition that opens senior awareness roles",
+        "Human risk management is increasingly recognized as a security discipline"
+      ],
+      "cons": [
+        "SSAP has lower name recognition than CISM or CISSP at HR filter level",
+        "Narrow specialization",
+        "Awareness roles sometimes undervalued vs technical positions"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Security awareness program design concepts",
+          "Behavioral psychology basics",
+          "Communication and training development",
+          "Security fundamentals"
+        ],
+        "recommended_certs": [],
+        "experience": "HR, learning and development, communications, or security operations background beneficial. Security awareness requires security knowledge plus behavioral science and communication skills."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ssap",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "SANS Security Awareness Professional \u2014 full security awareness program lifecycle: needs assessment, content development, phishing simulation design, metrics and measurement, culture change strategy. Associated with SANS MGT433. The only industry-recognized dedicated security awareness credential with 1,000+ certified holders."
+        },
+        {
+          "cert_id": "cism",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "Adds security management recognition that positions awareness professionals as security program stakeholders rather than training coordinators. CISM program development domain directly maps to awareness program governance. Enables awareness managers to participate in security strategy discussions at the management level."
+        }
+      ]
+    }
+  ]
+}

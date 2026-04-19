@@ -1,0 +1,272 @@
+{
+  "role_id": "cloud_security_engineer",
+  "label": "Cloud Security Engineer",
+  "description": "Designs, implements, and operates security controls in cloud environments. Covers cloud security architecture, identity and access management, network security, data protection, and security operations across AWS, Azure, and GCP.",
+  "job_titles": [
+    "Cloud Security Engineer",
+    "Cloud Security Architect",
+    "Cloud Security Analyst",
+    "AWS Security Engineer",
+    "Azure Security Engineer",
+    "GCP Security Engineer",
+    "Cloud Infrastructure Security Engineer",
+    "DevSecOps Engineer"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "cloud_sec_aws",
+      "name": "AWS-Focused Track",
+      "rationale": "AWS dominates cloud market share. This path builds vendor-neutral governance foundations before specializing in AWS security engineering \u2014 the combination most commonly required in AWS-heavy organizations.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 1294,
+      "pros": [
+        "AWS Security Specialty is widely required in AWS-heavy organizations",
+        "CCSP adds vendor-neutral governance credibility for senior roles",
+        "CCSK provides affordable foundational cloud security framework knowledge",
+        "Recognized in both commercial and government cloud environments"
+      ],
+      "cons": [
+        "Less relevant if your organization runs primarily Azure",
+        "CCSP requires 5 years IT experience \u2014 may need to defer",
+        "No DoD 8140 coverage except CCSP"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "AWS platform fundamentals \u2014 IAM, VPC, EC2, S3, CloudTrail",
+          "Networking fundamentals",
+          "Basic security concepts",
+          "Cloud computing concepts (shared responsibility, virtualization)"
+        ],
+        "recommended_certs": [],
+        "experience": "Prior AWS experience is strongly recommended before sitting the AWS Security Specialty. AWS recommends 5 years IT experience and 2 years securing AWS workloads. Take the AWS Cloud Practitioner and AWS Solutions Architect Associate first if you're new to AWS."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Open-book exam using CSA Security Guidance v4 and ENISA Cloud Risk Assessment. Download both documents and build familiarity with the structure. The CSA Guidance is the primary reference \u2014 know it well. CCSK is a natural prerequisite for CCSP and establishes vendor-neutral cloud security framework knowledge before diving into AWS specifics."
+        },
+        {
+          "cert_id": "aws-security-specialty",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "The AWS Security Specialty is challenging \u2014 it assumes deep AWS operational experience, not just conceptual knowledge. Study with Adrian Cantrill's course and Stephane Maarek's practice exams. Hands-on labs are essential \u2014 set up a personal AWS account and build the security services yourself. Focus on GuardDuty, Security Hub, Inspector, Macie, KMS, CloudTrail, and IAM policies in depth."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "The senior cloud security credential that opens architect-level roles. Requires 5 years IT experience including 3 in security. Study with Ben Malisow's Official Study Guide and practice with Boson exams. The content is broad \u2014 architecture, data security, platform security, application security, operations, and compliance. Your AWS and CCSK experience makes the practical elements significantly more graspable."
+        }
+      ]
+    },
+    {
+      "id": "cloud_sec_azure",
+      "name": "Azure-Focused Track",
+      "rationale": "For organizations running Microsoft Azure \u2014 the second largest cloud provider with dominant enterprise presence. AZ-500 is increasingly listed as mandatory in Azure cloud security job postings.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 725,
+      "pros": [
+        "AZ-500 listed in most Azure security job postings \u2014 effectively mandatory",
+        "SC-100 opens architect-level Azure security roles",
+        "Low cost per cert compared to GIAC or ISC2 alternatives",
+        "Microsoft certification is well recognized across commercial and government Azure deployments"
+      ],
+      "cons": [
+        "One-year renewal cycles require ongoing exam maintenance",
+        "Less useful outside Azure environments",
+        "No DoD 8140 coverage"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Azure platform fundamentals \u2014 Entra ID, VNets, Storage, Key Vault",
+          "Networking fundamentals",
+          "Identity and access management concepts",
+          "Basic security concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "AZ-900 (Azure Fundamentals) before AZ-500 is strongly recommended. Prior Azure administration or engineering experience is valuable."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Vendor-neutral cloud security foundations before specializing. Particularly useful for Azure practitioners who need to understand the broader governance and risk frameworks that Azure security controls map to."
+        },
+        {
+          "cert_id": "az-500",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "The core Azure security engineering cert. Study with John Savill's Azure Master Class and Microsoft Learn. Hands-on labs are essential \u2014 Microsoft Learn has free sandbox environments. Focus on Defender for Cloud, Sentinel, Key Vault, Entra ID Conditional Access, and network security groups in depth. One-year renewal means you'll sit this exam annually."
+        },
+        {
+          "cert_id": "sc-100",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "The Azure security architect credential \u2014 covers Zero Trust design, security operations architecture, and cloud security posture management at a strategic level. Harder than AZ-500 because it tests architecture judgment rather than feature knowledge. Requires practical Azure security experience to pass \u2014 your AZ-500 work provides the foundation. Opens senior architect and CISO-track roles in Azure-heavy organizations."
+        }
+      ]
+    },
+    {
+      "id": "cloud_sec_multicloud",
+      "name": "Multi-Cloud Track",
+      "rationale": "For cloud security engineers whose organizations run workloads across multiple cloud providers, or for consultants who need to advise across AWS and Azure environments. Builds broad credibility with a vendor-neutral core.",
+      "estimated_timeline": "18-28 months",
+      "total_cost_usd": 1659,
+      "pros": [
+        "CCSP is the recognized vendor-neutral senior cloud security credential",
+        "AWS + Azure coverage makes you deployable in the widest range of organizations",
+        "CKS adds container and Kubernetes security \u2014 increasingly required in multi-cloud environments",
+        "Strong consulting profile \u2014 not locked to one vendor"
+      ],
+      "cons": [
+        "Long timeline \u2014 building genuine multi-cloud depth takes time",
+        "High total cost",
+        "Risk of being a generalist without deep specialization"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Multi-cloud platform concepts",
+          "Kubernetes fundamentals",
+          "Networking and IAM across cloud providers",
+          "Security architecture principles"
+        ],
+        "recommended_certs": [],
+        "experience": "Prior cloud engineering or security operations experience across at least one major provider. Not recommended as a first cloud security path \u2014 specialize in one provider first."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Vendor-neutral foundation. Establishes common cloud security language and frameworks before provider-specific specialization."
+        },
+        {
+          "cert_id": "aws-security-specialty",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Start with AWS given its market dominance. Deep hands-on AWS security practice before moving to Azure."
+        },
+        {
+          "cert_id": "az-500",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "Azure security engineering. Your AWS experience gives useful comparison context for Azure security controls and design patterns."
+        },
+        {
+          "cert_id": "cks",
+          "order": 4,
+          "estimated_time": "2-4 months",
+          "notes": "Certified Kubernetes Security Specialist \u2014 the most recognized container security credential. Practical exam using real Kubernetes clusters. Kubernetes is the workload platform across all major cloud providers \u2014 CKS bridges the provider-specific certifications with cross-cloud container security skills. Complete the CKA (Kubernetes Administrator) before attempting CKS."
+        },
+        {
+          "cert_id": "ccsp",
+          "order": 5,
+          "estimated_time": "4-6 months",
+          "notes": "The senior capstone that validates broad cloud security governance and architecture knowledge across all providers. By this stage your multi-cloud operational experience makes the CCSP content immediately relatable rather than abstract."
+        }
+      ]
+    },
+    {
+      "id": "cloud_sec_gcp",
+      "name": "GCP Track",
+      "rationale": "Google Cloud Platform is the third major cloud provider and dominant in data engineering, ML/AI, and tech sector environments. The GCP Security Engineer certification validates platform-specific security engineering on the most technically differentiated major cloud platform.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 994,
+      "pros": [
+        "GCP Security Engineer validates the least-common major cloud security specialization",
+        "GCP is dominant in data engineering, Kubernetes, and ML/AI environments",
+        "CCSK adds the vendor-neutral governance framework valued by cloud architects",
+        "Rarer specialization than AWS or Azure \u2014 less competition, strong demand in tech sector"
+      ],
+      "cons": [
+        "Smaller enterprise market share than AWS or Azure",
+        "Less recognized in traditional enterprise environments compared to AWS or Azure tracks",
+        "GCP tooling and IAM model requires specific learning investment"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "GCP platform fundamentals",
+          "Cloud security architecture basics",
+          "IAM concepts",
+          "Networking fundamentals"
+        ],
+        "recommended_certs": [
+          "ccsk"
+        ],
+        "experience": "GCP operations experience strongly recommended. Google Cloud offers free training credits and a Skills Boost learning path."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "CSA cloud security foundation \u2014 vendor-neutral governance and architecture framework that applies across GCP alongside other cloud providers."
+        },
+        {
+          "cert_id": "gcp-security-engineer",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "Google Cloud Professional Cloud Security Engineer \u2014 covers GCP IAM, VPC security, data protection, logging and monitoring, and compliance in GCP environments. Study with Google's official Security Engineer learning path on Google Cloud Skills Boost. Hands-on GCP environment access is essential \u2014 use the free trial credits."
+        },
+        {
+          "cert_id": "gcsa",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Cloud Security Automation \u2014 adds cloud-native security automation depth covering IaC security, container security automation, and cloud-native security tooling. Particularly relevant in GCP's Kubernetes-native and DevOps-oriented environments. Associated with SANS SEC540."
+        }
+      ]
+    },
+    {
+      "id": "cloud_sec_kubernetes",
+      "name": "Kubernetes / Cloud-Native Track",
+      "rationale": "For cloud security engineers whose primary scope is Kubernetes and container security rather than broad cloud platform security. The most in-demand cloud security specialization as organizations shift to cloud-native workloads. KCSA + CKS covers the full Kubernetes security stack from associate to specialist.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1344,
+      "pros": [
+        "CKS is the recognized standard Kubernetes security credential \u2014 required by name at most K8s security roles",
+        "Performance-based exams in real clusters prove actual hands-on skill",
+        "KCSA provides accessible entry before the CKA prerequisite commitment",
+        "Cloud provider agnostic \u2014 applies across EKS, AKS, GKE"
+      ],
+      "cons": [
+        "CKS requires active CKA certification as prerequisite \u2014 adds time and cost",
+        "Narrow focus \u2014 less applicable to non-containerized workloads",
+        "Kubernetes evolves rapidly \u2014 requires continuous learning beyond certification"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Kubernetes administration fundamentals",
+          "Container concepts",
+          "Linux administration",
+          "Cloud platform basics"
+        ],
+        "recommended_certs": [],
+        "experience": "Kubernetes operational experience required. CKA is a prerequisite for CKS \u2014 budget 3-4 months for CKA before CKS."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsk",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "CSA cloud security foundation establishing the governance context for cloud-native security work."
+        },
+        {
+          "cert_id": "kcsa",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "Kubernetes and Cloud Native Security Associate \u2014 foundational K8s security concepts without the CKA prerequisite. Establishes the security model and prepares you for the CKA \u2192 CKS path."
+        },
+        {
+          "cert_id": "cks",
+          "order": 3,
+          "estimated_time": "4-8 months",
+          "notes": "Certified Kubernetes Security Specialist \u2014 the definitive K8s security credential. 2-hour performance-based exam in real Kubernetes environments. Requires active CKA. Cluster hardening, system hardening, microservice vulnerabilities, supply chain security, monitoring and runtime security. Practice daily in a kubeadm-provisioned cluster \u2014 not just minikube. Use Killer.sh simulator sessions that come with the exam purchase."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "role_id": "grc_analyst",
+  "label": "GRC Analyst",
+  "description": "Manages governance, risk, and compliance programs including IT audit, risk assessments, policy development, ISO 27001 ISMS implementation, business continuity, and regulatory compliance.",
+  "job_titles": [
+    "GRC Analyst",
+    "IT Risk Analyst",
+    "Information Security Auditor",
+    "Compliance Analyst",
+    "Risk and Compliance Manager",
+    "ISO 27001 Lead Implementer",
+    "ISMS Manager",
+    "IT Audit Manager"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "grc_isaca",
+      "name": "ISACA Track",
+      "rationale": "The most recognized GRC path globally for audit and risk roles. CISA is the gold standard for IT audit; CRISC for IT risk management. Together they open the broadest range of GRC roles.",
+      "estimated_timeline": "18-28 months",
+      "total_cost_usd": 1797,
+      "pros": [
+        "CISA is the most recognized IT audit credential globally",
+        "CRISC is the most recognized IT risk management credential",
+        "Both DoD 8140 approved",
+        "Opens audit, risk management, and GRC management roles across all sectors"
+      ],
+      "cons": [
+        "Both require significant verified work experience",
+        "High cost without employer sponsorship",
+        "Theory-heavy \u2014 limited hands-on practical validation"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "IT governance and control frameworks",
+          "Risk management concepts",
+          "Audit methodology and evidence collection",
+          "Regulatory compliance awareness"
+        ],
+        "recommended_certs": [],
+        "experience": "CISA requires 5 years IT audit/control/security experience. CRISC requires 3 years IT risk management experience. Not entry-level credentials."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "grcp",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "OCEG's GRC Professional certification \u2014 an accessible entry point for GRC practitioners building foundational framework knowledge. Covers GRC capability model, policy management, and compliance program structure. Good foundational credential while accumulating experience toward CISA."
+        },
+        {
+          "cert_id": "cisa",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "The gold standard IT audit credential. Study with the ISACA CISA Review Manual and Hemang Doshi's practice questions. The exam covers IS audit process, IT governance, information systems acquisition, IS operations, and protection of information assets. Experience verification takes time \u2014 submit the application well in advance. CISA alongside Security+ satisfies most entry and mid-level GRC and audit analyst job requirements."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "IT risk management capstone. Covers risk identification, assessment, response, and monitoring from an enterprise governance perspective. With CISA providing audit foundations, CRISC adds the risk quantification and management framework that GRC managers need. CISA + CRISC together is the most recognized combination for senior GRC and risk manager roles."
+        }
+      ]
+    },
+    {
+      "id": "grc_iso",
+      "name": "ISO Framework Track",
+      "rationale": "For GRC analysts whose work centers on ISO 27001 ISMS implementation and management. Most relevant in European and Asia-Pacific markets, regulated industries, and organizations pursuing ISO 27001 certification.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1598,
+      "pros": [
+        "ISO 27001 LI and LA are widely recognized for ISMS implementation roles",
+        "PECB credentials are recognized across European and Asia-Pacific markets",
+        "Directly applicable to organizations undergoing ISO 27001 certification",
+        "Lower experience requirements than ISACA credentials"
+      ],
+      "cons": [
+        "Less recognized than CISA or CRISC in US market",
+        "Not DoD 8140 approved",
+        "More narrowly focused than ISACA track"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Information security management concepts",
+          "ISO 27001 standard awareness",
+          "Risk assessment methodology",
+          "Audit concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "Some security or IT management experience is beneficial. Lower barriers than ISACA credentials."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pecb-iso27001-foundation",
+          "order": 1,
+          "estimated_time": "1 month",
+          "notes": "The PECB ISO 27001 Foundation \u2014 introduces the standard structure, key requirements, and ISMS concepts. Quick entry point and often included in PECB training packages."
+        },
+        {
+          "cert_id": "pecb-iso27001-li",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "ISO 27001 Lead Implementer \u2014 covers ISMS design, implementation, and management in detail. The primary credential for practitioners leading ISO 27001 certification projects. Requires a 5-day training course from an accredited provider."
+        },
+        {
+          "cert_id": "pecb-iso27001-la",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "ISO 27001 Lead Auditor \u2014 covers the audit methodology for ISO 27001 ISMS assessments. Together LI + LA gives you both the implementation and audit perspective, making you capable of leading certification projects and conducting compliance audits. The most recognized combination for ISO 27001 consultants."
+        },
+        {
+          "cert_id": "pecb-iso22301-li",
+          "order": 4,
+          "estimated_time": "2-4 months",
+          "notes": "ISO 22301 Business Continuity Lead Implementer \u2014 complements the ISMS credentials with business continuity program design skills. ISO 27001 and ISO 22301 are frequently implemented together in enterprise environments, making this a natural extension credential."
+        }
+      ]
+    },
+    {
+      "id": "grc_government",
+      "name": "Government / DoD Track",
+      "rationale": "For GRC analysts targeting federal government, defense contractor, or FISMA-regulated environments. Prioritizes DoD 8140 approved credentials.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 1791,
+      "pros": [
+        "CISA and CRISC are DoD 8140 approved",
+        "Directly applicable to FISMA, FedRAMP, and RMF compliance work",
+        "CISSP adds DoD 8140 coverage for senior GRC roles"
+      ],
+      "cons": [
+        "High experience requirements",
+        "High cost",
+        "Slow path given experience verification timelines"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "NIST Risk Management Framework",
+          "FISMA compliance concepts",
+          "IT audit methodology",
+          "Federal government security requirements"
+        ],
+        "recommended_certs": [
+          "security-plus"
+        ],
+        "experience": "Security+ is commonly required as a baseline for government positions. Prior federal IT or security work is strongly advantageous."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "cisa",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "The DoD-approved IT audit credential and the most recognized GRC credential in government environments. Start here after Security+."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "DoD-approved risk management credential. CISA + CRISC satisfies most senior government GRC and risk analyst job requirements."
+        },
+        {
+          "cert_id": "cissp",
+          "order": 3,
+          "estimated_time": "4-8 months",
+          "notes": "Adds the universal senior security credential that opens CISO-track and senior GRC management roles in government. CISA + CRISC + CISSP is the most complete DoD-approved GRC credential stack."
+        }
+      ]
+    }
+  ]
+}

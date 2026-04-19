@@ -1,0 +1,67 @@
+{
+  "role_id": "soc_manager",
+  "label": "SOC Manager",
+  "description": "Manages security operations center teams and programs \u2014 shift management, analyst development, SLA management, incident escalation, detection tuning strategy, and SOC program governance.",
+  "job_titles": [
+    "SOC Manager",
+    "SOC Lead",
+    "Cyber Defense Manager",
+    "Director of Security Operations",
+    "Head of SOC",
+    "Security Operations Manager"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "soc_mgmt_standard",
+      "name": "SOC Management Track",
+      "rationale": "GSOM is the only dedicated SOC management certification. Combined with CISM and GCIL this is the most complete SOC leadership credential stack.",
+      "estimated_timeline": "14-22 months",
+      "total_cost_usd": 2997,
+      "pros": [
+        "GSOM is the only dedicated SOC manager certification \u2014 recognized by name in SOC leadership postings",
+        "CISM provides the security management framework expected at senior SOC leadership",
+        "GCIL adds incident leadership depth for SOC managers who lead during major breaches",
+        "Strong combination for enterprise SOC manager and MSSP SOC director roles"
+      ],
+      "cons": [
+        "All require significant security management experience",
+        "High total cost",
+        "GSOM relatively new \u2014 building market recognition"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "SOC operations and workflows",
+          "Incident response process",
+          "Security metrics and KPIs",
+          "Team management fundamentals"
+        ],
+        "recommended_certs": [
+          "gcih",
+          "gcda"
+        ],
+        "experience": "5+ years security operations experience including 2+ years in a team lead or senior analyst role."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcil",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Cyber Incident Leadership \u2014 IR team management, stakeholder communication during incidents, and post-incident governance. Operational leadership foundation for SOC managers who escalate and lead during major incidents."
+        },
+        {
+          "cert_id": "gsom",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Security Operations Manager \u2014 the only dedicated SOC management certification. SOC architecture design, metrics and KPIs, analyst development, playbook governance, and SOC program management. Associated with SANS LDR551. Most directly relevant credential for the SOC manager title."
+        },
+        {
+          "cert_id": "cism",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "ISACA Certified Information Security Manager \u2014 adds security management framework recognition expected at senior SOC leadership. CISM alongside GSOM is the recognized senior SOC leadership credential combination."
+        }
+      ]
+    }
+  ]
+}

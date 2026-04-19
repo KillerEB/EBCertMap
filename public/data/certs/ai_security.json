@@ -1,0 +1,961 @@
+[
+  {
+    "id": "goaa",
+    "acronym": "GOAA",
+    "full_name": "GIAC Offensive AI Analyst",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_attack_techniques",
+      "llm_prompt_injection",
+      "model_extraction",
+      "adversarial_ml",
+      "ai_red_teaming_methodology",
+      "llm_jailbreaking",
+      "ai_system_enumeration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "basic_ai_ml_concepts",
+        "penetration_testing_basics",
+        "python_scripting"
+      ],
+      "recommended_certs": [
+        "gcih"
+      ]
+    },
+    "summary": "GIAC's offensive AI certification covering attack techniques against AI/ML systems \u2014 prompt injection, model extraction, adversarial examples, and LLM jailbreaking. Part of GIAC's expanding AI security portfolio launched in 2024-2025. Not DoD 8140 approved yet as a new cert. One of very few recognized credentials for offensive AI testing and AI red teaming. As organizations deploy AI systems that become attack targets, offensive AI skills are increasingly demanded by red teams and security consultants. The GIAC brand gives this more credibility than the many unproctored AI security courses flooding the market.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/offensive-ai-analyst-goaa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 4,
+      "time_to_prepare": 5,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "gmle",
+    "acronym": "GMLE",
+    "full_name": "GIAC Machine Learning Engineer",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "mlsecops",
+      "ai_ml_security"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "secure_ml_pipeline_design",
+      "model_security",
+      "data_pipeline_security",
+      "ml_threat_modeling",
+      "feature_engineering_security",
+      "model_monitoring_security",
+      "mlops_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "machine_learning_fundamentals",
+        "python_programming",
+        "data_science_basics",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's machine learning security engineering certification covering how to build and secure ML pipelines, protect models, and implement MLSecOps practices. Targets security engineers and ML practitioners who build AI/ML systems rather than attack them. Not DoD 8140 approved. One of the few certs bridging ML engineering and security \u2014 valuable for organizations building AI products who need to secure their ML infrastructure and development pipelines. Requires genuine ML engineering background alongside security knowledge, making it a genuinely expert-level credential.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/machine-learning-engineer-gmle/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 7,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "gasae",
+    "acronym": "GASAE",
+    "full_name": "GIAC AI Security Automation Engineer",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_ml_security",
+      "mlsecops"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_security_automation",
+      "llm_security_tooling",
+      "agentic_ai_security",
+      "ai_detection_engineering",
+      "ai_pipeline_automation_security",
+      "ai_threat_detection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_engineering",
+        "python_scripting",
+        "ai_ml_concepts",
+        "automation_concepts"
+      ],
+      "recommended_certs": [
+        "gmle"
+      ]
+    },
+    "summary": "GIAC's AI security automation certification covering the use of AI tools for security automation and the security of AI-driven automation systems \u2014 including agentic AI security. Became generally available in April 2026. Not DoD 8140 approved. Addresses the growing need for security engineers who can both leverage AI for security automation and secure the AI systems being used for automation. One of the most forward-looking GIAC certs given the rapid expansion of agentic AI in security tooling.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "gaips",
+    "acronym": "GAIPS",
+    "full_name": "GIAC AI Platform Security",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "llm_security",
+      "ai_ml_security"
+    ],
+    "level": "expert",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "llm_security_architecture",
+      "genai_pipeline_security",
+      "rag_security",
+      "ai_supply_chain_security",
+      "model_serving_security",
+      "ai_platform_hardening",
+      "ai_data_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "cloud_security_basics",
+        "llm_architecture_concepts",
+        "security_engineering",
+        "api_security"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's LLM and generative AI platform security certification covering the security of AI infrastructure \u2014 LLM deployment security, RAG pipeline security, AI supply chain, and model serving hardening. Generally available approximately July 2026. Not DoD 8140 approved. Addresses the platform security layer of AI systems \u2014 the infrastructure and architecture that LLMs run on rather than the models themselves. Particularly relevant for cloud security engineers and platform engineers deploying enterprise AI systems who need structured credentials for this rapidly emerging specialization.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/ai-platform-security-gaips/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 5.1
+    }
+  },
+  {
+    "id": "osai",
+    "acronym": "OSAI",
+    "full_name": "OffSec AI Red Teamer",
+    "issuing_body": "OffSec",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 1749,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "llm_red_teaming",
+      "prompt_injection",
+      "llm_jailbreaking",
+      "ai_system_exploitation",
+      "ai_attack_methodology",
+      "agentic_ai_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "penetration_testing_basics",
+        "python_scripting",
+        "basic_ai_ml_concepts",
+        "api_testing"
+      ],
+      "recommended_certs": [
+        "oscp"
+      ]
+    },
+    "summary": "OffSec's AI red teaming certification bringing their 100% practical exam approach to AI security testing. Covers LLM prompt injection, jailbreaking, agentic AI attacks, and AI system exploitation methodology. Fully practical exam \u2014 no multiple choice. Not DoD 8140 approved but OffSec's brand carries significant weight in practitioner communities. One of the few practical AI security certifications. As AI systems become regular pentest targets, OSAI positions OffSec in a fast-growing market. The practical format meaningfully differentiates it from the theory-heavy AI security courses that dominate this space currently.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.offsec.com/courses/ai-100/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 7.2
+    }
+  },
+  {
+    "id": "osai-plus",
+    "acronym": "OSAI+",
+    "full_name": "OffSec AI Red Teamer Advanced",
+    "issuing_body": "OffSec",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1749,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_llm_exploitation",
+      "multi_modal_ai_attacks",
+      "ai_agent_exploitation",
+      "complex_prompt_injection_chains",
+      "ai_system_pivoting",
+      "advanced_jailbreaking_techniques"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "ai_red_teaming_intermediate",
+        "advanced_exploitation_concepts",
+        "llm_architecture_deep_knowledge"
+      ],
+      "recommended_certs": [
+        "osai"
+      ]
+    },
+    "summary": "OffSec's advanced AI red teaming certification covering complex multi-stage AI system attacks, agentic AI exploitation, multi-modal attack techniques, and advanced prompt injection chains. 100% practical exam. Not DoD 8140 approved. The expert tier above OSAI for practitioners who want to specialize deeply in AI security offensive testing. Requires the foundational OSAI knowledge and significant hands-on AI attack experience. Targets senior red teamers and AI security consultants who conduct dedicated AI penetration testing engagements.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.offsec.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 7.4
+    }
+  },
+  {
+    "id": "htb-coae",
+    "acronym": "HTB COAE",
+    "full_name": "HTB Certified Offensive AI Expert",
+    "issuing_body": "Hack The Box",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 490,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "llm_attack_techniques",
+      "prompt_injection_advanced",
+      "ai_model_attacks",
+      "llm_jailbreaking_advanced",
+      "ai_reconnaissance",
+      "ai_vulnerability_chaining"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "web_security_basics",
+        "api_testing",
+        "python_scripting",
+        "basic_ai_awareness"
+      ],
+      "recommended_certs": [
+        "htb-cwes"
+      ]
+    },
+    "summary": "Hack The Box's offensive AI expert certification covering advanced LLM attack techniques, prompt injection chaining, model attacks, and AI vulnerability exploitation. 100% practical CTF-style exam. Not DoD 8140 approved. HTB's brand is strong in the practitioner community and their practical exam approach is respected. One of the more affordable practical AI security certifications in a space where most offerings are overpriced courses with weak assessments. Developed in collaboration with Google, giving the curriculum additional credibility.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "papa",
+    "acronym": "PAPA",
+    "full_name": "Practical AI Pentest Associate",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 249,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "llm_penetration_testing_basics",
+      "prompt_injection",
+      "llm_jailbreaking_basics",
+      "ai_application_testing",
+      "owasp_llm_top_10",
+      "ai_pentest_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_concepts",
+        "basic_web_application_awareness",
+        "basic_ai_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TCM Security's entry-level AI penetration testing certification \u2014 100% practical exam covering OWASP LLM Top 10, basic prompt injection, and AI application testing methodology. Includes training course. Never expires. Not DoD 8140 approved. At $249 including training it's one of the most accessible AI security certifications and one of the few with a practical assessment. Good entry point for practitioners wanting to add AI security testing to their skillset before pursuing more advanced certs like OSAI or HTB COAE. TCM's practical exam format adds more value than the typical AI security course-completion badge.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/papa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 7,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "caisp",
+    "acronym": "CAISP",
+    "full_name": "Certified AI Security Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_ml_security",
+      "ai_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1099,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_threat_modeling",
+      "llm_security_testing",
+      "ai_supply_chain_security",
+      "sbom_aibom",
+      "ai_red_teaming_basics",
+      "mitre_atlas",
+      "ai_firewall_implementation",
+      "ai_governance_technical"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_engineering_basics",
+        "owasp_llm_top_10",
+        "basic_ai_concepts",
+        "devsecops_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's AI security certification covering OWASP LLM Top 10, MITRE ATLAS, AI threat modeling using STRIDE and StrideGPT, AI supply chain security with AIBOMs/SBOMs, and AI firewall implementation. 6-hour practical exam with 5 challenges. Not DoD 8140 approved. One of the most comprehensive AI security certifications available \u2014 combining defensive AI security, threat modeling, and governance in a single credential. The practical exam format distinguishes it from the many theory-only AI security courses. Best suited for security engineers who work on AI systems rather than pure red teamers.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.practical-devsecops.com/certified-ai-security-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 7,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 5.8
+    }
+  },
+  {
+    "id": "coasp",
+    "acronym": "C|OASP",
+    "full_name": "Certified Offensive AI Security Professional",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_red_teaming"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 950,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "llm_attack_methodology",
+      "prompt_injection",
+      "adversarial_ml_basics",
+      "ai_system_reconnaissance",
+      "ai_vulnerability_assessment",
+      "deepfake_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "basic_ai_awareness",
+        "penetration_testing_concepts"
+      ],
+      "recommended_certs": [
+        "ceh"
+      ]
+    },
+    "summary": "EC-Council's offensive AI certification covering LLM attack methodology, prompt injection, adversarial ML, and AI vulnerability assessment. Not DoD 8140 approved. EC-Council is aggressively expanding into AI security with multiple new certifications. The MCQ-heavy format is a limitation in a domain where hands-on skill is what matters \u2014 OSAI, HTB COAE, and PAPA all have stronger practical components. Worth considering if you're already in the EC-Council ecosystem, but practitioners should prioritize the practical alternatives for demonstrating actual AI security skill.",
+    "flags": [
+      "new",
+      "low_community_respect"
+    ],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-offensive-ai-security-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 4,
+      "employer_recognition": 4,
+      "community_respect": 3,
+      "salary_impact": 4,
+      "time_to_prepare": 5,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "aigp-iapp",
+    "acronym": "AIGP",
+    "full_name": "AI Governance Professional",
+    "issuing_body": "IAPP",
+    "domain": [
+      "ai_security",
+      "data_privacy"
+    ],
+    "subdomain": [
+      "ai_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 5,
+    "cost_usd": 550,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_governance_frameworks",
+      "eu_ai_act",
+      "ai_risk_management",
+      "algorithmic_accountability",
+      "ai_ethics",
+      "nist_ai_rmf",
+      "ai_privacy_intersection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "privacy_fundamentals",
+        "basic_ai_awareness",
+        "regulatory_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "IAPP's AI governance certification covering the EU AI Act, NIST AI RMF, algorithmic accountability, and AI ethics from a governance and compliance perspective. Not DoD 8140 approved. Currently the most recognized AI governance certification and growing rapidly in demand as organizations prepare for EU AI Act enforcement. More governance and compliance oriented than technical \u2014 best suited for privacy officers and compliance professionals expanding into AI governance rather than technical AI security practitioners. Pairs well with CIPP/E for practitioners managing GDPR plus EU AI Act compliance.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://iapp.org/certify/aigp/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.4
+    }
+  },
+  {
+    "id": "pecb-iso42001-li",
+    "acronym": "ISO 42001 LI",
+    "full_name": "PECB Certified ISO/IEC 42001 Lead Implementer",
+    "issuing_body": "PECB",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East",
+    "skills": [
+      "iso_42001_aims_implementation",
+      "ai_management_system",
+      "ai_risk_management_iso",
+      "responsible_ai_governance",
+      "ai_impact_assessment"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iso_management_system_concepts",
+        "ai_awareness",
+        "organizational_governance"
+      ],
+      "recommended_certs": [
+        "pecb-iso27001-foundation"
+      ]
+    },
+    "summary": "PECB's ISO/IEC 42001 Lead Implementer certification covering implementation of an AI Management System (AIMS) based on the first international AI management standard. Not DoD 8140 approved. ISO 42001 was published in December 2023 and provides a framework for responsible AI governance applicable to any organization developing or using AI. Most relevant for organizations pursuing ISO 42001 certification or building formal AI governance programs aligned with international standards. Growing recognition as ISO 42001 adoption accelerates alongside EU AI Act compliance.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-42001",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "pecb-iso42001-la",
+    "acronym": "ISO 42001 LA",
+    "full_name": "PECB Certified ISO/IEC 42001 Lead Auditor",
+    "issuing_body": "PECB",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 15,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in Europe, Middle East",
+    "skills": [
+      "iso_42001_audit_methodology",
+      "ai_management_system_audit",
+      "ai_compliance_assessment",
+      "ai_control_evaluation",
+      "ai_audit_reporting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "audit_methodology",
+        "ai_governance_concepts",
+        "iso_42001_standard"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "PECB's ISO/IEC 42001 Lead Auditor certification for practitioners who audit AI management systems against the ISO 42001 standard. Not DoD 8140 approved. Targeted at auditors and assessors working with organizations implementing or claiming conformance to ISO 42001. As AI governance audit becomes a formal function similar to ISO 27001 audit, this cert positions practitioners for that emerging market. Most relevant for GRC professionals and audit consultants expanding into AI governance.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-42001",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 4.1
+    }
+  },
+  {
+    "id": "isaca-aair",
+    "acronym": "AAIR",
+    "full_name": "Advanced in AI Risk",
+    "issuing_body": "ISACA",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 415,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_risk_identification",
+      "ai_risk_assessment",
+      "ai_risk_treatment",
+      "ai_governance_frameworks",
+      "ai_risk_monitoring"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "risk_management_intermediate",
+        "ai_awareness",
+        "it_governance_concepts"
+      ],
+      "recommended_certs": [
+        "crisc"
+      ]
+    },
+    "summary": "ISACA's AI risk add-on certification for existing CRISC holders \u2014 extends traditional IT risk management methodology into the AI domain. Not DoD 8140 approved. Part of ISACA's emerging AI credential suite designed to help existing ISACA practitioners extend their credentials into AI governance without starting from scratch. Requires CRISC as a prerequisite, making it a specialization rather than a standalone cert. Most relevant for CRISC-certified risk professionals who are taking on AI governance responsibilities.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.isaca.org/credentialing/advanced-in-ai",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "isaca-aaia",
+    "acronym": "AAIA",
+    "full_name": "Advanced in AI Audit",
+    "issuing_body": "ISACA",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 415,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_audit_methodology",
+      "ai_system_assessment",
+      "ai_control_evaluation",
+      "algorithmic_auditing",
+      "ai_compliance_testing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "audit_methodology",
+        "ai_awareness"
+      ],
+      "recommended_certs": [
+        "cisa"
+      ]
+    },
+    "summary": "ISACA's AI audit add-on certification for existing CISA holders \u2014 extends IS audit methodology into the specific context of auditing AI systems and AI governance programs. Not DoD 8140 approved. Requires CISA as a prerequisite. Launched May 2025. Most relevant for IS auditors who are being asked to audit AI systems, AI governance frameworks, and algorithmic decision-making processes as part of their audit portfolio. Practical for practitioners at organizations where AI audit is becoming a formal requirement.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.isaca.org/credentialing/advanced-in-ai",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "secai-plus",
+    "acronym": "SecAI+",
+    "full_name": "CompTIA SecAI+",
+    "issuing_body": "CompTIA",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_ml_security",
+      "ai_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 392,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "ai_security_fundamentals",
+      "llm_security_basics",
+      "ai_risk_management",
+      "secure_ai_implementation",
+      "ai_threat_identification",
+      "ai_governance_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "basic_ai_awareness"
+      ],
+      "recommended_certs": [
+        "security-plus"
+      ]
+    },
+    "summary": "CompTIA's AI security certification covering AI threat identification, secure AI implementation, LLM security basics, and AI risk management. Not DoD 8140 approved \u2014 CompTIA has submitted for approval but it's not yet listed. Performance-based questions add practical elements. Launched 2025. CompTIA's brand and accessibility make SecAI+ the most likely entry point for practitioners new to AI security, particularly those already in the CompTIA ecosystem. Content breadth over depth \u2014 typical of CompTIA certifications \u2014 but a recognized vendor-neutral option in a space otherwise dominated by newer and less established providers.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.comptia.org/certifications/secai",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "aaia",
+    "acronym": "AAIA",
+    "full_name": "ISACA Advanced in AI Audit",
+    "issuing_body": "ISACA",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance",
+      "ai_audit"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years (10 CPE/yr, 30 over cycle)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "$459 for ISACA members. Annual maintenance $20 member / $35 non-member. Requires CISA, CIA, or CPA as prerequisite.",
+    "skills": [
+      "ai_governance",
+      "ai_risk_management",
+      "ai_audit_methodology",
+      "ai_security_fundamentals",
+      "ai_ethics_governance",
+      "compliance_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "AI system fundamentals",
+        "Audit methodology",
+        "Risk management frameworks"
+      ],
+      "recommended_certs": [
+        "cisa"
+      ]
+    },
+    "summary": "ISACA's first AI-specific audit credential, launched May 2025. Validates knowledge of AI system audit methodology, AI governance frameworks, and AI risk assessment for information systems auditors. Requires an active CISA, CIA, or CPA credential as a prerequisite \u2014 designed to extend existing audit qualifications into the AI domain rather than serving as a standalone credential. Covers AI audit planning, AI model risk assessment, AI governance evaluation, and regulatory compliance for AI systems. Targets IT auditors, internal auditors, and compliance professionals who need to audit AI systems within their existing scope. The prerequisite requirement limits the candidate pool to credentialed audit professionals, which is appropriate given the advanced governance content. Annual maintenance of $20/$35 makes this one of the most affordable ISACA credentials to maintain.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.isaca.org/credentialing/aaia",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "aaism",
+    "acronym": "AAISM",
+    "full_name": "ISACA Advanced in AI Security Management",
+    "issuing_body": "ISACA",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_governance",
+      "ai_security_management"
+    ],
+    "level": "expert",
+    "practical_weight": 5,
+    "cost_usd": 599,
+    "renewal": "3 years (10 CPE/yr, 30 over cycle)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "$459 for ISACA members. Annual maintenance $20 member / $35 non-member. Requires CISM or CISSP as prerequisite.",
+    "skills": [
+      "ai_governance",
+      "ai_risk_management",
+      "ai_security_fundamentals",
+      "ai_ethics_governance",
+      "security_program_management",
+      "ai_policy_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "AI system fundamentals",
+        "Information security management",
+        "Risk management"
+      ],
+      "recommended_certs": [
+        "cism"
+      ]
+    },
+    "summary": "ISACA's AI security management credential, launched August 19, 2025. Validates AI security governance, AI risk management frameworks, and AI policy development for information security managers. Requires an active CISM or CISSP as a prerequisite \u2014 designed to extend established security management credentials into the AI domain. Covers AI threat landscape, AI model security lifecycle, AI governance program design, and managing AI-related risks at the enterprise level. Targets CISMs, CISOs, and security managers who are integrating AI security into their existing security programs. Like AAIA, the prerequisite requirement appropriately limits the audience to credentialed security management professionals. The AAISM credential positions ISACA alongside ISC2 and GIAC in the rapidly expanding AI governance and security management certification market.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.isaca.org/credentialing/aaism",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 5.3
+    }
+  }
+]

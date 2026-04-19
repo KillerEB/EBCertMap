@@ -1,0 +1,108 @@
+{
+  "role_id": "threat_intelligence_analyst",
+  "label": "Threat Intelligence Analyst",
+  "description": "Collects, analyzes, and disseminates threat intelligence to inform defensive security decisions. Covers TTP analysis, threat actor profiling, IOC management, MITRE ATT&CK application, and intelligence reporting for technical and executive audiences.",
+  "job_titles": [
+    "Threat Intelligence Analyst",
+    "CTI Analyst",
+    "Cyber Threat Intelligence Analyst",
+    "Intelligence Analyst",
+    "Threat Researcher",
+    "Threat Hunt Analyst",
+    "Malware Analyst",
+    "Threat Intel Engineer"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "cti_standard",
+      "name": "Commercial CTI Track",
+      "rationale": "The most recognized combination for commercial CTI teams, MSSPs, and threat intelligence vendors. GCTI is the benchmark credential; supplementing with platform-specific certifications builds operational tool fluency.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1298,
+      "pros": [
+        "GCTI is the most recognized vendor-neutral CTI credential globally",
+        "MISP provides practical threat sharing platform skills valued in CERT/CSIRT environments",
+        "Strong combination for both in-house CTI teams and intelligence vendors"
+      ],
+      "cons": [
+        "GCTI MCQ format limits demonstration of actual analytical tradecraft",
+        "High cost without SANS training sponsorship",
+        "MISP has limited recognition outside CERT/CSIRT and European markets"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Basic networking and security concepts",
+          "Attacker techniques awareness (MITRE ATT&CK familiarity)",
+          "Basic log analysis",
+          "Understanding of threat actor concepts"
+        ],
+        "recommended_certs": [],
+        "experience": "SOC analyst or security operations experience is strongly beneficial. CTI is a mid-career specialization \u2014 foundational security operations exposure first is recommended."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcti",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "The primary CTI cert. Open-book \u2014 build comprehensive indexed notes organized by intelligence cycle phase, MITRE ATT&CK concepts, and threat actor profiling methodology. Associated with SANS FOR578. Without SANS training use the free MITRE ATT&CK training, Mandiant threat intelligence reports, and the SANS Cyber Threat Intelligence Summit talks available on YouTube. GCTI genuinely requires understanding analytical tradecraft \u2014 it cannot be pure memorization."
+        },
+        {
+          "cert_id": "cd-ctia",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "CyberDefenders' practical CTI certification covering IOC collection, threat intel platforms, OSINT, and intelligence sharing frameworks. 80% practical weight makes this a useful hands-on complement to GCTI's MCQ format. Builds the platform operation and IOC management skills that day-to-day CTI work requires. CyberDefenders platform is well regarded for realistic lab scenarios."
+        },
+        {
+          "cert_id": "misp-analyst",
+          "order": 3,
+          "estimated_time": "1-2 months",
+          "notes": "Free MISP platform certification covering event management, IOC sharing, taxonomy, and STIX/TAXII. Particularly valuable if your organization participates in threat sharing communities (ISACs, national CERTs). Even where MISP itself isn't deployed, the threat sharing framework knowledge transfers to other TIPs. An easy add-on that costs nothing and demonstrates platform operation skills."
+        }
+      ]
+    },
+    {
+      "id": "cti_government",
+      "name": "Government / DoD Track",
+      "rationale": "For CTI analysts targeting government, intelligence community, or cleared contractor positions. GCTI provides DoD 8140 coverage; CREST CIP adds senior government intelligence credibility for UK and allied-nation positions.",
+      "estimated_timeline": "14-24 months",
+      "total_cost_usd": 2499,
+      "pros": [
+        "GCTI is DoD 8140 approved for cyber intelligence roles",
+        "CREST CIP is the most rigorous CTI credential with significant practical weight",
+        "Strongest path for senior government intelligence analyst roles"
+      ],
+      "cons": [
+        "CREST CIP primarily recognized in UK, Australia, Singapore, EU \u2014 limited US recognition",
+        "High total cost",
+        "Long timeline"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Intelligence tradecraft concepts",
+          "Security operations experience",
+          "MITRE ATT&CK framework familiarity",
+          "Analytical writing skills"
+        ],
+        "recommended_certs": [
+          "gcti"
+        ],
+        "experience": "Prior intelligence analysis or security operations experience is expected. CREST CIP targets senior practitioners with demonstrable analytical experience."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcti",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "The DoD-approved foundation. Build thorough indexed notes. GCTI alongside Security+ satisfies most government CTI analyst role requirements at the mid-level."
+        },
+        {
+          "cert_id": "crest-cip",
+          "order": 2,
+          "estimated_time": "6-12 months",
+          "notes": "CREST's advanced CTI credential \u2014 the most rigorous and practically weighted intelligence certification available. Significant written and practical components covering strategic intelligence, attribution, collection management, and intelligence product development for senior stakeholders. Targets senior practitioners with substantial CTI experience. Preparation requires real analytical work, not just study \u2014 your GCTI foundation and operational CTI experience are both essential inputs."
+        }
+      ]
+    }
+  ]
+}

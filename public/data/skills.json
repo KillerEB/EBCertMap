@@ -1,0 +1,1697 @@
+{
+  "version": "1.0",
+  "description": "Master skills taxonomy for CertMap. Each skill has a canonical id, label, category, and a matches array containing all raw tag strings used in cert files that map to this skill. The UI uses matches for intersection-based filtering.",
+  "categories": [
+    {
+      "id": "offensive",
+      "label": "Offensive Security",
+      "color": "#ef4444"
+    },
+    {
+      "id": "dfir",
+      "label": "Digital Forensics & Incident Response",
+      "color": "#f97316"
+    },
+    {
+      "id": "network",
+      "label": "Network Security",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "appsec",
+      "label": "Application Security",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud Security",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "threat_intel",
+      "label": "Threat Intelligence",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "iam",
+      "label": "Identity & Access Management",
+      "color": "#10b981"
+    },
+    {
+      "id": "grc",
+      "label": "Governance, Risk & Compliance",
+      "color": "#6b7280"
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy & Data Protection",
+      "color": "#ec4899"
+    },
+    {
+      "id": "ot_ics",
+      "label": "OT / ICS / IoT Security",
+      "color": "#84cc16"
+    },
+    {
+      "id": "ai_security",
+      "label": "AI Security",
+      "color": "#a855f7"
+    },
+    {
+      "id": "leadership",
+      "label": "Security Leadership",
+      "color": "#64748b"
+    }
+  ],
+  "skills": [
+    {
+      "id": "penetration_testing",
+      "label": "Penetration Testing",
+      "category": "offensive",
+      "matches": [
+        "penetration_testing_methodology",
+        "penetration_testing_basics",
+        "network_penetration_testing",
+        "exploitation_awareness"
+      ]
+    },
+    {
+      "id": "exploit_development",
+      "label": "Exploit Development",
+      "category": "offensive",
+      "matches": [
+        "exploit_development",
+        "exploit_development_basics",
+        "custom_exploit_development",
+        "shellcode_development",
+        "heap_exploitation",
+        "buffer_overflow"
+      ]
+    },
+    {
+      "id": "reconnaissance",
+      "label": "Reconnaissance & OSINT",
+      "category": "offensive",
+      "matches": [
+        "reconnaissance_techniques",
+        "web_application_recon",
+        "web_recon",
+        "open_source_intelligence",
+        "osint_basics"
+      ]
+    },
+    {
+      "id": "active_directory_attacks",
+      "label": "Active Directory Attacks",
+      "category": "offensive",
+      "matches": [
+        "active_directory_attacks",
+        "lateral_movement_detection"
+      ]
+    },
+    {
+      "id": "social_engineering",
+      "label": "Social Engineering",
+      "category": "offensive",
+      "matches": [
+        "social_engineering_awareness",
+        "phishing_analysis"
+      ]
+    },
+    {
+      "id": "privilege_escalation",
+      "label": "Privilege Escalation",
+      "category": "offensive",
+      "matches": [
+        "privilege_escalation",
+        "access_control_exploitation"
+      ]
+    },
+    {
+      "id": "vulnerability_chaining",
+      "label": "Vulnerability Chaining",
+      "category": "offensive",
+      "matches": [
+        "vulnerability_chaining",
+        "vulnerability_chaining_advanced",
+        "complex_prompt_injection_chains"
+      ]
+    },
+    {
+      "id": "fuzzing",
+      "label": "Fuzzing",
+      "category": "offensive",
+      "matches": [
+        "fuzzing"
+      ]
+    },
+    {
+      "id": "reverse_engineering",
+      "label": "Reverse Engineering",
+      "category": "offensive",
+      "matches": [
+        "reverse_engineering",
+        "reverse_engineering_basics",
+        "disassembly_tools",
+        "debugger_usage",
+        "assembly_analysis",
+        "assembly_language_reading"
+      ]
+    },
+    {
+      "id": "malware_analysis",
+      "label": "Malware Analysis",
+      "category": "dfir",
+      "matches": [
+        "malware_analysis",
+        "static_malware_analysis",
+        "dynamic_malware_analysis",
+        "malware_behavior_analysis",
+        "malware_triage",
+        "malware_identification",
+        "malware_report_writing",
+        "malware_unpacking",
+        "sandbox_analysis",
+        "unpacking_techniques"
+      ]
+    },
+    {
+      "id": "digital_forensics",
+      "label": "Digital Forensics",
+      "category": "dfir",
+      "matches": [
+        "digital_forensics",
+        "digital_forensics_methodology",
+        "digital_forensics_basics",
+        "disk_forensics",
+        "file_system_forensics",
+        "file_system_analysis",
+        "evidence_handling",
+        "evidence_documentation",
+        "evidence_acquisition",
+        "forensic_tool_operation",
+        "forensic_tool_proficiency",
+        "forensic_report_writing",
+        "forensic_reporting",
+        "chain_of_custody",
+        "evidence_processing"
+      ]
+    },
+    {
+      "id": "windows_forensics",
+      "label": "Windows Forensics",
+      "category": "dfir",
+      "matches": [
+        "windows_artifact_analysis",
+        "registry_analysis",
+        "lnk_file_analysis",
+        "advanced_registry_analysis",
+        "browser_forensics",
+        "email_forensics"
+      ]
+    },
+    {
+      "id": "memory_forensics",
+      "label": "Memory Forensics",
+      "category": "dfir",
+      "matches": [
+        "memory_forensics",
+        "windows_memory_forensics",
+        "advanced_forensic_analysis"
+      ]
+    },
+    {
+      "id": "mobile_forensics",
+      "label": "Mobile Forensics",
+      "category": "dfir",
+      "matches": [
+        "ios_forensics",
+        "android_forensics",
+        "mobile_artifact_analysis",
+        "mobile_artifact_correlation",
+        "mobile_app_data_extraction",
+        "mobile_evidence_acquisition",
+        "mobile_evidence_analysis",
+        "mobile_encryption_bypass",
+        "icloud_forensics",
+        "apple_ecosystem_artifacts",
+        "apple_file_system_analysis",
+        "ios_backup_analysis",
+        "macos_forensics",
+        "cellebrite_ufed_operation",
+        "cellebrite_analytics",
+        "cellebrite_pathfinder",
+        "cellebrite_premium",
+        "cellebrite_premium_usage",
+        "cellebrite_report_generation",
+        "cellebrite_full_suite",
+        "magnet_axiom_operation",
+        "magnet_artifact_iq",
+        "encase_operation",
+        "ftk_operation",
+        "mobile_device_acquisition",
+        "mobile_device_extraction",
+        "physical_extraction_techniques",
+        "bypass_techniques",
+        "advanced_mobile_acquisition",
+        "advanced_mobile_forensics",
+        "smartphone_behavioral_analysis",
+        "advanced_data_recovery",
+        "locked_device_techniques",
+        "damaged_device_investigation"
+      ]
+    },
+    {
+      "id": "cloud_forensics",
+      "label": "Cloud Forensics",
+      "category": "dfir",
+      "matches": [
+        "cloud_forensics",
+        "aws_forensics",
+        "cloud_log_analysis",
+        "cloud_ir_procedures",
+        "cloud_evidence_acquisition",
+        "container_forensics"
+      ]
+    },
+    {
+      "id": "network_forensics",
+      "label": "Network Forensics",
+      "category": "dfir",
+      "matches": [
+        "network_forensics",
+        "network_forensics_basics",
+        "pcap_analysis",
+        "network_artifact_reconstruction",
+        "full_packet_capture_analysis",
+        "dns_forensics",
+        "network_traffic_analysis",
+        "protocol_decoding"
+      ]
+    },
+    {
+      "id": "incident_response",
+      "label": "Incident Response",
+      "category": "dfir",
+      "matches": [
+        "incident_response_process",
+        "incident_response_basics",
+        "incident_response_advanced",
+        "incident_handling_procedures",
+        "incident_response",
+        "incident_handling",
+        "incident_triage",
+        "host_triage",
+        "network_triage",
+        "containment_procedures",
+        "containment_strategies",
+        "containment_strategy",
+        "active_incident_response",
+        "forensic_triage_during_incident",
+        "ir_documentation",
+        "incident_report_writing"
+      ]
+    },
+    {
+      "id": "threat_hunting",
+      "label": "Threat Hunting",
+      "category": "dfir",
+      "matches": [
+        "threat_hunting",
+        "threat_hunting_methodology",
+        "threat_hunting_advanced",
+        "threat_hunting_falcon",
+        "threat_hunting_microsoft",
+        "hypothesis_driven_hunting",
+        "behavioral_hunting",
+        "ttp_based_hunting",
+        "edr_hunting",
+        "network_hunting",
+        "hunt_documentation",
+        "ot_threat_hunting",
+        "adversary_intelligence_driven_hunting"
+      ]
+    },
+    {
+      "id": "timeline_analysis",
+      "label": "Timeline Analysis",
+      "category": "dfir",
+      "matches": [
+        "timeline_analysis",
+        "forensic_timeline_construction",
+        "artifact_correlation"
+      ]
+    },
+    {
+      "id": "sql_injection",
+      "label": "SQL Injection",
+      "category": "appsec",
+      "matches": [
+        "sql_injection",
+        "sql_injection_advanced",
+        "advanced_sql_injection",
+        "nosql_injection"
+      ]
+    },
+    {
+      "id": "xss",
+      "label": "Cross-Site Scripting (XSS)",
+      "category": "appsec",
+      "matches": [
+        "xss",
+        "xss_advanced",
+        "dom_based_attacks"
+      ]
+    },
+    {
+      "id": "web_exploitation",
+      "label": "Web Application Exploitation",
+      "category": "appsec",
+      "matches": [
+        "web_vulnerability_exploitation",
+        "web_application_testing",
+        "advanced_web_exploitation",
+        "web_application_advanced_attacks",
+        "owasp_top_10_exploitation",
+        "owasp_top_10",
+        "authentication_attacks",
+        "authentication_bypass",
+        "file_inclusion",
+        "file_upload_attacks",
+        "csrf",
+        "web_cache_poisoning",
+        "web_cache_deception",
+        "http_request_smuggling",
+        "prototype_pollution",
+        "mass_assignment",
+        "race_conditions",
+        "type_juggling",
+        "template_injection",
+        "xxe",
+        "xxe_advanced",
+        "deserialization",
+        "deserialization_attacks"
+      ]
+    },
+    {
+      "id": "ssrf",
+      "label": "SSRF",
+      "category": "appsec",
+      "matches": [
+        "ssrf",
+        "ssrf_advanced",
+        "advanced_ssrf"
+      ]
+    },
+    {
+      "id": "api_security",
+      "label": "API Security",
+      "category": "appsec",
+      "matches": [
+        "api_security_testing",
+        "api_vulnerability_testing",
+        "owasp_api_top_10",
+        "api_authentication_attacks",
+        "broken_object_authorization",
+        "api_security_automation",
+        "api_security_in_ci_cd",
+        "graphql_attacks",
+        "graphql_security",
+        "rest_api_security",
+        "jwt_attacks",
+        "oauth_attacks"
+      ]
+    },
+    {
+      "id": "source_code_review",
+      "label": "Source Code Review",
+      "category": "appsec",
+      "matches": [
+        "source_code_review",
+        "white_box_web_testing",
+        "javascript_analysis",
+        "frontend_security"
+      ]
+    },
+    {
+      "id": "secure_coding",
+      "label": "Secure Coding",
+      "category": "appsec",
+      "matches": [
+        "secure_coding_practices",
+        "secure_design_principles",
+        "secure_java_development",
+        "secure_dotnet_development",
+        "owasp_top_10_mitigation",
+        "input_validation",
+        "authentication_implementation",
+        "authorization_implementation",
+        "error_handling_security"
+      ]
+    },
+    {
+      "id": "secure_sdlc",
+      "label": "Secure SDLC",
+      "category": "appsec",
+      "matches": [
+        "secure_sdlc",
+        "security_requirements",
+        "software_testing_security",
+        "software_deployment_security",
+        "software_development_security"
+      ]
+    },
+    {
+      "id": "devsecops",
+      "label": "DevSecOps",
+      "category": "appsec",
+      "matches": [
+        "devsecops_practices",
+        "devsecops_pipeline_design",
+        "devsecops_program_design",
+        "ci_cd_security",
+        "sast_implementation",
+        "dast_implementation",
+        "sca_tools",
+        "iac_security",
+        "iac_security_scanning",
+        "compliance_as_code",
+        "cloud_native_security"
+      ]
+    },
+    {
+      "id": "threat_modeling",
+      "label": "Threat Modeling",
+      "category": "appsec",
+      "matches": [
+        "threat_modeling",
+        "ml_threat_modeling",
+        "ai_threat_modeling",
+        "stride_methodology",
+        "pasta_methodology",
+        "code_based_threat_modeling",
+        "threat_modeling_agile",
+        "threat_modeling_as_code",
+        "privacy_threat_modeling",
+        "cloud_threat_modeling"
+      ]
+    },
+    {
+      "id": "waf",
+      "label": "Web Application Firewall (WAF)",
+      "category": "appsec",
+      "matches": [
+        "f5_asm_waf_configuration",
+        "waf_policy_management",
+        "application_security_policies"
+      ]
+    },
+    {
+      "id": "software_supply_chain",
+      "label": "Software Supply Chain Security",
+      "category": "appsec",
+      "matches": [
+        "software_supply_chain_security",
+        "supply_chain_attack_analysis",
+        "slsa_framework",
+        "sbom_generation",
+        "sbom_aibom",
+        "code_signing",
+        "container_supply_chain",
+        "cloud_supply_chain",
+        "dependency_security",
+        "codeql_analysis",
+        "secret_scanning",
+        "dependabot_configuration",
+        "dependency_review",
+        "ghas_enterprise_administration"
+      ]
+    },
+    {
+      "id": "bug_bounty",
+      "label": "Bug Bounty",
+      "category": "appsec",
+      "matches": [
+        "bug_bounty_methodology"
+      ]
+    },
+    {
+      "id": "network_fundamentals",
+      "label": "Networking Fundamentals",
+      "category": "network",
+      "matches": [
+        "networking_fundamentals",
+        "tcp_ip_protocols",
+        "network_infrastructure",
+        "network_troubleshooting",
+        "routing_and_switching",
+        "network_access_control",
+        "ip_connectivity",
+        "wireless_networking",
+        "wireless_fundamentals",
+        "cisco_ios_fundamentals"
+      ]
+    },
+    {
+      "id": "firewall_management",
+      "label": "Firewall Administration",
+      "category": "network",
+      "matches": [
+        "firewall_management",
+        "firewall_policy_basics",
+        "cisco_firewall_administration",
+        "fortigate_firewall_administration",
+        "check_point_firewall_administration",
+        "palo_alto_ngfw_administration",
+        "juniper_srx_basics",
+        "juniper_srx_advanced",
+        "junos_security_fundamentals",
+        "smartconsole_usage",
+        "advanced_firewall_policy",
+        "security_policy_management",
+        "security_policy_pan",
+        "pan_os_configuration",
+        "fortios_configuration"
+      ]
+    },
+    {
+      "id": "vpn",
+      "label": "VPN & Secure Access",
+      "category": "network",
+      "matches": [
+        "vpn_configuration",
+        "vpn_configuration_fortinet",
+        "vpn_configuration_pan",
+        "vpn_basics_checkpoint",
+        "vpn_basics_juniper",
+        "ipsec_vpn_juniper",
+        "advanced_vpn",
+        "advanced_vpn_checkpoint",
+        "advanced_vpn_design",
+        "advanced_vpn_design_fortinet",
+        "vpn_security",
+        "globalprotect_vpn"
+      ]
+    },
+    {
+      "id": "ids_ips",
+      "label": "IDS / IPS",
+      "category": "network",
+      "matches": [
+        "intrusion_detection",
+        "intrusion_prevention",
+        "ids_ips_management",
+        "ids_ips_tuning",
+        "ids_ips_juniper",
+        "ids_ips_fortinet",
+        "signature_development"
+      ]
+    },
+    {
+      "id": "network_monitoring",
+      "label": "Network Monitoring",
+      "category": "network",
+      "matches": [
+        "network_monitoring",
+        "security_monitoring",
+        "network_security_monitoring_pan",
+        "intrusion_detection_basics",
+        "network_intrusion_analysis",
+        "intrusion_analysis"
+      ]
+    },
+    {
+      "id": "network_security_architecture",
+      "label": "Network Security Architecture",
+      "category": "network",
+      "matches": [
+        "network_security_architecture",
+        "network_and_infrastructure_security_architecture",
+        "enterprise_network_security",
+        "security_zone_design",
+        "security_zones",
+        "conduit_design",
+        "industrial_dmz_design",
+        "segmentation_design",
+        "microsegmentation"
+      ]
+    },
+    {
+      "id": "sase_ztna",
+      "label": "SASE & ZTNA",
+      "category": "network",
+      "matches": [
+        "sase_concepts",
+        "fortinet_sase_architecture",
+        "secure_sd_wan",
+        "sdwan_basics",
+        "ztna_configuration",
+        "zero_trust_network_access_fortinet",
+        "zscaler_internet_access_admin",
+        "zpa_administration",
+        "zscaler_platform_awareness",
+        "zscaler_policy_management",
+        "zscaler_reporting",
+        "zscaler_advanced_configuration",
+        "zscaler_architecture_design",
+        "zscaler_deployment_design"
+      ]
+    },
+    {
+      "id": "cloud_security_architecture",
+      "label": "Cloud Security Architecture",
+      "category": "cloud",
+      "matches": [
+        "cloud_security_architecture",
+        "cloud_network_design",
+        "cloud_zero_trust_design",
+        "multi_cloud_security_design",
+        "cloud_security_design",
+        "cloud_security_fundamentals",
+        "cloud_security_basics",
+        "shared_responsibility_model",
+        "cloud_deployment_models",
+        "cloud_architecture_basics"
+      ]
+    },
+    {
+      "id": "aws_security",
+      "label": "AWS Security",
+      "category": "cloud",
+      "matches": [
+        "aws_iam",
+        "aws_network_security",
+        "aws_data_protection",
+        "aws_logging_monitoring",
+        "aws_incident_response",
+        "aws_security_services",
+        "infrastructure_protection_aws"
+      ]
+    },
+    {
+      "id": "azure_security",
+      "label": "Azure Security",
+      "category": "cloud",
+      "matches": [
+        "azure_iam",
+        "azure_network_security",
+        "azure_security_center",
+        "azure_defender",
+        "azure_key_vault",
+        "azure_monitor_security",
+        "azure_policy_governance",
+        "azure_rbac",
+        "azure_pim",
+        "azure_ad_b2c",
+        "azure_forensics",
+        "azure_security_awareness",
+        "managed_identities"
+      ]
+    },
+    {
+      "id": "gcp_security",
+      "label": "GCP Security",
+      "category": "cloud",
+      "matches": [
+        "gcp_iam",
+        "gcp_network_security",
+        "gcp_data_protection",
+        "gcp_security_operations",
+        "gcp_compliance",
+        "google_cloud_armor",
+        "vpc_security",
+        "gcp_forensics"
+      ]
+    },
+    {
+      "id": "cloud_security_operations",
+      "label": "Cloud Security Operations",
+      "category": "cloud",
+      "matches": [
+        "cloud_security_posture_management",
+        "cloud_workload_protection",
+        "cloud_compliance_scanning",
+        "cloud_compliance",
+        "cloud_operations",
+        "cloud_application_security",
+        "cloud_platform_infrastructure_security",
+        "cloud_asset_inventory",
+        "cloud_vulnerability_management",
+        "cspm_qualys",
+        "prisma_cloud_operations",
+        "code_security_panw"
+      ]
+    },
+    {
+      "id": "container_kubernetes_security",
+      "label": "Container & Kubernetes Security",
+      "category": "cloud",
+      "matches": [
+        "container_security",
+        "container_security_basics",
+        "container_security_advanced",
+        "kubernetes_security",
+        "kubernetes_security_basics",
+        "pod_security",
+        "network_policies_kubernetes",
+        "rbac_kubernetes",
+        "runtime_security_kubernetes",
+        "image_scanning",
+        "supply_chain_security"
+      ]
+    },
+    {
+      "id": "zero_trust",
+      "label": "Zero Trust Architecture",
+      "category": "cloud",
+      "matches": [
+        "zero_trust_principles",
+        "zero_trust_architecture_design",
+        "zero_trust_implementation",
+        "zero_trust_implementation_planning",
+        "zero_trust_maturity_assessment",
+        "zero_trust_fundamentals",
+        "zero_trust_cloud_design",
+        "zero_trust_network_design",
+        "zero_trust_architecture_microsoft",
+        "zero_trust_design_microsoft",
+        "identity_centric_security"
+      ]
+    },
+    {
+      "id": "secrets_management",
+      "label": "Secrets Management",
+      "category": "cloud",
+      "matches": [
+        "secrets_management",
+        "vault_fundamentals",
+        "vault_authentication_methods",
+        "vault_policies",
+        "dynamic_secrets",
+        "encryption_as_a_service",
+        "vault_deployment_basics",
+        "vault_operations_advanced",
+        "vault_clustering",
+        "vault_agent",
+        "secrets_engine_advanced",
+        "vault_performance_replication",
+        "disaster_recovery_vault",
+        "audit_and_monitoring_vault"
+      ]
+    },
+    {
+      "id": "threat_intelligence_analysis",
+      "label": "Threat Intelligence Analysis",
+      "category": "threat_intel",
+      "matches": [
+        "threat_intelligence_analysis",
+        "threat_intelligence_lifecycle",
+        "threat_intelligence_fundamentals",
+        "intelligence_cycle",
+        "intelligence_collection_planning",
+        "intel_collection_planning",
+        "threat_report_writing",
+        "intel_reporting",
+        "intelligence_reporting",
+        "dark_web_intelligence",
+        "intelligence_analysis_advanced",
+        "strategic_intelligence",
+        "intelligence_product_development",
+        "intelligence_collection_management",
+        "briefing_senior_stakeholders"
+      ]
+    },
+    {
+      "id": "threat_actor_profiling",
+      "label": "Threat Actor Profiling & Attribution",
+      "category": "threat_intel",
+      "matches": [
+        "threat_actor_profiling",
+        "threat_actor_attribution",
+        "attacker_attribution",
+        "attribution_methodology",
+        "threat_actor_tracking",
+        "actor_tracking_anomali"
+      ]
+    },
+    {
+      "id": "ttp_analysis",
+      "label": "TTP Analysis (MITRE ATT&CK)",
+      "category": "threat_intel",
+      "matches": [
+        "ttp_analysis",
+        "ttp_mapping",
+        "mitre_attack_framework",
+        "mitre_attack_application",
+        "mitre_attack_detection",
+        "mitre_attack_threat_modeling",
+        "mitre_atlas"
+      ]
+    },
+    {
+      "id": "ioc_analysis",
+      "label": "IOC Analysis",
+      "category": "threat_intel",
+      "matches": [
+        "ioc_analysis",
+        "ioc_collection",
+        "ioc_management",
+        "ioc_types",
+        "ioc_extraction"
+      ]
+    },
+    {
+      "id": "cti_platforms",
+      "label": "Threat Intelligence Platforms",
+      "category": "threat_intel",
+      "matches": [
+        "threat_intel_platforms",
+        "misp_platform_usage",
+        "misp_feeds",
+        "stix_taxii_basics",
+        "galaxy_usage",
+        "threat_intelligence_taxonomy",
+        "ioc_sharing",
+        "intelligence_sharing_frameworks",
+        "recorded_future_platform",
+        "anomali_threatstream_usage",
+        "risk_scoring",
+        "intelligence_card_usage",
+        "api_usage_rf",
+        "feed_management",
+        "feed_consumption"
+      ]
+    },
+    {
+      "id": "identity_governance",
+      "label": "Identity Governance & Administration",
+      "category": "iam",
+      "matches": [
+        "identity_governance_fundamentals",
+        "identity_governance_microsoft",
+        "identity_lifecycle_management",
+        "identity_lifecycle_administration",
+        "identity_synchronization",
+        "provisioning_basics",
+        "provisioning_administration",
+        "provisioning_design_cloud",
+        "provisioning_policy_design",
+        "reconciliation",
+        "role_management_basics",
+        "role_management_cloud",
+        "access_certification_design",
+        "workflow_development_iiq",
+        "workflow_configuration_idm",
+        "iiq_navigation",
+        "sailpoint_iiq_basics",
+        "sailpoint_iiq_engineering",
+        "sailpoint_identity_security_cloud",
+        "sailpoint_isc_administration"
+      ]
+    },
+    {
+      "id": "pam",
+      "label": "Privileged Access Management",
+      "category": "iam",
+      "matches": [
+        "pam_fundamentals",
+        "privileged_account_concepts",
+        "privileged_account_security",
+        "privileged_session_management",
+        "vault_administration",
+        "account_onboarding",
+        "safe_management",
+        "cyberark_pam_administration",
+        "cyberark_psm",
+        "cyberark_cpm",
+        "cyberark_vault_basics",
+        "cyberark_platform_awareness",
+        "high_availability_pam",
+        "disaster_recovery_cyberark",
+        "advanced_cyberark_pam",
+        "cyberark_apis",
+        "cyberark_program_design",
+        "cyberark_full_platform_mastery",
+        "complex_onboarding_automation",
+        "epm_policy_management",
+        "cyberark_epm_administration",
+        "endpoint_privilege_management",
+        "least_privilege_enforcement",
+        "application_control"
+      ]
+    },
+    {
+      "id": "authentication_mfa",
+      "label": "Authentication & MFA",
+      "category": "iam",
+      "matches": [
+        "authentication_mechanisms",
+        "mfa_configuration_okta",
+        "adaptive_mfa",
+        "authentication_protocols",
+        "authentication_trees",
+        "journeys_configuration",
+        "okta_platform_basics",
+        "okta_admin_console",
+        "okta_advanced_administration",
+        "mfa_cyberark",
+        "sso_cyberark_identity"
+      ]
+    },
+    {
+      "id": "federation_sso",
+      "label": "Federation & Single Sign-On",
+      "category": "iam",
+      "matches": [
+        "federation_and_sso",
+        "federated_identity",
+        "saml_federation",
+        "oauth_oidc_pingfederate",
+        "oauth_oidc_am",
+        "sp_and_idp_configuration",
+        "token_translation",
+        "adapter_configuration",
+        "sso_configuration_basics",
+        "pingfederate_administration",
+        "pingam_administration",
+        "pingidm_administration",
+        "oidc_oauth_implementation"
+      ]
+    },
+    {
+      "id": "access_management",
+      "label": "Access Management",
+      "category": "iam",
+      "matches": [
+        "access_management_concepts",
+        "access_control_models",
+        "access_request_basics",
+        "access_management_administration",
+        "authorization_models",
+        "authorization_frameworks",
+        "external_identities",
+        "application_access_management"
+      ]
+    },
+    {
+      "id": "directory_services",
+      "label": "Directory Services",
+      "category": "iam",
+      "matches": [
+        "microsoft_entra_id",
+        "conditional_access",
+        "privileged_identity_management",
+        "lifecycle_management_okta",
+        "user_provisioning_okta",
+        "application_integration_basics",
+        "group_and_policy_management",
+        "reporting_and_monitoring_okta"
+      ]
+    },
+    {
+      "id": "vulnerability_assessment",
+      "label": "Vulnerability Assessment & Scanning",
+      "category": "grc",
+      "matches": [
+        "vulnerability_assessment",
+        "vulnerability_scanning_configuration",
+        "vulnerability_scanning_methodology",
+        "vulnerability_scanning_qualys",
+        "vulnerability_scanning_rapid7",
+        "vulnerability_concepts",
+        "vulnerability_identification",
+        "qualys_vmdr_platform",
+        "tenable_vm_platform",
+        "tenable_security_center_administration",
+        "insightvm_platform_administration",
+        "nessus_scan_management",
+        "scan_configuration",
+        "scan_policy_configuration",
+        "scan_policy_management",
+        "scan_engine_management",
+        "agent_based_scanning",
+        "qualys_cloud_agent_deployment",
+        "agent_configuration",
+        "external_and_internal_scanning",
+        "pci_dss_scanning_requirements"
+      ]
+    },
+    {
+      "id": "risk_management",
+      "label": "Risk Management",
+      "category": "grc",
+      "matches": [
+        "risk_management",
+        "risk_management_framework",
+        "risk_management_governance",
+        "it_risk_assessment",
+        "it_risk_identification",
+        "risk_response",
+        "risk_monitoring",
+        "risk_treatment_planning",
+        "risk_treatment_isms",
+        "risk_reporting",
+        "risk_reporting_ot",
+        "risk_communication",
+        "risk_communication_financial",
+        "risk_communication_quantitative",
+        "enterprise_risk_management",
+        "iso_31000_risk_framework",
+        "iso_27005_risk_methodology",
+        "fair_risk_model",
+        "quantitative_risk_analysis",
+        "quantitative_cyber_risk_analysis",
+        "risk_scenario_development",
+        "loss_magnitude_estimation",
+        "loss_event_frequency_estimation",
+        "vulnerability_analysis_fair",
+        "threat_analysis_fair",
+        "asset_based_risk_analysis",
+        "risk_culture",
+        "risk_optimization"
+      ]
+    },
+    {
+      "id": "compliance_audit",
+      "label": "Compliance & Audit",
+      "category": "grc",
+      "matches": [
+        "compliance_management",
+        "compliance_auditing",
+        "it_governance_audit",
+        "information_systems_audit",
+        "systems_and_infrastructure_audit",
+        "it_asset_management_audit",
+        "it_operations_audit",
+        "protection_of_information_assets",
+        "audit_evidence_collection",
+        "audit_reporting",
+        "nonconformity_identification",
+        "third_party_audit_process",
+        "isms_audit_planning",
+        "iso_27001_audit_methodology",
+        "hitrust_assessment_methodology",
+        "hitrust_certification_process",
+        "hitrust_csf_framework",
+        "internal_audit_methodology",
+        "governance_audit",
+        "risk_assessment_audit",
+        "control_evaluation",
+        "internal_control_frameworks",
+        "grc_audit_methodology",
+        "integrated_assurance",
+        "audit_reporting_grc",
+        "control_assessment_grc",
+        "control_assessment_hitrust"
+      ]
+    },
+    {
+      "id": "isms",
+      "label": "Information Security Management (ISMS)",
+      "category": "grc",
+      "matches": [
+        "information_security_governance",
+        "security_governance",
+        "security_policy_development",
+        "isms_implementation",
+        "iso_27001_isms_implementation",
+        "gap_analysis",
+        "isms_documentation",
+        "isms_program_management"
+      ]
+    },
+    {
+      "id": "third_party_risk",
+      "label": "Third Party & Supply Chain Risk",
+      "category": "grc",
+      "matches": [
+        "third_party_risk_assessment",
+        "vendor_risk_management",
+        "due_diligence_methodology",
+        "tprm_program_design",
+        "contractual_risk_controls",
+        "continuous_monitoring_tprm",
+        "third_party_assessment_execution",
+        "standardized_information_gathering",
+        "sig_questionnaire",
+        "assessment_evidence_review",
+        "onsite_assessment_methodology",
+        "supply_chain_risk"
+      ]
+    },
+    {
+      "id": "business_continuity",
+      "label": "Business Continuity & DR",
+      "category": "grc",
+      "matches": [
+        "business_continuity_program_management",
+        "business_impact_analysis",
+        "recovery_strategy_development",
+        "continuity_plan_testing",
+        "crisis_communications",
+        "supply_chain_continuity",
+        "bcm_program_management",
+        "bcm_governance",
+        "iso_22301_isms",
+        "bcms_implementation",
+        "recovery_time_objectives",
+        "business_continuity_governance",
+        "technology_related_business_continuity",
+        "cyber_recovery_planning",
+        "cyber_resilience_governance",
+        "cyber_resilience_program_management",
+        "cyber_risk_governance",
+        "business_continuity_concepts",
+        "continuity_planning_basics",
+        "continuity_plan_development",
+        "business_continuity_fundamentals",
+        "continuity_strategy",
+        "strategic_continuity_planning"
+      ]
+    },
+    {
+      "id": "vulnerability_management_program",
+      "label": "Vulnerability Management Program",
+      "category": "grc",
+      "matches": [
+        "vulnerability_prioritization",
+        "vulnerability_prioritization_tenable",
+        "risk_based_remediation",
+        "vm_program_management",
+        "vm_program_optimization",
+        "vulnerability_risk_prioritization",
+        "enterprise_vulnerability_assessment",
+        "truriskscore_usage",
+        "truriskscore_qualys",
+        "truriskscore_advanced",
+        "truriskscore_advanced_qualys",
+        "vulnerability_reporting",
+        "vulnerability_reporting_sc",
+        "vulnerability_remediation_workflow",
+        "remediation_campaign_management",
+        "remediation_tracking",
+        "remediation_workflow_qualys",
+        "remediation_workflow_rapid7",
+        "patch_management_qualys",
+        "mitigation_management",
+        "isolation_workflow",
+        "asset_inventory_management",
+        "asset_criticality_assessment",
+        "attack_surface_management"
+      ]
+    },
+    {
+      "id": "gdpr_compliance",
+      "label": "GDPR Compliance",
+      "category": "privacy",
+      "matches": [
+        "gdpr_compliance",
+        "gdpr_fundamentals",
+        "gdpr_implementation",
+        "gdpr_technical_implementation",
+        "eu_data_protection_law",
+        "supervisory_authority_engagement",
+        "data_subject_rights",
+        "data_subject_rights_basics",
+        "lawful_basis_processing",
+        "dpia_methodology",
+        "dpia_execution",
+        "dpia_onetrust",
+        "cross_border_data_transfers"
+      ]
+    },
+    {
+      "id": "us_privacy_law",
+      "label": "US Privacy Law",
+      "category": "privacy",
+      "matches": [
+        "us_privacy_law",
+        "hipaa_compliance",
+        "ccpa_compliance",
+        "federal_privacy_regulations",
+        "sectoral_privacy_frameworks",
+        "us_data_protection_enforcement",
+        "hipaa_security_rule",
+        "hipaa_privacy_rule",
+        "phi_handling"
+      ]
+    },
+    {
+      "id": "global_privacy_law",
+      "label": "Global Privacy Law",
+      "category": "privacy",
+      "matches": [
+        "apac_privacy_law",
+        "pdpa_compliance_variants",
+        "apec_privacy_framework",
+        "pipl_compliance",
+        "china_data_security_law",
+        "cybersecurity_law_china",
+        "cross_border_data_transfer_china",
+        "canadian_privacy_law",
+        "pipeda_compliance",
+        "cppa_framework",
+        "provincial_privacy_laws"
+      ]
+    },
+    {
+      "id": "privacy_engineering",
+      "label": "Privacy Engineering",
+      "category": "privacy",
+      "matches": [
+        "privacy_engineering",
+        "privacy_by_design",
+        "privacy_by_design_technical",
+        "privacy_architecture",
+        "privacy_controls_design",
+        "data_minimization_implementation",
+        "anonymization_and_pseudonymization",
+        "privacy_enhancing_technologies",
+        "technical_privacy_controls",
+        "privacy_risk_in_systems",
+        "privacy_risk_technical",
+        "controller_processor_requirements_technical",
+        "iso_27701_pims_implementation",
+        "privacy_information_management"
+      ]
+    },
+    {
+      "id": "privacy_program_management",
+      "label": "Privacy Program Management",
+      "category": "privacy",
+      "matches": [
+        "privacy_program_management",
+        "privacy_governance",
+        "privacy_risk_assessment",
+        "privacy_operations",
+        "privacy_metrics_and_reporting",
+        "dpo_responsibilities",
+        "privacy_governance_basics",
+        "data_protection_officer_role",
+        "data_breach_management"
+      ]
+    },
+    {
+      "id": "data_classification",
+      "label": "Data Classification & DLP",
+      "category": "privacy",
+      "matches": [
+        "data_classification_microsoft",
+        "information_protection_labels",
+        "microsoft_purview_dlp",
+        "microsoft_purview_compliance",
+        "data_protection_principles",
+        "data_security_governance",
+        "data_security_cloud",
+        "data_mapping_onetrust",
+        "consent_management",
+        "privacy_request_management"
+      ]
+    },
+    {
+      "id": "data_governance",
+      "label": "Data Governance",
+      "category": "privacy",
+      "matches": [
+        "data_governance",
+        "data_governance_technical",
+        "data_lifecycle_management",
+        "data_architecture",
+        "data_quality_management",
+        "metadata_management",
+        "master_data_management",
+        "software_asset_management"
+      ]
+    },
+    {
+      "id": "ics_security",
+      "label": "ICS / SCADA Security",
+      "category": "ot_ics",
+      "matches": [
+        "ics_security_fundamentals",
+        "scada_security",
+        "ot_network_architecture",
+        "industrial_protocols",
+        "ics_risk_assessment",
+        "scada_security_architecture",
+        "scada_vulnerability_assessment",
+        "ics_network_design",
+        "scada_access_control",
+        "ics_security_concepts",
+        "ics_security_program_leadership",
+        "isa_62443_framework",
+        "isa_62443_risk_assessment_methodology",
+        "isa_62443_design_methodology",
+        "isa_62443_maintenance_procedures",
+        "isa_62443_complete_framework",
+        "security_levels",
+        "zones_and_conduits",
+        "target_security_levels"
+      ]
+    },
+    {
+      "id": "ot_incident_response",
+      "label": "OT Incident Response",
+      "category": "ot_ics",
+      "matches": [
+        "ot_incident_response",
+        "ics_forensics",
+        "scada_investigation",
+        "ot_network_analysis",
+        "it_ot_convergence_ir",
+        "industrial_protocol_analysis"
+      ]
+    },
+    {
+      "id": "it_ot_convergence",
+      "label": "IT/OT Convergence",
+      "category": "ot_ics",
+      "matches": [
+        "it_ot_convergence",
+        "it_ot_convergence_security",
+        "it_ot_differences",
+        "ot_security_concepts",
+        "ot_security_fabric",
+        "fortinet_ot_security",
+        "fortinet_ot_use_cases",
+        "nozomi_platform_administration",
+        "ot_asset_discovery",
+        "ot_network_monitoring",
+        "ot_network_visibility",
+        "ot_vulnerability_management",
+        "ot_risk_assessment_tenable",
+        "tenable_ot_platform"
+      ]
+    },
+    {
+      "id": "critical_infrastructure",
+      "label": "Critical Infrastructure Protection",
+      "category": "ot_ics",
+      "matches": [
+        "critical_infrastructure_frameworks",
+        "cip_program_management",
+        "nerc_cip_compliance",
+        "electric_sector_security",
+        "cip_frameworks",
+        "critical_infrastructure_concepts",
+        "critical_infrastructure_protection_basics",
+        "industrial_threat_landscape"
+      ]
+    },
+    {
+      "id": "iot_security",
+      "label": "IoT Security",
+      "category": "ot_ics",
+      "matches": [
+        "iot_security_architecture",
+        "embedded_device_security",
+        "iot_network_security",
+        "iot_data_privacy",
+        "iot_vulnerability_management",
+        "edge_computing_security",
+        "iot_identity_management",
+        "iot_fundamentals",
+        "iot_architecture_basics",
+        "iot_connectivity",
+        "iot_device_pentesting",
+        "firmware_analysis_basics",
+        "hardware_interaction",
+        "iot_network_attack_techniques",
+        "iot_web_interface_testing",
+        "iot_report_writing"
+      ]
+    },
+    {
+      "id": "ai_red_teaming",
+      "label": "AI Red Teaming",
+      "category": "ai_security",
+      "matches": [
+        "ai_red_teaming_methodology",
+        "ai_red_teaming_basics",
+        "llm_red_teaming",
+        "llm_jailbreaking",
+        "llm_jailbreaking_advanced",
+        "llm_jailbreaking_basics",
+        "prompt_injection",
+        "prompt_injection_advanced",
+        "llm_prompt_injection",
+        "ai_attack_techniques",
+        "ai_attack_methodology",
+        "model_extraction",
+        "adversarial_ml",
+        "adversarial_ml_basics",
+        "ai_system_exploitation",
+        "agentic_ai_attacks",
+        "advanced_llm_exploitation",
+        "multi_modal_ai_attacks",
+        "ai_agent_exploitation",
+        "ai_system_enumeration",
+        "ai_model_attacks",
+        "ai_vulnerability_chaining",
+        "llm_attack_methodology",
+        "llm_attack_techniques",
+        "llm_penetration_testing_basics",
+        "ai_application_testing",
+        "owasp_llm_top_10",
+        "ai_vulnerability_assessment",
+        "ai_system_reconnaissance",
+        "ai_reconnaissance",
+        "ai_pentest_report_writing"
+      ]
+    },
+    {
+      "id": "ai_ml_security",
+      "label": "AI/ML System Security",
+      "category": "ai_security",
+      "matches": [
+        "secure_ml_pipeline_design",
+        "model_security",
+        "data_pipeline_security",
+        "feature_engineering_security",
+        "model_monitoring_security",
+        "mlops_security",
+        "ai_security_automation",
+        "llm_security_architecture",
+        "genai_pipeline_security",
+        "rag_security",
+        "ai_supply_chain_security",
+        "model_serving_security",
+        "ai_platform_hardening",
+        "ai_data_security",
+        "ai_detection_engineering",
+        "ai_pipeline_automation_security",
+        "llm_security_tooling",
+        "agentic_ai_security",
+        "ai_security_fundamentals",
+        "llm_security_basics",
+        "secure_ai_implementation",
+        "ai_threat_detection",
+        "ai_threat_identification"
+      ]
+    },
+    {
+      "id": "ai_governance",
+      "label": "AI Governance & Risk",
+      "category": "ai_security",
+      "matches": [
+        "ai_governance_frameworks",
+        "ai_governance_basics",
+        "ai_governance_technical",
+        "eu_ai_act",
+        "ai_risk_management",
+        "ai_risk_management_iso",
+        "ai_risk_identification",
+        "ai_risk_assessment",
+        "ai_risk_treatment",
+        "ai_risk_monitoring",
+        "algorithmic_accountability",
+        "algorithmic_auditing",
+        "ai_ethics",
+        "nist_ai_rmf",
+        "ai_privacy_intersection",
+        "iso_42001_aims_implementation",
+        "ai_management_system",
+        "ai_management_system_audit",
+        "ai_compliance_assessment",
+        "ai_compliance_testing",
+        "ai_control_evaluation",
+        "ai_impact_assessment",
+        "ai_audit_methodology",
+        "responsible_ai_governance"
+      ]
+    },
+    {
+      "id": "security_architecture",
+      "label": "Security Architecture Design",
+      "category": "leadership",
+      "matches": [
+        "security_architecture_design",
+        "security_architecture_frameworks",
+        "security_architecture_methodology",
+        "security_architecture_deliverables",
+        "security_architecture_in_enterprise_architecture",
+        "security_architecture_governance",
+        "security_architecture_microsoft",
+        "sabsa_framework",
+        "sabsa_applied_methodology",
+        "sabsa_mastery",
+        "risk_driven_architecture",
+        "business_attribute_profiling",
+        "contextual_architecture",
+        "conceptual_architecture",
+        "logical_and_physical_architecture",
+        "component_architecture",
+        "operational_architecture",
+        "security_patterns",
+        "defensible_architecture_design",
+        "threat_informed_defense",
+        "detection_architecture"
+      ]
+    },
+    {
+      "id": "cryptography",
+      "label": "Cryptography & PKI",
+      "category": "leadership",
+      "matches": [
+        "cryptography_fundamentals",
+        "cryptography_application",
+        "cryptography_and_pki_design",
+        "cryptography_basics",
+        "advanced_cryptography",
+        "cryptography_implementation",
+        "cryptography_implementation_dotnet"
+      ]
+    },
+    {
+      "id": "siem",
+      "label": "SIEM Operations",
+      "category": "leadership",
+      "matches": [
+        "siem_investigation",
+        "siem_management",
+        "siem_usage",
+        "siem_navigation",
+        "siem_rule_development",
+        "siem_tuning",
+        "siem_alert_investigation",
+        "siem_investigation_elastic",
+        "siem_architecture",
+        "splunk_search_basics",
+        "splunk_reports",
+        "splunk_dashboards",
+        "splunk_data_lookup",
+        "splunk_es_usage",
+        "splunk_security_monitoring",
+        "alert_triage",
+        "alert_investigation",
+        "alert_tuning",
+        "log_analysis",
+        "log_analysis_basics",
+        "log_analysis_xsiam",
+        "log_correlation",
+        "log_source_analysis",
+        "log_ingestion_and_parsing",
+        "microsoft_sentinel"
+      ]
+    },
+    {
+      "id": "detection_engineering",
+      "label": "Detection Engineering",
+      "category": "leadership",
+      "matches": [
+        "detection_engineering",
+        "detection_rule_development",
+        "detection_rule_usage",
+        "detection_triage",
+        "behavioral_detection",
+        "behavioral_analytics",
+        "behavioral_analytics_xdr",
+        "behavioral_analysis",
+        "alert_management_nozomi",
+        "correlation_search_development",
+        "correlation_search_management"
+      ]
+    },
+    {
+      "id": "security_program_management",
+      "label": "Security Program Management",
+      "category": "leadership",
+      "matches": [
+        "security_program_management",
+        "security_program_development",
+        "security_program_development_and_management",
+        "security_program_awareness",
+        "security_program_maintenance",
+        "cybersecurity_program_management",
+        "iso_27032_framework",
+        "security_compliance_management"
+      ]
+    },
+    {
+      "id": "security_leadership",
+      "label": "Security Leadership & Strategy",
+      "category": "leadership",
+      "matches": [
+        "security_leadership",
+        "security_leadership_foundations",
+        "security_strategy_development",
+        "board_level_communication",
+        "board_level_cyber_oversight",
+        "security_investment_justification",
+        "organizational_security_change",
+        "metrics_and_measurement",
+        "security_culture_development",
+        "security_team_leadership",
+        "executive_communication",
+        "executive_reporting",
+        "executive_reporting_incident",
+        "executive_security_communication",
+        "cyber_risk_governance_executive",
+        "cyber_risk_quantification_executive",
+        "board_reporting_awareness",
+        "ciso_board_interaction"
+      ]
+    },
+    {
+      "id": "incident_management_leadership",
+      "label": "Incident Management Leadership",
+      "category": "leadership",
+      "matches": [
+        "incident_response_leadership",
+        "crisis_communication",
+        "ir_team_coordination",
+        "stakeholder_management",
+        "stakeholder_management_incident",
+        "ir_strategy",
+        "tabletop_exercise_facilitation",
+        "ir_team_leadership",
+        "incident_management",
+        "incident_management_governance",
+        "incident_management_program"
+      ]
+    },
+    {
+      "id": "security_awareness",
+      "label": "Security Awareness & Training",
+      "category": "leadership",
+      "matches": [
+        "security_awareness_program_design",
+        "human_risk_management",
+        "phishing_simulation_management",
+        "behavior_change_methodology",
+        "awareness_metrics",
+        "security_culture_ot"
+      ]
+    },
+    {
+      "id": "report_writing",
+      "label": "Security Report Writing",
+      "category": "leadership",
+      "matches": [
+        "pentest_report_writing",
+        "web_report_writing",
+        "web_pentest_report_writing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "role_id": "threat_hunter",
+  "label": "Threat Hunter",
+  "description": "Proactively searches for attacker presence in enterprise environments through hypothesis-driven investigation, behavioral analytics, and intelligence-led hunting before automated alerts fire.",
+  "job_titles": [
+    "Threat Hunter",
+    "Cyber Threat Hunter",
+    "Threat Hunting Analyst",
+    "Senior SOC Analyst (Hunting)",
+    "Threat Detection & Hunt Analyst"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "threat_hunt_standard",
+      "name": "Threat Hunting Track",
+      "rationale": "Threat hunting sits at the intersection of DFIR, CTI, and detection engineering. GDAT covers behavioral analytics; GCTI adds intelligence-led hunting capability; BTL2 builds the investigation skills that hunting discoveries require.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 2796,
+      "pros": [
+        "GDAT covers advanced threat hunting and behavioral analytics",
+        "GCTI adds intelligence-led hunting capability",
+        "BTL2 adds investigation skills that hunting discoveries require",
+        "Strong combination for senior SOC and dedicated hunting roles"
+      ],
+      "cons": [
+        "Threat hunting roles are typically senior \u2014 not entry-level credentials",
+        "High total cost without employer sponsorship"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "MITRE ATT&CK framework depth",
+          "SIEM proficiency (SPL or KQL)",
+          "Log analysis and EDR experience",
+          "Threat intelligence consumption"
+        ],
+        "recommended_certs": [
+          "gcti",
+          "gcih"
+        ],
+        "experience": "3-5 years security operations experience minimum. SOC analyst to DFIR to Threat Hunter is the most common progression."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl2",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Security Blue Team Level 2 \u2014 practical investigation skills covering threat hunting, malware analysis, and complex incident investigation. 24-hour practical exam. When you find suspicious activity you need to be able to investigate it fully."
+        },
+        {
+          "cert_id": "gdat",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Defending Advanced Threats \u2014 threat hunting methodology, behavioral analytics, and hunting for sophisticated threat actors. Associated with SANS SEC599. CyberLive adds hands-on threat detection. Open-book \u2014 build notes by ATT&CK tactic with hunting queries for each."
+        },
+        {
+          "cert_id": "gcti",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Cyber Threat Intelligence \u2014 adds intelligence-led hunting capability. The strongest threat hunters combine behavioral analytics (GDAT) with knowledge of what specific threat actors actually do (GCTI). Intelligence-led hypotheses are significantly more targeted than generic behavioral searches."
+        }
+      ]
+    },
+    {
+      "id": "threat_hunt_offsec",
+      "name": "OffSec Hunt Track",
+      "rationale": "OffSec's defensive certifications provide a unique attacker-informed hunting perspective \u2014 OSTH specifically focuses on threat hunting from the OffSec methodology. Paired with GDAT for behavioral analytics depth. For threat hunters who want to understand attacker behavior from an offensive perspective and apply it to hunting.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 2076,
+      "pros": [
+        "OSTH provides attacker-informed hunting methodology unique to OffSec's offensive heritage",
+        "100% practical \u2014 OSTH is a hands-on exam",
+        "GDAT adds the behavioral analytics and advanced adversary profiling depth",
+        "BTL2 builds the investigation skills that hunting discoveries require"
+      ],
+      "cons": [
+        "OSTH has lower employer name recognition than GDAT",
+        "OffSec defensive certs are newer \u2014 building market presence",
+        "More expensive than a BTL2-only approach"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "SIEM proficiency",
+          "MITRE ATT&CK framework",
+          "EDR operations",
+          "Basic offensive security awareness"
+        ],
+        "recommended_certs": [
+          "btl2"
+        ],
+        "experience": "BTL2 or equivalent investigation experience strongly recommended. Understanding attacker techniques from a defensive perspective is a prerequisite for effective hunting."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl2",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Security Blue Team Level 2 \u2014 practical investigation skills foundation. When your hunting discoveries require investigation, BTL2's skills are essential. Complete this first."
+        },
+        {
+          "cert_id": "osth",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "OffSec Threat Hunter \u2014 practical threat hunting cert with an attacker-informed methodology. Covers hypothesis development, behavioral hunting in endpoint and network data, and hunting for specific adversary TTPs. Complete the TH-200 course. The attacker-side perspective OffSec brings to defensive work is OSTH's core differentiator."
+        },
+        {
+          "cert_id": "gdat",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Defending Advanced Threats \u2014 adds the behavioral analytics and advanced adversary profiling depth that makes hunting at scale possible. With OSTH's attacker-informed hunting methodology and GDAT's behavioral analytics framework, you have both the attacker perspective and the analytical toolkit."
+        }
+      ]
+    }
+  ]
+}

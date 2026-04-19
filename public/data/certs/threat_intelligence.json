@@ -1,0 +1,517 @@
+[
+  {
+    "id": "gcti",
+    "acronym": "GCTI",
+    "full_name": "GIAC Cyber Threat Intelligence",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "threat_intelligence",
+      "dfir"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis",
+      "threat_hunting"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "intelligence_cycle",
+      "threat_actor_profiling",
+      "ttp_analysis",
+      "mitre_attack_framework",
+      "ioc_analysis",
+      "intelligence_collection_planning",
+      "threat_report_writing",
+      "attribution_methodology"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "networking_basics",
+        "attacker_techniques_awareness",
+        "basic_log_analysis"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The primary GIAC certification for cyber threat intelligence and the most recognized vendor-neutral CTI credential globally. Covers the intelligence cycle, TTP analysis, MITRE ATT&CK application, threat actor profiling, attribution methodology, and intelligence report writing. DoD 8140 approved and consistently cited in CTI analyst job requirements. The MCQ format is a limitation for a discipline that requires genuine analytical thinking, but the content depth genuinely requires understanding of intelligence tradecraft rather than memorization. Best suited for analysts transitioning into CTI roles or current CTI practitioners wanting a recognized credential to validate their analytical methodology skills.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/cyber-threat-intelligence-gcti/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 5.4
+    }
+  },
+  {
+    "id": "ctia",
+    "acronym": "CTIA",
+    "full_name": "Certified Threat Intelligence Analyst",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "intelligence_lifecycle",
+      "ioc_analysis",
+      "threat_actor_profiling",
+      "ttp_analysis",
+      "open_source_intelligence",
+      "intelligence_reporting",
+      "dark_web_intelligence"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "networking_basics",
+        "attacker_techniques_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's threat intelligence certification covering the intelligence lifecycle, IOC analysis, threat actor profiling, OSINT, dark web intelligence, and reporting. Not DoD 8140 approved, which limits its appeal versus GCTI in government and contractor contexts. In the practitioner community GCTI is more respected \u2014 CTIA covers similar conceptual ground but EC-Council's theory-heavy approach validates familiarity with the framework more than actual analytical skill. Worth considering if GCTI cost is prohibitive and you're not targeting government roles, but GCTI should be the primary target for serious CTI analysts.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 3,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 3.2
+    }
+  },
+  {
+    "id": "cd-ctia",
+    "acronym": "CD-CTIA",
+    "full_name": "CyberDefenders Certified Threat Intelligence Analyst",
+    "issuing_body": "CyberDefenders",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis"
+    ],
+    "level": "beginner",
+    "practical_weight": 80,
+    "cost_usd": 299,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_intelligence_fundamentals",
+      "ioc_collection",
+      "feed_management",
+      "threat_intel_platforms",
+      "osint_basics",
+      "intelligence_sharing_frameworks"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "basic_networking"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CyberDefenders' threat intelligence certification using their practical lab-based exam format. Covers CTI fundamentals including IOC collection, threat intelligence platforms, OSINT, and intelligence sharing frameworks. Not DoD 8140 approved and still building employer name recognition. CyberDefenders' platform has a genuine community following for its realistic lab scenarios. Better as an entry point for building CTI foundations before pursuing GCTI than as a standalone career credential \u2014 the practical format is genuinely useful for developing hands-on CTI skills even if the cert itself has limited hiring impact currently.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://cyberdefenders.org/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 6,
+      "employer_recognition": 3,
+      "community_respect": 5,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "misp-analyst",
+    "acronym": "MISP Analyst",
+    "full_name": "MISP Threat Intelligence Analyst Certification",
+    "issuing_body": "CIRCL / MISP Project",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_platforms",
+      "threat_intelligence_analysis"
+    ],
+    "level": "beginner",
+    "practical_weight": 40,
+    "cost_usd": 0,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Particularly recognized in European CERT/CSIRT communities",
+    "skills": [
+      "misp_platform_usage",
+      "event_creation_and_management",
+      "ioc_sharing",
+      "threat_intelligence_taxonomy",
+      "galaxy_usage",
+      "misp_feeds",
+      "stix_taxii_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_concepts",
+        "threat_intelligence_fundamentals_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CIRCL's certification for MISP \u2014 the most widely deployed open-source threat intelligence sharing platform globally. Free to obtain via the MISP Project's training and assessment program. Covers MISP event management, IOC sharing, taxonomy, galaxy usage, and STIX/TAXII basics. Particularly valued in European CERT/CSIRT communities and organizations participating in threat intelligence sharing networks such as ISACs and national CERTs. Not a hiring differentiator in commercial markets but genuinely useful for practitioners operating MISP instances or participating in threat sharing communities. The free price makes it an easy add-on for CTI analysts already using the platform.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://www.misp-project.org/misp-training/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 4,
+      "employer_recognition": 3,
+      "community_respect": 5,
+      "salary_impact": 2,
+      "time_to_prepare": 2,
+      "overall": 3.5
+    }
+  },
+  {
+    "id": "rf-certified",
+    "acronym": "RF Certified",
+    "full_name": "Recorded Future Certified Intelligence Analyst",
+    "issuing_body": "Recorded Future",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_platforms"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Recorded Future is deployed",
+    "skills": [
+      "recorded_future_platform",
+      "threat_intelligence_analysis",
+      "risk_scoring",
+      "alerting_configuration",
+      "intelligence_card_usage",
+      "api_usage_rf",
+      "threat_actor_tracking"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "threat_intelligence_fundamentals",
+        "security_operations_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Recorded Future's analyst certification for their threat intelligence platform \u2014 one of the most widely deployed commercial CTI platforms in enterprise and government. Free for Recorded Future customers. Covers platform navigation, intelligence cards, risk scoring, alerting, and API usage. Validates Recorded Future-specific proficiency rather than transferable analytical methodology. Most valuable for analysts whose primary CTI platform is Recorded Future, which is a significant portion of enterprise and government security teams given their market position. Limited value outside Recorded Future environments.",
+    "flags": [
+      "free",
+      "tool_vendor"
+    ],
+    "official_url": "https://university.recordedfuture.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 2,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "anomali-certified",
+    "acronym": "Anomali Certified",
+    "full_name": "Anomali Certified Threat Intelligence Analyst",
+    "issuing_body": "Anomali",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_platforms"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Most relevant where Anomali ThreatStream is deployed",
+    "skills": [
+      "anomali_threatstream_usage",
+      "threat_intelligence_management",
+      "ioc_management",
+      "intelligence_feed_integration",
+      "actor_tracking_anomali"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "threat_intelligence_basics",
+        "security_operations"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Anomali's certification for their ThreatStream threat intelligence platform. Free for Anomali customers. Covers ThreatStream navigation, IOC management, intelligence feed integration, and actor tracking. Vendor platform cert \u2014 valuable primarily in organizations running Anomali ThreatStream, which has a significant customer base in financial services and government. Like Recorded Future's cert, validates platform proficiency rather than analytical tradecraft. A reasonable add-on for analysts using ThreatStream as their primary CTIP, but not a standalone career differentiator.",
+    "flags": [
+      "free",
+      "tool_vendor"
+    ],
+    "official_url": "https://www.anomali.com/training",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 2,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "opswat-ctia",
+    "acronym": "OPSWAT CTI",
+    "full_name": "OPSWAT Certified Threat Intelligence Analyst",
+    "issuing_body": "OPSWAT Academy",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis"
+    ],
+    "level": "beginner",
+    "practical_weight": 20,
+    "cost_usd": 0,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_intelligence_fundamentals",
+      "ioc_types",
+      "feed_consumption",
+      "threat_intelligence_lifecycle",
+      "basic_attribution"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_security_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "OPSWAT Academy's free threat intelligence fundamentals certification covering CTI basics including IOC types, feed consumption, and the intelligence lifecycle at an introductory level. Not DoD 8140 approved and limited hiring weight \u2014 this is a foundational learning resource with a completion badge more than a career credential. OPSWAT Academy has a reasonable reputation for quality free training content, making this a useful starting point for analysts exploring CTI before committing to GCTI or CTIA. Not a cert you'd list prominently on a CV but useful as a learning milestone.",
+    "flags": [
+      "free",
+      "low_community_respect"
+    ],
+    "official_url": "https://www.opswat.com/academy",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 1,
+      "practical_depth": 1,
+      "employer_recognition": 2,
+      "community_respect": 2,
+      "salary_impact": 1,
+      "time_to_prepare": 1,
+      "overall": 1.5
+    }
+  },
+  {
+    "id": "crest-cip",
+    "acronym": "CREST CIP",
+    "full_name": "CREST Certified Intelligence Professional",
+    "issuing_body": "CREST",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis"
+    ],
+    "level": "expert",
+    "practical_weight": 60,
+    "cost_usd": 1500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "regional",
+    "geographic_note": "UK, Australia, Singapore, EU \u2014 limited recognition in US",
+    "skills": [
+      "intelligence_analysis_advanced",
+      "threat_actor_attribution",
+      "strategic_intelligence",
+      "intelligence_collection_management",
+      "intelligence_product_development",
+      "briefing_senior_stakeholders"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "threat_intelligence_advanced",
+        "intelligence_tradecraft",
+        "analytical_methodology",
+        "security_operations_experience"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CREST's advanced threat intelligence certification for senior CTI practitioners covering strategic intelligence analysis, attribution, collection management, and intelligence product development for senior stakeholders. Significant practical component. Primarily recognized in the UK, Australia, Singapore, and EU where CREST accreditation carries regulatory weight. Limited recognition in the US market. For senior CTI practitioners in CREST-active regions moving into intelligence leadership roles, this is a meaningful credential. Outside those regions, GCTI remains the more universally recognized senior CTI option.",
+    "flags": [],
+    "official_url": "https://www.crest-approved.org/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 5,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "ceh",
+    "acronym": "CEH",
+    "full_name": "Certified Ethical Hacker",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "threat_intelligence",
+      "offensive"
+    ],
+    "subdomain": [
+      "threat_intelligence_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 950,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "attacker_methodology",
+      "reconnaissance_techniques",
+      "network_scanning",
+      "vulnerability_identification",
+      "exploitation_awareness",
+      "social_engineering_awareness",
+      "malware_concepts"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_basics",
+        "operating_system_familiarity"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's flagship certification and one of the most recognized security credentials globally \u2014 primarily due to DoD 8140 approval and heavy marketing rather than practitioner endorsement. Covers attacker methodology, reconnaissance, scanning, and exploitation techniques from a conceptual perspective that is useful for understanding threat actor tradecraft. DoD 8140 approved which is its primary value. The practitioner community is frequently critical of CEH \u2014 it's broad, exam-focused, and doesn't validate hands-on skill the way OSCP or BSCP do. But its DoD recognition keeps it in constant demand for government and contractor roles where the checkbox matters.",
+    "flags": [
+      "low_community_respect"
+    ],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 1,
+      "employer_recognition": 8,
+      "community_respect": 2,
+      "salary_impact": 6,
+      "time_to_prepare": 3,
+      "overall": 3.7
+    }
+  },
+  {
+    "id": "gsoa",
+    "acronym": "GSOA",
+    "full_name": "GIAC Strategic OSINT Analyst",
+    "issuing_body": "GIAC",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "osint",
+      "threat_intelligence_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 30,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "osint_methodology",
+      "threat_intelligence_analysis",
+      "social_media_intelligence",
+      "darknet_analysis",
+      "blockchain_analysis",
+      "python_automation",
+      "disinformation_analysis",
+      "adversary_profiling"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "OSINT methodology",
+        "Python scripting basics",
+        "Threat intelligence concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's newest threat intelligence and OSINT certification, with the current exam version released November 8, 2025. GSOA validates the ability to automate investigations with Python, analyze data at scale, and uncover threats across social platforms, darknet forums, blockchain activity, and disinformation networks. Goes significantly beyond basic OSINT \u2014 the exam emphasizes analytical tradecraft and automation at strategic scale rather than tool operation. The certification fills a gap between the general CTI coverage in GCTI and the technical OSINT automation skills demanded by enterprise threat intelligence programs. DoD 8140 approved. Open-book exam \u2014 build indexed notes covering automation methodology, platform-specific analysis techniques, and investigation frameworks.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/strategic-osint-analyst-gsoa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 5.7
+    }
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "offensive",
+    "label": "Offensive Security",
+    "short_label": "Offensive",
+    "description": "Penetration testing, exploit development, red teaming, and adversarial simulation across networks, applications, and systems.",
+    "color": "#ef4444",
+    "icon": "sword",
+    "cert_file": "certs/offensive.json",
+    "cert_count": 67
+  },
+  {
+    "id": "dfir",
+    "label": "Digital Forensics & Incident Response",
+    "short_label": "DFIR",
+    "description": "Digital forensics, memory and mobile forensics, incident response, malware analysis, and threat hunting across enterprise and cloud environments.",
+    "color": "#f97316",
+    "icon": "search",
+    "cert_file": "certs/dfir.json",
+    "cert_count": 45
+  },
+  {
+    "id": "defensive_soc",
+    "label": "Defensive Security / SOC",
+    "short_label": "SOC",
+    "description": "Security operations, SOC analysis, SIEM operations, detection engineering, and endpoint detection and response platforms.",
+    "color": "#eab308",
+    "icon": "shield",
+    "cert_file": "certs/defensive_soc.json",
+    "cert_count": 29
+  },
+  {
+    "id": "cloud_security",
+    "label": "Cloud Security",
+    "short_label": "Cloud",
+    "description": "Cloud security architecture, AWS/Azure/GCP security engineering, container security, Zero Trust, and cloud-native security operations.",
+    "color": "#06b6d4",
+    "icon": "cloud",
+    "cert_file": "certs/cloud_security.json",
+    "cert_count": 18
+  },
+  {
+    "id": "appsec",
+    "label": "Application Security",
+    "short_label": "AppSec",
+    "description": "Web application penetration testing, secure software development lifecycle, DevSecOps, API security, and software supply chain security.",
+    "color": "#8b5cf6",
+    "icon": "code",
+    "cert_file": "certs/appsec.json",
+    "cert_count": 22
+  },
+  {
+    "id": "threat_intelligence",
+    "label": "Threat Intelligence",
+    "short_label": "CTI",
+    "description": "Cyber threat intelligence analysis, threat actor profiling, TTP analysis, IOC management, and intelligence platform operations.",
+    "color": "#f59e0b",
+    "icon": "eye",
+    "cert_file": "certs/threat_intelligence.json",
+    "cert_count": 9
+  },
+  {
+    "id": "vulnerability_management",
+    "label": "Vulnerability Management",
+    "short_label": "Vuln Mgmt",
+    "description": "Vulnerability scanning, risk-based prioritization, remediation tracking, and enterprise vulnerability management program design.",
+    "color": "#10b981",
+    "icon": "bug",
+    "cert_file": "certs/vulnerability_management.json",
+    "cert_count": 19
+  },
+  {
+    "id": "network_security",
+    "label": "Network Security",
+    "short_label": "Network",
+    "description": "Network security engineering, firewall administration, IDS/IPS, VPNs, and network security architecture across major vendors.",
+    "color": "#3b82f6",
+    "icon": "network",
+    "cert_file": "certs/network_security.json",
+    "cert_count": 23
+  },
+  {
+    "id": "security_architecture",
+    "label": "Security Architecture & Engineering",
+    "short_label": "Architecture",
+    "description": "Enterprise security architecture, security engineering, Zero Trust design, cryptography, and security program leadership.",
+    "color": "#64748b",
+    "icon": "blueprint",
+    "cert_file": "certs/security_architecture.json",
+    "cert_count": 19
+  },
+  {
+    "id": "iam",
+    "label": "Identity & Access Management",
+    "short_label": "IAM",
+    "description": "Identity governance, privileged access management, authentication and MFA, federation, SSO, and identity platform administration.",
+    "color": "#14b8a6",
+    "icon": "key",
+    "cert_file": "certs/iam.json",
+    "cert_count": 26
+  },
+  {
+    "id": "ot_ics_iot",
+    "label": "OT / ICS / IoT Security",
+    "short_label": "OT/ICS",
+    "description": "Operational technology security, industrial control systems, SCADA security, critical infrastructure protection, and IoT security.",
+    "color": "#84cc16",
+    "icon": "factory",
+    "cert_file": "certs/ot_ics_iot.json",
+    "cert_count": 16
+  },
+  {
+    "id": "grc",
+    "label": "Governance, Risk & Compliance",
+    "short_label": "GRC",
+    "description": "IT audit, risk management, compliance frameworks, business continuity, third-party risk, and information security governance.",
+    "color": "#6b7280",
+    "icon": "clipboard",
+    "cert_file": "certs/grc.json",
+    "cert_count": 24
+  },
+  {
+    "id": "data_privacy",
+    "label": "Data Security & Privacy",
+    "short_label": "Privacy",
+    "description": "Privacy law and compliance, GDPR, privacy engineering, data loss prevention, data classification, and privacy program management.",
+    "color": "#ec4899",
+    "icon": "lock",
+    "cert_file": "certs/data_privacy.json",
+    "cert_count": 17
+  },
+  {
+    "id": "ai_security",
+    "label": "AI Security",
+    "short_label": "AI Security",
+    "description": "AI/ML system security, LLM red teaming, AI governance and risk, adversarial machine learning, and responsible AI frameworks.",
+    "color": "#a855f7",
+    "icon": "cpu",
+    "cert_file": "certs/ai_security.json",
+    "cert_count": 16
+  },
+  {
+    "id": "oversight_leadership",
+    "label": "Oversight & Leadership",
+    "short_label": "Leadership",
+    "description": "CISO and executive leadership, security program management, security awareness, and board-level security governance.",
+    "color": "#0ea5e9",
+    "icon": "crown",
+    "cert_file": "certs/oversight_leadership.json",
+    "cert_count": 13
+  }
+]

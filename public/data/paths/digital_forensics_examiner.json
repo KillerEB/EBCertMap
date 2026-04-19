@@ -1,0 +1,109 @@
+{
+  "role_id": "digital_forensics_examiner",
+  "label": "Digital Forensics Examiner",
+  "description": "Conducts forensic examinations of digital evidence for law enforcement, legal proceedings, and corporate investigations. Emphasizes chain of custody, evidence integrity, legal standards, and courtroom testimony readiness.",
+  "job_titles": [
+    "Digital Forensic Examiner",
+    "Computer Forensic Examiner",
+    "Forensic Investigator",
+    "LE Digital Forensics Analyst",
+    "eDiscovery Examiner",
+    "Expert Witness (Digital)"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "dfe_law_enforcement",
+      "name": "Law Enforcement / Legal Track",
+      "rationale": "For practitioners working with law enforcement where court-admissible evidence and chain-of-custody are paramount. CFCE is the gold standard LE forensics credential.",
+      "estimated_timeline": "12-24 months",
+      "total_cost_usd": 2397,
+      "pros": [
+        "CFCE is the most respected credential in LE digital forensics",
+        "Practical components proving actual examination skill",
+        "Recognized by courts and law enforcement agencies"
+      ],
+      "cons": [
+        "Requires working experience with LE or legal investigations",
+        "High experience barriers \u2014 not entry-level credentials"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Digital forensics fundamentals",
+          "Evidence handling and chain of custody",
+          "Windows and file system forensics",
+          "Legal standards for digital evidence"
+        ],
+        "recommended_certs": [
+          "gcfe"
+        ],
+        "experience": "Law enforcement or legal investigation experience strongly recommended. CFCE requires peer review of submitted casework."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcfe",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "GIAC Certified Forensic Examiner \u2014 strong foundational Windows forensics credential and DoD approved. 13Cubed Investigating Windows Endpoints course covers approximately 80% of GCFE content at significant cost savings if employer won't fund SANS training."
+        },
+        {
+          "cert_id": "ence",
+          "order": 2,
+          "estimated_time": "2-4 months",
+          "notes": "OpenText EnCase Examiner \u2014 widely deployed in forensics and eDiscovery. Effectively required if your workplace runs EnCase. Requires hands-on EnCase access for the practical exam component."
+        },
+        {
+          "cert_id": "cfr",
+          "order": 3,
+          "estimated_time": "6-12 months",
+          "notes": "IACIS CFCE (Certified Forensic Computer Examiner) \u2014 the gold standard LE digital forensics credential. Requires law enforcement or investigative professional background and peer review of actual casework. The peer-review process ensures genuine competence rather than just exam performance."
+        }
+      ]
+    },
+    {
+      "id": "dfe_corporate",
+      "name": "Corporate / eDiscovery Track",
+      "rationale": "For forensic examiners in corporate environments \u2014 internal investigations, eDiscovery, HR matters, and IP theft cases without the full LE chain-of-custody burden.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1796,
+      "pros": [
+        "EnCE and ACE widely recognized in corporate forensics and eDiscovery",
+        "Commercial tool proficiency directly applicable to corporate workflows",
+        "CHFI adds vendor-neutral foundation"
+      ],
+      "cons": [
+        "Tool-vendor certs tie recognition to specific commercial platforms",
+        "Less recognized in law enforcement contexts than CFCE"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Digital forensics methodology",
+          "Windows and file system analysis",
+          "Evidence documentation"
+        ],
+        "recommended_certs": [],
+        "experience": "IT administration or security operations background beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "gcfe",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Vendor-neutral forensics foundation with DoD recognition."
+        },
+        {
+          "cert_id": "chfi",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "EC-Council forensics cert \u2014 broad coverage of methodology, tool landscape, and investigation procedures. More accessible than GCFE but less community respected."
+        },
+        {
+          "cert_id": "ence",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "OpenText EnCase Examiner \u2014 the most recognized commercial forensics tool credential. Widely deployed in corporate forensics and eDiscovery environments."
+        }
+      ]
+    }
+  ]
+}

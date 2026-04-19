@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "security-plus",
+    "acronym": "Security+",
+    "full_name": "CompTIA Security+",
+    "issuing_body": "CompTIA",
+    "domain": [
+      "defensive_soc",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 15,
+    "cost_usd": 392,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "network_security_fundamentals",
+      "threat_identification",
+      "access_control_concepts",
+      "cryptography_basics",
+      "incident_response_basics",
+      "vulnerability_concepts",
+      "risk_management_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "basic_it_operations",
+        "security_awareness_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The most widely recognized entry-level security certification globally and the de facto baseline for government and contractor security roles under DoD 8140. Covers a broad range of security concepts from network security and cryptography to identity management and incident response \u2014 none deeply, but all adequately for a foundational credential. The main criticism is that it has become somewhat of a checkbox cert: passing it does not meaningfully validate hands-on security ability. That said, it opens more doors than almost any other entry-level cert and is worth getting simply for the access it provides to government and large enterprise hiring pipelines.",
+    "flags": [],
+    "official_url": "https://www.comptia.org/certifications/security",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 2,
+      "employer_recognition": 8,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.2
+    }
+  },
+  {
+    "id": "cysa-plus",
+    "acronym": "CySA+",
+    "full_name": "CompTIA Cybersecurity Analyst+",
+    "issuing_body": "CompTIA",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "threat_detection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 392,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_detection",
+      "log_analysis",
+      "vulnerability_assessment",
+      "incident_response_process",
+      "threat_intelligence_application",
+      "security_monitoring",
+      "behavioral_analytics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "security_concepts",
+        "basic_log_analysis"
+      ],
+      "recommended_certs": [
+        "security-plus"
+      ]
+    },
+    "summary": "CompTIA's intermediate blue team certification targeting SOC analysts and threat detection roles. Covers threat detection, log analysis, vulnerability management, and incident response at a level above Security+ but below GCIH in technical depth. DoD 8140 approved and a natural step up from Security+ for those pursuing the government/contractor track. The performance-based questions add some practical element but it remains predominantly theoretical. A reasonable credential for SOC Tier 1-2 roles in enterprise environments where CompTIA certs are recognized, though CySA+ holders competing with GCIH or BTL1 holders will find the latter two carry more weight in practitioner-focused hiring.",
+    "flags": [],
+    "official_url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.7
+    }
+  },
+  {
+    "id": "cc",
+    "acronym": "CC",
+    "full_name": "Certified in Cybersecurity",
+    "issuing_body": "ISC2",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 5,
+    "cost_usd": 0,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_principles",
+      "access_control_basics",
+      "network_security_basics",
+      "security_operations_basics",
+      "incident_response_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_it_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISC2's entry-level certification designed to bring newcomers into cybersecurity, currently offered for free as part of ISC2's one million certified campaign. Covers foundational security principles, access controls, network security, and basic security operations \u2014 all at an introductory level. Not DoD 8140 approved and won't differentiate candidates in a hiring process on its own. Its main value is as a free starting point for career changers or students to demonstrate intent and basic awareness. Pair it with hands-on learning (TryHackMe, HTB, BTL1) to build actual skills alongside the credential.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://www.isc2.org/certifications/cc",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 1,
+      "practical_depth": 1,
+      "employer_recognition": 4,
+      "community_respect": 3,
+      "salary_impact": 3,
+      "time_to_prepare": 1,
+      "overall": 2.4
+    }
+  },
+  {
+    "id": "sscp",
+    "acronym": "SSCP",
+    "full_name": "Systems Security Certified Practitioner",
+    "issuing_body": "ISC2",
+    "domain": [
+      "defensive_soc",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "security_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 249,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "access_control",
+      "security_operations",
+      "risk_identification",
+      "incident_response_basics",
+      "cryptography_application",
+      "network_security",
+      "system_administration_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "operating_system_basics",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISC2's practitioner-level certification below CISSP, targeting security operations and administration roles. Covers access controls, security operations, risk identification, incident response, and cryptography at a hands-on practitioner level. DoD 8140 approved and recognized in government and enterprise contexts. The one-year experience requirement keeps it from being purely a beginner cert. Often described as 'CISSP lite' \u2014 it validates a broader operational security skillset than Security+ but is less prestigious than CISSP. A reasonable mid-career credential for practitioners in security operations roles who aren't ready or positioned for CISSP.",
+    "flags": [],
+    "official_url": "https://www.isc2.org/certifications/sscp",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "gsec",
+    "acronym": "GSEC",
+    "full_name": "GIAC Security Essentials",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "defensive_soc",
+      "security_architecture"
+    ],
+    "subdomain": [
+      "security_fundamentals",
+      "security_operations"
+    ],
+    "level": "beginner",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "network_security",
+      "access_control",
+      "cryptography_fundamentals",
+      "incident_handling_basics",
+      "linux_security",
+      "windows_security",
+      "cloud_security_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "operating_system_fundamentals",
+        "security_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's entry-level broad security certification and a DoD 8140 approved baseline credential. Covers a wide range of security essentials across networking, cryptography, access control, and incident handling \u2014 broader and more technically rigorous than Security+ despite both being 'foundational' certs. Respected by employers who value GIAC credentials over CompTIA, particularly in technical and government roles. At $999 exam-only it's significantly more expensive than Security+, which limits its appeal as a first cert for budget-constrained candidates. If your employer covers training costs, GSEC is a better first credential than Security+; if you're self-funding entry into the field, Security+ first makes more financial sense.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/security-essentials-gsec/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 5,
+      "overall": 5.3
+    }
+  },
+  {
+    "id": "gcia",
+    "acronym": "GCIA",
+    "full_name": "GIAC Certified Intrusion Analyst",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "network_monitoring",
+      "threat_detection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "network_traffic_analysis",
+      "intrusion_detection",
+      "protocol_analysis",
+      "signature_development",
+      "network_forensics_basics",
+      "ids_ips_tuning",
+      "pcap_analysis"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "tcp_ip_networking",
+        "packet_analysis_basics",
+        "security_fundamentals"
+      ],
+      "recommended_certs": [
+        "gsec"
+      ]
+    },
+    "summary": "The primary GIAC certification for network-focused security analysts \u2014 covering intrusion detection, network traffic analysis, protocol dissection, and IDS/IPS tuning. One of the older and more established GIAC certs with strong DoD 8140 recognition and consistent demand in network security and SOC roles. Pairs naturally with GCIH for a comprehensive SOC analyst credential stack. More technically rigorous than CySA+ in the network analysis domain specifically. The MCQ-heavy format is the same limitation as other GIAC certs, but the content depth genuinely requires technical understanding that memorization alone won't cover.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "gcda",
+    "acronym": "GCDA",
+    "full_name": "GIAC Certified Detection Analyst",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "threat_detection",
+      "soc_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 999,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "detection_engineering",
+      "siem_rule_development",
+      "alert_tuning",
+      "threat_detection_strategy",
+      "behavioral_detection",
+      "log_source_analysis",
+      "mitre_attack_detection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_monitoring_concepts",
+        "log_analysis",
+        "siem_basics",
+        "attacker_techniques_awareness"
+      ],
+      "recommended_certs": [
+        "gsec",
+        "gcih"
+      ]
+    },
+    "summary": "GIAC's certification focused specifically on detection engineering and building effective detection capabilities \u2014 an area where most other certs fall short. Covers developing and tuning SIEM rules, behavioral detection, MITRE ATT&CK-based detection strategies, and log source analysis. DoD 8140 approved. As organizations mature their security programs beyond alert response toward proactive detection development, GCDA fills an important gap that GCIA (which focuses on analysis of existing alerts) doesn't address. A strong cert for SOC analysts transitioning into detection engineering or security engineering roles.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/certified-detection-analyst-gcda/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "sc-200",
+    "acronym": "SC-200",
+    "full_name": "Microsoft Certified: Security Operations Analyst Associate",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "threat_detection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "microsoft_sentinel",
+      "microsoft_defender_xdr",
+      "threat_investigation",
+      "incident_management",
+      "kusto_query_language",
+      "siem_management",
+      "threat_hunting_microsoft"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "microsoft_security_products_familiarity",
+        "networking_basics",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's SOC analyst certification covering Sentinel (SIEM/SOAR), Microsoft Defender XDR suite, and security operations workflows in the Microsoft ecosystem. If your organization runs Microsoft security products \u2014 which is the majority of enterprise environments \u2014 this cert validates genuinely useful, directly applicable skills. The one-year renewal is short and requires either retaking the exam or passing a renewal assessment, which keeps the credential relatively current. Not DoD 8140 approved and less useful outside Microsoft-heavy environments, but for analysts working in Azure/Microsoft shops this is more immediately practical than many vendor-neutral alternatives.",
+    "flags": [],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 4,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "sc-900",
+    "acronym": "SC-900",
+    "full_name": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+    "issuing_body": "Microsoft",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 5,
+    "cost_usd": 165,
+    "renewal": "1 year",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "microsoft_security_concepts",
+      "compliance_basics",
+      "identity_basics",
+      "azure_security_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_it_awareness",
+        "microsoft_365_familiarity"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Microsoft's entry-level security fundamentals cert covering basic concepts across the Microsoft security, compliance, and identity portfolio. Intended as a starting point before SC-200, SC-300, or SC-400. Very surface-level content \u2014 this cert demonstrates Microsoft ecosystem awareness more than any security depth. Worth getting if you're entering the Microsoft security track and want to sequence properly, but don't expect it to differentiate you in hiring. Most practitioners skip it and go directly to SC-200.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 1,
+      "practical_depth": 1,
+      "employer_recognition": 3,
+      "community_respect": 2,
+      "salary_impact": 3,
+      "time_to_prepare": 1,
+      "overall": 1.9
+    }
+  },
+  {
+    "id": "cyberops-associate",
+    "acronym": "CyberOps Associate",
+    "full_name": "Cisco Certified CyberOps Associate",
+    "issuing_body": "Cisco",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 15,
+    "cost_usd": 330,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_monitoring",
+      "host_based_analysis",
+      "network_intrusion_analysis",
+      "security_policies_and_procedures",
+      "incident_response_basics",
+      "log_analysis_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "security_awareness",
+        "operating_system_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Cisco's entry-level SOC analyst certification covering security monitoring, host-based analysis, network intrusion analysis, and incident response fundamentals. DoD 8140 approved which is its strongest selling point over similar entry-level certs. Respected in environments that value Cisco credentials and in the government/contractor pipeline. Less hands-on than BTL1 or CDSA but more structured as a progressive learning path toward CyberOps Professional. A reasonable entry certification for SOC analyst roles especially in Cisco-heavy or government environments.",
+    "flags": [],
+    "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "cyberops-professional",
+    "acronym": "CyberOps Professional",
+    "full_name": "Cisco Certified CyberOps Professional",
+    "issuing_body": "Cisco",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "threat_detection",
+      "incident_response"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 400,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_threat_analysis",
+      "soc_operations_management",
+      "security_automation",
+      "forensic_analysis",
+      "threat_hunting",
+      "advanced_incident_response",
+      "security_architecture_analysis"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_advanced",
+        "security_operations",
+        "threat_analysis",
+        "forensic_concepts"
+      ],
+      "recommended_certs": [
+        "cyberops-associate"
+      ]
+    },
+    "summary": "Cisco's advanced SOC certification requiring two exams (350-201 core + one concentration), covering advanced threat analysis, SOC operations, automation, forensics, and threat hunting at a senior level. DoD 8140 approved and recognized in enterprise and government environments. Significantly more rigorous than CyberOps Associate but less commonly seen in job requirements than GCIH or GCFA for senior SOC roles. Strong choice for practitioners in Cisco-heavy environments who want to progress within the Cisco certification ecosystem. The two-exam requirement increases cost and time investment compared to single-exam alternatives.",
+    "flags": [],
+    "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "cnd",
+    "acronym": "CND",
+    "full_name": "Certified Network Defender",
+    "issuing_body": "EC-Council",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "network_security_monitoring",
+      "security_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 450,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "network_defense",
+      "firewall_management",
+      "ids_ips_management",
+      "vpn_security",
+      "network_monitoring",
+      "incident_response_network",
+      "network_security_policies"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "networking_fundamentals",
+        "network_administration_basics",
+        "security_concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "EC-Council's network defense certification covering network security administration, IDS/IPS, firewalls, VPNs, and incident response from a network perspective. DoD 8140 approved which is its primary value in the market. EC-Council's reputation makes GCIA a stronger practitioner credential for network security analysis, but CND satisfies the same DoD compliance requirements at a lower price point. More administrative and policy-focused than technically deep \u2014 better suited for network security administrators and compliance-driven environments than hands-on SOC analysts. A reasonable DoD checkbox cert if GCIA cost is prohibitive.",
+    "flags": [],
+    "official_url": "https://www.eccouncil.org/train-certify/certified-network-defender-cnd/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 3,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.4
+    }
+  },
+  {
+    "id": "splk-1001",
+    "acronym": "SPLK-1001",
+    "full_name": "Splunk Core Certified User",
+    "issuing_body": "Splunk (Cisco)",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 130,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "splunk_search_basics",
+      "splunk_reports",
+      "splunk_dashboards",
+      "splunk_data_lookup",
+      "spl_fundamentals"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_it_awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Splunk's entry-level certification covering basic search, reporting, and dashboarding in the Splunk platform. The starting point for the Splunk certification path and a natural first step for SOC analysts working in Splunk environments. Pure MCQ exam with no hands-on component. Not DoD 8140 approved. In itself it won't differentiate you as a security professional \u2014 it proves Splunk tool familiarity, not security analysis skill. Most valuable as a foundation for the cybersecurity defense track certifications (SPLK-5001) or for administrators managing Splunk deployments.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 2,
+      "overall": 3.4
+    }
+  },
+  {
+    "id": "splk-1002",
+    "acronym": "SPLK-1002",
+    "full_name": "Splunk Core Certified Power User",
+    "issuing_body": "Splunk (Cisco)",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 130,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "advanced_spl_queries",
+      "splunk_data_models",
+      "splunk_transforming_commands",
+      "splunk_knowledge_objects",
+      "splunk_field_extractions",
+      "cim_usage"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "splunk_basics",
+        "data_analysis_concepts"
+      ],
+      "recommended_certs": [
+        "splk-1001"
+      ]
+    },
+    "summary": "Splunk's intermediate certification covering advanced SPL queries, data models, knowledge objects, and CIM usage \u2014 the skills needed to build meaningful security content in Splunk. More practically useful than SPLK-1001 for SOC analysts writing custom detection logic. Pure MCQ exam. Not DoD 8140 approved. A meaningful stepping stone to SPLK-5001 (Cybersecurity Defense Analyst) for analysts who want to develop custom detection content rather than just operate pre-built dashboards.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-power-user.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.6
+    }
+  },
+  {
+    "id": "splk-5001",
+    "acronym": "SPLK-5001",
+    "full_name": "Splunk Certified Cybersecurity Defense Analyst",
+    "issuing_body": "Splunk (Cisco)",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations",
+      "threat_detection",
+      "soc_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 130,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "splunk_security_monitoring",
+      "alert_triage",
+      "siem_investigation",
+      "threat_detection_splunk",
+      "splunk_es_usage",
+      "incident_investigation_splunk",
+      "security_content_usage"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "splunk_fundamentals",
+        "security_monitoring_concepts",
+        "log_analysis"
+      ],
+      "recommended_certs": [
+        "splk-1002"
+      ]
+    },
+    "summary": "Splunk's new SOC analyst-focused certification launched in 2025, covering security monitoring, alert investigation, and incident analysis specifically within the Splunk Enterprise Security platform. The most directly relevant Splunk cert for SOC analysts rather than platform administrators. Pure MCQ exam despite its practical focus. Not DoD 8140 approved. If your SOC runs Splunk ES this is a worthwhile credential \u2014 it proves you can work the platform effectively for security use cases rather than general data analysis. Limited value outside Splunk-heavy environments. Part of the new Cybersecurity Defense track replacing legacy security certifications.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-analyst.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 3,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "splk-5002",
+    "acronym": "SPLK-5002",
+    "full_name": "Splunk Certified Cybersecurity Defense Engineer",
+    "issuing_body": "Splunk (Cisco)",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations",
+      "detection_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 0,
+    "cost_usd": 130,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "splunk_es_configuration",
+      "detection_rule_development",
+      "siem_tuning",
+      "security_content_engineering",
+      "splunk_soar_basics",
+      "correlation_search_development",
+      "threat_intelligence_integration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "splunk_advanced",
+        "detection_engineering_concepts",
+        "security_operations"
+      ],
+      "recommended_certs": [
+        "splk-5001"
+      ]
+    },
+    "summary": "Splunk's advanced cybersecurity engineering cert covering detection rule development, Splunk ES configuration, SOAR integration, and security content engineering \u2014 building and tuning the tools rather than just using them. Targets detection engineers and senior SOC engineers who build the security infrastructure rather than investigate alerts. Pure MCQ exam which is a significant weakness for a cert at this level. Not DoD 8140 approved. A valuable credential for practitioners maintaining and building out Splunk-based security programs, though the MCQ format means practical Splunk engineering skill is assessed indirectly at best.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-engineer.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "splk-3001",
+    "acronym": "SPLK-3001",
+    "full_name": "Splunk Enterprise Security Certified Admin",
+    "issuing_body": "Splunk (Cisco)",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations"
+    ],
+    "level": "expert",
+    "practical_weight": 0,
+    "cost_usd": 130,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "splunk_es_administration",
+      "correlation_search_management",
+      "asset_identity_management",
+      "notable_event_workflow",
+      "data_model_acceleration",
+      "es_configuration"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "splunk_administration",
+        "splunk_es_familiarity",
+        "security_operations_concepts"
+      ],
+      "recommended_certs": [
+        "splk-1003"
+      ]
+    },
+    "summary": "The legacy Splunk Enterprise Security administration certification, now frozen as of January 2026 \u2014 exam content will no longer be updated though the cert can still be earned and renewed. Covers administration of Splunk ES including correlation searches, data models, asset management, and workflow configuration. Splunk recommends transitioning to SPLK-5002 for new candidates pursuing this track. Still valid to earn for now but its relevance will diminish as the Cybersecurity Defense track becomes the primary pathway. Include flag for retiring status.",
+    "flags": [
+      "retiring"
+    ],
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-security-certified-admin.html",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "ccfa",
+    "acronym": "CCFA",
+    "full_name": "CrowdStrike Certified Falcon Administrator",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "edr_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "falcon_platform_administration",
+      "policy_management",
+      "host_management",
+      "falcon_console_navigation",
+      "reporting_and_dashboards",
+      "user_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "endpoint_security_concepts",
+        "basic_security_operations",
+        "windows_administration_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CrowdStrike's entry-level platform administration cert covering Falcon console navigation, policy management, host management, and reporting. Targets administrators deploying and managing Falcon rather than analysts investigating alerts. Pure MCQ exam, 60 questions, 90 minutes. Not DoD 8140 approved. One free retake included with voucher. Primarily valuable in organizations running CrowdStrike Falcon \u2014 proves you can manage the platform competently. For analysts wanting to demonstrate Falcon-based detection and response skills, CCFR is the more relevant starting point.",
+    "flags": [],
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "ccfr",
+    "acronym": "CCFR",
+    "full_name": "CrowdStrike Certified Falcon Responder",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "edr_operations",
+      "incident_response"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "falcon_alert_investigation",
+      "edr_incident_response",
+      "threat_graph_analysis",
+      "falcon_real_time_response",
+      "detection_triage",
+      "crowdstrike_intelligence_usage",
+      "process_tree_analysis"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "edr_concepts",
+        "security_monitoring",
+        "basic_incident_response"
+      ],
+      "recommended_certs": [
+        "ccfa"
+      ]
+    },
+    "summary": "CrowdStrike's SOC analyst certification covering alert investigation, threat graph analysis, real-time response, and detection triage within the Falcon platform. The most relevant CrowdStrike cert for front-line SOC analysts investigating threats. Pure MCQ exam with one free retake. Not DoD 8140 approved. If your SOC uses CrowdStrike Falcon as its primary EDR this is a valuable platform-specific credential. Increasingly seen in SOC job requirements at organizations running CrowdStrike. Like all vendor platform certs, validates Falcon proficiency rather than transferable detection and response skill.",
+    "flags": [],
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "ccfh",
+    "acronym": "CCFH",
+    "full_name": "CrowdStrike Certified Falcon Hunter",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "threat_hunting",
+      "edr_operations"
+    ],
+    "level": "expert",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_hunting_falcon",
+      "crowdstrike_query_language",
+      "behavioral_hunting",
+      "ttp_based_hunting",
+      "threat_graph_hunting",
+      "adversary_intelligence_driven_hunting",
+      "hunt_documentation"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "edr_advanced_usage",
+        "threat_hunting_concepts",
+        "attacker_techniques",
+        "crowdstrike_platform_proficiency"
+      ],
+      "recommended_certs": [
+        "ccfr"
+      ]
+    },
+    "summary": "CrowdStrike's advanced threat hunting certification covering hypothesis-driven hunting, CrowdStrike Query Language (CQL), behavioral analysis, and adversary intelligence-driven hunting within the Falcon ecosystem. Updated in 2024-2025 to reflect the shift from Splunk syntax to CQL as Falcon's native query language. Pure MCQ exam with one free retake. Not DoD 8140 approved. For threat hunters operating in CrowdStrike-heavy environments this is a meaningful advanced credential. The MCQ format is a particularly notable weakness for a hunting certification \u2014 actual hunting skill requires practice, not memorization. Pair with OSTH or GCTI for a more comprehensive hunting credential stack.",
+    "flags": [],
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "ccsa",
+    "acronym": "CCSA",
+    "full_name": "CrowdStrike Certified SIEM Analyst",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations",
+      "soc_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "crowdstrike_next_gen_siem",
+      "log_ingestion_and_parsing",
+      "detection_rule_usage",
+      "siem_alert_investigation",
+      "crowdstrike_logscale",
+      "query_language_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "siem_fundamentals",
+        "log_analysis",
+        "security_monitoring"
+      ],
+      "recommended_certs": [
+        "ccfa"
+      ]
+    },
+    "summary": "CrowdStrike's new SIEM analyst certification launched in 2024-2025, covering the Falcon Next-Gen SIEM platform (built on LogScale/Humio) for alert investigation and log analysis. Reflects CrowdStrike's significant push into the SIEM market following the LogScale acquisition. Pure MCQ exam with one free retake. Not DoD 8140 approved. Useful for analysts working in environments adopting CrowdStrike's SIEM capabilities alongside Falcon EDR. Still building market recognition as a newer cert \u2014 CCFR remains the more established CrowdStrike credential for SOC analysts.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "ccse",
+    "acronym": "CCSE",
+    "full_name": "CrowdStrike Certified SIEM Engineer",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations",
+      "detection_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "crowdstrike_logscale_engineering",
+      "detection_rule_development",
+      "log_pipeline_configuration",
+      "siem_architecture",
+      "crowdstrike_siem_integration",
+      "custom_parser_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "siem_engineering",
+        "log_management",
+        "detection_engineering_concepts"
+      ],
+      "recommended_certs": [
+        "ccsa"
+      ]
+    },
+    "summary": "CrowdStrike's advanced SIEM engineering certification covering LogScale pipeline configuration, custom parser development, detection rule engineering, and SIEM architecture within the CrowdStrike ecosystem. Targets engineers building and maintaining CrowdStrike's SIEM deployment rather than analysts using it. Pure MCQ exam. Not DoD 8140 approved. One of the newest CrowdStrike certs and still establishing market recognition. Valuable for organizations where CrowdStrike is the primary SIEM platform and need engineers with validated platform expertise.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "id": "panw-soc-professional",
+    "acronym": "PANW SecOps Professional",
+    "full_name": "Palo Alto Networks Certified Security Operations Professional",
+    "issuing_body": "Palo Alto Networks",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "edr_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 200,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cortex_xdr_operations",
+      "alert_investigation",
+      "incident_management",
+      "threat_detection_cortex",
+      "cortex_xsiam_awareness",
+      "security_operations_workflow"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "edr_concepts",
+        "security_operations",
+        "networking_fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Palo Alto Networks' intermediate SOC operations certification covering Cortex XDR and XSIAM for security operations. Part of the new role-based framework that replaced all legacy Palo Alto certs in 2025. Delivered in-person only at Pearson VUE test centers \u2014 online proctoring is not available since March 2025. Two-year validity is the shortest renewal window in this domain. Not DoD 8140 approved. Suitable for analysts in Palo Alto Networks-heavy SOC environments. The in-person-only requirement adds friction, especially for candidates in regions with limited test centers.",
+    "flags": [],
+    "official_url": "https://www.paloaltonetworks.com/services/education/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.6
+    }
+  },
+  {
+    "id": "panw-xdr-analyst",
+    "acronym": "PANW XDR Analyst",
+    "full_name": "Palo Alto Networks Certified XDR Analyst",
+    "issuing_body": "Palo Alto Networks",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "threat_detection"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cortex_xdr_analysis",
+      "alert_triage",
+      "edr_investigation",
+      "threat_detection_xdr",
+      "xdr_query_writing",
+      "behavioral_analytics_xdr"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "edr_fundamentals",
+        "security_monitoring",
+        "threat_analysis_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Palo Alto Networks' specialist-level certification for analysts working specifically with Cortex XDR \u2014 the EDR/XDR platform. Covers alert triage, behavioral analytics, and investigation workflows within the Cortex XDR console. In-person only exam, 2-year validity. Not DoD 8140 approved. More focused than the Security Operations Professional cert, specifically targeting analysts whose primary tool is Cortex XDR. Useful in environments where Cortex XDR is the deployed EDR. Part of the post-2025 role-based framework that replaced PCDRA.",
+    "flags": [],
+    "official_url": "https://www.paloaltonetworks.com/services/education/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "panw-xsiam-analyst",
+    "acronym": "PANW XSIAM Analyst",
+    "full_name": "Palo Alto Networks Certified XSIAM Analyst",
+    "issuing_body": "Palo Alto Networks",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "siem_operations",
+      "soc_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "cortex_xsiam_operations",
+      "siem_alert_investigation",
+      "xsiam_dashboard_usage",
+      "threat_detection_xsiam",
+      "log_analysis_xsiam",
+      "playbook_execution"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "siem_concepts",
+        "security_monitoring",
+        "security_operations_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Palo Alto Networks' analyst-level certification for their XSIAM (Extended Security Intelligence and Automation Management) platform \u2014 their AI-driven SOC platform combining SIEM, SOAR, and threat intelligence. In-person only exam, 2-year validity. Not DoD 8140 approved. XSIAM is relatively new in the market and this cert is one of the first dedicated to it. Valuable in organizations adopting XSIAM as their core SOC platform. Limited market recognition compared to SIEM certs from more established vendors, but growing as XSIAM adoption increases.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.paloaltonetworks.com/services/education/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "panw-xsoar-engineer",
+    "acronym": "PANW XSOAR Engineer",
+    "full_name": "Palo Alto Networks Certified XSOAR Engineer",
+    "issuing_body": "Palo Alto Networks",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_automation",
+      "soc_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "xsoar_playbook_development",
+      "soar_automation",
+      "incident_workflow_automation",
+      "xsoar_integration_development",
+      "python_scripting_soar",
+      "playbook_debugging"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "soar_concepts",
+        "python_scripting",
+        "security_operations_process",
+        "api_integration_basics"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Palo Alto Networks' engineering certification for XSOAR (Cortex XSOAR), their SOAR platform for security automation and orchestration. Covers playbook development, integration engineering, and workflow automation \u2014 building automation rather than operating it. In-person only, 2-year validity. Not DoD 8140 approved. The successor to the retired PCSAE cert. Valuable for security engineers building detection and response automation in XSOAR-based environments. Requires Python scripting knowledge which differentiates it from analyst-level certs.",
+    "flags": [],
+    "official_url": "https://www.paloaltonetworks.com/services/education/certification",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 4.8
+    }
+  },
+  {
+    "id": "psaa",
+    "acronym": "PSAA",
+    "full_name": "Practical SOC Analyst Associate",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "incident_response"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 249,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "phishing_analysis",
+      "network_traffic_analysis",
+      "endpoint_security_analysis",
+      "log_analysis",
+      "siem_investigation",
+      "threat_intelligence_application",
+      "incident_response_basics",
+      "digital_forensics_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "basic_networking",
+        "windows_and_linux_basics",
+        "security_fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TCM Security's entry-level SOC analyst certification with a 100% practical exam format \u2014 candidates investigate simulated security incidents and produce a professional report, assessed by human reviewers. No multiple choice. Includes the full SOC 101 training course (30+ hours) in the $249 price with one free retake. Never expires once earned. Not DoD 8140 approved but widely respected in the practitioner community for genuine skill validation. At $249 including training it competes directly with BTL1 ($500 for exam only) as an excellent entry-level practical credential. The report-writing component makes it stand out \u2014 most beginner certs don't require professional documentation.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/psaa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 8,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 3,
+      "time_to_prepare": 2,
+      "overall": 5.5
+    }
+  },
+  {
+    "id": "psap",
+    "acronym": "PSAP",
+    "full_name": "Practical SOC Analyst Professional",
+    "issuing_body": "TCM Security",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "threat_hunting",
+      "incident_response"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 499,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_hunting_advanced",
+      "enterprise_incident_response",
+      "intrusion_reconstruction",
+      "root_cause_analysis",
+      "evidence_collection",
+      "mitre_attack_application",
+      "advanced_log_analysis",
+      "incident_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "soc_operations",
+        "threat_hunting_concepts",
+        "log_analysis",
+        "attacker_techniques_basics"
+      ],
+      "recommended_certs": [
+        "psaa"
+      ]
+    },
+    "summary": "TCM Security's advanced SOC analyst certification covering threat hunting, enterprise incident response, and intrusion reconstruction through a 3-day practical exam in a corporate network environment. Candidates investigate a sophisticated adversary intrusion and produce a full incident response report \u2014 assessed by human reviewers. Includes SOC 201 training (25+ hours) at $499 with one free retake. Never expires. Not DoD 8140 approved but respected for genuine practical validation. Launched September 2025. Competes with OSTH and GCIH for intermediate practical IR/hunting credentials, with a more accessible price point than GIAC alternatives.",
+    "flags": [
+      "low_cost",
+      "new"
+    ],
+    "official_url": "https://certifications.tcm-sec.com/psap/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 8,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "htb-doa",
+    "acronym": "HTB DOA",
+    "full_name": "HTB Defense Operations Analyst",
+    "issuing_body": "Hack The Box",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "soc_analysis",
+      "incident_response"
+    ],
+    "level": "intermediate",
+    "practical_weight": 90,
+    "cost_usd": 0,
+    "renewal": "3 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "Enterprise/government sales only \u2014 not available to individuals",
+    "skills": [
+      "soc_operations",
+      "incident_handling",
+      "network_traffic_analysis",
+      "siem_investigation_elastic",
+      "windows_memory_forensics",
+      "adversary_detection",
+      "incident_report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "security_fundamentals",
+        "networking_basics",
+        "basic_security_operations"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Hack The Box's ANAB-accredited certificate program (not a traditional certification) \u2014 the first of its kind in cybersecurity. Completers earn the HTB DOA designation but cannot call themselves 'certified' per ANAB's E2659-18 standard for certificate issuers. The program covers SOC operations, DFIR, network analysis, Elastic SIEM, and adversary detection across 15 modules and 11 defensive labs, culminating in a practical exam. Qualifies under DoD 8140's training pathway (not the certification pathway). Sold exclusively through enterprise/government workforce development contracts \u2014 no individual access. Approximately 15 weeks to complete, 131 CPE credits, 3-year validity. A genuinely innovative program that bridges HTB's practitioner credibility with government compliance requirements, but the enterprise-only model severely limits its accessibility.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.hackthebox.com/defense-operations-analyst-certificate",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6.9
+    }
+  },
+  {
+    "id": "gdat",
+    "acronym": "GDAT",
+    "full_name": "GIAC Defending Advanced Threats",
+    "issuing_body": "GIAC",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "threat_hunting",
+      "advanced_defense"
+    ],
+    "level": "expert",
+    "practical_weight": 35,
+    "cost_usd": 979,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "threat_hunting",
+      "threat_hunting_methodology",
+      "threat_hunting_advanced",
+      "behavioral_hunting",
+      "ttp_based_hunting",
+      "edr_hunting",
+      "behavioral_analytics",
+      "detection_engineering",
+      "detection_rule_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "mitre_attack_framework",
+        "siem_investigation",
+        "incident_response_process",
+        "endpoint_security_fundamentals"
+      ],
+      "recommended_certs": [
+        "gcih",
+        "gcia"
+      ]
+    },
+    "summary": "GIAC's advanced threat defense and threat hunting certification associated with SANS SEC599. Covers threat hunting methodology, behavioral analytics, adversary profiling, and detection of sophisticated intrusions that bypass standard controls. The CyberLive component adds hands-on detection and hunting exercises. One of the most advanced defensive certifications available \u2014 positioned above GCIH for senior threat hunters and detection engineers who need to hunt for APT-level adversaries operating in their environment.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/defending-advanced-threats-gdat/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 6,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 8,
+      "overall": 6.6
+    }
+  },
+  {
+    "id": "gsom",
+    "acronym": "GSOM",
+    "full_name": "GIAC Security Operations Manager",
+    "issuing_body": "GIAC",
+    "domain": [
+      "defensive_soc",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "soc_management",
+      "security_leadership"
+    ],
+    "level": "expert",
+    "practical_weight": 20,
+    "cost_usd": 949,
+    "renewal": "4 years",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "security_program_management",
+      "siem_management",
+      "security_leadership",
+      "security_governance",
+      "sec_ops_architecture",
+      "analyst_development",
+      "security_metrics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "soc_operations",
+        "incident_response_process",
+        "security_monitoring",
+        "team_management_fundamentals"
+      ],
+      "recommended_certs": [
+        "gcih",
+        "gcda"
+      ]
+    },
+    "summary": "GIAC's security operations management certification associated with SANS LDR551. The only dedicated SOC management credential available \u2014 covers SOC architecture design, analyst development programs, metrics and KPIs, detection content governance, playbook management, and SOC program maturity. Required by name in most SOC manager and SOC director job postings. Distinct from the CISO-level management credentials \u2014 focused specifically on leading the day-to-day operations of a security operations center.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.giac.org/certifications/security-operations-manager-gsom/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 4,
+      "employer_recognition": 7,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 6.3
+    }
+  },
+  {
+    "id": "gx-cs",
+    "acronym": "GX-CS",
+    "full_name": "GIAC Experienced Cybersecurity Specialist",
+    "issuing_body": "GIAC",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_fundamentals",
+      "advanced_defense"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1299,
+    "renewal": "4 years ($499 renewal)",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "$499 with active linked GSEC cert",
+    "skills": [
+      "network_security_fundamentals",
+      "security_operations",
+      "incident_response_process",
+      "vulnerability_management_process",
+      "threat_detection",
+      "security_architecture_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Advanced hands-on cybersecurity skills across multiple domains"
+      ],
+      "recommended_certs": [
+        "gsec"
+      ]
+    },
+    "summary": "GIAC's Applied Knowledge certification linked to GSEC \u2014 the Experienced Cybersecurity Specialist. Part of the GX-series launched in 2024, all of which are 100% CyberLive hands-on exams that test real-world capability through virtual machine-based challenges rather than MCQ. GX-CS demonstrates advanced hands-on IT systems security skills and qualifies holders for leadership-level hands-on roles. Stackable toward GSP (requires 2 GX-series) and GSE (requires 4 GX-series). Priced at $1,299 standalone or $499 with an active linked GSEC certification. DoD 8140 approved as part of the GIAC portfolio. The CyberLive format means every GX-series cert genuinely validates practical skill rather than knowledge recall.",
+    "flags": [
+      "new",
+      "cyberlive",
+      "hands_on"
+    ],
+    "official_url": "https://www.giac.org/certifications/experienced-cyber-security-gxcs/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 7.2
+    }
+  },
+  {
+    "id": "gx-ia",
+    "acronym": "GX-IA",
+    "full_name": "GIAC Experienced Intrusion Analyst",
+    "issuing_body": "GIAC",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "intrusion_detection",
+      "network_monitoring"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 1299,
+    "renewal": "4 years ($499 renewal)",
+    "dod_8140": true,
+    "geographic_recognition": "global",
+    "geographic_note": "$499 with active linked GCIA cert",
+    "skills": [
+      "intrusion_detection",
+      "network_traffic_analysis",
+      "threat_detection",
+      "packet_analysis",
+      "behavioral_analytics",
+      "network_forensics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Advanced intrusion detection and analysis skills"
+      ],
+      "recommended_certs": [
+        "gcia"
+      ]
+    },
+    "summary": "GIAC's Applied Knowledge certification linked to GCIA \u2014 the Experienced Intrusion Analyst. Part of the GX-series (2024), 100% CyberLive hands-on exam. GX-IA validates the ability to solve complex, multi-step intrusion analysis problems incorporating various concepts and methodologies to identify malicious activity in realistic virtual environments. Stackable toward GSP and GSE portfolio certifications. Priced at $1,299 standalone or $499 with an active GCIA. Ideal for senior network security analysts, SOC leads, and intrusion analysis specialists who want to prove elite hands-on capability beyond the GCIA's MCQ validation. The network forensics and intrusion analysis depth tested at GX-IA level is rarely validated elsewhere.",
+    "flags": [
+      "new",
+      "cyberlive",
+      "hands_on"
+    ],
+    "official_url": "https://www.giac.org/certifications/experienced-intrusion-analyst-gxia/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 7,
+      "time_to_prepare": 7,
+      "overall": 7.2
+    }
+  },
+  {
+    "id": "ccoa",
+    "acronym": "CCOA",
+    "full_name": "ISACA Certified Cybersecurity Operations Analyst",
+    "issuing_body": "ISACA",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_operations",
+      "threat_detection",
+      "incident_response"
+    ],
+    "level": "intermediate",
+    "practical_weight": 22,
+    "cost_usd": 760,
+    "renewal": "3 years (CPE)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "$575 for ISACA members. Annual maintenance $45 member / $85 non-member",
+    "skills": [
+      "threat_detection",
+      "incident_response_process",
+      "vulnerability_management_process",
+      "siem_investigation",
+      "network_traffic_analysis",
+      "security_operations",
+      "mitre_attack_framework",
+      "threat_hunting_methodology"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Security operations fundamentals",
+        "MITRE ATT&CK framework",
+        "SIEM basics",
+        "Network and endpoint security"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "ISACA's 2025 technical cybersecurity operations certification \u2014 their first credential with performance-based questions alongside MCQ. CCOA uses a hybrid 4-hour exam format: traditional multiple-choice plus hands-on lab questions requiring proficiency with open-source tools including Security Onion, KQL/Kibana, Wireshark, and Nmap. Replaces the retired CSX-P as ISACA's technical operations credential. Covers Technology Essentials (25%), Cybersecurity Principles and Risk (20%), Adversarial TTPs (10%), Incident Detection and Response (34%), and Securing Assets (11%). Targets practitioners with 2-3 years of security operations experience. Strong early market traction \u2014 LinkedIn listed ~1,970 CCOA-preferred roles within six months of launch. ISACA CISA and CISM holders seeking to add a technical credential, and CySA+ holders seeking an ISACA-branded equivalent, are the primary audience.",
+    "flags": [
+      "new",
+      "hands_on"
+    ],
+    "official_url": "https://www.isaca.org/credentialing/ccoa",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 5,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "ccis",
+    "acronym": "CCIS",
+    "full_name": "CrowdStrike Certified Identity Specialist",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc",
+      "iam"
+    ],
+    "subdomain": [
+      "identity_security",
+      "edr_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Requires Pearson VUE. 6 months Falcon platform experience required.",
+    "skills": [
+      "identity_security",
+      "identity_threat_detection",
+      "mfa_management",
+      "identity_governance",
+      "siem_investigation",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "CrowdStrike Falcon platform basics",
+        "Identity management concepts",
+        "MFA and IDaaS technologies"
+      ],
+      "recommended_certs": [
+        "ccfa"
+      ]
+    },
+    "summary": "CrowdStrike's Falcon Identity Protection certification. Validates the ability to manage identity-based risk in the Falcon domain \u2014 assessing user and entity risks, investigating identity-based detections, managing MFA and identity-as-a-service (IDaaS) connectors, implementing and tuning identity-based policies, and maintaining overall identity security posture. 60-question closed-book exam, 90-minute limit, two attempts permitted, $250 via Pearson VUE. Requires at least 6 months of hands-on Falcon platform experience \u2014 this is not an entry-level or theoretical exam. Targeted at security analysts, PAM specialists, and IAM engineers operating in CrowdStrike environments. The CCIS covers Falcon Identity Protection's unique approach to behavioral identity analytics and East-West identity threat detection, which differs significantly from traditional PAM and IdP approaches.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.crowdstrike.com/en-us/university/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "cccs",
+    "acronym": "CCCS",
+    "full_name": "CrowdStrike Certified Cloud Specialist",
+    "issuing_body": "CrowdStrike",
+    "domain": [
+      "defensive_soc",
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_operations",
+      "edr_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 10,
+    "cost_usd": 250,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Exam code CCCS-203b. Requires Pearson VUE. 6 months Falcon platform experience required.",
+    "skills": [
+      "cloud_security_fundamentals",
+      "container_security",
+      "cloud_threat_detection",
+      "siem_investigation",
+      "cloud_incident_response",
+      "identity_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "CrowdStrike Falcon platform basics",
+        "Cloud platform fundamentals (AWS/Azure/GCP)",
+        "Container and Kubernetes basics"
+      ],
+      "recommended_certs": [
+        "ccfa"
+      ]
+    },
+    "summary": "CrowdStrike's Falcon Cloud Security certification (exam code CCCS-203b). Validates cloud security operations using the CrowdStrike Falcon CNAPP ecosystem \u2014 analyzing cloud asset activities, detecting adversarial behavior in cloud infrastructure, directing cloud security posture management, securing cloud assets and containers, and adhering to compliance requirements. 60-question closed-book exam, 90-minute limit, two attempts permitted, $250 via Pearson VUE. Requires at least 6 months Falcon platform experience. Targeted at cloud security engineers, DevSecOps practitioners, and SOC analysts operating in environments with Falcon Cloud Security deployed. As cloud breaches grow across AWS, Azure, and GCP, the CCCS validates the Falcon-specific cloud security operations skills that CNAPP-deployed organizations require from their security teams.",
+    "flags": [
+      "new"
+    ],
+    "official_url": "https://www.crowdstrike.com/en-us/university/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 3,
+      "employer_recognition": 6,
+      "community_respect": 5,
+      "salary_impact": 6,
+      "time_to_prepare": 4,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "csom",
+    "acronym": "CSOM",
+    "full_name": "Security Blue Team Certified Security Operations Manager",
+    "issuing_body": "Security Blue Team",
+    "domain": [
+      "defensive_soc",
+      "oversight_leadership"
+    ],
+    "subdomain": [
+      "soc_management",
+      "security_leadership"
+    ],
+    "level": "expert",
+    "practical_weight": 50,
+    "cost_usd": 2480,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "\u00a31,999 GBP (~$2,480 USD). Requires 2+ years SOC or security operations experience for exam eligibility.",
+    "skills": [
+      "soc_management",
+      "security_program_management",
+      "security_metrics",
+      "incident_response_process",
+      "threat_hunting_methodology",
+      "analyst_development",
+      "security_governance",
+      "sec_ops_architecture"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "SOC operations and workflows",
+        "Incident response management",
+        "Security team management",
+        "Security metrics and KPIs"
+      ],
+      "recommended_certs": [
+        "btl2"
+      ]
+    },
+    "summary": "Security Blue Team's advanced SOC management certification, launched January 2024. Targets established or aspiring security operations managers with 2+ years of hands-on SOC experience \u2014 only candidates who meet the experience requirement are permitted to sit the exam, though anyone can access the training. The hybrid exam format combines a practical lab component with theoretical and MCQ sections, assessed and hand-marked. Covers SOC architecture design, threat modeling, SOC maturity assessments for SOC/IR/hunting/CTI teams, team building, metrics and analytics, and security operations functions. The certification name can cause confusion with GIAC's GSOM \u2014 CSOM is significantly cheaper at \u00a31,999 vs GSOM's $949 plus SANS training costs, and is lifetime rather than 4-year renewal. At this price point, it is primarily positioned for corporate training rather than individual self-funded study.",
+    "flags": [
+      "new",
+      "hands_on"
+    ],
+    "official_url": "https://www.securityblue.team/certifications/certified-security-operations-manager",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 6,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.0
+    }
+  },
+  {
+    "id": "cjde",
+    "acronym": "CJDE",
+    "full_name": "Security Blue Team Certified Junior Detection Engineer",
+    "issuing_body": "Security Blue Team",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "detection_engineering",
+      "threat_detection"
+    ],
+    "level": "beginner",
+    "practical_weight": 70,
+    "cost_usd": 495,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "\u00a3399 GBP (~$495 USD). Launched September 2025.",
+    "skills": [
+      "detection_rule_development",
+      "sigma_rules",
+      "yara_rules",
+      "threat_detection",
+      "siem_investigation",
+      "threat_intelligence_consumption",
+      "log_analysis",
+      "behavioral_analytics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic cybersecurity concepts",
+        "Log analysis fundamentals",
+        "Basic networking"
+      ],
+      "recommended_certs": [
+        "btl1"
+      ]
+    },
+    "summary": "Security Blue Team's detection engineering certification launched September 2025, targeting junior analysts and SOC practitioners with 1-3 years of IT or security experience. Addresses a recognized gap \u2014 most detection engineering certifications either target experienced engineers or lack a hands-on practical component. CJDE covers attacker behavior translation into actionable detections, YARA and Sigma rule creation and tuning, Zeek network analysis, detection rule investigation, threat intelligence integration, and AI-assisted detection. 120+ lab hours, 400+ lessons, 40-60 hours to complete, rounded off with a practical hands-on exam. Priced at \u00a3399 (~$495) with an introductory launch offer of \u00a3299 \u2014 an accessible entry into detection engineering credentials. Lifetime validity. At this price and level, CJDE is positioned between BTL1's SOC analyst scope and GCDA's senior detection engineering content.",
+    "flags": [
+      "new",
+      "hands_on",
+      "low_cost"
+    ],
+    "official_url": "https://www.securityblue.team/certifications/certified-junior-detection-engineer",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 6,
+      "employer_recognition": 4,
+      "community_respect": 5,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 4.5
+    }
+  }
+]

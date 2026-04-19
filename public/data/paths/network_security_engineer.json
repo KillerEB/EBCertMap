@@ -1,0 +1,296 @@
+{
+  "role_id": "network_security_engineer",
+  "label": "Network Security Engineer",
+  "description": "Designs, implements, and operates network security infrastructure \u2014 firewalls, IPS/IDS, VPN, network segmentation, and NGFW policy management across enterprise environments.",
+  "job_titles": [
+    "Network Security Engineer",
+    "Firewall Engineer",
+    "NGFW Engineer",
+    "Network Security Administrator",
+    "Perimeter Security Engineer"
+  ],
+  "experience_level": "intermediate_to_senior",
+  "paths": [
+    {
+      "id": "netsec_neutral",
+      "name": "Vendor-Neutral Track",
+      "rationale": "For network security engineers who need platform-independent expertise or are entering the field before committing to a specific vendor. CompTIA and GIAC provide the vendor-neutral foundations recognized across all environments.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 1895,
+      "pros": [
+        "Vendor-neutral \u2014 applicable across all firewall platforms",
+        "GCIA DoD 8140 approved",
+        "Good foundation before vendor specialization"
+      ],
+      "cons": [
+        "Less immediately job-specific than vendor-aligned paths",
+        "Employers often want specific platform experience alongside vendor-neutral certs"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "TCP/IP networking fundamentals",
+          "OSI model",
+          "Basic firewall concepts",
+          "Linux and Windows network configuration"
+        ],
+        "recommended_certs": [],
+        "experience": "Network administration or IT operations experience beneficial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "network-plus",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "CompTIA Network+ \u2014 vendor-neutral networking foundation. DoD 8140 approved. If you have significant networking experience assess honestly whether you need this foundational validation before moving directly to CCNA."
+        },
+        {
+          "cert_id": "ccna",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Cisco CCNA is effectively vendor-neutral at associate level given Cisco dominance. Even in Palo Alto or Fortinet shops, CCNA fundamentals are the universal language of enterprise networking."
+        },
+        {
+          "cert_id": "gcia",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Certified Intrusion Analyst \u2014 adds network traffic analysis and security monitoring depth. DoD 8140 approved. A network security engineer who can analyze traffic and tune IDS/IPS rules is significantly more valuable than one who only manages firewall policy."
+        }
+      ]
+    },
+    {
+      "id": "netsec_cisco",
+      "name": "Cisco Track",
+      "rationale": "Cisco dominates enterprise network infrastructure globally. CCNP Security is required by name in most enterprise network security engineering roles. CCIE Security is the elite credential opening senior architecture positions.",
+      "estimated_timeline": "18-36 months",
+      "total_cost_usd": 1996,
+      "pros": [
+        "CCNP Security is the most recognized network security credential globally",
+        "DoD 8140 approved throughout",
+        "CCIE Security is the definitive elite credential",
+        "Skills transfer across virtually every enterprise environment"
+      ],
+      "cons": [
+        "Long timeline \u2014 CCIE requires years of experience alongside lab prep",
+        "CCIE lab exam is extremely demanding and expensive"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "CCNA-level networking",
+          "Cisco IOS familiarity",
+          "Firewall concepts",
+          "VPN and encryption basics"
+        ],
+        "recommended_certs": [
+          "ccna"
+        ],
+        "experience": "CCNA or equivalent networking experience required before CCNP Security."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccna",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Foundation. Non-negotiable before CCNP Security. If you don't have CCNA start here."
+        },
+        {
+          "cert_id": "ccnp-security",
+          "order": 2,
+          "estimated_time": "6-12 months",
+          "notes": "Cisco Certified Network Professional Security \u2014 primary enterprise credential. SCOR core exam plus one concentration (firewall, VPN, email, web, or identity). Study with Cisco Press materials and lab with CSR or FTD in GNS3/EVE-NG."
+        },
+        {
+          "cert_id": "ccie-security",
+          "order": 3,
+          "estimated_time": "12-24 months",
+          "notes": "Cisco Certified Internetwork Expert Security \u2014 written exam plus 8-hour lab exam. CCIE holders command premium compensation and access the most senior architecture roles. Minimum 6-12 months daily lab practice beyond CCNP Security."
+        }
+      ]
+    },
+    {
+      "id": "netsec_paloalto",
+      "name": "Palo Alto Networks Track",
+      "rationale": "Palo Alto NGFW is the dominant next-generation firewall platform. Following the 2025 program restructure the new role-based certification path validates NGFW engineering from associate to architect level.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1195,
+      "pros": [
+        "Palo Alto is the market-leading NGFW \u2014 high demand for certified engineers",
+        "Strong salary premium for Palo Alto certified engineers"
+      ],
+      "cons": [
+        "2025 program restructure retired legacy PCNSE \u2014 verify current exam status before studying",
+        "Platform-specific"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals",
+          "Basic firewall concepts",
+          "Security policy design"
+        ],
+        "recommended_certs": [
+          "ccna"
+        ],
+        "experience": "Networking background required. Palo Alto offers free virtual firewall labs."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "panw-nsp",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "Palo Alto Certified Network Security Professional (or current 2025 equivalent) \u2014 foundation NGFW cert. Complete Palo Alto free EDU-110 and EDU-210 courses. Use PA-VM in a free lab environment."
+        },
+        {
+          "cert_id": "panw-ngfw-engineer",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "NGFW Engineer \u2014 advanced PAN-OS configuration, security policy design, App-ID and User-ID, Panorama management, troubleshooting. Primary working-level Palo Alto credential."
+        },
+        {
+          "cert_id": "panw-nsa-architect",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Network Security Architect \u2014 enterprise NGFW architecture, multi-site deployment design, and integration with Prisma and Cortex platforms. Opens senior architecture and consulting roles."
+        }
+      ]
+    },
+    {
+      "id": "netsec_fortinet",
+      "name": "Fortinet Track",
+      "rationale": "Fortinet has the largest installed base globally and is dominant in mid-market and service provider environments. FCF to FCP to FCSS to FCX progression maps directly to career levels.",
+      "estimated_timeline": "12-20 months",
+      "total_cost_usd": 1195,
+      "pros": [
+        "Largest installed base globally \u2014 high demand across mid-market and enterprise",
+        "Clear certification ladder from associate to expert",
+        "FCX includes rigorous practical lab exam",
+        "Strong service provider and MSSP demand"
+      ],
+      "cons": [
+        "July 2026 program restructure \u2014 verify current NSE to FCX mapping before studying",
+        "Less recognized than Cisco or Palo Alto in some enterprise markets"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals",
+          "Basic firewall concepts",
+          "FortiOS awareness"
+        ],
+        "recommended_certs": [],
+        "experience": "Fortinet free NSE training program is an accessible starting point."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "fcp-secure-networking",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Fortinet Certified Professional in Secure Networking \u2014 FortiGate firewall administration, security policies, SD-WAN basics. Complete Fortinet free online NSE training. FortiGate-VM free licenses available for lab practice."
+        },
+        {
+          "cert_id": "fcss-secure-networking",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Fortinet Certified Solution Specialist \u2014 advanced FortiGate configuration, FortiManager, and complex security policy design. Working senior engineer credential."
+        },
+        {
+          "cert_id": "fcx",
+          "order": 3,
+          "estimated_time": "5-8 months",
+          "notes": "Fortinet Certified Expert (FCX) \u2014 elite credential with practical hands-on lab component similar to CCIE. Validates expert-level FortiGate, FortiManager, FortiAnalyzer, and Fortinet Security Fabric deployment capability."
+        }
+      ]
+    },
+    {
+      "id": "netsec_checkpoint",
+      "name": "Check Point Track",
+      "rationale": "Check Point remains dominant in financial services, healthcare, and government. CCSA to CCSE to CCSM is the recognized progression for Check Point security engineers.",
+      "estimated_timeline": "10-18 months",
+      "total_cost_usd": 1495,
+      "pros": [
+        "Check Point dominant in financial services and government \u2014 strong demand in those sectors",
+        "CCSE and CCSM required by name at Check Point-deployed organizations"
+      ],
+      "cons": [
+        "Less recognized outside Check Point environments",
+        "Smaller overall market share than Cisco, Palo Alto, or Fortinet"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals",
+          "Firewall concepts",
+          "Check Point SmartConsole basics"
+        ],
+        "recommended_certs": [],
+        "experience": "Check Point offers free training resources and a 30-day virtual lab trial."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "ccsa",
+          "order": 1,
+          "estimated_time": "2-4 months",
+          "notes": "Check Point Certified Security Administrator \u2014 foundational SmartConsole administration, security policy, VPN. Complete Check Point free courseware on their learning portal before the exam."
+        },
+        {
+          "cert_id": "ccse",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Check Point Certified Security Expert \u2014 advanced troubleshooting, ClusterXL, performance tuning, advanced VPN. Primary working-level credential required at most Check Point-deployed organizations."
+        },
+        {
+          "cert_id": "ccsm",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "Check Point Certified Security Master \u2014 expert-level clustering, multi-site management, and complex enterprise architectures. Opens senior engineering and architecture roles in Check Point environments."
+        }
+      ]
+    },
+    {
+      "id": "netsec_juniper",
+      "name": "Juniper Track",
+      "rationale": "Juniper is dominant in service providers, large carriers, and certain government environments. JNCIA-SEC to JNCIS-SEC to JNCIP-SEC to JNCIE-SEC is the recognized progression.",
+      "estimated_timeline": "12-24 months",
+      "total_cost_usd": 1595,
+      "pros": [
+        "Strong demand in service provider and carrier environments",
+        "JNCIE-SEC is a highly respected elite credential in service provider networking"
+      ],
+      "cons": [
+        "More niche market than Cisco or Palo Alto",
+        "JNCIE-SEC lab exam is very demanding"
+      ],
+      "prerequisites": {
+        "knowledge": [
+          "Networking fundamentals",
+          "Junos OS basics",
+          "Routing and switching"
+        ],
+        "recommended_certs": [],
+        "experience": "Networking background required. Juniper free Day One library provides good preparation resources."
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "jncia-sec",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "Juniper Networks Certified Associate Security \u2014 foundational Junos security concepts and SRX basics."
+        },
+        {
+          "cert_id": "jncis-sec",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "Juniper Networks Certified Specialist Security \u2014 SRX firewall administration, security policies, NAT, VPN, IDP. Primary working Juniper security engineer credential."
+        },
+        {
+          "cert_id": "jncip-sec",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "Juniper Networks Certified Professional Security \u2014 advanced SRX clustering, advanced VPN, complex security architectures. Required for senior Juniper roles."
+        },
+        {
+          "cert_id": "jncie-sec",
+          "order": 4,
+          "estimated_time": "6-12 months",
+          "notes": "Juniper Networks Certified Expert Security \u2014 lab exam testing expert-level Junos security design and troubleshooting. One of the most respected elite credentials in service provider environments."
+        }
+      ]
+    }
+  ]
+}

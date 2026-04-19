@@ -1,0 +1,24 @@
+{
+  "news": [
+    {
+      "date": "2026-04-19",
+      "title": "What's coming next",
+      "body": "Planning to add course recommendations alongside each cert path, a dedicated study tracker, and a comparison tool so you can put two certs side by side. Also looking at getting a proper domain for this."
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-04-19",
+      "title": "Initial Project Launch",
+      "items": [
+        "Built core cert browser across 15 domains with 363+ certs",
+        "Skills mapping view — select skills to find matching certs",
+        "Role-based career path explorer with 40+ roles and 125+ cert path steps",
+        "All-domains view with expandable sidebar grouped by domain then level",
+        "Dynamic cert counts, live filtering, sort, and search",
+        "Cert profile panel with score breakdown, prerequisites, and official links",
+        "About modal with News, Changelog, and Support tabs"
+      ]
+    }
+  ]
+}
