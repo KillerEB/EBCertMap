@@ -1176,6 +1176,12 @@ function AboutModal({ onClose, CERTS }) {
                 ♥ Support on Patreon
               </a>
               <div style={{ fontSize:11, color:"var(--muted)", marginTop:4 }}>No account needed · one-time or recurring</div>
+              <a href="https://github.com/KillerEB/EBCertMap" target="_blank" rel="noopener noreferrer"
+                style={{ display:"inline-flex", alignItems:"center", gap:8, background:"var(--surface2)", border:"1px solid var(--border2)", color:"var(--text)", fontWeight:600, fontSize:13, padding:"9px 20px", borderRadius:8, textDecoration:"none", marginTop:6, transition:"opacity 0.15s" }}
+                onMouseEnter={e=>e.currentTarget.style.opacity="0.75"}
+                onMouseLeave={e=>e.currentTarget.style.opacity="1"}>
+                ⭐ Star on GitHub
+              </a>
             </div>
           )}
 
