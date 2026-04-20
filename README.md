@@ -5,7 +5,7 @@
 Built as a personal tool after years of teaching cybersecurity and finding that existing resources (notably Paul Jerimy's excellent roadmap) hadn't kept pace with newer domains like Cloud Security and AI Security. EBCertMap goes further with interactive filtering, cert profiles, skill matching, and role-based learning paths.
 
 The structure was designed so the UI is a data-driven template — adding a new domain, cert, or role path is just a matter of dropping in a JSON file.
-
+public live host server - https://ebcertmap.com
 ---
 
 ## Features
