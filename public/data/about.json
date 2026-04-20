@@ -1,12 +1,28 @@
 {
   "news": [
     {
+      "date": "2026-04-20",
+      "title": "Added phone support layout for the certmap",
+      "body": "EBCertMap is now fully usable on mobile. The layout adapts at 768px: domain pills scroll horizontally in the Certs view, the Skills panel opens as an overlay, and the Roles view switches to a drill-down flow (roles → paths → cert profile). Desktop experience is unchanged."
+    },
+    {
       "date": "2026-04-19",
       "title": "What's coming next",
       "body": "Planning to add course recommendations alongside each cert path, a dedicated study tracker, and a comparison tool so you can put two certs side by side. Also looking at getting a proper domain for this."
     }
   ],
   "changelog": [
+    {
+      "date": "2026-04-20",
+      "title": "Mobile Layout Support",
+      "items": [
+        "Responsive layout for all three views at 768px breakpoint",
+        "Certs view: domain pills scroll horizontally, single-column grid, cert profile as fullscreen overlay",
+        "Skills view: skill panel accessible via toggle button overlay on mobile",
+        "Roles view: drill-down navigation — role list → paths → cert profile",
+        "Nav compresses to emoji-only tabs on mobile, stats hidden"
+      ]
+    },
     {
       "date": "2026-04-19",
       "title": "Initial Project Launch",

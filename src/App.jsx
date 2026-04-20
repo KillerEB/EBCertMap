@@ -191,6 +191,10 @@ _style.textContent = `
 
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
+
+  * { -webkit-tap-highlight-color: transparent; }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
 `;
 document.head.appendChild(_style);
 
@@ -535,7 +539,7 @@ function CertProfile({ cert, onClose }) {
 // CERT VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
-function CertView({ CERTS, setCERTS }) {
+function CertView({ CERTS, setCERTS, isMobile }) {
   const [domain,      setDomain     ] = useState("offensive");
   const [cert,        setCert       ] = useState(null);
   const [search,      setSearch     ] = useState("");
@@ -546,6 +550,7 @@ function CertView({ CERTS, setCERTS }) {
   const [filterPrac,  setFilterPrac ] = useState(false);
   const [sortBy,      setSortBy     ] = useState("default");
   const [expanded,    setExpanded   ] = useState(new Set());
+  const [showFilters, setShowFilters] = useState(false);
 
   useEffect(() => {
     if (domain === "all" || CERTS[domain]) return;
@@ -588,6 +593,116 @@ function CertView({ CERTS, setCERTS }) {
   const selectCert = c => setCert(prev=>prev?.id===c?.id?null:c);
   const resetFilters = () => { setSearch(""); setFilterLevel("all"); setFilterIssuer("all"); setFilterCost("all"); setFilterDod(false); setFilterPrac(false); setSortBy("default"); };
   const hasActiveFilters = search||filterLevel!=="all"||filterIssuer!=="all"||filterCost!=="all"||filterDod||filterPrac||sortBy!=="default";
+
+  const domainPills = (
+    <>
+      <button key="all" className={`dpill${domain==="all"?" active":""}`} style={domain==="all"?{background:"#94a3b8",color:"#000"}:{}} onClick={()=>{setDomain("all");setCert(null);resetFilters();}}>
+        <span className="dot" style={{ background:domain==="all"?"rgba(0,0,0,0.4)":"#94a3b8" }} />
+        All
+        <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{allCerts(CERTS).length}</span>
+      </button>
+      {DOMAINS.map(d => (
+        <button key={d.id} className={`dpill${domain===d.id?" active":""}`} style={domain===d.id?{background:d.color}:{}} onClick={()=>{setDomain(d.id);setCert(null);resetFilters();}}>
+          <span className="dot" style={{ background:domain===d.id?"rgba(0,0,0,0.4)":d.color }} />
+          {d.short}
+          <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{CERTS[d.id]?.length ?? d.count}</span>
+        </button>
+      ))}
+    </>
+  );
+
+  const domainDesc = (() => {
+    const dom = DOMAINS.find(d=>d.id===domain);
+    if (!dom?.description) return null;
+    return (
+      <div style={{ padding:"7px 16px", borderBottom:"1px solid var(--border)", display:"flex", alignItems:"center", gap:8, flexShrink:0, background:"var(--surface)" }}>
+        <span style={{ width:8, height:8, borderRadius:"50%", background:dom.color, flexShrink:0 }} />
+        <span style={{ fontSize:11.5, color:"var(--mid)", lineHeight:1.4 }}>{dom.description}</span>
+      </div>
+    );
+  })();
+
+  const filterBar = (
+    <div style={{ padding: isMobile ? "8px 10px" : "8px 16px", borderBottom:"1px solid var(--border)", flexShrink:0, display:"flex", gap:6, flexWrap:"wrap", alignItems:"center" }}>
+      <input type="search" placeholder="Search certs…" value={search} onChange={e=>setSearch(e.target.value)} style={{ width: isMobile ? "100%" : 160 }} />
+      {!isMobile && <>
+        <select value={filterLevel} onChange={e=>setFilterLevel(e.target.value)} style={{ width:130 }}>
+          <option value="all">All Levels</option>
+          {LEVEL_ORDER.map(l=><option key={l} value={l}>{LEVELS[l].label}</option>)}
+        </select>
+        <select value={filterIssuer} onChange={e=>setFilterIssuer(e.target.value)} style={{ width:170 }}>
+          <option value="all">All Issuers</option>
+          {issuers.map(i=><option key={i} value={i}>{i}</option>)}
+        </select>
+        <select value={filterCost} onChange={e=>setFilterCost(e.target.value)} style={{ width:126 }}>
+          <option value="all">Any Cost</option>
+          <option value="free">Free</option>
+          <option value="under500">Under $500</option>
+          <option value="500to1k">$500 – $1,000</option>
+          <option value="over1k">Over $1,000</option>
+        </select>
+        <button className={`btn${filterDod?" on":""}`} onClick={()=>setFilterDod(p=>!p)}>DoD 8140</button>
+        <button className={`btn${filterPrac?" on":""}`} onClick={()=>setFilterPrac(p=>!p)}>≥50% Practical</button>
+        <div style={{ display:"flex", alignItems:"center", gap:5, marginLeft:4 }}>
+          <span style={{ fontSize:10.5, color:"var(--muted)", whiteSpace:"nowrap" }}>Sort:</span>
+          <select value={sortBy} onChange={e=>setSortBy(e.target.value)} style={{ width:150 }}>
+            <option value="default">Default</option>
+            <option value="overall">Overall Score ↓</option>
+            <option value="alpha">Alphabetical (A–Z)</option>
+            <option value="level">Level (Beginner → Elite)</option>
+            <option value="cost">Cost (Low → High)</option>
+            <option value="issuer">Issuer</option>
+          </select>
+        </div>
+      </>}
+      {isMobile && <>
+        <select value={filterLevel} onChange={e=>setFilterLevel(e.target.value)} style={{ flex:1 }}>
+          <option value="all">All Levels</option>
+          {LEVEL_ORDER.map(l=><option key={l} value={l}>{LEVELS[l].label}</option>)}
+        </select>
+        <select value={sortBy} onChange={e=>setSortBy(e.target.value)} style={{ flex:1 }}>
+          <option value="default">Default order</option>
+          <option value="overall">Score ↓</option>
+          <option value="alpha">A–Z</option>
+          <option value="cost">Cost ↑</option>
+        </select>
+      </>}
+      <div style={{ marginLeft:"auto", display:"flex", alignItems:"center", gap:8 }}>
+        {hasActiveFilters && <button className="btn" onClick={resetFilters} style={{ color:"#f87171", borderColor:"rgba(248,113,113,0.2)" }}>✕ Clear</button>}
+        <span className="mono" style={{ fontSize:10.5, color:"var(--muted)", whiteSpace:"nowrap" }}>{hasCerts?`${visible.length} cert${visible.length!==1?"s":""}`: "…"}</span>
+      </div>
+    </div>
+  );
+
+  const certGrid = (
+    <div className="scroll" style={{ flex:1, padding: isMobile ? 10 : 14 }}>
+      {!hasCerts ? <div className="empty"><div className="empty-icon">⏳</div><div style={{ fontSize:13, color:"var(--mid)" }}>Loading {domain}.json…</div></div>
+      : visible.length===0 ? <div className="empty"><div className="empty-icon">🔍</div><div style={{ fontSize:13, color:"var(--mid)" }}>No certs match your filters</div><button className="btn" onClick={resetFilters} style={{ marginTop:4 }}>Clear filters</button></div>
+      : <div className="anim-fadeup" style={{ display:"grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fill,minmax(210px,1fr))", gap:9 }}>
+          {visible.map(c=><CertCard key={c.id} cert={c} active={cert?.id===c.id} onClick={()=>selectCert(c)} showDomain={domain==="all"} />)}
+        </div>}
+    </div>
+  );
+
+  if (isMobile) {
+    return (
+      <div style={{ display:"flex", flexDirection:"column", flex:1, overflow:"hidden" }}>
+        {/* Domain pills — horizontal scroll */}
+        <div className="no-scrollbar" style={{ padding:"8px 10px", borderBottom:"1px solid var(--border)", display:"flex", gap:5, flexShrink:0, background:"var(--surface)", overflowX:"auto" }}>
+          {domainPills}
+        </div>
+        {filterBar}
+        {certGrid}
+
+        {/* Mobile cert profile overlay */}
+        {cert && (
+          <div style={{ position:"fixed", inset:0, zIndex:200, background:"var(--bg)", overflow:"auto", display:"flex", flexDirection:"column" }}>
+            <CertProfile cert={cert} onClose={()=>setCert(null)} />
+          </div>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
@@ -654,71 +769,11 @@ function CertView({ CERTS, setCERTS }) {
       </div>
       <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden", borderRight:"1px solid var(--border)" }}>
         <div style={{ padding:"9px 16px", borderBottom:"1px solid var(--border)", display:"flex", flexWrap:"wrap", gap:5, flexShrink:0, background:"var(--surface)" }}>
-          <button key="all" className={`dpill${domain==="all"?" active":""}`} style={domain==="all"?{background:"#94a3b8",color:"#000"}:{}} onClick={()=>{setDomain("all");setCert(null);resetFilters();}}>
-            <span className="dot" style={{ background:domain==="all"?"rgba(0,0,0,0.4)":"#94a3b8" }} />
-            All
-            <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{allCerts(CERTS).length}</span>
-          </button>
-          {DOMAINS.map(d => (
-            <button key={d.id} className={`dpill${domain===d.id?" active":""}`} style={domain===d.id?{background:d.color}:{}} onClick={()=>{setDomain(d.id);setCert(null);resetFilters();}}>
-              <span className="dot" style={{ background:domain===d.id?"rgba(0,0,0,0.4)":d.color }} />
-              {d.short}
-              <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{CERTS[d.id]?.length ?? d.count}</span>
-            </button>
-          ))}
+          {domainPills}
         </div>
-        {(() => {
-          const dom = DOMAINS.find(d=>d.id===domain);
-          if (!dom?.description) return null;
-          return (
-            <div style={{ padding:"7px 16px", borderBottom:"1px solid var(--border)", display:"flex", alignItems:"center", gap:8, flexShrink:0, background:"var(--surface)" }}>
-              <span style={{ width:8, height:8, borderRadius:"50%", background:dom.color, flexShrink:0 }} />
-              <span style={{ fontSize:11.5, color:"var(--mid)", lineHeight:1.4 }}>{dom.description}</span>
-            </div>
-          );
-        })()}
-        <div style={{ padding:"8px 16px", borderBottom:"1px solid var(--border)", flexShrink:0, display:"flex", gap:6, flexWrap:"wrap", alignItems:"center" }}>
-          <input type="search" placeholder="Search certs…" value={search} onChange={e=>setSearch(e.target.value)} style={{ width:160 }} />
-          <select value={filterLevel} onChange={e=>setFilterLevel(e.target.value)} style={{ width:130 }}>
-            <option value="all">All Levels</option>
-            {LEVEL_ORDER.map(l=><option key={l} value={l}>{LEVELS[l].label}</option>)}
-          </select>
-          <select value={filterIssuer} onChange={e=>setFilterIssuer(e.target.value)} style={{ width:170 }}>
-            <option value="all">All Issuers</option>
-            {issuers.map(i=><option key={i} value={i}>{i}</option>)}
-          </select>
-          <select value={filterCost} onChange={e=>setFilterCost(e.target.value)} style={{ width:126 }}>
-            <option value="all">Any Cost</option>
-            <option value="free">Free</option>
-            <option value="under500">Under $500</option>
-            <option value="500to1k">$500 – $1,000</option>
-            <option value="over1k">Over $1,000</option>
-          </select>
-          <button className={`btn${filterDod?" on":""}`} onClick={()=>setFilterDod(p=>!p)}>DoD 8140</button>
-          <button className={`btn${filterPrac?" on":""}`} onClick={()=>setFilterPrac(p=>!p)}>≥50% Practical</button>
-          <div style={{ display:"flex", alignItems:"center", gap:5, marginLeft:4 }}>
-            <span style={{ fontSize:10.5, color:"var(--muted)", whiteSpace:"nowrap" }}>Sort:</span>
-            <select value={sortBy} onChange={e=>setSortBy(e.target.value)} style={{ width:150 }}>
-              <option value="default">Default</option>
-              <option value="overall">Overall Score ↓</option>
-              <option value="alpha">Alphabetical (A–Z)</option>
-              <option value="level">Level (Beginner → Elite)</option>
-              <option value="cost">Cost (Low → High)</option>
-              <option value="issuer">Issuer</option>
-            </select>
-          </div>
-          <div style={{ marginLeft:"auto", display:"flex", alignItems:"center", gap:8 }}>
-            {hasActiveFilters && <button className="btn" onClick={resetFilters} style={{ color:"#f87171", borderColor:"rgba(248,113,113,0.2)" }}>✕ Clear</button>}
-            <span className="mono" style={{ fontSize:10.5, color:"var(--muted)", whiteSpace:"nowrap" }}>{hasCerts?`${visible.length} cert${visible.length!==1?"s":""}`: "…"}</span>
-          </div>
-        </div>
-        <div className="scroll" style={{ flex:1, padding:14 }}>
-          {!hasCerts ? <div className="empty"><div className="empty-icon">⏳</div><div style={{ fontSize:13, color:"var(--mid)" }}>Loading {domain}.json…</div></div>
-          : visible.length===0 ? <div className="empty"><div className="empty-icon">🔍</div><div style={{ fontSize:13, color:"var(--mid)" }}>No certs match your filters</div><button className="btn" onClick={resetFilters} style={{ marginTop:4 }}>Clear filters</button></div>
-          : <div className="anim-fadeup" style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(210px,1fr))", gap:9 }}>
-              {visible.map(c=><CertCard key={c.id} cert={c} active={cert?.id===c.id} onClick={()=>selectCert(c)} showDomain={domain==="all"} />)}
-            </div>}
-        </div>
+        {domainDesc}
+        {filterBar}
+        {certGrid}
       </div>
       <div style={{ width:390, flexShrink:0, background:"var(--surface)", overflow:"hidden" }}>
         <CertProfile cert={cert} onClose={()=>setCert(null)} />
@@ -731,11 +786,12 @@ function CertView({ CERTS, setCERTS }) {
 // SKILLS VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
-function SkillsView({ CERTS }) {
-  const [selected, setSelected] = useState(new Set());
-  const [open,     setOpen    ] = useState(new Set());
-  const [cert,     setCert    ] = useState(null);
-  const [search,   setSearch  ] = useState("");
+function SkillsView({ CERTS, isMobile }) {
+  const [selected,      setSelected     ] = useState(new Set());
+  const [open,          setOpen         ] = useState(new Set());
+  const [cert,          setCert         ] = useState(null);
+  const [search,        setSearch       ] = useState("");
+  const [showSkillPanel,setShowSkillPanel] = useState(false);
 
   const toggle    = useCallback(id=>{setSelected(p=>{const n=new Set(p);n.has(id)?n.delete(id):n.add(id);return n;});},[]);
   const toggleCat = useCallback(id=>{setOpen(p=>{const n=new Set(p);n.has(id)?n.delete(id):n.add(id);return n;});},[]);
@@ -754,52 +810,99 @@ function SkillsView({ CERTS }) {
     return allCerts(CERTS).filter(cert=>matchSets.every(ms=>cert.skills?.some(sk=>ms.has(sk))));
   },[selected,CERTS]);
 
+  const skillPanelContent = (
+    <>
+      <div style={{ padding:"10px 12px", borderBottom:"1px solid var(--border)", flexShrink:0 }}>
+        <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:8 }}>
+          <span style={{ fontSize:12, fontWeight:600, color:"var(--mid)", textTransform:"uppercase", letterSpacing:"0.06em" }}>Skills</span>
+          <div style={{ display:"flex", gap:6 }}>
+            {selected.size>0 && <button className="btn" style={{ padding:"2px 7px", fontSize:11 }} onClick={()=>{setSelected(new Set());setCert(null);}}>Clear {selected.size}</button>}
+            {isMobile && <button className="btn" style={{ padding:"2px 7px", fontSize:11 }} onClick={()=>setShowSkillPanel(false)}>Done</button>}
+          </div>
+        </div>
+        <input type="search" placeholder="Filter skills…" value={search} onChange={e=>setSearch(e.target.value)} />
+      </div>
+      <div className="scroll" style={{ flex:1, padding:6 }}>
+        {cats.map(cat=>(
+          <div key={cat.id}>
+            <button onClick={()=>toggleCat(cat.id)} style={{ width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",padding:"5px 8px",background:"none",border:"none",cursor:"pointer",borderRadius:5,color:"var(--mid)",fontSize:10.5,fontWeight:600,textTransform:"uppercase",letterSpacing:"0.06em",marginTop:4 }}>
+              <span style={{ display:"flex",alignItems:"center",gap:5 }}>
+                <span style={{ width:7,height:7,borderRadius:"50%",background:cat.color }} />
+                {cat.label}
+              </span>
+              <span style={{ opacity:0.5 }}>{open.has(cat.id)?"▾":"▸"}</span>
+            </button>
+            {open.has(cat.id)&&cat.skills.map(s=>(
+              <div key={s.id} className={`skill-row${selected.has(s.id)?" sel":""}`} onClick={()=>toggle(s.id)}>
+                <div className={`cb${selected.has(s.id)?" on":""}`}>{selected.has(s.id)&&<span style={{ color:"#000",fontSize:8,fontWeight:700 }}>✓</span>}</div>
+                {s.label}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </>
+  );
+
+  const resultsHeader = (
+    <div style={{ padding:"10px 18px",borderBottom:"1px solid var(--border)",display:"flex",alignItems:"center",justifyContent:"space-between",flexShrink:0, gap:8 }}>
+      <div style={{ flex:1 }}>
+        {selected.size===0 ? <span style={{ fontSize:12.5,color:"var(--muted)" }}>{isMobile ? "Tap Skills to filter" : "Select skills from the left to find matching certs"}</span>
+        : <span style={{ fontSize:12.5 }}><span className="mono" style={{ fontWeight:600,color:"var(--accent)",fontSize:15 }}>{matchingCerts.length}</span><span style={{ color:"var(--mid)" }}> cert{matchingCerts.length!==1?"s":""} cover all {selected.size} skill{selected.size!==1?"s":""}</span></span>}
+      </div>
+      {isMobile && (
+        <button className={`btn${selected.size>0?" on":""}`} onClick={()=>setShowSkillPanel(true)}>
+          🧠 Skills{selected.size>0?` (${selected.size})`:""}
+        </button>
+      )}
+      {!isMobile && selected.size>0&&(
+        <div style={{ display:"flex",flexWrap:"wrap",gap:4,maxWidth:280,justifyContent:"flex-end" }}>
+          {[...selected].slice(0,5).map(id=>{const s=SKILLS.find(x=>x.id===id);const c=SKILL_CATS.find(c=>c.id===s?.cat);return <span key={id} className="badge" style={{ background:`${c?.color||"#64748b"}18`,color:c?.color||"#64748b",padding:"2px 7px",fontSize:10 }}>{s?.label}</span>;})}
+          {selected.size>5&&<span className="badge" style={{ background:"var(--surface3)",color:"var(--mid)",padding:"2px 7px",fontSize:10 }}>+{selected.size-5}</span>}
+        </div>
+      )}
+    </div>
+  );
+
+  const certList = (
+    <div className="scroll" style={{ flex:1,padding: isMobile ? 10 : 14 }}>
+      {selected.size===0?<div className="empty"><div className="empty-icon">🧠</div><div style={{ fontSize:13,fontWeight:500,color:"var(--mid)" }}>Multi-select any skills{isMobile?" above":" from the left"}</div><div style={{ fontSize:11.5,color:"var(--muted)" }}>Results show certs that validate ALL selected skills simultaneously</div></div>
+      :matchingCerts.length===0?<div className="empty"><div className="empty-icon">🔍</div><div style={{ fontSize:13,fontWeight:500,color:"var(--mid)" }}>No single cert covers all selected skills</div></div>
+      :<div className="anim-fadeup" style={{ display:"grid",gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fill,minmax(210px,1fr))",gap:9 }}>{matchingCerts.map(c=><CertCard key={c.id} cert={c} active={cert?.id===c.id} onClick={()=>setCert(cert?.id===c.id?null:c)} />)}</div>}
+    </div>
+  );
+
+  if (isMobile) {
+    return (
+      <div style={{ display:"flex", flexDirection:"column", flex:1, overflow:"hidden" }}>
+        {resultsHeader}
+        {certList}
+
+        {/* Skills overlay */}
+        {showSkillPanel && (
+          <div style={{ position:"fixed", top:50, left:0, right:0, bottom:0, zIndex:100, background:"var(--surface)", display:"flex", flexDirection:"column" }}>
+            {skillPanelContent}
+          </div>
+        )}
+
+        {/* Cert profile overlay */}
+        {cert && (
+          <div style={{ position:"fixed", inset:0, zIndex:200, background:"var(--bg)", overflow:"auto", display:"flex", flexDirection:"column" }}>
+            <CertProfile cert={cert} onClose={()=>setCert(null)} />
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
       <div style={{ width:268, flexShrink:0, borderRight:"1px solid var(--border)", display:"flex", flexDirection:"column", background:"var(--surface)" }}>
-        <div style={{ padding:"10px 12px", borderBottom:"1px solid var(--border)", flexShrink:0 }}>
-          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:8 }}>
-            <span style={{ fontSize:12, fontWeight:600, color:"var(--mid)", textTransform:"uppercase", letterSpacing:"0.06em" }}>Skills</span>
-            {selected.size>0 && <button className="btn" style={{ padding:"2px 7px", fontSize:11 }} onClick={()=>{setSelected(new Set());setCert(null);}}>Clear {selected.size}</button>}
-          </div>
-          <input type="search" placeholder="Filter skills…" value={search} onChange={e=>setSearch(e.target.value)} />
-        </div>
-        <div className="scroll" style={{ flex:1, padding:6 }}>
-          {cats.map(cat=>(
-            <div key={cat.id}>
-              <button onClick={()=>toggleCat(cat.id)} style={{ width:"100%",display:"flex",alignItems:"center",justifyContent:"space-between",padding:"5px 8px",background:"none",border:"none",cursor:"pointer",borderRadius:5,color:"var(--mid)",fontSize:10.5,fontWeight:600,textTransform:"uppercase",letterSpacing:"0.06em",marginTop:4 }}>
-                <span style={{ display:"flex",alignItems:"center",gap:5 }}>
-                  <span style={{ width:7,height:7,borderRadius:"50%",background:cat.color }} />
-                  {cat.label}
-                </span>
-                <span style={{ opacity:0.5 }}>{open.has(cat.id)?"▾":"▸"}</span>
-              </button>
-              {open.has(cat.id)&&cat.skills.map(s=>(
-                <div key={s.id} className={`skill-row${selected.has(s.id)?" sel":""}`} onClick={()=>toggle(s.id)}>
-                  <div className={`cb${selected.has(s.id)?" on":""}`}>{selected.has(s.id)&&<span style={{ color:"#000",fontSize:8,fontWeight:700 }}>✓</span>}</div>
-                  {s.label}
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+        {skillPanelContent}
       </div>
       <div style={{ flex:1,display:"flex",flexDirection:"column",overflow:"hidden",borderRight:"1px solid var(--border)" }}>
-        <div style={{ padding:"10px 18px",borderBottom:"1px solid var(--border)",display:"flex",alignItems:"center",justifyContent:"space-between",flexShrink:0 }}>
-          {selected.size===0 ? <span style={{ fontSize:12.5,color:"var(--muted)" }}>Select skills from the left to find matching certs</span>
-          : <span style={{ fontSize:12.5 }}><span className="mono" style={{ fontWeight:600,color:"var(--accent)",fontSize:15 }}>{matchingCerts.length}</span><span style={{ color:"var(--mid)" }}> cert{matchingCerts.length!==1?"s":""} cover all {selected.size} selected skill{selected.size!==1?"s":""}</span></span>}
-          {selected.size>0&&(
-            <div style={{ display:"flex",flexWrap:"wrap",gap:4,maxWidth:280,justifyContent:"flex-end" }}>
-              {[...selected].slice(0,5).map(id=>{const s=SKILLS.find(x=>x.id===id);const c=SKILL_CATS.find(c=>c.id===s?.cat);return <span key={id} className="badge" style={{ background:`${c?.color||"#64748b"}18`,color:c?.color||"#64748b",padding:"2px 7px",fontSize:10 }}>{s?.label}</span>;})}
-              {selected.size>5&&<span className="badge" style={{ background:"var(--surface3)",color:"var(--mid)",padding:"2px 7px",fontSize:10 }}>+{selected.size-5}</span>}
-            </div>
-          )}
-        </div>
-        <div className="scroll" style={{ flex:1,padding:14 }}>
-          {selected.size===0?<div className="empty"><div className="empty-icon">🧠</div><div style={{ fontSize:13,fontWeight:500,color:"var(--mid)" }}>Multi-select any skills from the left</div><div style={{ fontSize:11.5,color:"var(--muted)" }}>Results show certs that validate ALL selected skills simultaneously</div></div>
-          :matchingCerts.length===0?<div className="empty"><div className="empty-icon">🔍</div><div style={{ fontSize:13,fontWeight:500,color:"var(--mid)" }}>No single cert covers all selected skills</div></div>
-          :<div className="anim-fadeup" style={{ display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(210px,1fr))",gap:9 }}>{matchingCerts.map(c=><CertCard key={c.id} cert={c} active={cert?.id===c.id} onClick={()=>setCert(cert?.id===c.id?null:c)} />)}</div>}
-        </div>
+        {resultsHeader}
+        {certList}
       </div>
       <div style={{ width:390,flexShrink:0,background:"var(--surface)",overflow:"hidden" }}>
         <CertProfile cert={cert} onClose={()=>setCert(null)} />
@@ -812,12 +915,13 @@ function SkillsView({ CERTS }) {
 // ROLE VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
-function RoleView({ CERTS, setCERTS }) {
-  const [roles,     setRoles   ] = useState([]);
-  const [PATHS,     setPATHS   ] = useState({});
-  const [role,      setRole    ] = useState(null);
-  const [path,      setPath    ] = useState(null);
-  const [cert,      setCert    ] = useState(null);
+function RoleView({ CERTS, setCERTS, isMobile }) {
+  const [roles,      setRoles     ] = useState([]);
+  const [PATHS,      setPATHS     ] = useState({});
+  const [role,       setRole      ] = useState(null);
+  const [path,       setPath      ] = useState(null);
+  const [cert,       setCert      ] = useState(null);
+  const [mobileStep, setMobileStep] = useState("list");
 
   useEffect(() => {
     fetch("/data/roles.json").then(r=>r.json()).then(setRoles).catch(()=>{});
@@ -838,7 +942,7 @@ function RoleView({ CERTS, setCERTS }) {
   const pathData  = role ? PATHS[role.id] : null;
   const rolePaths = pathData?.paths ?? [];
 
-  const pickRole = r => { if (role?.id === r.id) return; setRole(r); setPath(null); setCert(null); };
+  const pickRole = r => { if (role?.id === r.id) return; setRole(r); setPath(null); setCert(null); if (isMobile) setMobileStep("paths"); };
   const pickPath = p => { setPath(p); setCert(null); };
 
   useEffect(() => {
@@ -858,146 +962,181 @@ function RoleView({ CERTS, setCERTS }) {
   }, [roles]);
 
 
-  return (
-    <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
-      {/* Sidebar: grouped role list */}
-      <div style={{ width:248, flexShrink:0, borderRight:"1px solid var(--border)", display:"flex", flexDirection:"column", background:"var(--surface)" }}>
-        <div className="scroll" style={{ flex:1, padding:"4px 0" }}>
-          {ROLE_CATEGORIES.filter(c=>c.id!=="all").map(cat => {
-            const catRoles = grouped[cat.id] || [];
-            if (!catRoles.length) return null;
-            return (
-              <div key={cat.id} style={{ marginBottom:2 }}>
-                <div style={{ display:"flex", alignItems:"center", gap:7, padding:"5px 12px",
-                  borderLeft:`3px solid ${cat.color}`, background:"var(--surface2)" }}>
-                  <span style={{ fontSize:9.5, color:cat.color, fontWeight:700,
-                    textTransform:"uppercase", letterSpacing:"0.07em", flex:1 }}>{cat.label}</span>
-                  <span style={{ fontSize:9, color:"var(--muted)" }}>{catRoles.length}</span>
-                </div>
-                {catRoles.map(r => (
-                  <div key={r.id} onClick={()=>pickRole(r)}
-                    style={{ padding:"5px 12px 5px 22px", cursor:"pointer",
-                      background:role?.id===r.id?"var(--surface3)":"transparent",
-                      borderLeft:role?.id===r.id?`3px solid ${cat.color}`:"3px solid transparent",
-                      display:"flex", alignItems:"center", justifyContent:"space-between",
-                      transition:"background 0.1s" }}
-                    onMouseEnter={e=>{ if(role?.id!==r.id) e.currentTarget.style.background="var(--surface2)"; }}
-                    onMouseLeave={e=>{ if(role?.id!==r.id) e.currentTarget.style.background="transparent"; }}>
-                    <span style={{ fontSize:12, color:role?.id===r.id?"var(--text)":"var(--mid)",
-                      fontWeight:role?.id===r.id?600:400 }}>{r.label}</span>
-                    <span style={{ fontSize:9.5, color:"var(--muted)", flexShrink:0 }}>{PATHS[r.id]?.paths?.length ?? r.path_count}p</span>
-                  </div>
-                ))}
-              </div>
-            );
-          })}
+  const roleList = (showBack) => (
+    <div style={{ display:"flex", flexDirection:"column", flex:1, overflow:"hidden", background:"var(--surface)" }}>
+      {showBack && (
+        <div style={{ padding:"8px 12px", borderBottom:"1px solid var(--border)", flexShrink:0 }}>
+          <button className="btn" onClick={()=>{ setMobileStep("list"); }} style={{ fontSize:12 }}>← Roles</button>
         </div>
-      </div>
-      <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden", borderRight:"1px solid var(--border)" }}>
-        {!role ? (
-          <div className="empty" style={{ flex:1 }}>
-            <div className="empty-icon">🎯</div>
-            <div style={{ fontSize:13, fontWeight:500, color:"var(--mid)" }}>Select a role to see cert paths</div>
-            <div style={{ fontSize:11.5, color:"var(--muted)" }}>Browse by category or pick from the overview table</div>
-          </div>
-        ) : !pathData ? (
-          <div className="empty" style={{ flex:1 }}>
-            <div style={{ fontSize:12, color:"var(--muted)" }}>Loading paths...</div>
-          </div>
-        ) : (
-          <>
-            <div style={{ padding:"14px 20px", borderBottom:"1px solid var(--border)", flexShrink:0 }}>
-              {(() => {
-                const cat = catFor(role.category);
-                return <span style={{ fontSize:10, fontWeight:600, color:cat.color,
-                  background:`${cat.color}14`, padding:"2px 8px", borderRadius:10,
-                  display:"inline-block", marginBottom:6 }}>{cat.label}</span>;
-              })()}
-              <div className="heading" style={{ fontSize:19, fontWeight:700, letterSpacing:"-0.01em", marginBottom:3 }}>{pathData.label}</div>
-              <div style={{ fontSize:12.5, color:"var(--mid)", marginBottom:6 }}>{pathData.description}</div>
-              {pathData.job_titles?.length > 0 && (
-                <div style={{ display:"flex", flexWrap:"wrap", gap:4 }}>
-                  {pathData.job_titles.map(t => (
-                    <span key={t} style={{ fontSize:10.5, background:"var(--surface3)",
-                      border:"1px solid var(--border)", borderRadius:4, padding:"2px 7px", color:"var(--mid)" }}>{t}</span>
-                  ))}
+      )}
+      <div className="scroll" style={{ flex:1, padding:"4px 0" }}>
+        {ROLE_CATEGORIES.filter(c=>c.id!=="all").map(cat => {
+          const catRoles = grouped[cat.id] || [];
+          if (!catRoles.length) return null;
+          return (
+            <div key={cat.id} style={{ marginBottom:2 }}>
+              <div style={{ display:"flex", alignItems:"center", gap:7, padding:"5px 12px",
+                borderLeft:`3px solid ${cat.color}`, background:"var(--surface2)" }}>
+                <span style={{ fontSize:9.5, color:cat.color, fontWeight:700,
+                  textTransform:"uppercase", letterSpacing:"0.07em", flex:1 }}>{cat.label}</span>
+                <span style={{ fontSize:9, color:"var(--muted)" }}>{catRoles.length}</span>
+              </div>
+              {catRoles.map(r => (
+                <div key={r.id} onClick={()=>pickRole(r)}
+                  style={{ padding:"5px 12px 5px 22px", cursor:"pointer",
+                    background:role?.id===r.id?"var(--surface3)":"transparent",
+                    borderLeft:role?.id===r.id?`3px solid ${cat.color}`:"3px solid transparent",
+                    display:"flex", alignItems:"center", justifyContent:"space-between",
+                    transition:"background 0.1s" }}
+                  onMouseEnter={e=>{ if(role?.id!==r.id) e.currentTarget.style.background="var(--surface2)"; }}
+                  onMouseLeave={e=>{ if(role?.id!==r.id) e.currentTarget.style.background="transparent"; }}>
+                  <span style={{ fontSize:12, color:role?.id===r.id?"var(--text)":"var(--mid)",
+                    fontWeight:role?.id===r.id?600:400 }}>{r.label}</span>
+                  <span style={{ fontSize:9.5, color:"var(--muted)", flexShrink:0 }}>{PATHS[r.id]?.paths?.length ?? r.path_count}p</span>
                 </div>
-              )}
-            </div>
-            <div style={{ padding:"10px 20px", borderBottom:"1px solid var(--border)", display:"flex", gap:6, flexWrap:"wrap", flexShrink:0 }}>
-              {rolePaths.map(p => (
-                <button key={p.id} className={`ptab${path?.id===p.id?" active":""}`}
-                  onClick={()=>pickPath(p)}>{p.name}</button>
               ))}
             </div>
-            {path && (
-              <div className="scroll anim-fadeup" style={{ flex:1, padding:"14px 20px" }}>
-                <div style={{ background:"var(--surface2)", borderRadius:10, padding:15, marginBottom:14 }}>
-                  <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", gap:12, marginBottom:10 }}>
-                    <div style={{ flex:1 }}>
-                      <div style={{ fontSize:14.5, fontWeight:600, marginBottom:4 }}>{path.name}</div>
-                      <div style={{ fontSize:12.5, color:"var(--mid)", lineHeight:1.65 }}>{path.rationale}</div>
-                    </div>
-                    <div style={{ flexShrink:0, textAlign:"right" }}>
-                      <div style={{ fontSize:9.5, color:"var(--muted)", textTransform:"uppercase", letterSpacing:"0.07em", marginBottom:2 }}>Total Cost</div>
-                      <div className="mono heading" style={{ fontSize:20, fontWeight:700, color:"var(--accent)" }}>${path.total_cost_usd?.toLocaleString()??"—"}</div>
-                      {path.estimated_timeline && <div style={{ fontSize:10.5, color:"var(--muted)", marginTop:4 }}>⏱ {path.estimated_timeline}</div>}
-                    </div>
-                  </div>
-                  {path.prerequisites && (
-                    <div style={{ background:"var(--surface3)", borderRadius:7, padding:10, marginBottom:10 }}>
-                      <div style={{ fontSize:9.5, color:"var(--accent2)", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Prerequisites</div>
-                      <div style={{ fontSize:12, color:"var(--mid)", lineHeight:1.6 }}>{path.prerequisites.experience}</div>
-                      {path.prerequisites.knowledge?.length > 0 && (
-                        <div style={{ marginTop:6, display:"flex", flexWrap:"wrap", gap:4 }}>
-                          {path.prerequisites.knowledge.map((k,i) => (
-                            <span key={i} style={{ fontSize:10.5, background:"var(--surface)", border:"1px solid var(--border)", borderRadius:4, padding:"2px 7px", color:"var(--mid)" }}>{k}</span>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
-                  <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
-                    <div style={{ background:"rgba(74,222,128,0.06)", border:"1px solid rgba(74,222,128,0.14)", borderRadius:7, padding:10 }}>
-                      <div style={{ fontSize:9.5, color:"#4ade80", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Pros</div>
-                      {path.pros.map((p,i) => <div key={i} style={{ fontSize:12, color:"var(--mid)", display:"flex", gap:5, marginBottom:3 }}><span style={{ color:"#4ade80", flexShrink:0 }}>+</span>{p}</div>)}
-                    </div>
-                    <div style={{ background:"rgba(248,113,113,0.06)", border:"1px solid rgba(248,113,113,0.14)", borderRadius:7, padding:10 }}>
-                      <div style={{ fontSize:9.5, color:"#f87171", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Cons</div>
-                      {path.cons.map((c,i) => <div key={i} style={{ fontSize:12, color:"var(--mid)", display:"flex", gap:5, marginBottom:3 }}><span style={{ color:"#f87171", flexShrink:0 }}>−</span>{c}</div>)}
-                    </div>
-                  </div>
-                </div>
-                <div style={{ fontSize:10, color:"var(--muted)", textTransform:"uppercase", letterSpacing:"0.07em", marginBottom:10 }}>Cert Sequence</div>
-                <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
-                  {seq.map((step, idx) => {
-                    const c   = getCertById(step.cert_id, CERTS);
-                    const col = c ? domainColor(c.domain[0]) : "#334155";
-                    return (
-                      <div key={step.cert_id} style={{ display:"flex", alignItems:"stretch", gap:10 }}>
-                        <div style={{ display:"flex", flexDirection:"column", alignItems:"center", flexShrink:0, paddingTop:14 }}>
-                          <div className="heading" style={{ width:26, height:26, borderRadius:"50%", background:c?col:"var(--surface3)", color:c?"#000":"var(--muted)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:11, fontWeight:700 }}>{idx+1}</div>
-                          {step.estimated_time && <div style={{ fontSize:9.5, color:"var(--muted)", marginTop:4, textAlign:"center", lineHeight:1.3 }}>⏱ {step.estimated_time}</div>}
-                          {idx < seq.length-1 && <div style={{ width:1, flex:1, minHeight:12, background:"var(--border)", marginTop:4 }} />}
-                        </div>
-                        <div style={{ flex:1, paddingBottom:idx<seq.length-1?12:0 }}>
-                          {c ? <CertCard cert={c} active={cert?.id===c.id} onClick={()=>setCert(cert?.id===c.id?null:c)} />
-                          : <div style={{ background:"var(--surface2)", border:"1px solid var(--border2)", borderRadius:7, padding:"11px 14px", borderLeft:`3px solid ${col}`, opacity:0.75 }}>
-                              <span className="mono" style={{ fontSize:12.5, color:"var(--mid)" }}>{step.cert_id}</span>
-                              <span style={{ marginLeft:8, fontSize:10, color:"var(--muted)" }}>loading…</span>
-                            </div>}
-                          {step.notes && (
-                            <div style={{ marginTop:6, fontSize:11.5, color:"var(--mid)", lineHeight:1.6, background:"var(--surface3)", borderLeft:"2px solid var(--border2)", borderRadius:"0 5px 5px 0", padding:"7px 10px" }}>{step.notes}</div>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+
+  const pathsPanel = (showBack) => (
+    <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden" }}>
+      {!role ? (
+        <div className="empty" style={{ flex:1 }}>
+          <div className="empty-icon">🎯</div>
+          <div style={{ fontSize:13, fontWeight:500, color:"var(--mid)" }}>Select a role to see cert paths</div>
+          <div style={{ fontSize:11.5, color:"var(--muted)" }}>Browse by category or pick from the overview table</div>
+        </div>
+      ) : !pathData ? (
+        <div className="empty" style={{ flex:1 }}>
+          <div style={{ fontSize:12, color:"var(--muted)" }}>Loading paths...</div>
+        </div>
+      ) : (
+        <>
+          <div style={{ padding: showBack ? "10px 14px" : "14px 20px", borderBottom:"1px solid var(--border)", flexShrink:0 }}>
+            {showBack && (
+              <button className="btn" onClick={()=>setMobileStep("list")} style={{ fontSize:12, marginBottom:8 }}>← Roles</button>
+            )}
+            {(() => {
+              const cat = catFor(role.category);
+              return <span style={{ fontSize:10, fontWeight:600, color:cat.color,
+                background:`${cat.color}14`, padding:"2px 8px", borderRadius:10,
+                display:"inline-block", marginBottom:6 }}>{cat.label}</span>;
+            })()}
+            <div className="heading" style={{ fontSize: showBack ? 17 : 19, fontWeight:700, letterSpacing:"-0.01em", marginBottom:3 }}>{pathData.label}</div>
+            {!showBack && <div style={{ fontSize:12.5, color:"var(--mid)", marginBottom:6 }}>{pathData.description}</div>}
+            {pathData.job_titles?.length > 0 && (
+              <div style={{ display:"flex", flexWrap:"wrap", gap:4 }}>
+                {pathData.job_titles.map(t => (
+                  <span key={t} style={{ fontSize:10.5, background:"var(--surface3)",
+                    border:"1px solid var(--border)", borderRadius:4, padding:"2px 7px", color:"var(--mid)" }}>{t}</span>
+                ))}
               </div>
             )}
-          </>
+          </div>
+          <div style={{ padding: showBack ? "8px 14px" : "10px 20px", borderBottom:"1px solid var(--border)", display:"flex", gap:6, flexWrap:"wrap", flexShrink:0 }}>
+            {rolePaths.map(p => (
+              <button key={p.id} className={`ptab${path?.id===p.id?" active":""}`}
+                onClick={()=>pickPath(p)}>{p.name}</button>
+            ))}
+          </div>
+          {path && (
+            <div className="scroll anim-fadeup" style={{ flex:1, padding: showBack ? "12px 14px" : "14px 20px" }}>
+              <div style={{ background:"var(--surface2)", borderRadius:10, padding:15, marginBottom:14 }}>
+                <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", gap:12, marginBottom:10 }}>
+                  <div style={{ flex:1 }}>
+                    <div style={{ fontSize:14.5, fontWeight:600, marginBottom:4 }}>{path.name}</div>
+                    <div style={{ fontSize:12.5, color:"var(--mid)", lineHeight:1.65 }}>{path.rationale}</div>
+                  </div>
+                  <div style={{ flexShrink:0, textAlign:"right" }}>
+                    <div style={{ fontSize:9.5, color:"var(--muted)", textTransform:"uppercase", letterSpacing:"0.07em", marginBottom:2 }}>Total Cost</div>
+                    <div className="mono heading" style={{ fontSize:20, fontWeight:700, color:"var(--accent)" }}>${path.total_cost_usd?.toLocaleString()??"—"}</div>
+                    {path.estimated_timeline && <div style={{ fontSize:10.5, color:"var(--muted)", marginTop:4 }}>⏱ {path.estimated_timeline}</div>}
+                  </div>
+                </div>
+                {path.prerequisites && (
+                  <div style={{ background:"var(--surface3)", borderRadius:7, padding:10, marginBottom:10 }}>
+                    <div style={{ fontSize:9.5, color:"var(--accent2)", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Prerequisites</div>
+                    <div style={{ fontSize:12, color:"var(--mid)", lineHeight:1.6 }}>{path.prerequisites.experience}</div>
+                    {path.prerequisites.knowledge?.length > 0 && (
+                      <div style={{ marginTop:6, display:"flex", flexWrap:"wrap", gap:4 }}>
+                        {path.prerequisites.knowledge.map((k,i) => (
+                          <span key={i} style={{ fontSize:10.5, background:"var(--surface)", border:"1px solid var(--border)", borderRadius:4, padding:"2px 7px", color:"var(--mid)" }}>{k}</span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+                <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
+                  <div style={{ background:"rgba(74,222,128,0.06)", border:"1px solid rgba(74,222,128,0.14)", borderRadius:7, padding:10 }}>
+                    <div style={{ fontSize:9.5, color:"#4ade80", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Pros</div>
+                    {path.pros.map((p,i) => <div key={i} style={{ fontSize:12, color:"var(--mid)", display:"flex", gap:5, marginBottom:3 }}><span style={{ color:"#4ade80", flexShrink:0 }}>+</span>{p}</div>)}
+                  </div>
+                  <div style={{ background:"rgba(248,113,113,0.06)", border:"1px solid rgba(248,113,113,0.14)", borderRadius:7, padding:10 }}>
+                    <div style={{ fontSize:9.5, color:"#f87171", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.06em", marginBottom:6 }}>Cons</div>
+                    {path.cons.map((c,i) => <div key={i} style={{ fontSize:12, color:"var(--mid)", display:"flex", gap:5, marginBottom:3 }}><span style={{ color:"#f87171", flexShrink:0 }}>−</span>{c}</div>)}
+                  </div>
+                </div>
+              </div>
+              <div style={{ fontSize:10, color:"var(--muted)", textTransform:"uppercase", letterSpacing:"0.07em", marginBottom:10 }}>Cert Sequence</div>
+              <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
+                {seq.map((step, idx) => {
+                  const c   = getCertById(step.cert_id, CERTS);
+                  const col = c ? domainColor(c.domain[0]) : "#334155";
+                  return (
+                    <div key={step.cert_id} style={{ display:"flex", alignItems:"stretch", gap:10 }}>
+                      <div style={{ display:"flex", flexDirection:"column", alignItems:"center", flexShrink:0, paddingTop:14 }}>
+                        <div className="heading" style={{ width:26, height:26, borderRadius:"50%", background:c?col:"var(--surface3)", color:c?"#000":"var(--muted)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:11, fontWeight:700 }}>{idx+1}</div>
+                        {step.estimated_time && <div style={{ fontSize:9.5, color:"var(--muted)", marginTop:4, textAlign:"center", lineHeight:1.3 }}>⏱ {step.estimated_time}</div>}
+                        {idx < seq.length-1 && <div style={{ width:1, flex:1, minHeight:12, background:"var(--border)", marginTop:4 }} />}
+                      </div>
+                      <div style={{ flex:1, paddingBottom:idx<seq.length-1?12:0 }}>
+                        {c ? <CertCard cert={c} active={cert?.id===c.id} onClick={()=>setCert(cert?.id===c.id?null:c)} />
+                        : <div style={{ background:"var(--surface2)", border:"1px solid var(--border2)", borderRadius:7, padding:"11px 14px", borderLeft:`3px solid ${col}`, opacity:0.75 }}>
+                            <span className="mono" style={{ fontSize:12.5, color:"var(--mid)" }}>{step.cert_id}</span>
+                            <span style={{ marginLeft:8, fontSize:10, color:"var(--muted)" }}>loading…</span>
+                          </div>}
+                        {step.notes && (
+                          <div style={{ marginTop:6, fontSize:11.5, color:"var(--mid)", lineHeight:1.6, background:"var(--surface3)", borderLeft:"2px solid var(--border2)", borderRadius:"0 5px 5px 0", padding:"7px 10px" }}>{step.notes}</div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  );
+
+  if (isMobile) {
+    return (
+      <div style={{ display:"flex", flexDirection:"column", flex:1, overflow:"hidden" }}>
+        {mobileStep === "list" && roleList(false)}
+        {mobileStep === "paths" && pathsPanel(true)}
+
+        {/* Cert profile overlay */}
+        {cert && (
+          <div style={{ position:"fixed", inset:0, zIndex:200, background:"var(--bg)", overflow:"auto", display:"flex", flexDirection:"column" }}>
+            <CertProfile cert={cert} onClose={()=>setCert(null)} />
+          </div>
         )}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
+      <div style={{ width:248, flexShrink:0, borderRight:"1px solid var(--border)", display:"flex", flexDirection:"column" }}>
+        {roleList(false)}
+      </div>
+      <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden", borderRight:"1px solid var(--border)" }}>
+        {pathsPanel(false)}
       </div>
       <div style={{ width:390, flexShrink:0, background:"var(--surface)", overflow:"hidden" }}>
         <CertProfile cert={cert} onClose={()=>setCert(null)} />
@@ -1192,29 +1331,46 @@ function AboutModal({ onClose, CERTS }) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
+// MOBILE HOOK
+// ═══════════════════════════════════════════════════════════════════════════
+
+function useIsMobile() {
+  const [m, setM] = useState(() => window.innerWidth < 768);
+  useEffect(() => {
+    const h = () => setM(window.innerWidth < 768);
+    window.addEventListener("resize", h);
+    return () => window.removeEventListener("resize", h);
+  }, []);
+  return m;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
 // NAV
 // ═══════════════════════════════════════════════════════════════════════════
 
-function Nav({ view, setView, CERTS, onAbout }) {
+function Nav({ view, setView, CERTS, onAbout, isMobile }) {
   return (
     <header style={{
       background:"var(--surface)", borderBottom:"1px solid var(--border)",
-      height:50, padding:"0 20px", display:"flex", alignItems:"center",
-      gap:24, flexShrink:0, position:"sticky", top:0, zIndex:50,
+      height:50, padding: isMobile ? "0 10px" : "0 20px", display:"flex", alignItems:"center",
+      gap: isMobile ? 8 : 24, flexShrink:0, position:"sticky", top:0, zIndex:50,
     }}>
       <div style={{ display:"flex", alignItems:"center", gap:9 }}>
         <div style={{ width:28, height:28, background:"linear-gradient(135deg,#4ade80,#22d3ee)", borderRadius:6, display:"flex", alignItems:"center", justifyContent:"center" }}>
           <span className="heading" style={{ fontSize:13, fontWeight:800, color:"#080c14" }}>EB</span>
         </div>
-        <span className="heading" style={{ fontSize:15, fontWeight:700, letterSpacing:"0.04em", color:"#c8daf8" }}>EBCERTMAP</span>
+        {!isMobile && <span className="heading" style={{ fontSize:15, fontWeight:700, letterSpacing:"0.04em", color:"#c8daf8" }}>EBCERTMAP</span>}
       </div>
       <nav style={{ display:"flex", gap:2 }}>
-        {[["cert","📋 Certs"],["skill","🧠 Skills"],["role","🎯 Roles"]].map(([v,label]) => (
+        {(isMobile
+          ? [["cert","📋"],["skill","🧠"],["role","🎯"]]
+          : [["cert","📋 Certs"],["skill","🧠 Skills"],["role","🎯 Roles"]]
+        ).map(([v,label]) => (
           <button key={v} className={`btn-nav${view===v?" active":""}`} onClick={() => setView(v)}>{label}</button>
         ))}
       </nav>
       <div style={{ marginLeft:"auto", display:"flex", alignItems:"center", gap:16 }}>
-        <span className="mono" style={{ fontSize:10.5, color:"var(--muted)" }}>{allCerts(CERTS).length} certs · {DOMAINS.length} domains · {SKILLS.length} skills</span>
+        {!isMobile && <span className="mono" style={{ fontSize:10.5, color:"var(--muted)" }}>{allCerts(CERTS).length} certs · {DOMAINS.length} domains · {SKILLS.length} skills</span>}
         <button className="btn" onClick={onAbout} style={{ fontSize:11.5 }}>About</button>
       </div>
     </header>
@@ -1226,6 +1382,7 @@ function Nav({ view, setView, CERTS, onAbout }) {
 // ═══════════════════════════════════════════════════════════════════════════
 
 export default function App() {
+  const isMobile = useIsMobile();
   const [view,    setView  ] = useState("cert");
   const [CERTS,   setCERTS ] = useState({});
   const [about,   setAbout ] = useState(false);
@@ -1241,11 +1398,11 @@ export default function App() {
 
   return (
     <div className="gridbg" style={{ height:"100vh", display:"flex", flexDirection:"column", overflow:"hidden" }}>
-      <Nav view={view} setView={setView} CERTS={CERTS} onAbout={()=>setAbout(true)} />
+      <Nav view={view} setView={setView} CERTS={CERTS} onAbout={()=>setAbout(true)} isMobile={isMobile} />
       <div style={{ flex:1, display:"flex", overflow:"hidden" }}>
-        {view==="cert"  && <CertView  CERTS={CERTS} setCERTS={setCERTS} />}
-        {view==="skill" && <SkillsView CERTS={CERTS} />}
-        {view==="role"  && <RoleView  CERTS={CERTS} setCERTS={setCERTS} />}
+        {view==="cert"  && <CertView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
+        {view==="skill" && <SkillsView CERTS={CERTS} isMobile={isMobile} />}
+        {view==="role"  && <RoleView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
       </div>
       {about && <AboutModal CERTS={CERTS} onClose={()=>setAbout(false)} />}
     </div>
