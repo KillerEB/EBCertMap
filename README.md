@@ -155,5 +155,5 @@ You are free to share and adapt this work, including the curated cert data, as l
 ---
 
 <div align="center">
-  <a href="https://buymeacoffee.com/eladbar">☕ Buy me a coffee</a>
+  <a href="https://www.patreon.com/15883459/join">♥ Support on Patreon</a>
 </div>

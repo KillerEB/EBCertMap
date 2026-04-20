@@ -1167,13 +1167,13 @@ function AboutModal({ onClose, CERTS }) {
           {tab === "support" && (
             <div style={{ display:"flex", flexDirection:"column", gap:14, alignItems:"center", paddingTop:8 }}>
               <div style={{ fontSize:13, color:"var(--mid)", lineHeight:1.75, textAlign:"center", maxWidth:340 }}>
-                EBCertMap is a free, passion-built project. If it saved you time or helped you pick a cert, consider buying me a coffee ☕
+                EBCertMap is a free, passion-built project. If it saved you time or helped you pick a cert, consider supporting it on Patreon.
               </div>
-              <a href="https://buymeacoffee.com/eladbar" target="_blank" rel="noopener noreferrer"
-                style={{ display:"inline-flex", alignItems:"center", gap:8, background:"#ffdd00", color:"#000", fontWeight:700, fontSize:13.5, padding:"10px 22px", borderRadius:8, textDecoration:"none", transition:"opacity 0.15s" }}
+              <a href="https://www.patreon.com/15883459/join" target="_blank" rel="noopener noreferrer"
+                style={{ display:"inline-flex", alignItems:"center", gap:8, background:"#FF424D", color:"#fff", fontWeight:700, fontSize:13.5, padding:"10px 22px", borderRadius:8, textDecoration:"none", transition:"opacity 0.15s" }}
                 onMouseEnter={e=>e.currentTarget.style.opacity="0.85"}
                 onMouseLeave={e=>e.currentTarget.style.opacity="1"}>
-                ☕ Buy me a coffee
+                ♥ Support on Patreon
               </a>
               <div style={{ fontSize:11, color:"var(--muted)", marginTop:4 }}>No account needed · one-time or recurring</div>
             </div>
