@@ -1257,8 +1257,8 @@
     "full_name": "Microsoft Certified: Azure Security Engineer Associate",
     "issuing_body": "Microsoft",
     "domain": [
-      "iam",
-      "cloud_security"
+      "cloud_security",
+      "iam"
     ],
     "subdomain": [
       "access_management",

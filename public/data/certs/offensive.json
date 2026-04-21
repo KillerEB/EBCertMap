@@ -166,8 +166,7 @@
     "issuing_body": "EC-Council",
     "domain": [
       "offensive",
-      "ot_ics_iot",
-      "cloud_security"
+      "appsec"
     ],
     "subdomain": [
       "network_pentesting",
@@ -2438,7 +2437,8 @@
     "full_name": "GIAC Exploit Researcher and Advanced Penetration Tester",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "offensive"
+      "offensive",
+      "appsec"
     ],
     "subdomain": [
       "exploit_development",
@@ -2484,56 +2484,6 @@
       "salary_impact": 7,
       "time_to_prepare": 7,
       "overall": 5.9
-    }
-  },
-  {
-    "id": "geva",
-    "acronym": "GEVA",
-    "full_name": "GIAC Enterprise Vulnerability Assessor",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "offensive",
-      "vulnerability_management"
-    ],
-    "subdomain": [
-      "exploit_development",
-      "vulnerability_assessment"
-    ],
-    "level": "intermediate",
-    "practical_weight": 15,
-    "cost_usd": 999,
-    "renewal": "4 years (36 CPEs + $499)",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "enterprise_vulnerability_assessment",
-      "vulnerability_scanning_methodology",
-      "vulnerability_prioritization",
-      "risk_based_remediation",
-      "vulnerability_reporting"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "vulnerability_management_fundamentals",
-        "networking",
-        "security_operations"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "GIAC's enterprise vulnerability assessment certification covering vulnerability scanning methodology, prioritization, and remediation tracking. DoD 8140 approved. Associated with SANS SEC460/LDR516. Primarily MCQ at 15% practical weight. Sits at the intersection of offensive vulnerability identification and defensive vulnerability management \u2014 more relevant to VM program owners than pure offensive practitioners. Note: GEVA was previously in abeyance (not purchasable) but is listed as active as of April 2026.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/enterprise-vulnerability-assessor-geva/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 2,
-      "employer_recognition": 6,
-      "community_respect": 4,
-      "salary_impact": 6,
-      "time_to_prepare": 4,
-      "overall": 4.1
     }
   },
   {
@@ -3210,7 +3160,7 @@
   {
     "id": "osai",
     "acronym": "OSAI",
-    "full_name": "OffSec AI Red Teamer",
+    "full_name": "OffSec AI Red Teamer (OSAI / OSAI+)",
     "issuing_body": "OffSec",
     "domain": [
       "offensive",
@@ -3222,10 +3172,10 @@
     "level": "expert",
     "practical_weight": 100,
     "cost_usd": 1749,
-    "renewal": "OSAI: Lifetime / OSAI+: 3 years ($299/yr AMP or retake)",
+    "renewal": "Lifetime (OSAI) / 3 years (OSAI+, higher pass threshold, CPE or retake)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": null,
+    "geographic_note": "OSAI and OSAI+ are the same exam and content. OSAI+ requires a higher pass threshold and expires every 3 years. Earliest OSAI+ exam date July 15, 2026. Same model as OSCP/OSCP+.",
     "skills": [
       "ai_red_teaming_methodology",
       "llm_red_teaming",
@@ -3616,6 +3566,1478 @@
       "salary_impact": 1,
       "time_to_prepare": 1,
       "overall": 1.7
+    }
+  },
+  {
+    "id": "thm-pt1",
+    "acronym": "PT1",
+    "full_name": "TryHackMe Penetration Tester Level 1",
+    "issuing_body": "TryHackMe",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "penetration_testing",
+      "web_application_testing"
+    ],
+    "level": "beginner",
+    "practical_weight": 80,
+    "cost_usd": 297,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Launched mid-2025. 48-hour hands-on exam, AI-graded report, unproctored. Credential verified on Credly.",
+    "skills": [
+      "penetration_testing",
+      "web_application_testing",
+      "network_penetration_testing",
+      "active_directory_attacks",
+      "report_writing",
+      "exploitation_techniques"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic networking",
+        "Basic Linux",
+        "Basic web concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TryHackMe's practical pentesting certification, launched mid-2025. The PT1 is a 48-hour hands-on exam covering web application testing, network pentesting, and Active Directory attacks, with AI-graded report submission. Lifetime validity, Credly-verified, $297 price point \u2014 significantly cheaper than PNPT ($499) or OSCP ($1,699). The AI-graded reporting and unproctored format are honest limitations versus OSCP or PNPT, but the practical coverage and accessibility make it a reasonable stepping stone for entry-level practitioners before pursuing more rigorous credentials. Positioned between TCM Security PJPT and PNPT in the practical pentest cert ladder.",
+    "flags": [
+      "new",
+      "hands_on",
+      "low_cost"
+    ],
+    "official_url": "https://tryhackme.com/certifications/pt1",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 6,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cnpen",
+    "acronym": "CNPen",
+    "full_name": "SecOps Group Certified Network Pentester",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "network_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "network_penetration_testing",
+      "active_directory_attacks",
+      "lateral_movement",
+      "privilege_escalation",
+      "nmap",
+      "metasploit"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250). Internal/external network pentesting. Listed in Synack Red Team's preferred pathway. Covers recon, exploitation, AD basics, and post-exploitation. Practical lab. A solid budget alternative before pursuing OSCP or PNPT.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cpen",
+    "acronym": "CPen",
+    "full_name": "SecOps Group Certified Pentester",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "penetration_testing",
+      "web_application_testing",
+      "network_penetration_testing",
+      "report_writing"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250). Combined web + network pentesting credential. Black Hat co-branded as BCPen (Black Hat Certified Pentester) when offered at SecTor. Broader scope than CAPen or CNPen individually.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cmpen-android",
+    "acronym": "CMPen-Android",
+    "full_name": "SecOps Group Certified Mobile Pentester Android",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "android_security",
+      "apk_analysis",
+      "frida_instrumentation",
+      "ssl_pinning_bypass",
+      "mobile_application_testing"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250). Android mobile pentesting \u2014 APK decompilation, Frida dynamic instrumentation, SSL pinning bypass, intent exploitation. Practical lab. One of few affordable mobile pentesting certs alongside eMAPT.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cmpen-ios",
+    "acronym": "CMPen-iOS",
+    "full_name": "SecOps Group Certified Mobile Pentester iOS",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "ios_security",
+      "ios_reverse_engineering",
+      "jailbreak_detection_bypass",
+      "keychain_analysis",
+      "mobile_application_testing"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250). iOS mobile pentesting \u2014 jailbreak detection bypass, Frida on iOS, IPA analysis, Keychain extraction, method swizzling. Practical lab. Pairs with CMPen-Android for full mobile coverage.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-crteamer",
+    "acronym": "CRTeamer",
+    "full_name": "SecOps Group Certified Red Teamer",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "red_team_operations",
+      "active_directory_attacks",
+      "c2_operations",
+      "kerberos_attacks",
+      "evasion_techniques"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~5-hr practical AD CTF, \u00a3250). Full AD red team CTF \u2014 C2 setup, Kerberoasting, DCSync, lateral movement, evasion basics. Practical lab using a VPN-connected AD environment. Step toward CRTeamerX.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-crteamer-x",
+    "acronym": "CRTeamerX",
+    "full_name": "SecOps Group Certified Red Teamer eXpert",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 510,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "red_team_operations",
+      "byovd",
+      "active_directory_attacks",
+      "kerberos_attacks",
+      "edr_evasion",
+      "cross_forest_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Advanced red team \u2014 BYOVD, LSASS dump evasion, complex Kerberos delegation chains, cross-forest attacks, AV/EDR bypass. SecOps Group's hardest red team credential.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cadpenx",
+    "acronym": "C-ADPenX",
+    "full_name": "SecOps Group Certified Active Directory Pentesting eXpert",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "active_directory_attacks"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 510,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "active_directory_attacks",
+      "kerberoasting",
+      "bloodhound",
+      "gpo_abuse",
+      "adcs_attacks",
+      "azure_ad_attacks",
+      "cross_forest_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Multi-forest AD + Entra hybrid \u2014 Kerberoasting, BloodHound path analysis, GPO abuse, ADCS ESC chains, Entra ID integration attacks. Comprehensive AD/hybrid credential at an accessible price point.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cbfrpro",
+    "acronym": "CBFRPro",
+    "full_name": "SecOps Group Certified Binary Fuzzing and Reversing Professional",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "reverse_engineering"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "binary_fuzzing",
+      "reverse_engineering",
+      "afl_fuzzing",
+      "ida_pro",
+      "ghidra",
+      "memory_corruption",
+      "exploit_development"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250, mid-2025). Binary fuzzing and reverse engineering \u2014 AFL++, IDA Pro/Ghidra workflow, memory-corruption identification, crash analysis. Fills a gap in affordable RE certifications alongside GREM.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-ckbpro",
+    "acronym": "CKBPro",
+    "full_name": "SecOps Group Certified Kiosk Breakout Professional",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "physical_security_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "kiosk_security",
+      "windows_restricted_environment",
+      "assigned_access_bypass",
+      "privilege_escalation"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250, Oct 2025). Windows Assigned Access and kiosk escape testing \u2014 bypassing locked-down environments, escalating from kiosk context to full desktop. Niche but relevant for physical security assessors and corporate environment testers.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-caimlpen",
+    "acronym": "C-AI/MLPen",
+    "full_name": "SecOps Group Certified AI/ML Pentester",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive",
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_security_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "ai_security",
+      "llm_security",
+      "prompt_injection",
+      "owasp_llm_top_10",
+      "model_extraction",
+      "adversarial_ml"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-hr practical, \u00a3250). LLM and ML model security testing \u2014 prompt injection, OWASP LLM Top 10, model extraction, adversarial inputs. Practical hands-on exam format distinguishes it from purely theoretical AI security certs.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cagaipen",
+    "acronym": "C-AgAIPen",
+    "full_name": "SecOps Group Certified Agentic AI Pentester",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "offensive",
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_security_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "ai_security",
+      "agentic_ai_security",
+      "owasp_agentic_top_10",
+      "tool_abuse",
+      "goal_hijacking",
+      "llm_security"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (\u00a3250, 2025). Agentic AI security testing \u2014 OWASP Agentic AI Top 10, tool misuse in multi-agent systems, goal hijacking, autonomous AI exploitation. One of the first certifications specifically targeting agentic AI attack surface. Pairs with C-AI/MLPen.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-ccpenx-aws",
+    "acronym": "CCPenX-AWS",
+    "full_name": "SecOps Group Certified Cloud Pentesting eXpert AWS",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 510,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "aws_security",
+      "cloud_penetration_testing",
+      "iam_privilege_escalation",
+      "lambda_abuse",
+      "cross_account_attacks",
+      "s3_exploitation"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "eXpert-tier (~7-hr practical, \u00a3400). AWS cloud pentesting \u2014 Lambda function abuse, IAM privilege escalation, cross-account role chaining, S3 bucket exploitation. Practical AWS lab environment. Budget alternative to ARTE for cloud red team coverage.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-ccpenx-azure",
+    "acronym": "CCPenX-Azure",
+    "full_name": "SecOps Group Certified Cloud Pentesting eXpert Azure",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 510,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "azure_security",
+      "cloud_penetration_testing",
+      "entra_id_attacks",
+      "azure_storage_exploitation",
+      "app_registration_abuse"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Azure cloud pentesting \u2014 Entra ID token abuse, storage exploitation, App Registration abuse, Azure AD Connect attacks. Live Azure lab environment.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "cwl-crta",
+    "acronym": "CRTA",
+    "full_name": "CyberWarFare Labs Certified Red Team Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "beginner",
+    "practical_weight": 80,
+    "cost_usd": 99,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "red_team_operations",
+      "active_directory_attacks",
+      "lateral_movement",
+      "privilege_escalation",
+      "c2_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Flag-based practical exam, 6-hour window ($99). Entry-level AD red team \u2014 recon, enumeration, Kerberos attacks, lateral movement, privilege escalation. CWL's entry-point for red team certification. Heavy discounts routine.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-crts",
+    "acronym": "CRTS",
+    "full_name": "CyberWarFare Labs Certified Red Team Specialist v2",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 199,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "red_team_operations",
+      "active_directory_attacks",
+      "evasion_techniques",
+      "c2_operations",
+      "kerberos_attacks",
+      "lateral_movement"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical + report, 24+24 hr ($199). Intermediate AD red team with C2 operations, Kerberos abuse, EDR evasion, and professional report requirement. v2 refreshed with modern TTPs. Positioned between CRTA and CSCO.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-crt-id",
+    "acronym": "CRT-ID",
+    "full_name": "CyberWarFare Labs Certified Red Team Infra Developer",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 49,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "red_team_infrastructure",
+      "c2_infrastructure",
+      "redirectors",
+      "operational_security",
+      "phishing_infrastructure"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Flag-based CTF, 6-hr ($49). Red team infrastructure development \u2014 C2 server setup, redirectors, domain fronting, phishing infrastructure, OPSEC for operators. Affordable and unique focus area.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-ad-rts",
+    "acronym": "AD-RTS",
+    "full_name": "CyberWarFare Labs Active Directory Red Team Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "active_directory_attacks"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 49,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "active_directory_attacks",
+      "kerberos_attacks",
+      "bloodhound",
+      "privilege_escalation",
+      "lateral_movement"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Flag-based lab, 30-day access window ($49). Deep AD exploitation \u2014 BloodHound graph analysis, Kerberoasting, AS-REP roasting, Pass-the-Hash/Ticket, DCSync, ACL abuse. Long window suits methodical learners.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-celms",
+    "acronym": "CELMS",
+    "full_name": "CyberWarFare Labs Certified Enterprise Lateral Movement Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 149,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "lateral_movement",
+      "active_directory_attacks",
+      "credential_access",
+      "network_pivoting",
+      "tunneling"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical + report, 24+24 hr, 85% pass ($149). Lateral movement specialization \u2014 credential harvesting, network pivoting, tunneling, living-off-the-land techniques across enterprise networks. Niche focus uncommon in other cert catalogs.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cesc-as",
+    "acronym": "CESC-AS",
+    "full_name": "CyberWarFare Labs Certified Enterprise Security Controls Attack Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 299,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "edr_evasion",
+      "security_control_bypass",
+      "active_directory_attacks",
+      "defense_evasion",
+      "antivirus_bypass"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "24-hr practical + report ($299). Enterprise security control bypass \u2014 EDR/AV evasion, AMSI bypass, ETW patching, security tooling blind-spots. Practical lab against hardened environments. Strong complement to CRTS.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cwi-rto",
+    "acronym": "CWI-RTO",
+    "full_name": "CyberWarFare Labs Certified Windows Internals Red Team Operator",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 299,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "windows_internals",
+      "process_injection",
+      "edr_evasion",
+      "kernel_concepts",
+      "offensive_tool_development"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical + report, 12+12 hr, 75% pass ($299). Windows internals for red teamers \u2014 process injection techniques, token manipulation, handle inheritance abuse, EDR blind spots via Windows internals knowledge. Bridges tool-use and development.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-csco",
+    "acronym": "CSCO",
+    "full_name": "CyberWarFare Labs Certified Stealth Cyber Operator",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 599,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "advanced_evasion",
+      "red_team_operations",
+      "opsec",
+      "c2_operations",
+      "active_directory_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Timed practical, instructor-evaluated ($599). CWL's top-tier red team credential. Advanced stealth operations \u2014 OPSEC-conscious adversary simulation, advanced evasion, complex AD exploitation. Instructor-reviewed report.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cedp",
+    "acronym": "CEDP",
+    "full_name": "CyberWarFare Labs Certified Exploit Development Professional",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "exploit_development"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 199,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "exploit_development",
+      "buffer_overflow",
+      "shellcode_development",
+      "binary_exploitation",
+      "rop_chains"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical + report, 24+24 hr, 85% pass ($199). Exploit development \u2014 stack/heap overflows, ROP chains, shellcode development, DEP/ASLR bypass techniques. Affordable entry into binary exploitation credentialing.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-crt-coi",
+    "acronym": "CRT-COI",
+    "full_name": "CyberWarFare Labs Certified Red Team CredOps Infiltrator",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 59,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "credential_access",
+      "password_attacks",
+      "credential_dumping",
+      "lateral_movement",
+      "active_directory_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "MCQ, 100% pass, unlimited attempts ($59). Credential operations and access \u2014 password attacks, NTLM hash dumping, credential spraying, pass-the-hash. Lower bar entry-level credential. MCQ format.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cpta",
+    "acronym": "CPTA",
+    "full_name": "CyberWarFare Labs Certified Purple Team Analyst v2",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive",
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "purple_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 199,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "purple_team_operations",
+      "threat_detection",
+      "attack_simulation",
+      "detection_rule_development",
+      "mitre_attack_framework"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical, instructor-evaluated ($199). Purple team operations \u2014 structured attack-detect-respond cycles, ATT&CK mapping, detection rule validation, offensive and defensive perspective integration. v2 refreshed with modern enterprise scenarios.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-copia",
+    "acronym": "COPO",
+    "full_name": "CyberWarFare Labs Certified Offensive Phishing Operator",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "social_engineering"
+    ],
+    "level": "beginner",
+    "practical_weight": 60,
+    "cost_usd": 99,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "phishing_campaigns",
+      "email_security",
+      "social_engineering",
+      "phishing_infrastructure",
+      "credential_harvesting"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Completion-based ($99). Offensive phishing operations \u2014 GoPhish/Evilginx setup, email spoofing, phishing page creation, credential harvesting infrastructure, anti-detection techniques.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cpia",
+    "acronym": "CPIA",
+    "full_name": "CyberWarFare Labs Certified Process Injection Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "exploit_development"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 49,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "process_injection",
+      "windows_internals",
+      "malware_analysis_basics",
+      "edr_evasion"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "MCQ, 100% pass, unlimited attempts ($49). Process injection techniques \u2014 DLL injection, reflective injection, process hollowing, APC injection. MCQ format covering theory and use-case identification.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-ccse",
+    "acronym": "CCSE",
+    "full_name": "CyberWarFare Labs Certified Cyber Security Engineer",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_operations",
+      "security_architecture_design"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 199,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "security_architecture_design",
+      "security_hardening",
+      "network_security_fundamentals",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical + report, 24+24 hr ($199). Broad cyber security engineering \u2014 system hardening, network security design, security controls implementation, incident response. Defensive counterpart to the CWL red team stack.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "wkl-elpt",
+    "acronym": "ELPT",
+    "full_name": "White Knight Labs Entry Level Penetration Tester Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "penetration_testing"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 450,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "penetration_testing",
+      "reconnaissance",
+      "exploitation_techniques",
+      "privilege_escalation",
+      "report_writing",
+      "post_exploitation"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's entry-level certification. 48-hr practical + 48-hr professional report. Full pentest lifecycle \u2014 recon, enumeration, exploitation, post-exploitation, pivoting, and commercial-grade report writing. All practical, no MCQ. ~$400-500 on-demand with 1 voucher; $50-100 exam-only retake. Good transition credential for practitioners moving from home labs to professional reporting standard.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "wkl-oadoc",
+    "acronym": "OADOC",
+    "full_name": "White Knight Labs Offensive Active Directory Operations Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "active_directory_attacks"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 1200,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "active_directory_attacks",
+      "kerberos_attacks",
+      "adcs_attacks",
+      "ad_federation_services",
+      "sccm_attacks",
+      "cross_forest_attacks",
+      "privilege_escalation"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's AD specialist certification. 48-hr practical + 48-hr report in a private AWS-hosted AD lab. Modern AD exploitation \u2014 Kerberos delegation abuse, ADCS ESC chains, AD Federation Services attacks, SCCM exploitation, cross-forest trust abuse. Goes beyond standard CRTP/CRTE content into newer attack paths. Live at conferences (DEF CON/NorthSec) at $2,200-2,500.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "wkl-artoc",
+    "acronym": "ARTOC",
+    "full_name": "White Knight Labs Advanced Red Team Operations Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "red_team_operations"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 2000,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "red_team_operations",
+      "c2_infrastructure",
+      "active_directory_attacks",
+      "adcs_attacks",
+      "edr_evasion",
+      "cloud_c2",
+      "operational_security"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's flagship red team certification. 48-hr practical + 48-hr report, Cobalt Strike + Havoc in stigs-corp.local lab. Multi-cloud C2 infrastructure (redirectors on AWS/Azure/GCP CDNs), advanced AD + ADCS exploitation, and AV/EDR evasion. DEF CON 2025 featured. ~$2,000 on-demand, $2,200 live. The most operator-realistic WKL credential \u2014 C2 infra setup is baked into the exam scope rather than assumed.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "wkl-odpc",
+    "acronym": "ODPC",
+    "full_name": "White Knight Labs Offensive Development Practitioner Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "exploit_development",
+      "red_team_operations"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 500,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "offensive_tool_development",
+      "malware_development",
+      "amsi_bypass",
+      "etw_bypass",
+      "process_injection",
+      "edr_evasion",
+      "kernel_evasion"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's malware and offensive development certification. $500 on-demand (most affordable WKL cert), $2,200 live (DEF CON 2025). Offensive tool/implant development in C and Go \u2014 AMSI bypass, ETW patching, process injection variants, AV/EDR bypass techniques, and kernel-mode evasion concepts. Performance-based practical + report. Bridges gap between tool-user and tool-builder credentials. Pairs naturally with ARTOC.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
     }
   }
 ]

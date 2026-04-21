@@ -5,8 +5,8 @@
     "full_name": "GIAC Cyber Threat Intelligence",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "threat_intelligence",
-      "dfir"
+      "dfir",
+      "threat_intelligence"
     ],
     "subdomain": [
       "threat_intelligence_analysis",
@@ -59,6 +59,7 @@
     "full_name": "Certified Threat Intelligence Analyst",
     "issuing_body": "EC-Council",
     "domain": [
+      "dfir",
       "threat_intelligence"
     ],
     "subdomain": [
@@ -408,59 +409,6 @@
     }
   },
   {
-    "id": "ceh",
-    "acronym": "CEH",
-    "full_name": "Certified Ethical Hacker",
-    "issuing_body": "EC-Council",
-    "domain": [
-      "threat_intelligence",
-      "offensive"
-    ],
-    "subdomain": [
-      "threat_intelligence_analysis"
-    ],
-    "level": "intermediate",
-    "practical_weight": 20,
-    "cost_usd": 950,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "attacker_methodology",
-      "reconnaissance_techniques",
-      "network_scanning",
-      "vulnerability_identification",
-      "exploitation_awareness",
-      "social_engineering_awareness",
-      "malware_concepts"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "networking_fundamentals",
-        "security_basics",
-        "operating_system_familiarity"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "EC-Council's flagship certification and one of the most recognized security credentials globally \u2014 primarily due to DoD 8140 approval and heavy marketing rather than practitioner endorsement. Covers attacker methodology, reconnaissance, scanning, and exploitation techniques from a conceptual perspective that is useful for understanding threat actor tradecraft. DoD 8140 approved which is its primary value. The practitioner community is frequently critical of CEH \u2014 it's broad, exam-focused, and doesn't validate hands-on skill the way OSCP or BSCP do. But its DoD recognition keeps it in constant demand for government and contractor roles where the checkbox matters.",
-    "flags": [
-      "low_community_respect"
-    ],
-    "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 3,
-      "practical_depth": 1,
-      "employer_recognition": 8,
-      "community_respect": 2,
-      "salary_impact": 6,
-      "time_to_prepare": 3,
-      "overall": 3.7
-    }
-  },
-  {
     "id": "gsoa",
     "acronym": "GSOA",
     "full_name": "GIAC Strategic OSINT Analyst",
@@ -512,6 +460,58 @@
       "salary_impact": 6,
       "time_to_prepare": 6,
       "overall": 5.7
+    }
+  },
+  {
+    "id": "osip",
+    "acronym": "OSIP",
+    "full_name": "IntelTechniques OSINT Investigator Professional",
+    "issuing_body": "IntelTechniques",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "osint",
+      "open_source_intelligence"
+    ],
+    "level": "intermediate",
+    "practical_weight": 90,
+    "cost_usd": 300,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Requires ~$550 IntelTechniques training membership before exam eligibility. 1-on-1 live proctored with Jason Edison. Low volume \u2014 boutique credential.",
+    "skills": [
+      "osint_methodology",
+      "social_media_intelligence",
+      "online_investigation",
+      "digital_footprint_analysis",
+      "subject_profiling",
+      "privacy_protection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Completion of IntelTechniques OSINT training membership (~$550)",
+        "OSINT methodology fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Michael Bazzell's (IntelTechniques) formal OSINT certification, developed and proctored by Jason Edison. One of the few OSINT credentials using live 1-on-1 proctoring with a scenario-based investigation format rather than MCQ or automated grading. $300 exam fee requires prior completion of the IntelTechniques training membership (~$550), making total cost ~$850. Lifetime validity, no renewal. Low volume boutique credential with strong community respect in the OSINT and privacy community \u2014 Bazzell's podcast and methodology are widely cited by law enforcement and security practitioners. Complements GSOA for practitioners who want both automation/scale (GIAC) and investigative tradecraft (IntelTechniques) coverage.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://www.inteltechniques.net/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 8,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 5.8
     }
   }
 ]

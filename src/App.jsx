@@ -558,14 +558,21 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   }, [domain]);
 
   const hasCerts = domain === "all" ? Object.keys(CERTS).length > 0 : Boolean(CERTS[domain]);
-  const issuers  = useMemo(() =>
-    domain === "all"
-      ? [...new Set(allCerts(CERTS).map(c => c.issuing_body))].sort()
-      : getIssuers(domain, CERTS),
+  const domainCerts = useMemo(() =>
+    domain === "all" ? allCerts(CERTS) : allCerts(CERTS).filter(c => c.domain.includes(domain)),
     [domain, CERTS]);
+  const domainCounts = useMemo(() => {
+    const all = allCerts(CERTS);
+    const counts = { all: all.length };
+    DOMAINS.forEach(d => { counts[d.id] = all.filter(c => c.domain.includes(d.id)).length; });
+    return counts;
+  }, [CERTS]);
+  const issuers  = useMemo(() =>
+    [...new Set(domainCerts.map(c => c.issuing_body))].sort(),
+    [domainCerts]);
 
   const visible = useMemo(() => {
-    const list = domain === "all" ? allCerts(CERTS) : (CERTS[domain] || []);
+    const list = domainCerts;
     const filtered = list.filter(c => {
       const q = search.toLowerCase();
       if (q && !(c.acronym.toLowerCase().includes(q)||c.full_name.toLowerCase().includes(q)||c.issuing_body.toLowerCase().includes(q))) return false;
@@ -583,10 +590,10 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     if (sortBy==="cost")    sorted.sort((a,b)=>a.cost_usd-b.cost_usd);
     if (sortBy==="issuer")  sorted.sort((a,b)=>a.issuing_body.localeCompare(b.issuing_body));
     return sorted;
-  }, [domain,search,filterLevel,filterIssuer,filterCost,filterDod,filterPrac,sortBy,CERTS]);
+  }, [domainCerts,search,filterLevel,filterIssuer,filterCost,filterDod,filterPrac,sortBy]);
 
   const levelGroups = useMemo(() => {
-    const list = CERTS[domain] || [];
+    const list = domain === "all" ? [] : allCerts(CERTS).filter(c => c.domain.includes(domain));
     return LEVEL_ORDER.map(lvl=>({level:lvl,certs:list.filter(c=>c.level===lvl)})).filter(g=>g.certs.length>0);
   }, [domain, CERTS]);
 
@@ -599,13 +606,13 @@ function CertView({ CERTS, setCERTS, isMobile }) {
       <button key="all" className={`dpill${domain==="all"?" active":""}`} style={domain==="all"?{background:"#94a3b8",color:"#000"}:{}} onClick={()=>{setDomain("all");setCert(null);resetFilters();}}>
         <span className="dot" style={{ background:domain==="all"?"rgba(0,0,0,0.4)":"#94a3b8" }} />
         All
-        <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{allCerts(CERTS).length}</span>
+        <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{domainCounts.all ?? allCerts(CERTS).length}</span>
       </button>
       {DOMAINS.map(d => (
         <button key={d.id} className={`dpill${domain===d.id?" active":""}`} style={domain===d.id?{background:d.color}:{}} onClick={()=>{setDomain(d.id);setCert(null);resetFilters();}}>
           <span className="dot" style={{ background:domain===d.id?"rgba(0,0,0,0.4)":d.color }} />
           {d.short}
-          <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{CERTS[d.id]?.length ?? d.count}</span>
+          <span className="mono" style={{ fontSize:9.5, opacity:0.6 }}>{domainCounts[d.id] ?? d.count}</span>
         </button>
       ))}
     </>

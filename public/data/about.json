@@ -2,6 +2,11 @@
   "news": [
     {
       "date": "2026-04-21",
+      "title": "Huge update — 40+ new certs, 6 new issuers",
+      "body": "Thanks to all the feedback I got from all of you — this update is a big one. More than 40 new certificates across 6 new issuers have been added (see the Changelog for specifics). Cross-domain certs have also been fixed and fact-checked, so certs that belong to multiple domains now correctly show up everywhere they should. With all these new certs we now have a lot more possible paths for the roles view — expect a roles update soon!"
+    },
+    {
+      "date": "2026-04-21",
       "title": "Posted on r/cybersecurity — feedback welcome",
       "body": "EBCertMap is now live on Reddit for community review. If you have feedback on cert scores, missing certs, or domain coverage — drop it in the thread. Every data point helps. 🔗 reddit.com/r/cybersecurity/comments/1srpwfs"
     },
@@ -17,6 +22,18 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-04-21",
+      "title": "400+ Certs, New Vendors & Cross-Domain Fix",
+      "items": [
+        "Added 40+ new certs across 6 new vendors: The SecOps Group, CyberWarFare Labs, White Knight Labs, TryHackMe, PeopleCert/Axelos, Red Hat, PCI SSC, Chappell University, IntelTechniques",
+        "The SecOps Group — CNPen, CPen, CMPen-Android, CMPen-iOS, CRTeamer, CRTeamerX, C-ADPenX, CBFRPro, CKBPro, C-AI/MLPen, C-AgAIPen, CCPenX-AWS, CCPenX-Azure, CAP, CAPen, CAPenX, C-APIPen, CDAPen, CBTeamer, CNSP, CCSP-AWS, CBTP, CSEDP",
+        "CyberWarFare Labs — CRTA, CRTS, CRT-ID, AD-RTS, CELMS, CESC-AS, CWI-RTO, CSCO, CEDP, CRT-COI, CPTA, COPO, CPIA, CCSE, Web-RTA, API-RTA, MCRTA, AzRTS, CARTS, CGRTS, CHMRTS, DO-RTA, K8s-RTA, MCBTA",
+        "White Knight Labs — ASCPC, OAOTC, OGOTC, ELPT, OADOC, ARTOC, ODPC",
+        "TryHackMe — SAL1, PT1 | Red Hat — EX415 | PeopleCert/Axelos — RESILIA Foundation, RESILIA Practitioner, ITIL4-ISM | PCI SSC — PCIP | IntelTechniques — OSIP",
+        "Fixed cross-domain cert display — certs tagged with multiple domains now appear in all relevant domain views, with accurate per-domain cert counts"
+      ]
+    },
     {
       "date": "2026-04-21",
       "title": "Added IACIS Certifications",
@@ -41,7 +58,7 @@
       "date": "2026-04-19",
       "title": "Initial Project Launch",
       "items": [
-        "Built core cert browser across 15 domains with 363+ certs",
+        "Built core cert browser across 15 domains with 400+ certs",
         "Skills mapping view — select skills to find matching certs",
         "Role-based career path explorer with 40+ roles and 125+ cert path steps",
         "All-domains view with expandable sidebar grouped by domain then level",

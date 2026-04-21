@@ -480,65 +480,13 @@
     }
   },
   {
-    "id": "grid",
-    "acronym": "GRID",
-    "full_name": "GIAC Response and Industrial Defense",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "dfir",
-      "ot_ics_iot"
-    ],
-    "subdomain": [
-      "incident_response"
-    ],
-    "level": "intermediate",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "ot_incident_response",
-      "ics_forensics",
-      "scada_investigation",
-      "ot_network_analysis",
-      "it_ot_convergence_ir",
-      "industrial_protocol_analysis"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "ics_ot_fundamentals",
-        "incident_response_basics",
-        "networking_concepts",
-        "industrial_control_systems"
-      ],
-      "recommended_certs": [
-        "gcih"
-      ]
-    },
-    "summary": "Specialized incident response certification for OT/ICS environments \u2014 one of the few certs bridging the IT/OT gap from a DFIR perspective. Covers incident response and forensic investigation in industrial control system environments, including SCADA systems and industrial protocols. DoD 8140 approved and highly valued in critical infrastructure, energy, utilities, and manufacturing sectors. If you work in or want to move into OT security with an IR focus, this is the primary credentialing path and has very little competition in its niche.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/response-industrial-defense-grid/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 7,
-      "community_respect": 7,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.6
-    }
-  },
-  {
     "id": "gnfa",
     "acronym": "GNFA",
     "full_name": "GIAC Network Forensic Analyst",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "dfir"
+      "dfir",
+      "network_security"
     ],
     "subdomain": [
       "network_forensics"
@@ -793,57 +741,6 @@
       "salary_impact": 5,
       "time_to_prepare": 5,
       "overall": 4.4
-    }
-  },
-  {
-    "id": "gcti",
-    "acronym": "GCTI",
-    "full_name": "GIAC Cyber Threat Intelligence",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "dfir",
-      "threat_intelligence"
-    ],
-    "subdomain": [
-      "threat_hunting"
-    ],
-    "level": "intermediate",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "threat_intelligence_analysis",
-      "attacker_attribution",
-      "ttp_mapping",
-      "mitre_attack_framework",
-      "intel_collection_planning",
-      "threat_report_writing",
-      "ioc_analysis"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals",
-        "attacker_techniques_awareness",
-        "basic_networking"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "The primary CTI certification from GIAC and one of the few that covers intelligence analysis methodology rather than just tool operation. Covers the intelligence cycle, TTP analysis, MITRE ATT&CK framework application, attribution, and threat report writing. DoD 8140 approved. Sits at the intersection of DFIR and threat intelligence \u2014 useful for DFIR analysts who want to incorporate intelligence into investigations and for CTI analysts who want forensics context. Not deeply technical compared to GCFA or GREM but provides the analytical framework that technical analysts often lack.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/cyber-threat-intelligence-gcti/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 3,
-      "employer_recognition": 7,
-      "community_respect": 7,
-      "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 5.4
     }
   },
   {
@@ -1586,56 +1483,6 @@
     }
   },
   {
-    "id": "ctia",
-    "acronym": "CTIA",
-    "full_name": "Certified Threat Intelligence Analyst",
-    "issuing_body": "EC-Council",
-    "domain": [
-      "dfir",
-      "threat_intelligence"
-    ],
-    "subdomain": [
-      "threat_hunting"
-    ],
-    "level": "intermediate",
-    "practical_weight": 20,
-    "cost_usd": 450,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "threat_intelligence_lifecycle",
-      "ioc_analysis",
-      "threat_actor_profiling",
-      "ttp_analysis",
-      "intel_reporting",
-      "open_source_intelligence"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals",
-        "networking_basics",
-        "attacker_techniques_awareness"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "EC-Council's threat intelligence certification covering the intelligence lifecycle, IOC analysis, threat actor profiling, and reporting. Not DoD 8140 approved, which limits its appeal compared to GCTI in government contexts. In the practitioner community GCTI is more respected \u2014 CTIA covers similar ground but EC-Council's theory-heavy approach means it validates knowledge of the framework more than actual analytical skill. Serves the same market position as GCTI but with less employer recognition. Worth considering if the price point matters and you're not targeting government roles.",
-    "flags": [],
-    "official_url": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 2,
-      "employer_recognition": 4,
-      "community_respect": 3,
-      "salary_impact": 4,
-      "time_to_prepare": 4,
-      "overall": 3.2
-    }
-  },
-  {
     "id": "cco",
     "acronym": "CCO",
     "full_name": "Cellebrite Certified Operator",
@@ -2247,63 +2094,6 @@
       "salary_impact": 3,
       "time_to_prepare": 3,
       "overall": 3.6
-    }
-  },
-  {
-    "id": "gcil",
-    "acronym": "GCIL",
-    "full_name": "GIAC Cyber Incident Leader",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "dfir",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "incident_response"
-    ],
-    "level": "expert",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "incident_response_leadership",
-      "crisis_communication",
-      "ir_team_coordination",
-      "stakeholder_management",
-      "executive_reporting",
-      "ir_strategy",
-      "tabletop_exercise_facilitation"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "incident_response_advanced",
-        "leadership_experience",
-        "communication_skills",
-        "organizational_dynamics"
-      ],
-      "recommended_certs": [
-        "gcih",
-        "gcfa"
-      ]
-    },
-    "summary": "GIAC's newest IR certification focused on leadership and management of incident response operations rather than technical analysis \u2014 launched 2025. Covers leading IR teams, crisis communication, executive reporting, and coordinating large-scale incident response. Addresses the gap between technical DFIR skills and the leadership capabilities needed by senior IR managers and CISO-level incident commanders. Not yet DoD 8140 listed. A meaningful credential for senior practitioners transitioning from technical IR roles to IR leadership without fully leaving the incident response space.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.giac.org/certifications/cyber-incident-leader-gcil/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 6,
-      "time_to_prepare": 6,
-      "overall": 5.1
     }
   },
   {

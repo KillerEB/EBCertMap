@@ -152,56 +152,6 @@
     }
   },
   {
-    "id": "cism",
-    "acronym": "CISM",
-    "full_name": "Certified Information Security Manager",
-    "issuing_body": "ISACA",
-    "domain": [
-      "oversight_leadership",
-      "grc",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "security_program_management",
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 760,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "information_security_governance",
-      "information_risk_management",
-      "security_program_development_and_management",
-      "incident_management_governance"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_management_experience",
-        "risk_management",
-        "governance_frameworks"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "ISACA's information security management certification and one of the most recognized credentials for security managers and CISOs globally. Requires five years of IS management experience with three in security management. DoD 8140 approved. CISM is explicitly management and governance-focused \u2014 it validates the ability to design, implement, and manage an enterprise security program rather than technical security skills. Consistently listed alongside CISSP in senior security management job requirements. Particularly valued in financial services, insurance, and any environment where the CISO is primarily a governance and risk oversight role.",
-    "flags": [],
-    "official_url": "https://www.isaca.org/credentialing/cism",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 2,
-      "employer_recognition": 9,
-      "community_respect": 7,
-      "salary_impact": 9,
-      "time_to_prepare": 7,
-      "overall": 6.1
-    }
-  },
-  {
     "id": "gslc",
     "acronym": "GSLC",
     "full_name": "GIAC Security Leadership Certification",
@@ -313,8 +263,8 @@
     "full_name": "GIAC Cyber Incident Leader",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "oversight_leadership",
-      "dfir"
+      "dfir",
+      "oversight_leadership"
     ],
     "subdomain": [
       "security_program_management"
@@ -559,111 +509,6 @@
       "salary_impact": 7,
       "time_to_prepare": 5,
       "overall": 4.5
-    }
-  },
-  {
-    "id": "cgeit",
-    "acronym": "CGEIT",
-    "full_name": "Certified in the Governance of Enterprise IT",
-    "issuing_body": "ISACA",
-    "domain": [
-      "oversight_leadership",
-      "grc",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 760,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "it_governance_framework",
-      "strategic_alignment",
-      "value_delivery_governance",
-      "risk_optimization",
-      "resource_optimization",
-      "performance_measurement"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "it_governance",
-        "enterprise_architecture_concepts",
-        "business_strategy_alignment"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "ISACA's IT governance certification covering strategic alignment of IT with business objectives, value delivery, risk optimization, and resource management. Not DoD 8140 approved. Targeted at CIOs, IT directors, and senior executives responsible for IT governance rather than operational security practitioners. Requires five years of IT governance experience. CGEIT sits above CISM in seniority \u2014 CISM is for security managers, CGEIT is for IT governance executives. For senior CISOs and IT executives who need to demonstrate governance competency at the board and executive level, CGEIT complements CISSP and CISM well.",
-    "flags": [],
-    "official_url": "https://www.isaca.org/credentialing/cgeit",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 2,
-      "employer_recognition": 7,
-      "community_respect": 6,
-      "salary_impact": 8,
-      "time_to_prepare": 7,
-      "overall": 5.2
-    }
-  },
-  {
-    "id": "cissp",
-    "acronym": "CISSP",
-    "full_name": "Certified Information Systems Security Professional",
-    "issuing_body": "ISC2",
-    "domain": [
-      "oversight_leadership",
-      "security_architecture",
-      "grc",
-      "iam"
-    ],
-    "subdomain": [
-      "security_program_management",
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 749,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_architecture_design",
-      "security_program_management",
-      "risk_management",
-      "security_operations_governance",
-      "iam_governance",
-      "software_security_governance"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals_advanced",
-        "networking",
-        "risk_management",
-        "cryptography_concepts"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "The gold standard senior security certification globally and the single most career-impactful security credential available. Requires five years of paid work experience in two or more of the eight CISSP domains. DoD 8140 approved and expected for CISO, security director, and senior security architect roles. The breadth of CISSP's eight domains means it validates strategic and managerial security knowledge across the full security landscape. Despite criticism for being broad rather than deep, CISSP opens more senior doors than almost any other single certification. See security_architecture.json for the full primary profile.",
-    "flags": [],
-    "official_url": "https://www.isc2.org/certifications/cissp",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 7,
-      "practical_depth": 2,
-      "employer_recognition": 10,
-      "community_respect": 8,
-      "salary_impact": 10,
-      "time_to_prepare": 8,
-      "overall": 6.8
     }
   },
   {

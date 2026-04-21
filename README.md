@@ -11,7 +11,7 @@ public live host server - https://ebcertmap.com
 
 ## Features
 
-- **363+ certs** across 15 domains — Offensive, DFIR, Cloud, AppSec, IAM, GRC, AI Security, and more
+- **400+ certs** across 15 domains — Offensive, DFIR, Cloud, AppSec, IAM, GRC, AI Security, and more
 - **Cert profiles** — level, cost, practical weight, score breakdown, prerequisites, and official links
 - **Skills view** — select any combination of skills to find certs that validate all of them
 - **Roles view** — 40+ career roles, each with multiple cert path options, costs, pros/cons, and step-by-step sequences
@@ -132,7 +132,7 @@ Open [http://localhost:5173](http://localhost:5173).
 
 | Phase | Status | Description |
 |---|---|---|
-| 1 — Foundation | ✅ Done | 15 domains, 363+ cert profiles, UI/UX |
+| 1 — Foundation | ✅ Done | 15 domains, 400+ cert profiles, UI/UX |
 | 2 — Skills & Roles | ✅ Done | Skills mapping, role categories, cert skill labeling |
 | 3 — Career Paths | ✅ Done | 40+ roles, 100+ cert path steps |
 | 4 — Courses | 🔜 Planned | Course recommendations per cert and skill |

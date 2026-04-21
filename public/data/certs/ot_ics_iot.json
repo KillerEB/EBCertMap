@@ -56,8 +56,8 @@
     "full_name": "GIAC Response and Industrial Defense",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "ot_ics_iot",
-      "dfir"
+      "dfir",
+      "ot_ics_iot"
     ],
     "subdomain": [
       "ics_security",
@@ -709,58 +709,6 @@
       "salary_impact": 3,
       "time_to_prepare": 3,
       "overall": 3.8
-    }
-  },
-  {
-    "id": "pipa",
-    "acronym": "PIPA",
-    "full_name": "Practical IoT Pentest Associate",
-    "issuing_body": "TCM Security",
-    "domain": [
-      "ot_ics_iot"
-    ],
-    "subdomain": [
-      "iot_security",
-      "embedded_systems_security"
-    ],
-    "level": "beginner",
-    "practical_weight": 100,
-    "cost_usd": 249,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "iot_device_pentesting",
-      "firmware_analysis_basics",
-      "hardware_interaction",
-      "iot_network_attack_techniques",
-      "iot_web_interface_testing",
-      "iot_report_writing"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "basic_networking",
-        "linux_basics",
-        "basic_security_concepts"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "TCM Security's IoT penetration testing certification \u2014 100% practical exam covering IoT device security testing including firmware analysis, hardware interaction, network attack techniques, and web interface testing. Never expires. Not DoD 8140 approved. One of very few practical IoT security certifications. Fills a genuine gap \u2014 most IoT security certs are conceptual awareness credentials while PIPA tests actual device security testing skill. At $249 including training it's excellent value for a practical IoT security credential. Most relevant for penetration testers expanding into IoT target scopes and for product security teams testing their own devices.",
-    "flags": [
-      "low_cost"
-    ],
-    "official_url": "https://certifications.tcm-sec.com/pipa/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 8,
-      "employer_recognition": 3,
-      "community_respect": 6,
-      "salary_impact": 3,
-      "time_to_prepare": 3,
-      "overall": 5.2
     }
   },
   {

@@ -5,9 +5,9 @@
     "full_name": "Certified Information Systems Security Professional",
     "issuing_body": "ISC2",
     "domain": [
-      "security_architecture",
       "grc",
-      "iam"
+      "oversight_leadership",
+      "security_architecture"
     ],
     "subdomain": [
       "enterprise_security_architecture",
@@ -155,58 +155,6 @@
       "salary_impact": 7,
       "time_to_prepare": 6,
       "overall": 5.2
-    }
-  },
-  {
-    "id": "issmp",
-    "acronym": "ISSMP",
-    "full_name": "Information Systems Security Management Professional",
-    "issuing_body": "ISC2",
-    "domain": [
-      "security_architecture",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "security_program_management"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 599,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_leadership",
-      "security_program_management",
-      "security_compliance_management",
-      "business_continuity_planning",
-      "law_and_ethics_management",
-      "personnel_security_management"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_program_management",
-        "leadership_experience",
-        "compliance_frameworks"
-      ],
-      "recommended_certs": [
-        "cissp"
-      ]
-    },
-    "summary": "ISC2's CISSP concentration for security managers and program leads \u2014 requires active CISSP. As of October 2023, ISSMP no longer requires CISSP as a prerequisite for the exam itself, but CISSP is still needed for the full concentration designation. Covers security leadership, program management, compliance management, BCP, and personnel security management. DoD 8140 approved. Most relevant for security managers and CISOs who want to validate their management and program oversight skills at a level above the base CISSP. Sits at the intersection of technical security knowledge and management competency.",
-    "flags": [],
-    "official_url": "https://www.isc2.org/certifications/issmp",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 2,
-      "employer_recognition": 7,
-      "community_respect": 6,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.0
     }
   },
   {
@@ -415,165 +363,13 @@
     }
   },
   {
-    "id": "cism",
-    "acronym": "CISM",
-    "full_name": "Certified Information Security Manager",
-    "issuing_body": "ISACA",
-    "domain": [
-      "security_architecture",
-      "grc",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "enterprise_security_architecture",
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 760,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "information_security_governance",
-      "information_risk_management",
-      "security_program_development",
-      "incident_management_governance"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_management",
-        "risk_management",
-        "governance_frameworks"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "ISACA's information security management certification and one of the most recognized credentials for security managers and CISOs globally. Covers security governance, risk management, security program development, and incident management from a management perspective. Requires five years of IS management experience. DoD 8140 approved. Often positioned alongside or compared to CISSP \u2014 CISM is more management and governance-focused while CISSP covers broader technical domains. Highly valued in financial services, audit-heavy industries, and any organization where the CISO role is primarily a governance and risk management function.",
-    "flags": [],
-    "official_url": "https://www.isaca.org/credentialing/cism",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 2,
-      "employer_recognition": 9,
-      "community_respect": 7,
-      "salary_impact": 9,
-      "time_to_prepare": 7,
-      "overall": 6.1
-    }
-  },
-  {
-    "id": "cgeit",
-    "acronym": "CGEIT",
-    "full_name": "Certified in the Governance of Enterprise IT",
-    "issuing_body": "ISACA",
-    "domain": [
-      "security_architecture",
-      "grc"
-    ],
-    "subdomain": [
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 760,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "it_governance_frameworks",
-      "strategic_alignment",
-      "value_delivery",
-      "risk_optimization",
-      "resource_optimization",
-      "performance_measurement"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "it_governance",
-        "enterprise_architecture_concepts",
-        "business_strategy_alignment"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "ISACA's IT governance certification covering the strategic alignment of IT with business objectives, value delivery, risk optimization, and resource management. Not DoD 8140 approved. CGEIT sits above CISM in terms of seniority \u2014 it's targeted at CIOs, IT directors, and senior executives responsible for IT governance rather than security practitioners. For security architects who also own the enterprise IT governance function or work closely with the board on IT strategy, CGEIT complements CISM or CISSP well. Less common on security CVs than CISM but carries weight in governance-heavy organizations.",
-    "flags": [],
-    "official_url": "https://www.isaca.org/credentialing/cgeit",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 2,
-      "employer_recognition": 7,
-      "community_respect": 6,
-      "salary_impact": 8,
-      "time_to_prepare": 7,
-      "overall": 5.2
-    }
-  },
-  {
-    "id": "cciso",
-    "acronym": "CCISO",
-    "full_name": "Certified Chief Information Security Officer",
-    "issuing_body": "EC-Council",
-    "domain": [
-      "security_architecture",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "enterprise_security_architecture",
-      "security_program_management"
-    ],
-    "level": "expert",
-    "practical_weight": 15,
-    "cost_usd": 999,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_governance",
-      "security_program_management",
-      "strategic_planning",
-      "financial_management_security",
-      "security_core_competencies",
-      "audit_management",
-      "project_management_security"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "senior_security_management_experience",
-        "governance_and_risk",
-        "security_program_oversight"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "EC-Council's executive-level security leadership certification targeting current and aspiring CISOs. Covers security governance, program management, strategic planning, financial management, and audit management. DoD 8140 approved. Requires significant security leadership experience \u2014 the exam is supplemented by experience verification. EC-Council's reputation is mixed in the practitioner community, but CCISO has genuine value for practitioners targeting CISO roles who want a dedicated certification and the DoD approval it provides. Often pursued alongside CISSP or CISM rather than as a replacement for either.",
-    "flags": [],
-    "official_url": "https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 3,
-      "employer_recognition": 7,
-      "community_respect": 5,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.1
-    }
-  },
-  {
     "id": "sc-100",
     "acronym": "SC-100",
     "full_name": "Microsoft Certified: Cybersecurity Architect Expert",
     "issuing_body": "Microsoft",
     "domain": [
-      "security_architecture",
-      "cloud_security"
+      "cloud_security",
+      "security_architecture"
     ],
     "subdomain": [
       "enterprise_security_architecture",
@@ -626,8 +422,8 @@
     "full_name": "GIAC Defensible Security Architecture",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "security_architecture",
-      "cloud_security"
+      "cloud_security",
+      "security_architecture"
     ],
     "subdomain": [
       "enterprise_security_architecture",
@@ -682,8 +478,8 @@
     "full_name": "GIAC Cloud Security Architecture and Design",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "security_architecture",
-      "cloud_security"
+      "cloud_security",
+      "security_architecture"
     ],
     "subdomain": [
       "enterprise_security_architecture"
@@ -727,111 +523,6 @@
       "salary_impact": 6,
       "time_to_prepare": 6,
       "overall": 5.1
-    }
-  },
-  {
-    "id": "gslc",
-    "acronym": "GSLC",
-    "full_name": "GIAC Security Leadership Certification",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "security_architecture",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "security_program_management",
-      "security_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_program_management",
-      "risk_management_governance",
-      "security_policy_development",
-      "project_management_security",
-      "security_team_leadership",
-      "compliance_management",
-      "vendor_management"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_management_experience",
-        "risk_management",
-        "compliance_awareness"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "GIAC's security leadership and management certification covering security program management, risk governance, policy development, compliance management, and security team leadership. DoD 8140 approved. Positioned for security managers, program managers, and practitioners moving into leadership roles who want a GIAC-branded management credential. Less technically focused than other GIAC certs \u2014 it validates management and governance competency rather than technical security skill. Complements GCIH or GCFA for practitioners who have the technical credentials and need to document their management development.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/security-leadership-gslc/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 5,
-      "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 4.6
-    }
-  },
-  {
-    "id": "gstrt",
-    "acronym": "GSTRT",
-    "full_name": "GIAC Strategic Planning, Policy, and Leadership",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "security_architecture",
-      "oversight_leadership"
-    ],
-    "subdomain": [
-      "security_governance",
-      "security_program_management"
-    ],
-    "level": "expert",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_strategy_development",
-      "security_policy_leadership",
-      "board_level_communication",
-      "security_investment_justification",
-      "organizational_security_change",
-      "metrics_and_measurement"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "senior_security_experience",
-        "organizational_leadership",
-        "strategic_planning_concepts"
-      ],
-      "recommended_certs": [
-        "gslc"
-      ]
-    },
-    "summary": "GIAC's strategic security leadership certification covering security strategy development, board-level communication, security investment justification, and metrics-driven governance. DoD 8140 approved. Sits above GSLC in seniority \u2014 where GSLC covers security program management, GSTRT covers the strategic and executive communication layer. Most relevant for senior CISOs, deputy CISOs, and security directors who need to bridge technical security with business strategy. Relatively newer GIAC cert that reflects the growing demand for CISOs who can communicate risk in business terms.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.0
     }
   },
   {
@@ -891,8 +582,8 @@
     "full_name": "Certificate of Competence in Zero Trust",
     "issuing_body": "Cloud Security Alliance (CSA)",
     "domain": [
-      "security_architecture",
-      "cloud_security"
+      "cloud_security",
+      "security_architecture"
     ],
     "subdomain": [
       "zero_trust_architecture"

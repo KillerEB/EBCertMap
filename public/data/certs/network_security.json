@@ -562,6 +562,7 @@
     "full_name": "Check Point Certified Security Administrator",
     "issuing_body": "Check Point",
     "domain": [
+      "defensive_soc",
       "network_security"
     ],
     "subdomain": [
@@ -611,6 +612,7 @@
     "full_name": "Check Point Certified Security Expert",
     "issuing_body": "Check Point",
     "domain": [
+      "defensive_soc",
       "network_security"
     ],
     "subdomain": [
@@ -969,8 +971,8 @@
     "full_name": "GIAC Certified Intrusion Analyst",
     "issuing_body": "GIAC / SANS Institute",
     "domain": [
-      "network_security",
-      "defensive_soc"
+      "defensive_soc",
+      "network_security"
     ],
     "subdomain": [
       "network_monitoring",
@@ -1015,57 +1017,6 @@
       "salary_impact": 7,
       "time_to_prepare": 6,
       "overall": 5.6
-    }
-  },
-  {
-    "id": "gnfa",
-    "acronym": "GNFA",
-    "full_name": "GIAC Network Forensic Analyst",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "network_security",
-      "dfir"
-    ],
-    "subdomain": [
-      "network_monitoring"
-    ],
-    "level": "intermediate",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "network_traffic_analysis",
-      "pcap_analysis",
-      "protocol_decoding",
-      "c2_traffic_identification",
-      "network_artifact_reconstruction",
-      "dns_forensics",
-      "full_packet_capture_analysis"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "networking_fundamentals",
-        "tcp_ip_protocols",
-        "wireshark_basics"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "GIAC's network forensics certification covering deep packet inspection, protocol analysis, and network artifact reconstruction for forensic investigations. DoD 8140 approved and valuable in both network security and DFIR roles. Teaches analysts to work from network evidence \u2014 an increasingly critical skill as attackers use fileless and memory-resident techniques leaving minimal host evidence. Pairs well with GCFA for comprehensive investigation capability. One of the more practically applicable GIAC certs because network analysis requires genuine pattern recognition skills.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 7,
-      "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 5.3
     }
   },
   {
@@ -1285,6 +1236,100 @@
       "salary_impact": 8,
       "time_to_prepare": 10,
       "overall": 8.3
+    }
+  },
+  {
+    "id": "wcna",
+    "acronym": "WCNA",
+    "full_name": "Worldwide Certified Network Analyst",
+    "issuing_body": "Chappell University / Protocol Analysis Institute",
+    "domain": [
+      "network_security"
+    ],
+    "subdomain": [
+      "network_forensics",
+      "protocol_analysis"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 299,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Owned by Chappell University / Protocol Analysis Institute \u2014 not the Wireshark Foundation. Kryterion-proctored, 100 MCQ. A 2009 Army-level DoD 8570 recognition does not carry forward to 8140.",
+    "skills": [
+      "packet_analysis",
+      "protocol_analysis",
+      "network_traffic_analysis",
+      "network_forensics",
+      "network_troubleshooting",
+      "wireshark_tool"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic networking (TCP/IP)",
+        "Familiarity with Wireshark"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The de facto Wireshark certification, owned and administered by Chappell University / Protocol Analysis Institute (Laura Chappell's organization) \u2014 not the official Wireshark Foundation. The WCNA validates packet-level analysis, protocol analysis, and network troubleshooting using Wireshark and related tools. 100-question MCQ exam delivered via Kryterion online proctoring, $299, 3-year renewal. Pure MCQ format with no hands-on lab component is a limitation versus network forensics certs like GNFA. Despite the theoretical format, WCNA is widely recognized in network forensics, network operations, and SOC analyst roles as the benchmark Wireshark credential. Useful complement to GCFE or CDSA for analysts whose workflow is packet-heavy.",
+    "flags": [],
+    "official_url": "https://www.wcnacertification.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.3
+    }
+  },
+  {
+    "id": "sog-cbteamer",
+    "acronym": "CBTeamer",
+    "full_name": "SecOps Group Certified Blue Teamer",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "digital_forensics"
+    ],
+    "level": "intermediate",
+    "practical_weight": 70,
+    "cost_usd": 320,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "dfir_basics",
+      "packet_analysis",
+      "sysmon_analysis",
+      "memory_forensics",
+      "malware_analysis_basics",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Professional-tier (~4-5 hr practical DFIR, \u00a3250). Hands-on blue team investigation \u2014 PCAP analysis, Sysmon log analysis, memory forensics, malware triage. Live lab environment. Step toward CBTeamerX.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
     }
   }
 ]

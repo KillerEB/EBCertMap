@@ -58,8 +58,8 @@
     "issuing_body": "ISACA",
     "domain": [
       "grc",
-      "security_architecture",
-      "oversight_leadership"
+      "oversight_leadership",
+      "security_architecture"
     ],
     "subdomain": [
       "information_security_management",
@@ -160,6 +160,7 @@
     "issuing_body": "ISACA",
     "domain": [
       "grc",
+      "oversight_leadership",
       "security_architecture"
     ],
     "subdomain": [
@@ -1235,6 +1236,199 @@
       "salary_impact": 5,
       "time_to_prepare": 6,
       "overall": 4.9
+    }
+  },
+  {
+    "id": "resilia-foundation",
+    "acronym": "RESILIA Foundation",
+    "full_name": "RESILIA Foundation",
+    "issuing_body": "PeopleCert / Axelos",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "cyber_resilience",
+      "security_governance"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 300,
+    "renewal": "3 years (CPD)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Formerly APMG-administered, now PeopleCert. ~$300 exam voucher. MCQ only, 40 questions, 40 minutes.",
+    "skills": [
+      "cyber_resilience",
+      "security_governance",
+      "risk_management",
+      "security_culture",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic IT and business concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "RESILIA Foundation is Axelos/PeopleCert's entry-level cyber resilience credential, designed to introduce cyber security best practices aligned to ITIL 4 principles and organizational resilience frameworks. MCQ-only format \u2014 40 questions in 40 minutes, closed-book. Now administered by PeopleCert following Axelos's absorption into the PeopleCert group. Approximately $300 exam voucher, 3-year CPD renewal cycle. Appeals primarily to ITIL professionals expanding into security governance, IT managers, and compliance officers who want a recognized cyber resilience baseline without the depth of CISM or CISSP. Pairs naturally with ITIL 4 Foundation.",
+    "flags": [],
+    "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/RESILIA",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 1,
+      "employer_recognition": 4,
+      "community_respect": 3,
+      "salary_impact": 4,
+      "time_to_prepare": 2,
+      "overall": 2.8
+    }
+  },
+  {
+    "id": "resilia-practitioner",
+    "acronym": "RESILIA Practitioner",
+    "full_name": "RESILIA Practitioner",
+    "issuing_body": "PeopleCert / Axelos",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "cyber_resilience",
+      "security_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 600,
+    "renewal": "3 years (CPD)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Requires RESILIA Foundation as prerequisite. ~$600 exam voucher. Scenario-based MCQ, open-book.",
+    "skills": [
+      "cyber_resilience",
+      "security_governance",
+      "risk_management",
+      "security_program_management",
+      "organizational_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "RESILIA Foundation or equivalent"
+      ],
+      "recommended_certs": [
+        "resilia-foundation"
+      ]
+    },
+    "summary": "RESILIA Practitioner is the advanced tier of Axelos/PeopleCert's cyber resilience program. Scenario-based exam testing practical application of RESILIA principles \u2014 open-book, higher complexity than Foundation. Requires RESILIA Foundation as a prerequisite. Approximately $600 exam voucher, 3-year CPD renewal. Targets IT managers, security managers, and governance professionals who need to demonstrate applied cyber resilience capability aligned to ITIL 4 service management principles. More depth than Foundation but still MCQ-based and not as technically demanding as CISM or CRISC.",
+    "flags": [],
+    "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/RESILIA",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 1,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "itil4-ism",
+    "acronym": "ITIL4-ISM",
+    "full_name": "ITIL 4 Practitioner: Information Security Management",
+    "issuing_body": "PeopleCert / Axelos",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "security_governance",
+      "security_management"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 450,
+    "renewal": "3 years (CPD)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "The only security-specific ITIL 4 module. Requires ITIL 4 Foundation as prerequisite. ~$400-500 exam voucher.",
+    "skills": [
+      "security_governance",
+      "security_policy_development",
+      "risk_management",
+      "security_program_management",
+      "incident_response_process",
+      "compliance_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "ITIL 4 Foundation"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The only genuinely security-focused module in the ITIL 4 Practitioner series. Covers information security management practice within the ITIL 4 service value system \u2014 security policies, risk assessment, security incident management, and compliance alignment. MCQ exam (~$400-500 voucher), requires ITIL 4 Foundation as prerequisite, 3-year CPD renewal. Primarily relevant for IT service management professionals who need to embed security governance into ITSM processes, or security managers in ITIL-heavy organizations (banks, telecoms, government). Not a substitute for CISM or CISSP but useful for practitioners bridging ITSM and security governance roles.",
+    "flags": [],
+    "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-4",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 1,
+      "employer_recognition": 5,
+      "community_respect": 4,
+      "salary_impact": 5,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "pcip",
+    "acronym": "PCIP",
+    "full_name": "PCI Security Standards Council Payment Card Industry Professional",
+    "issuing_body": "PCI Security Standards Council",
+    "domain": [
+      "grc"
+    ],
+    "subdomain": [
+      "compliance_management",
+      "payment_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 1700,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Training $1,700-$2,750 (PO/non-PO). Exam-only $1,000-$1,700. Requalification training $300-350, exam $185-200. Pearson VUE delivery. The only PCI SSC credential that is individually portable \u2014 assessor qualifications (QSA, ISA, PFI, etc.) are company-sponsored.",
+    "skills": [
+      "compliance_management",
+      "pci_dss_compliance",
+      "risk_management",
+      "security_assessment",
+      "payment_security",
+      "network_security_fundamentals"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic information security concepts",
+        "Familiarity with network and system security"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "The only individually portable credential issued by the PCI Security Standards Council. PCIP validates knowledge of PCI DSS 4.0 and supporting PCI standards (PA-DSS legacy, PIN Security, P2PE, 3DS). Domain coverage: PCI DSS requirements, scoping and network segmentation, risk assessment methodology, and compliance program management. MCQ exam delivered via Pearson VUE, 3-year renewal with requalification training. Pricing: training $1,700-$2,750 depending on PO (Participating Organization) status; exam-only option $1,000-$1,700. All other PCI SSC qualifications (QSA, ISA, PFI, ASV, etc.) are company-sponsored assessor roles rather than individually portable credentials. PCIP is the mandatory starting point for individuals pursuing QSA or ISA roles \u2014 the exam is embedded in both qualification tracks at a discounted $300 (PO) / $200 (non-PO) add-on. Recognized globally in payment security, financial services, retail, and hospitality industries.",
+    "flags": [],
+    "official_url": "https://www.pcisecuritystandards.org/program_training_and_qualification/pcip_program/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 1,
+      "employer_recognition": 7,
+      "community_respect": 6,
+      "salary_impact": 7,
+      "time_to_prepare": 5,
+      "overall": 5.7
     }
   }
 ]

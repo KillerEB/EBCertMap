@@ -159,58 +159,6 @@
     }
   },
   {
-    "id": "cczt",
-    "acronym": "CCZT",
-    "full_name": "Certificate of Competence in Zero Trust",
-    "issuing_body": "Cloud Security Alliance (CSA)",
-    "domain": [
-      "cloud_security",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "zero_trust_architecture"
-    ],
-    "level": "intermediate",
-    "practical_weight": 5,
-    "cost_usd": 395,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "zero_trust_principles",
-      "zero_trust_architecture_design",
-      "identity_centric_security",
-      "microsegmentation",
-      "zero_trust_implementation",
-      "zero_trust_maturity_assessment"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "cloud_security_basics",
-        "networking_fundamentals",
-        "identity_management_basics"
-      ],
-      "recommended_certs": [
-        "ccsk"
-      ]
-    },
-    "summary": "The only vendor-neutral certification dedicated specifically to Zero Trust architecture and implementation. Covers Zero Trust principles, design, identity-centric security, microsegmentation, and maturity assessment based on the CSA's Zero Trust Advancement Center framework. Not DoD 8140 approved but increasingly relevant as Zero Trust becomes a regulatory and compliance requirement across government and enterprise. Best suited for architects and security engineers implementing Zero Trust frameworks rather than operations staff. As the first standalone Zero Trust cert, it has growing recognition but limited competition to benchmark against.",
-    "flags": [],
-    "official_url": "https://cloudsecurityalliance.org/education/cczt",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 2,
-      "employer_recognition": 5,
-      "community_respect": 6,
-      "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 4.2
-    }
-  },
-  {
     "id": "aws-security-specialty",
     "acronym": "AWS Security Specialty",
     "full_name": "AWS Certified Security \u2013 Specialty",
@@ -226,9 +174,9 @@
     "practical_weight": 10,
     "cost_usd": 300,
     "renewal": "3 years",
-    "dod_8140": false,
+    "dod_8140": true,
     "geographic_recognition": "global",
-    "geographic_note": null,
+    "geographic_note": "Exam code SCS-C03 (updated Dec 2, 2025 from SCS-C02). Added GenAI/ML security domain.",
     "skills": [
       "aws_iam",
       "aws_network_security",
@@ -260,111 +208,6 @@
       "salary_impact": 8,
       "time_to_prepare": 6,
       "overall": 6.0
-    }
-  },
-  {
-    "id": "az-500",
-    "acronym": "AZ-500",
-    "full_name": "Microsoft Certified: Azure Security Engineer Associate",
-    "issuing_body": "Microsoft",
-    "domain": [
-      "cloud_security",
-      "iam"
-    ],
-    "subdomain": [
-      "cloud_security_engineering"
-    ],
-    "level": "intermediate",
-    "practical_weight": 20,
-    "cost_usd": 165,
-    "renewal": "1 year",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "azure_iam",
-      "azure_network_security",
-      "azure_security_center",
-      "azure_defender",
-      "azure_key_vault",
-      "azure_monitor_security",
-      "azure_policy_governance"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "azure_fundamentals",
-        "networking",
-        "identity_management",
-        "security_concepts"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Microsoft's Azure security engineering certification covering identity, network security, data protection, and security operations within the Azure platform. The most relevant Microsoft security cert for hands-on cloud security engineers and a natural complement to SC-200 for those operating in Microsoft-heavy environments. Performance-based questions add some practical element. One-year renewal is aggressive but keeps the content current with Azure's rapid evolution. Not DoD 8140 approved. Widely recognized by employers and seen in job requirements across commercial and government Azure deployments. For cloud security roles in organizations running Microsoft Azure, AZ-500 is effectively mandatory.",
-    "flags": [],
-    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 3,
-      "employer_recognition": 8,
-      "community_respect": 7,
-      "salary_impact": 8,
-      "time_to_prepare": 5,
-      "overall": 5.8
-    }
-  },
-  {
-    "id": "sc-100",
-    "acronym": "SC-100",
-    "full_name": "Microsoft Certified: Cybersecurity Architect Expert",
-    "issuing_body": "Microsoft",
-    "domain": [
-      "cloud_security",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "cloud_security_architecture"
-    ],
-    "level": "expert",
-    "practical_weight": 10,
-    "cost_usd": 165,
-    "renewal": "1 year",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "security_architecture_microsoft",
-      "zero_trust_design_microsoft",
-      "cloud_security_design",
-      "compliance_architecture",
-      "identity_architecture",
-      "hybrid_security_architecture"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "microsoft_security_ecosystem",
-        "security_architecture_concepts",
-        "cloud_security"
-      ],
-      "recommended_certs": [
-        "az-500",
-        "sc-200"
-      ]
-    },
-    "summary": "Microsoft's expert-level security architecture certification requiring a prerequisite associate-level cert (AZ-500 or SC-200 or similar). Covers designing Zero Trust architectures, security operations strategies, and security posture across the Microsoft ecosystem. Designed for cybersecurity architects who design security solutions rather than implement or operate them. One-year renewal keeps it current. Not DoD 8140 approved. Valuable for senior security architects in organizations with significant Microsoft investment. Requires demonstrable breadth across the Microsoft security portfolio \u2014 a genuine expert-level credential rather than an accessible intermediate cert.",
-    "flags": [],
-    "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 7,
-      "community_respect": 6,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.5
     }
   },
   {
@@ -460,60 +303,6 @@
     "summary": "GIAC's cloud security automation certification targeting practitioners who build secure cloud-native infrastructure and CI/CD pipelines. Covers IaC security, container and Kubernetes security, DevSecOps practices, and cloud-native security automation \u2014 the engineering side of cloud security rather than governance or operations. DoD 8140 approved. Relatively rare cert that fills an important gap between cloud security governance (CCSP) and cloud platform security (AWS/Azure specialty certs). Most valuable for cloud security engineers and DevSecOps practitioners building secure infrastructure at scale. Requires genuine scripting and DevOps experience to get value from the content.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 6,
-      "time_to_prepare": 6,
-      "overall": 5.1
-    }
-  },
-  {
-    "id": "gcad",
-    "acronym": "GCAD",
-    "full_name": "GIAC Cloud Security Architecture and Design",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "cloud_security",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "cloud_security_architecture"
-    ],
-    "level": "expert",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "cloud_security_architecture",
-      "cloud_network_design",
-      "identity_architecture_cloud",
-      "data_protection_architecture",
-      "cloud_threat_modeling",
-      "multi_cloud_security_design",
-      "cloud_zero_trust_design"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "cloud_platforms_multi",
-        "security_architecture_principles",
-        "networking_advanced",
-        "identity_management"
-      ],
-      "recommended_certs": [
-        "ccsk"
-      ]
-    },
-    "summary": "GIAC's cloud security architecture certification covering the design and architectural aspects of securing cloud environments \u2014 threat modeling, network architecture, identity design, and data protection at a strategic level. DoD 8140 approved. Complements GCSA (automation/engineering) and fills the architecture gap that AWS/Azure specialty certs don't address. Most valuable for senior cloud security architects designing multi-cloud or hybrid environments rather than engineers implementing specific cloud services. Paired with GCSA, it forms a comprehensive GIAC cloud security credential stack.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
     "active": true,
     "paths": [],
     "scores": {
@@ -835,62 +624,6 @@
     }
   },
   {
-    "id": "gdsa",
-    "acronym": "GDSA",
-    "full_name": "GIAC Defensible Security Architecture",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "cloud_security",
-      "security_architecture"
-    ],
-    "subdomain": [
-      "cloud_security_architecture",
-      "zero_trust_architecture"
-    ],
-    "level": "expert",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "defensible_architecture_design",
-      "zero_trust_implementation",
-      "network_security_architecture",
-      "cloud_security_design",
-      "detection_architecture",
-      "threat_informed_defense",
-      "segmentation_design"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "network_security_advanced",
-        "cloud_architecture",
-        "security_operations",
-        "threat_modeling"
-      ],
-      "recommended_certs": [
-        "gcih",
-        "gcfa"
-      ]
-    },
-    "summary": "GIAC's certification for designing defensible security architectures \u2014 covering Zero Trust implementation, network segmentation, detection architecture, and threat-informed defensive design. Bridges the gap between technical security operations and architectural design. DoD 8140 approved. Particularly relevant for senior practitioners transitioning from operations into architecture roles, or architects wanting to validate their defensive design skills. Less platform-specific than AWS/Azure certs but more architectural than most operational certs. Pairs well with GCAD for a comprehensive GIAC architecture credential stack.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/defensible-security-architecture-gdsa/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 6,
-      "time_to_prepare": 6,
-      "overall": 5.1
-    }
-  },
-  {
     "id": "oci-security-professional",
     "acronym": "OCI Security Professional",
     "full_name": "Oracle Cloud Infrastructure 2025 Certified Security Professional",
@@ -1048,6 +781,520 @@
       "salary_impact": 6,
       "time_to_prepare": 6,
       "overall": 5.5
+    }
+  },
+  {
+    "id": "sog-cbteamer-x",
+    "acronym": "CBTeamerX",
+    "full_name": "SecOps Group Certified Blue Teamer eXpert",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "digital_forensics"
+    ],
+    "level": "expert",
+    "practical_weight": 80,
+    "cost_usd": 510,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "dfir_basics",
+      "advanced_memory_forensics",
+      "cloud_forensics",
+      "threat_hunting_methodology",
+      "siem_investigation",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "eXpert-tier (~7-hr practical multi-stage APT investigation, \u00a3400, Jan 2026). Advanced blue team \u2014 multi-stage APT investigation across on-prem AD and cloud environments. Covers cloud forensics, advanced memory analysis, threat hunting. SecOps Group's most demanding defensive credential.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "cwl-mcrta",
+    "acronym": "MCRTA",
+    "full_name": "CyberWarFare Labs Certified Multi-Cloud Red Team Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "beginner",
+    "practical_weight": 80,
+    "cost_usd": 49,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "cloud_penetration_testing",
+      "aws_security",
+      "azure_security",
+      "gcp_security",
+      "cloud_enumeration"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Flag-based practical across AWS/Azure/GCP ($49). Multi-cloud red team fundamentals \u2014 enumeration and initial exploitation across all three major platforms. Entry point before CARTS/AzRTS/CGRTS specializations.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-azrts",
+    "acronym": "AzRTS",
+    "full_name": "CyberWarFare Labs Certified Azure Red Team Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 149,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "azure_security",
+      "entra_id_attacks",
+      "azure_privilege_escalation",
+      "conditional_access_bypass",
+      "cloud_penetration_testing"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Flag-based, 15+ flags ($149). Azure and Entra ID red team \u2014 service principal abuse, managed identity exploitation, conditional access bypass, Azure AD Connect attacks. Focused Azure specialization at low cost.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-carts",
+    "acronym": "CARTS",
+    "full_name": "CyberWarFare Labs Certified AWS Cloud Red Team Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 90,
+    "cost_usd": 599,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "aws_security",
+      "cloud_penetration_testing",
+      "iam_privilege_escalation",
+      "lambda_abuse",
+      "s3_exploitation",
+      "cross_account_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "12+12 hr practical + report ($599). Advanced AWS red team \u2014 IAM role chaining, Lambda abuse, S3 bucket exploitation, cross-account privilege escalation, AWS-specific C2 infrastructure. CWL's premium AWS credential.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-cgrts",
+    "acronym": "CGRTS",
+    "full_name": "CyberWarFare Labs Certified Google Cloud Red Team Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 90,
+    "cost_usd": 599,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "gcp_security",
+      "cloud_penetration_testing",
+      "gcp_iam_attacks",
+      "service_account_abuse",
+      "google_workspace_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical, 2 attempts ($599). GCP red team \u2014 service account abuse, IAM escalation, Google Workspace integration attacks, Cloud Run exploitation, metadata server attacks. Pairs with CARTS for full multi-cloud coverage.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-chmrts",
+    "acronym": "CHMRTS",
+    "full_name": "CyberWarFare Labs Certified Hybrid Multi-Cloud Red Team Specialist",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "expert",
+    "practical_weight": 90,
+    "cost_usd": 699,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "cloud_penetration_testing",
+      "aws_security",
+      "azure_security",
+      "gcp_security",
+      "hybrid_cloud_attacks",
+      "multi_cloud_pivoting"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "24-hr practical + report, 30-day window ($699). CWL's top cloud credential. Hybrid multi-cloud red team \u2014 pivot between AWS, Azure, and GCP environments, abuse cross-cloud trust relationships, exfiltration across cloud boundaries. Comprehensive multi-cloud expertise validation.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-do-rta",
+    "acronym": "DO-RTA",
+    "full_name": "CyberWarFare Labs Certified DevOps Red Team Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security",
+      "appsec"
+    ],
+    "subdomain": [
+      "devsecops"
+    ],
+    "level": "intermediate",
+    "practical_weight": 85,
+    "cost_usd": 449,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "devsecops",
+      "cicd_security",
+      "container_security",
+      "kubernetes_security",
+      "pipeline_security",
+      "supply_chain_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical, 2 attempts ($449). DevOps and pipeline security \u2014 CI/CD pipeline attacks, container escapes, Kubernetes exploitation, secrets management abuse, supply chain attack vectors. Growing demand as DevOps adoption accelerates.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-k8s-rta",
+    "acronym": "K8s-RTA",
+    "full_name": "CyberWarFare Labs Certified Kubernetes Red Team Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "container_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 80,
+    "cost_usd": 99,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "kubernetes_security",
+      "container_security",
+      "k8s_privilege_escalation",
+      "pod_escape",
+      "rbac_abuse"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Practical, unlimited attempts ($99). Kubernetes offensive operations \u2014 pod escape, RBAC misconfiguration abuse, secret extraction, lateral movement between namespaces, node compromise. Budget Kubernetes security credential.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "cwl-mcbta",
+    "acronym": "MCBTA",
+    "full_name": "CyberWarFare Labs Certified Multi-Cloud Blue Team Analyst",
+    "issuing_body": "CyberWarFare Labs",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "cloud_security_operations"
+    ],
+    "level": "beginner",
+    "practical_weight": 80,
+    "cost_usd": 49,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "cyberwarfare.live. All certs lifetime/non-expiring. Heavy discounts frequent. Base prices listed.",
+    "skills": [
+      "cloud_security_fundamentals",
+      "aws_security",
+      "azure_security",
+      "gcp_security",
+      "cloud_threat_detection",
+      "cloud_incident_response"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "30+ flag-based challenges ($49). Multi-cloud defensive analysis \u2014 threat detection, log analysis, and incident investigation across AWS, Azure, and GCP. Defensive counterpart to MCRTA.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://cyberwarfare.live/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 3,
+      "time_to_prepare": 3,
+      "overall": 3.8
+    }
+  },
+  {
+    "id": "wkl-oaotc",
+    "acronym": "OAOTC",
+    "full_name": "White Knight Labs Offensive Azure Operations and Tactics Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "cloud_security",
+      "offensive"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 700,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "azure_security",
+      "entra_id_attacks",
+      "conditional_access_bypass",
+      "azure_privilege_escalation",
+      "cloud_c2",
+      "hybrid_identity_attacks"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's Azure red team certification. 48-hr practical + 48-hr report in a live Azure lab. Azure + Entra ID offensive operations \u2014 identity abuse, Pass-the-PRT, conditional access bypass, Azure lateral movement, hybrid identity (AD Connect) attacks. ~$700 on-demand. Live at conferences. Strong complement to OAOTC for practitioners building multi-cloud offensive capability.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "wkl-ogotc",
+    "acronym": "OGOTC",
+    "full_name": "White Knight Labs Offensive GCP Operations and Tactics Certification",
+    "issuing_body": "White Knight Labs",
+    "domain": [
+      "cloud_security",
+      "offensive"
+    ],
+    "subdomain": [
+      "cloud_penetration_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 700,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "skills": [
+      "gcp_security",
+      "cloud_penetration_testing",
+      "gcp_iam_attacks",
+      "service_account_abuse",
+      "google_workspace_attacks",
+      "cloud_c2"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "WKL's GCP red team certification. $700 on-demand, $2,500 at DEF CON 2026. Lifetime access with performance-based practical + report. GCP attack lifecycle \u2014 IAM/service-account escalation, metadata server abuse, BigQuery/Cloud Storage/Cloud Run exploitation, Evilginx phishing for Google SSO, cloud C2. One of very few GCP-specific offensive credentials (alongside GRTE from HackTricks).",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://training.whiteknightlabs.com/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.2
     }
   }
 ]

@@ -56,7 +56,8 @@
     "full_name": "CompTIA Cybersecurity Analyst+",
     "issuing_body": "CompTIA",
     "domain": [
-      "defensive_soc"
+      "defensive_soc",
+      "vulnerability_management"
     ],
     "subdomain": [
       "soc_analysis",
@@ -252,59 +253,6 @@
       "salary_impact": 7,
       "time_to_prepare": 5,
       "overall": 5.3
-    }
-  },
-  {
-    "id": "gcia",
-    "acronym": "GCIA",
-    "full_name": "GIAC Certified Intrusion Analyst",
-    "issuing_body": "GIAC / SANS Institute",
-    "domain": [
-      "defensive_soc"
-    ],
-    "subdomain": [
-      "network_monitoring",
-      "threat_detection"
-    ],
-    "level": "intermediate",
-    "practical_weight": 25,
-    "cost_usd": 999,
-    "renewal": "4 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "network_traffic_analysis",
-      "intrusion_detection",
-      "protocol_analysis",
-      "signature_development",
-      "network_forensics_basics",
-      "ids_ips_tuning",
-      "pcap_analysis"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "tcp_ip_networking",
-        "packet_analysis_basics",
-        "security_fundamentals"
-      ],
-      "recommended_certs": [
-        "gsec"
-      ]
-    },
-    "summary": "The primary GIAC certification for network-focused security analysts \u2014 covering intrusion detection, network traffic analysis, protocol dissection, and IDS/IPS tuning. One of the older and more established GIAC certs with strong DoD 8140 recognition and consistent demand in network security and SOC roles. Pairs naturally with GCIH for a comprehensive SOC analyst credential stack. More technically rigorous than CySA+ in the network analysis domain specifically. The MCQ-heavy format is the same limitation as other GIAC certs, but the content depth genuinely requires technical understanding that memorization alone won't cover.",
-    "flags": [],
-    "official_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 3,
-      "employer_recognition": 7,
-      "community_respect": 7,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.6
     }
   },
   {
@@ -1041,114 +989,6 @@
     }
   },
   {
-    "id": "ccsa",
-    "acronym": "CCSA",
-    "full_name": "CrowdStrike Certified SIEM Analyst",
-    "issuing_body": "CrowdStrike",
-    "domain": [
-      "defensive_soc"
-    ],
-    "subdomain": [
-      "siem_operations",
-      "soc_analysis"
-    ],
-    "level": "intermediate",
-    "practical_weight": 0,
-    "cost_usd": 250,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "crowdstrike_next_gen_siem",
-      "log_ingestion_and_parsing",
-      "detection_rule_usage",
-      "siem_alert_investigation",
-      "crowdstrike_logscale",
-      "query_language_basics"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "siem_fundamentals",
-        "log_analysis",
-        "security_monitoring"
-      ],
-      "recommended_certs": [
-        "ccfa"
-      ]
-    },
-    "summary": "CrowdStrike's new SIEM analyst certification launched in 2024-2025, covering the Falcon Next-Gen SIEM platform (built on LogScale/Humio) for alert investigation and log analysis. Reflects CrowdStrike's significant push into the SIEM market following the LogScale acquisition. Pure MCQ exam with one free retake. Not DoD 8140 approved. Useful for analysts working in environments adopting CrowdStrike's SIEM capabilities alongside Falcon EDR. Still building market recognition as a newer cert \u2014 CCFR remains the more established CrowdStrike credential for SOC analysts.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 3,
-      "practical_depth": 2,
-      "employer_recognition": 5,
-      "community_respect": 5,
-      "salary_impact": 5,
-      "time_to_prepare": 3,
-      "overall": 3.8
-    }
-  },
-  {
-    "id": "ccse",
-    "acronym": "CCSE",
-    "full_name": "CrowdStrike Certified SIEM Engineer",
-    "issuing_body": "CrowdStrike",
-    "domain": [
-      "defensive_soc"
-    ],
-    "subdomain": [
-      "siem_operations",
-      "detection_engineering"
-    ],
-    "level": "expert",
-    "practical_weight": 0,
-    "cost_usd": 250,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "crowdstrike_logscale_engineering",
-      "detection_rule_development",
-      "log_pipeline_configuration",
-      "siem_architecture",
-      "crowdstrike_siem_integration",
-      "custom_parser_development"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "siem_engineering",
-        "log_management",
-        "detection_engineering_concepts"
-      ],
-      "recommended_certs": [
-        "ccsa"
-      ]
-    },
-    "summary": "CrowdStrike's advanced SIEM engineering certification covering LogScale pipeline configuration, custom parser development, detection rule engineering, and SIEM architecture within the CrowdStrike ecosystem. Targets engineers building and maintaining CrowdStrike's SIEM deployment rather than analysts using it. Pure MCQ exam. Not DoD 8140 approved. One of the newest CrowdStrike certs and still establishing market recognition. Valuable for organizations where CrowdStrike is the primary SIEM platform and need engineers with validated platform expertise.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 3,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 4.9
-    }
-  },
-  {
     "id": "panw-soc-professional",
     "acronym": "PANW SecOps Professional",
     "full_name": "Palo Alto Networks Certified Security Operations Professional",
@@ -1462,59 +1302,6 @@
       "salary_impact": 4,
       "time_to_prepare": 4,
       "overall": 6.2
-    }
-  },
-  {
-    "id": "htb-doa",
-    "acronym": "HTB DOA",
-    "full_name": "HTB Defense Operations Analyst",
-    "issuing_body": "Hack The Box",
-    "domain": [
-      "defensive_soc"
-    ],
-    "subdomain": [
-      "soc_analysis",
-      "incident_response"
-    ],
-    "level": "intermediate",
-    "practical_weight": 90,
-    "cost_usd": 0,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": "Enterprise/government sales only \u2014 not available to individuals",
-    "skills": [
-      "soc_operations",
-      "incident_handling",
-      "network_traffic_analysis",
-      "siem_investigation_elastic",
-      "windows_memory_forensics",
-      "adversary_detection",
-      "incident_report_writing"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals",
-        "networking_basics",
-        "basic_security_operations"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Hack The Box's ANAB-accredited certificate program (not a traditional certification) \u2014 the first of its kind in cybersecurity. Completers earn the HTB DOA designation but cannot call themselves 'certified' per ANAB's E2659-18 standard for certificate issuers. The program covers SOC operations, DFIR, network analysis, Elastic SIEM, and adversary detection across 15 modules and 11 defensive labs, culminating in a practical exam. Qualifies under DoD 8140's training pathway (not the certification pathway). Sold exclusively through enterprise/government workforce development contracts \u2014 no individual access. Approximately 15 weeks to complete, 131 CPE credits, 3-year validity. A genuinely innovative program that bridges HTB's practitioner credibility with government compliance requirements, but the enterprise-only model severely limits its accessibility.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.hackthebox.com/defense-operations-analyst-certificate",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 7,
-      "practical_depth": 9,
-      "employer_recognition": 5,
-      "community_respect": 7,
-      "salary_impact": 5,
-      "time_to_prepare": 6,
-      "overall": 6.9
     }
   },
   {
@@ -2022,6 +1809,293 @@
       "salary_impact": 4,
       "time_to_prepare": 4,
       "overall": 4.5
+    }
+  },
+  {
+    "id": "thm-sal1",
+    "acronym": "SAL1",
+    "full_name": "TryHackMe Security Analyst Level 1",
+    "issuing_body": "TryHackMe",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_operations",
+      "soc_analysis"
+    ],
+    "level": "beginner",
+    "practical_weight": 40,
+    "cost_usd": 349,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Launched February 2025. Hybrid MCQ + SOC simulation exam, 24-hour window, unproctored. Credential verified on Credly.",
+    "skills": [
+      "threat_detection",
+      "siem_investigation",
+      "log_analysis",
+      "incident_response_process",
+      "network_traffic_analysis",
+      "security_operations",
+      "malware_analysis_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic networking",
+        "Basic cybersecurity concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "TryHackMe's first formal certification, launched February 2025, targeting analysts with 0-2 years of experience. The SAL1 uses a hybrid format \u2014 MCQ sections alongside a SOC simulation environment \u2014 delivered as a 24-hour unproctored exam window. Credential is Credly-verified with a 3-year renewal cycle. Covers network traffic analysis, log analysis, SIEM investigation, basic incident response, and threat detection fundamentals. Priced at $349, making it accessible compared to GIAC or EC-Council equivalents. The unproctored format is its main weakness versus OSCP-class credentials, but the hands-on SOC sim component differentiates it from pure MCQ exams like CompTIA CySA+. Good entry-level option for analysts building a foundational credential before pursuing BTL1 or CDSA.",
+    "flags": [
+      "new",
+      "hands_on",
+      "low_cost"
+    ],
+    "official_url": "https://tryhackme.com/certifications/sal1",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 5,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "ex415",
+    "acronym": "EX415",
+    "full_name": "Red Hat Certified Specialist in Security: Linux",
+    "issuing_body": "Red Hat",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "linux_security",
+      "security_hardening"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 500,
+    "renewal": "3 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "100% hands-on performance-based exam. No MCQ. Covers RHEL 9. Requires active RHCE or RHCSA as prerequisite.",
+    "skills": [
+      "linux_security_hardening",
+      "selinux_configuration",
+      "openscap",
+      "aide_intrusion_detection",
+      "ansible_security_automation",
+      "audit_subsystem",
+      "firewall_management",
+      "compliance_management"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Active RHCE certification or equivalent Linux administration experience",
+        "Familiarity with SELinux, Ansible, and system auditing"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Red Hat's security-focused Linux specialist certification (exam EX415), covering SELinux policy management, OpenSCAP compliance scanning, AIDE intrusion detection, Ansible-based security automation, and the Linux audit subsystem. 100% hands-on performance-based exam with no MCQ component \u2014 Red Hat's signature exam format where candidates configure live systems rather than answering questions about them. $500, 3-year renewal, RHCE or RHCSA prerequisite. One of three active Red Hat security-relevant certs alongside EX362 (Identity Management) and EX430 (OpenShift ACS). Particularly relevant for Linux/DevSecOps engineers in regulated environments and government contractors working on RHEL-based infrastructure. Not DoD 8140 approved but the hands-on format and RHEL platform relevance make it respected in the Linux security practitioner community.",
+    "flags": [
+      "hands_on"
+    ],
+    "official_url": "https://www.redhat.com/en/services/training/ex415-red-hat-certified-specialist-security-linux-exam",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 6,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "sog-cnsp",
+    "acronym": "CNSP",
+    "full_name": "SecOps Group Certified Network Security Practitioner",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "network_security"
+    ],
+    "subdomain": [
+      "network_security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 32,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "network_security_fundamentals",
+      "tcp_ip",
+      "nmap",
+      "wireshark",
+      "active_directory_basics",
+      "linux_security",
+      "osint_methodology"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Essentials-tier (60-min MCQ, \u00a325). Broad network and security fundamentals \u2014 TCP/IP, Nmap usage, Wireshark basics, AD concepts, Linux/Windows security, and OSINT introduction. The entry point into the SecOps Group ladder.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-ccsp-aws",
+    "acronym": "CCSP-AWS",
+    "full_name": "SecOps Group Certified Cloud Security Practitioner AWS",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "cloud_security_fundamentals"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 32,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "aws_security",
+      "cloud_security_fundamentals",
+      "iam_basics",
+      "vpc_security",
+      "cloudwatch",
+      "cloudtrail",
+      "kms"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Essentials-tier (60-min MCQ, \u00a325). AWS cloud security fundamentals \u2014 IAM, KMS, VPC security groups, CloudWatch/CloudTrail, EKS/ECS basics. MCQ only. Entry-level cloud security baseline at minimal cost.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-cbtp",
+    "acronym": "CBTP",
+    "full_name": "SecOps Group Certified Blue Team Practitioner",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_operations"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 32,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "soc_operations",
+      "siem_investigation",
+      "dfir_basics",
+      "malware_analysis_basics",
+      "incident_response_process"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Essentials-tier (60-min MCQ, \u00a325, 2025). SOC and blue team fundamentals \u2014 SIEM basics, DFIR workflow, malware analysis concepts, incident response process. Entry-level blue team MCQ credential.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
+    }
+  },
+  {
+    "id": "sog-csedp",
+    "acronym": "CSEDP",
+    "full_name": "SecOps Group Certified Social Engineering Defense Practitioner",
+    "issuing_body": "The SecOps Group",
+    "domain": [
+      "defensive_soc"
+    ],
+    "subdomain": [
+      "security_awareness"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 32,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "skills": [
+      "social_engineering_defense",
+      "phishing_awareness",
+      "vishing",
+      "impersonation_defense",
+      "human_factor_security"
+    ],
+    "prerequisites": {
+      "knowledge": [],
+      "recommended_certs": []
+    },
+    "summary": "Essentials-tier (60-min MCQ, \u00a325, late 2025). Social engineering defense fundamentals \u2014 phishing, vishing, impersonation, pretexting, and human-factor security awareness. MCQ only.",
+    "flags": [],
+    "official_url": "https://pentestingexams.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 2,
+      "employer_recognition": 4,
+      "community_respect": 4,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.0
     }
   }
 ]
