@@ -1,11 +1,6 @@
 {
   "news": [
     {
-      "date": "2026-04-21",
-      "title": "Posted on r/cybersecurity — feedback welcome",
-      "body": "EBCertMap is now live on Reddit for community review. If you have feedback on cert scores, missing certs, or domain coverage — drop it in the thread. Every data point helps. 🔗 reddit.com/r/cybersecurity/comments/1srpwfs"
-    },
-    {
       "date": "2026-04-20",
       "title": "Added phone support layout for the certmap",
       "body": "EBCertMap is now fully usable on mobile. The layout adapts at 768px: domain pills scroll horizontally in the Certs view, the Skills panel opens as an overlay, and the Roles view switches to a drill-down flow (roles → paths → cert profile). Desktop experience is unchanged."
@@ -17,15 +12,6 @@
     }
   ],
   "changelog": [
-    {
-      "date": "2026-04-21",
-      "title": "Added IACIS Certifications",
-      "items": [
-        "CFCE — IACIS Certified Forensic Computer Examiner (the only FSAB-accredited digital forensics cert)",
-        "CAWFE — IACIS Certified Advanced Windows Forensic Examiner",
-        "ICMDE — IACIS Certified Mobile Device Examiner"
-      ]
-    },
     {
       "date": "2026-04-20",
       "title": "Mobile Layout Support",
