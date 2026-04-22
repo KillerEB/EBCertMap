@@ -15,6 +15,54 @@
   "experience_level": "entry_to_intermediate",
   "paths": [
     {
+      "id": "soc_entry",
+      "name": "Entry-Level Track",
+      "rationale": "For career changers and beginners with no prior security experience. TryHackMe SAL1 provides an affordable practical SOC foundation with hybrid MCQ + SOC simulation format. BTL1 adds hands-on blue team depth. CySA+ closes the loop with DoD-recognized HR credentialing. This path prioritizes accessibility and skills validation before major cert investment.",
+      "estimated_timeline": "8-12 months",
+      "total_cost_usd": 1607,
+      "pros": [
+        "SAL1 is the most affordable practical SOC cert on the market at $349",
+        "BTL1 is universally respected as the entry-level blue team practical benchmark",
+        "CySA+ provides DoD 8140 recognition and HR keyword coverage",
+        "Progressive difficulty \u2014 each cert builds on the last"
+      ],
+      "cons": [
+        "SAL1 is new (Feb 2025) \u2014 HR recognition is still building",
+        "Unproctored exams (SAL1 and BTL1) may be discounted by some employers",
+        "CySA+ adds MCQ overhead after two practical certs",
+        "Total cost still exceeds $1,500 for entry-level"
+      ],
+      "prerequisites": {
+        "experience": "No prior security certifications required. Basic IT literacy and familiarity with networking concepts recommended.",
+        "knowledge": [
+          "Basic networking (TCP/IP, DNS, HTTP)",
+          "Windows and Linux fundamentals",
+          "General security concepts"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "thm-sal1",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "TryHackMe Security Analyst Level 1 \u2014 launched February 2025, developed with Accenture and Salesforce. 24-hour exam combining 80 MCQs with two Splunk-based SOC simulations. $349 with 3 months Premium and one free retake included. Community verdict: excellent skills builder and accessible entry point, but HR recognition is still developing \u2014 pair with BTL1 and CySA+ for resume credibility. Complete the TryHackMe SOC Level 1 learning path before attempting."
+        },
+        {
+          "cert_id": "btl1",
+          "order": 2,
+          "estimated_time": "3-4 months",
+          "notes": "Blue Team Labs Level 1 \u2014 the community gold standard for entry-level SOC practical certification. 24-hour hands-on exam covering SIEM investigation, PCAP analysis, threat hunting, and incident response. Strong employer recognition in blue team hiring. SAL1 prepares you well for BTL1's SIEM-focused sections."
+        },
+        {
+          "cert_id": "cysa-plus",
+          "order": 3,
+          "estimated_time": "2-3 months",
+          "notes": "CompTIA CySA+ \u2014 DoD 8140 approved, widely recognized HR keyword. Adds the compliance and governance layer that SAL1 and BTL1 don't cover. With 6+ months of practical SOC cert experience, CySA+'s MCQ format is significantly more approachable. Renews every 3 years via CEUs."
+        }
+      ]
+    },
+    {
       "id": "soc_analyst_government",
       "name": "Government / DoD Track",
       "rationale": "Maximizes DoD 8140 approved credentials. Essential for government, military, and cleared contractor SOC positions where compliance-approved certs are mandatory. Every cert in this path is DoD 8140 approved and covers the DCWF work roles relevant to cyber defense analysis.",

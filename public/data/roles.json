@@ -170,10 +170,11 @@
     "label": "AI Security Specialist",
     "description": "Secures AI systems, conducts AI red teaming, implements AI governance, and advises on AI risk management. An emerging role as AI becomes a core attack surface.",
     "experience_level": "intermediate_to_expert",
-    "path_count": 2,
+    "path_count": 3,
     "path_ids": [
       "ai_red_team",
-      "ai_defensive"
+      "ai_defensive",
+      "ai_governance"
     ],
     "category": "defensive"
   },
@@ -531,5 +532,53 @@
     "path_ids": [
       "awareness_standard"
     ]
+  },
+  {
+    "id": "offensive_developer",
+    "label": "Offensive Developer",
+    "description": "Develops offensive tooling, implants, loaders, and evasion code for red team operations. Focuses on Windows internals, process injection, AV/EDR bypass, and custom C2 capability development.",
+    "experience_level": "senior",
+    "path_count": 2,
+    "path_ids": [
+      "offdev_standard",
+      "offdev_budget"
+    ],
+    "category": "offensive"
+  },
+  {
+    "id": "osint_analyst",
+    "label": "OSINT Analyst",
+    "description": "Conducts open source intelligence investigations \u2014 subject profiling, digital footprint analysis, geolocation, and intelligence product development for corporate, law enforcement, or government clients.",
+    "experience_level": "intermediate",
+    "path_count": 2,
+    "path_ids": [
+      "osint_practitioner",
+      "osint_budget"
+    ],
+    "category": "defensive"
+  },
+  {
+    "id": "purple_team_analyst",
+    "label": "Purple Team Analyst",
+    "description": "Bridges offensive and defensive security \u2014 conducting structured attack-detect-respond cycles, validating detection coverage, and improving defensive tooling through adversary simulation.",
+    "experience_level": "senior",
+    "path_count": 2,
+    "path_ids": [
+      "purple_standard",
+      "purple_budget"
+    ],
+    "category": "defensive"
+  },
+  {
+    "id": "payment_security_specialist",
+    "label": "Payment Security Specialist",
+    "description": "Specializes in PCI DSS compliance assessment, card payment security architecture, and cardholder data environment security. Roles include ISA, QSA, or payment security architect.",
+    "experience_level": "intermediate_to_expert",
+    "path_count": 2,
+    "path_ids": [
+      "payment_internal",
+      "payment_qsa"
+    ],
+    "category": "grc"
   }
 ]

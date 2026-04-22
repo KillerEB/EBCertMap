@@ -1,0 +1,119 @@
+{
+  "role_id": "offensive_developer",
+  "label": "Offensive Developer",
+  "description": "Develops offensive tooling, implants, loaders, and evasion code for red team operations. Focuses on Windows internals, process injection, AV/EDR bypass, and custom C2 capability development.",
+  "job_titles": [
+    "Offensive Developer",
+    "Malware Developer",
+    "Red Team Tool Developer",
+    "Offensive Security Engineer",
+    "Implant Developer",
+    "Capability Developer"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "offdev_standard",
+      "name": "Standard Track",
+      "rationale": "ODPC is the only performance-based offensive development cert available \u2014 48-hour practical + report covering C/Go implant development, AMSI/ETW bypass, and EDR evasion. Paired with MalDev Academy for breadth and OSED for OffSec brand recognition. This stack proves both practical tooling ability and formal credentialing.",
+      "estimated_timeline": "18-26 months",
+      "total_cost_usd": 3248,
+      "pros": [
+        "ODPC is the only hands-on offensive dev cert \u2014 48hr practical + professional report",
+        "OSED adds OffSec brand credibility valued by enterprise and federal employers",
+        "MalDev Academy is the community-recommended learning platform \u2014 used by SpecterOps for onboarding",
+        "All practical \u2014 no MCQ credentials in the stack"
+      ],
+      "cons": [
+        "Requires strong Red Team Operator foundation before starting \u2014 not an entry path",
+        "OSED is significantly harder than OSCP \u2014 plan for extended lab time",
+        "Portfolio (GitHub implants, CVEs, conference talks) matters more than certs in this space",
+        "High total cost \u2014 employer sponsorship for OSED recommended"
+      ],
+      "prerequisites": {
+        "experience": "Red Team Operator experience required \u2014 CRTO or OSCP minimum. C, C#, or Go programming proficiency. Windows internals familiarity. This is a senior specialization, not an entry path.",
+        "knowledge": [
+          "Windows internals (processes, threads, memory)",
+          "C or C# programming",
+          "x86/x64 assembly basics",
+          "PE format and loader concepts",
+          "AV/EDR bypass fundamentals"
+        ],
+        "recommended_certs": [
+          "oscp",
+          "crto"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "wkl-odpc",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "White Knight Labs Offensive Development Practitioner Certification \u2014 the only performance-based offensive development cert. $500 on-demand, 48-hour practical exam + 48-hour professional report. Covers AMSI bypass, ETW patching, process injection variants, AV/EDR evasion, and implant development in C and Go. No MCQ \u2014 pass/fail on your working code and report quality. The most direct credential proof of offensive development capability available."
+        },
+        {
+          "cert_id": "cwl-cwi-rto",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "CWL Certified Windows Internals Red Team Operator \u2014 fills the Windows internals depth that pure offensive dev certs assume. Covers process injection, token manipulation, handle inheritance, and EDR blind spots via internals knowledge. Bridges tool-user and tool-builder at the OS level. Practical + report, 12+12 hours, $299."
+        },
+        {
+          "cert_id": "osed",
+          "order": 3,
+          "estimated_time": "6-10 months",
+          "notes": "OffSec Exploit Developer \u2014 Windows exploit development from buffer overflows to SEH, heap exploitation, and custom shellcode. The OffSec brand recognition is OSED's primary value for hiring managers. Significantly harder than OSCP \u2014 the 72-hour exam requires writing working exploits under time pressure. With ODPC completed you arrive at OSED with practical tooling context that makes the exploit dev content more relatable."
+        }
+      ]
+    },
+    {
+      "id": "offdev_budget",
+      "name": "Budget Track",
+      "rationale": "For self-funded practitioners building offensive development skills before committing to OSED's price. Zero2Automated adds malware RE depth, CBFRPro adds binary fuzzing and RE validation, ODPC is the capstone practical cert. Total cost under $1,000.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 980,
+      "pros": [
+        "Under $1,000 total \u2014 the most affordable offensive dev credential stack",
+        "Z2A + CBFRPro cover RE and fuzzing at depth",
+        "ODPC is the only hands-on offensive dev cert regardless of budget",
+        "Lifetime access to all three"
+      ],
+      "cons": [
+        "Lower HR name recognition than OSED",
+        "CBFRPro is a newer SecOps Group cert \u2014 building market presence",
+        "Portfolio remains essential \u2014 certs alone won't land senior offensive dev roles",
+        "No OffSec brand in the stack"
+      ],
+      "prerequisites": {
+        "experience": "Red Team Operator experience required. Same baseline as standard track.",
+        "knowledge": [
+          "Windows internals",
+          "C or C# programming",
+          "x86/x64 assembly basics"
+        ],
+        "recommended_certs": [
+          "crto"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "z2a",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "Zero2Automated \u2014 builds malware RE and analysis depth that informs better offensive tooling. Understanding how defenders analyze implants makes you a better implant developer. ~$390 lifetime, universally respected."
+        },
+        {
+          "cert_id": "sog-cbfrpro",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "SecOps Group Certified Binary Fuzzing and Reversing Professional \u2014 AFL++, IDA/Ghidra workflow, memory-corruption identification. Adds formal RE and fuzzing credential at \u00a3250 (~$320). Practical hands-on exam."
+        },
+        {
+          "cert_id": "wkl-odpc",
+          "order": 3,
+          "estimated_time": "3-5 months",
+          "notes": "ODPC capstone \u2014 the only performance-based offensive dev cert. With Z2A and CBFRPro foundations completed you arrive at ODPC with strong RE and analysis context. $500 on-demand."
+        }
+      ]
+    }
+  ]
+}

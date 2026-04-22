@@ -1,0 +1,112 @@
+{
+  "role_id": "osint_analyst",
+  "label": "OSINT Analyst",
+  "description": "Conducts open source intelligence investigations \u2014 subject profiling, digital footprint analysis, geolocation, and intelligence product development for corporate, law enforcement, or government clients.",
+  "job_titles": [
+    "OSINT Analyst",
+    "Open Source Intelligence Analyst",
+    "Digital Intelligence Analyst",
+    "OSINT Investigator",
+    "Competitive Intelligence Analyst",
+    "Threat Intelligence Analyst (OSINT)"
+  ],
+  "experience_level": "intermediate",
+  "paths": [
+    {
+      "id": "osint_practitioner",
+      "name": "Practitioner Track",
+      "rationale": "IntelTechniques OSIP is the practitioner gold standard \u2014 live 1-on-1 proctored scenario-based exam. PORP adds a cheaper accessible credential for portfolio validation. GSOA provides the GIAC brand credibility for enterprise and government hiring. Trace Labs CTF participation is mandatory portfolio-building alongside all three.",
+      "estimated_timeline": "9-15 months",
+      "total_cost_usd": 2178,
+      "pros": [
+        "OSIP is the most respected OSINT cert \u2014 unique live proctored scenario exam",
+        "GSOA is the first GIAC CyberLive hands-on OSINT cert \u2014 strong institutional credibility",
+        "PORP provides accessible entry validation before OSIP investment",
+        "Trace Labs CTF experience complements every cert in the stack"
+      ],
+      "cons": [
+        "Most US OSINT roles require security clearance \u2014 certs alone won't open government doors",
+        "OSIP requires ~$550 IntelTechniques training membership before exam eligibility (~$850 total)",
+        "GSOA is $9,800+ all-in with SEC587 training \u2014 employer funding recommended",
+        "Portfolio (Trace Labs, published investigations) matters as much as certs"
+      ],
+      "prerequisites": {
+        "experience": "Basic internet research skills and familiarity with OSINT tools recommended. Trace Labs CTF participation before attempting OSIP strongly advised.",
+        "knowledge": [
+          "Boolean search operators",
+          "Social media platform structures",
+          "Basic networking concepts",
+          "Privacy and legal boundaries of OSINT"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "porp",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "OSINTion Practical OSINT Research Professional \u2014 accessible entry credential at $399. Covers OSINT methodology, subject profiling, and investigation workflow. Good starting validation point before the OSIP investment. Participate in Trace Labs CTFs concurrently \u2014 they're the best portfolio-building activity available and directly prepare for OSIP's scenario format."
+        },
+        {
+          "cert_id": "osip",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "IntelTechniques OSINT Investigator Professional \u2014 developed by Michael Bazzell (Privacy, Security, and OSINT podcast). Unique live 1-on-1 proctored exam with Jason Edison using a scenario-based investigation format. $300 exam fee requires prior IntelTechniques training membership (~$550/year). Total ~$850. No renewal. The practitioner community considers OSIP the benchmark OSINT credential for methodology depth and exam rigor. Complete all IntelTechniques courses before attempting."
+        },
+        {
+          "cert_id": "gsoa",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Open Source Intelligence Analyst \u2014 launched November 12, 2025, the first GIAC CyberLive hands-on OSINT cert. Associated with SANS SEC587. ~$9,800 all-in with training \u2014 employer funding strongly recommended. The GIAC brand adds government and enterprise hiring credibility that OSIP and PORP lack. With OSIP's methodology foundation established, GSOA's hands-on format validates the same skills in a proctored CyberLive environment."
+        }
+      ]
+    },
+    {
+      "id": "osint_budget",
+      "name": "Budget Track",
+      "rationale": "For self-funded OSINT practitioners. PORP provides accessible entry, OSIP is the practitioner gold standard, and CTIA provides threat intelligence context that elevates OSINT work from passive research to actionable intelligence products. Total cost under $1,500.",
+      "estimated_timeline": "6-10 months",
+      "total_cost_usd": 1498,
+      "pros": [
+        "Under $1,500 total \u2014 the most affordable credentialed OSINT path",
+        "OSIP is the practitioner gold standard regardless of budget",
+        "CTIA adds threat intel context \u2014 makes OSINT work more operationally relevant",
+        "No employer sponsorship required"
+      ],
+      "cons": [
+        "No GIAC brand in the stack \u2014 limits government recognition",
+        "CTIA from EC-Council has mixed community reception",
+        "Trace Labs portfolio still essential alongside certs",
+        "OSIP total cost is ~$850 including mandatory training membership"
+      ],
+      "prerequisites": {
+        "experience": "Basic OSINT tool familiarity recommended.",
+        "knowledge": [
+          "Boolean search operators",
+          "Social media research basics"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "porp",
+          "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "OSINTion PORP \u2014 affordable entry credential. Validates OSINT methodology foundation before the OSIP investment. Run Trace Labs CTFs concurrently."
+        },
+        {
+          "cert_id": "osip",
+          "order": 2,
+          "estimated_time": "3-5 months",
+          "notes": "IntelTechniques OSIP \u2014 the practitioner gold standard. ~$850 total including mandatory training membership. Live 1-on-1 proctored scenario exam. Non-negotiable for serious OSINT practitioners."
+        },
+        {
+          "cert_id": "ctia",
+          "order": 3,
+          "estimated_time": "2-3 months",
+          "notes": "EC-Council Certified Threat Intelligence Analyst \u2014 adds structured intelligence cycle methodology and threat actor profiling context to raw OSINT skills. MCQ-based, $499. Elevates OSINT work from passive research to intelligence product development."
+        }
+      ]
+    }
+  ]
+}

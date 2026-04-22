@@ -1,0 +1,116 @@
+{
+  "role_id": "purple_team_analyst",
+  "label": "Purple Team Analyst",
+  "description": "Bridges offensive and defensive security \u2014 conducting structured attack-detect-respond cycles, validating detection coverage, and improving defensive tooling through adversary simulation. Typically a senior role requiring 3+ years of combined red and blue experience.",
+  "job_titles": [
+    "Purple Team Analyst",
+    "Purple Team Lead",
+    "Detection Validation Engineer",
+    "Adversary Emulation Analyst",
+    "Threat Simulation Engineer"
+  ],
+  "experience_level": "senior",
+  "paths": [
+    {
+      "id": "purple_standard",
+      "name": "Standard Track",
+      "rationale": "BTL2 provides advanced blue team depth and is the recognized senior blue team cert. CWL CPTA adds structured purple team methodology with ATT&CK mapping and detection validation. GDAT from GIAC is the senior enterprise capstone \u2014 DoD-recognized adversary tactics coverage. Requires 2-4 years of combined offensive/defensive baseline.",
+      "estimated_timeline": "12-18 months",
+      "total_cost_usd": 11147,
+      "pros": [
+        "BTL2 is the recognized advanced blue team credential \u2014 direct purple team relevance",
+        "CWL CPTA is the only dedicated purple team cert with structured ATT&CK methodology",
+        "GDAT adds GIAC brand recognition and DoD-adjacent credibility",
+        "The combination covers offensive simulation, detection validation, and defensive response"
+      ],
+      "cons": [
+        "Requires 2-4 years offensive + defensive experience before starting",
+        "GDAT is expensive \u2014 employer funding recommended",
+        "Purple Team Analyst as a title may consolidate into Detection Engineering by 2027",
+        "Role is rare at junior level \u2014 most organizations hire senior practitioners into purple team"
+      ],
+      "prerequisites": {
+        "experience": "2-4 years of combined red team and blue team experience required. OSCP or BTL1 as minimum prior credentialing. This is not an entry-level path.",
+        "knowledge": [
+          "ATT&CK framework mapping",
+          "SIEM and EDR platform operation",
+          "Penetration testing methodology",
+          "Detection rule development basics"
+        ],
+        "recommended_certs": [
+          "oscp",
+          "btl1"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl2",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "Blue Team Labs Level 2 \u2014 the advanced blue team cert covering threat hunting, advanced DFIR, malware triage, and enterprise incident response. ~$999. Prerequisite BTL1 experience recommended. Establishes the defensive depth that makes purple team work credible rather than superficial."
+        },
+        {
+          "cert_id": "cwl-cpta",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "CWL Certified Purple Team Analyst v2 \u2014 structured attack-detect-respond cycles, ATT&CK framework mapping, detection rule validation, and offensive/defensive perspective integration. $199, practical instructor-evaluated exam. The only dedicated purple team cert \u2014 add during a CWL sale for maximum value."
+        },
+        {
+          "cert_id": "gdat",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "GIAC Defending Advanced Threats \u2014 covers advanced adversary techniques and organizational defensive response. Associated with SANS SEC530. The GIAC brand and DoD-adjacent recognition is the primary value. Employer-funded recommended given SANS pricing (~$9,800 all-in). With BTL2 and CPTA foundations completed, GDAT deepens the enterprise defensive architecture context."
+        }
+      ]
+    },
+    {
+      "id": "purple_budget",
+      "name": "Budget Track",
+      "rationale": "For practitioners who want purple team credentialing without GIAC investment. BTL2 + CWL CPTA + SecOps Group CBTeamerX covers the full purple team scope at under $2,000 total. CBTeamerX (launched January 2026) is the most advanced defensive practical exam in the SecOps Group catalog.",
+      "estimated_timeline": "8-14 months",
+      "total_cost_usd": 1708,
+      "pros": [
+        "Under $1,800 total \u2014 fraction of the GDAT track cost",
+        "CBTeamerX is a 7-hour multi-stage APT investigation \u2014 genuinely rigorous practical exam",
+        "All three certs are practical or lab-based",
+        "Lifetime validity on SecOps Group certs"
+      ],
+      "cons": [
+        "No GIAC brand \u2014 limits government/enterprise recognition",
+        "CBTeamerX is very new (January 2026) \u2014 building market presence",
+        "Portfolio of purple team exercise writeups remains essential"
+      ],
+      "prerequisites": {
+        "experience": "2+ years combined red/blue experience. OSCP or BTL1 recommended.",
+        "knowledge": [
+          "ATT&CK framework basics",
+          "SIEM operation",
+          "Pentesting fundamentals"
+        ],
+        "recommended_certs": [
+          "btl1"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "btl2",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "BTL2 \u2014 advanced blue team foundation. The defensive depth prerequisite for credible purple team work."
+        },
+        {
+          "cert_id": "cwl-cpta",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "CWL CPTA v2 \u2014 the dedicated purple team cert. $199, add during a CWL sale."
+        },
+        {
+          "cert_id": "sog-cbteamer-x",
+          "order": 3,
+          "estimated_time": "2-4 months",
+          "notes": "SecOps Group CBTeamerX \u2014 7-hour multi-stage APT investigation across on-prem AD and cloud. Launched January 2026. \u00a3400 (~$510). The most rigorous budget defensive practical exam available. With BTL2 and CPTA foundations this tests everything simultaneously."
+        }
+      ]
+    }
+  ]
+}

@@ -2313,5 +2313,199 @@
       "time_to_prepare": 6,
       "overall": 7.0
     }
+  },
+  {
+    "id": "z2a",
+    "acronym": "Z2A",
+    "full_name": "Zero2Automated Advanced Malware Analysis Certification",
+    "issuing_body": "0ffset Training Solutions",
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "malware_analysis",
+      "reverse_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 70,
+    "cost_usd": 390,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Developed by Daniel Bunce and the late Vitali Kremez. Black Friday discounts routinely bring to ~$290. Certification included with course purchase.",
+    "skills": [
+      "malware_analysis",
+      "reverse_engineering",
+      "static_malware_analysis",
+      "dynamic_malware_analysis",
+      "unpacking_techniques",
+      "deobfuscation",
+      "c2_protocol_analysis",
+      "automated_malware_analysis",
+      "ioc_extraction"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Windows OS fundamentals",
+        "Basic x86 assembly awareness",
+        "Static analysis tool basics (IDA/Ghidra)",
+        "Dynamic analysis sandbox concepts"
+      ],
+      "recommended_certs": [
+        "mre"
+      ]
+    },
+    "summary": "Zero2Automated is widely regarded as the best-value advanced malware analysis course and certification available \u2014 practitioners on r/blueteamsec and malware.news consistently rate its content above GREM in practical depth and currency, at roughly 4% of the cost. Developed by Daniel Bunce and Vitali Kremez (0ffset Training Solutions), it covers advanced static analysis, unpacking and deobfuscation, C2 protocol reverse engineering, and automated malware analysis frameworks. Certification is included with the ~$390 lifetime course purchase (Black Friday discounts to ~$290 are routine). Not a standalone proctored exam \u2014 the cert validates course completion and practical assessment components. For self-funded malware analysts, Zero2Automated plus TCM Security PMAT/PMRP is the recommended stack before committing to GREM's $9,800+ investment.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://courses.zero2auto.com/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 4,
+      "community_respect": 9,
+      "salary_impact": 5,
+      "time_to_prepare": 7,
+      "overall": 7.2
+    }
+  },
+  {
+    "id": "13c-iwe",
+    "acronym": "IWE",
+    "full_name": "Investigating Windows Endpoints",
+    "issuing_body": "13Cubed",
+    "domain": ["dfir"],
+    "subdomain": ["digital_forensics", "windows_forensics"],
+    "level": "intermediate",
+    "practical_weight": 40,
+    "cost_usd": 795,
+    "renewal": "Never expires",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": ["windows_artifact_analysis", "registry_analysis", "lnk_file_analysis", "browser_forensics", "email_forensics", "file_system_analysis", "evidence_handling", "timeline_analysis"],
+    "prerequisites": {
+      "knowledge": ["windows_os_internals", "basic_file_systems", "security_fundamentals"],
+      "recommended_certs": []
+    },
+    "summary": "13Cubed's Windows endpoint forensics certification by Richard Davis (Microsoft DART, former SANS instructor) — widely regarded as the highest-quality affordable alternative to SANS FOR500/GCFE. Covers the full Windows artifact landscape: registry, LNK files, shellbags, browser history, email artifacts, prefetch, evidence of execution artifacts (ShimCache, AmCache, PCA, SRUM, UserAssist), NTFS anatomy, file deletion and recovery, and timeline construction with Plaso/Log2Timeline. Two capstone investigation challenges using real forensic disk images. The assessment includes 60 MCQ questions plus 20 practical questions (40% weight) requiring analysis of a compromised forensic image — more hands-on than GIAC's CyberLive component per practitioner comparisons. Non-proctored and open-book, which limits employer recognition versus GCFE, but the training quality genuinely rivals SANS FOR500 content. Covers approximately 80-90% of GCFE content at under 10% of the SANS training cost. Does not cover disk acquisition, memory forensics, or cloud forensics.",
+    "flags": ["low_cost", "portfolio_based"],
+    "official_url": "https://training.13cubed.com/investigating-windows-endpoints",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 7,
+      "employer_recognition": 3,
+      "community_respect": 8,
+      "salary_impact": 3,
+      "time_to_prepare": 5,
+      "overall": 5.6
+    }
+  },
+  {
+    "id": "13c-iwm",
+    "acronym": "IWM",
+    "full_name": "Investigating Windows Memory",
+    "issuing_body": "13Cubed",
+    "domain": ["dfir"],
+    "subdomain": ["memory_forensics", "malware_analysis"],
+    "level": "intermediate",
+    "practical_weight": 40,
+    "cost_usd": 795,
+    "renewal": "Never expires",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": ["memory_forensics", "windows_memory_forensics", "malware_behavior_analysis", "malware_triage", "ioc_extraction"],
+    "prerequisites": {
+      "knowledge": ["windows_os_internals", "basic_memory_concepts", "security_fundamentals"],
+      "recommended_certs": ["13c-iwe"]
+    },
+    "summary": "13Cubed's Windows memory forensics certification covering Volatility 2/3 and MemProcFS in significantly more depth than SANS FOR508. Topics include process enumeration, code injection detection (basic, reflective DLL injection, process hollowing), API and SSDT hooks, kernel module analysis, YARA scanning, malware memory analysis, and an introduction to WinDbg crash dump analysis. Seven memory images provided for hands-on practice. GCFA holders have noted IWM covers memory forensics tools more thoroughly than the corresponding FOR508 content. Same non-proctored open-book assessment format as IWE with 40% practical weight. Community consensus is this is the best affordable memory forensics training available.",
+    "flags": ["low_cost", "portfolio_based"],
+    "official_url": "https://training.13cubed.com/investigating-windows-memory",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 8,
+      "employer_recognition": 3,
+      "community_respect": 8,
+      "salary_impact": 3,
+      "time_to_prepare": 5,
+      "overall": 5.9
+    }
+  },
+  {
+    "id": "13c-ild",
+    "acronym": "ILD",
+    "full_name": "Investigating Linux Devices",
+    "issuing_body": "13Cubed",
+    "domain": ["dfir"],
+    "subdomain": ["digital_forensics"],
+    "level": "intermediate",
+    "practical_weight": 40,
+    "cost_usd": 895,
+    "renewal": "Never expires",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": ["digital_forensics", "file_system_analysis", "evidence_handling", "memory_forensics", "timeline_analysis"],
+    "prerequisites": {
+      "knowledge": ["linux_command_line", "basic_file_systems", "security_fundamentals"],
+      "recommended_certs": ["13c-iwe"]
+    },
+    "summary": "13Cubed's Linux forensics certification covering Linux log analysis, ext2/3/4 and other file systems, persistence mechanisms, systemd artifacts, SSH key forensics, evidence collection with dd/dcfldd/AVML/UAC, and Linux memory forensics with Volatility 3. Five disk and memory images provided. Includes a full live-response capstone analyzing a compromised Linux system. No equivalent standalone Linux forensics certification exists at this price point.",
+    "flags": ["low_cost", "portfolio_based"],
+    "official_url": "https://training.13cubed.com/investigating-linux-devices",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 7,
+      "employer_recognition": 3,
+      "community_respect": 7,
+      "salary_impact": 3,
+      "time_to_prepare": 5,
+      "overall": 5.4
+    }
+  },
+  {
+    "id": "13c-ime",
+    "acronym": "IME",
+    "full_name": "Investigating macOS Endpoints",
+    "issuing_body": "13Cubed",
+    "domain": ["dfir"],
+    "subdomain": ["digital_forensics"],
+    "level": "intermediate",
+    "practical_weight": 40,
+    "cost_usd": 895,
+    "renewal": "Never expires",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": ["digital_forensics", "file_system_analysis", "evidence_handling", "timeline_analysis"],
+    "prerequisites": {
+      "knowledge": ["macos_basics", "basic_file_systems", "security_fundamentals"],
+      "recommended_certs": ["13c-iwe"]
+    },
+    "summary": "13Cubed's macOS forensics certification covering Apple Silicon and Intel Mac investigation — Unified Logging, APFS/HFS+ file systems, macOS-specific artifacts (FSEvents, knowledgeC.db, Biome, .DS_Store), persistence mechanisms via LaunchDaemons/Agents, and a compromised-system capstone investigation. macOS forensics is one of the most underserved areas in the certification market — SANS FOR518 covers similar ground at roughly 10x the cost.",
+    "flags": ["low_cost", "portfolio_based"],
+    "official_url": "https://training.13cubed.com/investigating-macos-endpoints",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 7,
+      "employer_recognition": 3,
+      "community_respect": 7,
+      "salary_impact": 3,
+      "time_to_prepare": 5,
+      "overall": 5.4
+    }
   }
 ]

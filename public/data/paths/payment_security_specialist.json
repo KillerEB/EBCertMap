@@ -1,0 +1,114 @@
+{
+  "role_id": "payment_security_specialist",
+  "label": "Payment Security Specialist",
+  "description": "Specializes in PCI DSS compliance assessment, card payment security architecture, and cardholder data environment security. Roles include internal security assessor, QSA at a consulting firm, or payment security architect at a merchant or processor.",
+  "job_titles": [
+    "QSA \u2014 Qualified Security Assessor",
+    "ISA \u2014 Internal Security Assessor",
+    "Payment Security Consultant",
+    "PCI DSS Assessor",
+    "AQSA \u2014 Associate QSA",
+    "Payment Security Architect"
+  ],
+  "experience_level": "intermediate_to_expert",
+  "paths": [
+    {
+      "id": "payment_internal",
+      "name": "Internal Assessor Track (ISA)",
+      "rationale": "For security professionals at large merchants, processors, or financial institutions who want to conduct internal PCI DSS assessments. PCIP is the only individually portable PCI credential. ISA requires employer sponsorship but is the standard internal assessment qualification. CISA adds audit credibility and is often required before ISA sponsorship.",
+      "estimated_timeline": "12-24 months",
+      "total_cost_usd": 4890,
+      "pros": [
+        "ISA is the standard qualification for internal PCI DSS assessment programs",
+        "PCIP is individually portable \u2014 stays with you if you change employers",
+        "CISA adds broad IT audit credibility beyond PCI",
+        "High demand in financial services, retail, and hospitality sectors"
+      ],
+      "cons": [
+        "ISA requires employer sponsorship \u2014 cannot self-pursue beyond PCIP",
+        "ISA qualification terminates immediately if you leave the sponsoring employer",
+        "PCI DSS 4.0.1 content requires staying current with SSC updates",
+        "Limited transferability outside payment-heavy industries"
+      ],
+      "prerequisites": {
+        "experience": "Minimum 2 years IT security experience. Basic network and system security knowledge. PCIP requires no specific prior certs but 2 years IT experience is expected.",
+        "knowledge": [
+          "Network security fundamentals",
+          "System hardening concepts",
+          "IT audit basics",
+          "Payment card industry basics"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pcip",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "PCI SSC Payment Card Industry Professional \u2014 the only individually portable PCI credential. $1,700\u2013$2,750 depending on PO (Participating Organization) membership status. MCQ exam via Pearson VUE, 3-year renewal. Covers PCI DSS 4.0.1 requirements, scoping, network segmentation, and compliance program management. This is your personal credential \u2014 it stays with you regardless of employer. Required as a prerequisite before ISA or QSA qualification."
+        },
+        {
+          "cert_id": "cisa",
+          "order": 2,
+          "estimated_time": "6-12 months",
+          "notes": "ISACA Certified Information Systems Auditor \u2014 DoD 8140 approved, widely recognized IT audit credential. Many employers require CISA before sponsoring ISA. Adds formal audit methodology, evidence collection, and reporting skills that strengthen PCI assessment work. 5 years IT audit experience required for full certification (4 years with degree waiver)."
+        },
+        {
+          "cert_id": "pcip",
+          "order": 3,
+          "estimated_time": "Employer-sponsored",
+          "notes": "ISA \u2014 Internal Security Assessor. Requires employer sponsorship \u2014 your employer signs a Sponsor Attestation with PCI SSC. $1,890\u2013$4,000 employer-funded training. Annual requalification required. Allows you to conduct PCI DSS assessments for your own organization only. Cannot be used to assess other companies. Contact your employer's compliance team or PCI SSC directly to initiate the ISA program enrollment."
+        }
+      ]
+    },
+    {
+      "id": "payment_qsa",
+      "name": "External Assessor Track (QSA)",
+      "rationale": "For practitioners targeting QSA roles at consulting firms \u2014 the career path that allows assessing multiple clients. Requires working at a PCI SSC-approved QSA Company. PCIP is the personal portable foundation; CISA + CRISC add the audit and risk management depth QSA employers require; QSA is employer-sponsored through an approved QSAC.",
+      "estimated_timeline": "24-48 months",
+      "total_cost_usd": 6140,
+      "pros": [
+        "QSA roles command \u00a31,250\u2013\u00a31,342/day UK contracting rates and $110k\u2013$160k US salaries",
+        "High demand \u2014 qualified QSAs are scarce relative to PCI DSS mandates",
+        "CISA + CRISC combination is valued beyond PCI in risk and compliance roles",
+        "QSA opens doors to Big 4 and boutique security consulting"
+      ],
+      "cons": [
+        "Cannot self-navigate beyond PCIP \u2014 must be employed at a PCI SSC-approved QSAC",
+        "QSA qualification terminates immediately if you leave the QSAC",
+        "Long timeline \u2014 2-4 years to reach QSA including CISA requirements",
+        "QSAC company accreditation fees ($7,250\u2013$29,000 regional) mean only established firms sponsor QSAs"
+      ],
+      "prerequisites": {
+        "experience": "3-5 years IT security experience. CISA requires 5 years IT audit experience. Must secure employment at a PCI SSC-approved QSA Company before pursuing QSA qualification.",
+        "knowledge": [
+          "Network and system security",
+          "IT audit methodology",
+          "Risk management frameworks",
+          "Payment industry knowledge"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "pcip",
+          "order": 1,
+          "estimated_time": "3-5 months",
+          "notes": "PCIP first \u2014 your personally portable PCI foundation. $1,700\u2013$2,750. This stays with you across employers and demonstrates commitment to the payments security space before a QSAC invests in your QSA qualification."
+        },
+        {
+          "cert_id": "cisa",
+          "order": 2,
+          "estimated_time": "12-18 months",
+          "notes": "ISACA CISA \u2014 required by most QSACs and QSA employers before sponsoring QSA qualification. Adds formal audit methodology. 5 years IT audit experience required. Start CISA study in parallel with PCIP preparation."
+        },
+        {
+          "cert_id": "crisc",
+          "order": 3,
+          "estimated_time": "6-12 months",
+          "notes": "ISACA CRISC \u2014 IT risk management credential valued by QSA employers for the risk assessment components of PCI DSS engagement work. Pairs with CISA to create the most complete GRC + payment security credential stack for senior QSA roles."
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,17 @@
   ],
   "changelog": [
     {
+      "date": "2026-04-22",
+      "title": "New Roles, Threat Intel Certs & 13Cubed Restore",
+      "items": [
+        "Added 4 new roles with cert paths: Offensive Developer, OSINT Analyst, Purple Team Analyst, Payment Security Specialist",
+        "Added Threat Intelligence Analyst cert path (CTI Standard and CTI Government tracks)",
+        "Added 11 threat intelligence certs: GCTI, CTIA, CD-CTIA, MISP Analyst, RF Certified, Anomali Certified, OPSWAT CTI, CREST CIP, GSOA, OSIP, GOSI",
+        "Restored 4 13Cubed certs accidentally dropped in the previous update: IWE (Investigating Windows Endpoints), IWM (Investigating Windows Memory), ILD (Investigating Linux Devices), IME (Investigating macOS Endpoints)",
+        "Updated DFIR Practical Skills Track — IWE and IWM now load correctly in the path sequence"
+      ]
+    },
+    {
       "date": "2026-04-21",
       "title": "400+ Certs, New Vendors & Cross-Domain Fix",
       "items": [

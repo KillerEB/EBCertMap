@@ -16,106 +16,152 @@
   "paths": [
     {
       "id": "ai_red_team",
-      "name": "AI Red Teaming Track",
-      "rationale": "For security practitioners pivoting into AI offensive security \u2014 LLM red teaming, prompt injection, and AI system exploitation. A rapidly growing specialization with very few credentialed practitioners.",
+      "name": "AI Red Team Track",
+      "rationale": "For offensive practitioners pivoting into AI security. Starts with SecOps Group's practical AI/ML pentesting cert as a hands-on foundation, adds HTB COAE (Google co-developed, launched April 2026) for advanced LLM and agentic AI exploitation, then OSAI/OSAI+ for OffSec brand recognition. This is the most technically grounded AI offensive path available in 2026.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 2208,
+      "total_cost_usd": 2568,
       "pros": [
-        "OSAI is the most credible AI red teaming cert \u2014 OffSec brand + 100% practical",
-        "HTB COAE adds practical adversarial AI depth co-developed with Google",
-        "PAPA provides an accessible entry point before advanced certs",
-        "Extremely scarce specialization \u2014 high demand relative to supply"
+        "All three are hands-on practical exams \u2014 no MCQ-only credentials",
+        "Covers the full AI attack surface: LLM, ML models, agentic AI, and AI-integrated apps",
+        "HTB COAE co-developed with Google \u2014 strong institutional credibility",
+        "OSAI brand recognition for hiring managers familiar with OffSec"
       ],
       "cons": [
-        "Very new certification space \u2014 employer recognition still developing",
-        "Rapid evolution of AI means content may date quickly",
-        "No DoD 8140 coverage yet"
+        "All certs launched 2025-2026 \u2014 HR recognition still building across the board",
+        "No DoD 8140 approved AI offensive cert exists yet",
+        "Landscape changes fast \u2014 recommend re-evaluating every 6 months",
+        "OSAI exam availability limited until July 2026"
       ],
       "prerequisites": {
+        "experience": "Prior offensive security experience (OSCP equivalent or pentest background) strongly recommended. Python scripting and API familiarity required.",
         "knowledge": [
-          "Penetration testing fundamentals",
-          "Python scripting",
-          "Basic understanding of LLMs and generative AI",
-          "API testing and web application security basics"
+          "LLM fundamentals and prompt engineering basics",
+          "API security testing",
+          "Web application pentesting methodology",
+          "Python scripting"
         ],
         "recommended_certs": [
-          "oscp",
-          "bscp"
-        ],
-        "experience": "Prior security practitioner background strongly recommended. AI red teaming builds on offensive security foundations \u2014 start with OSCP or BSCP before specializing in AI security."
+          "oscp"
+        ]
       },
       "cert_sequence": [
         {
-          "cert_id": "papa",
+          "cert_id": "sog-caimlpen",
           "order": 1,
           "estimated_time": "1-2 months",
-          "notes": "TCM Security's AI pentesting entry-level cert. 100% practical exam covering OWASP LLM Top 10, prompt injection, and AI application testing. At ~$249 including training it's the most accessible starting point for AI security. Establishes the foundational methodology before more advanced credentials."
+          "notes": "SecOps Group Certified AI/ML Pentester \u2014 hands-on practical exam covering OWASP LLM Top 10, prompt injection, model extraction, and adversarial ML. \u00a3250 (~$320) with frequent 75% discount codes. The most accessible entry point for offensive practitioners new to AI security. Sets the technical vocabulary and attack framework before COAE's more advanced content."
         },
         {
           "cert_id": "htb-coae",
           "order": 2,
-          "estimated_time": "2-4 months",
-          "notes": "HTB's offensive AI expert cert co-developed with Google. Covers advanced LLM attacks, prompt injection chaining, model attacks, and AI vulnerability exploitation. 100% practical. With PAPA providing foundational methodology, COAE builds advanced offensive AI capability. The Google collaboration adds technical credibility to the curriculum."
+          "estimated_time": "3-5 months",
+          "notes": "HTB Certified Offensive AI Expert \u2014 co-developed with Google, launched April 2, 2026. Covers advanced LLM exploitation, agentic AI attacks, RAG poisoning, AI supply chain abuse, and multi-modal model vulnerabilities. 100% practical exam with commercial report requirement. The most technically rigorous AI offensive cert currently available. Complete the HTB AI Red Teamer path before attempting \u2014 it maps directly to exam content."
         },
         {
           "cert_id": "osai",
           "order": 3,
-          "estimated_time": "4-6 months",
-          "notes": "OffSec's AI red teaming cert \u2014 released March 31, 2026. 24-hour proctored engagement + report covering LLM prompt injection, jailbreaking, agentic AI attacks, and multi-agent system exploitation. The most credible AI security cert given OffSec's brand and 100% practical format. By completing PAPA and COAE first you arrive at OSAI with genuine AI attack methodology rather than approaching a novel exam format cold."
+          "estimated_time": "3-5 months",
+          "notes": "OffSec AI Red Teamer (OSAI/OSAI+) \u2014 launched March 31, 2026. OffSec brand recognition is the primary value here \u2014 hiring managers familiar with OSCP will recognize the OffSec name. OSAI is lifetime; OSAI+ requires a higher pass threshold and 3-year renewal (same model as OSCP/OSCP+). Exam availability opens July 15, 2026. With COAE completed the OSAI content will feel familiar \u2014 focus on OffSec's specific methodology and reporting format."
         }
       ]
     },
     {
       "id": "ai_defensive",
-      "name": "AI Governance & Defense Track",
-      "rationale": "For security professionals focused on AI governance, risk management, and defensive AI security \u2014 building secure ML pipelines, implementing AI risk frameworks, and advising organizations on responsible AI deployment.",
-      "estimated_timeline": "10-16 months",
-      "total_cost_usd": 1798,
+      "name": "AI Security Engineer Track",
+      "rationale": "For security engineers and defenders building AI security programs. CAISP provides hands-on AI security controls validation, SecAI+ covers enterprise AI security architecture, and GMLE adds ML-specific technical depth. This track prioritizes practical defensibility over governance theory.",
+      "estimated_timeline": "6-10 months",
+      "total_cost_usd": 1648,
       "pros": [
-        "GIAC GMLE adds ML security depth from the most recognized security cert vendor",
-        "IAPP AIGP is the recognized AI governance credential from the privacy profession",
-        "ISO 42001 adds the emerging AI management system standard",
-        "Governance + technical combination is scarce and high-value"
+        "CAISP is 100% practical \u2014 validates ability to implement AI security controls",
+        "Strong combination of technical depth (GMLE) and architectural coverage (SecAI+)",
+        "More affordable than the governance track",
+        "Transferable to both product security and enterprise AI security roles"
       ],
       "cons": [
-        "Very new certification space \u2014 all these certs are nascent",
-        "Employer recognition still developing across the board",
-        "Governance focus is less technically hands-on"
+        "All certs are recent \u2014 employer recognition still developing",
+        "GMLE requires significant ML technical background",
+        "No DoD 8140 approved defensive AI cert exists yet",
+        "Field evolves rapidly \u2014 expect to retrain frequently regardless of certs"
       ],
       "prerequisites": {
+        "experience": "Security engineering background recommended. Python or ML framework familiarity (TensorFlow, PyTorch) beneficial for GMLE.",
         "knowledge": [
-          "AI and machine learning fundamentals",
-          "Security governance and risk management",
-          "Regulatory frameworks (EU AI Act awareness)",
-          "Data privacy basics"
+          "Security architecture fundamentals",
+          "API security concepts",
+          "Basic ML/AI concepts",
+          "Cloud security basics"
         ],
-        "recommended_certs": [],
-        "experience": "Security governance or data science background beneficial. This is a cross-disciplinary role \u2014 security + AI + governance knowledge is the combination."
+        "recommended_certs": []
       },
       "cert_sequence": [
         {
-          "cert_id": "aigp",
+          "cert_id": "caisp",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "IAPP's AI Governance Professional \u2014 the most established AI governance credential, from the same organization that runs CIPP/E and CIPM. Covers AI risk management, EU AI Act, algorithmic accountability, and responsible AI frameworks. IAPP's established privacy practitioner network gives AIGP broader reach than newer AI-specific certs."
+          "notes": "Certified AI Security Professional \u2014 100% practical exam covering AI system security assessment, secure ML pipeline design, LLM security architecture, and AI-specific threat modeling. The most hands-on AI defensive cert available. Establishes the practitioner foundation before GMLE's deeper ML technical content."
+        },
+        {
+          "cert_id": "secai-plus",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "SecAI+ \u2014 covers enterprise AI security architecture, AI risk management frameworks, and securing AI-integrated applications. Bridges the gap between hands-on security controls (CAISP) and the governance layer. Good for practitioners whose scope includes advising on AI security architecture decisions."
         },
         {
           "cert_id": "gmle",
-          "order": 2,
+          "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "GIAC Machine Learning Engineer \u2014 covers ML security from a technical perspective including adversarial ML, model security, data poisoning detection, and secure ML pipeline design. The GIAC brand adds credibility in security practitioner hiring contexts. Open-book exam \u2014 build indexed notes organized by ML attack category and defensive control."
+          "notes": "GIAC Machine Learning Engineer \u2014 covers adversarial ML, model security, data poisoning detection, and secure ML pipeline design from a SANS technical perspective. Open-book exam \u2014 build indexed notes organized by ML attack category and defensive control. The GIAC brand adds credibility in enterprise and government hiring contexts. Employer-funded if possible given SANS pricing (~$9,800 all-in with SEC595 training)."
+        }
+      ]
+    },
+    {
+      "id": "ai_governance",
+      "name": "AI Governance & Audit Track",
+      "rationale": "For GRC professionals, auditors, and compliance officers moving into AI governance. ISACA AAIA is the structured governance credential for existing CISA holders. AIGP from IAPP covers AI policy and regulatory compliance. ISO 42001 Lead Implementer adds the management system framework now required by EU AI Act compliance programs.",
+      "estimated_timeline": "6-10 months",
+      "total_cost_usd": 3248,
+      "pros": [
+        "AAIA + AIGP + ISO 42001 LI is the most complete AI governance credential stack available",
+        "AIGP leverages IAPP's established privacy practitioner network",
+        "ISO 42001 directly relevant to EU AI Act compliance \u2014 early mover advantage",
+        "Accessible to non-technical professionals \u2014 no offensive or engineering background required"
+      ],
+      "cons": [
+        "AAIA requires active CISA \u2014 limits entry for non-auditors",
+        "High total cost \u2014 especially ISO 42001 LI training fees",
+        "MCQ-heavy across all three \u2014 limited practical depth",
+        "EU AI Act compliance timelines may shift, affecting ISO 42001 demand"
+      ],
+      "prerequisites": {
+        "experience": "GRC or audit background strongly recommended. AAIA requires active CISA certification.",
+        "knowledge": [
+          "Risk management frameworks",
+          "Regulatory compliance concepts",
+          "Basic AI/ML terminology",
+          "IT audit methodology"
+        ],
+        "recommended_certs": [
+          "cisa"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "aigp-iapp",
+          "order": 1,
+          "estimated_time": "2-3 months",
+          "notes": "IAPP AI Governance Professional \u2014 the most established AI governance credential, from the same organization that runs CIPP/E and CIPM. Covers AI risk management, EU AI Act, algorithmic accountability, and responsible AI frameworks. IAPP's established privacy practitioner network gives AIGP broader reach than newer AI-specific certs. Start here if you have an IAPP background \u2014 the CIPP/CIPM skill transfer is significant."
+        },
+        {
+          "cert_id": "isaca-aaia",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "ISACA Auditing AI \u2014 structured AI audit methodology for existing CISA holders. Covers AI system audit scope, control assessment for AI decision systems, bias and fairness auditing, and AI-specific risk evaluation frameworks. ISACA's established audit practitioner base gives AAIA strong recognition in enterprise governance contexts. Requires active CISA \u2014 if you don't hold CISA, skip to ISO 42001 LI instead."
         },
         {
           "cert_id": "pecb-iso42001-li",
           "order": 3,
-          "estimated_time": "2-3 months",
-          "notes": "ISO 42001 AI Management System Lead Implementer \u2014 the emerging international standard for AI governance systems. As organizations face regulatory pressure from the EU AI Act and other frameworks, ISO 42001 provides a structured management system approach analogous to ISO 27001 for information security. Early movers in ISO 42001 implementation expertise will have a significant advantage as compliance becomes mandatory."
-        },
-        {
-          "cert_id": "caisp",
-          "order": 4,
           "estimated_time": "2-4 months",
-          "notes": "Certified AI Security Professional \u2014 covers the intersection of traditional security controls and AI-specific risk. 100% practical exam. Adds hands-on AI security validation to complement the governance credentials. The combination of AIGP + GMLE + ISO 42001 + CAISP represents the most complete AI security and governance credential stack currently available."
+          "notes": "ISO 42001 Lead Implementer \u2014 the emerging international standard for AI management systems, analogous to ISO 27001 for information security. As organizations face EU AI Act pressure, ISO 42001 provides the structured implementation framework that boards and regulators expect. Early expertise in ISO 42001 implementation is a significant differentiator \u2014 most compliance teams are just starting to build this capability. PECB delivery is the primary route; training costs are the main financial barrier."
         }
       ]
     }

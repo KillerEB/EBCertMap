@@ -15,18 +15,19 @@
     {
       "id": "red_team_standard",
       "name": "Standard Red Team Track",
-      "rationale": "OSCP provides the foundation; CRTO adds the most respected dedicated red team credential covering Cobalt Strike and adversary simulation; OSEP adds advanced evasion depth.",
+      "rationale": "OSCP provides the foundation; CRTO adds the most respected dedicated red team credential covering Cobalt Strike and adversary simulation; CRTO II (CRTL) adds advanced EDR evasion, WDAC bypass, and modern C2 tradecraft at a fraction of OSEP's cost.",
       "estimated_timeline": "18-30 months",
-      "total_cost_usd": 4247,
+      "total_cost_usd": 2999,
       "pros": [
-        "CRTO is the most recognized dedicated red team cert \u2014 required by name at many red team roles",
-        "OSEP covers AV/EDR evasion at a depth no other cert matches",
-        "All 100% practical"
+        "CRTO is the most recognized dedicated red team credential \u2014 required by name at many red team roles",
+        "CRTO II covers modern EDR evasion, WDAC bypass, and advanced C2 at ~$500 vs OSEP's $1,749",
+        "Both Zero-Point Security certs now backed by Fortra \u2014 boosting enterprise credibility",
+        "All 100% practical, unlimited retakes"
       ],
       "cons": [
-        "Very high total cost",
-        "Long timeline",
-        "OSEP significantly harder than OSCP \u2014 plan for extended lab time"
+        "Lower HR brand recognition than OSEP for DoD/federal roles \u2014 keep OSEP Elite track for those",
+        "CRTO II is newer \u2014 building market presence vs OSEP's established name",
+        "Fortra acquisition may affect Zero-Point pricing/availability long-term"
       ],
       "prerequisites": {
         "knowledge": [
@@ -54,10 +55,10 @@
           "notes": "Zero-Point Security red team ops cert \u2014 the most respected dedicated red team credential. Cobalt Strike operation, C2 profile customization, OPSEC, multi-stage engagements. Unlimited retakes. 4-day practical exam. With OSCP completed focus on C2 tradecraft and OPSEC."
         },
         {
-          "cert_id": "osep",
+          "cert_id": "crto-ii",
           "order": 3,
-          "estimated_time": "4-8 months",
-          "notes": "OffSec advanced red team cert. Custom C# tooling, AV/EDR bypass, process injection, living-off-the-land against defended environments. 48-hour exam simulates a defended enterprise with EDR. Many OSCP holders spend months in PEN-300 labs before attempting."
+          "estimated_time": "2-4 months",
+          "notes": "CRTO II (CRTL) \u2014 Zero-Point Security's advanced red team cert. Builds directly on CRTO with modern EDR bypass, WDAC evasion, advanced C2 profile customization, and multi-stage engagement tradecraft. At ~$500 with unlimited retakes it delivers more current evasion content than OSEP at roughly one-third the cost. With CRTO's Cobalt Strike foundation already established, CRTO II focuses your attention on operating against hardened defensive environments."
         }
       ]
     },

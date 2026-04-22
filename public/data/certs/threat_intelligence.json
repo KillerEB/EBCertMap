@@ -513,5 +513,53 @@
       "time_to_prepare": 5,
       "overall": 5.8
     }
+  },
+  {
+    "id": "gosi",
+    "acronym": "GOSI",
+    "full_name": "GIAC Open Source Intelligence",
+    "issuing_body": "GIAC / SANS Institute",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "osint",
+      "open_source_intelligence"
+    ],
+    "level": "intermediate",
+    "practical_weight": 25,
+    "cost_usd": 979,
+    "renewal": "4 years (36 CPEs + $499)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Associated with SANS SEC497. Open-book exam.",
+    "skills": [
+      "osint_methodology",
+      "social_media_intelligence",
+      "online_investigation",
+      "digital_footprint_analysis",
+      "open_source_intelligence"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic internet research skills",
+        "Networking fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "GIAC's OSINT certification associated with SANS SEC497. Covers OSINT methodology, social media intelligence, geolocation, dark web research, and OSINT tool usage. Open-book MCQ exam \u2014 build indexed notes by OSINT category. The GIAC brand adds enterprise and government hiring credibility. GSOA (launched November 2025) is the newer hands-on companion \u2014 GOSI for methodology depth, GSOA for practical CyberLive validation.",
+    "flags": [],
+    "official_url": "https://www.giac.org/certifications/open-source-intelligence-gosi/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 2,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 5.0
+    }
   }
 ]
