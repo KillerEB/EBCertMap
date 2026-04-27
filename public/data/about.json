@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-04-27",
+      "title": "Better platform support & Google indexing",
+      "body": "Added improved support for different platforms (LinkedIn, Twitter/X, and other social previews now show proper images and descriptions) and fixed Google search indexing — so EBCertMap should now be easier to find when you search for cybersecurity certs. If you stumbled here through a search engine, welcome!"
+    },
+    {
       "date": "2026-04-21",
       "title": "Huge update — 40+ new certs, 6 new issuers",
       "body": "Thanks to all the feedback I got from all of you — this update is a big one. More than 40 new certificates across 6 new issuers have been added (see the Changelog for specifics). Cross-domain certs have also been fixed and fact-checked, so certs that belong to multiple domains now correctly show up everywhere they should. With all these new certs we now have a lot more possible paths for the roles view — expect a roles update soon!"
@@ -22,6 +27,19 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-04-27",
+      "title": "SEO & Search Indexing Improvements",
+      "items": [
+        "Added canonical URL tag to fix Google Search Console 'Duplicate without user-selected canonical' warning",
+        "Added JSON-LD structured data (WebApplication schema) for richer search results",
+        "Added Open Graph image (og-image.png) with proper dimensions for LinkedIn and Facebook previews",
+        "Upgraded Twitter card to summary_large_image with dedicated image",
+        "Added robots.txt referencing the sitemap",
+        "Expanded meta keywords to cover more search intents (CRTO, penetration testing, SOC analyst, GRC, DoD 8140, etc.)",
+        "Updated sitemap lastmod date and cert count to 410+"
+      ]
+    },
     {
       "date": "2026-04-22",
       "title": "New Roles, Threat Intel Certs & 13Cubed Restore",
