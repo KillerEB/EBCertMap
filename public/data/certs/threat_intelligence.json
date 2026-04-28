@@ -89,7 +89,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's threat intelligence certification covering the intelligence lifecycle, IOC analysis, threat actor profiling, OSINT, dark web intelligence, and reporting. Not DoD 8140 approved, which limits its appeal versus GCTI in government and contractor contexts. In the practitioner community GCTI is more respected \u2014 CTIA covers similar conceptual ground but EC-Council's theory-heavy approach validates familiarity with the framework more than actual analytical skill. Worth considering if GCTI cost is prohibitive and you're not targeting government roles, but GCTI should be the primary target for serious CTI analysts.",
+    "summary": "EC-Council's threat intelligence certification covering the intelligence lifecycle, IOC analysis, threat actor profiling, OSINT, dark web intelligence, and reporting. Not DoD 8140 approved, which limits its appeal versus GCTI in government and contractor contexts. In the practitioner community GCTI is more respected — CTIA covers similar conceptual ground but EC-Council's theory-heavy approach validates familiarity with the framework more than actual analytical skill. Worth considering if GCTI cost is prohibitive and you're not targeting government roles, but GCTI should be the primary target for serious CTI analysts.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
     "active": true,
@@ -137,7 +137,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CyberDefenders' threat intelligence certification using their practical lab-based exam format. Covers CTI fundamentals including IOC collection, threat intelligence platforms, OSINT, and intelligence sharing frameworks. Not DoD 8140 approved and still building employer name recognition. CyberDefenders' platform has a genuine community following for its realistic lab scenarios. Better as an entry point for building CTI foundations before pursuing GCTI than as a standalone career credential \u2014 the practical format is genuinely useful for developing hands-on CTI skills even if the cert itself has limited hiring impact currently.",
+    "summary": "CyberDefenders' threat intelligence certification using their practical lab-based exam format. Covers CTI fundamentals including IOC collection, threat intelligence platforms, OSINT, and intelligence sharing frameworks. Not DoD 8140 approved and still building employer name recognition. CyberDefenders' platform has a genuine community following for its realistic lab scenarios. Better as an entry point for building CTI foundations before pursuing GCTI than as a standalone career credential — the practical format is genuinely useful for developing hands-on CTI skills even if the cert itself has limited hiring impact currently.",
     "flags": [
       "low_cost",
       "new"
@@ -190,7 +190,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CIRCL's certification for MISP \u2014 the most widely deployed open-source threat intelligence sharing platform globally. Free to obtain via the MISP Project's training and assessment program. Covers MISP event management, IOC sharing, taxonomy, galaxy usage, and STIX/TAXII basics. Particularly valued in European CERT/CSIRT communities and organizations participating in threat intelligence sharing networks such as ISACs and national CERTs. Not a hiring differentiator in commercial markets but genuinely useful for practitioners operating MISP instances or participating in threat sharing communities. The free price makes it an easy add-on for CTI analysts already using the platform.",
+    "summary": "CIRCL's certification for MISP — the most widely deployed open-source threat intelligence sharing platform globally. Free to obtain via the MISP Project's training and assessment program. Covers MISP event management, IOC sharing, taxonomy, galaxy usage, and STIX/TAXII basics. Particularly valued in European CERT/CSIRT communities and organizations participating in threat intelligence sharing networks such as ISACs and national CERTs. Not a hiring differentiator in commercial markets but genuinely useful for practitioners operating MISP instances or participating in threat sharing communities. The free price makes it an easy add-on for CTI analysts already using the platform.",
     "flags": [
       "free"
     ],
@@ -241,7 +241,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Recorded Future's analyst certification for their threat intelligence platform \u2014 one of the most widely deployed commercial CTI platforms in enterprise and government. Free for Recorded Future customers. Covers platform navigation, intelligence cards, risk scoring, alerting, and API usage. Validates Recorded Future-specific proficiency rather than transferable analytical methodology. Most valuable for analysts whose primary CTI platform is Recorded Future, which is a significant portion of enterprise and government security teams given their market position. Limited value outside Recorded Future environments.",
+    "summary": "Recorded Future's analyst certification for their threat intelligence platform — one of the most widely deployed commercial CTI platforms in enterprise and government. Free for Recorded Future customers. Covers platform navigation, intelligence cards, risk scoring, alerting, and API usage. Validates Recorded Future-specific proficiency rather than transferable analytical methodology. Most valuable for analysts whose primary CTI platform is Recorded Future, which is a significant portion of enterprise and government security teams given their market position. Limited value outside Recorded Future environments.",
     "flags": [
       "free",
       "tool_vendor"
@@ -291,7 +291,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Anomali's certification for their ThreatStream threat intelligence platform. Free for Anomali customers. Covers ThreatStream navigation, IOC management, intelligence feed integration, and actor tracking. Vendor platform cert \u2014 valuable primarily in organizations running Anomali ThreatStream, which has a significant customer base in financial services and government. Like Recorded Future's cert, validates platform proficiency rather than analytical tradecraft. A reasonable add-on for analysts using ThreatStream as their primary CTIP, but not a standalone career differentiator.",
+    "summary": "Anomali's certification for their ThreatStream threat intelligence platform. Free for Anomali customers. Covers ThreatStream navigation, IOC management, intelligence feed integration, and actor tracking. Vendor platform cert — valuable primarily in organizations running Anomali ThreatStream, which has a significant customer base in financial services and government. Like Recorded Future's cert, validates platform proficiency rather than analytical tradecraft. A reasonable add-on for analysts using ThreatStream as their primary CTIP, but not a standalone career differentiator.",
     "flags": [
       "free",
       "tool_vendor"
@@ -340,7 +340,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "OPSWAT Academy's free threat intelligence fundamentals certification covering CTI basics including IOC types, feed consumption, and the intelligence lifecycle at an introductory level. Not DoD 8140 approved and limited hiring weight \u2014 this is a foundational learning resource with a completion badge more than a career credential. OPSWAT Academy has a reasonable reputation for quality free training content, making this a useful starting point for analysts exploring CTI before committing to GCTI or CTIA. Not a cert you'd list prominently on a CV but useful as a learning milestone.",
+    "summary": "OPSWAT Academy's free threat intelligence fundamentals certification covering CTI basics including IOC types, feed consumption, and the intelligence lifecycle at an introductory level. Not DoD 8140 approved and limited hiring weight — this is a foundational learning resource with a completion badge more than a career credential. OPSWAT Academy has a reasonable reputation for quality free training content, making this a useful starting point for analysts exploring CTI before committing to GCTI or CTIA. Not a cert you'd list prominently on a CV but useful as a learning milestone.",
     "flags": [
       "free",
       "low_community_respect"
@@ -375,7 +375,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "regional",
-    "geographic_note": "UK, Australia, Singapore, EU \u2014 limited recognition in US",
+    "geographic_note": "UK, Australia, Singapore, EU — limited recognition in US",
     "skills": [
       "intelligence_analysis_advanced",
       "threat_actor_attribution",
@@ -445,7 +445,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's newest threat intelligence and OSINT certification, with the current exam version released November 8, 2025. GSOA validates the ability to automate investigations with Python, analyze data at scale, and uncover threats across social platforms, darknet forums, blockchain activity, and disinformation networks. Goes significantly beyond basic OSINT \u2014 the exam emphasizes analytical tradecraft and automation at strategic scale rather than tool operation. The certification fills a gap between the general CTI coverage in GCTI and the technical OSINT automation skills demanded by enterprise threat intelligence programs. DoD 8140 approved. Open-book exam \u2014 build indexed notes covering automation methodology, platform-specific analysis techniques, and investigation frameworks.",
+    "summary": "GIAC's newest threat intelligence and OSINT certification, with the current exam version released November 8, 2025. GSOA validates the ability to automate investigations with Python, analyze data at scale, and uncover threats across social platforms, darknet forums, blockchain activity, and disinformation networks. Goes significantly beyond basic OSINT — the exam emphasizes analytical tradecraft and automation at strategic scale rather than tool operation. The certification fills a gap between the general CTI coverage in GCTI and the technical OSINT automation skills demanded by enterprise threat intelligence programs. DoD 8140 approved. Open-book exam — build indexed notes covering automation methodology, platform-specific analysis techniques, and investigation frameworks.",
     "flags": [
       "new"
     ],
@@ -480,7 +480,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Requires ~$550 IntelTechniques training membership before exam eligibility. 1-on-1 live proctored with Jason Edison. Low volume \u2014 boutique credential.",
+    "geographic_note": "Requires ~$550 IntelTechniques training membership before exam eligibility. 1-on-1 live proctored with Jason Edison. Low volume — boutique credential.",
     "skills": [
       "osint_methodology",
       "social_media_intelligence",
@@ -496,7 +496,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Michael Bazzell's (IntelTechniques) formal OSINT certification, developed and proctored by Jason Edison. One of the few OSINT credentials using live 1-on-1 proctoring with a scenario-based investigation format rather than MCQ or automated grading. $300 exam fee requires prior completion of the IntelTechniques training membership (~$550), making total cost ~$850. Lifetime validity, no renewal. Low volume boutique credential with strong community respect in the OSINT and privacy community \u2014 Bazzell's podcast and methodology are widely cited by law enforcement and security practitioners. Complements GSOA for practitioners who want both automation/scale (GIAC) and investigative tradecraft (IntelTechniques) coverage.",
+    "summary": "Michael Bazzell's (IntelTechniques) formal OSINT certification, developed and proctored by Jason Edison. One of the few OSINT credentials using live 1-on-1 proctoring with a scenario-based investigation format rather than MCQ or automated grading. $300 exam fee requires prior completion of the IntelTechniques training membership (~$550), making total cost ~$850. Lifetime validity, no renewal. Low volume boutique credential with strong community respect in the OSINT and privacy community — Bazzell's podcast and methodology are widely cited by law enforcement and security practitioners. Complements GSOA for practitioners who want both automation/scale (GIAC) and investigative tradecraft (IntelTechniques) coverage.",
     "flags": [
       "hands_on",
       "boutique"
@@ -547,7 +547,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's OSINT certification associated with SANS SEC497. Covers OSINT methodology, social media intelligence, geolocation, dark web research, and OSINT tool usage. Open-book MCQ exam \u2014 build indexed notes by OSINT category. The GIAC brand adds enterprise and government hiring credibility. GSOA (launched November 2025) is the newer hands-on companion \u2014 GOSI for methodology depth, GSOA for practical CyberLive validation.",
+    "summary": "GIAC's OSINT certification associated with SANS SEC497. Covers OSINT methodology, social media intelligence, geolocation, dark web research, and OSINT tool usage. Open-book MCQ exam — build indexed notes by OSINT category. The GIAC brand adds enterprise and government hiring credibility. GSOA (launched November 2025) is the newer hands-on companion — GOSI for methodology depth, GSOA for practical CyberLive validation.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/open-source-intelligence-gosi/",
     "active": true,
@@ -559,7 +559,160 @@
       "community_respect": 6,
       "salary_impact": 5,
       "time_to_prepare": 5,
-      "overall": 5.0
+      "overall": 5
+    }
+  },
+  {
+    "id": "mctia",
+    "acronym": "MCTIA",
+    "full_name": "Mandiant Cyber Threat Intelligence Analysis",
+    "issuing_body": "Mandiant Academy (Google Cloud)",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "cti_analysis",
+      "threat_actor_profiling"
+    ],
+    "level": "intermediate",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "3 years (90 CPEs + $175 fee, or retake)",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Kryterion OLP proctored. Up to 50 MCQ, 60 minutes, 70% pass. Objectives mapped to NIST/NICE AN-ASA-001. ISO/IEC 17024-aligned per vendor claim — not on ANAB accredited list. Retake requires new purchase.",
+    "skills": [
+      "threat_intelligence_analysis",
+      "intelligence_reporting",
+      "threat_actor_profiling",
+      "ttp_analysis",
+      "intelligence_cycle",
+      "cognitive_bias_mitigation",
+      "ioc_analysis"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic cybersecurity concepts",
+        "Networking fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Mandiant Academy's (Google Cloud) standalone CTI analyst certification — a genuine, separately proctored exam, not a course-completion badge. Up to 50 MCQ delivered via Kryterion online live proctoring, 60-minute window, 70% pass threshold. $250 per attempt, must be completed within 90 days of purchase. 3-year renewal requiring 90 CPEs plus a $175 maintenance fee, or retaking the exam. Objectives are mapped to NIST/NICE work role AN-ASA-001 (All-Source Analyst) covering intelligence production, threat actor profiling, TTP analysis, IOC reporting, and cognitive bias awareness. ISO/IEC 17024-aligned per vendor claim — development followed the standard but no public ANAB accreditation listing exists. Not DoD 8140 approved despite DCWF work-role alignment. Strong brand recognition in the CTI community given Mandiant's reputation as the industry's leading threat intelligence firm.",
+    "flags": [],
+    "official_url": "https://www.mandiant.com/academy/certifications/mctia-exam-details",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 1,
+      "employer_recognition": 6,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 5.2
+    }
+  },
+  {
+    "id": "arcx-ftia",
+    "acronym": "FTIA",
+    "full_name": "arcX Foundation Level Threat Intelligence Analyst",
+    "issuing_body": "arcX",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "cti_analysis"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 0,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Course-completion credential awarded after passing the embedded final exam of arcX's free CTI 101 course. Unproctored, on-platform LMS exam. arcX is a CREST Accredited Training Provider — the FTIA itself is not a CREST certification.",
+    "skills": [
+      "threat_intelligence_fundamentals",
+      "intelligence_cycle",
+      "cti_terminology",
+      "threat_actor_concepts",
+      "intelligence_reporting_basics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "No prior experience required"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "arcX's free entry-level CTI credential, awarded on passing the final exam embedded in the free 'Cyber Threat Intelligence 101' course (~2.5 hours, 11 modules). Covers CTI definitions, the intelligence lifecycle, threat actor concepts, and analyst terminology. Unproctored on-platform exam, lifetime validity, no renewal. arcX is a CREST Accredited Training Provider and this course is positioned as the free on-ramp toward the PTIA and ultimately the CREST CPTIA exam. The FTIA itself is a course-completion certificate — not a CREST-issued certification. Zero cost makes it a practical starting point for anyone exploring CTI before investing in GCTI or CREST pathways.",
+    "flags": [
+      "free"
+    ],
+    "official_url": "https://arcx.io/courses/cyber-threat-intelligence-101",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 2,
+      "practical_depth": 1,
+      "employer_recognition": 3,
+      "community_respect": 4,
+      "salary_impact": 2,
+      "time_to_prepare": 1,
+      "overall": 2.6
+    }
+  },
+  {
+    "id": "arcx-ptia",
+    "acronym": "PTIA",
+    "full_name": "arcX Practitioner Threat Intelligence Analyst",
+    "issuing_body": "arcX",
+    "domain": [
+      "threat_intelligence"
+    ],
+    "subdomain": [
+      "cti_analysis",
+      "intelligence_reporting"
+    ],
+    "level": "intermediate",
+    "practical_weight": 20,
+    "cost_usd": 380,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "~£300 GBP (~$380 USD). Course-completion credential tied to arcX Practitioner course (~17+ hours). Unproctored on-platform exam. arcX is CREST Accredited — this course is validated by CREST to cover the full CREST CPTIA syllabus. The PTIA is a vendor credential; the separate CREST CPTIA exam (Pearson VUE) is the externally proctored equivalent.",
+    "skills": [
+      "intelligence_requirement_gathering",
+      "collection_planning",
+      "structured_analytic_techniques",
+      "threat_actor_profiling",
+      "intelligence_reporting",
+      "ioc_analysis",
+      "legal_ethical_intelligence_collection",
+      "geopolitical_threat_context"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic CTI concepts",
+        "Familiarity with the intelligence lifecycle"
+      ],
+      "recommended_certs": [
+        "arcx-ftia"
+      ]
+    },
+    "summary": "arcX's practitioner-level CTI credential, awarded on passing the final exam of the ~17-hour 'Cyber Threat Intelligence Practitioner' course (~£300/~$380). Course content is validated by CREST to cover the full CREST Practitioner Threat Intelligence Analyst (CPTIA) syllabus — making arcX PTIA the primary route to prepare for the externally proctored CREST CPTIA exam at Pearson VUE. Covers all six CREST PTIA syllabus appendices: Key Concepts, Direction & Review, Data Collection, Data Analysis, Product Dissemination, and Legal & Ethical considerations. Includes practical micro-exercises and longer research projects. Unproctored on-platform exam, lifetime validity, no renewal required. The arcX PTIA is a vendor credential — practitioners targeting CREST recognition should follow up with the separate CREST CPTIA examination.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://arcx.io/courses/cyber-threat-intelligence-practitioner",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 3,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 4.8
     }
   }
 ]

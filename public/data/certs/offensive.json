@@ -39,7 +39,7 @@
         "pnpt"
       ]
     },
-    "summary": "The gold standard penetration testing credential globally and the benchmark for offensive security hiring. The 24-hour live lab exam genuinely proves exploitation ability rather than knowledge of techniques. Expected by the vast majority of red team and penetration testing employers \u2014 increasingly a hard requirement rather than a preference. The OSCP+ variant introduced November 2024 adds a 3-year expiry for practitioners who want a renewable credential; the original OSCP remains lifetime.",
+    "summary": "The gold standard penetration testing credential globally and the benchmark for offensive security hiring. The 24-hour live lab exam genuinely proves exploitation ability rather than knowledge of techniques. Expected by the vast majority of red team and penetration testing employers — increasingly a hard requirement rather than a preference. The OSCP+ variant introduced November 2024 adds a 3-year expiry for practitioners who want a renewable credential; the original OSCP remains lifetime.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-200/",
     "active": true,
@@ -90,7 +90,7 @@
         "security-plus"
       ]
     },
-    "summary": "GIAC's penetration testing certification and the primary DoD 8140 approved option for pentesters in government and contractor roles. The CyberLive hands-on component adds practical weight but the exam is still predominantly multiple-choice, which draws consistent criticism from practitioners who argue it validates knowledge rather than exploitation skill. DoD 8140 approval is GPEN's primary competitive advantage \u2014 for government roles that require a DoD-approved pentesting cert, GPEN is the standard answer. Add SANS SEC560 training at roughly $8,500 to get real value from the curriculum.",
+    "summary": "GIAC's penetration testing certification and the primary DoD 8140 approved option for pentesters in government and contractor roles. The CyberLive hands-on component adds practical weight but the exam is still predominantly multiple-choice, which draws consistent criticism from practitioners who argue it validates knowledge rather than exploitation skill. DoD 8140 approval is GPEN's primary competitive advantage — for government roles that require a DoD-approved pentesting cert, GPEN is the standard answer. Add SANS SEC560 training at roughly $8,500 to get real value from the curriculum.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/penetration-tester-gpen/",
     "active": true,
@@ -122,7 +122,7 @@
     "renewal": "4 years (36 CPEs + $499)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "DoD 8140 status pending \u2014 new cert",
+    "geographic_note": "DoD 8140 status pending — new cert",
     "skills": [
       "penetration_testing_methodology",
       "advanced_exploitation_techniques",
@@ -142,7 +142,7 @@
         "gpen"
       ]
     },
-    "summary": "GIAC's new Applied Knowledge tier certification for penetration testing \u2014 100% CyberLive hands-on exam with no multiple-choice component whatsoever. This is a significant departure from the standard GIAC format and directly addresses the long-standing criticism that GIAC certs are too MCQ-heavy to validate real offensive skill. Available standalone at $1,299 or for $499 with an active GIAC cert. DoD 8140 status pending as a newly launched cert. One to watch \u2014 if GIAC executes the Applied Knowledge tier well, GX-PT could become a strong alternative to OSCP in government environments.",
+    "summary": "GIAC's new Applied Knowledge tier certification for penetration testing — 100% CyberLive hands-on exam with no multiple-choice component whatsoever. This is a significant departure from the standard GIAC format and directly addresses the long-standing criticism that GIAC certs are too MCQ-heavy to validate real offensive skill. Available standalone at $1,299 or for $499 with an active GIAC cert. DoD 8140 status pending as a newly launched cert. One to watch — if GIAC executes the Applied Knowledge tier well, GX-PT could become a strong alternative to OSCP in government environments.",
     "flags": [
       "new"
     ],
@@ -156,7 +156,7 @@
       "community_respect": 7,
       "salary_impact": 5,
       "time_to_prepare": 7,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -247,7 +247,7 @@
         "cpent"
       ]
     },
-    "summary": "EC-Council's elite designation awarded automatically when a CPENT AI candidate scores 90% or higher \u2014 no separate exam, no additional cost. Represents the top tier of CPENT performance rather than a distinct certification. Recognition in the practitioner community is limited compared to OffSec elite certs like OSCE\u00b3 or OSEE. Its value is primarily as a differentiator within the EC-Council ecosystem and in markets where EC-Council credentials are widely recognized. If you're already sitting the CPENT exam, there's no reason not to aim for the LPT Master threshold.",
+    "summary": "EC-Council's elite designation awarded automatically when a CPENT AI candidate scores 90% or higher — no separate exam, no additional cost. Represents the top tier of CPENT performance rather than a distinct certification. Recognition in the practitioner community is limited compared to OffSec elite certs like OSCE³ or OSEE. Its value is primarily as a differentiator within the EC-Council ecosystem and in markets where EC-Council credentials are widely recognized. If you're already sitting the CPENT exam, there's no reason not to aim for the LPT Master threshold.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
     "active": true,
@@ -298,7 +298,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's flagship certification and one of the most widely held security credentials globally with 350,000+ certified holders. DoD 8140 approved across 28+ DCWF work roles, which is its primary and most defensible value. The 125-question MCQ-only format is purely theoretical \u2014 zero practical component \u2014 and the practitioner community has consistently criticized it as a checkbox cert that doesn't validate actual offensive skill. If you need DoD 8140 approval for a government role and can't get OSCP, CEH gets the checkbox. If you're not targeting government positions, spend the $950 on PJPT and PNPT instead.",
+    "summary": "EC-Council's flagship certification and one of the most widely held security credentials globally with 350,000+ certified holders. DoD 8140 approved across 28+ DCWF work roles, which is its primary and most defensible value. The 125-question MCQ-only format is purely theoretical — zero practical component — and the practitioner community has consistently criticized it as a checkbox cert that doesn't validate actual offensive skill. If you need DoD 8140 approval for a government role and can't get OSCP, CEH gets the checkbox. If you're not targeting government positions, spend the $950 on PJPT and PNPT instead.",
     "flags": [
       "low_community_respect"
     ],
@@ -349,7 +349,7 @@
         "ceh"
       ]
     },
-    "summary": "The practical companion to the CEH knowledge exam \u2014 a 6-hour 20-challenge hands-on test that validates actual execution of the concepts covered in CEH. DoD 8140 approved. The hands-on format is a meaningful improvement over the standard CEH MCQ-only exam and provides real evidence of practical skill. Completing both CEH and CEH Practical earns the CEH Master designation. For practitioners who have already invested in the CEH ecosystem for DoD purposes, the Practical exam is worth adding to validate that the theoretical knowledge translates to actual tool usage.",
+    "summary": "The practical companion to the CEH knowledge exam — a 6-hour 20-challenge hands-on test that validates actual execution of the concepts covered in CEH. DoD 8140 approved. The hands-on format is a meaningful improvement over the standard CEH MCQ-only exam and provides real evidence of practical skill. Completing both CEH and CEH Practical earns the CEH Master designation. For practitioners who have already invested in the CEH ecosystem for DoD purposes, the Practical exam is worth adding to validate that the theoretical knowledge translates to actual tool usage.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
     "active": true,
@@ -503,7 +503,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Hack The Box's flagship network penetration testing certification covering network pentesting, Active Directory attacks, and web application testing in a 100% practical 10-day exam. At approximately $210 as a standalone voucher (included with Silver Annual at $490/yr) it's exceptional value for a fully practical credential. Community recognition has grown substantially \u2014 HTB Academy's content quality is respected and CPTS is increasingly listed alongside PNPT as a viable OSCP alternative or preparation path. The report-writing requirement adds professional validity beyond pure CTF-style flag capture.",
+    "summary": "Hack The Box's flagship network penetration testing certification covering network pentesting, Active Directory attacks, and web application testing in a 100% practical 10-day exam. At approximately $210 as a standalone voucher (included with Silver Annual at $490/yr) it's exceptional value for a fully practical credential. Community recognition has grown substantially — HTB Academy's content quality is respected and CPTS is increasingly listed alongside PNPT as a viable OSCP alternative or preparation path. The report-writing requirement adds professional validity beyond pure CTF-style flag capture.",
     "flags": [
       "low_cost"
     ],
@@ -517,7 +517,7 @@
       "community_respect": 8,
       "salary_impact": 5,
       "time_to_prepare": 7,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -553,7 +553,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "INE Security's entry-level penetration testing certification and one of the most widely recommended starting points for aspiring pentesters. The exam is approximately 85% practical with hands-on lab findings driving the MCQ answers, making it genuinely reflective of real skill rather than pure memorization. Available via the Fundamentals Annual subscription ($299/yr) with exam included. Widely recommended as the first practical cert before PNPT or OSCP \u2014 it proves you can actually conduct a basic pentest, which separates it from purely theoretical entry-level alternatives.",
+    "summary": "INE Security's entry-level penetration testing certification and one of the most widely recommended starting points for aspiring pentesters. The exam is approximately 85% practical with hands-on lab findings driving the MCQ answers, making it genuinely reflective of real skill rather than pure memorization. Available via the Fundamentals Annual subscription ($299/yr) with exam included. Widely recommended as the first practical cert before PNPT or OSCP — it proves you can actually conduct a basic pentest, which separates it from purely theoretical entry-level alternatives.",
     "flags": [
       "low_cost"
     ],
@@ -607,7 +607,7 @@
         "ejpt"
       ]
     },
-    "summary": "INE Security's intermediate-level network pentesting certification with a 100% practical exam covering network exploitation, Active Directory attacks, and pivoting. Updated in 2024-2025. Requires INE Premium subscription (~$749/yr) with exam voucher. Not DoD 8140 approved. Community recognition is lower than OSCP or PNPT at the same level \u2014 most practitioners treat eCPPT as either a stepping stone to OSCP or as an alternative for those who prefer INE's training ecosystem. Solid practical depth but the required subscription model adds total cost friction.",
+    "summary": "INE Security's intermediate-level network pentesting certification with a 100% practical exam covering network exploitation, Active Directory attacks, and pivoting. Updated in 2024-2025. Requires INE Premium subscription (~$749/yr) with exam voucher. Not DoD 8140 approved. Community recognition is lower than OSCP or PNPT at the same level — most practitioners treat eCPPT as either a stepping stone to OSCP or as an alternative for those who prefer INE's training ecosystem. Solid practical depth but the required subscription model adds total cost friction.",
     "flags": [],
     "official_url": "https://ine.com/security/certifications/ecppt-certification",
     "active": true,
@@ -655,7 +655,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's entry-level network pentesting certification \u2014 100% practical exam with training included and one free retake. Never expires. At $249 it's accessible for self-funded candidates and represents genuine value as a first practical offensive credential. Most useful as a confidence-builder and portfolio piece before PNPT or OSCP rather than as a standalone career credential. The TCM brand has strong community recognition particularly in the self-taught practitioner community, and PJPT serves as a natural on-ramp to PNPT.",
+    "summary": "TCM Security's entry-level network pentesting certification — 100% practical exam with training included and one free retake. Never expires. At $249 it's accessible for self-funded candidates and represents genuine value as a first practical offensive credential. Most useful as a confidence-builder and portfolio piece before PNPT or OSCP rather than as a standalone career credential. The TCM brand has strong community recognition particularly in the self-taught practitioner community, and PJPT serves as a natural on-ramp to PNPT.",
     "flags": [
       "low_cost"
     ],
@@ -708,7 +708,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's flagship network pentesting certification and the most respected affordable alternative to OSCP in the community. 5-day practical exam with a professional report deliverable reviewed by human graders, followed by a live debrief \u2014 not just flags. Five training courses included, one free retake, never expires. At $499 it competes directly with OSCP on quality while being a fraction of the cost. OSCP still carries more hiring weight in large enterprise and government environments, but PNPT is increasingly accepted, particularly at companies that value skill over brand.",
+    "summary": "TCM Security's flagship network pentesting certification and the most respected affordable alternative to OSCP in the community. 5-day practical exam with a professional report deliverable reviewed by human graders, followed by a live debrief — not just flags. Five training courses included, one free retake, never expires. At $499 it competes directly with OSCP on quality while being a fraction of the cost. OSCP still carries more hiring weight in large enterprise and government environments, but PNPT is increasingly accepted, particularly at companies that value skill over brand.",
     "flags": [
       "low_cost"
     ],
@@ -759,7 +759,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CREST's registered tester certification and the entry point for practitioners wanting to work on CREST-accredited engagements in the UK and Commonwealth markets. Required for NCSC CHECK Team Member status. The hands-on exploitation exam on a locked-down Kali environment is more rigorous than most MCQ alternatives at this level. Limited recognition outside UK, Australian, Singapore, and EU markets \u2014 not relevant in the US except for organizations that specifically require CREST-accredited penetration testing services. Essential for practitioners targeting UK government or TIBER-EU engagement work.",
+    "summary": "CREST's registered tester certification and the entry point for practitioners wanting to work on CREST-accredited engagements in the UK and Commonwealth markets. Required for NCSC CHECK Team Member status. The hands-on exploitation exam on a locked-down Kali environment is more rigorous than most MCQ alternatives at this level. Limited recognition outside UK, Australian, Singapore, and EU markets — not relevant in the US except for organizations that specifically require CREST-accredited penetration testing services. Essential for practitioners targeting UK government or TIBER-EU engagement work.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/",
     "active": true,
@@ -771,7 +771,7 @@
       "community_respect": 6,
       "salary_impact": 5,
       "time_to_prepare": 5,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -810,7 +810,7 @@
         "crt"
       ]
     },
-    "summary": "CREST's expert infrastructure tester certification required for NCSC CHECK Team Leader status in the UK \u2014 mandatory for leading CHECK-scheme penetration testing engagements. Two separate exam parts, each approximately \u00a31,600, with written and 6-hour practical components. Total cost approximately $4,060 USD. Highly rigorous and practically demanding. Limited to UK, Australian, Singapore, and EU markets where CREST accreditation is a contractual or regulatory requirement. Not relevant in the US market. For UK-based senior penetration testers this is a career-defining credential.",
+    "summary": "CREST's expert infrastructure tester certification required for NCSC CHECK Team Leader status in the UK — mandatory for leading CHECK-scheme penetration testing engagements. Two separate exam parts, each approximately £1,600, with written and 6-hour practical components. Total cost approximately $4,060 USD. Highly rigorous and practically demanding. Limited to UK, Australian, Singapore, and EU markets where CREST accreditation is a contractual or regulatory requirement. Not relevant in the US market. For UK-based senior penetration testers this is a career-defining credential.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-infrastructure-tester/",
     "active": true,
@@ -856,7 +856,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CREST's foundational security analyst certification \u2014 a 120-question MCQ exam covering penetration testing concepts. Serves as the entry point to the CREST certification pathway before CRT. No practical component, which limits its value as evidence of actual security skill. Most useful in UK and Commonwealth markets where CREST accreditation is valued and practitioners need a structured entry point. The purely theoretical format means it shouldn't be treated as a significant standalone credential \u2014 its primary value is as a mapped stepping stone toward CRT.",
+    "summary": "CREST's foundational security analyst certification — a 120-question MCQ exam covering penetration testing concepts. Serves as the entry point to the CREST certification pathway before CRT. No practical component, which limits its value as evidence of actual security skill. Most useful in UK and Commonwealth markets where CREST accreditation is valued and practitioners need a structured entry point. The purely theoretical format means it shouldn't be treated as a significant standalone credential — its primary value is as a mapped stepping stone toward CRT.",
     "flags": [
       "low_cost"
     ],
@@ -905,7 +905,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Mile2's penetration testing certification with NSA validation for CNSSI-4013 and Navy COOL listing. Full DoD 8140 matrix approval status is unconfirmed. Purely MCQ exam with no practical component \u2014 labs are part of training only. Very limited visibility outside US government and military contexts. Not widely recognized in the commercial practitioner community. Most relevant for specific government contracting vehicles that reference Mile2 certifications, or for Navy COOL-based education benefit usage.",
+    "summary": "Mile2's penetration testing certification with NSA validation for CNSSI-4013 and Navy COOL listing. Full DoD 8140 matrix approval status is unconfirmed. Purely MCQ exam with no practical component — labs are part of training only. Very limited visibility outside US government and military contexts. Not widely recognized in the commercial practitioner community. Most relevant for specific government contracting vehicles that reference Mile2 certifications, or for Navy COOL-based education benefit usage.",
     "flags": [
       "low_community_respect"
     ],
@@ -939,7 +939,7 @@
     "renewal": "Does not expire",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Limited \u2014 primarily valued as OSCP preparation evidence",
+    "geographic_note": "Limited — primarily valued as OSCP preparation evidence",
     "skills": [
       "penetration_testing_methodology",
       "network_scanning",
@@ -954,7 +954,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "VHL's lab completion certificate awarded for completing their penetration testing lab environment \u2014 not a traditional proctored certification exam. Requires lab machine compromise and documentation rather than a formal proctored assessment. Primarily recognized as OSCP preparation evidence rather than a standalone career credential. VHL has announced formal certification exams (CPT-01) launching in 2026 which may significantly change its market position. At $99-$499 for lab access it's excellent value as a learning resource even if the certificate itself has limited hiring impact currently.",
+    "summary": "VHL's lab completion certificate awarded for completing their penetration testing lab environment — not a traditional proctored certification exam. Requires lab machine compromise and documentation rather than a formal proctored assessment. Primarily recognized as OSCP preparation evidence rather than a standalone career credential. VHL has announced formal certification exams (CPT-01) launching in 2026 which may significantly change its market position. At $99-$499 for lab access it's excellent value as a learning resource even if the certificate itself has limited hiring impact currently.",
     "flags": [
       "low_cost",
       "portfolio_based"
@@ -1008,7 +1008,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "OffSec's intermediate web application security certification \u2014 a black-box 100% practical exam covering standard web vulnerability exploitation. Positioned as the web equivalent of OSCP in terms of methodology and serves as a natural progression toward OSWE. The OffSec brand carries strong employer recognition in offensive security. For practitioners working toward OSWE's advanced white-box testing, OSWA provides the foundational web exploitation credential at the intermediate level.",
+    "summary": "OffSec's intermediate web application security certification — a black-box 100% practical exam covering standard web vulnerability exploitation. Positioned as the web equivalent of OSCP in terms of methodology and serves as a natural progression toward OSWE. The OffSec brand carries strong employer recognition in offensive security. For practitioners working toward OSWE's advanced white-box testing, OSWA provides the foundational web exploitation credential at the intermediate level.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/web-200/",
     "active": true,
@@ -1039,7 +1039,7 @@
     "level": "expert",
     "practical_weight": 100,
     "cost_usd": 1749,
-    "renewal": "Does not expire (lifetime). Part of OSCE\u00b3 pathway",
+    "renewal": "Does not expire (lifetime). Part of OSCE³ pathway",
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
@@ -1063,7 +1063,7 @@
         "bscp"
       ]
     },
-    "summary": "OffSec's advanced web application exploitation certification and one of the most technically demanding AppSec credentials available. Unlike black-box web testing, OSWE focuses entirely on white-box testing \u2014 reading source code to identify and chain vulnerabilities for remote code execution. The 47h 45m practical exam requires genuine programming knowledge and the ability to build custom exploit scripts. OSWE teaches a distinct and complementary skillset to BSCP \u2014 the white-box approach is what separates senior AppSec practitioners who understand code from those who just operate scanners.",
+    "summary": "OffSec's advanced web application exploitation certification and one of the most technically demanding AppSec credentials available. Unlike black-box web testing, OSWE focuses entirely on white-box testing — reading source code to identify and chain vulnerabilities for remote code execution. The 47h 45m practical exam requires genuine programming knowledge and the ability to build custom exploit scripts. OSWE teaches a distinct and complementary skillset to BSCP — the white-box approach is what separates senior AppSec practitioners who understand code from those who just operate scanners.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/web-300/",
     "active": true,
@@ -1075,7 +1075,7 @@
       "community_respect": 9,
       "salary_impact": 8,
       "time_to_prepare": 8,
-      "overall": 9.0
+      "overall": 9
     }
   },
   {
@@ -1114,7 +1114,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Hack The Box's web exploitation certification \u2014 renamed from CBBH (Certified Bug Bounty Hunter) to CWES in October 2025, reflecting a broader scope beyond bug bounty into web exploitation specialization. 100% practical exam, never expires, available as a standalone voucher (~$210) or included with Silver Annual. HTB Academy's web security content has a strong reputation in the practitioner community. A solid web exploitation credential at a price point that makes it accessible for self-funded candidates.",
+    "summary": "Hack The Box's web exploitation certification — renamed from CBBH (Certified Bug Bounty Hunter) to CWES in October 2025, reflecting a broader scope beyond bug bounty into web exploitation specialization. 100% practical exam, never expires, available as a standalone voucher (~$210) or included with Silver Annual. HTB Academy's web security content has a strong reputation in the practitioner community. A solid web exploitation credential at a price point that makes it accessible for self-funded candidates.",
     "flags": [
       "low_cost",
       "new"
@@ -1172,7 +1172,7 @@
         "bscp"
       ]
     },
-    "summary": "Hack The Box's advanced web exploitation expert certification covering source code review, custom exploit development, and complex vulnerability chaining. 100% practical exam. Held by approximately 182 professionals globally as of 2026, making it one of the rarest practical web security certifications. At ~$350 included with Gold Annual or as a standalone voucher, it competes with OSWE at a fraction of the cost. The small holder count is both a signal of genuine difficulty and a limitation on employer recognition \u2014 OSWE currently carries more brand weight, but CWEE is increasingly respected as HTB's platform reputation grows.",
+    "summary": "Hack The Box's advanced web exploitation expert certification covering source code review, custom exploit development, and complex vulnerability chaining. 100% practical exam. Held by approximately 182 professionals globally as of 2026, making it one of the rarest practical web security certifications. At ~$350 included with Gold Annual or as a standalone voucher, it competes with OSWE at a fraction of the cost. The small holder count is both a signal of genuine difficulty and a limitation on employer recognition — OSWE currently carries more brand weight, but CWEE is increasingly respected as HTB's platform reputation grows.",
     "flags": [],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
@@ -1184,7 +1184,7 @@
       "community_respect": 7,
       "salary_impact": 5,
       "time_to_prepare": 7,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -1228,7 +1228,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The most respected web application security certification in the practitioner community \u2014 a 4-hour fully hands-on proctored exam with two multi-stage web application targets and absolutely no hints. PortSwigger Web Security Academy is the global standard learning resource for web hackers, and BSCP validates mastery of that entire curriculum. At $99 for the exam (requiring an active Burp Suite Pro license at $499/yr) it's exceptional value. If you can pass BSCP, employers know you can actually exploit web applications \u2014 it has become the benchmark signal for web security testing skill.",
+    "summary": "The most respected web application security certification in the practitioner community — a 4-hour fully hands-on proctored exam with two multi-stage web application targets and absolutely no hints. PortSwigger Web Security Academy is the global standard learning resource for web hackers, and BSCP validates mastery of that entire curriculum. At $99 for the exam (requiring an active Burp Suite Pro license at $499/yr) it's exceptional value. If you can pass BSCP, employers know you can actually exploit web applications — it has become the benchmark signal for web security testing skill.",
     "flags": [
       "low_cost"
     ],
@@ -1280,7 +1280,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's web application penetration testing certification and DoD 8140 approved for web security roles. CyberLive hands-on component adds practical weight but remains predominantly MCQ. In the practitioner community, BSCP is the more respected web security credential \u2014 GWAPT's primary advantage is DoD 8140 approval for government and contractor web security roles. If you need government-compliant web application security credentialing, GWAPT serves that purpose. If you're in the commercial space, BSCP provides stronger evidence of actual skill for a fraction of the cost.",
+    "summary": "GIAC's web application penetration testing certification and DoD 8140 approved for web security roles. CyberLive hands-on component adds practical weight but remains predominantly MCQ. In the practitioner community, BSCP is the more respected web security credential — GWAPT's primary advantage is DoD 8140 approval for government and contractor web security roles. If you need government-compliant web application security credentialing, GWAPT serves that purpose. If you're in the commercial space, BSCP provides stronger evidence of actual skill for a fraction of the cost.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
     "active": true,
@@ -1333,7 +1333,7 @@
         "ejpt"
       ]
     },
-    "summary": "INE Security's intermediate web application pentesting certification \u2014 100% practical exam. Requires INE Premium subscription (~$749/yr) to access training with the exam voucher around $249-$399. Not DoD 8140 approved. Community recognition sits below BSCP and GWAPT but represents a solid intermediate-level web security credential within the INE ecosystem. Most useful for practitioners already invested in INE's training platform or as a stepping stone to eWPTX.",
+    "summary": "INE Security's intermediate web application pentesting certification — 100% practical exam. Requires INE Premium subscription (~$749/yr) to access training with the exam voucher around $249-$399. Not DoD 8140 approved. Community recognition sits below BSCP and GWAPT but represents a solid intermediate-level web security credential within the INE ecosystem. Most useful for practitioners already invested in INE's training platform or as a stepping stone to eWPTX.",
     "flags": [],
     "official_url": "https://ine.com/security/certifications/ewpt-certification",
     "active": true,
@@ -1345,7 +1345,7 @@
       "community_respect": 5,
       "salary_impact": 3,
       "time_to_prepare": 4,
-      "overall": 5.0
+      "overall": 5
     }
   },
   {
@@ -1438,7 +1438,7 @@
         "crt"
       ]
     },
-    "summary": "CREST's expert application tester certification required for CHECK Team Leader status on web application engagements in the UK. Two separate exam parts with written and 6-hour practical components, totaling approximately $4,060 USD. Highly rigorous \u2014 the written component covers depth of web vulnerability knowledge while the practical tests hands-on exploitation. Essential for senior practitioners leading CREST-accredited web application penetration testing engagements in UK government and financial services. Not relevant outside CREST-active markets.",
+    "summary": "CREST's expert application tester certification required for CHECK Team Leader status on web application engagements in the UK. Two separate exam parts with written and 6-hour practical components, totaling approximately $4,060 USD. Highly rigorous — the written component covers depth of web vulnerability knowledge while the practical tests hands-on exploitation. Essential for senior practitioners leading CREST-accredited web application penetration testing engagements in UK government and financial services. Not relevant outside CREST-active markets.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-web-application-tester/",
     "active": true,
@@ -1489,7 +1489,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's entry-level web application pentesting certification \u2014 100% practical 2-day exam followed by 2 days to write a professional pentest report, reviewed by human graders. Training included, one free retake, never expires. At $249 it's excellent value as a first practical web security credential. The report-writing requirement is a genuine differentiator from flag-only alternatives and develops the professional communication skills that separate practitioners from hobbyists. Natural stepping stone to PWPP and then BSCP or OSWE.",
+    "summary": "TCM Security's entry-level web application pentesting certification — 100% practical 2-day exam followed by 2 days to write a professional pentest report, reviewed by human graders. Training included, one free retake, never expires. At $249 it's excellent value as a first practical web security credential. The report-writing requirement is a genuine differentiator from flag-only alternatives and develops the professional communication skills that separate practitioners from hobbyists. Natural stepping stone to PWPP and then BSCP or OSWE.",
     "flags": [
       "low_cost"
     ],
@@ -1598,7 +1598,7 @@
         "pwpp"
       ]
     },
-    "summary": "TCM Security's expert-level web pentesting certification launched in 2025 \u2014 their first expert-tier web credential covering advanced white-box testing, complex vulnerability chaining, and custom exploit development. 100% practical exam with report reviewed by human graders. Never expires. At $799 it directly competes with OSWE at a fraction of the OffSec price. Too new to have established employer recognition comparable to OSWE, but the TCM brand and practical format are strong signals of genuine capability for practitioners who want expert-tier web credentials without the OffSec subscription model.",
+    "summary": "TCM Security's expert-level web pentesting certification launched in 2025 — their first expert-tier web credential covering advanced white-box testing, complex vulnerability chaining, and custom exploit development. 100% practical exam with report reviewed by human graders. Never expires. At $799 it directly competes with OSWE at a fraction of the OffSec price. Too new to have established employer recognition comparable to OSWE, but the TCM brand and practical format are strong signals of genuine capability for practitioners who want expert-tier web credentials without the OffSec subscription model.",
     "flags": [
       "new"
     ],
@@ -1649,7 +1649,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "INE Security's mobile application pentesting certification and one of very few practical mobile security certifications available globally. 100% practical exam covering Android and iOS application security testing. Updated in 2025. Requires INE Premium subscription. Not DoD 8140 approved. The mobile security certification space is severely underdeveloped \u2014 eMAPT fills a genuine gap and has earned recognition for being one of the only certifications that validates real mobile application exploitation skill rather than just awareness of mobile threats.",
+    "summary": "INE Security's mobile application pentesting certification and one of very few practical mobile security certifications available globally. 100% practical exam covering Android and iOS application security testing. Updated in 2025. Requires INE Premium subscription. Not DoD 8140 approved. The mobile security certification space is severely underdeveloped — eMAPT fills a genuine gap and has earned recognition for being one of the only certifications that validates real mobile application exploitation skill rather than just awareness of mobile threats.",
     "flags": [],
     "official_url": "https://ine.com/security/certifications/emapt-certification",
     "active": true,
@@ -1697,7 +1697,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's mobile security certification covering Android and iOS device security analysis and testing. DoD 8140 approved. Purely MCQ \u2014 no hands-on practical component has been confirmed. The DoD approval is GMOB's primary differentiator in the mobile security space. Practitioners specifically targeting mobile security with genuine hands-on skills will find eMAPT better validates their actual capability, but GMOB covers the DoD compliance requirement for mobile security roles in government environments.",
+    "summary": "GIAC's mobile security certification covering Android and iOS device security analysis and testing. DoD 8140 approved. Purely MCQ — no hands-on practical component has been confirmed. The DoD approval is GMOB's primary differentiator in the mobile security space. Practitioners specifically targeting mobile security with genuine hands-on skills will find eMAPT better validates their actual capability, but GMOB covers the DoD compliance requirement for mobile security roles in government environments.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/mobile-device-security-analyst-gmob/",
     "active": true,
@@ -1745,7 +1745,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's entry-level mobile penetration testing certification covering Android and iOS application security testing. 100% practical exam, training included, one free retake, never expires. At $249 it's the most accessible practical mobile security credential. The mobile security cert space is sparse \u2014 PMPA fills a genuine gap as an affordable entry point for practitioners expanding into mobile application security testing. Note: this certification was previously misidentified as PMPT, which does not exist.",
+    "summary": "TCM Security's entry-level mobile penetration testing certification covering Android and iOS application security testing. 100% practical exam, training included, one free retake, never expires. At $249 it's the most accessible practical mobile security credential. The mobile security cert space is sparse — PMPA fills a genuine gap as an affordable entry point for practitioners expanding into mobile application security testing. Note: this certification was previously misidentified as PMPT, which does not exist.",
     "flags": [
       "low_cost"
     ],
@@ -1793,7 +1793,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "OffSec's wireless security certification covering WiFi attack techniques including WEP, WPA/WPA2, and enterprise wireless attacks. 100% practical exam. Lifetime certification. Included with Learn One subscription. Not DoD 8140 approved. The wireless certification space has limited competition at the practical level \u2014 OSWP is the most recognized practical wireless security credential globally. Content focuses specifically on WiFi rather than Bluetooth or RF broadly. Most relevant for practitioners whose work includes wireless network assessments.",
+    "summary": "OffSec's wireless security certification covering WiFi attack techniques including WEP, WPA/WPA2, and enterprise wireless attacks. 100% practical exam. Lifetime certification. Included with Learn One subscription. Not DoD 8140 approved. The wireless certification space has limited competition at the practical level — OSWP is the most recognized practical wireless security credential globally. Content focuses specifically on WiFi rather than Bluetooth or RF broadly. Most relevant for practitioners whose work includes wireless network assessments.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-210/",
     "active": true,
@@ -1841,7 +1841,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's wireless security certification covering WiFi, Bluetooth, and RFID security assessment. DoD 8140 approved. Purely MCQ exam \u2014 no practical component confirmed. DoD 8140 approval is GAWN's primary value for government and contractor wireless security roles. For practitioners who want to validate actual wireless attack skill, OSWP's practical format is more meaningful. GAWN's broader scope across multiple wireless technologies (not just WiFi) does differentiate it from OSWP conceptually.",
+    "summary": "GIAC's wireless security certification covering WiFi, Bluetooth, and RFID security assessment. DoD 8140 approved. Purely MCQ exam — no practical component confirmed. DoD 8140 approval is GAWN's primary value for government and contractor wireless security roles. For practitioners who want to validate actual wireless attack skill, OSWP's practical format is more meaningful. GAWN's broader scope across multiple wireless technologies (not just WiFi) does differentiate it from OSWP conceptually.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/assessing-auditing-wireless-networks-gawn/",
     "active": true,
@@ -1887,7 +1887,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Hack The Box's expert-level WiFi pentesting certification announced for launch in early 2026. 100% practical exam. Not yet available for registration as of April 2026 \u2014 confirmed by HTB blog but exam sitting not yet possible. Not DoD 8140 approved. When launched it will directly compete with OSWP and GAWN in a space that has very limited practical certification options. The expert-level positioning suggests more advanced WiFi attack coverage than existing alternatives. Check HTB Academy for current availability status.",
+    "summary": "Hack The Box's expert-level WiFi pentesting certification announced for launch in early 2026. 100% practical exam. Not yet available for registration as of April 2026 — confirmed by HTB blog but exam sitting not yet possible. Not DoD 8140 approved. When launched it will directly compete with OSWP and GAWN in a space that has very limited practical certification options. The expert-level positioning suggests more advanced WiFi attack coverage than existing alternatives. Check HTB Academy for current availability status.",
     "flags": [
       "new"
     ],
@@ -1920,7 +1920,7 @@
     "level": "expert",
     "practical_weight": 100,
     "cost_usd": 1749,
-    "renewal": "Does not expire (lifetime). Part of OSCE\u00b3 pathway",
+    "renewal": "Does not expire (lifetime). Part of OSCE³ pathway",
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
@@ -1944,7 +1944,7 @@
         "oscp"
       ]
     },
-    "summary": "OffSec's advanced red team certification covering the full red team engagement lifecycle \u2014 C2 framework operation, EDR evasion, process injection, Active Directory abuse, and lateral movement. The 47h 45m practical exam requires chaining complex techniques in a simulated enterprise environment. Part of the OSCE\u00b3 composite pathway alongside OSWE and OSED. OSEP is the benchmark advanced red team certification and expected for senior red team operator roles at mature security organizations.",
+    "summary": "OffSec's advanced red team certification covering the full red team engagement lifecycle — C2 framework operation, EDR evasion, process injection, Active Directory abuse, and lateral movement. The 47h 45m practical exam requires chaining complex techniques in a simulated enterprise environment. Part of the OSCE³ composite pathway alongside OSWE and OSED. OSEP is the benchmark advanced red team certification and expected for senior red team operator roles at mature security organizations.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-300/",
     "active": true,
@@ -1956,12 +1956,12 @@
       "community_respect": 9,
       "salary_impact": 8,
       "time_to_prepare": 9,
-      "overall": 9.0
+      "overall": 9
     }
   },
   {
     "id": "osce3",
-    "acronym": "OSCE\u00b3",
+    "acronym": "OSCE³",
     "full_name": "OffSec Certified Expert 3",
     "issuing_body": "OffSec",
     "domain": [
@@ -2001,7 +2001,7 @@
         "osed"
       ]
     },
-    "summary": "OffSec's elite composite designation awarded for passing all three 300-level certifications: OSEP (advanced red team), OSWE (advanced web exploitation), and OSED (Windows exploit development). No separate exam \u2014 OSCE\u00b3 is awarded when all three are completed. The minimum cost is approximately $5,247 for three bundle purchases. Held by a very small number of practitioners globally and considered one of the most prestigious offensive security credentials. OSCE\u00b3 demonstrates mastery across the three most challenging OffSec specializations.",
+    "summary": "OffSec's elite composite designation awarded for passing all three 300-level certifications: OSEP (advanced red team), OSWE (advanced web exploitation), and OSED (Windows exploit development). No separate exam — OSCE³ is awarded when all three are completed. The minimum cost is approximately $5,247 for three bundle purchases. Held by a very small number of practitioners globally and considered one of the most prestigious offensive security credentials. OSCE³ demonstrates mastery across the three most challenging OffSec specializations.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/",
     "active": true,
@@ -2053,7 +2053,7 @@
         "oscp"
       ]
     },
-    "summary": "The most respected Red Team Operator certification and the primary credential for Cobalt Strike and C2 framework usage. 48 hours of active time over 4 days, outcome-based scoring, unlimited retakes included. At approximately \u00a3399 (PPP pricing available) with licensed Cobalt Strike lab access included it's exceptional value. Community consensus is that CRTO teaches more advanced AD attack tradecraft than OSCP, making it the natural next credential after OSCP for practitioners specializing in red team operations.",
+    "summary": "The most respected Red Team Operator certification and the primary credential for Cobalt Strike and C2 framework usage. 48 hours of active time over 4 days, outcome-based scoring, unlimited retakes included. At approximately £399 (PPP pricing available) with licensed Cobalt Strike lab access included it's exceptional value. Community consensus is that CRTO teaches more advanced AD attack tradecraft than OSCP, making it the natural next credential after OSCP for practitioners specializing in red team operations.",
     "flags": [
       "low_cost"
     ],
@@ -2107,7 +2107,7 @@
         "crto"
       ]
     },
-    "summary": "Zero-Point Security's advanced red team certification covering detection-aware tradecraft, EDR evasion, and sophisticated post-exploitation techniques. 100% practical exam. Builds directly on CRTO foundations with a focus on operating in environments with active defensive tooling \u2014 the scenarios are designed for practitioners who need to operate against modern EDR and detection capabilities. At approximately \u00a3399 with PPP pricing available it maintains CRTO's accessible pricing model at the expert level.",
+    "summary": "Zero-Point Security's advanced red team certification covering detection-aware tradecraft, EDR evasion, and sophisticated post-exploitation techniques. 100% practical exam. Builds directly on CRTO foundations with a focus on operating in environments with active defensive tooling — the scenarios are designed for practitioners who need to operate against modern EDR and detection capabilities. At approximately £399 with PPP pricing available it maintains CRTO's accessible pricing model at the expert level.",
     "flags": [],
     "official_url": "https://www.zeropointsecurity.co.uk/course/red-team-ops-ii",
     "active": true,
@@ -2139,7 +2139,7 @@
     "renewal": "4 years (36 CPEs + $499)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "DoD 8140 status pending \u2014 new cert",
+    "geographic_note": "DoD 8140 status pending — new cert",
     "skills": [
       "red_team_methodology",
       "active_directory_attacks",
@@ -2157,7 +2157,7 @@
         "gpen"
       ]
     },
-    "summary": "GIAC's red team professional certification launched in 2025 covering red team operations methodology, adversary simulation, and detection evasion. CyberLive hands-on component adds practical weight but remains predominantly MCQ \u2014 the same limitation that affects all standard GIAC certifications. DoD 8140 status pending. Associated with SANS SEC565 training. Fills a gap in the GIAC certification path between GPEN and GXPN for practitioners specializing in red team rather than pure exploit development.",
+    "summary": "GIAC's red team professional certification launched in 2025 covering red team operations methodology, adversary simulation, and detection evasion. CyberLive hands-on component adds practical weight but remains predominantly MCQ — the same limitation that affects all standard GIAC certifications. DoD 8140 status pending. Associated with SANS SEC565 training. Fills a gap in the GIAC certification path between GPEN and GXPN for practitioners specializing in red team rather than pure exploit development.",
     "flags": [
       "new"
     ],
@@ -2261,7 +2261,7 @@
         "cct-inf"
       ]
     },
-    "summary": "CREST's red team specialist certification \u2014 renamed from CCSAS in 2025 \u2014 required for practitioners conducting CBEST, GBEST, and TIBER-EU regulated red team engagements in the UK and EU. Two exam parts with written and practical components, totaling approximately $4,060 USD. Current CCT INF required. Limited to CREST-active markets. If you work in UK financial services or government red team engagements this is a mandatory credential. Outside those markets, CRTO and OSEP provide stronger practical credentials at a fraction of the cost.",
+    "summary": "CREST's red team specialist certification — renamed from CCSAS in 2025 — required for practitioners conducting CBEST, GBEST, and TIBER-EU regulated red team engagements in the UK and EU. Two exam parts with written and practical components, totaling approximately $4,060 USD. Current CCT INF required. Limited to CREST-active markets. If you work in UK financial services or government red team engagements this is a mandatory credential. Outside those markets, CRTO and OSEP provide stronger practical credentials at a fraction of the cost.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-specialist/",
     "active": true,
@@ -2310,7 +2310,7 @@
         "ccrts"
       ]
     },
-    "summary": "CREST's red team management certification \u2014 renamed from CCSAM/CSTM in 2025 \u2014 targeting senior practitioners who lead red team programs rather than just execute engagements. Primarily written and planning-focused with approximately 30% practical weight. Relevant for red team leads, program managers, and security directors in CREST-active markets who oversee CBEST or TIBER-EU red team programs. Limited recognition outside UK, Australian, Singapore, and EU contexts.",
+    "summary": "CREST's red team management certification — renamed from CCSAM/CSTM in 2025 — targeting senior practitioners who lead red team programs rather than just execute engagements. Primarily written and planning-focused with approximately 30% practical weight. Relevant for red team leads, program managers, and security directors in CREST-active markets who oversee CBEST or TIBER-EU red team programs. Limited recognition outside UK, Australian, Singapore, and EU contexts.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/",
     "active": true,
@@ -2339,7 +2339,7 @@
     "level": "expert",
     "practical_weight": 100,
     "cost_usd": 1749,
-    "renewal": "Does not expire (lifetime). Part of OSCE\u00b3 pathway",
+    "renewal": "Does not expire (lifetime). Part of OSCE³ pathway",
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
@@ -2363,7 +2363,7 @@
         "oscp"
       ]
     },
-    "summary": "OffSec's Windows exploit development certification covering user-mode exploit techniques \u2014 SEH overflows, DEP/ASLR bypasses, heap exploitation, and shellcode development. The 47h 45m practical exam genuinely requires the ability to develop custom exploits from scratch. Part of the OSCE\u00b3 composite pathway. Not DoD 8140 approved. One of the few certifications that validates actual vulnerability research and exploit development skill rather than just the ability to use existing tools \u2014 the most technically demanding aspect of offensive security.",
+    "summary": "OffSec's Windows exploit development certification covering user-mode exploit techniques — SEH overflows, DEP/ASLR bypasses, heap exploitation, and shellcode development. The 47h 45m practical exam genuinely requires the ability to develop custom exploits from scratch. Part of the OSCE³ composite pathway. Not DoD 8140 approved. One of the few certifications that validates actual vulnerability research and exploit development skill rather than just the ability to use existing tools — the most technically demanding aspect of offensive security.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/exp-301/",
     "active": true,
@@ -2375,7 +2375,7 @@
       "community_respect": 9,
       "salary_impact": 8,
       "time_to_prepare": 9,
-      "overall": 9.0
+      "overall": 9
     }
   },
   {
@@ -2395,7 +2395,7 @@
     "renewal": "Does not expire (lifetime)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "In-person training at Black Hat only \u2014 not available online",
+    "geographic_note": "In-person training at Black Hat only — not available online",
     "skills": [
       "exploit_development",
       "shellcode_development",
@@ -2416,7 +2416,7 @@
         "osed"
       ]
     },
-    "summary": "The most difficult OffSec certification and arguably the hardest practical security certification in the world. Covers advanced Windows kernel exploitation, advanced heap exploitation, DEP/ASLR/CFG/CET bypass techniques, and custom vulnerability research. 72-hour practical exam. Training requires in-person attendance at Black Hat \u2014 not available online. Cost approximately $10,000-$12,000. Held by a handful of practitioners globally. For serious vulnerability researchers and exploit developers this is the definitive credential, though its rarity means most employers cannot properly evaluate it.",
+    "summary": "The most difficult OffSec certification and arguably the hardest practical security certification in the world. Covers advanced Windows kernel exploitation, advanced heap exploitation, DEP/ASLR/CFG/CET bypass techniques, and custom vulnerability research. 72-hour practical exam. Training requires in-person attendance at Black Hat — not available online. Cost approximately $10,000-$12,000. Held by a handful of practitioners globally. For serious vulnerability researchers and exploit developers this is the definitive credential, though its rarity means most employers cannot properly evaluate it.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/exp-401/",
     "active": true,
@@ -2471,7 +2471,7 @@
         "gpen"
       ]
     },
-    "summary": "GIAC's elite-level exploit researcher and advanced penetration tester certification. DoD 8140 approved and one of the few DoD-approved credentials that gets into genuine exploit development territory. Associated with SANS SEC660. The MCQ format is a limitation at this level \u2014 OSED and OSEE are meaningfully more rigorous for validating actual exploit development skill. GXPN's primary value is DoD 8140 approval for government practitioners who need an accredited credential covering advanced penetration testing and exploit research.",
+    "summary": "GIAC's elite-level exploit researcher and advanced penetration tester certification. DoD 8140 approved and one of the few DoD-approved credentials that gets into genuine exploit development territory. Associated with SANS SEC660. The MCQ format is a limitation at this level — OSED and OSEE are meaningfully more rigorous for validating actual exploit development skill. GXPN's primary value is DoD 8140 approval for government practitioners who need an accredited credential covering advanced penetration testing and exploit research.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/",
     "active": true,
@@ -2520,7 +2520,7 @@
         "osed"
       ]
     },
-    "summary": "OffSec's macOS security research certification covering ARM-based exploit development for Apple Silicon macOS environments \u2014 paused on November 2, 2025 with no new exams being issued. Existing credential holders retain valid certifications. OffSec has not announced a reactivation timeline. Do not pursue this certification \u2014 it is currently unobtainable. Worth monitoring for potential revival as Apple Silicon becomes more prevalent in enterprise environments.",
+    "summary": "OffSec's macOS security research certification covering ARM-based exploit development for Apple Silicon macOS environments — paused on November 2, 2025 with no new exams being issued. Existing credential holders retain valid certifications. OffSec has not announced a reactivation timeline. Do not pursue this certification — it is currently unobtainable. Worth monitoring for potential revival as Apple Silicon becomes more prevalent in enterprise environments.",
     "flags": [
       "paused"
     ],
@@ -2573,7 +2573,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's IoT penetration testing certification \u2014 one of very few practical IoT offensive certifications in existence. 100% practical exam covering hardware interfaces, firmware analysis, industrial protocols, and IoT web interfaces. Training included, one free retake, never expires. At $249 it's the most accessible practical IoT security credential. The IoT offensive certification space is severely underdeveloped \u2014 PIPA fills a genuine gap for practitioners whose scope includes connected devices, embedded systems, and industrial IoT.",
+    "summary": "TCM Security's IoT penetration testing certification — one of very few practical IoT offensive certifications in existence. 100% practical exam covering hardware interfaces, firmware analysis, industrial protocols, and IoT web interfaces. Training included, one free retake, never expires. At $249 it's the most accessible practical IoT security credential. The IoT offensive certification space is severely underdeveloped — PIPA fills a genuine gap for practitioners whose scope includes connected devices, embedded systems, and industrial IoT.",
     "flags": [
       "low_cost"
     ],
@@ -2608,7 +2608,7 @@
     "renewal": "Does not expire",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Priced in EUR (~\u20ac1,099 = ~$1,187 USD)",
+    "geographic_note": "Priced in EUR (~€1,099 = ~$1,187 USD)",
     "skills": [
       "aws_iam",
       "aws_network_security",
@@ -2625,7 +2625,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "HackTricks Training's AWS cloud red team certification widely considered the gold standard for AWS offensive security. 12-hour practical exam with 3 flags, 60-day lab access with 50+ labs, one exam attempt included. ~\u20ac1,099 (~$1,187 USD). Not DoD 8140 approved. HackTricks is globally recognized as the authoritative reference for offensive security techniques, giving their certifications strong community credibility. Completing ARTE, AzRTE, and GRTE together earns a composite Cloud Red Team Expert designation.",
+    "summary": "HackTricks Training's AWS cloud red team certification widely considered the gold standard for AWS offensive security. 12-hour practical exam with 3 flags, 60-day lab access with 50+ labs, one exam attempt included. ~€1,099 (~$1,187 USD). Not DoD 8140 approved. HackTricks is globally recognized as the authoritative reference for offensive security techniques, giving their certifications strong community credibility. Completing ARTE, AzRTE, and GRTE together earns a composite Cloud Red Team Expert designation.",
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/arte/",
     "active": true,
@@ -2658,7 +2658,7 @@
     "renewal": "Does not expire",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Priced in EUR (~\u20ac1,099 = ~$1,187 USD)",
+    "geographic_note": "Priced in EUR (~€1,099 = ~$1,187 USD)",
     "skills": [
       "azure_iam",
       "azure_network_security",
@@ -2675,7 +2675,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "HackTricks Training's Azure and Entra ID red team expert certification. 12-hour practical exam with 3 flags. ~\u20ac1,099 (~$1,187 USD). Not DoD 8140 approved. Covers Azure resource abuse, Entra ID attacks, hybrid identity exploitation, and cloud privilege escalation. Part of HackTricks' cloud red team suite alongside ARTE and GRTE. Community credibility mirrors ARTE given the HackTricks brand's global recognition in offensive security.",
+    "summary": "HackTricks Training's Azure and Entra ID red team expert certification. 12-hour practical exam with 3 flags. ~€1,099 (~$1,187 USD). Not DoD 8140 approved. Covers Azure resource abuse, Entra ID attacks, hybrid identity exploitation, and cloud privilege escalation. Part of HackTricks' cloud red team suite alongside ARTE and GRTE. Community credibility mirrors ARTE given the HackTricks brand's global recognition in offensive security.",
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/azrte/",
     "active": true,
@@ -2708,7 +2708,7 @@
     "renewal": "Does not expire",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Priced in EUR (~\u20ac1,099 = ~$1,187 USD)",
+    "geographic_note": "Priced in EUR (~€1,099 = ~$1,187 USD)",
     "skills": [
       "gcp_iam",
       "gcp_network_security",
@@ -2724,7 +2724,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "HackTricks Training's GCP red team expert certification covering Google Cloud Platform privilege escalation, service abuse, and lateral movement. 12-hour practical exam with 3 flags. ~\u20ac1,099 (~$1,187 USD). Not DoD 8140 approved. Completes the HackTricks cloud red team trifecta \u2014 practitioners completing ARTE, AzRTE, and GRTE earn a composite Cloud Red Team Expert designation covering all three major cloud providers.",
+    "summary": "HackTricks Training's GCP red team expert certification covering Google Cloud Platform privilege escalation, service abuse, and lateral movement. 12-hour practical exam with 3 flags. ~€1,099 (~$1,187 USD). Not DoD 8140 approved. Completes the HackTricks cloud red team trifecta — practitioners completing ARTE, AzRTE, and GRTE earn a composite Cloud Red Team Expert designation covering all three major cloud providers.",
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/grte/",
     "active": true,
@@ -2776,7 +2776,7 @@
         "gpen"
       ]
     },
-    "summary": "GIAC's cloud penetration testing certification covering AWS, Azure, and GCP offensive techniques. DoD 8140 approved and listed on Army and Marine Corps COOL. CyberLive component adds practical elements but remains predominantly MCQ. Associated with SANS SEC588. DoD 8140 approval for cloud pentesting is GCPN's primary value \u2014 for government cloud security assessment roles requiring DoD-approved credentialing this is the primary option. Commercial practitioners targeting cloud red team will find HackTricks ARTE/AzRTE/GRTE or CARTP/CARTE more practically rigorous.",
+    "summary": "GIAC's cloud penetration testing certification covering AWS, Azure, and GCP offensive techniques. DoD 8140 approved and listed on Army and Marine Corps COOL. CyberLive component adds practical elements but remains predominantly MCQ. Associated with SANS SEC588. DoD 8140 approval for cloud pentesting is GCPN's primary value — for government cloud security assessment roles requiring DoD-approved credentialing this is the primary option. Commercial practitioners targeting cloud red team will find HackTricks ARTE/AzRTE/GRTE or CARTP/CARTE more practically rigorous.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-penetration-tester-gcpn/",
     "active": true,
@@ -2829,7 +2829,7 @@
         "crtp"
       ]
     },
-    "summary": "Altered Security's Azure and Entra ID red team certification covering Azure resource abuse, Entra ID identity attacks, and hybrid identity exploitation. 100% practical, 30-day lab access, 3-year validity with free renewal. At $449 it's significantly more accessible than AzRTE while covering overlapping material. Altered Security's reputation in AD and identity security is excellent \u2014 CARTP extends their franchise into Azure cloud attacks. Most relevant for practitioners whose red team scope includes Azure and hybrid environments.",
+    "summary": "Altered Security's Azure and Entra ID red team certification covering Azure resource abuse, Entra ID identity attacks, and hybrid identity exploitation. 100% practical, 30-day lab access, 3-year validity with free renewal. At $449 it's significantly more accessible than AzRTE while covering overlapping material. Altered Security's reputation in AD and identity security is excellent — CARTP extends their franchise into Azure cloud attacks. Most relevant for practitioners whose red team scope includes Azure and hybrid environments.",
     "flags": [
       "low_cost"
     ],
@@ -2933,7 +2933,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Altered Security's entry-level Active Directory red team certification \u2014 one of the most globally popular beginner AD red team credentials. 24-hour hands-on AD environment plus report. Labs run on Server 2022. At $249 for 30-day lab access (60-day $379, 90-day $499) with free renewal it's exceptional value. Consistently recommended as the best starting point for learning Active Directory offensive techniques before CRTE or CRTO. Altered Security's lineage from Pentester Academy ensures quality AD content \u2014 the CRTP \u2192 CRTE \u2192 CRTM pathway is the most structured AD red team certification progression available.",
+    "summary": "Altered Security's entry-level Active Directory red team certification — one of the most globally popular beginner AD red team credentials. 24-hour hands-on AD environment plus report. Labs run on Server 2022. At $249 for 30-day lab access (60-day $379, 90-day $499) with free renewal it's exceptional value. Consistently recommended as the best starting point for learning Active Directory offensive techniques before CRTE or CRTO. Altered Security's lineage from Pentester Academy ensures quality AD content — the CRTP → CRTE → CRTM pathway is the most structured AD red team certification progression available.",
     "flags": [
       "low_cost"
     ],
@@ -2986,7 +2986,7 @@
         "crtp"
       ]
     },
-    "summary": "Altered Security's intermediate AD red team certification covering multi-forest Active Directory attacks, complex trust relationships, and advanced lateral movement. 48-hour hands-on exam plus 48 hours to write the report. The step up from CRTP in complexity and scope \u2014 covers the multi-forest enterprise environments that modern red teams actually operate in. At ~$449 for 30-day lab access it continues the value proposition of the Altered Security pathway.",
+    "summary": "Altered Security's intermediate AD red team certification covering multi-forest Active Directory attacks, complex trust relationships, and advanced lateral movement. 48-hour hands-on exam plus 48 hours to write the report. The step up from CRTP in complexity and scope — covers the multi-forest enterprise environments that modern red teams actually operate in. At ~$449 for 30-day lab access it continues the value proposition of the Altered Security pathway.",
     "flags": [
       "low_cost"
     ],
@@ -3041,7 +3041,7 @@
         "crte"
       ]
     },
-    "summary": "Altered Security's elite-level Active Directory mastery certification \u2014 formerly known as PACES (Pentester Academy Certified Enterprise Security Specialist), renamed CRTM. 48-hour hands-on exam covering offense, defense awareness, and report writing in highly complex multi-forest environments. The capstone of the Altered Security AD red team pathway. At ~$549 it's remarkably affordable for an elite-level practical credential. Highly regarded in the AD security community as genuine evidence of advanced enterprise Active Directory exploitation capability.",
+    "summary": "Altered Security's elite-level Active Directory mastery certification — formerly known as PACES (Pentester Academy Certified Enterprise Security Specialist), renamed CRTM. 48-hour hands-on exam covering offense, defense awareness, and report writing in highly complex multi-forest environments. The capstone of the Altered Security AD red team pathway. At ~$549 it's remarkably affordable for an elite-level practical credential. Highly regarded in the AD security community as genuine evidence of advanced enterprise Active Directory exploitation capability.",
     "flags": [],
     "official_url": "https://www.alteredsecurity.com/gcb",
     "active": true,
@@ -3140,7 +3140,7 @@
         "crtp"
       ]
     },
-    "summary": "Altered Security's specialized AD Certificate Services (ADCS) attack certification \u2014 covering ESC1-ESC8 attack paths, certificate template abuse, and PKI-based privilege escalation. 100% practical, 3-year validity with free renewal. ADCS attacks have become a critical part of enterprise AD red teaming following the release of the Certify tool and related research. This niche but practically important certification covers territory that broader AD certs touch on but don't deeply explore.",
+    "summary": "Altered Security's specialized AD Certificate Services (ADCS) attack certification — covering ESC1-ESC8 attack paths, certificate template abuse, and PKI-based privilege escalation. 100% practical, 3-year validity with free renewal. ADCS attacks have become a critical part of enterprise AD red teaming following the release of the Certify tool and related research. This niche but practically important certification covers territory that broader AD certs touch on but don't deeply explore.",
     "flags": [
       "low_cost"
     ],
@@ -3154,7 +3154,7 @@
       "community_respect": 7,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -3196,7 +3196,7 @@
         "oscp"
       ]
     },
-    "summary": "OffSec's AI red teaming certification \u2014 released March 31, 2026, making it the newest OffSec credential. Covers LLM prompt injection, jailbreaking, agentic AI attacks, and AI system exploitation methodology. 24-hour proctored AI red team engagement plus report. The OSAI+ variant adds a 3-year expiry matching the OSCP+ model. OffSec's brand and 100% practical format bring immediate credibility to the AI security certification space, which has been dominated by theory-heavy alternatives. As AI systems become regular pentest targets, OSAI positions OffSec for a growing market segment.",
+    "summary": "OffSec's AI red teaming certification — released March 31, 2026, making it the newest OffSec credential. Covers LLM prompt injection, jailbreaking, agentic AI attacks, and AI system exploitation methodology. 24-hour proctored AI red team engagement plus report. The OSAI+ variant adds a 3-year expiry matching the OSCP+ model. OffSec's brand and 100% practical format bring immediate credibility to the AI security certification space, which has been dominated by theory-heavy alternatives. As AI systems become regular pentest targets, OSAI positions OffSec for a growing market segment.",
     "flags": [
       "new"
     ],
@@ -3287,7 +3287,7 @@
     "renewal": "4 years (36 CPEs + $499)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "DoD 8140 status pending \u2014 new cert",
+    "geographic_note": "DoD 8140 status pending — new cert",
     "skills": [
       "ai_attack_techniques",
       "llm_jailbreaking",
@@ -3339,7 +3339,7 @@
     "renewal": "TBD",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Pricing and full renewal terms not yet published \u2014 launched February 2026",
+    "geographic_note": "Pricing and full renewal terms not yet published — launched February 2026",
     "skills": [
       "llm_attack_methodology",
       "prompt_injection",
@@ -3371,7 +3371,7 @@
       "community_respect": 3,
       "salary_impact": 4,
       "time_to_prepare": 5,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3458,7 +3458,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's OSINT research professional certification \u2014 one of the only practical OSINT certifications available. 3-day assessment with a professional report reviewed by human graders. Never expires. At $399 with training included it's well-priced for a specialized credential. OSINT is rarely treated as a standalone certification domain \u2014 PORP fills a genuine gap for practitioners who specialize in open-source intelligence gathering, whether for offensive reconnaissance, threat intelligence, or investigative work.",
+    "summary": "TCM Security's OSINT research professional certification — one of the only practical OSINT certifications available. 3-day assessment with a professional report reviewed by human graders. Never expires. At $399 with training included it's well-priced for a specialized credential. OSINT is rarely treated as a standalone certification domain — PORP fills a genuine gap for practitioners who specialize in open-source intelligence gathering, whether for offensive reconnaissance, threat intelligence, or investigative work.",
     "flags": [],
     "official_url": "https://certifications.tcm-sec.com/porp/",
     "active": true,
@@ -3553,7 +3553,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "OffSec's Kali Linux certification \u2014 the only OffSec certification without a hands-on exam component, using multiple-choice format only. Validates proficiency with Kali Linux as a penetration testing platform rather than offensive security skills. Included with Learn One subscription. Limited standalone career value \u2014 the OffSec brand is strong but employers care about what you can do with the tools, not which tools you can configure. Most useful as a foundational supplement for practitioners building their OffSec portfolio before tackling OSCP.",
+    "summary": "OffSec's Kali Linux certification — the only OffSec certification without a hands-on exam component, using multiple-choice format only. Validates proficiency with Kali Linux as a penetration testing platform rather than offensive security skills. Included with Learn One subscription. Limited standalone career value — the OffSec brand is strong but employers care about what you can do with the tools, not which tools you can configure. Most useful as a foundational supplement for practitioners building their OffSec portfolio before tackling OSCP.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-103/",
     "active": true,
@@ -3603,7 +3603,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TryHackMe's practical pentesting certification, launched mid-2025. The PT1 is a 48-hour hands-on exam covering web application testing, network pentesting, and Active Directory attacks, with AI-graded report submission. Lifetime validity, Credly-verified, $297 price point \u2014 significantly cheaper than PNPT ($499) or OSCP ($1,699). The AI-graded reporting and unproctored format are honest limitations versus OSCP or PNPT, but the practical coverage and accessibility make it a reasonable stepping stone for entry-level practitioners before pursuing more rigorous credentials. Positioned between TCM Security PJPT and PNPT in the practical pentest cert ladder.",
+    "summary": "TryHackMe's practical pentesting certification, launched mid-2025. The PT1 is a 48-hour hands-on exam covering web application testing, network pentesting, and Active Directory attacks, with AI-graded report submission. Lifetime validity, Credly-verified, $297 price point — significantly cheaper than PNPT ($499) or OSCP ($1,699). The AI-graded reporting and unproctored format are honest limitations versus OSCP or PNPT, but the practical coverage and accessibility make it a reasonable stepping stone for entry-level practitioners before pursuing more rigorous credentials. Positioned between TCM Security PJPT and PNPT in the practical pentest cert ladder.",
     "flags": [
       "new",
       "hands_on",
@@ -3619,7 +3619,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3639,7 +3639,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "network_penetration_testing",
       "active_directory_attacks",
@@ -3652,7 +3652,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). Internal/external network pentesting. Listed in Synack Red Team's preferred pathway. Covers recon, exploitation, AD basics, and post-exploitation. Practical lab. A solid budget alternative before pursuing OSCP or PNPT.",
+    "summary": "Professional-tier (~4-hr practical, £250). Internal/external network pentesting. Listed in Synack Red Team's preferred pathway. Covers recon, exploitation, AD basics, and post-exploitation. Practical lab. A solid budget alternative before pursuing OSCP or PNPT.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3664,7 +3664,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3684,7 +3684,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "penetration_testing",
       "web_application_testing",
@@ -3695,7 +3695,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). Combined web + network pentesting credential. Black Hat co-branded as BCPen (Black Hat Certified Pentester) when offered at SecTor. Broader scope than CAPen or CNPen individually.",
+    "summary": "Professional-tier (~4-hr practical, £250). Combined web + network pentesting credential. Black Hat co-branded as BCPen (Black Hat Certified Pentester) when offered at SecTor. Broader scope than CAPen or CNPen individually.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3707,7 +3707,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3727,7 +3727,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "android_security",
       "apk_analysis",
@@ -3739,7 +3739,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). Android mobile pentesting \u2014 APK decompilation, Frida dynamic instrumentation, SSL pinning bypass, intent exploitation. Practical lab. One of few affordable mobile pentesting certs alongside eMAPT.",
+    "summary": "Professional-tier (~4-hr practical, £250). Android mobile pentesting — APK decompilation, Frida dynamic instrumentation, SSL pinning bypass, intent exploitation. Practical lab. One of few affordable mobile pentesting certs alongside eMAPT.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3751,7 +3751,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3771,7 +3771,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "ios_security",
       "ios_reverse_engineering",
@@ -3783,7 +3783,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). iOS mobile pentesting \u2014 jailbreak detection bypass, Frida on iOS, IPA analysis, Keychain extraction, method swizzling. Practical lab. Pairs with CMPen-Android for full mobile coverage.",
+    "summary": "Professional-tier (~4-hr practical, £250). iOS mobile pentesting — jailbreak detection bypass, Frida on iOS, IPA analysis, Keychain extraction, method swizzling. Practical lab. Pairs with CMPen-Android for full mobile coverage.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3795,7 +3795,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3815,7 +3815,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "red_team_operations",
       "active_directory_attacks",
@@ -3827,7 +3827,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~5-hr practical AD CTF, \u00a3250). Full AD red team CTF \u2014 C2 setup, Kerberoasting, DCSync, lateral movement, evasion basics. Practical lab using a VPN-connected AD environment. Step toward CRTeamerX.",
+    "summary": "Professional-tier (~5-hr practical AD CTF, £250). Full AD red team CTF — C2 setup, Kerberoasting, DCSync, lateral movement, evasion basics. Practical lab using a VPN-connected AD environment. Step toward CRTeamerX.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3839,7 +3839,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3859,7 +3859,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "red_team_operations",
       "byovd",
@@ -3872,7 +3872,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Advanced red team \u2014 BYOVD, LSASS dump evasion, complex Kerberos delegation chains, cross-forest attacks, AV/EDR bypass. SecOps Group's hardest red team credential.",
+    "summary": "eXpert-tier (~7-hr practical, £400). Advanced red team — BYOVD, LSASS dump evasion, complex Kerberos delegation chains, cross-forest attacks, AV/EDR bypass. SecOps Group's hardest red team credential.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3884,7 +3884,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3904,7 +3904,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "active_directory_attacks",
       "kerberoasting",
@@ -3918,7 +3918,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Multi-forest AD + Entra hybrid \u2014 Kerberoasting, BloodHound path analysis, GPO abuse, ADCS ESC chains, Entra ID integration attacks. Comprehensive AD/hybrid credential at an accessible price point.",
+    "summary": "eXpert-tier (~7-hr practical, £400). Multi-forest AD + Entra hybrid — Kerberoasting, BloodHound path analysis, GPO abuse, ADCS ESC chains, Entra ID integration attacks. Comprehensive AD/hybrid credential at an accessible price point.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3930,7 +3930,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3950,7 +3950,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "binary_fuzzing",
       "reverse_engineering",
@@ -3964,7 +3964,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250, mid-2025). Binary fuzzing and reverse engineering \u2014 AFL++, IDA Pro/Ghidra workflow, memory-corruption identification, crash analysis. Fills a gap in affordable RE certifications alongside GREM.",
+    "summary": "Professional-tier (~4-hr practical, £250, mid-2025). Binary fuzzing and reverse engineering — AFL++, IDA Pro/Ghidra workflow, memory-corruption identification, crash analysis. Fills a gap in affordable RE certifications alongside GREM.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -3976,7 +3976,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -3996,7 +3996,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "kiosk_security",
       "windows_restricted_environment",
@@ -4007,7 +4007,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250, Oct 2025). Windows Assigned Access and kiosk escape testing \u2014 bypassing locked-down environments, escalating from kiosk context to full desktop. Niche but relevant for physical security assessors and corporate environment testers.",
+    "summary": "Professional-tier (~4-hr practical, £250, Oct 2025). Windows Assigned Access and kiosk escape testing — bypassing locked-down environments, escalating from kiosk context to full desktop. Niche but relevant for physical security assessors and corporate environment testers.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -4019,7 +4019,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -4040,7 +4040,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "ai_security",
       "llm_security",
@@ -4053,7 +4053,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). LLM and ML model security testing \u2014 prompt injection, OWASP LLM Top 10, model extraction, adversarial inputs. Practical hands-on exam format distinguishes it from purely theoretical AI security certs.",
+    "summary": "Professional-tier (~4-hr practical, £250). LLM and ML model security testing — prompt injection, OWASP LLM Top 10, model extraction, adversarial inputs. Practical hands-on exam format distinguishes it from purely theoretical AI security certs.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -4065,7 +4065,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -4086,7 +4086,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "ai_security",
       "agentic_ai_security",
@@ -4099,7 +4099,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (\u00a3250, 2025). Agentic AI security testing \u2014 OWASP Agentic AI Top 10, tool misuse in multi-agent systems, goal hijacking, autonomous AI exploitation. One of the first certifications specifically targeting agentic AI attack surface. Pairs with C-AI/MLPen.",
+    "summary": "Professional-tier (£250, 2025). Agentic AI security testing — OWASP Agentic AI Top 10, tool misuse in multi-agent systems, goal hijacking, autonomous AI exploitation. One of the first certifications specifically targeting agentic AI attack surface. Pairs with C-AI/MLPen.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -4111,7 +4111,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -4131,7 +4131,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "aws_security",
       "cloud_penetration_testing",
@@ -4144,7 +4144,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical, \u00a3400). AWS cloud pentesting \u2014 Lambda function abuse, IAM privilege escalation, cross-account role chaining, S3 bucket exploitation. Practical AWS lab environment. Budget alternative to ARTE for cloud red team coverage.",
+    "summary": "eXpert-tier (~7-hr practical, £400). AWS cloud pentesting — Lambda function abuse, IAM privilege escalation, cross-account role chaining, S3 bucket exploitation. Practical AWS lab environment. Budget alternative to ARTE for cloud red team coverage.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -4156,7 +4156,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -4176,7 +4176,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "azure_security",
       "cloud_penetration_testing",
@@ -4188,7 +4188,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical, \u00a3400). Azure cloud pentesting \u2014 Entra ID token abuse, storage exploitation, App Registration abuse, Azure AD Connect attacks. Live Azure lab environment.",
+    "summary": "eXpert-tier (~7-hr practical, £400). Azure cloud pentesting — Entra ID token abuse, storage exploitation, App Registration abuse, Azure AD Connect attacks. Live Azure lab environment.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -4200,7 +4200,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -4232,7 +4232,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Flag-based practical exam, 6-hour window ($99). Entry-level AD red team \u2014 recon, enumeration, Kerberos attacks, lateral movement, privilege escalation. CWL's entry-point for red team certification. Heavy discounts routine.",
+    "summary": "Flag-based practical exam, 6-hour window ($99). Entry-level AD red team — recon, enumeration, Kerberos attacks, lateral movement, privilege escalation. CWL's entry-point for red team certification. Heavy discounts routine.",
     "flags": [
       "low_cost"
     ],
@@ -4325,7 +4325,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Flag-based CTF, 6-hr ($49). Red team infrastructure development \u2014 C2 server setup, redirectors, domain fronting, phishing infrastructure, OPSEC for operators. Affordable and unique focus area.",
+    "summary": "Flag-based CTF, 6-hr ($49). Red team infrastructure development — C2 server setup, redirectors, domain fronting, phishing infrastructure, OPSEC for operators. Affordable and unique focus area.",
     "flags": [
       "low_cost"
     ],
@@ -4371,7 +4371,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Flag-based lab, 30-day access window ($49). Deep AD exploitation \u2014 BloodHound graph analysis, Kerberoasting, AS-REP roasting, Pass-the-Hash/Ticket, DCSync, ACL abuse. Long window suits methodical learners.",
+    "summary": "Flag-based lab, 30-day access window ($49). Deep AD exploitation — BloodHound graph analysis, Kerberoasting, AS-REP roasting, Pass-the-Hash/Ticket, DCSync, ACL abuse. Long window suits methodical learners.",
     "flags": [
       "low_cost"
     ],
@@ -4417,7 +4417,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical + report, 24+24 hr, 85% pass ($149). Lateral movement specialization \u2014 credential harvesting, network pivoting, tunneling, living-off-the-land techniques across enterprise networks. Niche focus uncommon in other cert catalogs.",
+    "summary": "Practical + report, 24+24 hr, 85% pass ($149). Lateral movement specialization — credential harvesting, network pivoting, tunneling, living-off-the-land techniques across enterprise networks. Niche focus uncommon in other cert catalogs.",
     "flags": [
       "low_cost"
     ],
@@ -4463,7 +4463,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "24-hr practical + report ($299). Enterprise security control bypass \u2014 EDR/AV evasion, AMSI bypass, ETW patching, security tooling blind-spots. Practical lab against hardened environments. Strong complement to CRTS.",
+    "summary": "24-hr practical + report ($299). Enterprise security control bypass — EDR/AV evasion, AMSI bypass, ETW patching, security tooling blind-spots. Practical lab against hardened environments. Strong complement to CRTS.",
     "flags": [
       "low_cost"
     ],
@@ -4509,7 +4509,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical + report, 12+12 hr, 75% pass ($299). Windows internals for red teamers \u2014 process injection techniques, token manipulation, handle inheritance abuse, EDR blind spots via Windows internals knowledge. Bridges tool-use and development.",
+    "summary": "Practical + report, 12+12 hr, 75% pass ($299). Windows internals for red teamers — process injection techniques, token manipulation, handle inheritance abuse, EDR blind spots via Windows internals knowledge. Bridges tool-use and development.",
     "flags": [
       "low_cost"
     ],
@@ -4555,7 +4555,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Timed practical, instructor-evaluated ($599). CWL's top-tier red team credential. Advanced stealth operations \u2014 OPSEC-conscious adversary simulation, advanced evasion, complex AD exploitation. Instructor-reviewed report.",
+    "summary": "Timed practical, instructor-evaluated ($599). CWL's top-tier red team credential. Advanced stealth operations — OPSEC-conscious adversary simulation, advanced evasion, complex AD exploitation. Instructor-reviewed report.",
     "flags": [
       "low_cost"
     ],
@@ -4601,7 +4601,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical + report, 24+24 hr, 85% pass ($199). Exploit development \u2014 stack/heap overflows, ROP chains, shellcode development, DEP/ASLR bypass techniques. Affordable entry into binary exploitation credentialing.",
+    "summary": "Practical + report, 24+24 hr, 85% pass ($199). Exploit development — stack/heap overflows, ROP chains, shellcode development, DEP/ASLR bypass techniques. Affordable entry into binary exploitation credentialing.",
     "flags": [
       "low_cost"
     ],
@@ -4647,7 +4647,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "MCQ, 100% pass, unlimited attempts ($59). Credential operations and access \u2014 password attacks, NTLM hash dumping, credential spraying, pass-the-hash. Lower bar entry-level credential. MCQ format.",
+    "summary": "MCQ, 100% pass, unlimited attempts ($59). Credential operations and access — password attacks, NTLM hash dumping, credential spraying, pass-the-hash. Lower bar entry-level credential. MCQ format.",
     "flags": [
       "low_cost"
     ],
@@ -4694,7 +4694,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical, instructor-evaluated ($199). Purple team operations \u2014 structured attack-detect-respond cycles, ATT&CK mapping, detection rule validation, offensive and defensive perspective integration. v2 refreshed with modern enterprise scenarios.",
+    "summary": "Practical, instructor-evaluated ($199). Purple team operations — structured attack-detect-respond cycles, ATT&CK mapping, detection rule validation, offensive and defensive perspective integration. v2 refreshed with modern enterprise scenarios.",
     "flags": [
       "low_cost"
     ],
@@ -4740,7 +4740,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Completion-based ($99). Offensive phishing operations \u2014 GoPhish/Evilginx setup, email spoofing, phishing page creation, credential harvesting infrastructure, anti-detection techniques.",
+    "summary": "Completion-based ($99). Offensive phishing operations — GoPhish/Evilginx setup, email spoofing, phishing page creation, credential harvesting infrastructure, anti-detection techniques.",
     "flags": [
       "low_cost"
     ],
@@ -4785,7 +4785,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "MCQ, 100% pass, unlimited attempts ($49). Process injection techniques \u2014 DLL injection, reflective injection, process hollowing, APC injection. MCQ format covering theory and use-case identification.",
+    "summary": "MCQ, 100% pass, unlimited attempts ($49). Process injection techniques — DLL injection, reflective injection, process hollowing, APC injection. MCQ format covering theory and use-case identification.",
     "flags": [
       "low_cost"
     ],
@@ -4831,7 +4831,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical + report, 24+24 hr ($199). Broad cyber security engineering \u2014 system hardening, network security design, security controls implementation, incident response. Defensive counterpart to the CWL red team stack.",
+    "summary": "Practical + report, 24+24 hr ($199). Broad cyber security engineering — system hardening, network security design, security controls implementation, incident response. Defensive counterpart to the CWL red team stack.",
     "flags": [
       "low_cost"
     ],
@@ -4865,7 +4865,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "penetration_testing",
       "reconnaissance",
@@ -4878,7 +4878,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's entry-level certification. 48-hr practical + 48-hr professional report. Full pentest lifecycle \u2014 recon, enumeration, exploitation, post-exploitation, pivoting, and commercial-grade report writing. All practical, no MCQ. ~$400-500 on-demand with 1 voucher; $50-100 exam-only retake. Good transition credential for practitioners moving from home labs to professional reporting standard.",
+    "summary": "WKL's entry-level certification. 48-hr practical + 48-hr professional report. Full pentest lifecycle — recon, enumeration, exploitation, post-exploitation, pivoting, and commercial-grade report writing. All practical, no MCQ. ~$400-500 on-demand with 1 voucher; $50-100 exam-only retake. Good transition credential for practitioners moving from home labs to professional reporting standard.",
     "flags": [
       "hands_on"
     ],
@@ -4912,7 +4912,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "active_directory_attacks",
       "kerberos_attacks",
@@ -4926,7 +4926,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's AD specialist certification. 48-hr practical + 48-hr report in a private AWS-hosted AD lab. Modern AD exploitation \u2014 Kerberos delegation abuse, ADCS ESC chains, AD Federation Services attacks, SCCM exploitation, cross-forest trust abuse. Goes beyond standard CRTP/CRTE content into newer attack paths. Live at conferences (DEF CON/NorthSec) at $2,200-2,500.",
+    "summary": "WKL's AD specialist certification. 48-hr practical + 48-hr report in a private AWS-hosted AD lab. Modern AD exploitation — Kerberos delegation abuse, ADCS ESC chains, AD Federation Services attacks, SCCM exploitation, cross-forest trust abuse. Goes beyond standard CRTP/CRTE content into newer attack paths. Live at conferences (DEF CON/NorthSec) at $2,200-2,500.",
     "flags": [
       "hands_on"
     ],
@@ -4960,7 +4960,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "red_team_operations",
       "c2_infrastructure",
@@ -4974,7 +4974,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's flagship red team certification. 48-hr practical + 48-hr report, Cobalt Strike + Havoc in stigs-corp.local lab. Multi-cloud C2 infrastructure (redirectors on AWS/Azure/GCP CDNs), advanced AD + ADCS exploitation, and AV/EDR evasion. DEF CON 2025 featured. ~$2,000 on-demand, $2,200 live. The most operator-realistic WKL credential \u2014 C2 infra setup is baked into the exam scope rather than assumed.",
+    "summary": "WKL's flagship red team certification. 48-hr practical + 48-hr report, Cobalt Strike + Havoc in stigs-corp.local lab. Multi-cloud C2 infrastructure (redirectors on AWS/Azure/GCP CDNs), advanced AD + ADCS exploitation, and AV/EDR evasion. DEF CON 2025 featured. ~$2,000 on-demand, $2,200 live. The most operator-realistic WKL credential — C2 infra setup is baked into the exam scope rather than assumed.",
     "flags": [
       "hands_on"
     ],
@@ -5009,7 +5009,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "offensive_tool_development",
       "malware_development",
@@ -5023,7 +5023,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's malware and offensive development certification. $500 on-demand (most affordable WKL cert), $2,200 live (DEF CON 2025). Offensive tool/implant development in C and Go \u2014 AMSI bypass, ETW patching, process injection variants, AV/EDR bypass techniques, and kernel-mode evasion concepts. Performance-based practical + report. Bridges gap between tool-user and tool-builder credentials. Pairs naturally with ARTOC.",
+    "summary": "WKL's malware and offensive development certification. $500 on-demand (most affordable WKL cert), $2,200 live (DEF CON 2025). Offensive tool/implant development in C and Go — AMSI bypass, ETW patching, process injection variants, AV/EDR bypass techniques, and kernel-mode evasion concepts. Performance-based practical + report. Bridges gap between tool-user and tool-builder credentials. Pairs naturally with ARTOC.",
     "flags": [
       "hands_on"
     ],
@@ -5038,6 +5038,385 @@
       "salary_impact": 6,
       "time_to_prepare": 7,
       "overall": 6.2
+    }
+  },
+  {
+    "id": "8ksec-omse",
+    "acronym": "OMSE",
+    "full_name": "8kSec Offensive Mobile Security Expert",
+    "issuing_body": "8kSec",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing",
+      "exploit_development"
+    ],
+    "level": "elite",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive Mobile Reversing and Exploitation course (one free attempt). Retake $119. Corellium ARM virtualization lab. Covers iOS and Android userland + kernel internals. No public standalone course price.",
+    "skills": [
+      "ios_kernel_exploitation",
+      "android_kernel_exploitation",
+      "mobile_reverse_engineering",
+      "arm_exploitation",
+      "mobile_vulnerability_research",
+      "exploit_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Strong mobile security background",
+        "ARM assembly",
+        "iOS/Android internals"
+      ],
+      "recommended_certs": [
+        "8ksec-cisr",
+        "8ksec-casr"
+      ]
+    },
+    "summary": "8kSec's elite-tier mobile security credential covering iOS and Android userland and kernel-level offensive operations. Hands-on practical exam in a Corellium ARM virtualization environment with written report graded by the 8kSec review panel within 3 business days. Bundled with the Offensive Mobile Reversing and Exploitation course; retake $119. The most technically demanding cert in the 8kSec catalog — kernel-level exploitation on real mobile architectures. No independent proctoring but the practical lab format is genuine. Not DoD 8140 approved.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 9,
+      "practical_depth": 10,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 9,
+      "overall": 7.5
+    }
+  },
+  {
+    "id": "8ksec-cmse",
+    "acronym": "CMSE",
+    "full_name": "8kSec Certified Mobile Security Engineer",
+    "issuing_body": "8kSec",
+    "domain": [
+      "offensive",
+      "appsec"
+    ],
+    "subdomain": [
+      "mobile_application_testing"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Practical Mobile Application Exploitation course (one free attempt). Retake $119. 48-hour practical exam with 5 levels of difficulty. Corellium lab. Credly-verified badge.",
+    "skills": [
+      "ios_application_security",
+      "android_application_security",
+      "mobile_application_testing",
+      "dynamic_analysis",
+      "mobile_reverse_engineering",
+      "mobile_vulnerability_exploitation",
+      "security_hardening_mobile"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Mobile app development basics",
+        "Web application security concepts",
+        "Frida/Objection familiarity"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's mobile application security engineering credential. 48-hour practical exam with 5 levels of varying difficulty in a Corellium iOS and Android lab, with written report graded by 8kSec experts within 3 business days. Bundled with the Practical Mobile Application Exploitation course; retake $119. Covers comprehensive iOS and Android app security audits, dynamic analysis, reverse engineering, exploitation, and DevSecOps hardening. The 48-hour format is comparable in rigor to OffSec-style exams. Credly-verified badge. Not independently proctored but one of the most demanding mobile app security credentials available.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/cmse/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 4,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 7,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "8ksec-oaae",
+    "acronym": "OAAE",
+    "full_name": "8kSec Offensive ARM Exploitation Expert",
+    "issuing_body": "8kSec",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "exploit_development",
+      "reverse_engineering"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive ARM64 Reversing and Exploitation course (one free attempt). Retake $119. Corellium ARM virtualization lab.",
+    "skills": [
+      "arm64_exploitation",
+      "aarch64_vulnerability_research",
+      "binary_exploitation",
+      "reverse_engineering",
+      "exploit_development",
+      "arm_assembly"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "x86/x64 exploitation concepts",
+        "ARM/AARCH64 assembly",
+        "Binary exploitation fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's ARM64 exploitation credential covering vulnerability discovery and exploit development on AARCH64 architectures in a Corellium virtualized environment. Hands-on practical exam with written report. Bundled with the Offensive ARM64 Reversing and Exploitation course; retake $119. Fills a genuine gap — ARM exploitation credentials are rare outside GIAC's GXPN. Relevant for practitioners working on mobile, IoT, and embedded system security research.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 9,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 8,
+      "overall": 6.5
+    }
+  },
+  {
+    "id": "8ksec-cise",
+    "acronym": "CISE",
+    "full_name": "8kSec Certified iOS Security Engineer",
+    "issuing_body": "8kSec",
+    "domain": [
+      "appsec",
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec iOS-focused application security course (one free attempt). Retake $119. Corellium lab.",
+    "skills": [
+      "ios_application_security",
+      "ios_reverse_engineering",
+      "ios_vulnerability_assessment",
+      "keychain_analysis",
+      "ssl_pinning_bypass",
+      "jailbreak_techniques"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iOS platform basics",
+        "Objective-C or Swift awareness",
+        "Mobile security fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's iOS-specific application security engineering credential. Hands-on practical exam in a Corellium iOS lab with written report graded by 8kSec panel within 3 business days. Bundled with the iOS security course; retake $119. Covers iOS app security testing including static/dynamic analysis, Keychain extraction, SSL pinning bypass, and jailbreak detection evasion.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6
+    }
+  },
+  {
+    "id": "8ksec-case",
+    "acronym": "CASE",
+    "full_name": "8kSec Certified Android Security Engineer",
+    "issuing_body": "8kSec",
+    "domain": [
+      "appsec",
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Android application security course (one free attempt). Retake $119. Corellium lab.",
+    "skills": [
+      "android_application_security",
+      "android_reverse_engineering",
+      "apk_analysis",
+      "frida_instrumentation",
+      "android_vulnerability_assessment",
+      "ssl_pinning_bypass"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Android platform basics",
+        "Java or Kotlin awareness",
+        "Mobile security fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's Android-specific application security engineering credential. Hands-on practical exam in a Corellium Android lab with written report. Bundled with the Android security course; retake $119. Covers Android platform internals, APK analysis, Frida dynamic instrumentation, SSL pinning bypass, and Android-specific vulnerability exploitation.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6
+    }
+  },
+  {
+    "id": "8ksec-cisr",
+    "acronym": "CISR",
+    "full_name": "8kSec Certified iOS Security Researcher",
+    "issuing_body": "8kSec",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing",
+      "vulnerability_research"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive iOS Internals course (one free attempt). Retake $119. Corellium lab.",
+    "skills": [
+      "ios_security_research",
+      "ios_internals",
+      "ios_vulnerability_research",
+      "ios_reverse_engineering",
+      "jailbreak_development_concepts",
+      "ios_exploit_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Strong iOS security background",
+        "Objective-C/Swift",
+        "ARM assembly basics"
+      ],
+      "recommended_certs": [
+        "8ksec-cise"
+      ]
+    },
+    "summary": "8kSec's iOS security research credential — deeper than CISE, covering iOS internals for security researchers rather than app testers. Hands-on practical exam in Corellium with written report. Bundled with Offensive iOS Internals course; retake $119. Targets practitioners moving into iOS vulnerability research and security tooling development.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 8,
+      "overall": 6.3
+    }
+  },
+  {
+    "id": "8ksec-casr",
+    "acronym": "CASR",
+    "full_name": "8kSec Certified Android Security Researcher",
+    "issuing_body": "8kSec",
+    "domain": [
+      "offensive"
+    ],
+    "subdomain": [
+      "mobile_application_testing",
+      "vulnerability_research"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive Android Internals course (one free attempt). Retake $119. Corellium lab.",
+    "skills": [
+      "android_security_research",
+      "android_internals",
+      "android_vulnerability_research",
+      "android_reverse_engineering",
+      "binder_ipc_security",
+      "android_exploit_development"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Strong Android security background",
+        "Java/Kotlin/Smali",
+        "ARM assembly basics"
+      ],
+      "recommended_certs": [
+        "8ksec-case"
+      ]
+    },
+    "summary": "8kSec's Android security research credential — deeper than CASE, covering Android internals for security researchers. Hands-on practical exam in Corellium with written report. Bundled with Offensive Android Internals course; retake $119. Targets practitioners moving into Android vulnerability research including Binder IPC, SELinux policy analysis, and Android-specific exploit development.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 8,
+      "overall": 6.3
     }
   }
 ]

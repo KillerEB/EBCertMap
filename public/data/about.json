@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-04-28",
+      "title": "New boutique certs added — OMSE, CMSE and more",
+      "body": "Found and added a bunch of lesser-known but genuinely valuable certs that don't get enough attention — including 8kSec's mobile security stack (OMSE, CMSE, OAAE, CISE, CASE, CISR, CASR, CAMRE, CIMRE, CMMRE, CAISR), Mandiant's MCTIA, arcX FTIA/PTIA, and Learn Prompting's AIRTP+. These are hands-on, practical-format credentials that build real skill rather than just exam prep — worth a look if you're going deep on mobile security, AI red teaming, or threat intelligence."
+    },
+    {
       "date": "2026-04-27",
       "title": "Better platform support & Google indexing",
       "body": "Added improved support for different platforms (LinkedIn, Twitter/X, and other social previews now show proper images and descriptions) and fixed Google search indexing — so EBCertMap should now be easier to find when you search for cybersecurity certs. If you stumbled here through a search engine, welcome!"
@@ -27,6 +32,18 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-04-28",
+      "title": "Boutique Mobile, AI & CTI Certs — 15 New Entries",
+      "items": [
+        "Added 11 8kSec mobile/AI security certs: OMSE, CMSE, OAAE, CISE, CASE, CISR, CASR, CAMRE, CIMRE, CMMRE, CAISR — covering iOS/Android app security, ARM exploitation, mobile malware reverse engineering, and AI security research",
+        "Added Mandiant MCTIA — Mandiant Academy's standalone, Kryterion-proctored CTI analyst certification (NIST/NICE AN-ASA-001 aligned)",
+        "Added arcX FTIA (free Foundation) and arcX PTIA (Practitioner, CREST CPTIA prep) — CREST-accredited training credentials for the threat intelligence track",
+        "Added Learn Prompting AIRTP+ — practical AI red teaming professional cert (HackAPrompt-affiliated, 24+ hour take-home assessment)",
+        "Updated cert count to 425+ across all metadata, sitemap, and structured data",
+        "Verified zero duplicate IDs across all 15 cert domain files"
+      ]
+    },
     {
       "date": "2026-04-27",
       "title": "SEO & Search Indexing Improvements",

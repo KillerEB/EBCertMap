@@ -34,7 +34,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The entry-level GIAC forensics cert focused exclusively on Windows endpoint forensics. Covers the full Windows artifact landscape \u2014 registry, LNK files, shellbags, browser history, email artifacts, and prefetch. Well respected in enterprise DFIR teams and government environments, and DoD 8140 approved. The main criticism is the 25% practical weight still leans heavily on multiple choice, meaning strong memorization can pass it without deep hands-on experience. Best suited for analysts who need a recognized credential to validate Windows forensics skills for enterprise or government roles.",
+    "summary": "The entry-level GIAC forensics cert focused exclusively on Windows endpoint forensics. Covers the full Windows artifact landscape — registry, LNK files, shellbags, browser history, email artifacts, and prefetch. Well respected in enterprise DFIR teams and government environments, and DoD 8140 approved. The main criticism is the 25% practical weight still leans heavily on multiple choice, meaning strong memorization can pass it without deep hands-on experience. Best suited for analysts who need a recognized credential to validate Windows forensics skills for enterprise or government roles.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
     "active": true,
@@ -85,7 +85,7 @@
         "gcfe"
       ]
     },
-    "summary": "The 100% hands-on Applied Knowledge tier of GCFE \u2014 entirely CyberLive virtual environment with no multiple choice. Tests whether you can actually perform forensic analysis under time pressure, not just recall concepts. Part of GIAC's Applied Knowledge series launched 2024-2025, not yet on the DoD 8140 matrix as of early 2026. A meaningful and genuine upgrade from GCFE for practitioners who want to prove practical skill rather than theoretical knowledge, and increasingly what serious DFIR teams are looking for.",
+    "summary": "The 100% hands-on Applied Knowledge tier of GCFE — entirely CyberLive virtual environment with no multiple choice. Tests whether you can actually perform forensic analysis under time pressure, not just recall concepts. Part of GIAC's Applied Knowledge series launched 2024-2025, not yet on the DoD 8140 matrix as of early 2026. A meaningful and genuine upgrade from GCFE for practitioners who want to prove practical skill rather than theoretical knowledge, and increasingly what serious DFIR teams are looking for.",
     "flags": [
       "new"
     ],
@@ -99,7 +99,7 @@
       "community_respect": 7,
       "salary_impact": 6,
       "time_to_prepare": 6,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -142,7 +142,7 @@
         "gcfe"
       ]
     },
-    "summary": "The advanced GIAC forensics cert and the most respected DFIR credential in enterprise environments alongside GCFE. Covers advanced memory forensics, timeline super-analysis, threat hunting through forensic data, and anti-forensics detection. DoD 8140 approved and expected by most senior DFIR roles. The same MCQ-heavy criticism applies \u2014 25% practical weight means the Applied Knowledge GX-FA tier is the more rigorous option. If you can only get one GIAC forensics cert, GCFA carries more weight than GCFE for senior roles.",
+    "summary": "The advanced GIAC forensics cert and the most respected DFIR credential in enterprise environments alongside GCFE. Covers advanced memory forensics, timeline super-analysis, threat hunting through forensic data, and anti-forensics detection. DoD 8140 approved and expected by most senior DFIR roles. The same MCQ-heavy criticism applies — 25% practical weight means the Applied Knowledge GX-FA tier is the more rigorous option. If you can only get one GIAC forensics cert, GCFA carries more weight than GCFE for senior roles.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
     "active": true,
@@ -195,7 +195,7 @@
         "gcfa"
       ]
     },
-    "summary": "The 100% hands-on Applied Knowledge version of GCFA \u2014 the most rigorous DFIR certification available from GIAC. Entirely CyberLive-based, requiring you to actually perform complex forensic analysis in a virtual environment rather than answer questions about it. Not yet DoD 8140 listed but highly regarded by practitioners. For senior DFIR analysts and IR consultants who want to prove elite-level capability, this is currently the hardest forensics cert to earn from GIAC.",
+    "summary": "The 100% hands-on Applied Knowledge version of GCFA — the most rigorous DFIR certification available from GIAC. Entirely CyberLive-based, requiring you to actually perform complex forensic analysis in a virtual environment rather than answer questions about it. Not yet DoD 8140 listed but highly regarded by practitioners. For senior DFIR analysts and IR consultants who want to prove elite-level capability, this is currently the hardest forensics cert to earn from GIAC.",
     "flags": [
       "new"
     ],
@@ -209,7 +209,7 @@
       "community_respect": 8,
       "salary_impact": 7,
       "time_to_prepare": 7,
-      "overall": 8.0
+      "overall": 8
     }
   },
   {
@@ -247,7 +247,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Focused on rapid forensic triage and evidence acquisition in field environments \u2014 first responder forensics rather than lab analysis. Covers live system triage, mobile acquisition, and rapid data collection under operational constraints typical of field investigations. Primarily valued in law enforcement, military, and government sectors where speed of acquisition matters more than deep analysis. Less commonly seen in corporate DFIR job requirements, and if you're in a civilian enterprise environment this is a niche credential, but for government and LE roles it fills a genuine operational gap.",
+    "summary": "Focused on rapid forensic triage and evidence acquisition in field environments — first responder forensics rather than lab analysis. Covers live system triage, mobile acquisition, and rapid data collection under operational constraints typical of field investigations. Primarily valued in law enforcement, military, and government sectors where speed of acquisition matters more than deep analysis. Less commonly seen in corporate DFIR job requirements, and if you're in a civilian enterprise environment this is a niche credential, but for government and LE roles it fills a genuine operational gap.",
     "flags": [
       "law_enforcement_focused"
     ],
@@ -312,7 +312,7 @@
       "community_respect": 8,
       "salary_impact": 7,
       "time_to_prepare": 5,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -352,7 +352,7 @@
         "gcih"
       ]
     },
-    "summary": "The 100% hands-on Applied Knowledge tier of GCIH \u2014 entirely CyberLive virtual environment exam. Forces candidates to actually handle simulated incidents rather than answering questions about how they would. Launched as part of GIAC's 2024-2025 Applied Knowledge series and not yet on the DoD 8140 matrix. For IR practitioners who want to differentiate themselves from GCIH holders and prove genuine operational skill, this is the meaningful upgrade. Increasingly attractive to employers who are skeptical of MCQ-based IR certifications.",
+    "summary": "The 100% hands-on Applied Knowledge tier of GCIH — entirely CyberLive virtual environment exam. Forces candidates to actually handle simulated incidents rather than answering questions about how they would. Launched as part of GIAC's 2024-2025 Applied Knowledge series and not yet on the DoD 8140 matrix. For IR practitioners who want to differentiate themselves from GCIH holders and prove genuine operational skill, this is the meaningful upgrade. Increasingly attractive to employers who are skeptical of MCQ-based IR certifications.",
     "flags": [
       "new"
     ],
@@ -411,7 +411,7 @@
         "gcfa"
       ]
     },
-    "summary": "An advanced IR cert specifically designed for enterprise-scale and cloud-hybrid incidents \u2014 the area where GCIH falls short. Covers EDR-driven investigation, cloud incident response across AWS/Azure/GCP, threat hunting at scale, and coordinating IR across complex enterprise environments. DoD 8140 approved and increasingly relevant as organizations move infrastructure to cloud. Pairs naturally with GCFA for a comprehensive DFIR stack. The best GIAC option for senior IR practitioners who deal with large, complex incidents rather than standalone endpoint investigations.",
+    "summary": "An advanced IR cert specifically designed for enterprise-scale and cloud-hybrid incidents — the area where GCIH falls short. Covers EDR-driven investigation, cloud incident response across AWS/Azure/GCP, threat hunting at scale, and coordinating IR across complex enterprise environments. DoD 8140 approved and increasingly relevant as organizations move infrastructure to cloud. Pairs naturally with GCFA for a comprehensive DFIR stack. The best GIAC option for senior IR practitioners who deal with large, complex incidents rather than standalone endpoint investigations.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/enterprise-incident-response-geir/",
     "active": true,
@@ -464,7 +464,7 @@
         "gcih"
       ]
     },
-    "summary": "One of very few certifications dedicated specifically to Linux forensics and incident response \u2014 a gap that has become increasingly critical as Linux dominates server, cloud, and container environments. Covers Linux artifact analysis, persistence mechanisms, log analysis, and IR procedures specific to Linux systems. DoD 8140 approved and filling a genuine market need. Most IR practitioners are stronger on Windows than Linux, making this a meaningful differentiator for those working in cloud-heavy or server-focused environments.",
+    "summary": "One of very few certifications dedicated specifically to Linux forensics and incident response — a gap that has become increasingly critical as Linux dominates server, cloud, and container environments. Covers Linux artifact analysis, persistence mechanisms, log analysis, and IR procedures specific to Linux systems. DoD 8140 approved and filling a genuine market need. Most IR practitioners are stronger on Windows than Linux, making this a meaningful differentiator for those working in cloud-heavy or server-focused environments.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/linux-incident-responder-glir/",
     "active": true,
@@ -516,7 +516,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The primary network-focused forensics certification, covering deep packet inspection, protocol analysis, and network artifact reconstruction. Teaches analysts to work from network evidence rather than host artifacts \u2014 an increasingly critical skill as attackers operate in fileless and memory-resident ways that leave minimal host evidence. DoD 8140 approved and valued in SOC, IR, and hunt teams. Pairs extremely well with GCFA for a comprehensive investigation capability. One of the more practically applicable GIAC certs despite the MCQ format because network analysis genuinely requires pattern recognition over rote memorization.",
+    "summary": "The primary network-focused forensics certification, covering deep packet inspection, protocol analysis, and network artifact reconstruction. Teaches analysts to work from network evidence rather than host artifacts — an increasingly critical skill as attackers operate in fileless and memory-resident ways that leave minimal host evidence. DoD 8140 approved and valued in SOC, IR, and hunt teams. Pairs extremely well with GCFA for a comprehensive investigation capability. One of the more practically applicable GIAC certs despite the MCQ format because network analysis genuinely requires pattern recognition over rote memorization.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa/",
     "active": true,
@@ -570,7 +570,7 @@
         "gcih"
       ]
     },
-    "summary": "Currently the only dedicated cloud forensics certification on the market \u2014 a domain with almost no other credentialing options. Covers forensic investigation and incident response across AWS, Azure, and GCP, including log analysis, cloud artifact collection, and investigation of cloud-native attacks. DoD 8140 approved. As organizations migrate to cloud and attackers increasingly target cloud infrastructure, GCFR fills a genuine and growing skills gap. If you work in cloud-heavy environments and do IR or forensics, this is one of the most forward-looking DFIR certifications available right now.",
+    "summary": "Currently the only dedicated cloud forensics certification on the market — a domain with almost no other credentialing options. Covers forensic investigation and incident response across AWS, Azure, and GCP, including log analysis, cloud artifact collection, and investigation of cloud-native attacks. DoD 8140 approved. As organizations migrate to cloud and attackers increasingly target cloud infrastructure, GCFR fills a genuine and growing skills gap. If you work in cloud-heavy environments and do IR or forensics, this is one of the most forward-looking DFIR certifications available right now.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-forensics-responder-gcfr/",
     "active": true,
@@ -636,7 +636,7 @@
       "community_respect": 8,
       "salary_impact": 7,
       "time_to_prepare": 7,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -728,7 +728,7 @@
         "gcfe"
       ]
     },
-    "summary": "Specialized forensics certification covering Apple's entire ecosystem \u2014 iOS devices, macOS computers, and iCloud \u2014 which share artifacts and investigation methodologies across the Apple stack. Covers APFS forensics, iOS backup analysis, iCloud evidence acquisition, and macOS-specific artifacts. DoD 8140 approved. As Apple devices become increasingly prevalent in enterprise environments and investigations, GIME fills a gap that GCFE (Windows-focused) and GASF (mobile-focused) don't fully address. Particularly valuable for investigators in corporate environments with Mac fleets or law enforcement dealing with Apple-heavy subjects.",
+    "summary": "Specialized forensics certification covering Apple's entire ecosystem — iOS devices, macOS computers, and iCloud — which share artifacts and investigation methodologies across the Apple stack. Covers APFS forensics, iOS backup analysis, iCloud evidence acquisition, and macOS-specific artifacts. DoD 8140 approved. As Apple devices become increasingly prevalent in enterprise environments and investigations, GIME fills a gap that GCFE (Windows-focused) and GASF (mobile-focused) don't fully address. Particularly valuable for investigators in corporate environments with Mac fleets or law enforcement dealing with Apple-heavy subjects.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/ios-macos-examiner-gime/",
     "active": true,
@@ -833,7 +833,7 @@
         "gcih"
       ]
     },
-    "summary": "OffSec's practical threat hunting certification, bringing their hands-on exam approach to proactive detection. Covers hypothesis-driven hunting methodologies, EDR-based hunting, network-level hunting, and TTP-based detection development. 100% practical exam format \u2014 consistent with OffSec's philosophy. Not DoD 8140 approved but respected by practitioners. One of very few practical threat hunting certifications on the market, where most alternatives are theory-based. A strong option for blue teamers who want to move beyond reactive detection into proactive hunting with a practical credential to back it up.",
+    "summary": "OffSec's practical threat hunting certification, bringing their hands-on exam approach to proactive detection. Covers hypothesis-driven hunting methodologies, EDR-based hunting, network-level hunting, and TTP-based detection development. 100% practical exam format — consistent with OffSec's philosophy. Not DoD 8140 approved but respected by practitioners. One of very few practical threat hunting certifications on the market, where most alternatives are theory-based. A strong option for blue teamers who want to move beyond reactive detection into proactive hunting with a practical credential to back it up.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/th-200/",
     "active": true,
@@ -886,7 +886,7 @@
         "osda"
       ]
     },
-    "summary": "OffSec's practical incident response certification covering the full IR lifecycle in a hands-on exam environment. Covers evidence collection, host and network triage, malware identification, containment, and documentation. 100% practical \u2014 consistent with OffSec's brand. Not DoD 8140 approved but increasingly recognized by employers who value demonstrated practical skill. Part of OffSec's expanding blue team portfolio alongside OSDA and OSTH. For IR practitioners who want a practical credential without the theory-heavy format of GCIH, this is a compelling alternative, though GCIH still has broader employer recognition in traditional enterprise hiring.",
+    "summary": "OffSec's practical incident response certification covering the full IR lifecycle in a hands-on exam environment. Covers evidence collection, host and network triage, malware identification, containment, and documentation. 100% practical — consistent with OffSec's brand. Not DoD 8140 approved but increasingly recognized by employers who value demonstrated practical skill. Part of OffSec's expanding blue team portfolio alongside OSDA and OSTH. For IR practitioners who want a practical credential without the theory-heavy format of GCIH, this is a compelling alternative, though GCIH still has broader employer recognition in traditional enterprise hiring.",
     "flags": [],
     "official_url": "https://www.offsec.com/courses/ir-200/",
     "active": true,
@@ -937,7 +937,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "One of the best entry-level blue team certifications on the market and frequently recommended as a starting point for aspiring SOC analysts and DFIR practitioners. The 24-hour practical exam covers phishing analysis, digital forensics, SIEM investigation, log analysis, and network analysis \u2014 a genuinely comprehensive defensive skillset for a beginner cert. Not DoD 8140 approved but widely respected in the community, particularly in the UK and Europe. At $500 with a highly practical exam format, it punches above its weight compared to theory-heavy alternatives. Probably the best value entry-level blue team cert available right now.",
+    "summary": "One of the best entry-level blue team certifications on the market and frequently recommended as a starting point for aspiring SOC analysts and DFIR practitioners. The 24-hour practical exam covers phishing analysis, digital forensics, SIEM investigation, log analysis, and network analysis — a genuinely comprehensive defensive skillset for a beginner cert. Not DoD 8140 approved but widely respected in the community, particularly in the UK and Europe. At $500 with a highly practical exam format, it punches above its weight compared to theory-heavy alternatives. Probably the best value entry-level blue team cert available right now.",
     "flags": [
       "low_cost"
     ],
@@ -1009,7 +1009,7 @@
       "community_respect": 8,
       "salary_impact": 6,
       "time_to_prepare": 5,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -1210,7 +1210,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "TCM Security's practical malware analysis certification covering static and dynamic analysis, sandbox investigation, IOC extraction, and report writing \u2014 all assessed through a practical exam. Not DoD 8140 approved but TCM's practical certifications are well regarded in the community for genuine skill validation. At $499 including training it is significantly more accessible than GREM ($999 exam + ~$8,500 SANS course) while covering similar foundational ground. If you can't afford GREM training, PMRP is a solid first malware analysis credential. GREM still carries more weight with enterprise and government employers who recognize GIAC specifically.",
+    "summary": "TCM Security's practical malware analysis certification covering static and dynamic analysis, sandbox investigation, IOC extraction, and report writing — all assessed through a practical exam. Not DoD 8140 approved but TCM's practical certifications are well regarded in the community for genuine skill validation. At $499 including training it is significantly more accessible than GREM ($999 exam + ~$8,500 SANS course) while covering similar foundational ground. If you can't afford GREM training, PMRP is a solid first malware analysis credential. GREM still carries more weight with enterprise and government employers who recognize GIAC specifically.",
     "flags": [
       "low_cost"
     ],
@@ -1262,7 +1262,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Mosse Institute's DFIR certification using their portfolio-based assessment model rather than a traditional proctored exam \u2014 candidates complete practical exercises that are reviewed and graded by instructors. This non-traditional format means it doesn't appear on DoD 8140 and has limited HR/ATS recognition compared to GIAC or EC-Council certs. However, the hands-on exercise model genuinely develops skill and the content is solid. Best treated as a learning credential rather than a hiring credential \u2014 use it to build skills while working toward more recognized certs like BTL1 or GCIH.",
+    "summary": "Mosse Institute's DFIR certification using their portfolio-based assessment model rather than a traditional proctored exam — candidates complete practical exercises that are reviewed and graded by instructors. This non-traditional format means it doesn't appear on DoD 8140 and has limited HR/ATS recognition compared to GIAC or EC-Council certs. However, the hands-on exercise model genuinely develops skill and the content is solid. Best treated as a learning credential rather than a hiring credential — use it to build skills while working toward more recognized certs like BTL1 or GCIH.",
     "flags": [
       "low_cost",
       "portfolio_based"
@@ -1314,7 +1314,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Mosse Institute's reverse engineering and malware analysis certification using their portfolio-based assessment model. Covers reverse engineering fundamentals, assembly analysis, and malware investigation through practical exercises graded by instructors. The non-traditional format limits formal recognition \u2014 not DoD 8140, not on hiring checklists. That said, for a student wanting to learn reverse engineering through structured practical work before attempting GREM, it provides a lower-cost and lower-pressure pathway to build the foundational skills GREM assumes. Think of it as structured training with a completion credential, not a career-differentiating certification.",
+    "summary": "Mosse Institute's reverse engineering and malware analysis certification using their portfolio-based assessment model. Covers reverse engineering fundamentals, assembly analysis, and malware investigation through practical exercises graded by instructors. The non-traditional format limits formal recognition — not DoD 8140, not on hiring checklists. That said, for a student wanting to learn reverse engineering through structured practical work before attempting GREM, it provides a lower-cost and lower-pressure pathway to build the foundational skills GREM assumes. Think of it as structured training with a completion credential, not a career-differentiating certification.",
     "flags": [
       "low_cost",
       "portfolio_based"
@@ -1365,7 +1365,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Mosse Institute's threat hunting certification using their portfolio-based exercise model. Covers threat hunting methodology, hypothesis-driven approaches, and behavioral analysis through graded practical exercises. Same recognition limitations as other MCSI certs \u2014 not DoD 8140, limited employer name recognition. Useful as a structured learning pathway for building threat hunting skills before pursuing more recognized credentials like OSTH or GEIR. The content quality is generally good but the assessment model means it won't substitute for recognized certs in hiring processes.",
+    "summary": "Mosse Institute's threat hunting certification using their portfolio-based exercise model. Covers threat hunting methodology, hypothesis-driven approaches, and behavioral analysis through graded practical exercises. Same recognition limitations as other MCSI certs — not DoD 8140, limited employer name recognition. Useful as a structured learning pathway for building threat hunting skills before pursuing more recognized credentials like OSTH or GEIR. The content quality is generally good but the assessment model means it won't substitute for recognized certs in hiring processes.",
     "flags": [
       "low_cost",
       "portfolio_based"
@@ -1418,7 +1418,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's forensics certification and the DoD 8140 approved option in the digital forensics space from that vendor. Covers broad forensics methodology including acquisition, analysis, and reporting across multiple evidence types. DoD 8140 approved which is its primary selling point \u2014 it gets you past government and contractor hiring filters that GCFE might not satisfy if only CHFI is listed. However, GCFE is generally considered more technically rigorous in the practitioner community, and CHFI carries the EC-Council reputation for broad coverage at the expense of depth. A practical cert to have for government/contractor roles, but GCFE or BTL1 will teach you more.",
+    "summary": "EC-Council's forensics certification and the DoD 8140 approved option in the digital forensics space from that vendor. Covers broad forensics methodology including acquisition, analysis, and reporting across multiple evidence types. DoD 8140 approved which is its primary selling point — it gets you past government and contractor hiring filters that GCFE might not satisfy if only CHFI is listed. However, GCFE is generally considered more technically rigorous in the practitioner community, and CHFI carries the EC-Council reputation for broad coverage at the expense of depth. A practical cert to have for government/contractor roles, but GCFE or BTL1 will teach you more.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
     "active": true,
@@ -1467,7 +1467,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's incident handling certification and a DoD 8140 option for IR roles. Covers the incident response lifecycle with broad coverage across multiple incident types. DoD 8140 approved which is its main value in the market. Compared to GCIH, ECIH has lighter technical depth and is more process-oriented \u2014 which suits compliance-driven environments but less so hands-on IR teams. GCIH is the stronger technical credential but ECIH will satisfy the same DoD checklist requirements. If you're purely targeting government or contractor roles and need to check the IR certification box, ECIH is a cost-effective path.",
+    "summary": "EC-Council's incident handling certification and a DoD 8140 option for IR roles. Covers the incident response lifecycle with broad coverage across multiple incident types. DoD 8140 approved which is its main value in the market. Compared to GCIH, ECIH has lighter technical depth and is more process-oriented — which suits compliance-driven environments but less so hands-on IR teams. GCIH is the stronger technical credential but ECIH will satisfy the same DoD checklist requirements. If you're purely targeting government or contractor roles and need to check the IR certification box, ECIH is a cost-effective path.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
     "active": true,
@@ -1479,7 +1479,7 @@
       "community_respect": 5,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 5.0
+      "overall": 5
     }
   },
   {
@@ -1514,7 +1514,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Entry-level Cellebrite certification for operating UFED extraction tools. Validates basic proficiency with Cellebrite's mobile device extraction platform which dominates law enforcement mobile forensics globally. Requires access to Cellebrite tools \u2014 this is a vendor cert tied to proprietary tool ownership, not a transferable forensics credential. Highly valued where Cellebrite is deployed (most law enforcement agencies and many corporate investigation teams) but meaningless if you don't work with Cellebrite. Think of it as a product certification rather than a forensics credential.",
+    "summary": "Entry-level Cellebrite certification for operating UFED extraction tools. Validates basic proficiency with Cellebrite's mobile device extraction platform which dominates law enforcement mobile forensics globally. Requires access to Cellebrite tools — this is a vendor cert tied to proprietary tool ownership, not a transferable forensics credential. Highly valued where Cellebrite is deployed (most law enforcement agencies and many corporate investigation teams) but meaningless if you don't work with Cellebrite. Think of it as a product certification rather than a forensics credential.",
     "flags": [
       "tool_vendor"
     ],
@@ -1725,7 +1725,7 @@
         "ccme"
       ]
     },
-    "summary": "Highly specialized Cellebrite certification focused on data recovery from damaged, locked, or otherwise inaccessible devices. Covers advanced recovery techniques including Cellebrite Premium capabilities, JTAG awareness, and chip-off adjacent methodologies. One of the most niche Cellebrite credentials and only relevant for examiners who regularly encounter physically damaged or locked device evidence. Very limited audience outside specialist forensic labs. If you encounter these scenarios regularly and work with Cellebrite, this is the credential to have \u2014 otherwise it's too specialized to prioritize.",
+    "summary": "Highly specialized Cellebrite certification focused on data recovery from damaged, locked, or otherwise inaccessible devices. Covers advanced recovery techniques including Cellebrite Premium capabilities, JTAG awareness, and chip-off adjacent methodologies. One of the most niche Cellebrite credentials and only relevant for examiners who regularly encounter physically damaged or locked device evidence. Very limited audience outside specialist forensic labs. If you encounter these scenarios regularly and work with Cellebrite, this is the credential to have — otherwise it's too specialized to prioritize.",
     "flags": [
       "tool_vendor"
     ],
@@ -1776,7 +1776,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Magnet Forensics' certification for their AXIOM platform \u2014 the main competitor to Cellebrite in the mobile and digital forensics tool market. Covers Magnet AXIOM operation for computer, mobile, and cloud evidence analysis. Tied to Magnet tool access and primarily valuable in environments where AXIOM is the deployed platform. Less ubiquitous than Cellebrite in law enforcement but widely used in corporate investigations and by some government agencies. A vendor cert that validates platform proficiency rather than a transferable forensics credential. Worth having if you work with Magnet tools regularly.",
+    "summary": "Magnet Forensics' certification for their AXIOM platform — the main competitor to Cellebrite in the mobile and digital forensics tool market. Covers Magnet AXIOM operation for computer, mobile, and cloud evidence analysis. Tied to Magnet tool access and primarily valuable in environments where AXIOM is the deployed platform. Less ubiquitous than Cellebrite in law enforcement but widely used in corporate investigations and by some government agencies. A vendor cert that validates platform proficiency rather than a transferable forensics credential. Worth having if you work with Magnet tools regularly.",
     "flags": [
       "tool_vendor",
       "low_cost"
@@ -1825,7 +1825,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Exterro's (formerly AccessData) free certification for their FTK (Forensic Toolkit) platform \u2014 one of the most widely deployed forensic tools in law enforcement and enterprise. Free to obtain when bundled with FTK training, making it extremely accessible. Like all tool vendor certs, validates FTK proficiency specifically rather than transferable forensics skill. FTK's market presence in law enforcement means ACE has some name recognition in government hiring contexts. A reasonable credential to add if you already use FTK \u2014 the cost of entry is essentially zero \u2014 but it won't substitute for a vendor-neutral credential.",
+    "summary": "Exterro's (formerly AccessData) free certification for their FTK (Forensic Toolkit) platform — one of the most widely deployed forensic tools in law enforcement and enterprise. Free to obtain when bundled with FTK training, making it extremely accessible. Like all tool vendor certs, validates FTK proficiency specifically rather than transferable forensics skill. FTK's market presence in law enforcement means ACE has some name recognition in government hiring contexts. A reasonable credential to add if you already use FTK — the cost of entry is essentially zero — but it won't substitute for a vendor-neutral credential.",
     "flags": [
       "free",
       "tool_vendor"
@@ -1840,7 +1840,7 @@
       "community_respect": 5,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -1876,7 +1876,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "OpenText's (formerly Guidance Software) certification for the EnCase forensic platform \u2014 historically one of the most recognized tool vendor certs in digital forensics, particularly in law enforcement and large enterprise. Two-phase exam including a written component and practical exercise. Lifetime validity means no recertification burden. EnCase's market dominance in law enforcement means EnCE has real recognition in government forensics roles. Like all tool vendor certs it validates platform proficiency specifically, but EnCE has enough history and market presence to occasionally appear in job requirements. Worth having if EnCase is your primary tool.",
+    "summary": "OpenText's (formerly Guidance Software) certification for the EnCase forensic platform — historically one of the most recognized tool vendor certs in digital forensics, particularly in law enforcement and large enterprise. Two-phase exam including a written component and practical exercise. Lifetime validity means no recertification burden. EnCase's market dominance in law enforcement means EnCE has real recognition in government forensics roles. Like all tool vendor certs it validates platform proficiency specifically, but EnCE has enough history and market presence to occasionally appear in job requirements. Worth having if EnCase is your primary tool.",
     "flags": [
       "tool_vendor"
     ],
@@ -1890,7 +1890,7 @@
       "community_respect": 5,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -1911,7 +1911,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "regional",
-    "geographic_note": "UK, Australia, Singapore, EU \u2014 limited recognition in US",
+    "geographic_note": "UK, Australia, Singapore, EU — limited recognition in US",
     "skills": [
       "network_intrusion_analysis",
       "log_analysis",
@@ -1927,7 +1927,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Entry-level CREST certification for intrusion analysis \u2014 the first step on the CREST IR pathway. Primarily recognized in the UK, Australia, Singapore, and EU where CREST accreditation carries regulatory weight. Little recognition in the US market. Covers basic network intrusion analysis, log analysis, and incident response fundamentals. For practitioners in CREST-heavy regions this is a natural starting point on the CREST credentialing path. For practitioners outside those regions, BTL1 or GCIH will have broader employer recognition.",
+    "summary": "Entry-level CREST certification for intrusion analysis — the first step on the CREST IR pathway. Primarily recognized in the UK, Australia, Singapore, and EU where CREST accreditation carries regulatory weight. Little recognition in the US market. Covers basic network intrusion analysis, log analysis, and incident response fundamentals. For practitioners in CREST-heavy regions this is a natural starting point on the CREST credentialing path. For practitioners outside those regions, BTL1 or GCIH will have broader employer recognition.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
@@ -1960,7 +1960,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "regional",
-    "geographic_note": "UK, Australia, Singapore, EU \u2014 limited recognition in US",
+    "geographic_note": "UK, Australia, Singapore, EU — limited recognition in US",
     "skills": [
       "intrusion_analysis",
       "incident_investigation",
@@ -2012,7 +2012,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "regional",
-    "geographic_note": "UK, Australia, Singapore, EU \u2014 limited recognition in US",
+    "geographic_note": "UK, Australia, Singapore, EU — limited recognition in US",
     "skills": [
       "incident_management",
       "ir_team_leadership",
@@ -2032,7 +2032,7 @@
         "cria"
       ]
     },
-    "summary": "Senior CREST certification for incident response leadership and management \u2014 covers managing IR engagements rather than performing technical analysis. Required for leading CREST-accredited IR engagements in regulated markets. Covers stakeholder management, crisis communication, and IR strategy at a senior level. Limited recognition outside CREST-active regions. For senior IR consultants operating in the UK and Commonwealth markets who need to lead accredited engagements, this is an important career credential. For technical practitioners not in management roles, the technical CREST certs are more relevant.",
+    "summary": "Senior CREST certification for incident response leadership and management — covers managing IR engagements rather than performing technical analysis. Required for leading CREST-accredited IR engagements in regulated markets. Covers stakeholder management, crisis communication, and IR strategy at a senior level. Limited recognition outside CREST-active regions. For senior IR consultants operating in the UK and Commonwealth markets who need to lead accredited engagements, this is an important career credential. For technical practitioners not in management roles, the technical CREST certs are more relevant.",
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
@@ -2081,7 +2081,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CertNexus's DoD 8140 approved incident response certification, filling a specific need in the government contractor space where approved certs are required. Covers threat assessment, IR process, and basic forensics. DoD 8140 approval is the main value proposition \u2014 without it, GCIH or BTL1 would be stronger options for practitioners. Theory-heavy with limited practical weight, so it validates knowledge of IR concepts rather than actual incident handling skill. A checkbox cert for DoD compliance requirements rather than a practitioner development credential.",
+    "summary": "CertNexus's DoD 8140 approved incident response certification, filling a specific need in the government contractor space where approved certs are required. Covers threat assessment, IR process, and basic forensics. DoD 8140 approval is the main value proposition — without it, GCIH or BTL1 would be stronger options for practitioners. Theory-heavy with limited practical weight, so it validates knowledge of IR concepts rather than actual incident handling skill. A checkbox cert for DoD compliance requirements rather than a practitioner development credential.",
     "flags": [],
     "official_url": "https://certnexus.com/certification/cfr/",
     "active": true,
@@ -2165,7 +2165,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "FSAB-accredited \u2014 the only digital forensics cert with this accreditation. Strong courtroom credibility in US and international LE. External fee $800; BCFE course attendees included automatically.",
+    "geographic_note": "FSAB-accredited — the only digital forensics cert with this accreditation. Strong courtroom credibility in US and international LE. External fee $800; BCFE course attendees included automatically.",
     "skills": [
       "digital_forensics",
       "windows_forensics",
@@ -2183,7 +2183,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "IACIS's flagship credential and the only digital forensics certification accredited by the Forensic Specialties Accreditation Board (FSAB) \u2014 placing it in the same accreditation tier as traditional forensic science disciplines. Founded in 1990, IACIS originally served law enforcement exclusively; the catalog opened to private-sector examiners in 2013. The CFCE uses a unique two-phase model: a mentored peer review phase (4 scenario problems with a volunteer CFCE-certified coach over 4 months) followed by a 30-day independent hard-drive practical and a 100-question written exam. Both phases require 80% to pass. The vendor-neutral format allows any tool including open-source. Core competencies cover Windows artifacts, file systems, partition schemes, data recovery, pre-examination procedures, and presentation of findings. Highly respected in US federal and municipal LE (FBI, Secret Service, HSI, Army CID, NCIS) and internationally through IACIS's EMEA reach. Not on DoD 8140 \u2014 examiners filling DCWF billets must supplement with GCFA or CHFI. The peer-review model makes CFCE arguably the most Daubert-defensible digital forensics credential available for courtroom testimony.",
+    "summary": "IACIS's flagship credential and the only digital forensics certification accredited by the Forensic Specialties Accreditation Board (FSAB) — placing it in the same accreditation tier as traditional forensic science disciplines. Founded in 1990, IACIS originally served law enforcement exclusively; the catalog opened to private-sector examiners in 2013. The CFCE uses a unique two-phase model: a mentored peer review phase (4 scenario problems with a volunteer CFCE-certified coach over 4 months) followed by a 30-day independent hard-drive practical and a 100-question written exam. Both phases require 80% to pass. The vendor-neutral format allows any tool including open-source. Core competencies cover Windows artifacts, file systems, partition schemes, data recovery, pre-examination procedures, and presentation of findings. Highly respected in US federal and municipal LE (FBI, Secret Service, HSI, Army CID, NCIS) and internationally through IACIS's EMEA reach. Not on DoD 8140 — examiners filling DCWF billets must supplement with GCFA or CHFI. The peer-review model makes CFCE arguably the most Daubert-defensible digital forensics credential available for courtroom testimony.",
     "flags": [
       "hands_on",
       "law_enforcement",
@@ -2296,7 +2296,7 @@
         "cfce"
       ]
     },
-    "summary": "IACIS's mobile device forensics credential covering extraction, decoding, decryption, and analysis of mobile devices. The exam runs as a 48-hour written window followed by a 48-hour practical window, each requiring 80%. Explicitly designed around proficiency with Cellebrite UFED and Physical Analyzer, with adjacent coverage of Magnet AXIOM/Graykey, MSAB XRY, and iOS/Android database-level artifacts beneath the automation layer. The accompanying training is the 36-hour MDF course (5 days, on-demand); the advanced AMDF course covers deeper extraction techniques. Fills the gap that CFCE and CAWFE leave on mobile \u2014 a common need in criminal investigations where mobile evidence often outweighs traditional computer evidence. $800 flat fee, no DoD 8140 approval. Strong fit for LE digital forensics units handling mobile-heavy caseloads.",
+    "summary": "IACIS's mobile device forensics credential covering extraction, decoding, decryption, and analysis of mobile devices. The exam runs as a 48-hour written window followed by a 48-hour practical window, each requiring 80%. Explicitly designed around proficiency with Cellebrite UFED and Physical Analyzer, with adjacent coverage of Magnet AXIOM/Graykey, MSAB XRY, and iOS/Android database-level artifacts beneath the automation layer. The accompanying training is the 36-hour MDF course (5 days, on-demand); the advanced AMDF course covers deeper extraction techniques. Fills the gap that CFCE and CAWFE leave on mobile — a common need in criminal investigations where mobile evidence often outweighs traditional computer evidence. $800 flat fee, no DoD 8140 approval. Strong fit for LE digital forensics units handling mobile-heavy caseloads.",
     "flags": [
       "hands_on",
       "law_enforcement"
@@ -2311,7 +2311,7 @@
       "community_respect": 7,
       "salary_impact": 7,
       "time_to_prepare": 6,
-      "overall": 7.0
+      "overall": 7
     }
   },
   {
@@ -2355,7 +2355,7 @@
         "mre"
       ]
     },
-    "summary": "Zero2Automated is widely regarded as the best-value advanced malware analysis course and certification available \u2014 practitioners on r/blueteamsec and malware.news consistently rate its content above GREM in practical depth and currency, at roughly 4% of the cost. Developed by Daniel Bunce and Vitali Kremez (0ffset Training Solutions), it covers advanced static analysis, unpacking and deobfuscation, C2 protocol reverse engineering, and automated malware analysis frameworks. Certification is included with the ~$390 lifetime course purchase (Black Friday discounts to ~$290 are routine). Not a standalone proctored exam \u2014 the cert validates course completion and practical assessment components. For self-funded malware analysts, Zero2Automated plus TCM Security PMAT/PMRP is the recommended stack before committing to GREM's $9,800+ investment.",
+    "summary": "Zero2Automated is widely regarded as the best-value advanced malware analysis course and certification available — practitioners on r/blueteamsec and malware.news consistently rate its content above GREM in practical depth and currency, at roughly 4% of the cost. Developed by Daniel Bunce and Vitali Kremez (0ffset Training Solutions), it covers advanced static analysis, unpacking and deobfuscation, C2 protocol reverse engineering, and automated malware analysis frameworks. Certification is included with the ~$390 lifetime course purchase (Black Friday discounts to ~$290 are routine). Not a standalone proctored exam — the cert validates course completion and practical assessment components. For self-funded malware analysts, Zero2Automated plus TCM Security PMAT/PMRP is the recommended stack before committing to GREM's $9,800+ investment.",
     "flags": [
       "low_cost"
     ],
@@ -2377,8 +2377,13 @@
     "acronym": "IWE",
     "full_name": "Investigating Windows Endpoints",
     "issuing_body": "13Cubed",
-    "domain": ["dfir"],
-    "subdomain": ["digital_forensics", "windows_forensics"],
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "digital_forensics",
+      "windows_forensics"
+    ],
     "level": "intermediate",
     "practical_weight": 40,
     "cost_usd": 795,
@@ -2386,13 +2391,29 @@
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
-    "skills": ["windows_artifact_analysis", "registry_analysis", "lnk_file_analysis", "browser_forensics", "email_forensics", "file_system_analysis", "evidence_handling", "timeline_analysis"],
+    "skills": [
+      "windows_artifact_analysis",
+      "registry_analysis",
+      "lnk_file_analysis",
+      "browser_forensics",
+      "email_forensics",
+      "file_system_analysis",
+      "evidence_handling",
+      "timeline_analysis"
+    ],
     "prerequisites": {
-      "knowledge": ["windows_os_internals", "basic_file_systems", "security_fundamentals"],
+      "knowledge": [
+        "windows_os_internals",
+        "basic_file_systems",
+        "security_fundamentals"
+      ],
       "recommended_certs": []
     },
     "summary": "13Cubed's Windows endpoint forensics certification by Richard Davis (Microsoft DART, former SANS instructor) — widely regarded as the highest-quality affordable alternative to SANS FOR500/GCFE. Covers the full Windows artifact landscape: registry, LNK files, shellbags, browser history, email artifacts, prefetch, evidence of execution artifacts (ShimCache, AmCache, PCA, SRUM, UserAssist), NTFS anatomy, file deletion and recovery, and timeline construction with Plaso/Log2Timeline. Two capstone investigation challenges using real forensic disk images. The assessment includes 60 MCQ questions plus 20 practical questions (40% weight) requiring analysis of a compromised forensic image — more hands-on than GIAC's CyberLive component per practitioner comparisons. Non-proctored and open-book, which limits employer recognition versus GCFE, but the training quality genuinely rivals SANS FOR500 content. Covers approximately 80-90% of GCFE content at under 10% of the SANS training cost. Does not cover disk acquisition, memory forensics, or cloud forensics.",
-    "flags": ["low_cost", "portfolio_based"],
+    "flags": [
+      "low_cost",
+      "portfolio_based"
+    ],
     "official_url": "https://training.13cubed.com/investigating-windows-endpoints",
     "active": true,
     "paths": [],
@@ -2411,8 +2432,13 @@
     "acronym": "IWM",
     "full_name": "Investigating Windows Memory",
     "issuing_body": "13Cubed",
-    "domain": ["dfir"],
-    "subdomain": ["memory_forensics", "malware_analysis"],
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "memory_forensics",
+      "malware_analysis"
+    ],
     "level": "intermediate",
     "practical_weight": 40,
     "cost_usd": 795,
@@ -2420,13 +2446,28 @@
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
-    "skills": ["memory_forensics", "windows_memory_forensics", "malware_behavior_analysis", "malware_triage", "ioc_extraction"],
+    "skills": [
+      "memory_forensics",
+      "windows_memory_forensics",
+      "malware_behavior_analysis",
+      "malware_triage",
+      "ioc_extraction"
+    ],
     "prerequisites": {
-      "knowledge": ["windows_os_internals", "basic_memory_concepts", "security_fundamentals"],
-      "recommended_certs": ["13c-iwe"]
+      "knowledge": [
+        "windows_os_internals",
+        "basic_memory_concepts",
+        "security_fundamentals"
+      ],
+      "recommended_certs": [
+        "13c-iwe"
+      ]
     },
     "summary": "13Cubed's Windows memory forensics certification covering Volatility 2/3 and MemProcFS in significantly more depth than SANS FOR508. Topics include process enumeration, code injection detection (basic, reflective DLL injection, process hollowing), API and SSDT hooks, kernel module analysis, YARA scanning, malware memory analysis, and an introduction to WinDbg crash dump analysis. Seven memory images provided for hands-on practice. GCFA holders have noted IWM covers memory forensics tools more thoroughly than the corresponding FOR508 content. Same non-proctored open-book assessment format as IWE with 40% practical weight. Community consensus is this is the best affordable memory forensics training available.",
-    "flags": ["low_cost", "portfolio_based"],
+    "flags": [
+      "low_cost",
+      "portfolio_based"
+    ],
     "official_url": "https://training.13cubed.com/investigating-windows-memory",
     "active": true,
     "paths": [],
@@ -2445,8 +2486,12 @@
     "acronym": "ILD",
     "full_name": "Investigating Linux Devices",
     "issuing_body": "13Cubed",
-    "domain": ["dfir"],
-    "subdomain": ["digital_forensics"],
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "digital_forensics"
+    ],
     "level": "intermediate",
     "practical_weight": 40,
     "cost_usd": 895,
@@ -2454,13 +2499,28 @@
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
-    "skills": ["digital_forensics", "file_system_analysis", "evidence_handling", "memory_forensics", "timeline_analysis"],
+    "skills": [
+      "digital_forensics",
+      "file_system_analysis",
+      "evidence_handling",
+      "memory_forensics",
+      "timeline_analysis"
+    ],
     "prerequisites": {
-      "knowledge": ["linux_command_line", "basic_file_systems", "security_fundamentals"],
-      "recommended_certs": ["13c-iwe"]
+      "knowledge": [
+        "linux_command_line",
+        "basic_file_systems",
+        "security_fundamentals"
+      ],
+      "recommended_certs": [
+        "13c-iwe"
+      ]
     },
     "summary": "13Cubed's Linux forensics certification covering Linux log analysis, ext2/3/4 and other file systems, persistence mechanisms, systemd artifacts, SSH key forensics, evidence collection with dd/dcfldd/AVML/UAC, and Linux memory forensics with Volatility 3. Five disk and memory images provided. Includes a full live-response capstone analyzing a compromised Linux system. No equivalent standalone Linux forensics certification exists at this price point.",
-    "flags": ["low_cost", "portfolio_based"],
+    "flags": [
+      "low_cost",
+      "portfolio_based"
+    ],
     "official_url": "https://training.13cubed.com/investigating-linux-devices",
     "active": true,
     "paths": [],
@@ -2479,8 +2539,12 @@
     "acronym": "IME",
     "full_name": "Investigating macOS Endpoints",
     "issuing_body": "13Cubed",
-    "domain": ["dfir"],
-    "subdomain": ["digital_forensics"],
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "digital_forensics"
+    ],
     "level": "intermediate",
     "practical_weight": 40,
     "cost_usd": 895,
@@ -2488,13 +2552,27 @@
     "dod_8140": false,
     "geographic_recognition": "global",
     "geographic_note": null,
-    "skills": ["digital_forensics", "file_system_analysis", "evidence_handling", "timeline_analysis"],
+    "skills": [
+      "digital_forensics",
+      "file_system_analysis",
+      "evidence_handling",
+      "timeline_analysis"
+    ],
     "prerequisites": {
-      "knowledge": ["macos_basics", "basic_file_systems", "security_fundamentals"],
-      "recommended_certs": ["13c-iwe"]
+      "knowledge": [
+        "macos_basics",
+        "basic_file_systems",
+        "security_fundamentals"
+      ],
+      "recommended_certs": [
+        "13c-iwe"
+      ]
     },
     "summary": "13Cubed's macOS forensics certification covering Apple Silicon and Intel Mac investigation — Unified Logging, APFS/HFS+ file systems, macOS-specific artifacts (FSEvents, knowledgeC.db, Biome, .DS_Store), persistence mechanisms via LaunchDaemons/Agents, and a compromised-system capstone investigation. macOS forensics is one of the most underserved areas in the certification market — SANS FOR518 covers similar ground at roughly 10x the cost.",
-    "flags": ["low_cost", "portfolio_based"],
+    "flags": [
+      "low_cost",
+      "portfolio_based"
+    ],
     "official_url": "https://training.13cubed.com/investigating-macos-endpoints",
     "active": true,
     "paths": [],
@@ -2506,6 +2584,169 @@
       "salary_impact": 3,
       "time_to_prepare": 5,
       "overall": 5.4
+    }
+  },
+  {
+    "id": "8ksec-camre",
+    "acronym": "CAMRE",
+    "full_name": "8kSec Certified Android Malware Reverse Engineer",
+    "issuing_body": "8kSec",
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "malware_analysis",
+      "mobile_forensics"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive Mobile Malware Analysis course (one free attempt). Retake $119. Corellium ARM lab. Report reviewed within 3 business days.",
+    "skills": [
+      "android_malware_analysis",
+      "android_reverse_engineering",
+      "obfuscation_analysis",
+      "anti_detection_techniques",
+      "frida_instrumentation",
+      "jadx_apktool",
+      "malware_reporting"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Android security basics",
+        "Java/Smali reading ability",
+        "Static analysis tool familiarity"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's Android malware reverse engineering credential. Hands-on practical lab exam in a Corellium ARM environment covering Android malware analysis — reversing Smali/Java/Kotlin/native binaries, identifying obfuscation and anti-detection techniques, using jadx, apktool, Frida, and Ghidra. Written report graded by 8kSec panel within 3 business days. Bundled with the Offensive Mobile Malware Analysis course; retake $119. One of few credentials specifically targeting mobile malware analysis skills.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/camre/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6
+    }
+  },
+  {
+    "id": "8ksec-cimre",
+    "acronym": "CIMRE",
+    "full_name": "8kSec Certified iOS Malware Researcher",
+    "issuing_body": "8kSec",
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "malware_analysis",
+      "mobile_forensics"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive Mobile Malware Analysis course (one free attempt). Retake $119. Corellium iOS lab.",
+    "skills": [
+      "ios_malware_analysis",
+      "ios_reverse_engineering",
+      "objective_c_swift_reversing",
+      "ios_anti_analysis_techniques",
+      "mobile_forensics",
+      "ios_artifact_analysis"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "iOS security basics",
+        "Objective-C or Swift reading ability"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "8kSec's iOS malware researcher credential. Hands-on practical exam in a Corellium iOS environment covering iOS malware analysis — reversing Objective-C/Swift binaries, identifying anti-analysis techniques, and analyzing iOS-specific malware artifacts. Written report graded by 8kSec panel within 3 business days. Bundled with Offensive Mobile Malware Analysis course; retake $119. iOS malware analysis credentials are extremely rare — this fills a genuine gap alongside MVT-style mobile forensics.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/certifications/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 6,
+      "overall": 6
+    }
+  },
+  {
+    "id": "8ksec-cmmre",
+    "acronym": "CMMRE",
+    "full_name": "8kSec Certified Mobile Malware Reverse Engineer",
+    "issuing_body": "8kSec",
+    "domain": [
+      "dfir"
+    ],
+    "subdomain": [
+      "malware_analysis",
+      "mobile_forensics"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 119,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Bundled with 8kSec Offensive Mobile Malware Analysis course (one free attempt). Retake $119. Corellium iOS and Android lab. Report within 3 business days.",
+    "skills": [
+      "mobile_malware_analysis",
+      "android_malware_analysis",
+      "ios_malware_analysis",
+      "cross_platform_reverse_engineering",
+      "obfuscation_analysis",
+      "anti_analysis_bypass",
+      "mobile_forensics"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Strong mobile security background",
+        "Both iOS and Android RE skills",
+        "Malware analysis fundamentals"
+      ],
+      "recommended_certs": [
+        "8ksec-camre",
+        "8ksec-cimre"
+      ]
+    },
+    "summary": "8kSec's cross-platform mobile malware reverse engineering credential — the capstone of the malware analysis track covering both iOS and Android. 8kSec positions this as the definitive benchmark for senior mobile malware professionals. Hands-on practical lab across both iOS and Android Corellium devices with written report graded within 3 business days. Bundled with Offensive Mobile Malware Analysis course; retake $119. Covers reversing Objective-C, Swift, Java, Kotlin, Smali, and native binaries alongside obfuscation/evasion defeat and MVT-style artifact analysis.",
+    "flags": [
+      "hands_on",
+      "boutique"
+    ],
+    "official_url": "https://8ksec.io/cmmre/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 8,
+      "practical_depth": 9,
+      "employer_recognition": 3,
+      "community_respect": 7,
+      "salary_impact": 5,
+      "time_to_prepare": 8,
+      "overall": 6.5
     }
   }
 ]
