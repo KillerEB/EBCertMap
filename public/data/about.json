@@ -41,7 +41,8 @@
         "Added arcX FTIA (free Foundation) and arcX PTIA (Practitioner, CREST CPTIA prep) — CREST-accredited training credentials for the threat intelligence track",
         "Added Learn Prompting AIRTP+ — practical AI red teaming professional cert (HackAPrompt-affiliated, 24+ hour take-home assessment)",
         "Updated cert count to 425+ across all metadata, sitemap, and structured data",
-        "Verified zero duplicate IDs across all 15 cert domain files"
+        "Verified zero duplicate IDs across all 15 cert domain files",
+        "Fixed issuer dropdown alphabetical sort — case-insensitive ordering so vendors like 'arcX' appear in the right place instead of after 'Zscaler'"
       ]
     },
     {

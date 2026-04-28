@@ -360,7 +360,7 @@ const catFor = id => ROLE_CATEGORIES.find(c => c.id === id) ?? ROLE_CATEGORIES[0
 const allCerts    = (cm={}) => { const seen=new Set(); return Object.values(cm).flat().filter(c=>seen.has(c.id)?false:seen.add(c.id)); };
 const getCertById = (id, cm={}) => allCerts(cm).find(c => c.id === id);
 const fmt = cost => cost === 0 ? "Free" : `$${cost.toLocaleString()}`;
-const getIssuers  = (domain, cm) => [...new Set((cm[domain]||[]).map(c=>c.issuing_body))].sort();
+const getIssuers  = (domain, cm) => [...new Set((cm[domain]||[]).map(c=>c.issuing_body))].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:"base"}));
 
 // ═══════════════════════════════════════════════════════════════════════════
 // SHARED COMPONENTS
@@ -568,7 +568,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     return counts;
   }, [CERTS]);
   const issuers  = useMemo(() =>
-    [...new Set(domainCerts.map(c => c.issuing_body))].sort(),
+    [...new Set(domainCerts.map(c => c.issuing_body))].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:"base"})),
     [domainCerts]);
 
   const visible = useMemo(() => {
