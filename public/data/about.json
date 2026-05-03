@@ -38,16 +38,12 @@
   ],
   "changelog": [
     {
-      "date": "2026-04-29",
-      "title": "New Role, New Paths & Roles Cleanup",
+      "date": "2026-05-03",
+      "title": "Minor UI Fixes",
       "items": [
-        "Added new role: Mobile Security Researcher — for practitioners targeting platform vulnerability research (CISR → CASR → OAAE → OMSE)",
-        "Added cti_budget path for CTI Analyst — arcX FTIA → arcX PTIA → MCTIA ($630, 5-8 months) — accessible CREST-aligned route into proctored CTI",
-        "Added 8kSec Practitioner Track for Mobile Pentester — CASE → CISE → CMSE for app-testing-focused mobile security",
-        "Added malware_mobile track for Malware Analyst — CAMRE → CIMRE → CMMRE for mobile malware reverse engineering",
-        "Added AIRTP+ as the entry step in the AI Red Team path",
-        "Refocused Mobile Pentester role on app testing only — kernel/internals research now lives in the dedicated Mobile Security Researcher role to avoid overlap",
-        "Cleaned up roles.json — fixed long-standing path_count and path_ids drift across 13 roles so metadata now matches the actual path files"
+        "Fixed mobile role view — tapping the same role after going back to the role list now re-opens it (previously you had to tap a different role first)",
+        "Changed default Certs view domain from 'Offensive' to 'All Domains' so visitors see the full catalog on first load",
+        "Added missing 'Level' and 'Issuer' sort options to the mobile sort dropdown — mobile now matches desktop's full 6-option sort menu"
       ]
     },
     {
@@ -59,6 +55,19 @@
         "Enabled HSTS with 6-month max-age — browsers now remember to always use HTTPS for ebcertmap.com",
         "Left HSTS subdomain inclusion and preload list off as safe defaults — can be revisited if subdomains are added later",
         "Enabled X-Content-Type-Options: nosniff header — prevents browsers from MIME-type guessing on responses"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "title": "New Role, New Paths & Roles Cleanup",
+      "items": [
+        "Added new role: Mobile Security Researcher — for practitioners targeting platform vulnerability research (CISR → CASR → OAAE → OMSE)",
+        "Added cti_budget path for CTI Analyst — arcX FTIA → arcX PTIA → MCTIA ($630, 5-8 months) — accessible CREST-aligned route into proctored CTI",
+        "Added 8kSec Practitioner Track for Mobile Pentester — CASE → CISE → CMSE for app-testing-focused mobile security",
+        "Added malware_mobile track for Malware Analyst — CAMRE → CIMRE → CMMRE for mobile malware reverse engineering",
+        "Added AIRTP+ as the entry step in the AI Red Team path",
+        "Refocused Mobile Pentester role on app testing only — kernel/internals research now lives in the dedicated Mobile Security Researcher role to avoid overlap",
+        "Cleaned up roles.json — fixed long-standing path_count and path_ids drift across 13 roles so metadata now matches the actual path files"
       ]
     },
     {

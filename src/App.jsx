@@ -540,7 +540,7 @@ function CertProfile({ cert, onClose }) {
 // ═══════════════════════════════════════════════════════════════════════════
 
 function CertView({ CERTS, setCERTS, isMobile }) {
-  const [domain,      setDomain     ] = useState("offensive");
+  const [domain,      setDomain     ] = useState("all");
   const [cert,        setCert       ] = useState(null);
   const [search,      setSearch     ] = useState("");
   const [filterLevel, setFilterLevel] = useState("all");
@@ -671,7 +671,9 @@ function CertView({ CERTS, setCERTS, isMobile }) {
           <option value="default">Default order</option>
           <option value="overall">Score ↓</option>
           <option value="alpha">A–Z</option>
+          <option value="level">Level</option>
           <option value="cost">Cost ↑</option>
+          <option value="issuer">Issuer</option>
         </select>
       </>}
       <div style={{ marginLeft:"auto", display:"flex", alignItems:"center", gap:8 }}>
@@ -949,7 +951,11 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
   const pathData  = role ? PATHS[role.id] : null;
   const rolePaths = pathData?.paths ?? [];
 
-  const pickRole = r => { if (role?.id === r.id) return; setRole(r); setPath(null); setCert(null); if (isMobile) setMobileStep("paths"); };
+  const pickRole = r => {
+    if (role?.id === r.id) { if (isMobile) setMobileStep("paths"); return; }
+    setRole(r); setPath(null); setCert(null);
+    if (isMobile) setMobileStep("paths");
+  };
   const pickPath = p => { setPath(p); setCert(null); };
 
   useEffect(() => {
