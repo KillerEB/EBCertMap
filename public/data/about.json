@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-04-29",
+      "title": "New role + budget-friendly paths",
+      "body": "Added a few new role paths around the recent boutique certs. Most notable: split mobile security into two roles instead of cramming everything under Mobile Pentester — kept that role focused on app testing (CMSE/CISE/CASE), and created a dedicated Mobile Security Researcher role for the deeper kernel/internals/ARM exploitation track (CISR → CASR → OAAE → OMSE). Two roles, clearer career story. Also added a budget CTI path (arcX FTIA → PTIA → MCTIA) at $630 instead of $999+ for GCTI, a malware mobile track, and AIRTP+ as the entry into AI red teaming. Plus a quiet roles.json cleanup so the metadata actually matches the path files."
+    },
+    {
       "date": "2026-04-28",
       "title": "New boutique certs added — OMSE, CMSE and more",
       "body": "Found and added a bunch of lesser-known but genuinely valuable certs that don't get enough attention — including 8kSec's mobile security stack (OMSE, CMSE, OAAE, CISE, CASE, CISR, CASR, CAMRE, CIMRE, CMMRE, CAISR), Mandiant's MCTIA, arcX FTIA/PTIA, and Learn Prompting's AIRTP+. These are hands-on, practical-format credentials that build real skill rather than just exam prep — worth a look if you're going deep on mobile security, AI red teaming, or threat intelligence."
@@ -32,6 +37,30 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-04-29",
+      "title": "New Role, New Paths & Roles Cleanup",
+      "items": [
+        "Added new role: Mobile Security Researcher — for practitioners targeting platform vulnerability research (CISR → CASR → OAAE → OMSE)",
+        "Added cti_budget path for CTI Analyst — arcX FTIA → arcX PTIA → MCTIA ($630, 5-8 months) — accessible CREST-aligned route into proctored CTI",
+        "Added 8kSec Practitioner Track for Mobile Pentester — CASE → CISE → CMSE for app-testing-focused mobile security",
+        "Added malware_mobile track for Malware Analyst — CAMRE → CIMRE → CMMRE for mobile malware reverse engineering",
+        "Added AIRTP+ as the entry step in the AI Red Team path",
+        "Refocused Mobile Pentester role on app testing only — kernel/internals research now lives in the dedicated Mobile Security Researcher role to avoid overlap",
+        "Cleaned up roles.json — fixed long-standing path_count and path_ids drift across 13 roles so metadata now matches the actual path files"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Cloudflare Security Hardening",
+      "items": [
+        "Enabled 'Always Use HTTPS' — all HTTP requests now 301 redirect to HTTPS",
+        "Raised minimum TLS version from 1.0 to 1.2 — drops deprecated, vulnerable TLS versions (POODLE, BEAST exposure surface)",
+        "Enabled HSTS with 6-month max-age — browsers now remember to always use HTTPS for ebcertmap.com",
+        "Left HSTS subdomain inclusion and preload list off as safe defaults — can be revisited if subdomains are added later",
+        "Enabled X-Content-Type-Options: nosniff header — prevents browsers from MIME-type guessing on responses"
+      ]
+    },
     {
       "date": "2026-04-28",
       "title": "Boutique Mobile, AI & CTI Certs — 15 New Entries",

@@ -1,0 +1,77 @@
+{
+  "role_id": "mobile_security_researcher",
+  "label": "Mobile Security Researcher",
+  "description": "Conducts original vulnerability research on iOS and Android platforms \u2014 discovering and exploiting vulnerabilities in mobile operating systems, kernels, and platform components. Distinct from mobile pentesting which focuses on app-layer testing.",
+  "job_titles": [
+    "Mobile Security Researcher",
+    "iOS Security Researcher",
+    "Android Security Researcher",
+    "Mobile Vulnerability Researcher",
+    "Platform Security Engineer",
+    "Mobile Exploit Developer"
+  ],
+  "experience_level": "senior_to_elite",
+  "paths": [
+    {
+      "id": "mobile_researcher_8ksec",
+      "name": "8kSec Research Track",
+      "rationale": "The only credentialed path into mobile platform security research. CISR and CASR build iOS and Android internals depth; OMSE combines both into kernel-level offensive research; OAAE adds ARM64 exploitation specialization for researchers targeting mobile kernel vulnerabilities at the assembly level.",
+      "estimated_timeline": "18-30 months",
+      "total_cost_usd": 476,
+      "pros": [
+        "The only credentialed path specifically for mobile security research",
+        "OMSE is elite-tier \u2014 kernel exploitation on real iOS and Android via Corellium",
+        "OAAE fills the ARM64 exploit development gap missing from most RE paths",
+        "Valued at specialist firms: Google Project Zero, Corellium, NowSecure, Apple, Meta Red Team",
+        "Lifetime validity, retake $119"
+      ],
+      "cons": [
+        "All certs bundled with training \u2014 not standalone walk-up exams",
+        "Requires very strong existing mobile and exploit development background",
+        "Niche \u2014 most employers hiring at this level care about CVEs and published research more than certs",
+        "Very high technical difficulty \u2014 OMSE is the hardest 8kSec credential"
+      ],
+      "prerequisites": {
+        "experience": "Mobile pentesting experience required minimum (CMSE or eMAPT equivalent). Exploit development fundamentals. ARM assembly proficiency. This is an elite specialization \u2014 not an entry or intermediate path.",
+        "knowledge": [
+          "iOS and Android platform internals",
+          "ARM/AARCH64 assembly",
+          "Kernel security concepts",
+          "Memory corruption exploitation",
+          "Reverse engineering proficiency"
+        ],
+        "recommended_certs": [
+          "8ksec-cise",
+          "8ksec-case",
+          "osed"
+        ]
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "8ksec-cisr",
+          "order": 1,
+          "estimated_time": "4-6 months",
+          "notes": "8kSec Certified iOS Security Researcher \u2014 iOS internals for researchers. Security architecture, vulnerability research methodology, jailbreak concepts, exploit development on iOS. Practical exam in Corellium with written report. The iOS-specific internals foundation before OMSE."
+        },
+        {
+          "cert_id": "8ksec-casr",
+          "order": 2,
+          "estimated_time": "4-6 months",
+          "notes": "8kSec Certified Android Security Researcher \u2014 Android internals for researchers. Binder IPC, SELinux policy analysis, kernel security, Android-specific vuln research. Practical exam in Corellium. The Android-specific complement to CISR."
+        },
+        {
+          "cert_id": "8ksec-oaae",
+          "order": 3,
+          "estimated_time": "4-6 months",
+          "notes": "8kSec Offensive ARM Exploitation Expert \u2014 ARM64 vulnerability discovery and exploitation. Fills the architecture-level gap between platform internals research and full kernel exploit development. Practical exam in Corellium. The bridge between CISR/CASR and OMSE's combined kernel exploitation content."
+        },
+        {
+          "cert_id": "8ksec-omse",
+          "order": 4,
+          "estimated_time": "6-10 months",
+          "notes": "8kSec Offensive Mobile Security Expert \u2014 the elite capstone. iOS and Android userland AND kernel-level exploitation on real device architectures in Corellium. 8kSec's hardest credential. With CISR, CASR, and OAAE foundations this is the natural culmination \u2014 kernel exploitation becomes approachable with strong internals and ARM exploitation context. CVEs, conference talks (OffensiveCon, MOSEC, HITB), and bug bounty submissions matter as much as the cert for senior research roles."
+        }
+      ]
+    }
+  ]
+}

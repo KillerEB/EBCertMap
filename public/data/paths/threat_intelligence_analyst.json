@@ -103,6 +103,54 @@
           "notes": "CREST's advanced CTI credential \u2014 the most rigorous and practically weighted intelligence certification available. Significant written and practical components covering strategic intelligence, attribution, collection management, and intelligence product development for senior stakeholders. Targets senior practitioners with substantial CTI experience. Preparation requires real analytical work, not just study \u2014 your GCTI foundation and operational CTI experience are both essential inputs."
         }
       ]
+    },
+    {
+      "id": "cti_budget",
+      "name": "Budget CTI Track",
+      "rationale": "arcX FTIA provides a free CTI foundation from a CREST-accredited provider. arcX PTIA covers the full CREST CPTIA syllabus at ~$380 \u2014 the most affordable CREST-aligned CTI preparation available. MCTIA adds a genuinely proctored Mandiant-branded credential at $250. Total under $650 \u2014 the most accessible credentialed CTI path before committing to GCTI.",
+      "estimated_timeline": "5-8 months",
+      "total_cost_usd": 630,
+      "pros": [
+        "arcX FTIA is free \u2014 zero cost entry point",
+        "arcX PTIA covers the full CREST CPTIA syllabus \u2014 CREST-aligned at fraction of CPTIA cost",
+        "MCTIA is a genuinely proctored, renewable cert with Mandiant/Google Cloud brand recognition",
+        "Under $650 total \u2014 the cheapest credentialed CTI path available"
+      ],
+      "cons": [
+        "arcX credentials are course-completion, not externally proctored",
+        "Lower HR brand recognition than GCTI or CREST CPTIA",
+        "MCTIA MCQ-only \u2014 no practical tradecraft component",
+        "Path assumes self-study for analytical methodology beyond course content"
+      ],
+      "prerequisites": {
+        "experience": "No prior CTI certs required. SOC or security operations exposure beneficial.",
+        "knowledge": [
+          "Basic networking and security concepts",
+          "Attacker techniques awareness",
+          "MITRE ATT&CK familiarity"
+        ],
+        "recommended_certs": []
+      },
+      "cert_sequence": [
+        {
+          "cert_id": "arcx-ftia",
+          "order": 1,
+          "estimated_time": "1 week",
+          "notes": "arcX Foundation Level Threat Intelligence Analyst \u2014 free, ~2.5 hours, covers CTI fundamentals and intelligence lifecycle. CREST-accredited training provider. Start here to validate interest in CTI before investing further. Complete the free CTI 101 course and pass the embedded final exam."
+        },
+        {
+          "cert_id": "arcx-ptia",
+          "order": 2,
+          "estimated_time": "2-3 months",
+          "notes": "arcX Practitioner Threat Intelligence Analyst \u2014 ~\u00a3300 (~$380), 17+ hours covering the full CREST CPTIA syllabus. The most affordable CREST-aligned CTI credential. Covers collection planning, structured analytic techniques, intelligence reporting, legal/ethical frameworks, and geopolitical threat context. Practitioners who want the actual CREST CPTIA badge can sit the separate Pearson VUE exam after completing this course."
+        },
+        {
+          "cert_id": "mctia",
+          "order": 3,
+          "estimated_time": "2-3 months",
+          "notes": "Mandiant Cyber Threat Intelligence Analysis \u2014 $250, Kryterion OLP proctored, 70% pass. The only genuinely proctored CTI cert in this stack. Mandiant/Google Cloud brand recognition adds credibility beyond the arcX credentials. Objectives mapped to NIST/NICE AN-ASA-001. 3-year renewal with CPE or retake. With arcX PTIA foundations established, MCTIA content is directly reinforced \u2014 cover IOC analysis, threat actor profiling, and cognitive bias mitigation before the exam."
+        }
+      ]
     }
   ]
 }

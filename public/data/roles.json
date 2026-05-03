@@ -4,11 +4,15 @@
     "label": "SOC Analyst",
     "description": "Monitors security events, investigates alerts, and responds to incidents in a security operations center. Typically Tier 1-3 progression.",
     "experience_level": "entry_to_intermediate",
-    "path_count": 6,
+    "path_count": 7,
     "path_ids": [
+      "soc_entry",
       "soc_analyst_government",
       "soc_analyst_practical",
-      "soc_analyst_budget"
+      "soc_analyst_budget",
+      "soc_microsoft",
+      "soc_crowdstrike",
+      "soc_paloalto"
     ],
     "category": "defensive"
   },
@@ -21,7 +25,8 @@
     "path_ids": [
       "pentest_standard",
       "pentest_government",
-      "pentest_budget"
+      "pentest_budget",
+      "pentest_htb"
     ],
     "category": "offensive"
   },
@@ -34,7 +39,8 @@
     "path_ids": [
       "dfir_enterprise",
       "dfir_practical",
-      "dfir_cloud"
+      "dfir_cloud",
+      "dfir_offsec"
     ],
     "category": "defensive"
   },
@@ -47,20 +53,23 @@
     "path_ids": [
       "cloud_sec_aws",
       "cloud_sec_azure",
-      "cloud_sec_multicloud"
+      "cloud_sec_multicloud",
+      "cloud_sec_gcp",
+      "cloud_sec_kubernetes"
     ],
     "category": "network"
   },
   {
     "id": "appsec_engineer",
     "label": "Application Security Engineer",
-    "description": "Secures software throughout the development lifecycle \u2014 from code review and threat modeling through penetration testing and DevSecOps integration.",
+    "description": "Secures software throughout the development lifecycle — from code review and threat modeling through penetration testing and DevSecOps integration.",
     "experience_level": "intermediate_to_expert",
     "path_count": 4,
     "path_ids": [
       "appsec_pentester",
       "appsec_devsecops",
-      "appsec_government"
+      "appsec_government",
+      "appsec_secure_dev"
     ],
     "category": "offensive"
   },
@@ -69,10 +78,11 @@
     "label": "CTI Analyst",
     "description": "Produces and consumes cyber threat intelligence to inform defensive decisions. Profiles threat actors, analyzes TTPs, and produces intelligence products.",
     "experience_level": "intermediate_to_expert",
-    "path_count": 2,
+    "path_count": 3,
     "path_ids": [
       "cti_standard",
-      "cti_government"
+      "cti_government",
+      "cti_budget"
     ],
     "category": "defensive"
   },
@@ -92,7 +102,7 @@
   {
     "id": "ciso",
     "label": "CISO / Security Director",
-    "description": "Executive responsible for the overall security posture of an organization \u2014 strategy, governance, risk management, and team leadership.",
+    "description": "Executive responsible for the overall security posture of an organization — strategy, governance, risk management, and team leadership.",
     "experience_level": "expert",
     "path_count": 3,
     "path_ids": [
@@ -105,7 +115,7 @@
   {
     "id": "grc_analyst",
     "label": "GRC Analyst / Risk Manager",
-    "description": "Manages governance, risk, and compliance programs \u2014 conducting risk assessments, managing audits, and ensuring regulatory compliance.",
+    "description": "Manages governance, risk, and compliance programs — conducting risk assessments, managing audits, and ensuring regulatory compliance.",
     "experience_level": "intermediate_to_expert",
     "path_count": 3,
     "path_ids": [
@@ -149,7 +159,8 @@
     "path_count": 3,
     "path_ids": [
       "vm_tenable",
-      "vm_qualys"
+      "vm_qualys",
+      "vm_giac"
     ],
     "category": "defensive"
   },
@@ -188,13 +199,15 @@
     "path_ids": [
       "web_blackbox",
       "web_whitebox",
-      "web_government"
+      "web_government",
+      "web_offsec",
+      "web_htb"
     ]
   },
   {
     "id": "exploit_developer",
     "label": "Exploit Developer",
-    "description": "Develops working exploits for software vulnerabilities and performs vulnerability research \u2014 binary exploitation, reverse engineering, mitigation bypass.",
+    "description": "Develops working exploits for software vulnerabilities and performs vulnerability research — binary exploitation, reverse engineering, mitigation bypass.",
     "experience_level": "senior_to_elite",
     "category": "offensive",
     "path_count": 2,
@@ -206,25 +219,27 @@
   {
     "id": "red_team_operator",
     "label": "Red Team Operator",
-    "description": "Conducts full-scope adversary simulation \u2014 C2 infrastructure, EDR evasion, persistence, lateral movement, and objective-based operations.",
+    "description": "Conducts full-scope adversary simulation — C2 infrastructure, EDR evasion, persistence, lateral movement, and objective-based operations.",
     "experience_level": "senior",
     "category": "offensive",
     "path_count": 3,
     "path_ids": [
       "red_team_standard",
-      "red_team_crest"
+      "red_team_crest",
+      "red_team_offsec_elite"
     ]
   },
   {
     "id": "ad_enterprise_pentester",
     "label": "AD / Enterprise Pentester",
-    "description": "Specializes in internal network and Active Directory penetration testing \u2014 credential attacks, privilege escalation, and domain compromise.",
+    "description": "Specializes in internal network and Active Directory penetration testing — credential attacks, privilege escalation, and domain compromise.",
     "experience_level": "intermediate_to_senior",
     "category": "offensive",
     "path_count": 3,
     "path_ids": [
       "ad_altered_security",
-      "ad_oscp_plus"
+      "ad_oscp_plus",
+      "ad_htb"
     ]
   },
   {
@@ -237,24 +252,27 @@
     "path_ids": [
       "cloud_pentest_aws",
       "cloud_pentest_azure",
-      "cloud_pentest_multicloud"
+      "cloud_pentest_multicloud",
+      "cloud_pentest_gcp"
     ]
   },
   {
     "id": "mobile_pentester",
     "label": "Mobile Security Tester",
-    "description": "Specializes in security assessment of Android and iOS mobile applications \u2014 static and dynamic analysis, reverse engineering, and API testing.",
+    "description": "Specializes in security assessment of Android and iOS mobile applications — static and dynamic analysis, reverse engineering, and API testing.",
     "experience_level": "intermediate",
     "category": "offensive",
-    "path_count": 1,
+    "path_count": 3,
     "path_ids": [
-      "mobile_pentest_standard"
+      "mobile_standard",
+      "mobile_budget",
+      "mobile_8ksec_practitioner"
     ]
   },
   {
     "id": "iot_hardware_pentester",
     "label": "IoT / Hardware Pentester",
-    "description": "Performs security assessments on embedded systems and IoT devices \u2014 firmware extraction, UART/JTAG/SPI exploitation, and RF attacks.",
+    "description": "Performs security assessments on embedded systems and IoT devices — firmware extraction, UART/JTAG/SPI exploitation, and RF attacks.",
     "experience_level": "intermediate_to_senior",
     "category": "offensive",
     "path_count": 1,
@@ -265,7 +283,7 @@
   {
     "id": "wireless_specialist",
     "label": "Wireless Security Specialist",
-    "description": "Specializes in wireless network security assessment \u2014 WPA2/WPA3 attacks, enterprise wireless, rogue access points, and Bluetooth attacks.",
+    "description": "Specializes in wireless network security assessment — WPA2/WPA3 attacks, enterprise wireless, rogue access points, and Bluetooth attacks.",
     "experience_level": "intermediate",
     "category": "offensive",
     "path_count": 1,
@@ -276,7 +294,7 @@
   {
     "id": "social_engineer",
     "label": "Social Engineer / Physical Pentester",
-    "description": "Conducts human-based security assessments \u2014 phishing simulations, vishing, physical intrusion testing, and OSINT-based pretexting.",
+    "description": "Conducts human-based security assessments — phishing simulations, vishing, physical intrusion testing, and OSINT-based pretexting.",
     "experience_level": "intermediate",
     "category": "offensive",
     "path_count": 1,
@@ -290,10 +308,13 @@
     "description": "Analyzes malicious software through static and dynamic analysis to understand behavior, extract IOCs, and develop detection signatures.",
     "experience_level": "intermediate_to_senior",
     "category": "defensive",
-    "path_count": 3,
+    "path_count": 5,
     "path_ids": [
+      "malware_budget",
       "malware_giac",
-      "malware_practical"
+      "malware_practical",
+      "malware_offsec",
+      "malware_mobile"
     ]
   },
   {
@@ -323,19 +344,20 @@
   {
     "id": "incident_response_consultant",
     "label": "IR Consultant",
-    "description": "Leads and manages cyber incident response engagements \u2014 detection, containment, eradication, recovery, and breach investigation.",
+    "description": "Leads and manages cyber incident response engagements — detection, containment, eradication, recovery, and breach investigation.",
     "experience_level": "intermediate_to_senior",
     "category": "defensive",
     "path_count": 3,
     "path_ids": [
       "ir_enterprise",
-      "ir_practical"
+      "ir_practical",
+      "ir_offsec"
     ]
   },
   {
     "id": "network_forensics_analyst",
     "label": "Network Forensics Analyst",
-    "description": "Investigates security incidents through network traffic analysis \u2014 PCAP analysis, protocol reconstruction, and network-based threat hunting.",
+    "description": "Investigates security incidents through network traffic analysis — PCAP analysis, protocol reconstruction, and network-based threat hunting.",
     "experience_level": "intermediate",
     "category": "defensive",
     "path_count": 1,
@@ -346,13 +368,15 @@
   {
     "id": "detection_engineer",
     "label": "Detection Engineer",
-    "description": "Builds and maintains detection logic for SIEM and EDR platforms \u2014 Sigma rules, KQL queries, SPL, and YARA signatures.",
+    "description": "Builds and maintains detection logic for SIEM and EDR platforms — Sigma rules, KQL queries, SPL, and YARA signatures.",
     "experience_level": "intermediate",
     "category": "defensive",
     "path_count": 4,
     "path_ids": [
       "detection_microsoft",
-      "detection_splunk"
+      "detection_splunk",
+      "detection_crowdstrike",
+      "detection_paloalto"
     ]
   },
   {
@@ -363,13 +387,14 @@
     "category": "defensive",
     "path_count": 2,
     "path_ids": [
-      "threat_hunt_standard"
+      "threat_hunt_standard",
+      "threat_hunt_offsec"
     ]
   },
   {
     "id": "siem_engineer",
     "label": "SIEM / Platform Engineer",
-    "description": "Builds, operates, and scales SIEM and security data platform infrastructure \u2014 ingestion pipelines, log parsing, and platform architecture.",
+    "description": "Builds, operates, and scales SIEM and security data platform infrastructure — ingestion pipelines, log parsing, and platform architecture.",
     "experience_level": "intermediate",
     "category": "defensive",
     "path_count": 2,
@@ -381,7 +406,7 @@
   {
     "id": "network_security_engineer",
     "label": "Network Security Engineer",
-    "description": "Designs, implements, and operates network security infrastructure \u2014 firewalls, IPS/IDS, VPN, and NGFW policy management.",
+    "description": "Designs, implements, and operates network security infrastructure — firewalls, IPS/IDS, VPN, and NGFW policy management.",
     "experience_level": "intermediate_to_senior",
     "category": "network",
     "path_count": 6,
@@ -409,7 +434,7 @@
   {
     "id": "devsecops_engineer",
     "label": "DevSecOps Engineer",
-    "description": "Integrates security into software delivery pipelines \u2014 SAST, DAST, SCA, container security, IaC security, and secrets management.",
+    "description": "Integrates security into software delivery pipelines — SAST, DAST, SCA, container security, IaC security, and secrets management.",
     "experience_level": "intermediate_to_senior",
     "category": "network",
     "path_count": 2,
@@ -421,7 +446,7 @@
   {
     "id": "container_kubernetes_security",
     "label": "Container / K8s Security Engineer",
-    "description": "Secures containerized workloads and Kubernetes clusters \u2014 pod security, RBAC, network policies, runtime security, and image scanning.",
+    "description": "Secures containerized workloads and Kubernetes clusters — pod security, RBAC, network policies, runtime security, and image scanning.",
     "experience_level": "intermediate",
     "category": "network",
     "path_count": 2,
@@ -433,7 +458,7 @@
   {
     "id": "cloud_security_architect",
     "label": "Cloud Security Architect",
-    "description": "Designs cloud security architecture at a strategic level \u2014 reference architectures, governance frameworks, and multi-cloud security strategy.",
+    "description": "Designs cloud security architecture at a strategic level — reference architectures, governance frameworks, and multi-cloud security strategy.",
     "experience_level": "senior",
     "category": "network",
     "path_count": 2,
@@ -457,7 +482,7 @@
   {
     "id": "risk_manager",
     "label": "IT / Cyber Risk Manager",
-    "description": "Identifies, quantifies, and manages IT and cyber risk \u2014 risk assessments, treatment plans, quantification (FAIR), and senior reporting.",
+    "description": "Identifies, quantifies, and manages IT and cyber risk — risk assessments, treatment plans, quantification (FAIR), and senior reporting.",
     "experience_level": "intermediate_to_senior",
     "category": "grc",
     "path_count": 2,
@@ -481,7 +506,7 @@
   {
     "id": "tprm_manager",
     "label": "TPRM Manager",
-    "description": "Manages vendor and third-party risk programs \u2014 SIG questionnaire-based assessments, vendor tiering, and continuous monitoring.",
+    "description": "Manages vendor and third-party risk programs — SIG questionnaire-based assessments, vendor tiering, and continuous monitoring.",
     "experience_level": "intermediate",
     "category": "grc",
     "path_count": 1,
@@ -492,7 +517,7 @@
   {
     "id": "data_security_engineer",
     "label": "Data Security / DLP Engineer",
-    "description": "Implements and manages data security controls \u2014 data classification, DLP policy, data governance, and information protection technologies.",
+    "description": "Implements and manages data security controls — data classification, DLP policy, data governance, and information protection technologies.",
     "experience_level": "intermediate",
     "category": "grc",
     "path_count": 1,
@@ -503,7 +528,7 @@
   {
     "id": "soc_manager",
     "label": "SOC Manager",
-    "description": "Manages security operations center teams and programs \u2014 shift management, analyst development, SLA management, and SOC governance.",
+    "description": "Manages security operations center teams and programs — shift management, analyst development, SLA management, and SOC governance.",
     "experience_level": "senior",
     "category": "leadership",
     "path_count": 1,
@@ -514,7 +539,7 @@
   {
     "id": "security_program_manager",
     "label": "Security Program Manager",
-    "description": "Manages information security programs at the organizational level \u2014 project portfolio management, vendor management, and budget planning.",
+    "description": "Manages information security programs at the organizational level — project portfolio management, vendor management, and budget planning.",
     "experience_level": "senior",
     "category": "leadership",
     "path_count": 1,
@@ -525,7 +550,7 @@
   {
     "id": "security_awareness_manager",
     "label": "Security Awareness Manager",
-    "description": "Designs and manages security awareness programs and human risk management \u2014 phishing simulation, culture measurement, and behavior change.",
+    "description": "Designs and manages security awareness programs and human risk management — phishing simulation, culture measurement, and behavior change.",
     "experience_level": "intermediate",
     "category": "leadership",
     "path_count": 1,
@@ -548,7 +573,7 @@
   {
     "id": "osint_analyst",
     "label": "OSINT Analyst",
-    "description": "Conducts open source intelligence investigations \u2014 subject profiling, digital footprint analysis, geolocation, and intelligence product development for corporate, law enforcement, or government clients.",
+    "description": "Conducts open source intelligence investigations — subject profiling, digital footprint analysis, geolocation, and intelligence product development for corporate, law enforcement, or government clients.",
     "experience_level": "intermediate",
     "path_count": 2,
     "path_ids": [
@@ -560,7 +585,7 @@
   {
     "id": "purple_team_analyst",
     "label": "Purple Team Analyst",
-    "description": "Bridges offensive and defensive security \u2014 conducting structured attack-detect-respond cycles, validating detection coverage, and improving defensive tooling through adversary simulation.",
+    "description": "Bridges offensive and defensive security — conducting structured attack-detect-respond cycles, validating detection coverage, and improving defensive tooling through adversary simulation.",
     "experience_level": "senior",
     "path_count": 2,
     "path_ids": [
@@ -580,5 +605,16 @@
       "payment_qsa"
     ],
     "category": "grc"
+  },
+  {
+    "id": "mobile_security_researcher",
+    "label": "Mobile Security Researcher",
+    "description": "Conducts original vulnerability research on iOS and Android platforms — discovering and exploiting vulnerabilities in mobile operating systems, kernels, and platform components.",
+    "experience_level": "senior_to_elite",
+    "path_count": 1,
+    "path_ids": [
+      "mobile_researcher_8ksec"
+    ],
+    "category": "offensive"
   }
 ]

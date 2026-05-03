@@ -17,9 +17,9 @@
     {
       "id": "ai_red_team",
       "name": "AI Red Team Track",
-      "rationale": "For offensive practitioners pivoting into AI security. Starts with SecOps Group's practical AI/ML pentesting cert as a hands-on foundation, adds HTB COAE (Google co-developed, launched April 2026) for advanced LLM and agentic AI exploitation, then OSAI/OSAI+ for OffSec brand recognition. This is the most technically grounded AI offensive path available in 2026.",
-      "estimated_timeline": "8-14 months",
-      "total_cost_usd": 2568,
+      "rationale": "For offensive practitioners pivoting into AI security. Starts with SecOps Group's practical AI/ML pentesting cert as a hands-on foundation, adds HTB COAE (Google co-developed, launched April 2026) for advanced LLM and agentic AI exploitation, then OSAI/OSAI+ for OffSec brand recognition. This is the most technically grounded AI offensive path available in 2026. For practitioners with a mobile/embedded focus, 8kSec's CAISR provides an additional hands-on AI security research credential alongside COAE.",
+      "estimated_timeline": "10-16 months",
+      "total_cost_usd": 2867,
       "pros": [
         "All three are hands-on practical exams \u2014 no MCQ-only credentials",
         "Covers the full AI attack surface: LLM, ML models, agentic AI, and AI-integrated apps",
@@ -46,20 +46,26 @@
       },
       "cert_sequence": [
         {
-          "cert_id": "sog-caimlpen",
+          "cert_id": "airtp-plus",
           "order": 1,
+          "estimated_time": "1-2 months",
+          "notes": "Learn Prompting AI Red Teaming Professional \u2014 24-hour vendor-administered practical assessment covering prompt injection, LLM jailbreaking, adversarial examples, and OWASP LLM Top 10. $299 exam-only or $1,199 with course. Unaccredited but the most accessible AI red teaming credential with a hands-on format. Good entry point to validate AI red team interest before the HTB COAE investment. Annual renewal $199."
+        },
+        {
+          "cert_id": "sog-caimlpen",
+          "order": 2,
           "estimated_time": "1-2 months",
           "notes": "SecOps Group Certified AI/ML Pentester \u2014 hands-on practical exam covering OWASP LLM Top 10, prompt injection, model extraction, and adversarial ML. \u00a3250 (~$320) with frequent 75% discount codes. The most accessible entry point for offensive practitioners new to AI security. Sets the technical vocabulary and attack framework before COAE's more advanced content."
         },
         {
           "cert_id": "htb-coae",
-          "order": 2,
+          "order": 3,
           "estimated_time": "3-5 months",
           "notes": "HTB Certified Offensive AI Expert \u2014 co-developed with Google, launched April 2, 2026. Covers advanced LLM exploitation, agentic AI attacks, RAG poisoning, AI supply chain abuse, and multi-modal model vulnerabilities. 100% practical exam with commercial report requirement. The most technically rigorous AI offensive cert currently available. Complete the HTB AI Red Teamer path before attempting \u2014 it maps directly to exam content."
         },
         {
           "cert_id": "osai",
-          "order": 3,
+          "order": 4,
           "estimated_time": "3-5 months",
           "notes": "OffSec AI Red Teamer (OSAI/OSAI+) \u2014 launched March 31, 2026. OffSec brand recognition is the primary value here \u2014 hiring managers familiar with OSCP will recognize the OffSec name. OSAI is lifetime; OSAI+ requires a higher pass threshold and 3-year renewal (same model as OSCP/OSCP+). Exam availability opens July 15, 2026. With COAE completed the OSAI content will feel familiar \u2014 focus on OffSec's specific methodology and reporting format."
         }
