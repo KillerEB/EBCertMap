@@ -539,6 +539,298 @@ function CertProfile({ cert, onClose }) {
 // CERT VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
+// ═══════════════════════════════════════════════════════════════════════════
+// MAP VIEW — domain × level grid with color-by dimension switching
+// ═══════════════════════════════════════════════════════════════════════════
+
+const MAP_LEVEL_ORDER = [...LEVEL_ORDER].reverse(); // elite at top, beginner at bottom
+const MAP_LEVEL_DESC = { elite:"Research / kernel-class", expert:"Industry benchmark", intermediate:"Proven core skills", beginner:"Entry credentials" };
+
+function pillColors(cert, cellDomainId, colorBy) {
+  let col = "#64748b";
+  if (colorBy === "domain") {
+    // cellDomainId is a real domain id when in all-domains mode; in single-domain
+    // mode (issuer columns) we color by the cert's primary domain instead
+    const id = DOMAINS.find(d => d.id === cellDomainId)
+      ? cellDomainId
+      : (Array.isArray(cert.domain) ? cert.domain[0] : cert.domain);
+    col = DOMAINS.find(d => d.id === id)?.color || col;
+  } else if (colorBy === "recognition") {
+    const er = cert.scores?.employer_recognition ?? 5;
+    col = er >= 8 ? "#4ade80" : er >= 5 ? "#fbbf24" : "#f87171";
+  } else if (colorBy === "practical") {
+    const pw = cert.practical_weight ?? 0;
+    col = pw >= 70 ? "#4ade80" : pw >= 30 ? "#fbbf24" : "#94a3b8";
+  } else if (colorBy === "cost") {
+    const cost = cert.cost_usd ?? 0;
+    col = cost === 0 ? "#4ade80" : cost < 500 ? "#a3e635" : cost < 1500 ? "#fbbf24" : "#f87171";
+  }
+  return { bg:`${col}22`, border:`${col}77`, text:col };
+}
+
+function MapLegend({ colorBy, setColorBy }) {
+  const block = (key, title, children) => {
+    const active = colorBy === key;
+    const onClick = () => setColorBy(key);
+    return (
+      <div onClick={onClick} style={{ border:`1px solid ${active?"var(--accent)":"var(--border)"}`, borderRadius:7, overflow:"hidden", marginBottom:7, cursor:"pointer", transition:"border-color 0.15s" }}>
+        <div style={{ padding:"6px 8px", display:"flex", alignItems:"center", gap:5, background:active?"rgba(74,222,128,0.06)":"var(--surface2)", borderBottom:"1px solid var(--border)" }}>
+          <div style={{ fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase", color:active?"var(--accent)":"var(--muted)", flex:1 }}>{title}</div>
+          {active && <div style={{ fontSize:7.5, fontWeight:700, letterSpacing:"0.05em", padding:"1px 5px", borderRadius:3, background:"rgba(74,222,128,0.15)", color:"var(--accent)" }}>ACTIVE</div>}
+        </div>
+        <div style={{ padding:"7px 8px", display:"flex", flexDirection:"column", gap:4 }}>{children}</div>
+      </div>
+    );
+  };
+
+  const row = (color, label, sub) => (
+    <div style={{ display:"flex", alignItems:"center", gap:6 }}>
+      <div style={{ width:20, height:9, borderRadius:2, flexShrink:0, background:`${color}44`, border:`1px solid ${color}88` }} />
+      <div>
+        <div style={{ fontSize:9.5, color }}>{label}</div>
+        {sub && <div style={{ fontSize:8.5, color:"var(--muted)" }}>{sub}</div>}
+      </div>
+    </div>
+  );
+
+  return (
+    <div style={{ width:172, flexShrink:0, borderRight:"1px solid var(--border)", background:"var(--surface)", overflowY:"auto", padding:8 }}>
+      {/* Difficulty (always visible — tells user what rows mean) */}
+      <div style={{ border:"1px solid var(--border)", borderRadius:7, overflow:"hidden", marginBottom:7 }}>
+        <div style={{ padding:"6px 8px", fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase", color:"var(--muted)", background:"var(--surface2)", borderBottom:"1px solid var(--border)" }}>
+          Difficulty (rows)
+        </div>
+        <div style={{ padding:"7px 8px", display:"flex", flexDirection:"column", gap:5 }}>
+          {MAP_LEVEL_ORDER.map(lv => (
+            <div key={lv} style={{ display:"flex", alignItems:"flex-start", gap:6 }}>
+              <div style={{ width:7, height:7, borderRadius:2, background:LEVELS[lv].fg, flexShrink:0, marginTop:3 }} />
+              <div>
+                <div style={{ fontSize:10, fontWeight:600, color:LEVELS[lv].fg }}>{LEVELS[lv].label}</div>
+                <div style={{ fontSize:8.5, color:"var(--muted)", lineHeight:1.3 }}>{MAP_LEVEL_DESC[lv]}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Color-by selector blocks (clickable) */}
+      <div style={{ fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase", color:"var(--muted)", padding:"4px 2px 6px" }}>Color pills by — click</div>
+
+      {block("domain", "Domain", DOMAINS.map(d => (
+        <div key={d.id} style={{ display:"flex", alignItems:"center", gap:6 }}>
+          <div style={{ width:20, height:9, borderRadius:2, flexShrink:0, background:`${d.color}33`, border:`1px solid ${d.color}88` }} />
+          <div style={{ fontSize:9.5, color:d.color }}>{d.short}</div>
+        </div>
+      )))}
+
+      {block("recognition", "Employer recognition", <>
+        {row("#f87171", "1–4", "Niche / unproven")}
+        {row("#fbbf24", "5–7", "Respected")}
+        {row("#4ade80", "8–10", "Must-have / DoD")}
+      </>)}
+
+      {block("practical", "Practical weight", <>
+        {row("#94a3b8", "0–29%", "MCQ-heavy")}
+        {row("#fbbf24", "30–69%", "Hybrid")}
+        {row("#4ade80", "70–100%", "Hands-on")}
+      </>)}
+
+      {block("cost", "Cost tier", <>
+        {row("#4ade80", "Free")}
+        {row("#a3e635", "Under $500")}
+        {row("#fbbf24", "$500–$1,500")}
+        {row("#f87171", "$1,500+")}
+      </>)}
+    </div>
+  );
+}
+
+const EMPTY_CELL_BG = "radial-gradient(circle at 1px 1px, rgba(148,163,184,0.08) 1px, transparent 0)";
+
+function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
+  const focused = domain !== "all";
+  const useLeaderboard = focused || isMobile; // mobile always uses leaderboard
+  const focusedColor = DOMAINS.find(d => d.id === domain)?.color || "#94a3b8";
+
+  // Group certs by level — for both modes
+  const certsByLevel = useMemo(() => {
+    const m = {}; LEVEL_ORDER.forEach(lv => m[lv] = []);
+    certs.forEach(c => { if (m[c.level]) m[c.level].push(c); });
+    Object.values(m).forEach(list => list.sort((a,b) => (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0)));
+    return m;
+  }, [certs]);
+
+  // For all-domains desktop mode: also distribute into domain×level cells
+  const cellMap = useMemo(() => {
+    if (useLeaderboard) return null;
+    const m = {};
+    DOMAINS.forEach(d => { m[d.id] = {}; LEVEL_ORDER.forEach(lv => m[d.id][lv] = []); });
+    certs.forEach(c => {
+      const domains = Array.isArray(c.domain) ? c.domain : [c.domain];
+      domains.forEach(domId => {
+        if (m[domId] && m[domId][c.level]) m[domId][c.level].push(c);
+      });
+    });
+    Object.values(m).forEach(byLvl => Object.values(byLvl).forEach(list =>
+      list.sort((a,b) => (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0))
+    ));
+    return m;
+  }, [certs, useLeaderboard]);
+
+  const labelColWidth = isMobile ? 64 : 80;
+
+  // ─── LEADERBOARD MODE — single-domain (desktop+mobile) or any mobile ─────
+  if (useLeaderboard) {
+    const domainObj = DOMAINS.find(d=>d.id===domain);
+    const banner = focused
+      ? <><span style={{ color:focusedColor, fontWeight:600 }}>{domainObj?.label}</span> · best-first by overall score{!isMobile && <> · click <span style={{ color:"var(--mid)", fontWeight:600 }}>All</span> for the cross-domain view</>}</>
+      : <>All domains · ranked by score within each level</>;
+    return (
+      <div style={{ flex:1, overflow:"auto", padding: isMobile ? 8 : 12 }}>
+        <div style={{ fontSize: isMobile?9.5:10, color:"var(--mid)", marginBottom:8, padding:"4px 8px", background:"var(--surface2)", borderRadius:5, border:"1px solid var(--border)", display:"inline-block" }}>
+          {banner}
+        </div>
+        <div style={{ border:"1px solid var(--border)", borderRadius:8, overflow:"hidden" }}>
+          {MAP_LEVEL_ORDER.map((lv, li) => {
+            const list = certsByLevel[lv];
+            const isEmpty = list.length === 0;
+            return (
+              <div key={lv} style={{ display:"flex", borderBottom: li < MAP_LEVEL_ORDER.length-1 ? "1px solid var(--border)" : "none", minHeight:60 }}>
+                <div style={{
+                  width:labelColWidth, flexShrink:0, display:"flex", alignItems:"center", justifyContent:"center",
+                  fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase",
+                  borderRight:"1px solid var(--border)", padding:"6px 2px",
+                  background:"var(--surface2)", color:LEVELS[lv].fg,
+                }}>
+                  <div>
+                    <div>{LEVELS[lv].label}</div>
+                    {!isEmpty && <div className="mono" style={{ fontSize:8, color:"var(--muted)", fontWeight:500, marginTop:2 }}>{list.length}</div>}
+                  </div>
+                </div>
+                <div style={{
+                  flex:1, padding:"8px 10px",
+                  display:"flex", flexWrap:"wrap", gap:5, alignContent:"flex-start",
+                  background: isEmpty ? EMPTY_CELL_BG : "none",
+                  backgroundSize: isEmpty ? "6px 6px" : undefined,
+                }}>
+                  {isEmpty && <div style={{ fontSize:10, color:"var(--muted)", fontStyle:"italic", padding:"6px 0" }}>No certs at this level</div>}
+                  {list.map(c => {
+                    const s = pillColors(c, domain, colorBy);
+                    const active = cert?.id === c.id;
+                    const score = c.scores?.overall;
+                    return (
+                      <div
+                        key={c.id}
+                        onClick={() => setCert(active ? null : c)}
+                        title={`${c.acronym} — ${c.full_name}${score!=null?` · ${score.toFixed(1)}`:""}`}
+                        style={{
+                          fontSize:9.5, fontWeight:600, padding:"3px 7px", borderRadius:4,
+                          cursor:"pointer", whiteSpace:"nowrap", fontFamily:"IBM Plex Mono, monospace",
+                          display:"inline-flex", alignItems:"center", gap:6,
+                          background:s.bg, border:`1px solid ${active?"#fff":s.border}`,
+                          color:s.text, outline: active ? "1.5px solid rgba(255,255,255,0.35)" : "none",
+                          outlineOffset:1, transition:"filter 0.1s",
+                        }}
+                        onMouseEnter={e => e.currentTarget.style.filter = "brightness(1.2)"}
+                        onMouseLeave={e => e.currentTarget.style.filter = ""}
+                      >
+                        <span style={{ overflow:"hidden", textOverflow:"ellipsis", maxWidth:160 }}>{c.acronym || c.id.toUpperCase()}</span>
+                        {score != null && (
+                          <span style={{
+                            fontSize:8.5, fontWeight:700, padding:"0 4px", borderRadius:3,
+                            background:"rgba(0,0,0,0.35)", color:scoreColor(score),
+                          }}>{score.toFixed(1)}</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  // ─── ALL-DOMAINS MODE — 15-column matrix ────────────────────────────────
+  const minColWidth = 84;
+  const gridMinWidth = DOMAINS.length * (minColWidth + 4) + labelColWidth;
+
+  return (
+    <div style={{ flex:1, overflow:"auto", padding:12 }}>
+      <div style={{ border:"1px solid var(--border)", borderRadius:8, overflow:"hidden", minWidth: gridMinWidth }}>
+        {/* Column headers */}
+        <div style={{ display:"flex", borderBottom:"1px solid rgba(80,140,255,0.2)" }}>
+          <div style={{ width:labelColWidth, flexShrink:0, background:"var(--surface2)", borderRight:"1px solid var(--border)" }} />
+          {DOMAINS.map(d => (
+            <div key={d.id} title={d.label} style={{
+              flex:1, fontSize:9, fontWeight:600, textAlign:"center", padding:"6px 2px",
+              letterSpacing:"0.05em", textTransform:"uppercase", borderRight:"1px solid var(--border)",
+              background:"var(--surface2)", color:d.color, minWidth:minColWidth,
+              overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap",
+            }}>{d.short}</div>
+          ))}
+        </div>
+
+        {/* Level rows */}
+        {MAP_LEVEL_ORDER.map((lv, li) => (
+          <div key={lv} style={{ display:"flex", borderBottom: li < MAP_LEVEL_ORDER.length-1 ? "1px solid var(--border)" : "none" }}>
+            <div style={{
+              width:labelColWidth, flexShrink:0, display:"flex", alignItems:"center", justifyContent:"center",
+              fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase",
+              borderRight:"1px solid var(--border)", padding:"6px 2px",
+              background:"var(--surface2)", color:LEVELS[lv].fg,
+            }}>{LEVELS[lv].label}</div>
+
+            {DOMAINS.map((dom, di) => {
+              const list = cellMap[dom.id][lv];
+              const isEmpty = list.length === 0;
+              return (
+                <div key={dom.id} style={{
+                  flex:1, padding:"6px 5px", borderRight: di < DOMAINS.length-1 ? "1px solid var(--border)" : "none",
+                  display:"flex", flexWrap:"wrap", gap:3, alignContent:"flex-start",
+                  minHeight:72, minWidth:minColWidth,
+                  background: isEmpty ? EMPTY_CELL_BG : "none",
+                  backgroundSize: isEmpty ? "6px 6px" : undefined,
+                }}>
+                  {list.map(c => {
+                    const s = pillColors(c, dom.id, colorBy);
+                    const active = cert?.id === c.id;
+                    return (
+                      <div
+                        key={c.id+"-"+dom.id}
+                        onClick={() => setCert(active ? null : c)}
+                        title={`${c.acronym} — ${c.full_name}`}
+                        style={{
+                          fontSize:8.5, fontWeight:600, padding:"2px 5px", borderRadius:3,
+                          cursor:"pointer", whiteSpace:"nowrap", fontFamily:"IBM Plex Mono, monospace",
+                          maxWidth:"100%", overflow:"hidden", textOverflow:"ellipsis",
+                          background:s.bg, border:`1px solid ${active?"#fff":s.border}`,
+                          color:s.text, outline: active ? "1.5px solid rgba(255,255,255,0.35)" : "none",
+                          outlineOffset:1, transition:"filter 0.1s",
+                        }}
+                        onMouseEnter={e => e.currentTarget.style.filter = "brightness(1.2)"}
+                        onMouseLeave={e => e.currentTarget.style.filter = ""}
+                      >
+                        {c.acronym || c.id.toUpperCase()}
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CERT VIEW
+// ═══════════════════════════════════════════════════════════════════════════
+
 function CertView({ CERTS, setCERTS, isMobile }) {
   const [domain,      setDomain     ] = useState("all");
   const [cert,        setCert       ] = useState(null);
@@ -551,11 +843,22 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   const [sortBy,      setSortBy     ] = useState("default");
   const [expanded,    setExpanded   ] = useState(new Set());
   const [showFilters, setShowFilters] = useState(false);
+  const [mapMode,     setMapMode    ] = useState(false);
+  const [colorBy,     setColorBy    ] = useState("domain");
 
   useEffect(() => {
     if (domain === "all" || CERTS[domain]) return;
     fetch(`/data/certs/${domain}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[domain]:data}))).catch(()=>{});
   }, [domain]);
+
+  // Map mode needs every domain loaded so the grid isn't sparse
+  useEffect(() => {
+    if (!mapMode) return;
+    DOMAINS.forEach(({ id }) => {
+      if (CERTS[id]) return;
+      fetch(`/data/certs/${id}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[id]:data}))).catch(()=>{});
+    });
+  }, [mapMode]);
 
   const hasCerts = domain === "all" ? Object.keys(CERTS).length > 0 : Boolean(CERTS[domain]);
   const domainCerts = useMemo(() =>
@@ -618,6 +921,23 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     </>
   );
 
+  const colorByStrip = mapMode && (
+    <div className="no-scrollbar" style={{ padding:"6px 10px", borderBottom:"1px solid var(--border)", flexShrink:0, display:"flex", gap:6, alignItems:"center", background:"var(--surface)", overflowX:"auto" }}>
+      <span style={{ fontSize:9.5, color:"var(--muted)", letterSpacing:"0.05em", textTransform:"uppercase", whiteSpace:"nowrap" }}>Color by</span>
+      {[["domain","Domain"],["recognition","Recognition"],["practical","Practical"],["cost","Cost"]].map(([k,label]) => {
+        const on = colorBy === k;
+        return (
+          <button key={k} onClick={()=>setColorBy(k)} style={{
+            fontSize:10, padding:"3px 9px", borderRadius:14, cursor:"pointer", whiteSpace:"nowrap",
+            border: `1px solid ${on?"var(--accent)":"var(--border)"}`,
+            background: on ? "rgba(74,222,128,0.08)" : "transparent",
+            color: on ? "var(--accent)" : "var(--mid)",
+          }}>{label}</button>
+        );
+      })}
+    </div>
+  );
+
   const domainDesc = (() => {
     const dom = DOMAINS.find(d=>d.id===domain);
     if (!dom?.description) return null;
@@ -631,6 +951,19 @@ function CertView({ CERTS, setCERTS, isMobile }) {
 
   const filterBar = (
     <div style={{ padding: isMobile ? "8px 10px" : "8px 16px", borderBottom:"1px solid var(--border)", flexShrink:0, display:"flex", gap:6, flexWrap:"wrap", alignItems:"center" }}>
+      <div style={{ display:"flex", border:"1px solid var(--border)", borderRadius:6, overflow:"hidden" }}>
+        {[["grid", isMobile?"⊞":"⊞ Grid", false],["map", isMobile?"⬡":"⬡ Map", true]].map(([k,label,wantMap]) => {
+          const on = mapMode === wantMap;
+          return (
+            <button key={k} onClick={()=>setMapMode(wantMap)} style={{
+              fontSize:11, padding: isMobile?"4px 8px":"4px 10px", border:"none", cursor:"pointer",
+              background: on ? "var(--surface3)" : "transparent",
+              color: on ? "var(--text)" : "var(--mid)",
+              borderRight: k==="grid" ? "1px solid var(--border)" : "none",
+            }}>{label}</button>
+          );
+        })}
+      </div>
       <input type="search" placeholder="Search certs…" value={search} onChange={e=>setSearch(e.target.value)} style={{ width: isMobile ? "100%" : 160 }} />
       {!isMobile && <>
         <select value={filterLevel} onChange={e=>setFilterLevel(e.target.value)} style={{ width:130 }}>
@@ -701,7 +1034,10 @@ function CertView({ CERTS, setCERTS, isMobile }) {
           {domainPills}
         </div>
         {filterBar}
-        {certGrid}
+        {colorByStrip}
+        {mapMode
+          ? <MapGrid certs={visible} cert={cert} setCert={setCert} colorBy={colorBy} domain={domain} isMobile />
+          : certGrid}
 
         {/* Mobile cert profile overlay */}
         {cert && (
@@ -709,6 +1045,25 @@ function CertView({ CERTS, setCERTS, isMobile }) {
             <CertProfile cert={cert} onClose={()=>setCert(null)} />
           </div>
         )}
+      </div>
+    );
+  }
+
+  if (mapMode) {
+    return (
+      <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
+        <MapLegend colorBy={colorBy} setColorBy={setColorBy} />
+        <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden", borderRight:"1px solid var(--border)" }}>
+          <div style={{ padding:"9px 16px", borderBottom:"1px solid var(--border)", display:"flex", flexWrap:"wrap", gap:5, flexShrink:0, background:"var(--surface)" }}>
+            {domainPills}
+          </div>
+          {domainDesc}
+          {filterBar}
+          <MapGrid certs={visible} cert={cert} setCert={setCert} colorBy={colorBy} domain={domain} />
+        </div>
+        <div style={{ width:320, flexShrink:0, background:"var(--surface)", overflow:"hidden" }}>
+          <CertProfile cert={cert} onClose={()=>setCert(null)} />
+        </div>
       </div>
     );
   }

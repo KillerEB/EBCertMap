@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-05-07",
+      "title": "Big update — Map view just landed (v1, feedback wanted!)",
+      "body": "Been planning this one for a while. EBCertMap started as Paul Jerimy's roadmap done as a searchable database — but the original's strength is its visual at-a-glance table. So I built one. Toggle between ⊞ Grid and ⬡ Map at the top of the Certs view to see all 426 certs as a domain × level matrix. Click any pill for the full profile. Pick a single domain to switch to a leaderboard-per-level view (best-first by overall score) — way more useful when you're shopping inside one specialization. Color the pills by Domain, Employer Recognition, Practical Weight, or Cost to scan the catalog from different angles. Mobile gets a vertical leaderboard layout. This is v1 — I'd really like feedback on this one. What's missing? What's confusing? What would make it more useful for how you actually browse?"
+    },
+    {
       "date": "2026-04-29",
       "title": "New role + budget-friendly paths",
       "body": "Added a few new role paths around the recent boutique certs. Most notable: split mobile security into two roles instead of cramming everything under Mobile Pentester — kept that role focused on app testing (CMSE/CISE/CASE), and created a dedicated Mobile Security Researcher role for the deeper kernel/internals/ARM exploitation track (CISR → CASR → OAAE → OMSE). Two roles, clearer career story. Also added a budget CTI path (arcX FTIA → PTIA → MCTIA) at $630 instead of $999+ for GCTI, a malware mobile track, and AIRTP+ as the entry into AI red teaming. Plus a quiet roles.json cleanup so the metadata actually matches the path files."
@@ -37,6 +42,22 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-05-07",
+      "title": "Map View — Visual Domain × Level Roadmap",
+      "items": [
+        "Added ⊞ Grid / ⬡ Map toggle to the Certs view — Map shows all 426 certs as a visual domain × level matrix inspired by Paul Jerimy's roadmap",
+        "All-domains map: 15 columns × 4 levels (Elite → Beginner), cross-domain certs appear in every relevant column",
+        "Single-domain map: switches to a leaderboard layout — one wide row per level, certs sorted best-first by overall score with score badges baked into each pill",
+        "Color pills by 4 dimensions — Domain, Employer Recognition, Practical Weight, or Cost — clickable blocks in the left legend",
+        "Mobile map view — same leaderboard layout in a vertical stack with a horizontal color-by chip strip; the toggle works on phones too",
+        "Empty cells get a subtle dotted background so the structure stays readable",
+        "Map respects all active filters (search, level, issuer, cost, DoD, ≥50% practical) — switching modes preserves what you were looking at",
+        "Profile pane shrinks to 320px in map mode to give the grid more breathing room",
+        "Auto-loads all 15 domain JSONs the first time you enter map mode so the grid isn't sparse",
+        "Replaced the default Vite/React favicon with the EB logo — same green→cyan gradient and bold 'EB' as the in-app header so the browser tab matches the brand"
+      ]
+    },
     {
       "date": "2026-05-03",
       "title": "Minor UI Fixes",
