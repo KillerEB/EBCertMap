@@ -37,7 +37,7 @@
     "color": "#06b6d4",
     "icon": "cloud",
     "cert_file": "certs/cloud_security.json",
-    "cert_count": 18
+    "cert_count": 20
   },
   {
     "id": "appsec",

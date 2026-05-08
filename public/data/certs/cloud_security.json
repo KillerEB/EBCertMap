@@ -729,6 +729,107 @@
     }
   },
   {
+    "id": "ccse",
+    "acronym": "CCSE",
+    "full_name": "Certified Container Security Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "container_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 599,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "container_security_advanced",
+      "image_scanning",
+      "runtime_security_kubernetes",
+      "privilege_escalation",
+      "cloud_native_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "container_concepts",
+        "linux_administration",
+        "networking"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's container security certification covering both offensive and defensive Docker security. 6-hour practical exam with 5 challenges plus a 24-hour report window — no MCQ, no memory tests. Attack techniques include privilege escalation via docker.sock, image backdooring, and daemon exploitation; defense implementation covers Seccomp, AppArmor, Trivy scanning, Harbor registry security, and Falco runtime monitoring. 60-day browser-based lab access with 40+ guided exercises. Lifetime validity. Strong choice for security engineers who need hands-on container security depth beyond what CDP's container modules provide.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-container-security-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 5,
+      "practical_depth": 8,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 4,
+      "overall": 6.0
+    }
+  },
+  {
+    "id": "ccnse",
+    "acronym": "CCNSE",
+    "full_name": "Certified Cloud-Native Security Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "kubernetes_security",
+      "container_security"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 999,
+    "renewal": "does not expire",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": null,
+    "skills": [
+      "kubernetes_security",
+      "rbac_kubernetes",
+      "network_policies_kubernetes",
+      "runtime_security_kubernetes",
+      "secrets_management",
+      "cloud_native_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "kubernetes_fundamentals",
+        "container_concepts",
+        "linux_administration",
+        "cloud_platform_basics"
+      ],
+      "recommended_certs": [
+        "ccse"
+      ]
+    },
+    "summary": "Practical DevSecOps's Kubernetes and cloud-native security certification. 6-hour practical exam with a 24-hour report window — fully hands-on, no MCQ. Covers cloud-native threat modeling, Kubernetes attack surface, RBAC hardening, admission controllers (OPA Gatekeeper), secrets management (HashiCorp Vault, Sealed Secrets), Kubernetes network policies, service mesh security (Istio, Linkerd), and runtime detection (Falco, Wazuh). 10 chapters, 60-day browser-based lab access with 40+ guided exercises. Lifetime validity. Natural progression after CCSE for practitioners who want comprehensive cloud-native defense depth; also complements CKS by adding Vault, service meshes, and Wazuh integration.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-cloud-native-security-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 6.4
+    }
+  },
+  {
     "id": "gctd",
     "acronym": "GCTD",
     "full_name": "GIAC Cloud Threat Detection",
