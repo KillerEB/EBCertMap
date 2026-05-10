@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-05-10",
+      "title": "Practical weight, explained — plus a few more DevSecOps certs",
+      "body": "Got some really good feedback on the recent map update — especially around the practical weight scoring. As a few of you pointed out, I never actually shared how that number is decided. So here it is, the 5-tier scale: 100% — Entirely practical · 70% — Majority practical + report · 50% — Hybrid MCQ + lab · 25% — MCQ + optional lab · 0% — MCQ only. This now lives behind a small ? tooltip next to the practical bar in every cert profile and next to the 'Practical' color-by selector on the map, so you can pull it up any time. Also slipped in a few more certs from the Practical DevSecOps catalog (CCSE Container, CCNSE Cloud-Native, CSC Security Champion) and refreshed the existing PDSO entries with better scoring and cross-domain placement. Keep the feedback coming — this is exactly how the project gets better."
+    },
+    {
       "date": "2026-05-07",
       "title": "Big update — Map view just landed (v1, feedback wanted!)",
       "body": "Been planning this one for a while. EBCertMap started as Paul Jerimy's roadmap done as a searchable database — but the original's strength is its visual at-a-glance table. So I built one. Toggle between ⊞ Grid and ⬡ Map at the top of the Certs view to see all 426 certs as a domain × level matrix. Click any pill for the full profile. Pick a single domain to switch to a leaderboard-per-level view (best-first by overall score) — way more useful when you're shopping inside one specialization. Color the pills by Domain, Employer Recognition, Practical Weight, or Cost to scan the catalog from different angles. Mobile gets a vertical leaderboard layout. This is v1 — I'd really like feedback on this one. What's missing? What's confusing? What would make it more useful for how you actually browse?"
@@ -42,6 +47,18 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-05-10",
+      "title": "DevSecOps Cert Refresh, Duplicate Merge & Practical-Weight Legend",
+      "items": [
+        "Added 3 new Practical DevSecOps certs: CCSE (Container Security Expert), CCNSE (Cloud-Native Security Expert), CSC (Security Champion)",
+        "Refreshed 6 existing PDSO certs with revised scoring and cross-domain placement: CDP, CDE, CSSE now span DefSec/SOC + AppSec; CTMP moved to Security Architecture; CAISP and CASP score updates",
+        "Refreshed CKS and KCSA (CNCF) entries with current 2026 exam details and the Kubestronaut program reference",
+        "Merged 3 long-standing duplicate cert entries: AAIA (was both 'aaia' and 'isaca-aaia'), AIGP (split across data_privacy and ai_security), CISSP (split across security_architecture and iam) — kept the richer copy of each, expanded domain arrays where needed",
+        "Added issuer-initial tags to map pills for genuine vendor-collision acronyms (CCSE × 3, CPIA × 2) — pills now show '·CP', '·CWL', '·PDSO', '·CREST' so you can tell them apart at a glance",
+        "Added a '?' popover next to the practical-weight bar in the cert profile and next to the active 'Practical' color-by selector on the map — shows the 5-tier scoring scale (100% Entirely practical → 0% MCQ only)"
+      ]
+    },
     {
       "date": "2026-05-07",
       "title": "Map View — Visual Domain × Level Roadmap",

@@ -38,7 +38,7 @@
         "ccsk"
       ]
     },
-    "summary": "The gold standard vendor-neutral cloud security certification and the most recognized cloud security credential globally for senior roles. Covers the full cloud security domain across architecture, data security, platform security, application security, operations, and compliance \u2014 all six ISC2 domains at a strategic and technical level. Requires five years of IT experience including three in cloud security. DoD 8140 approved and expected for senior cloud security architect and CISO roles in government and large enterprise. The main criticism is that it's broad rather than deep, reflecting the breadth of the ISC2 CBK approach. Valuable primarily for demonstrating cloud security seniority and satisfying compliance requirements rather than proving hands-on technical cloud skill.",
+    "summary": "The gold standard vendor-neutral cloud security certification and the most recognized cloud security credential globally for senior roles. Covers the full cloud security domain across architecture, data security, platform security, application security, operations, and compliance — all six ISC2 domains at a strategic and technical level. Requires five years of IT experience including three in cloud security. DoD 8140 approved and expected for senior cloud security architect and CISO roles in government and large enterprise. The main criticism is that it's broad rather than deep, reflecting the breadth of the ISC2 CBK approach. Valuable primarily for demonstrating cloud security seniority and satisfying compliance requirements rather than proving hands-on technical cloud skill.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/ccsp",
     "active": true,
@@ -89,7 +89,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The Cloud Security Alliance's foundational cloud security certification and one of the most recognized vendor-neutral cloud security credentials at the intermediate level. Based on the CSA's Security Guidance and the ENISA Cloud Computing Risk Assessment \u2014 open-book exam using those documents. Covers cloud risk, architecture, data security, incident response, and compliance from a governance and architectural perspective rather than platform-specific technical skills. Not DoD 8140 approved but widely respected in the industry and often listed as a prerequisite or co-requisite for CCSP preparation. Best suited for architects, managers, and consultants rather than hands-on cloud engineers.",
+    "summary": "The Cloud Security Alliance's foundational cloud security certification and one of the most recognized vendor-neutral cloud security credentials at the intermediate level. Based on the CSA's Security Guidance and the ENISA Cloud Computing Risk Assessment — open-book exam using those documents. Covers cloud risk, architecture, data security, incident response, and compliance from a governance and architectural perspective rather than platform-specific technical skills. Not DoD 8140 approved but widely respected in the industry and often listed as a prerequisite or co-requisite for CCSP preparation. Best suited for architects, managers, and consultants rather than hands-on cloud engineers.",
     "flags": [],
     "official_url": "https://cloudsecurityalliance.org/education/ccsk",
     "active": true,
@@ -143,7 +143,7 @@
         "ccsk"
       ]
     },
-    "summary": "A joint CSA and ISACA certification covering cloud auditing methodology, controls assessment using the CSA Cloud Controls Matrix (CCM), and governance auditing. Fills the gap between technical cloud security and compliance audit \u2014 designed for auditors, compliance professionals, and GRC practitioners working in cloud environments. Not DoD 8140 approved. Less well-known than CCSK or CCSP but occupies a genuine niche for professionals who audit cloud providers and cloud-native environments. Recommended for those already holding CISA or similar audit credentials who need cloud-specific audit methodology.",
+    "summary": "A joint CSA and ISACA certification covering cloud auditing methodology, controls assessment using the CSA Cloud Controls Matrix (CCM), and governance auditing. Fills the gap between technical cloud security and compliance audit — designed for auditors, compliance professionals, and GRC practitioners working in cloud environments. Not DoD 8140 approved. Less well-known than CCSK or CCSP but occupies a genuine niche for professionals who audit cloud providers and cloud-native environments. Recommended for those already holding CISA or similar audit credentials who need cloud-specific audit methodology.",
     "flags": [],
     "official_url": "https://cloudsecurityalliance.org/education/ccak",
     "active": true,
@@ -155,13 +155,13 @@
       "community_respect": 5,
       "salary_impact": 5,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
     "id": "aws-security-specialty",
     "acronym": "AWS Security Specialty",
-    "full_name": "AWS Certified Security \u2013 Specialty",
+    "full_name": "AWS Certified Security – Specialty",
     "issuing_body": "Amazon Web Services",
     "domain": [
       "cloud_security"
@@ -195,7 +195,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The most recognized cloud security certification for AWS environments and a near-requirement for senior cloud security roles in AWS-heavy organizations. Covers IAM, network security, data protection, logging, monitoring, and incident response specifically within the AWS ecosystem using native services (GuardDuty, Security Hub, Macie, WAF, etc.). Not DoD 8140 approved but AWS certification has substantial employer recognition in both commercial and government cloud environments. The specialty-level difficulty means this isn't an entry credential \u2014 meaningful AWS operational experience is genuinely needed to pass and apply the knowledge. Essential for cloud security engineers and architects working primarily in AWS.",
+    "summary": "The most recognized cloud security certification for AWS environments and a near-requirement for senior cloud security roles in AWS-heavy organizations. Covers IAM, network security, data protection, logging, monitoring, and incident response specifically within the AWS ecosystem using native services (GuardDuty, Security Hub, Macie, WAF, etc.). Not DoD 8140 approved but AWS certification has substantial employer recognition in both commercial and government cloud environments. The specialty-level difficulty means this isn't an entry credential — meaningful AWS operational experience is genuinely needed to pass and apply the knowledge. Essential for cloud security engineers and architects working primarily in AWS.",
     "flags": [],
     "official_url": "https://aws.amazon.com/certification/certified-security-specialty/",
     "active": true,
@@ -207,7 +207,7 @@
       "community_respect": 7,
       "salary_impact": 8,
       "time_to_prepare": 6,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -300,7 +300,7 @@
         "gcad"
       ]
     },
-    "summary": "GIAC's cloud security automation certification targeting practitioners who build secure cloud-native infrastructure and CI/CD pipelines. Covers IaC security, container and Kubernetes security, DevSecOps practices, and cloud-native security automation \u2014 the engineering side of cloud security rather than governance or operations. DoD 8140 approved. Relatively rare cert that fills an important gap between cloud security governance (CCSP) and cloud platform security (AWS/Azure specialty certs). Most valuable for cloud security engineers and DevSecOps practitioners building secure infrastructure at scale. Requires genuine scripting and DevOps experience to get value from the content.",
+    "summary": "GIAC's cloud security automation certification targeting practitioners who build secure cloud-native infrastructure and CI/CD pipelines. Covers IaC security, container and Kubernetes security, DevSecOps practices, and cloud-native security automation — the engineering side of cloud security rather than governance or operations. DoD 8140 approved. Relatively rare cert that fills an important gap between cloud security governance (CCSP) and cloud platform security (AWS/Azure specialty certs). Most valuable for cloud security engineers and DevSecOps practitioners building secure infrastructure at scale. Requires genuine scripting and DevOps experience to get value from the content.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa/",
     "active": true,
@@ -454,7 +454,7 @@
         "ztca"
       ]
     },
-    "summary": "Zscaler's administrator-level certification for managing Zscaler Internet Access (ZIA) and Zscaler Private Access (ZPA) \u2014 the core Zscaler SASE products. Covers policy management, SSL inspection, and access controls. Requires access to a Zscaler environment for meaningful preparation. Not DoD 8140 approved. Valuable for administrators in organizations running Zscaler as their SASE or zero trust network access platform. Zscaler has significant enterprise and government market penetration, making this cert relevant in a meaningful number of environments.",
+    "summary": "Zscaler's administrator-level certification for managing Zscaler Internet Access (ZIA) and Zscaler Private Access (ZPA) — the core Zscaler SASE products. Covers policy management, SSL inspection, and access controls. Requires access to a Zscaler environment for meaningful preparation. Not DoD 8140 approved. Valuable for administrators in organizations running Zscaler as their SASE or zero trust network access platform. Zscaler has significant enterprise and government market penetration, making this cert relevant in a meaningful number of environments.",
     "flags": [],
     "official_url": "https://www.zscaler.com/partners/training-certifications",
     "active": true,
@@ -518,7 +518,7 @@
       "community_respect": 5,
       "salary_impact": 5,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -555,7 +555,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Palo Alto Networks' cloud security certification covering Prisma Cloud \u2014 their CNAPP (Cloud Native Application Protection Platform) covering CSPM, CWPP, and code security. Part of the new role-based framework replacing the retired PCCSE cert. In-person only exam since March 2025, 2-year validity. Not DoD 8140 approved. Relevant in organizations using Prisma Cloud for cloud security posture management and workload protection. As CNAPP adoption grows this cert becomes more relevant, but Prisma Cloud's market position relative to alternatives (Wiz, Lacework, Orca) affects the cert's long-term relevance.",
+    "summary": "Palo Alto Networks' cloud security certification covering Prisma Cloud — their CNAPP (Cloud Native Application Protection Platform) covering CSPM, CWPP, and code security. Part of the new role-based framework replacing the retired PCCSE cert. In-person only exam since March 2025, 2-year validity. Not DoD 8140 approved. Relevant in organizations using Prisma Cloud for cloud security posture management and workload protection. As CNAPP adoption grows this cert becomes more relevant, but Prisma Cloud's market position relative to alternatives (Wiz, Lacework, Orca) affects the cert's long-term relevance.",
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
@@ -568,59 +568,6 @@
       "salary_impact": 6,
       "time_to_prepare": 5,
       "overall": 4.8
-    }
-  },
-  {
-    "id": "cks",
-    "acronym": "CKS",
-    "full_name": "Certified Kubernetes Security Specialist",
-    "issuing_body": "Cloud Native Computing Foundation (CNCF) / Linux Foundation",
-    "domain": [
-      "cloud_security"
-    ],
-    "subdomain": [
-      "container_security",
-      "devsecops"
-    ],
-    "level": "expert",
-    "practical_weight": 100,
-    "cost_usd": 395,
-    "renewal": "2 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "kubernetes_security",
-      "container_security",
-      "pod_security",
-      "network_policies_kubernetes",
-      "rbac_kubernetes",
-      "supply_chain_security",
-      "runtime_security_kubernetes",
-      "image_scanning"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "kubernetes_administration",
-        "container_concepts",
-        "linux_administration",
-        "networking"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "The only practitioner certification dedicated specifically to Kubernetes security \u2014 100% hands-on two-hour exam in a live Kubernetes cluster environment. Covers cluster hardening, network policies, RBAC, pod security, supply chain security, and runtime protection. Requires passing CKA (Certified Kubernetes Administrator) first or demonstrating equivalent knowledge. Not DoD 8140 approved but highly respected in the cloud engineering and DevSecOps communities. As Kubernetes dominates container orchestration, this is increasingly essential for cloud security engineers and DevSecOps practitioners working in container-native environments. The fully practical format is a genuine differentiator.",
-    "flags": [],
-    "official_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 6,
-      "practical_depth": 5,
-      "employer_recognition": 7,
-      "community_respect": 7,
-      "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 6.3
     }
   },
   {
@@ -658,7 +605,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Oracle's cloud security certification covering IAM, network security, data protection, and security services within Oracle Cloud Infrastructure. Updated annually \u2014 the 2025 version reflects current OCI services and security capabilities. Not DoD 8140 approved. Oracle Cloud has significant adoption in database-heavy enterprise environments and government, making this cert relevant in those specific contexts. Less commonly seen in job requirements than AWS or Azure security certs due to OCI's smaller market share, but valuable for security practitioners working specifically in Oracle Cloud environments.",
+    "summary": "Oracle's cloud security certification covering IAM, network security, data protection, and security services within Oracle Cloud Infrastructure. Updated annually — the 2025 version reflects current OCI services and security capabilities. Not DoD 8140 approved. Oracle Cloud has significant adoption in database-heavy enterprise environments and government, making this cert relevant in those specific contexts. Less commonly seen in job requirements than AWS or Azure security certs due to OCI's smaller market share, but valuable for security practitioners working specifically in Oracle Cloud environments.",
     "flags": [],
     "official_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional/pexam_1Z0-1104-25",
     "active": true,
@@ -671,61 +618,6 @@
       "salary_impact": 5,
       "time_to_prepare": 5,
       "overall": 4.2
-    }
-  },
-  {
-    "id": "kcsa",
-    "acronym": "KCSA",
-    "full_name": "Kubernetes and Cloud Native Security Associate",
-    "issuing_body": "Cloud Native Computing Foundation (CNCF)",
-    "domain": [
-      "cloud_security"
-    ],
-    "subdomain": [
-      "container_security",
-      "kubernetes_security"
-    ],
-    "level": "intermediate",
-    "practical_weight": 10,
-    "cost_usd": 250,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "kubernetes_security",
-      "container_security",
-      "container_security_basics",
-      "pod_security",
-      "rbac_kubernetes",
-      "cloud_security_fundamentals",
-      "supply_chain_security_awareness"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "kubernetes_fundamentals",
-        "container_concepts",
-        "linux_administration",
-        "cloud_platform_basics"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "CNCF's entry-level Kubernetes and cloud native security certification, delivered as a 60-question MCQ exam with a free retake included. Does not require CKA as a prerequisite, making it accessible to practitioners building toward the full CKS. Covers the Kubernetes security model, pod security standards, RBAC, network policies, supply chain security fundamentals, and cloud native security concepts. A natural entry point for cloud security engineers and DevSecOps practitioners moving into Kubernetes security before committing to the CKA prerequisite path.",
-    "flags": [
-      "new",
-      "low_cost"
-    ],
-    "official_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 5,
-      "employer_recognition": 5,
-      "community_respect": 6,
-      "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 5.2
     }
   },
   {
@@ -766,7 +658,7 @@
         "gcsa"
       ]
     },
-    "summary": "GIAC's cloud-native threat detection certification covering detection engineering and threat hunting in cloud environments. Validates the ability to detect adversarial activity across major cloud platforms through log analysis, behavioral analytics, and cloud-native detection tooling. Complements GCSA (cloud security automation) with a detection-focused perspective. Ideal for cloud SOC analysts and detection engineers whose scope includes cloud workloads alongside on-premises environments. Open-book exam \u2014 build notes indexed by cloud provider and detection technique. DoD 8140 status unconfirmed \u2014 verify at public.cyber.mil before pursuing for government roles.",
+    "summary": "GIAC's cloud-native threat detection certification covering detection engineering and threat hunting in cloud environments. Validates the ability to detect adversarial activity across major cloud platforms through log analysis, behavioral analytics, and cloud-native detection tooling. Complements GCSA (cloud security automation) with a detection-focused perspective. Ideal for cloud SOC analysts and detection engineers whose scope includes cloud workloads alongside on-premises environments. Open-book exam — build notes indexed by cloud provider and detection technique. DoD 8140 status unconfirmed — verify at public.cyber.mil before pursuing for government roles.",
     "flags": [
       "new"
     ],
@@ -800,7 +692,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "dfir_basics",
       "advanced_memory_forensics",
@@ -813,7 +705,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical multi-stage APT investigation, \u00a3400, Jan 2026). Advanced blue team \u2014 multi-stage APT investigation across on-prem AD and cloud environments. Covers cloud forensics, advanced memory analysis, threat hunting. SecOps Group's most demanding defensive credential.",
+    "summary": "eXpert-tier (~7-hr practical multi-stage APT investigation, £400, Jan 2026). Advanced blue team — multi-stage APT investigation across on-prem AD and cloud environments. Covers cloud forensics, advanced memory analysis, threat hunting. SecOps Group's most demanding defensive credential.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -825,7 +717,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -857,7 +749,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Flag-based practical across AWS/Azure/GCP ($49). Multi-cloud red team fundamentals \u2014 enumeration and initial exploitation across all three major platforms. Entry point before CARTS/AzRTS/CGRTS specializations.",
+    "summary": "Flag-based practical across AWS/Azure/GCP ($49). Multi-cloud red team fundamentals — enumeration and initial exploitation across all three major platforms. Entry point before CARTS/AzRTS/CGRTS specializations.",
     "flags": [
       "low_cost"
     ],
@@ -903,7 +795,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Flag-based, 15+ flags ($149). Azure and Entra ID red team \u2014 service principal abuse, managed identity exploitation, conditional access bypass, Azure AD Connect attacks. Focused Azure specialization at low cost.",
+    "summary": "Flag-based, 15+ flags ($149). Azure and Entra ID red team — service principal abuse, managed identity exploitation, conditional access bypass, Azure AD Connect attacks. Focused Azure specialization at low cost.",
     "flags": [
       "low_cost"
     ],
@@ -950,7 +842,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "12+12 hr practical + report ($599). Advanced AWS red team \u2014 IAM role chaining, Lambda abuse, S3 bucket exploitation, cross-account privilege escalation, AWS-specific C2 infrastructure. CWL's premium AWS credential.",
+    "summary": "12+12 hr practical + report ($599). Advanced AWS red team — IAM role chaining, Lambda abuse, S3 bucket exploitation, cross-account privilege escalation, AWS-specific C2 infrastructure. CWL's premium AWS credential.",
     "flags": [
       "low_cost"
     ],
@@ -996,7 +888,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical, 2 attempts ($599). GCP red team \u2014 service account abuse, IAM escalation, Google Workspace integration attacks, Cloud Run exploitation, metadata server attacks. Pairs with CARTS for full multi-cloud coverage.",
+    "summary": "Practical, 2 attempts ($599). GCP red team — service account abuse, IAM escalation, Google Workspace integration attacks, Cloud Run exploitation, metadata server attacks. Pairs with CARTS for full multi-cloud coverage.",
     "flags": [
       "low_cost"
     ],
@@ -1043,7 +935,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "24-hr practical + report, 30-day window ($699). CWL's top cloud credential. Hybrid multi-cloud red team \u2014 pivot between AWS, Azure, and GCP environments, abuse cross-cloud trust relationships, exfiltration across cloud boundaries. Comprehensive multi-cloud expertise validation.",
+    "summary": "24-hr practical + report, 30-day window ($699). CWL's top cloud credential. Hybrid multi-cloud red team — pivot between AWS, Azure, and GCP environments, abuse cross-cloud trust relationships, exfiltration across cloud boundaries. Comprehensive multi-cloud expertise validation.",
     "flags": [
       "low_cost"
     ],
@@ -1091,7 +983,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical, 2 attempts ($449). DevOps and pipeline security \u2014 CI/CD pipeline attacks, container escapes, Kubernetes exploitation, secrets management abuse, supply chain attack vectors. Growing demand as DevOps adoption accelerates.",
+    "summary": "Practical, 2 attempts ($449). DevOps and pipeline security — CI/CD pipeline attacks, container escapes, Kubernetes exploitation, secrets management abuse, supply chain attack vectors. Growing demand as DevOps adoption accelerates.",
     "flags": [
       "low_cost"
     ],
@@ -1137,7 +1029,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical, unlimited attempts ($99). Kubernetes offensive operations \u2014 pod escape, RBAC misconfiguration abuse, secret extraction, lateral movement between namespaces, node compromise. Budget Kubernetes security credential.",
+    "summary": "Practical, unlimited attempts ($99). Kubernetes offensive operations — pod escape, RBAC misconfiguration abuse, secret extraction, lateral movement between namespaces, node compromise. Budget Kubernetes security credential.",
     "flags": [
       "low_cost"
     ],
@@ -1184,7 +1076,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "30+ flag-based challenges ($49). Multi-cloud defensive analysis \u2014 threat detection, log analysis, and incident investigation across AWS, Azure, and GCP. Defensive counterpart to MCRTA.",
+    "summary": "30+ flag-based challenges ($49). Multi-cloud defensive analysis — threat detection, log analysis, and incident investigation across AWS, Azure, and GCP. Defensive counterpart to MCRTA.",
     "flags": [
       "low_cost"
     ],
@@ -1219,7 +1111,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "azure_security",
       "entra_id_attacks",
@@ -1232,7 +1124,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's Azure red team certification. 48-hr practical + 48-hr report in a live Azure lab. Azure + Entra ID offensive operations \u2014 identity abuse, Pass-the-PRT, conditional access bypass, Azure lateral movement, hybrid identity (AD Connect) attacks. ~$700 on-demand. Live at conferences. Strong complement to OAOTC for practitioners building multi-cloud offensive capability.",
+    "summary": "WKL's Azure red team certification. 48-hr practical + 48-hr report in a live Azure lab. Azure + Entra ID offensive operations — identity abuse, Pass-the-PRT, conditional access bypass, Azure lateral movement, hybrid identity (AD Connect) attacks. ~$700 on-demand. Live at conferences. Strong complement to OAOTC for practitioners building multi-cloud offensive capability.",
     "flags": [
       "hands_on"
     ],
@@ -1267,7 +1159,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "gcp_security",
       "cloud_penetration_testing",
@@ -1280,7 +1172,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's GCP red team certification. $700 on-demand, $2,500 at DEF CON 2026. Lifetime access with performance-based practical + report. GCP attack lifecycle \u2014 IAM/service-account escalation, metadata server abuse, BigQuery/Cloud Storage/Cloud Run exploitation, Evilginx phishing for Google SSO, cloud C2. One of very few GCP-specific offensive credentials (alongside GRTE from HackTricks).",
+    "summary": "WKL's GCP red team certification. $700 on-demand, $2,500 at DEF CON 2026. Lifetime access with performance-based practical + report. GCP attack lifecycle — IAM/service-account escalation, metadata server abuse, BigQuery/Cloud Storage/Cloud Run exploitation, Evilginx phishing for Google SSO, cloud C2. One of very few GCP-specific offensive credentials (alongside GRTE from HackTricks).",
     "flags": [
       "hands_on"
     ],
@@ -1295,6 +1187,230 @@
       "salary_impact": 6,
       "time_to_prepare": 7,
       "overall": 6.2
+    }
+  },
+  {
+    "id": "pdso-ccse",
+    "acronym": "CCSE",
+    "full_name": "Practical DevSecOps Certified Container Security Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "container_security",
+      "devsecops"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 599,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Listed in CISA NICCS catalog (provider: HYSN Technologies Inc.). 5-challenge practical exam, 6-hour lab + 24-hour report, 80% pass. Not DoD 8140 approved.",
+    "skills": [
+      "container_security",
+      "docker_security",
+      "image_hardening",
+      "container_escape_detection",
+      "registry_security",
+      "runtime_defense",
+      "cis_benchmark_compliance",
+      "supply_chain_image_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic Linux",
+        "Familiarity with containers and Docker"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's container security certification. 5 task-based challenges in a 6-hour browser-based lab followed by a 24-hour written report (80% pass). Covers hardening container images, attacking and exploiting containers, Docker daemon security, CIS benchmark compliance, image signing, secure registries, container escape detection, and supply-chain checks at the image layer. Lifetime validity, no renewal. Listed in CISA NICCS (NICE Framework-mapped) but not DoD 8140 approved. Strong Trustpilot reception. The lowest-priced PDSO entry point at $599 — pairs naturally with CCNSE for Kubernetes depth.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.practical-devsecops.com/certified-container-security-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 5,
+      "time_to_prepare": 5,
+      "overall": 6.2
+    }
+  },
+  {
+    "id": "pdso-ccnse",
+    "acronym": "CCNSE",
+    "full_name": "Practical DevSecOps Certified Cloud-Native Security Expert",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "kubernetes_security",
+      "container_security",
+      "cloud_native_security"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 999,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Listed in CISA NICCS. 5-challenge practical exam, 6-hour lab + 24-hour report, 80% pass. No CKA prerequisite — key differentiator vs CKS. Not DoD 8140 approved.",
+    "skills": [
+      "kubernetes_security",
+      "kubernetes_cluster_hacking",
+      "kubernetes_defense",
+      "rbac",
+      "admission_controllers",
+      "pod_security_standards",
+      "network_policies",
+      "secrets_management",
+      "zero_trust_networking",
+      "runtime_defense",
+      "falco",
+      "service_mesh_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic Kubernetes concepts",
+        "Linux fundamentals",
+        "OWASP Top 10 awareness"
+      ],
+      "recommended_certs": [
+        "pdso-ccse"
+      ]
+    },
+    "summary": "Practical DevSecOps's Kubernetes and cloud-native security certification. 5 task-based challenges, 6-hour practical lab + 24-hour report, 80% pass. Covers attacking and defending Kubernetes clusters, RBAC, admission controllers, Pod Security Standards, network policies, service mesh, secrets management with Vault, Kubernetes data encryption, audit logging, and runtime threat detection with Falco. No CKA prerequisite — major differentiator over the Linux Foundation's CKS. Lifetime validity, no renewal. $999 with 40+ labs and 36 CPE credits. PDSO markets this as more comprehensive than CKS in coverage breadth; CKS has stronger HR brand recognition but requires active CKA.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-cloud-native-security-expert/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 6.8
+    }
+  },
+  {
+    "id": "cks",
+    "acronym": "CKS",
+    "full_name": "Certified Kubernetes Security Specialist",
+    "issuing_body": "Cloud Native Computing Foundation (CNCF) / Linux Foundation",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "kubernetes_security",
+      "cloud_native_security"
+    ],
+    "level": "expert",
+    "practical_weight": 100,
+    "cost_usd": 445,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Prerequisite: active or expired CKA required before scheduling. 2-year validity (changed from 3 years for certs earned after April 1, 2024). Proctored hands-on CLI exam in real Kubernetes clusters (v1.34 as of 2026). Part of CNCF Kubestronaut program.",
+    "skills": [
+      "kubernetes_security",
+      "cluster_setup_hardening",
+      "system_hardening",
+      "microservice_vulnerability_minimization",
+      "supply_chain_security",
+      "monitoring_logging_runtime_security",
+      "network_policies",
+      "rbac",
+      "pod_security",
+      "image_scanning",
+      "audit_logging"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Kubernetes administration",
+        "Linux CLI proficiency",
+        "Container fundamentals"
+      ],
+      "recommended_certs": [
+        "cka"
+      ]
+    },
+    "summary": "The de facto industry standard for Kubernetes security — the only widely recognized vendor-neutral hands-on Kubernetes security credential outside of PDSO's CCNSE. 2-hour performance-based CLI exam in real Kubernetes clusters (currently v1.34), proctored by PSI. Covers cluster setup and hardening, system hardening, microservice vulnerability minimization, supply chain security, and monitoring/runtime security. Requires an active or expired CKA before scheduling — significant barrier vs PDSO CCNSE. $445, 2-year validity (earned before April 2024: 3 years). Part of the CNCF Kubestronaut program (requires CKA + CKAD + CKS + KCNA + KCSA). Strong employer recognition in cloud-native and DevSecOps roles.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 8,
+      "community_respect": 8,
+      "salary_impact": 7,
+      "time_to_prepare": 6,
+      "overall": 7.8
+    }
+  },
+  {
+    "id": "kcsa",
+    "acronym": "KCSA",
+    "full_name": "Kubernetes and Cloud Native Security Associate",
+    "issuing_body": "Cloud Native Computing Foundation (CNCF) / Linux Foundation",
+    "domain": [
+      "cloud_security"
+    ],
+    "subdomain": [
+      "kubernetes_security",
+      "cloud_native_security"
+    ],
+    "level": "beginner",
+    "practical_weight": 0,
+    "cost_usd": 250,
+    "renewal": "2 years",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "MCQ associate cert, ~90 minutes, ~60 questions. No prerequisites. 2-year validity. Free retake included. Part of CNCF Kubestronaut program.",
+    "skills": [
+      "kubernetes_security_fundamentals",
+      "4cs_cloud_native_security",
+      "kubernetes_threat_model",
+      "container_security_basics",
+      "network_security_basics",
+      "compliance_frameworks",
+      "cis_benchmarks_awareness",
+      "nist_framework_awareness"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic Kubernetes concepts",
+        "General security awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "CNCF's entry-level Kubernetes and cloud-native security credential. ~90-minute MCQ exam (~60 questions), no prerequisites, free retake included, $250. Covers the 4Cs of cloud-native security (Cloud/Cluster/Container/Code), the Kubernetes threat model, RBAC fundamentals, network policies, Pod Security Standards, compliance frameworks (NIST, CIS, GDPR, PCI-DSS), and cloud-native attack patterns. Pure MCQ — 0% practical weight. Natural entry point before CKS, and part of the CNCF Kubestronaut program (requires CKA + CKAD + CKS + KCNA + KCSA). Strong foundational value for practitioners approaching cloud-native security.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 3,
+      "practical_depth": 0,
+      "employer_recognition": 5,
+      "community_respect": 5,
+      "salary_impact": 4,
+      "time_to_prepare": 3,
+      "overall": 4.2
     }
   }
 ]

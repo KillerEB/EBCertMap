@@ -1,4 +1,5 @@
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 
 // ─── INJECT FONTS & GLOBAL STYLES ──────────────────────────────────────────
 const _link = document.createElement("link");
@@ -205,18 +206,18 @@ document.head.appendChild(_style);
 const DOMAINS = [
   { id:"offensive",              label:"Offensive Security",         short:"Offensive",   color:"#f87171", count:108,description:"Penetration testing, exploit development, red teaming, adversary simulation, and offensive security research across networks, applications, and systems." },
   { id:"dfir",                   label:"Digital Forensics & IR",     short:"DFIR",        color:"#fb923c", count:52, description:"Digital forensics, memory and mobile forensics, malware analysis, incident response, threat hunting, and cloud forensics across enterprise and cloud environments." },
-  { id:"defensive_soc",          label:"Defensive / SOC",            short:"SOC",         color:"#fbbf24", count:40, description:"Security operations, SOC analysis, SIEM operations, detection engineering, and endpoint detection and response platforms." },
-  { id:"cloud_security",         label:"Cloud Security",             short:"Cloud",       color:"#22d3ee", count:26, description:"Cloud security architecture, AWS/Azure/GCP security engineering, container and Kubernetes security, Zero Trust design, and cloud-native security operations." },
-  { id:"appsec",                 label:"Application Security",       short:"AppSec",      color:"#a78bfa", count:18, description:"Web application penetration testing, secure software development lifecycle, DevSecOps, API security, source code review, and software supply chain security." },
+  { id:"defensive_soc",          label:"Defensive / SOC",            short:"SOC",         color:"#fbbf24", count:43, description:"Security operations, SOC analysis, SIEM operations, detection engineering, and endpoint detection and response platforms." },
+  { id:"cloud_security",         label:"Cloud Security",             short:"Cloud",       color:"#22d3ee", count:28, description:"Cloud security architecture, AWS/Azure/GCP security engineering, container and Kubernetes security, Zero Trust design, and cloud-native security operations." },
+  { id:"appsec",                 label:"Application Security",       short:"AppSec",      color:"#a78bfa", count:15, description:"Web application penetration testing, secure software development lifecycle, DevSecOps, API security, source code review, and software supply chain security." },
   { id:"threat_intelligence",    label:"Threat Intelligence",        short:"CTI",         color:"#f59e0b", count:14, description:"Cyber threat intelligence analysis, threat actor profiling, TTP analysis, IOC management, and intelligence platform operations." },
   { id:"vulnerability_management",label:"Vulnerability Mgmt",        short:"Vuln Mgmt",   color:"#34d399", count:16, description:"Vulnerability scanning, risk-based prioritization, remediation tracking, and enterprise vulnerability management program design across major platforms." },
   { id:"network_security",       label:"Network Security",           short:"Network",     color:"#60a5fa", count:26, description:"Network security engineering, firewall administration, IDS/IPS, VPN, SASE, and network security architecture across Cisco, Juniper, Palo Alto, Fortinet, and Check Point." },
-  { id:"security_architecture",  label:"Security Architecture",      short:"Architecture",color:"#94a3b8", count:13, description:"Enterprise security architecture design, SABSA methodology, Zero Trust architecture, cryptography and PKI design, and security program leadership." },
-  { id:"iam",                    label:"Identity & Access Mgmt",     short:"IAM",         color:"#2dd4bf", count:26, description:"Identity governance, privileged access management, authentication and MFA, federation and SSO, and identity platform administration across Okta, CyberArk, SailPoint, and Microsoft." },
+  { id:"security_architecture",  label:"Security Architecture",      short:"Architecture",color:"#94a3b8", count:14, description:"Enterprise security architecture design, SABSA methodology, Zero Trust architecture, cryptography and PKI design, and security program leadership." },
+  { id:"iam",                    label:"Identity & Access Mgmt",     short:"IAM",         color:"#2dd4bf", count:25, description:"Identity governance, privileged access management, authentication and MFA, federation and SSO, and identity platform administration across Okta, CyberArk, SailPoint, and Microsoft." },
   { id:"ot_ics_iot",             label:"OT / ICS / IoT",             short:"OT/ICS",      color:"#a3e635", count:15, description:"Operational technology security, industrial control systems, SCADA security, ISA/IEC 62443 compliance, critical infrastructure protection, and IoT security." },
   { id:"grc",                    label:"GRC",                        short:"GRC",         color:"#9ca3af", count:29, description:"IT audit, risk management, ISO 27001, business continuity, third-party risk, and information security governance across ISACA, ISC2, DRI, BCI, and ISO frameworks." },
   { id:"data_privacy",           label:"Data Security & Privacy",    short:"Privacy",     color:"#f472b6", count:17, description:"Privacy law and compliance, GDPR, privacy engineering, data loss prevention, data classification, and privacy program management across IAPP, ISACA, and ISO 27701." },
-  { id:"ai_security",            label:"AI Security",                short:"AI Sec",      color:"#c084fc", count:14, description:"AI/ML system security, LLM red teaming, prompt injection, AI governance and risk, adversarial machine learning, and responsible AI frameworks including ISO 42001." },
+  { id:"ai_security",            label:"AI Security",                short:"AI Sec",      color:"#c084fc", count:12, description:"AI/ML system security, LLM red teaming, prompt injection, AI governance and risk, adversarial machine learning, and responsible AI frameworks including ISO 42001." },
   { id:"oversight_leadership",   label:"Oversight & Leadership",     short:"Leadership",  color:"#38bdf8", count:12, description:"CISO and executive leadership, security program management, security awareness and human risk management, and board-level security governance." },
 ];
 
@@ -366,6 +367,77 @@ const getIssuers  = (domain, cm) => [...new Set((cm[domain]||[]).map(c=>c.issuin
 // SHARED COMPONENTS
 // ═══════════════════════════════════════════════════════════════════════════
 
+// Click-to-show popover explaining the practical-weight scoring buckets.
+// Used next to "Practical" labels in the cert profile and the map toolbar.
+const PRACTICAL_BUCKETS = [
+  { pct:"100%", label:"Entirely practical",            c:"#4ade80" },
+  { pct:"70%",  label:"Majority practical + report",   c:"#a3e635" },
+  { pct:"50%",  label:"Hybrid MCQ + lab",              c:"#fbbf24" },
+  { pct:"25%",  label:"MCQ + optional lab",            c:"#fb923c" },
+  { pct:"0%",   label:"MCQ only",                       c:"#94a3b8" },
+];
+function PracticalHelp({ size = 13 }) {
+  const [open, setOpen] = useState(false);
+  const [coords, setCoords] = useState({ top:0, left:0 });
+  const btnRef = useRef(null);
+
+  const toggle = e => {
+    e.stopPropagation();
+    if (!open && btnRef.current) {
+      const r = btnRef.current.getBoundingClientRect();
+      const popoverWidth = 240;
+      // Prefer below the button; clamp to viewport so the popover never clips off-screen
+      let left = r.left;
+      if (left + popoverWidth > window.innerWidth - 8) left = window.innerWidth - popoverWidth - 8;
+      if (left < 8) left = 8;
+      setCoords({ top: r.bottom + 6, left });
+    }
+    setOpen(o => !o);
+  };
+
+  return (
+    <span style={{ display:"inline-flex", verticalAlign:"middle" }}>
+      <button
+        ref={btnRef}
+        type="button"
+        onClick={toggle}
+        title="How is practical weight calculated?"
+        aria-label="Practical weight scale"
+        style={{
+          width:size, height:size, borderRadius:"50%",
+          border:"1px solid var(--border2)", background:"transparent",
+          color: open ? "var(--accent)" : "var(--muted)",
+          fontSize: Math.round(size*0.7), fontWeight:700, lineHeight:1,
+          cursor:"pointer", padding:0,
+          display:"inline-flex", alignItems:"center", justifyContent:"center",
+        }}
+      >?</button>
+      {open && createPortal(
+        <>
+          <div onClick={e => { e.stopPropagation(); setOpen(false); }} style={{ position:"fixed", inset:0, zIndex:299 }} />
+          <div onClick={e => e.stopPropagation()} style={{
+            position:"fixed", top:coords.top, left:coords.left, zIndex:300,
+            width:240, padding:"10px 12px",
+            background:"var(--surface2)", border:"1px solid var(--border2)",
+            borderRadius:7, boxShadow:"0 6px 18px rgba(0,0,0,0.5)",
+          }}>
+            <div style={{ fontSize:9.5, fontWeight:600, letterSpacing:"0.06em", textTransform:"uppercase", color:"var(--muted)", marginBottom:6 }}>
+              How practical weight is calculated
+            </div>
+            {PRACTICAL_BUCKETS.map(r => (
+              <div key={r.pct} style={{ display:"flex", alignItems:"center", gap:8, padding:"2px 0" }}>
+                <span className="mono" style={{ fontSize:10, fontWeight:700, color:r.c, width:34 }}>{r.pct}</span>
+                <span style={{ fontSize:10.5, color:"var(--mid)" }}>{r.label}</span>
+              </div>
+            ))}
+          </div>
+        </>,
+        document.body
+      )}
+    </span>
+  );
+}
+
 function Badge({ children, style }) {
   return <span className="badge" style={style}>{children}</span>;
 }
@@ -459,8 +531,10 @@ function CertProfile({ cert, onClose }) {
         ))}
       </div>
       <div>
-        <div style={{ display:"flex", justifyContent:"space-between", marginBottom:5, fontSize:10 }}>
-          <span style={{ color:"var(--muted)" }}>Theory / MCQ</span>
+        <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:5, fontSize:10 }}>
+          <span style={{ color:"var(--muted)", display:"inline-flex", alignItems:"center", gap:5 }}>
+            Theory / MCQ <PracticalHelp size={11} />
+          </span>
           <span className="mono" style={{ color:prac.fg, fontWeight:600 }}>{cert.practical_weight}% Hands-On</span>
           <span style={{ color:"var(--muted)" }}>100% Practical</span>
         </div>
@@ -546,6 +620,24 @@ function CertProfile({ cert, onClose }) {
 const MAP_LEVEL_ORDER = [...LEVEL_ORDER].reverse(); // elite at top, beginner at bottom
 const MAP_LEVEL_DESC = { elite:"Research / kernel-class", expert:"Industry benchmark", intermediate:"Proven core skills", beginner:"Entry credentials" };
 
+// Short tag for an issuer — used to disambiguate pills when two certs share the
+// same acronym across vendors (e.g. CCSE × 3, CPIA × 2). Falls back to first
+// letters of the issuer name when no explicit mapping exists.
+const ISSUER_TAG = {
+  "Check Point": "CP",
+  "CyberWarFare Labs": "CWL",
+  "Practical DevSecOps": "PDSO",
+  "CREST": "CREST",
+};
+function issuerTag(issuer) {
+  if (!issuer) return "";
+  if (ISSUER_TAG[issuer]) return ISSUER_TAG[issuer];
+  const cleaned = issuer.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "");
+  const words = cleaned.split(/\s+/).filter(w => w && !/^(Inc|LLC|Ltd|Corp|the|of)$/i.test(w));
+  if (words.length === 1) return words[0].slice(0, 4).toUpperCase();
+  return words.map(w => w[0]).join("").toUpperCase().slice(0, 4);
+}
+
 function pillColors(cert, cellDomainId, colorBy) {
   let col = "#64748b";
   if (colorBy === "domain") {
@@ -576,6 +668,7 @@ function MapLegend({ colorBy, setColorBy }) {
       <div onClick={onClick} style={{ border:`1px solid ${active?"var(--accent)":"var(--border)"}`, borderRadius:7, overflow:"hidden", marginBottom:7, cursor:"pointer", transition:"border-color 0.15s" }}>
         <div style={{ padding:"6px 8px", display:"flex", alignItems:"center", gap:5, background:active?"rgba(74,222,128,0.06)":"var(--surface2)", borderBottom:"1px solid var(--border)" }}>
           <div style={{ fontSize:8.5, fontWeight:600, letterSpacing:"0.07em", textTransform:"uppercase", color:active?"var(--accent)":"var(--muted)", flex:1 }}>{title}</div>
+          {active && key === "practical" && <PracticalHelp size={11} />}
           {active && <div style={{ fontSize:7.5, fontWeight:700, letterSpacing:"0.05em", padding:"1px 5px", borderRadius:3, background:"rgba(74,222,128,0.15)", color:"var(--accent)" }}>ACTIVE</div>}
         </div>
         <div style={{ padding:"7px 8px", display:"flex", flexDirection:"column", gap:4 }}>{children}</div>
@@ -652,6 +745,18 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
   const useLeaderboard = focused || isMobile; // mobile always uses leaderboard
   const focusedColor = DOMAINS.find(d => d.id === domain)?.color || "#94a3b8";
 
+  // Acronyms that collide across vendors (CCSE, CPIA, etc.) get a small
+  // issuer tag appended to their pill so users can tell them apart.
+  const collidingAcronyms = useMemo(() => {
+    const issuersByAcronym = {};
+    certs.forEach(c => {
+      if (!c.acronym) return;
+      if (!issuersByAcronym[c.acronym]) issuersByAcronym[c.acronym] = new Set();
+      issuersByAcronym[c.acronym].add(c.issuing_body);
+    });
+    return new Set(Object.entries(issuersByAcronym).filter(([_, s]) => s.size > 1).map(([a]) => a));
+  }, [certs]);
+
   // Group certs by level — for both modes
   const certsByLevel = useMemo(() => {
     const m = {}; LEVEL_ORDER.forEach(lv => m[lv] = []);
@@ -718,11 +823,13 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
                     const s = pillColors(c, domain, colorBy);
                     const active = cert?.id === c.id;
                     const score = c.scores?.overall;
+                    const collides = collidingAcronyms.has(c.acronym);
+                    const tag = collides ? issuerTag(c.issuing_body) : null;
                     return (
                       <div
                         key={c.id}
                         onClick={() => setCert(active ? null : c)}
-                        title={`${c.acronym} — ${c.full_name}${score!=null?` · ${score.toFixed(1)}`:""}`}
+                        title={`${c.acronym}${tag?` (${c.issuing_body})`:""} — ${c.full_name}${score!=null?` · ${score.toFixed(1)}`:""}`}
                         style={{
                           fontSize:9.5, fontWeight:600, padding:"3px 7px", borderRadius:4,
                           cursor:"pointer", whiteSpace:"nowrap", fontFamily:"IBM Plex Mono, monospace",
@@ -734,7 +841,10 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
                         onMouseEnter={e => e.currentTarget.style.filter = "brightness(1.2)"}
                         onMouseLeave={e => e.currentTarget.style.filter = ""}
                       >
-                        <span style={{ overflow:"hidden", textOverflow:"ellipsis", maxWidth:160 }}>{c.acronym || c.id.toUpperCase()}</span>
+                        <span style={{ overflow:"hidden", textOverflow:"ellipsis", maxWidth:160 }}>
+                          {c.acronym || c.id.toUpperCase()}
+                          {tag && <span style={{ fontSize:7.5, fontWeight:600, opacity:0.7, marginLeft:3, letterSpacing:"0.04em" }}>·{tag}</span>}
+                        </span>
                         {score != null && (
                           <span style={{
                             fontSize:8.5, fontWeight:700, padding:"0 4px", borderRadius:3,
@@ -797,11 +907,13 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
                   {list.map(c => {
                     const s = pillColors(c, dom.id, colorBy);
                     const active = cert?.id === c.id;
+                    const collides = collidingAcronyms.has(c.acronym);
+                    const tag = collides ? issuerTag(c.issuing_body) : null;
                     return (
                       <div
                         key={c.id+"-"+dom.id}
                         onClick={() => setCert(active ? null : c)}
-                        title={`${c.acronym} — ${c.full_name}`}
+                        title={`${c.acronym}${tag?` (${c.issuing_body})`:""} — ${c.full_name}`}
                         style={{
                           fontSize:8.5, fontWeight:600, padding:"2px 5px", borderRadius:3,
                           cursor:"pointer", whiteSpace:"nowrap", fontFamily:"IBM Plex Mono, monospace",
@@ -814,6 +926,7 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
                         onMouseLeave={e => e.currentTarget.style.filter = ""}
                       >
                         {c.acronym || c.id.toUpperCase()}
+                        {tag && <span style={{ fontSize:7, fontWeight:600, opacity:0.7, marginLeft:2, letterSpacing:"0.04em" }}>·{tag}</span>}
                       </div>
                     );
                   })}
@@ -935,6 +1048,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
           }}>{label}</button>
         );
       })}
+      {colorBy === "practical" && <PracticalHelp size={12} />}
     </div>
   );
 

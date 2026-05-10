@@ -163,114 +163,6 @@
     }
   },
   {
-    "id": "caisp",
-    "acronym": "CAISP",
-    "full_name": "Certified AI Security Professional",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "ai_security"
-    ],
-    "subdomain": [
-      "ai_ml_security",
-      "ai_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 100,
-    "cost_usd": 1099,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "ai_threat_modeling",
-      "llm_security_testing",
-      "ai_supply_chain_security",
-      "sbom_aibom",
-      "ai_red_teaming_basics",
-      "mitre_atlas",
-      "ai_firewall_implementation",
-      "ai_governance_technical"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_engineering_basics",
-        "owasp_llm_top_10",
-        "basic_ai_concepts",
-        "devsecops_awareness"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Practical DevSecOps's AI security certification covering OWASP LLM Top 10, MITRE ATLAS, AI threat modeling using STRIDE and StrideGPT, AI supply chain security with AIBOMs/SBOMs, and AI firewall implementation. 6-hour practical exam with 5 challenges. Not DoD 8140 approved. One of the most comprehensive AI security certifications available — combining defensive AI security, threat modeling, and governance in a single credential. The practical exam format distinguishes it from the many theory-only AI security courses. Best suited for security engineers who work on AI systems rather than pure red teamers.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.practical-devsecops.com/certified-ai-security-professional/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 7,
-      "employer_recognition": 5,
-      "community_respect": 6,
-      "salary_impact": 5,
-      "time_to_prepare": 5,
-      "overall": 5.8
-    }
-  },
-  {
-    "id": "aigp-iapp",
-    "acronym": "AIGP",
-    "full_name": "AI Governance Professional",
-    "issuing_body": "IAPP",
-    "domain": [
-      "ai_security",
-      "data_privacy"
-    ],
-    "subdomain": [
-      "ai_governance"
-    ],
-    "level": "intermediate",
-    "practical_weight": 5,
-    "cost_usd": 550,
-    "renewal": "2 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "ai_governance_frameworks",
-      "eu_ai_act",
-      "ai_risk_management",
-      "algorithmic_accountability",
-      "ai_ethics",
-      "nist_ai_rmf",
-      "ai_privacy_intersection"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "privacy_fundamentals",
-        "basic_ai_awareness",
-        "regulatory_concepts"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "IAPP's AI governance certification covering the EU AI Act, NIST AI RMF, algorithmic accountability, and AI ethics from a governance and compliance perspective. Not DoD 8140 approved. Currently the most recognized AI governance certification and growing rapidly in demand as organizations prepare for EU AI Act enforcement. More governance and compliance oriented than technical — best suited for privacy officers and compliance professionals expanding into AI governance rather than technical AI security practitioners. Pairs well with CIPP/E for practitioners managing GDPR plus EU AI Act compliance.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://iapp.org/certify/aigp/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 2,
-      "employer_recognition": 6,
-      "community_respect": 6,
-      "salary_impact": 5,
-      "time_to_prepare": 3,
-      "overall": 4.4
-    }
-  },
-  {
     "id": "pecb-iso42001-li",
     "acronym": "ISO 42001 LI",
     "full_name": "PECB Certified ISO/IEC 42001 Lead Implementer",
@@ -408,57 +300,6 @@
       ]
     },
     "summary": "ISACA's AI risk add-on certification for existing CRISC holders — extends traditional IT risk management methodology into the AI domain. Not DoD 8140 approved. Part of ISACA's emerging AI credential suite designed to help existing ISACA practitioners extend their credentials into AI governance without starting from scratch. Requires CRISC as a prerequisite, making it a specialization rather than a standalone cert. Most relevant for CRISC-certified risk professionals who are taking on AI governance responsibilities.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.isaca.org/credentialing/advanced-in-ai",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 2,
-      "employer_recognition": 5,
-      "community_respect": 5,
-      "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 4
-    }
-  },
-  {
-    "id": "isaca-aaia",
-    "acronym": "AAIA",
-    "full_name": "Advanced in AI Audit",
-    "issuing_body": "ISACA",
-    "domain": [
-      "ai_security"
-    ],
-    "subdomain": [
-      "ai_governance"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 415,
-    "renewal": "3 years",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "ai_audit_methodology",
-      "ai_system_assessment",
-      "ai_control_evaluation",
-      "algorithmic_auditing",
-      "ai_compliance_testing"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "audit_methodology",
-        "ai_awareness"
-      ],
-      "recommended_certs": [
-        "cisa"
-      ]
-    },
-    "summary": "ISACA's AI audit add-on certification for existing CISA holders — extends IS audit methodology into the specific context of auditing AI systems and AI governance programs. Not DoD 8140 approved. Requires CISA as a prerequisite. Launched May 2025. Most relevant for IS auditors who are being asked to audit AI systems, AI governance frameworks, and algorithmic decision-making processes as part of their audit portfolio. Practical for practitioners at organizations where AI audit is becoming a formal requirement.",
     "flags": [
       "new"
     ],
@@ -743,6 +584,65 @@
       "salary_impact": 4,
       "time_to_prepare": 5,
       "overall": 5.5
+    }
+  },
+  {
+    "id": "pdso-caisp",
+    "acronym": "CAISP",
+    "full_name": "Practical DevSecOps Certified AI Security Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "ai_security"
+    ],
+    "subdomain": [
+      "ai_security_testing",
+      "llm_security",
+      "ai_governance"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 1099,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "PDSO's fastest-growing cert in 2025-2026. Listed in CISA NICCS. 5-challenge practical, 6-hour lab + 24-hour report, 80% pass. Covers OWASP LLM Top 10 and MITRE ATLAS. Not DoD 8140 approved.",
+    "skills": [
+      "owasp_llm_top_10",
+      "mitre_atlas",
+      "ai_threat_modeling",
+      "ai_supply_chain_security",
+      "ai_sbom",
+      "model_signing",
+      "ci_cd_ai_pipeline_security",
+      "nist_ai_rmf",
+      "iso_42001",
+      "eu_ai_act",
+      "garak",
+      "llm_guard",
+      "model_scan",
+      "prompt_injection"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic ML/AI concepts",
+        "Python scripting",
+        "Security fundamentals"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's AI/LLM security certification — PDSO's fastest-growing credential in 2025-2026. 5 task-based challenges, 6-hour lab + 24-hour report, 80% pass. Covers OWASP LLM Top 10, MITRE ATLAS, AI threat modeling (STRIDE-GPT, IriusRisk), AI supply chain security (AIBOMs, MLBOMs, model signing), securing CI/CD pipelines for AI, and compliance with NIST AI RMF, ISO/IEC 42001, and EU AI Act. Tools: Garak, FuzzAI, ModelScan, Picklescan, LLM Guard, Cosign, Syft, Ollama. $1,099 with 30+ exercises and 36 CPE credits. Lifetime validity. NICCS-listed.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-ai-security-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 7,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 6,
+      "overall": 6.8
     }
   }
 ]

@@ -7,7 +7,8 @@
     "domain": [
       "grc",
       "oversight_leadership",
-      "security_architecture"
+      "security_architecture",
+      "iam"
     ],
     "subdomain": [
       "enterprise_security_architecture",
@@ -40,7 +41,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The gold standard senior security certification globally and the most recognized credential for security management and architecture roles. Covers all eight CISSP domains across the breadth of information security \u2014 architecture, engineering, network security, IAM, asset security, assessment, operations, and software security. Requires five years of paid work experience in two or more domains. DoD 8140 approved and expected for CISO, security architect, and senior security manager roles in enterprise and government. The main criticism is that it's broad rather than deep \u2014 it validates strategic and managerial security knowledge rather than hands-on technical skill. Despite this, CISSP remains the single most career-impactful security certification available.",
+    "summary": "The gold standard senior security certification globally and the most recognized credential for security management and architecture roles. Covers all eight CISSP domains across the breadth of information security — architecture, engineering, network security, IAM, asset security, assessment, operations, and software security. Requires five years of paid work experience in two or more domains. DoD 8140 approved and expected for CISO, security architect, and senior security manager roles in enterprise and government. The main criticism is that it's broad rather than deep — it validates strategic and managerial security knowledge rather than hands-on technical skill. Despite this, CISSP remains the single most career-impactful security certification available.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/cissp",
     "active": true,
@@ -92,7 +93,7 @@
         "cissp"
       ]
     },
-    "summary": "ISC2's CISSP concentration for security architects \u2014 requires active CISSP certification as a prerequisite. Covers security architecture frameworks, IAM architecture design, cryptography and PKI architecture, requirements analysis, and network infrastructure architecture. DoD 8140 approved. The ISSAP concentration validates deep architectural expertise beyond the breadth of CISSP itself. Most valuable for security architects in large enterprise or government environments who design complex security systems rather than operate them. Requires CISSP first, making the overall investment significant but well-recognized in senior architecture roles.",
+    "summary": "ISC2's CISSP concentration for security architects — requires active CISSP certification as a prerequisite. Covers security architecture frameworks, IAM architecture design, cryptography and PKI architecture, requirements analysis, and network infrastructure architecture. DoD 8140 approved. The ISSAP concentration validates deep architectural expertise beyond the breadth of CISSP itself. Most valuable for security architects in large enterprise or government environments who design complex security systems rather than operate them. Requires CISSP first, making the overall investment significant but well-recognized in senior architecture roles.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issap",
     "active": true,
@@ -142,7 +143,7 @@
         "cissp"
       ]
     },
-    "summary": "ISC2's CISSP concentration for security engineers \u2014 requires active CISSP. Covers systems security engineering, certification and accreditation processes, technical management, and US government information assurance policies. DoD 8140 approved and particularly valued in US government, defense contractor, and intelligence community roles where formal system accreditation and C&A processes are mandatory. Less relevant in commercial environments but carries significant weight in government security engineering positions. Developed in partnership with the NSA.",
+    "summary": "ISC2's CISSP concentration for security engineers — requires active CISSP. Covers systems security engineering, certification and accreditation processes, technical management, and US government information assurance policies. DoD 8140 approved and particularly valued in US government, defense contractor, and intelligence community roles where formal system accreditation and C&A processes are mandatory. Less relevant in commercial environments but carries significant weight in government security engineering positions. Developed in partnership with the NSA.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issep",
     "active": true,
@@ -191,7 +192,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The foundation level of the SABSA (Sherwood Applied Business Security Architecture) certification \u2014 one of the most rigorous and respected security architecture frameworks globally. SABSA provides a comprehensive business-driven security architecture methodology used by major financial institutions, telcos, and government agencies. The exam tests both the framework methodology and practical application through essay questions. Not DoD 8140 approved but highly respected in architecture consulting and enterprise environments, particularly in UK, Europe, and Australia. More demanding than most vendor-neutral certs because SABSA requires genuine architectural thinking rather than memorization.",
+    "summary": "The foundation level of the SABSA (Sherwood Applied Business Security Architecture) certification — one of the most rigorous and respected security architecture frameworks globally. SABSA provides a comprehensive business-driven security architecture methodology used by major financial institutions, telcos, and government agencies. The exam tests both the framework methodology and practical application through essay questions. Not DoD 8140 approved but highly respected in architecture consulting and enterprise environments, particularly in UK, Europe, and Australia. More demanding than most vendor-neutral certs because SABSA requires genuine architectural thinking rather than memorization.",
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
@@ -241,7 +242,7 @@
         "scf"
       ]
     },
-    "summary": "The practitioner tier of SABSA certification covering the logical, physical, component, and operational architecture layers \u2014 moving from framework knowledge into applied methodology. Significant practical component including architecture assignment reviews. Not DoD 8140 approved. Requires SCF plus documented practical architecture experience. Held by experienced security architects who have applied SABSA in real engagements. More commonly seen on CVs of senior consultants in UK, European, and Australian markets than in US commercial environments.",
+    "summary": "The practitioner tier of SABSA certification covering the logical, physical, component, and operational architecture layers — moving from framework knowledge into applied methodology. Significant practical component including architecture assignment reviews. Not DoD 8140 approved. Requires SCF plus documented practical architecture experience. Held by experienced security architects who have applied SABSA in real engagements. More commonly seen on CVs of senior consultants in UK, European, and Australian markets than in US commercial environments.",
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
@@ -289,7 +290,7 @@
         "scp"
       ]
     },
-    "summary": "The highest SABSA certification \u2014 held by a very small number of senior security architects globally. Requires SCF and SCP plus extensive documented architecture experience and a comprehensive master's-level assignment. Not DoD 8140 approved. The SCM designation represents genuine mastery of enterprise security architecture methodology and is the most advanced vendor-neutral architecture credential available anywhere. Extremely time and cost intensive \u2014 most senior architects peak at SCF or SCP in practice.",
+    "summary": "The highest SABSA certification — held by a very small number of senior security architects globally. Requires SCF and SCP plus extensive documented architecture experience and a comprehensive master's-level assignment. Not DoD 8140 approved. The SCM designation represents genuine mastery of enterprise security architecture methodology and is the most advanced vendor-neutral architecture credential available anywhere. Extremely time and cost intensive — most senior architects peak at SCF or SCP in practice.",
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
@@ -345,7 +346,7 @@
         "cysa-plus"
       ]
     },
-    "summary": "CompTIA's advanced security practitioner certification \u2014 rebranded from CASP+ to SecurityX in 2024. Covers enterprise security architecture, advanced threat management, IAM architecture, cryptography, governance, and cloud security at an expert level without requiring management experience. DoD 8140 approved and positioned as the technical expert credential for practitioners who want depth without the management focus of CISSP. Performance-based questions add meaningful practical elements. A strong credential for technical security architects and senior practitioners in government and contractor roles where CompTIA certs are recognized and CISSP management requirements aren't met.",
+    "summary": "CompTIA's advanced security practitioner certification — rebranded from CASP+ to SecurityX in 2024. Covers enterprise security architecture, advanced threat management, IAM architecture, cryptography, governance, and cloud security at an expert level without requiring management experience. DoD 8140 approved and positioned as the technical expert credential for practitioners who want depth without the management focus of CISSP. Performance-based questions add meaningful practical elements. A strong credential for technical security architects and senior practitioners in government and contractor roles where CompTIA certs are recognized and CISSP management requirements aren't met.",
     "flags": [
       "new"
     ],
@@ -457,7 +458,7 @@
         "gcfa"
       ]
     },
-    "summary": "GIAC's certification for designing defensible security architectures covering Zero Trust implementation, network segmentation, detection architecture, and threat-informed defensive design. DoD 8140 approved. Bridges the gap between technical security operations and architectural design \u2014 particularly valuable for senior practitioners transitioning from operations into architecture roles. Less platform-specific than cloud vendor certs but more architecturally rigorous. Pairs well with GCAD for a comprehensive GIAC architecture credential stack for practitioners operating in hybrid and cloud environments.",
+    "summary": "GIAC's certification for designing defensible security architectures covering Zero Trust implementation, network segmentation, detection architecture, and threat-informed defensive design. DoD 8140 approved. Bridges the gap between technical security operations and architectural design — particularly valuable for senior practitioners transitioning from operations into architecture roles. Less platform-specific than cloud vendor certs but more architecturally rigorous. Pairs well with GCAD for a comprehensive GIAC architecture credential stack for practitioners operating in hybrid and cloud environments.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/defensible-security-architecture-gdsa/",
     "active": true,
@@ -510,7 +511,7 @@
         "ccsk"
       ]
     },
-    "summary": "GIAC's cloud security architecture certification covering the design and architectural aspects of securing cloud environments \u2014 threat modeling, network architecture, identity design, and data protection at a strategic level. DoD 8140 approved. Addresses the architectural gap that AWS/Azure specialty certs leave unfilled \u2014 those certs test platform operations while GCAD tests how to design secure cloud architectures independent of specific platform implementation details. Most valuable for senior cloud security architects designing multi-cloud or hybrid environments. Paired with GDSA, forms a comprehensive GIAC architecture credential stack.",
+    "summary": "GIAC's cloud security architecture certification covering the design and architectural aspects of securing cloud environments — threat modeling, network architecture, identity design, and data protection at a strategic level. DoD 8140 approved. Addresses the architectural gap that AWS/Azure specialty certs leave unfilled — those certs test platform operations while GCAD tests how to design secure cloud architectures independent of specific platform implementation details. Most valuable for senior cloud security architects designing multi-cloud or hybrid environments. Paired with GDSA, forms a comprehensive GIAC architecture credential stack.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
     "active": true,
@@ -561,7 +562,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The Open Group's FAIR (Factor Analysis of Information Risk) certification covering quantitative cyber risk analysis \u2014 the methodology for expressing cybersecurity risk in financial terms that business leaders understand. Based on the Open FAIR 2 standard (superseding the original Open FAIR). Not DoD 8140 approved but growing in recognition as organizations shift from qualitative to quantitative risk management. Particularly valued in financial services, insurance, and any environment where security risk must be expressed in dollar terms for business decision-making. Pairs naturally with CRISC for a comprehensive risk quantification credential stack.",
+    "summary": "The Open Group's FAIR (Factor Analysis of Information Risk) certification covering quantitative cyber risk analysis — the methodology for expressing cybersecurity risk in financial terms that business leaders understand. Based on the Open FAIR 2 standard (superseding the original Open FAIR). Not DoD 8140 approved but growing in recognition as organizations shift from qualitative to quantitative risk management. Particularly valued in financial services, insurance, and any environment where security risk must be expressed in dollar terms for business decision-making. Pairs naturally with CRISC for a comprehensive risk quantification credential stack.",
     "flags": [],
     "official_url": "https://www.opengroup.org/certifications/openfair",
     "active": true,
@@ -661,7 +662,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The Open Group's credential for integrating security and risk into TOGAF-based enterprise architecture work. Covers how to embed security requirements, risk management, and security architecture into the TOGAF Architecture Development Method (ADM). Not DoD 8140 approved. Most relevant for enterprise architects working in organizations using TOGAF as their EA framework who need to incorporate security systematically. Niche but fills a genuine gap \u2014 most EA certifications treat security as an afterthought while this credential makes it central to the architecture process.",
+    "summary": "The Open Group's credential for integrating security and risk into TOGAF-based enterprise architecture work. Covers how to embed security requirements, risk management, and security architecture into the TOGAF Architecture Development Method (ADM). Not DoD 8140 approved. Most relevant for enterprise architects working in organizations using TOGAF as their EA framework who need to incorporate security systematically. Niche but fills a genuine gap — most EA certifications treat security as an afterthought while this credential makes it central to the architecture process.",
     "flags": [],
     "official_url": "https://www.opengroup.org/certifications/togaf-irs",
     "active": true,
@@ -674,6 +675,60 @@
       "salary_impact": 4,
       "time_to_prepare": 4,
       "overall": 3.4
+    }
+  },
+  {
+    "id": "pdso-ctmp",
+    "acronym": "CTMP",
+    "full_name": "Practical DevSecOps Certified Threat Modeling Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "security_architecture"
+    ],
+    "subdomain": [
+      "threat_modeling",
+      "secure_design"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 899,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Listed in CISA NICCS. 5-challenge practical, 6-hour lab + 24-hour report, 80% pass. Covers multiple threat modeling frameworks. Not DoD 8140 approved.",
+    "skills": [
+      "threat_modeling",
+      "stride",
+      "pasta",
+      "dread",
+      "mitre_attack_threat_modeling",
+      "agile_threat_modeling",
+      "privacy_threat_modeling",
+      "threat_modeling_as_code",
+      "threatspec",
+      "dfd_risk_rating",
+      "secure_design"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Application security fundamentals",
+        "Basic software architecture concepts"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's threat modeling certification. 5 task-based challenges, 6-hour lab + 24-hour report, 80% pass. Covers STRIDE, PASTA, DREAD, MITRE ATT&CK integration, Agile threat modeling, Privacy threat modeling, Threat Modeling as Code (ThreatSpec), and DFD-based risk rating. $899 with 24 CPE credits. Lifetime validity. Fills a genuine gap — dedicated hands-on threat modeling credentials are rare at this price point.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-threat-modeling-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 6,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 6.2
     }
   }
 ]

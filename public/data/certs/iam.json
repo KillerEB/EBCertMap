@@ -35,7 +35,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The only vendor-neutral IAM practitioner certification from IDPro \u2014 the professional body specifically for identity practitioners. Covers the breadth of IAM including identity lifecycle, access management, authentication, federation, and governance without tying to any specific platform. Launched in 2023 and still building employer name recognition relative to established certs, but backed by serious IAM practitioners who designed the curriculum. Not DoD 8140 approved. Best suited for IAM practitioners who want vendor-neutral validation of their conceptual knowledge across the full identity domain rather than platform-specific skills. Recognition is growing but expect CISSP Domain 5, SC-300, or CyberArk certs to carry more immediate hiring weight.",
+    "summary": "The only vendor-neutral IAM practitioner certification from IDPro — the professional body specifically for identity practitioners. Covers the breadth of IAM including identity lifecycle, access management, authentication, federation, and governance without tying to any specific platform. Launched in 2023 and still building employer name recognition relative to established certs, but backed by serious IAM practitioners who designed the curriculum. Not DoD 8140 approved. Best suited for IAM practitioners who want vendor-neutral validation of their conceptual knowledge across the full identity domain rather than platform-specific skills. Recognition is growing but expect CISSP Domain 5, SC-300, or CyberArk certs to carry more immediate hiring weight.",
     "flags": [
       "new"
     ],
@@ -49,7 +49,7 @@
       "community_respect": 5,
       "salary_impact": 5,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -91,7 +91,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Microsoft's IAM certification covering the full Microsoft Entra ID (formerly Azure AD) platform \u2014 identity lifecycle, conditional access, PIM, external identities, and application access management. Given Microsoft's dominance in enterprise identity infrastructure, this is arguably the most practically relevant IAM certification for the majority of enterprise environments. One-year renewal keeps it current with rapidly evolving Microsoft IAM capabilities. Not DoD 8140 approved. If an organization runs Microsoft for identity \u2014 which is most organizations \u2014 SC-300 is effectively mandatory knowledge for IAM practitioners and increasingly listed as a requirement rather than a nice-to-have.",
+    "summary": "Microsoft's IAM certification covering the full Microsoft Entra ID (formerly Azure AD) platform — identity lifecycle, conditional access, PIM, external identities, and application access management. Given Microsoft's dominance in enterprise identity infrastructure, this is arguably the most practically relevant IAM certification for the majority of enterprise environments. One-year renewal keeps it current with rapidly evolving Microsoft IAM capabilities. Not DoD 8140 approved. If an organization runs Microsoft for identity — which is most organizations — SC-300 is effectively mandatory knowledge for IAM practitioners and increasingly listed as a requirement rather than a nice-to-have.",
     "flags": [],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
     "active": true,
@@ -141,7 +141,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Okta's entry-level certification covering basic Okta platform administration, user provisioning, SSO configuration, and MFA setup. All Okta exams now test Okta Identity Engine (OIE) exclusively \u2014 Classic Engine exam content was retired June 2024. Not DoD 8140 approved. Okta has significant enterprise market share in workforce identity, making this the natural starting point for administrators and analysts entering Okta-heavy environments. The Professional cert establishes baseline Okta literacy before pursuing the Administrator or Consultant tier certs.",
+    "summary": "Okta's entry-level certification covering basic Okta platform administration, user provisioning, SSO configuration, and MFA setup. All Okta exams now test Okta Identity Engine (OIE) exclusively — Classic Engine exam content was retired June 2024. Not DoD 8140 approved. Okta has significant enterprise market share in workforce identity, making this the natural starting point for administrators and analysts entering Okta-heavy environments. The Professional cert establishes baseline Okta literacy before pursuing the Administrator or Consultant tier certs.",
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
@@ -298,7 +298,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Okta's developer certification covering API integration, OIDC/OAuth2 implementation, SDK usage, and custom application integration with Okta. Targeted at developers building applications that use Okta for authentication and authorization rather than platform administrators. Not DoD 8140 approved. Valuable for developers building customer-facing or internal applications where Okta is the identity provider \u2014 tests practical implementation knowledge rather than platform administration.",
+    "summary": "Okta's developer certification covering API integration, OIDC/OAuth2 implementation, SDK usage, and custom application integration with Okta. Targeted at developers building applications that use Okta for authentication and authorization rather than platform administrators. Not DoD 8140 approved. Valuable for developers building customer-facing or internal applications where Okta is the identity provider — tests practical implementation knowledge rather than platform administration.",
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
@@ -352,7 +352,7 @@
         "occ"
       ]
     },
-    "summary": "Okta's highest certification \u2014 a $5,000 board-defense style assessment where candidates present and defend a complex Okta architecture design before a panel of Okta technical experts. Unlike other Okta certs which are MCQ, OCTA involves a 40% practical component through the architecture defense. Not DoD 8140 approved. Held by very few practitioners globally \u2014 the cost and format make it inaccessible to most, but it carries genuine prestige in Okta partner ecosystems and for senior IAM architects. More common at large system integrators and Okta strategic partners than in-house enterprise teams.",
+    "summary": "Okta's highest certification — a $5,000 board-defense style assessment where candidates present and defend a complex Okta architecture design before a panel of Okta technical experts. Unlike other Okta certs which are MCQ, OCTA involves a 40% practical component through the architecture defense. Not DoD 8140 approved. Held by very few practitioners globally — the cost and format make it inaccessible to most, but it carries genuine prestige in Okta partner ecosystems and for senior IAM architects. More common at large system integrators and Okta strategic partners than in-house enterprise teams.",
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
@@ -403,7 +403,7 @@
         "oca"
       ]
     },
-    "summary": "Okta's specialty certification for Access Gateway \u2014 the on-premises component that extends Okta SSO to legacy applications that can't natively support SAML or OIDC. Niche cert relevant specifically in hybrid environments where legacy applications need to be integrated into modern SSO infrastructure. Not DoD 8140 approved. Most organizations won't need this unless they have significant legacy application estates requiring header-based authentication bridging.",
+    "summary": "Okta's specialty certification for Access Gateway — the on-premises component that extends Okta SSO to legacy applications that can't natively support SAML or OIDC. Niche cert relevant specifically in hybrid environments where legacy applications need to be integrated into modern SSO infrastructure. Not DoD 8140 approved. Most organizations won't need this unless they have significant legacy application estates requiring header-based authentication bridging.",
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
@@ -500,7 +500,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CyberArk's entry-level awareness certification covering fundamental PAM concepts and basic CyberArk platform awareness. Free. Not DoD 8140 approved. The starting point on the CyberArk certification path \u2014 primarily useful as an on-ramp before the Defender exams rather than a standalone career credential. Most practitioners move quickly from Trustee to Defender without spending much time at this level.",
+    "summary": "CyberArk's entry-level awareness certification covering fundamental PAM concepts and basic CyberArk platform awareness. Free. Not DoD 8140 approved. The starting point on the CyberArk certification path — primarily useful as an on-ramp before the Defender exams rather than a standalone career credential. Most practitioners move quickly from Trustee to Defender without spending much time at this level.",
     "flags": [
       "free",
       "tool_vendor"
@@ -515,13 +515,13 @@
       "community_respect": 3,
       "salary_impact": 2,
       "time_to_prepare": 1,
-      "overall": 2.0
+      "overall": 2
     }
   },
   {
     "id": "cyberark-defender-pam",
     "acronym": "CCD-PAM",
-    "full_name": "CyberArk Certified Defender \u2013 PAM",
+    "full_name": "CyberArk Certified Defender – PAM",
     "issuing_body": "CyberArk",
     "domain": [
       "iam"
@@ -555,7 +555,7 @@
         "cyberark-trustee"
       ]
     },
-    "summary": "CyberArk's core PAM administration certification covering Vault administration, Privileged Session Manager, safe management, and account onboarding in the CyberArk Privileged Access Manager platform. Pearson VUE proctored, 90 minutes, MCQ. Not DoD 8140 approved. CyberArk dominates the PAM market \u2014 most large enterprises and government agencies that have deployed PAM are running CyberArk. This cert is widely recognized in job postings for PAM engineers and administrators. The most essential CyberArk cert for practitioners managing the platform day to day.",
+    "summary": "CyberArk's core PAM administration certification covering Vault administration, Privileged Session Manager, safe management, and account onboarding in the CyberArk Privileged Access Manager platform. Pearson VUE proctored, 90 minutes, MCQ. Not DoD 8140 approved. CyberArk dominates the PAM market — most large enterprises and government agencies that have deployed PAM are running CyberArk. This cert is widely recognized in job postings for PAM engineers and administrators. The most essential CyberArk cert for practitioners managing the platform day to day.",
     "flags": [
       "tool_vendor"
     ],
@@ -575,7 +575,7 @@
   {
     "id": "cyberark-sentry-pam",
     "acronym": "CCS-PAM",
-    "full_name": "CyberArk Certified Sentry \u2013 PAM",
+    "full_name": "CyberArk Certified Sentry – PAM",
     "issuing_body": "CyberArk",
     "domain": [
       "iam"
@@ -609,7 +609,7 @@
         "cyberark-defender-pam"
       ]
     },
-    "summary": "CyberArk's advanced PAM certification covering high availability, disaster recovery, advanced PSM configuration, API integration, and complex automation. Pearson VUE proctored. Not DoD 8140 approved. The expert tier of the CyberArk PAM path \u2014 expected for senior PAM engineers designing and maintaining enterprise-scale CyberArk deployments. Requires solid platform experience that goes beyond daily administration into architecture and resilience design.",
+    "summary": "CyberArk's advanced PAM certification covering high availability, disaster recovery, advanced PSM configuration, API integration, and complex automation. Pearson VUE proctored. Not DoD 8140 approved. The expert tier of the CyberArk PAM path — expected for senior PAM engineers designing and maintaining enterprise-scale CyberArk deployments. Requires solid platform experience that goes beyond daily administration into architecture and resilience design.",
     "flags": [
       "tool_vendor"
     ],
@@ -660,7 +660,7 @@
         "cyberark-sentry-pam"
       ]
     },
-    "summary": "CyberArk's highest practitioner certification covering mastery of the full CyberArk platform \u2014 multi-product integration, enterprise PAM program design, and advanced troubleshooting at the architectural level. Pearson VUE proctored. Not DoD 8140 approved. Held by a small number of senior CyberArk architects and consultants globally. Career-defining credential for those building PAM programs at enterprise scale. Requires deep cross-product CyberArk experience that cannot be acquired without years of hands-on deployment work.",
+    "summary": "CyberArk's highest practitioner certification covering mastery of the full CyberArk platform — multi-product integration, enterprise PAM program design, and advanced troubleshooting at the architectural level. Pearson VUE proctored. Not DoD 8140 approved. Held by a small number of senior CyberArk architects and consultants globally. Career-defining credential for those building PAM programs at enterprise scale. Requires deep cross-product CyberArk experience that cannot be acquired without years of hands-on deployment work.",
     "flags": [
       "tool_vendor"
     ],
@@ -680,7 +680,7 @@
   {
     "id": "cyberark-defender-epm",
     "acronym": "CCD-EPM",
-    "full_name": "CyberArk Certified Defender \u2013 Endpoint Privilege Manager",
+    "full_name": "CyberArk Certified Defender – Endpoint Privilege Manager",
     "issuing_body": "CyberArk",
     "domain": [
       "iam"
@@ -710,7 +710,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CyberArk's certification for the Endpoint Privilege Manager product \u2014 covering least privilege enforcement, application control, and EPM policy management on endpoints. Separate from the core PAM Defender cert and focused specifically on endpoint privilege rather than server/vault PAM. Not DoD 8140 approved. Relevant in organizations deploying CyberArk EPM alongside or independently of the core PAM platform. As least privilege on endpoints becomes standard practice, EPM skills are increasingly in demand.",
+    "summary": "CyberArk's certification for the Endpoint Privilege Manager product — covering least privilege enforcement, application control, and EPM policy management on endpoints. Separate from the core PAM Defender cert and focused specifically on endpoint privilege rather than server/vault PAM. Not DoD 8140 approved. Relevant in organizations deploying CyberArk EPM alongside or independently of the core PAM platform. As least privilege on endpoints becomes standard practice, EPM skills are increasingly in demand.",
     "flags": [
       "tool_vendor"
     ],
@@ -730,7 +730,7 @@
   {
     "id": "cyberark-defender-identity",
     "acronym": "CCD-Identity",
-    "full_name": "CyberArk Certified Defender \u2013 Identity",
+    "full_name": "CyberArk Certified Defender – Identity",
     "issuing_body": "CyberArk",
     "domain": [
       "iam"
@@ -762,7 +762,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CyberArk's certification for their Identity platform \u2014 covering MFA, SSO, adaptive authentication, and user lifecycle management through the CyberArk Identity product (formerly Idaptive). Separate track from the core PAM certs, targeting workforce identity rather than privileged access. Not DoD 8140 approved. Relevant in organizations using CyberArk Identity as their primary workforce IAM platform alongside CyberArk PAM.",
+    "summary": "CyberArk's certification for their Identity platform — covering MFA, SSO, adaptive authentication, and user lifecycle management through the CyberArk Identity product (formerly Idaptive). Separate track from the core PAM certs, targeting workforce identity rather than privileged access. Not DoD 8140 approved. Relevant in organizations using CyberArk Identity as their primary workforce IAM platform alongside CyberArk PAM.",
     "flags": [
       "tool_vendor"
     ],
@@ -812,7 +812,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "SailPoint's entry-level IdentityIQ certification covering fundamentals of the on-premises IGA platform. Pearson VUE proctored (SailPoint uses Proctor360), DOMC format, 2-year validity. Customer and partner access only \u2014 not publicly available. $300, includes two exam attempts. Not DoD 8140 approved. IdentityIQ is the dominant on-premises IGA platform in large enterprise and government, making this the entry point for administrators and engineers learning the platform. Recertification status for this cert is still being clarified \u2014 currently may require retaking rather than the new credit-hour path.",
+    "summary": "SailPoint's entry-level IdentityIQ certification covering fundamentals of the on-premises IGA platform. Pearson VUE proctored (SailPoint uses Proctor360), DOMC format, 2-year validity. Customer and partner access only — not publicly available. $300, includes two exam attempts. Not DoD 8140 approved. IdentityIQ is the dominant on-premises IGA platform in large enterprise and government, making this the entry point for administrators and engineers learning the platform. Recertification status for this cert is still being clarified — currently may require retaking rather than the new credit-hour path.",
     "flags": [
       "tool_vendor"
     ],
@@ -866,7 +866,7 @@
         "sailpoint-iiq-associate"
       ]
     },
-    "summary": "SailPoint's advanced IdentityIQ engineering certification covering connector configuration, custom rule development, workflow design, and BeanShell scripting for platform customization. DOMC format, Proctor360 proctored, 2-year validity, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. The most recognized SailPoint technical certification in the market \u2014 expected for senior IdentityIQ engineers and implementation consultants. Requires real hands-on platform experience that cannot be studied without access to a running IIQ environment.",
+    "summary": "SailPoint's advanced IdentityIQ engineering certification covering connector configuration, custom rule development, workflow design, and BeanShell scripting for platform customization. DOMC format, Proctor360 proctored, 2-year validity, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. The most recognized SailPoint technical certification in the market — expected for senior IdentityIQ engineers and implementation consultants. Requires real hands-on platform experience that cannot be studied without access to a running IIQ environment.",
     "flags": [
       "tool_vendor"
     ],
@@ -970,7 +970,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "SailPoint's newest certification \u2014 launched February 17, 2026 \u2014 targeting administrators of the Identity Security Cloud platform. Covers platform configuration, virtual appliance management, identity lifecycle administration, and governance administration. SailPoint recommends six months of hands-on experience. DOMC format, Proctor360 proctored, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. Fills the gap between the foundational Knowledge Credentials and the technical SC-ISE \u2014 designed for administrators who configure and maintain the platform rather than build custom integrations.",
+    "summary": "SailPoint's newest certification — launched February 17, 2026 — targeting administrators of the Identity Security Cloud platform. Covers platform configuration, virtual appliance management, identity lifecycle administration, and governance administration. SailPoint recommends six months of hands-on experience. DOMC format, Proctor360 proctored, credit-based recertification eligible. Customer and partner only. Not DoD 8140 approved. Fills the gap between the foundational Knowledge Credentials and the technical SC-ISE — designed for administrators who configure and maintain the platform rather than build custom integrations.",
     "flags": [
       "new",
       "tool_vendor"
@@ -1024,7 +1024,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "HashiCorp's foundational Vault certification covering secrets management, dynamic secrets, authentication methods, and encryption as a service. Pearson VUE proctored. Not DoD 8140 approved. HashiCorp Vault is the dominant secrets management platform in cloud-native and DevOps environments, making Vault skills broadly applicable. At $70 it's excellent value. The secrets management use case overlaps with PAM \u2014 Vault handles machine and application credentials while traditional PAM focuses on human privileged access. Essential knowledge for cloud and DevSecOps practitioners.",
+    "summary": "HashiCorp's foundational Vault certification covering secrets management, dynamic secrets, authentication methods, and encryption as a service. Pearson VUE proctored. Not DoD 8140 approved. HashiCorp Vault is the dominant secrets management platform in cloud-native and DevOps environments, making Vault skills broadly applicable. At $70 it's excellent value. The secrets management use case overlaps with PAM — Vault handles machine and application credentials while traditional PAM focuses on human privileged access. Essential knowledge for cloud and DevSecOps practitioners.",
     "flags": [
       "low_cost"
     ],
@@ -1097,7 +1097,7 @@
   {
     "id": "ping-pf-professional",
     "acronym": "CP-PF",
-    "full_name": "Certified Professional \u2013 PingFederate",
+    "full_name": "Certified Professional – PingFederate",
     "issuing_body": "Ping Identity",
     "domain": [
       "iam"
@@ -1128,7 +1128,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Ping Identity's professional-level PingFederate certification covering SAML federation, OAuth/OIDC implementation, adapter configuration, and token translation. Currently suspended \u2014 Pearson VUE ceased delivering all Ping Identity exams on May 14, 2025 and no replacement platform has been announced. Existing Credly badges remain valid and recognized but new certifications cannot be obtained through any confirmed channel. Include with paused flag. If Ping restores exam delivery this becomes immediately relevant given PingFederate's significant enterprise and government market presence.",
+    "summary": "Ping Identity's professional-level PingFederate certification covering SAML federation, OAuth/OIDC implementation, adapter configuration, and token translation. Currently suspended — Pearson VUE ceased delivering all Ping Identity exams on May 14, 2025 and no replacement platform has been announced. Existing Credly badges remain valid and recognized but new certifications cannot be obtained through any confirmed channel. Include with paused flag. If Ping restores exam delivery this becomes immediately relevant given PingFederate's significant enterprise and government market presence.",
     "flags": [
       "paused",
       "tool_vendor"
@@ -1143,13 +1143,13 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
     "id": "ping-am-professional",
     "acronym": "CP-PAM",
-    "full_name": "Certified Professional \u2013 PingAM",
+    "full_name": "Certified Professional – PingAM",
     "issuing_body": "Ping Identity",
     "domain": [
       "iam"
@@ -1181,7 +1181,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Ping Identity's professional-level PingAM certification (formerly ForgeRock Access Management) covering authentication trees, journeys, OAuth/OIDC, SAML, and policy management. Currently suspended \u2014 same Pearson VUE departure as all other Ping certs in May 2025. ForgeRock/PingAM has significant government and financial services deployment including UK government digital identity programs. No replacement platform announced. Include as paused \u2014 highly relevant if exam delivery is restored.",
+    "summary": "Ping Identity's professional-level PingAM certification (formerly ForgeRock Access Management) covering authentication trees, journeys, OAuth/OIDC, SAML, and policy management. Currently suspended — same Pearson VUE departure as all other Ping certs in May 2025. ForgeRock/PingAM has significant government and financial services deployment including UK government digital identity programs. No replacement platform announced. Include as paused — highly relevant if exam delivery is restored.",
     "flags": [
       "paused",
       "tool_vendor"
@@ -1196,13 +1196,13 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
     "id": "ping-idm-professional",
     "acronym": "CP-IDM",
-    "full_name": "Certified Professional \u2013 PingIDM",
+    "full_name": "Certified Professional – PingIDM",
     "issuing_body": "Ping Identity",
     "domain": [
       "iam"
@@ -1233,7 +1233,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Ping Identity's professional-level PingIDM certification (formerly ForgeRock Identity Management) covering identity synchronization, provisioning, connector configuration, and workflow design. Currently suspended since May 2025 \u2014 Pearson VUE no longer delivers Ping exams and no replacement platform is confirmed. Existing holders' badges remain valid. ForgeRock IDM has significant deployment in UK government and European organizations. Include as paused.",
+    "summary": "Ping Identity's professional-level PingIDM certification (formerly ForgeRock Identity Management) covering identity synchronization, provisioning, connector configuration, and workflow design. Currently suspended since May 2025 — Pearson VUE no longer delivers Ping exams and no replacement platform is confirmed. Existing holders' badges remain valid. ForgeRock IDM has significant deployment in UK government and European organizations. Include as paused.",
     "flags": [
       "paused",
       "tool_vendor"
@@ -1248,7 +1248,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -1288,7 +1288,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Microsoft's Azure security engineering certification with approximately 25-30% IAM content \u2014 covering Azure RBAC, PIM, conditional access, managed identities, and B2C. Listed here as a cross-domain entry since IAM is a core exam domain alongside network security and data protection. Not DoD 8140 approved. For Azure-deployed environments SC-300 and AZ-500 together provide comprehensive Microsoft IAM coverage from both the identity administrator and security engineer perspectives.",
+    "summary": "Microsoft's Azure security engineering certification with approximately 25-30% IAM content — covering Azure RBAC, PIM, conditional access, managed identities, and B2C. Listed here as a cross-domain entry since IAM is a core exam domain alongside network security and data protection. Not DoD 8140 approved. For Azure-deployed environments SC-300 and AZ-500 together provide comprehensive Microsoft IAM coverage from both the identity administrator and security engineer perspectives.",
     "flags": [],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
     "active": true,
@@ -1301,59 +1301,6 @@
       "salary_impact": 8,
       "time_to_prepare": 5,
       "overall": 5.8
-    }
-  },
-  {
-    "id": "cissp-iam",
-    "acronym": "CISSP",
-    "full_name": "Certified Information Systems Security Professional",
-    "issuing_body": "ISC2",
-    "domain": [
-      "iam",
-      "security_architecture",
-      "grc"
-    ],
-    "subdomain": [
-      "identity_governance",
-      "access_management"
-    ],
-    "level": "expert",
-    "practical_weight": 5,
-    "cost_usd": 749,
-    "renewal": "3 years",
-    "dod_8140": true,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "identity_and_access_management",
-      "access_control_models",
-      "authentication_mechanisms",
-      "identity_provisioning",
-      "federated_identity",
-      "authorization_frameworks"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals",
-        "networking",
-        "risk_management",
-        "cryptography_basics"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "CISSP Domain 5 is entirely dedicated to Identity and Access Management \u2014 covering access control models, authentication mechanisms, identity federation, and authorization frameworks. Listed here as a cross-domain entry given that IAM is one of the eight CISSP domains. DoD 8140 approved. For practitioners whose primary focus is IAM, CISSP validates the broader security context within which identity programs operate. See security_architecture.json for the full CISSP profile.",
-    "flags": [],
-    "official_url": "https://www.isc2.org/certifications/cissp",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 7,
-      "practical_depth": 2,
-      "employer_recognition": 10,
-      "community_respect": 8,
-      "salary_impact": 10,
-      "time_to_prepare": 8,
-      "overall": 6.8
     }
   }
 ]

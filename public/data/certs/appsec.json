@@ -37,7 +37,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's web application penetration testing certification and the DoD 8140 approved option in the web app security space. Covers the full web application testing methodology including authentication, injection, XSS, CSRF, API testing, and web service vulnerabilities. The MCQ format is a significant weakness compared to BSCP or OSWE \u2014 it validates knowledge of techniques rather than the ability to execute them. DoD 8140 approval is the primary differentiator that keeps GWEB relevant despite the practical format limitations. For government and contractor roles requiring DoD-approved web application security certification, GWEB is the standard option.",
+    "summary": "GIAC's web application penetration testing certification and the DoD 8140 approved option in the web app security space. Covers the full web application testing methodology including authentication, injection, XSS, CSRF, API testing, and web service vulnerabilities. The MCQ format is a significant weakness compared to BSCP or OSWE — it validates knowledge of techniques rather than the ability to execute them. DoD 8140 approval is the primary differentiator that keeps GWEB relevant despite the practical format limitations. For government and contractor roles requiring DoD-approved web application security certification, GWEB is the standard option.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
     "active": true,
@@ -90,7 +90,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "ISC2's software security certification covering the full secure software development lifecycle \u2014 from security requirements through secure design, coding, testing, deployment, and operations. DoD 8140 approved and the primary credential for application security professionals operating at a program or architecture level rather than hands-on testing. Requires four years of paid SDLC experience. The theory-heavy format means it validates process and management knowledge rather than technical application security skill. Most valuable for application security managers, architects, and program leads in organizations with formal SDLC processes \u2014 less relevant for hands-on penetration testers.",
+    "summary": "ISC2's software security certification covering the full secure software development lifecycle — from security requirements through secure design, coding, testing, deployment, and operations. DoD 8140 approved and the primary credential for application security professionals operating at a program or architecture level rather than hands-on testing. Requires four years of paid SDLC experience. The theory-heavy format means it validates process and management knowledge rather than technical application security skill. Most valuable for application security managers, architects, and program leads in organizations with formal SDLC processes — less relevant for hands-on penetration testers.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/csslp",
     "active": true,
@@ -108,7 +108,7 @@
   {
     "id": "case-java",
     "acronym": "CASE Java",
-    "full_name": "Certified Application Security Engineer \u2013 Java",
+    "full_name": "Certified Application Security Engineer – Java",
     "issuing_body": "EC-Council",
     "domain": [
       "appsec"
@@ -140,7 +140,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's application security certification for Java developers covering secure coding practices, vulnerability mitigation, and security controls implementation in Java applications. Language-specific focus makes it directly applicable for Java development teams implementing secure coding standards. Not DoD 8140 approved. Less well-known than CSSLP but more technically specific to developers \u2014 CSSLP covers the lifecycle broadly while CASE targets developers writing code. Limited employer recognition compared to CSSLP or GWEB, but useful for organizations embedding security into Java development teams who want a structured credential for their developers.",
+    "summary": "EC-Council's application security certification for Java developers covering secure coding practices, vulnerability mitigation, and security controls implementation in Java applications. Language-specific focus makes it directly applicable for Java development teams implementing secure coding standards. Not DoD 8140 approved. Less well-known than CSSLP but more technically specific to developers — CSSLP covers the lifecycle broadly while CASE targets developers writing code. Limited employer recognition compared to CSSLP or GWEB, but useful for organizations embedding security into Java development teams who want a structured credential for their developers.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
     "active": true,
@@ -158,7 +158,7 @@
   {
     "id": "case-net",
     "acronym": "CASE .NET",
-    "full_name": "Certified Application Security Engineer \u2013 .NET",
+    "full_name": "Certified Application Security Engineer – .NET",
     "issuing_body": "EC-Council",
     "domain": [
       "appsec"
@@ -190,7 +190,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's application security certification for .NET developers \u2014 the Microsoft stack equivalent of CASE Java. Covers secure coding in C# and .NET, vulnerability mitigation, and security control implementation. Not DoD 8140 approved. Same recognition limitations as CASE Java \u2014 narrowly applicable to .NET development teams implementing security training programs. Useful when organizations need a structured credential program for their .NET developers but want language-specific coverage rather than CSSLP's lifecycle breadth.",
+    "summary": "EC-Council's application security certification for .NET developers — the Microsoft stack equivalent of CASE Java. Covers secure coding in C# and .NET, vulnerability mitigation, and security control implementation. Not DoD 8140 approved. Same recognition limitations as CASE Java — narrowly applicable to .NET development teams implementing security training programs. Useful when organizations need a structured credential program for their .NET developers but want language-specific coverage rather than CSSLP's lifecycle breadth.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
     "active": true,
@@ -203,270 +203,6 @@
       "salary_impact": 5,
       "time_to_prepare": 4,
       "overall": 3.8
-    }
-  },
-  {
-    "id": "cdp",
-    "acronym": "CDP",
-    "full_name": "Certified DevSecOps Professional",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "appsec"
-    ],
-    "subdomain": [
-      "devsecops",
-      "secure_software_development"
-    ],
-    "level": "intermediate",
-    "practical_weight": 100,
-    "cost_usd": 899,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "ci_cd_security",
-      "sast_implementation",
-      "dast_implementation",
-      "sca_tools",
-      "container_security_basics",
-      "iac_security",
-      "compliance_as_code",
-      "devsecops_pipeline_design"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "linux_basics",
-        "owasp_top_10_awareness",
-        "basic_devops_concepts",
-        "scripting_basics"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Practical DevSecOps's flagship certification and the most recognized DevSecOps credential in the practitioner community. Covers integrating SAST, DAST, and SCA tools into CI/CD pipelines across multiple platforms (GitLab CI, GitHub Actions, Jenkins), plus container security, IaC, and compliance as code. 6-hour practical exam with 5 challenges plus report. Not DoD 8140 approved but widely respected \u2014 CDP has become the de facto standard for DevSecOps credentialing in the absence of vendor-neutral alternatives. Includes extensive training. Best suited for security engineers embedding security into software delivery pipelines rather than traditional application security testers.",
-    "flags": [],
-    "official_url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 8,
-      "employer_recognition": 6,
-      "community_respect": 8,
-      "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 6.8
-    }
-  },
-  {
-    "id": "cde",
-    "acronym": "CDE",
-    "full_name": "Certified DevSecOps Expert",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "appsec"
-    ],
-    "subdomain": [
-      "devsecops",
-      "secure_software_development"
-    ],
-    "level": "expert",
-    "practical_weight": 100,
-    "cost_usd": 1199,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "advanced_sast_custom_rules",
-      "advanced_dast_automation",
-      "rasp_iast",
-      "threat_modeling_as_code",
-      "container_security_advanced",
-      "secrets_management",
-      "kubernetes_security_basics",
-      "devsecops_program_design"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "devsecops_intermediate",
-        "ci_cd_experience",
-        "scripting_python_or_bash",
-        "container_familiarity"
-      ],
-      "recommended_certs": [
-        "cdp"
-      ]
-    },
-    "summary": "Practical DevSecOps's advanced DevSecOps certification requiring CDP as a prerequisite. Covers custom SAST rule development, advanced DAST automation, RASP/IAST, threat modeling as code, advanced container security, and secrets management with Vault. 24-hour practical exam \u2014 the longest in the PDSO portfolio. Not DoD 8140 approved. The combination of CDP + CDE represents a comprehensive DevSecOps credential stack and is increasingly recognized in security engineering hiring. For practitioners who have completed CDP and want to go deeper into DevSecOps engineering, CDE is the natural progression.",
-    "flags": [],
-    "official_url": "https://www.practical-devsecops.com/certified-devsecops-expert/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 5,
-      "practical_depth": 8,
-      "employer_recognition": 5,
-      "community_respect": 6,
-      "salary_impact": 5,
-      "time_to_prepare": 5,
-      "overall": 6.1
-    }
-  },
-  {
-    "id": "casp-pdso",
-    "acronym": "CASP",
-    "full_name": "Certified API Security Professional",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "appsec"
-    ],
-    "subdomain": [
-      "api_security"
-    ],
-    "level": "intermediate",
-    "practical_weight": 100,
-    "cost_usd": 899,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "api_vulnerability_testing",
-      "owasp_api_top_10",
-      "api_authentication_attacks",
-      "broken_object_authorization",
-      "api_security_automation",
-      "rest_api_security",
-      "graphql_security",
-      "api_security_in_ci_cd"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "api_concepts",
-        "http_protocol",
-        "basic_security_testing",
-        "owasp_awareness"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Practical DevSecOps's API security certification covering the OWASP API Top 10, authentication attacks, authorization flaws, and API security automation in CI/CD pipelines. 6-hour practical exam. Not DoD 8140 approved. API security is one of the most in-demand and underserved AppSec specializations \u2014 most web testing certs cover APIs superficially while CASP makes it the primary focus. Good complement to BSCP or CDP for practitioners who specialize in API security testing and want a dedicated credential for that specialization.",
-    "flags": [],
-    "official_url": "https://www.practical-devsecops.com/certified-api-security-professional/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 3,
-      "employer_recognition": 5,
-      "community_respect": 5,
-      "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 4.2
-    }
-  },
-  {
-    "id": "ctmp",
-    "acronym": "CTMP",
-    "full_name": "Certified Threat Modeling Professional",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "appsec"
-    ],
-    "subdomain": [
-      "threat_modeling"
-    ],
-    "level": "intermediate",
-    "practical_weight": 100,
-    "cost_usd": 899,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "stride_methodology",
-      "pasta_methodology",
-      "threat_modeling_agile",
-      "mitre_attack_threat_modeling",
-      "code_based_threat_modeling",
-      "privacy_threat_modeling",
-      "threat_model_documentation"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "security_fundamentals",
-        "software_development_basics",
-        "risk_concepts"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Practical DevSecOps's threat modeling certification covering STRIDE, PASTA, DREAD, and agile/code-based threat modeling methodologies. 6-hour practical exam. Fills a genuine gap \u2014 threat modeling is a critical AppSec discipline with almost no dedicated certifications. Not DoD 8140 approved. Building employer recognition as organizations mature their AppSec programs beyond testing toward proactive security design. Most valuable for security architects, AppSec leads, and developers who want to validate systematic threat modeling skills for security requirements and design review work.",
-    "flags": [],
-    "official_url": "https://www.practical-devsecops.com/certified-threat-modeling-professional/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 3,
-      "employer_recognition": 4,
-      "community_respect": 4,
-      "salary_impact": 4,
-      "time_to_prepare": 4,
-      "overall": 3.7
-    }
-  },
-  {
-    "id": "csse",
-    "acronym": "CSSE",
-    "full_name": "Certified Software Supply Chain Security Expert",
-    "issuing_body": "Practical DevSecOps",
-    "domain": [
-      "appsec"
-    ],
-    "subdomain": [
-      "software_supply_chain_security"
-    ],
-    "level": "expert",
-    "practical_weight": 100,
-    "cost_usd": 799,
-    "renewal": "does not expire",
-    "dod_8140": false,
-    "geographic_recognition": "global",
-    "geographic_note": null,
-    "skills": [
-      "supply_chain_attack_analysis",
-      "slsa_framework",
-      "sbom_generation",
-      "dependency_security",
-      "container_supply_chain",
-      "code_signing",
-      "solarwinds_log4shell_analysis",
-      "cloud_supply_chain"
-    ],
-    "prerequisites": {
-      "knowledge": [
-        "devsecops_basics",
-        "software_development_process",
-        "container_concepts",
-        "dependency_management"
-      ],
-      "recommended_certs": []
-    },
-    "summary": "Practical DevSecOps's software supply chain security certification \u2014 one of the first dedicated credentials in this increasingly critical space. Covers supply chain attack vectors, SLSA framework, SBOM generation and analysis, dependency security, code signing, and cloud supply chain attacks using real-world incident analysis (SolarWinds, Log4Shell). 6-hour practical exam. Not DoD 8140 approved but highly timely given regulatory pressure around software supply chain security (EO 14028, NIST SSDF). For AppSec engineers and DevSecOps practitioners building supply chain security programs, this is currently one of the only structured credentials in the space.",
-    "flags": [
-      "new"
-    ],
-    "official_url": "https://www.practical-devsecops.com/certified-software-supply-chain-security-expert/",
-    "active": true,
-    "paths": [],
-    "scores": {
-      "exam_difficulty": 4,
-      "practical_depth": 3,
-      "employer_recognition": 4,
-      "community_respect": 4,
-      "salary_impact": 4,
-      "time_to_prepare": 4,
-      "overall": 3.7
     }
   },
   {
@@ -506,7 +242,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GitHub's proctored certification (exam GH-500) covering the full GitHub Advanced Security feature set \u2014 CodeQL, secret scanning, Dependabot, dependency review, and SBOM generation. Delivered via Pearson VUE with genuine proctoring. At $99 and 100 minutes, it's accessible and increasingly required by organizations deploying GHAS at enterprise scale. Not DoD 8140 approved. The content is platform-specific but GitHub's dominance in version control means GHAS skills are broadly applicable. Dependabot/dependency management content constitutes 35% of the exam \u2014 the single largest domain. 2-year renewal keeps it reasonably current with GitHub's evolving security features.",
+    "summary": "GitHub's proctored certification (exam GH-500) covering the full GitHub Advanced Security feature set — CodeQL, secret scanning, Dependabot, dependency review, and SBOM generation. Delivered via Pearson VUE with genuine proctoring. At $99 and 100 minutes, it's accessible and increasingly required by organizations deploying GHAS at enterprise scale. Not DoD 8140 approved. The content is platform-specific but GitHub's dominance in version control means GHAS skills are broadly applicable. Dependabot/dependency management content constitutes 35% of the exam — the single largest domain. 2-year renewal keeps it reasonably current with GitHub's evolving security features.",
     "flags": [
       "low_cost"
     ],
@@ -540,7 +276,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "owasp_top_10",
       "web_application_security",
@@ -552,7 +288,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Essentials-tier (60-min MCQ, \u00a325). Entry-level OWASP Top 10 and web application security fundamentals. Pass \u226560%. The cheapest way to get a named web-app security credential \u2014 useful as a portfolio item for those starting out.",
+    "summary": "Essentials-tier (60-min MCQ, £25). Entry-level OWASP Top 10 and web application security fundamentals. Pass ≥60%. The cheapest way to get a named web-app security credential — useful as a portfolio item for those starting out.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -564,7 +300,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -584,7 +320,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "web_application_testing",
       "owasp_top_10",
@@ -597,7 +333,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical CTF, \u00a3250). Hands-on web application pentesting exam covering OWASP Top 10 in a live lab. Listed in Synack Red Team's preferred pathway alongside CNPen \u2014 one of SecOps Group's most industry-referenced credentials. CAPenX is the eXpert upgrade.",
+    "summary": "Professional-tier (~4-hr practical CTF, £250). Hands-on web application pentesting exam covering OWASP Top 10 in a live lab. Listed in Synack Red Team's preferred pathway alongside CNPen — one of SecOps Group's most industry-referenced credentials. CAPenX is the eXpert upgrade.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -609,7 +345,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -629,7 +365,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "web_application_testing",
       "advanced_xss",
@@ -642,7 +378,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "eXpert-tier (~7-hr practical CTF, \u00a3400). Advanced web app security \u2014 XSS chains, race conditions, JWT forging, XXE, deserialization. The hardest SecOps Group web credential. Upgrade path from CAPen.",
+    "summary": "eXpert-tier (~7-hr practical CTF, £400). Advanced web app security — XSS chains, race conditions, JWT forging, XXE, deserialization. The hardest SecOps Group web credential. Upgrade path from CAPen.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -654,7 +390,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -674,7 +410,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "api_security",
       "rest_api_testing",
@@ -687,7 +423,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). Hands-on API security testing covering OWASP API Top 10, BOLA/BFLA, auth flaws, GraphQL injection. Practical lab environment. Affordable alternative to Portswigger Web Security Academy certification path.",
+    "summary": "Professional-tier (~4-hr practical, £250). Hands-on API security testing covering OWASP API Top 10, BOLA/BFLA, auth flaws, GraphQL injection. Practical lab environment. Affordable alternative to Portswigger Web Security Academy certification path.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -699,7 +435,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -719,7 +455,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "thick_client_testing",
       "windows_application_security",
@@ -731,7 +467,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-hr practical, \u00a3250). Thick-client and desktop application security testing on Windows and Linux. Covers DLL hijacking, insecure storage, traffic interception of desktop apps. Rare credential in a niche area often skipped in mainstream cert paths.",
+    "summary": "Professional-tier (~4-hr practical, £250). Thick-client and desktop application security testing on Windows and Linux. Covers DLL hijacking, insecure storage, traffic interception of desktop apps. Rare credential in a niche area often skipped in mainstream cert paths.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -743,7 +479,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -775,7 +511,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical challenges, unlimited attempts ($49). Entry-level web application security testing \u2014 OWASP Top 10, SQL injection, XSS, broken auth. Affordable entry point into web pentesting practical credentials.",
+    "summary": "Practical challenges, unlimited attempts ($49). Entry-level web application security testing — OWASP Top 10, SQL injection, XSS, broken auth. Affordable entry point into web pentesting practical credentials.",
     "flags": [
       "low_cost"
     ],
@@ -821,7 +557,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Practical, unlimited attempts ($49). API security testing fundamentals \u2014 OWASP API Top 10, BOLA, broken function-level auth, mass assignment, rate limiting bypass.",
+    "summary": "Practical, unlimited attempts ($49). API security testing fundamentals — OWASP API Top 10, BOLA, broken function-level auth, mass assignment, rate limiting bypass.",
     "flags": [
       "low_cost"
     ],
@@ -856,7 +592,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50\u2013100. Also available live at DEF CON/Black Hat at $2,000\u20132,500.",
+    "geographic_note": "training.whiteknightlabs.com. 48-hr practical + 48-hr professional report. 1 exam voucher included; retake $50–100. Also available live at DEF CON/Black Hat at $2,000–2,500.",
     "skills": [
       "cicd_security",
       "supply_chain_attacks",
@@ -870,7 +606,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "WKL's CI/CD security certification. ~$500-700 on-demand, $2,000 live. Hands-on labs deployed in Azure via portal (no VPN required). Covers GitHub Actions, CircleCI, Docker, Kubernetes, Azure DevOps, and AWS CodeBuild from both attack and defense perspectives \u2014 supply-chain abuse, secrets exfiltration from pipelines, pipeline hardening. DEF CON 2025 featured. Unusual dual-focus on attacking and securing makes it relevant for both red teamers and DevSecOps engineers.",
+    "summary": "WKL's CI/CD security certification. ~$500-700 on-demand, $2,000 live. Hands-on labs deployed in Azure via portal (no VPN required). Covers GitHub Actions, CircleCI, Docker, Kubernetes, Azure DevOps, and AWS CodeBuild from both attack and defense perspectives — supply-chain abuse, secrets exfiltration from pipelines, pipeline hardening. DEF CON 2025 featured. Unusual dual-focus on attacking and securing makes it relevant for both red teamers and DevSecOps engineers.",
     "flags": [
       "hands_on"
     ],
@@ -885,6 +621,114 @@
       "salary_impact": 6,
       "time_to_prepare": 7,
       "overall": 6.2
+    }
+  },
+  {
+    "id": "pdso-casp",
+    "acronym": "CASP",
+    "full_name": "Practical DevSecOps Certified API Security Professional",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "api_security",
+      "devsecops"
+    ],
+    "level": "intermediate",
+    "practical_weight": 100,
+    "cost_usd": 899,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Listed in CISA NICCS. 5-challenge practical, 6-hour lab + 24-hour report, 80% pass. Covers REST, SOAP, and GraphQL. Not DoD 8140 approved.",
+    "skills": [
+      "api_security",
+      "owasp_api_top_10",
+      "broken_object_level_authorization",
+      "oauth2_exploitation",
+      "jwt_attacks",
+      "graphql_security",
+      "soap_rest_attacks",
+      "api_gateway_hardening",
+      "kong_gateway",
+      "hashicorp_vault_api",
+      "owasp_asvs_auditing",
+      "ci_cd_api_security"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Web application security fundamentals",
+        "REST API concepts",
+        "HTTP protocol"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's API security certification. 5 task-based challenges, 6-hour lab + 24-hour report, 80% pass. Covers OWASP API Top 10, broken object-level and function-level authorization, OAuth 2.0/JWT exploitation, GraphQL security testing, SOAP/REST attack techniques, CI/CD-integrated API security automation, API gateway hardening with Kong, HashiCorp Vault for API secrets, and OWASP ASVS auditing. $899 with 30+ exercises and 36 CPE credits. Lifetime validity. Widely chosen by AppSec engineers specializing in API testing.",
+    "flags": [],
+    "official_url": "https://www.practical-devsecops.com/certified-api-security-professional/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 6,
+      "practical_depth": 9,
+      "employer_recognition": 5,
+      "community_respect": 7,
+      "salary_impact": 6,
+      "time_to_prepare": 5,
+      "overall": 6.6
+    }
+  },
+  {
+    "id": "pdso-csc",
+    "acronym": "CSC",
+    "full_name": "Practical DevSecOps Certified Security Champion",
+    "issuing_body": "Practical DevSecOps",
+    "domain": [
+      "appsec"
+    ],
+    "subdomain": [
+      "secure_coding",
+      "devsecops"
+    ],
+    "level": "beginner",
+    "practical_weight": 100,
+    "cost_usd": 599,
+    "renewal": "lifetime",
+    "dod_8140": false,
+    "geographic_recognition": "global",
+    "geographic_note": "Targeted at developer security champions and AppSec-aware developers. 5-challenge practical, 6-hour lab + 24-hour report, 80% pass. Not DoD 8140 approved.",
+    "skills": [
+      "owasp_top_10",
+      "secure_coding",
+      "code_review",
+      "vulnerability_identification",
+      "vulnerability_remediation",
+      "ci_cd_security_basics",
+      "security_champion_program"
+    ],
+    "prerequisites": {
+      "knowledge": [
+        "Basic programming knowledge",
+        "General security awareness"
+      ],
+      "recommended_certs": []
+    },
+    "summary": "Practical DevSecOps's entry-level developer security credential aimed at security champions — developers who take on a security advocate role within engineering teams. 5 task-based challenges, 6-hour lab + 24-hour report, 80% pass. Covers OWASP Top 10, secure coding practices, code review methodology, identifying and fixing vulnerabilities in CI/CD pipelines. $599 with 40+ exercises and 24 CPE credits. Lifetime validity. Lowest barrier entry into the PDSO catalog.",
+    "flags": [
+      "low_cost"
+    ],
+    "official_url": "https://www.practical-devsecops.com/certified-security-champion/",
+    "active": true,
+    "paths": [],
+    "scores": {
+      "exam_difficulty": 4,
+      "practical_depth": 8,
+      "employer_recognition": 4,
+      "community_respect": 5,
+      "salary_impact": 4,
+      "time_to_prepare": 4,
+      "overall": 4.8
     }
   }
 ]
