@@ -53,6 +53,18 @@
   ],
   "changelog": [
     {
+      "date": "2026-05-11",
+      "title": "Crawler & AI Discoverability — Static Content Injection",
+      "items": [
+        "Added a Vite build plugin that bakes the catalog into the served HTML so AI crawlers (Anthropic, OpenAI, Perplexity), Googlebot's first-pass crawl, and JS-disabled clients can read the data without executing JavaScript",
+        "Injected a slim schema.org ItemList of all 426 certs as JSON-LD — directory-style structured data parseable natively by every major AI crawler",
+        "Added a <noscript> fallback with the full catalog grouped by domain (cert acronym, full name, issuer, level, practical %, cost, 220-char summary) plus the latest news and changelog entries wrapped in <time datetime> for freshness signals",
+        "og:updated_time and article:modified_time meta tags now auto-pull from the latest changelog date",
+        "sitemap.xml lastmod auto-regenerates from the data — no more manual date bumps",
+        "Refreshed README with current cert count, last-updated badge, recent changelog highlights, and an explicit Contributing section linking to CONTRIBUTING.md"
+      ]
+    },
+    {
       "date": "2026-05-10",
       "title": "DevSecOps Cert Refresh, Duplicate Merge & Practical-Weight Legend",
       "items": [

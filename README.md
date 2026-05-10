@@ -2,16 +2,17 @@
 
 > A cybersecurity certification navigator — browse certs by domain, map them to skills, and explore role-based career paths.
 
-Built as a personal tool after years of teaching cybersecurity and finding that existing resources (notably Paul Jerimy's excellent roadmap) hadn't kept pace with newer domains like Cloud Security and AI Security. EBCertMap goes further with interactive filtering, cert profiles, skill matching, and role-based learning paths.
+**🌐 Live site:** [ebcertmap.com](https://ebcertmap.com) · **📋 426+ certs** across **15 domains** · **🛠 Last updated:** 2026-05-10 · **🤝 Contributions welcome** — see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Built as a personal tool after years of teaching cybersecurity and finding that existing resources (notably Paul Jerimy's excellent roadmap) hadn't kept pace with newer domains like Cloud Security and AI Security. EBCertMap goes further with interactive filtering, cert profiles, skill matching, role-based learning paths, and a visual domain × level Map view inspired by Paul Jerimy's roadmap but driven by real data.
 
 The structure was designed so the UI is a data-driven template — adding a new domain, cert, or role path is just a matter of dropping in a JSON file.
 
-public live host server - https://ebcertmap.com
 ---
 
 ## Features
 
-- **425+ certs** across 15 domains — Offensive, DFIR, Cloud, AppSec, IAM, GRC, AI Security, and more
+- **426+ certs** across 15 domains — Offensive, DFIR, Cloud, AppSec, IAM, GRC, AI Security, and more
 - **Cert profiles** — level, cost, practical weight, score breakdown, prerequisites, and official links
 - **Skills view** — select any combination of skills to find certs that validate all of them
 - **Roles view** — 45+ career roles, each with multiple cert path options, costs, pros/cons, and step-by-step sequences
@@ -19,6 +20,33 @@ public live host server - https://ebcertmap.com
 - **All-domains view** — browse the full cert library with an expandable domain sidebar
 - **Live filtering** — search, filter by level/issuer/cost/DoD 8140, sort by score or alphabetically
 - **Cert scoring** — practical depth, employer recognition, community respect, exam difficulty, salary impact, and time to prepare
+
+---
+
+## Recent Updates
+
+The full news + changelog is on the live site under the **About** modal. Recent highlights:
+
+- **2026-05-10** — DevSecOps cert refresh: 3 new Practical DevSecOps entries (CCSE, CCNSE, CSC), 6 existing PDSO certs rescored and cross-domain expanded. Merged 3 long-standing duplicate entries (AAIA, AIGP, CISSP). Map pills now show issuer-initial tags for vendor-collision acronyms. Added a `?` popover explaining the practical-weight scoring scale.
+- **2026-05-10** — First community PR landed (thanks to @Aj7ay7) and [CONTRIBUTING.md](CONTRIBUTING.md) published — fork, follow the guide, send a PR.
+- **2026-05-07** — **Map view shipped**: visual domain × level matrix toggle on the Certs page. Single-domain mode switches to a leaderboard-per-level ranked by overall score. Color pills by domain, recognition, practical weight, or cost. Mobile gets a vertical leaderboard layout.
+- **2026-05-03** — Cloudflare edge hardening (HTTPS-only, TLS 1.2+, HSTS, X-Content-Type-Options nosniff).
+- **2026-04-29** — Added the Mobile Security Researcher role with a dedicated kernel/internals path, plus 4 new role tracks and a roles.json metadata cleanup across 13 roles.
+- **2026-04-28** — 15 boutique certs added across 8kSec (11 mobile + AI security certs), Mandiant (MCTIA), arcX (FTIA, PTIA), and Learn Prompting (AIRTP+).
+
+---
+
+## Contributing
+
+Community contributions are open. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide — covers cert ID conventions, cross-domain placement, the JSON schema with field-by-field guidance (practical weight scale, level definitions, score conventions, recognized flags), local testing, and PR etiquette.
+
+Easy ways to help:
+
+- **Spot a missing cert?** Fork the repo, add the entry following the schema, send a PR.
+- **Spot a wrong score or stale data?** Open an issue or send a PR with the fix and a source link.
+- **Spot a missing or retired cert flag?** Submit a one-line update.
+
+If you're not sure whether a cert belongs in the catalog, open an issue first and I'll give feedback before you put in the work.
 
 ---
 
@@ -133,12 +161,15 @@ Open [http://localhost:5173](http://localhost:5173).
 
 | Phase | Status | Description |
 |---|---|---|
-| 1 — Foundation | ✅ Done | 15 domains, 425+ cert profiles, UI/UX |
+| 1 — Foundation | ✅ Done | 15 domains, 426+ cert profiles, UI/UX |
 | 2 — Skills & Roles | ✅ Done | Skills mapping, role categories, cert skill labeling |
 | 3 — Career Paths | ✅ Done | 49 roles, 128 cert paths, 380+ steps |
 | 3.5 — Map View | ✅ Done | Visual domain × level matrix, leaderboard-per-level, color-by dimensions |
-| 4 — Courses | 🔜 Planned | Course recommendations per cert and skill |
-| 5 — AI Updates | 🔜 Planned | Periodic AI-assisted data refresh |
+| 3.6 — Crawler / AI Discoverability | ✅ Done | Build-time static content injection (JSON-LD ItemList, `<noscript>` catalog, `<time datetime>` freshness signals, auto-regenerated sitemap) |
+| 4 — Per-cert URLs | 🔜 Planned | React Router with `/cert/:id`, `/domain/:id`, `/role/:id` for deep linking |
+| 5 — Pre-rendering | 🔜 Planned | Static HTML per route at build time for full Google indexability |
+| 6 — Courses | 🔜 Planned | Course recommendations per cert and skill |
+| 7 — AI Updates | 🔜 Planned | Periodic AI-assisted data refresh |
 
 ---
 
