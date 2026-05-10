@@ -2,6 +2,11 @@
   "news": [
     {
       "date": "2026-05-10",
+      "title": "First community PR — huge thanks to Aj7ay7! 🙌",
+      "body": "Massive thank you to Aj7ay7 for the very first community PR — they spotted that CCSE and CCNSE (Practical DevSecOps) were missing and put together an entry for both. That single PR is what kicked off the whole PDSO refresh you see in this update: the two certs they flagged, plus a bunch more from the same vendor I realized had been missing or under-scored once I started digging. Exactly the kind of contribution that makes this project better — one person spotting something, and the fix turning into a wider improvement. Off the back of it I wrote a CONTRIBUTING.md so the next PR has a clear path through the conventions (vendor acronym collisions, cross-domain placement, score scales, etc.). If you've spotted a missing cert, an inaccurate score, or one that should be flagged as retired — fork, follow the guide, send a PR. Genuinely excited to see what comes next."
+    },
+    {
+      "date": "2026-05-10",
       "title": "Practical weight, explained — plus a few more DevSecOps certs",
       "body": "Got some really good feedback on the recent map update — especially around the practical weight scoring. As a few of you pointed out, I never actually shared how that number is decided. So here it is, the 5-tier scale: 100% — Entirely practical · 70% — Majority practical + report · 50% — Hybrid MCQ + lab · 25% — MCQ + optional lab · 0% — MCQ only. This now lives behind a small ? tooltip next to the practical bar in every cert profile and next to the 'Practical' color-by selector on the map, so you can pull it up any time. Also slipped in a few more certs from the Practical DevSecOps catalog (CCSE Container, CCNSE Cloud-Native, CSC Security Champion) and refreshed the existing PDSO entries with better scoring and cross-domain placement. Keep the feedback coming — this is exactly how the project gets better."
     },
