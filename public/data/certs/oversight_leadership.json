@@ -13,7 +13,7 @@
       "security_program_management"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 999,
     "renewal": "3 years",
     "dod_8140": true,
@@ -37,7 +37,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's executive-level security leadership certification targeting current and aspiring CISOs. Covers security governance, program management, strategic planning, financial management, audit oversight, and executive communication \u2014 the full operational scope of a CISO role. DoD 8140 approved which is its strongest selling point. Requires documented senior security management experience for full certification. EC-Council's reputation is mixed in the practitioner community but CCISO has genuine employer recognition and DoD approval that makes it valuable for practitioners targeting CISO roles, particularly in government and contractor environments. Often pursued alongside CISSP or CISM rather than as a replacement.",
+    "summary": "EC-Council's executive-level security leadership certification targeting current and aspiring CISOs. Covers security governance, program management, strategic planning, financial management, audit oversight, and executive communication — the full operational scope of a CISO role. DoD 8140 approved which is its strongest selling point. Requires documented senior security management experience for full certification. EC-Council's reputation is mixed in the practitioner community but CCISO has genuine employer recognition and DoD approval that makes it valuable for practitioners targeting CISO roles, particularly in government and contractor environments. Often pursued alongside CISSP or CISM rather than as a replacement.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/",
     "active": true,
@@ -64,7 +64,7 @@
       "ciso_executive_leadership"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": false,
@@ -83,7 +83,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "EC-Council's entry path to the CCISO track \u2014 same exam as CCISO but without the experience requirement verification, replaced December 2023 by the EISM certification. Allows practitioners to pass the CCISO exam while building the required experience to upgrade to full CCISO designation. Not DoD 8140 approved at the Associate level. A practical pathway for mid-career practitioners targeting CISO roles who want to demonstrate knowledge of the CISO curriculum before reaching the experience threshold for full CCISO.",
+    "summary": "EC-Council's entry path to the CCISO track — same exam as CCISO but without the experience requirement verification, replaced December 2023 by the EISM certification. Allows practitioners to pass the CCISO exam while building the required experience to upgrade to full CCISO designation. Not DoD 8140 approved at the Associate level. A practical pathway for mid-career practitioners targeting CISO roles who want to demonstrate knowledge of the CISO curriculum before reaching the experience threshold for full CCISO.",
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/associate-cciso/",
     "active": true,
@@ -112,7 +112,7 @@
       "ciso_executive_leadership"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": true,
@@ -136,7 +136,7 @@
         "cissp"
       ]
     },
-    "summary": "ISC2's security management concentration covering security leadership, program management, compliance, business continuity governance, and personnel security management. As of October 2023, the exam can be taken without active CISSP, but the ISSMP concentration designation still requires CISSP. DoD 8140 approved. Sits at the intersection of technical security knowledge and management competency \u2014 most relevant for senior security managers and CISOs who want to validate their program management and leadership skills with a recognized credential. Requires CISSP as the foundational technical credential, making this part of a comprehensive senior security leadership stack.",
+    "summary": "ISC2's security management concentration covering security leadership, program management, compliance, business continuity governance, and personnel security management. As of October 2023, the exam can be taken without active CISSP, but the ISSMP concentration designation still requires CISSP. DoD 8140 approved. Sits at the intersection of technical security knowledge and management competency — most relevant for senior security managers and CISOs who want to validate their program management and leadership skills with a recognized credential. Requires CISSP as the foundational technical credential, making this part of a comprehensive senior security leadership stack.",
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issmp",
     "active": true,
@@ -148,7 +148,7 @@
       "community_respect": 6,
       "salary_impact": 7,
       "time_to_prepare": 6,
-      "overall": 5.0
+      "overall": 5
     }
   },
   {
@@ -188,7 +188,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's security leadership and management certification covering security program management, risk governance, policy development, compliance management, project management, and security team leadership. DoD 8140 approved. Sits at the management layer \u2014 validates governance and program competency rather than technical security skill. Complements technical GIAC certs like GCIH or GCFA for practitioners who have technical credentials and need to document management development. A solid option for security managers and team leads who want a GIAC-branded management credential to complement their practitioner certs.",
+    "summary": "GIAC's security leadership and management certification covering security program management, risk governance, policy development, compliance management, project management, and security team leadership. DoD 8140 approved. Sits at the management layer — validates governance and program competency rather than technical security skill. Complements technical GIAC certs like GCIH or GCFA for practitioners who have technical credentials and need to document management development. A solid option for security managers and team leads who want a GIAC-branded management credential to complement their practitioner certs.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/security-leadership-gslc/",
     "active": true,
@@ -242,7 +242,7 @@
         "gslc"
       ]
     },
-    "summary": "GIAC's strategic security leadership certification covering security strategy development, board-level risk communication, security investment justification, organizational change management, and metrics-driven governance. DoD 8140 approved. Sits above GSLC in seniority \u2014 where GSLC covers security program management, GSTRT covers the strategic and executive communication layer that senior CISOs and deputy CISOs need. Particularly relevant for practitioners who need to influence board-level decision making and translate technical security risk into business language. One of the most directly applicable GIAC certs for aspiring CISOs.",
+    "summary": "GIAC's strategic security leadership certification covering security strategy development, board-level risk communication, security investment justification, organizational change management, and metrics-driven governance. DoD 8140 approved. Sits above GSLC in seniority — where GSLC covers security program management, GSTRT covers the strategic and executive communication layer that senior CISOs and deputy CISOs need. Particularly relevant for practitioners who need to influence board-level decision making and translate technical security risk into business language. One of the most directly applicable GIAC certs for aspiring CISOs.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/",
     "active": true,
@@ -254,7 +254,7 @@
       "community_respect": 6,
       "salary_impact": 7,
       "time_to_prepare": 6,
-      "overall": 5.0
+      "overall": 5
     }
   },
   {
@@ -296,7 +296,7 @@
         "gcfa"
       ]
     },
-    "summary": "GIAC's incident response leadership certification covering the management and coordination of large-scale incident response operations \u2014 launched 2025. Addresses the gap between technical IR skill and the leadership capabilities needed by IR managers and CISO-level incident commanders. Covers team coordination, executive reporting during incidents, crisis communication, and IR strategy development. Not yet DoD 8140 listed as a new cert. A meaningful credential for senior practitioners transitioning from hands-on IR work into IR leadership roles without fully leaving the incident response domain.",
+    "summary": "GIAC's incident response leadership certification covering the management and coordination of large-scale incident response operations — launched 2025. Addresses the gap between technical IR skill and the leadership capabilities needed by IR managers and CISO-level incident commanders. Covers team coordination, executive reporting during incidents, crisis communication, and IR strategy development. Not yet DoD 8140 listed as a new cert. A meaningful credential for senior practitioners transitioning from hands-on IR work into IR leadership roles without fully leaving the incident response domain.",
     "flags": [
       "new"
     ],
@@ -326,7 +326,7 @@
       "ciso_executive_leadership"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": false,
@@ -348,7 +348,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "ASIS International's flagship security management certification \u2014 historically the primary credential for physical security and corporate security directors but increasingly relevant in converged physical-cyber security roles. Covers security program management, risk assessment, investigations, emergency planning, personnel security, and information security governance at a program level. Not DoD 8140 approved. CPP holders are typically VP-level security executives and CSOs/CISOs in organizations where physical and cyber security are managed under a unified structure. As physical-cyber convergence accelerates, CPP holders in IT security leadership roles are increasingly common.",
+    "summary": "ASIS International's flagship security management certification — historically the primary credential for physical security and corporate security directors but increasingly relevant in converged physical-cyber security roles. Covers security program management, risk assessment, investigations, emergency planning, personnel security, and information security governance at a program level. Not DoD 8140 approved. CPP holders are typically VP-level security executives and CSOs/CISOs in organizations where physical and cyber security are managed under a unified structure. As physical-cyber convergence accelerates, CPP holders in IT security leadership roles are increasingly common.",
     "flags": [],
     "official_url": "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
     "active": true,
@@ -375,7 +375,7 @@
       "security_awareness_training"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 799,
     "renewal": "2 years",
     "dod_8140": false,
@@ -398,9 +398,9 @@
       ],
       "recommended_certs": []
     },
-    "summary": "SANS's certification for security awareness and human risk management professionals \u2014 the only major certification dedicated specifically to running effective security awareness programs. Covers program design, behavior change methodology, phishing simulation, metrics, and board-level communication of human risk. Not DoD 8140 approved. As human risk management has matured from mandatory annual training into a strategic security function, SSAP has grown in relevance. Most valuable for practitioners whose primary responsibility is security culture and awareness rather than technical security operations. Increasingly recognized in hiring for Security Awareness Manager and Human Risk Manager roles.",
+    "summary": "SANS's certification for security awareness and human risk management professionals — the only major certification dedicated specifically to running effective security awareness programs. Covers program design, behavior change methodology, phishing simulation, metrics, and board-level communication of human risk. Not DoD 8140 approved. As human risk management has matured from mandatory annual training into a strategic security function, SSAP has grown in relevance. Most valuable for practitioners whose primary responsibility is security culture and awareness rather than technical security operations. Increasingly recognized in hiring for Security Awareness Manager and Human Risk Manager roles.",
     "flags": [],
-    "official_url": "https://www.sans.org/security-awareness/",
+    "official_url": "https://www.sans.org/cyber-security-certifications/sans-security-awareness-professional-credential",
     "active": true,
     "paths": [],
     "scores": {
@@ -425,7 +425,7 @@
       "security_program_management"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -474,7 +474,7 @@
       "ciso_executive_leadership"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 3500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -496,7 +496,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The National Association of Corporate Directors' cyber risk oversight certificate developed with Carnegie Mellon SEI \u2014 targeted at board directors and C-suite executives responsible for cyber risk oversight rather than practitioners. Covers board-level cyber governance, CISO-board interaction, cyber risk quantification from an oversight perspective, and regulatory compliance responsibilities. Not DoD 8140 approved. Increasingly recognized as organizations face regulatory requirements for board-level cyber competency (SEC cybersecurity disclosure rules). Most relevant for CISOs who report to boards and for board members who want formal cyber risk governance credentials.",
+    "summary": "The National Association of Corporate Directors' cyber risk oversight certificate developed with Carnegie Mellon SEI — targeted at board directors and C-suite executives responsible for cyber risk oversight rather than practitioners. Covers board-level cyber governance, CISO-board interaction, cyber risk quantification from an oversight perspective, and regulatory compliance responsibilities. Not DoD 8140 approved. Increasingly recognized as organizations face regulatory requirements for board-level cyber competency (SEC cybersecurity disclosure rules). Most relevant for CISOs who report to boards and for board members who want formal cyber risk governance credentials.",
     "flags": [],
     "official_url": "https://www.sei.cmu.edu/credentials/national-association-of-corporate-directors-nacd-cyber-risk-oversight-program/",
     "active": true,
@@ -524,7 +524,7 @@
       "elite_capstone"
     ],
     "level": "elite",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 0,
     "renewal": "4 years (co-terminates with constituent certs)",
     "dod_8140": true,
@@ -549,11 +549,9 @@
         "gsp"
       ]
     },
-    "summary": "GIAC's flagship elite credential and the most prestigious certification in cybersecurity. GSE is a portfolio certification \u2014 there is no separate exam. Candidates earn GSE by completing any 6 GIAC Practitioner certifications and any 4 GIAC Applied Knowledge (GX-series) certifications, all of which must remain active. The credential co-terminates with the expiry of the constituent certs, incentivizing ongoing renewal. As of 2026, fewer than 350 individuals hold the GSE globally. The practical weight is effectively 80%+ because the GX-series Applied Knowledge requirements are all CyberLive hands-on exams. DoD 8140 approved \u2014 listed across all military branch COOL systems. The GSE is the career-defining capstone for elite GIAC practitioners and is recognized by name in senior government and cleared contractor cybersecurity positions.",
+    "summary": "GIAC's flagship elite credential and the most prestigious certification in cybersecurity. GSE is a portfolio certification — there is no separate exam. Candidates earn GSE by completing any 6 GIAC Practitioner certifications and any 4 GIAC Applied Knowledge (GX-series) certifications, all of which must remain active. The credential co-terminates with the expiry of the constituent certs, incentivizing ongoing renewal. As of 2026, fewer than 350 individuals hold the GSE globally. The practical weight is effectively 80%+ because the GX-series Applied Knowledge requirements are all CyberLive hands-on exams. DoD 8140 approved — listed across all military branch COOL systems. The GSE is the career-defining capstone for elite GIAC practitioners and is recognized by name in senior government and cleared contractor cybersecurity positions.",
     "flags": [
-      "elite",
-      "capstone",
-      "portfolio",
+      "portfolio_based",
       "no_exam"
     ],
     "official_url": "https://www.giac.org/get-certified/giac-portfolio-certifications",
@@ -601,10 +599,10 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's 2024 intermediate portfolio tier introduced as a milestone between standard Practitioner certifications and the elite GSE. GSP is earned by completing any 3 GIAC Practitioner certifications and any 2 GIAC Applied Knowledge (GX-series) certifications, all of which must remain active. Like GSE, there is no separate exam \u2014 the credential is awarded automatically upon meeting the portfolio requirements. Designed to recognize practitioners who have demonstrated multi-domain expertise and hands-on proficiency through the CyberLive GX-series requirements. Co-terminates with constituent certs. A stepping stone to GSE that recognizes significant commitment to the GIAC ecosystem. Building market recognition as the program matures.",
+    "summary": "GIAC's 2024 intermediate portfolio tier introduced as a milestone between standard Practitioner certifications and the elite GSE. GSP is earned by completing any 3 GIAC Practitioner certifications and any 2 GIAC Applied Knowledge (GX-series) certifications, all of which must remain active. Like GSE, there is no separate exam — the credential is awarded automatically upon meeting the portfolio requirements. Designed to recognize practitioners who have demonstrated multi-domain expertise and hands-on proficiency through the CyberLive GX-series requirements. Co-terminates with constituent certs. A stepping stone to GSE that recognizes significant commitment to the GIAC ecosystem. Building market recognition as the program matures.",
     "flags": [
       "new",
-      "portfolio",
+      "portfolio_based",
       "no_exam"
     ],
     "official_url": "https://www.giac.org/get-certified/giac-portfolio-certifications",

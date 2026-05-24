@@ -66,7 +66,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": false,
@@ -116,7 +116,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 299,
     "renewal": "2 years",
     "dod_8140": false,
@@ -168,7 +168,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "beginner",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 0,
     "renewal": "does not expire",
     "dod_8140": false,
@@ -219,7 +219,7 @@
       "threat_intelligence_platforms"
     ],
     "level": "intermediate",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -271,7 +271,7 @@
       "threat_intelligence_platforms"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -297,7 +297,7 @@
       "tool_vendor"
     ],
     "official_url": "https://www.anomali.com/training",
-    "active": true,
+    "active": false,
     "paths": [],
     "scores": {
       "exam_difficulty": 3,
@@ -321,7 +321,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "beginner",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -370,7 +370,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "expert",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 1500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -421,7 +421,7 @@
       "threat_intelligence_analysis"
     ],
     "level": "intermediate",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 999,
     "renewal": "4 years",
     "dod_8140": true,
@@ -475,7 +475,7 @@
       "open_source_intelligence"
     ],
     "level": "intermediate",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 300,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -673,7 +673,7 @@
       "intelligence_reporting"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 380,
     "renewal": "lifetime",
     "dod_8140": false,

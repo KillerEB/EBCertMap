@@ -107,7 +107,7 @@ Use these values only — no other numbers:
 
 ### Scores
 
-All six component scores are **integers from 1 to 10**. The `overall` field is a **single decimal** (e.g. `7.2`). Scores should reflect honest community consensus, not vendor marketing. If you are unsure, look at how similar certs in the same domain are scored and calibrate against those.
+All six component scores are **integers from 0 to 10** (use 0 only when truly absent — e.g. `practical_depth: 0` for pure MCQ certs). The `overall` field is a **single decimal** (e.g. `7.2`). Scores should reflect honest community consensus, not vendor marketing. If you are unsure, look at how similar certs in the same domain are scored and calibrate against those.
 
 ### Flags
 

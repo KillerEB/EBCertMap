@@ -15,7 +15,7 @@
       "security_governance"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 749,
     "renewal": "3 years",
     "dod_8140": true,
@@ -69,7 +69,7 @@
       "cryptography_pki"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": true,
@@ -120,7 +120,7 @@
       "security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": true,
@@ -170,7 +170,7 @@
       "enterprise_security_architecture"
     ],
     "level": "intermediate",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 1500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -320,7 +320,7 @@
       "security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 509,
     "renewal": "3 years",
     "dod_8140": true,
@@ -377,7 +377,7 @@
       "zero_trust_architecture"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 165,
     "renewal": "1 year",
     "dod_8140": false,
@@ -540,7 +540,7 @@
       "enterprise_security_architecture"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 320,
     "renewal": "3 years",
     "dod_8140": false,
@@ -590,7 +590,7 @@
       "zero_trust_architecture"
     ],
     "level": "intermediate",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 395,
     "renewal": "3 years",
     "dod_8140": false,
@@ -641,7 +641,7 @@
       "enterprise_security_architecture"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 495,
     "renewal": "3 years",
     "dod_8140": false,
@@ -664,7 +664,7 @@
     },
     "summary": "The Open Group's credential for integrating security and risk into TOGAF-based enterprise architecture work. Covers how to embed security requirements, risk management, and security architecture into the TOGAF Architecture Development Method (ADM). Not DoD 8140 approved. Most relevant for enterprise architects working in organizations using TOGAF as their EA framework who need to incorporate security systematically. Niche but fills a genuine gap — most EA certifications treat security as an afterthought while this credential makes it central to the architecture process.",
     "flags": [],
-    "official_url": "https://www.opengroup.org/certifications/togaf-irs",
+    "official_url": "https://www.opengroup.org/certifications/integrating-risk-and-security",
     "active": true,
     "paths": [],
     "scores": {

@@ -65,7 +65,7 @@
       "devsecops"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": true,
@@ -117,7 +117,7 @@
       "secure_software_development"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": false,
@@ -167,7 +167,7 @@
       "secure_software_development"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": false,
@@ -218,7 +218,7 @@
       "software_supply_chain_security"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 99,
     "renewal": "2 years",
     "dod_8140": false,
@@ -315,7 +315,7 @@
       "web_application_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -360,7 +360,7 @@
       "web_application_testing"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -405,7 +405,7 @@
       "api_security"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -450,7 +450,7 @@
       "thick_client_security"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -494,7 +494,7 @@
       "web_application_testing"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -540,7 +540,7 @@
       "api_security"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,

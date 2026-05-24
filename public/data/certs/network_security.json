@@ -11,7 +11,7 @@
       "network_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 358,
     "renewal": "3 years",
     "dod_8140": true,
@@ -33,7 +33,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "CompTIA's networking foundation certification and the most recognized entry-level networking credential globally. Covers TCP/IP, network infrastructure, troubleshooting, and basic network security. DoD 8140 approved and commonly listed as a prerequisite or co-requisite for Security+ in government hiring. Primarily a networking cert rather than a security cert \u2014 it establishes the networking foundation that security practitioners need before specializing. Most security professionals use Network+ as a stepping stone rather than a career credential in itself, but it carries real value as a documented baseline for those new to IT.",
+    "summary": "CompTIA's networking foundation certification and the most recognized entry-level networking credential globally. Covers TCP/IP, network infrastructure, troubleshooting, and basic network security. DoD 8140 approved and commonly listed as a prerequisite or co-requisite for Security+ in government hiring. Primarily a networking cert rather than a security cert — it establishes the networking foundation that security practitioners need before specializing. Most security professionals use Network+ as a stepping stone rather than a career credential in itself, but it carries real value as a documented baseline for those new to IT.",
     "flags": [],
     "official_url": "https://www.comptia.org/certifications/network",
     "active": true,
@@ -60,7 +60,7 @@
       "network_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 330,
     "renewal": "3 years",
     "dod_8140": true,
@@ -82,9 +82,9 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Cisco's foundational networking certification and one of the most recognized IT credentials in the world. Covers routing, switching, network access, security fundamentals, and basic automation in Cisco environments. DoD 8140 approved. The baseline requirement for most network engineering and network security roles in Cisco-heavy environments \u2014 which is most enterprise and government networks. More technically demanding than Network+ with greater emphasis on hands-on Cisco IOS knowledge. The single cert replaced multiple previous CCNA specializations in 2020, making it a comprehensive foundation for any Cisco career path.",
+    "summary": "Cisco's foundational networking certification and one of the most recognized IT credentials in the world. Covers routing, switching, network access, security fundamentals, and basic automation in Cisco environments. DoD 8140 approved. The baseline requirement for most network engineering and network security roles in Cisco-heavy environments — which is most enterprise and government networks. More technically demanding than Network+ with greater emphasis on hands-on Cisco IOS knowledge. The single cert replaced multiple previous CCNA specializations in 2020, making it a comprehensive foundation for any Cisco career path.",
     "flags": [],
-    "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+    "official_url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
     "active": true,
     "paths": [],
     "scores": {
@@ -110,7 +110,7 @@
       "firewall_management"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 400,
     "renewal": "3 years",
     "dod_8140": true,
@@ -135,7 +135,7 @@
         "ccna"
       ]
     },
-    "summary": "Cisco's professional-level network security certification requiring one core exam plus one concentration exam from a portfolio covering firewalls, VPNs, identity services, and secure access. DoD 8140 approved and expected for senior network security engineering roles in Cisco-heavy environments. The two-exam structure allows specialization within network security \u2014 firewall administrators and VPN engineers can focus on relevant concentrations. One of the most commonly listed requirements in network security job postings for practitioners working with Cisco infrastructure.",
+    "summary": "Cisco's professional-level network security certification requiring one core exam plus one concentration exam from a portfolio covering firewalls, VPNs, identity services, and secure access. DoD 8140 approved and expected for senior network security engineering roles in Cisco-heavy environments. The two-exam structure allows specialization within network security — firewall administrators and VPN engineers can focus on relevant concentrations. One of the most commonly listed requirements in network security job postings for practitioners working with Cisco infrastructure.",
     "flags": [],
     "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html",
     "active": true,
@@ -147,7 +147,7 @@
       "community_respect": 7,
       "salary_impact": 8,
       "time_to_prepare": 7,
-      "overall": 6.0
+      "overall": 6
     }
   },
   {
@@ -188,7 +188,7 @@
         "ccnp-security"
       ]
     },
-    "summary": "The highest Cisco certification and one of the most prestigious credentials in networking \u2014 the CCIE Security requires passing a written qualifying exam followed by an 8-hour hands-on lab exam in a Cisco testing facility. Fewer than 5% of Cisco professionals hold any CCIE. DoD 8140 approved. A career-defining credential for network security architects and senior engineers in large Cisco environments. The lab exam genuinely tests expert-level ability to design, implement, and troubleshoot complex Cisco security infrastructures under time pressure \u2014 this is not a multiple choice certification.",
+    "summary": "The highest Cisco certification and one of the most prestigious credentials in networking — the CCIE Security requires passing a written qualifying exam followed by an 8-hour hands-on lab exam in a Cisco testing facility. Fewer than 5% of Cisco professionals hold any CCIE. DoD 8140 approved. A career-defining credential for network security architects and senior engineers in large Cisco environments. The lab exam genuinely tests expert-level ability to design, implement, and troubleshoot complex Cisco security infrastructures under time pressure — this is not a multiple choice certification.",
     "flags": [],
     "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html",
     "active": true,
@@ -206,7 +206,7 @@
   {
     "id": "jncia-sec",
     "acronym": "JNCIA-SEC",
-    "full_name": "Juniper Networks Certified Associate \u2013 Security",
+    "full_name": "Juniper Networks Certified Associate – Security",
     "issuing_body": "Juniper Networks (HPE)",
     "domain": [
       "network_security"
@@ -216,7 +216,7 @@
       "firewall_management"
     ],
     "level": "beginner",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "3 years",
     "dod_8140": false,
@@ -255,7 +255,7 @@
   {
     "id": "jncis-sec",
     "acronym": "JNCIS-SEC",
-    "full_name": "Juniper Networks Certified Specialist \u2013 Security",
+    "full_name": "Juniper Networks Certified Specialist – Security",
     "issuing_body": "Juniper Networks (HPE)",
     "domain": [
       "network_security"
@@ -265,7 +265,7 @@
       "firewall_management"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 300,
     "renewal": "3 years",
     "dod_8140": false,
@@ -307,7 +307,7 @@
   {
     "id": "jncip-sec",
     "acronym": "JNCIP-SEC",
-    "full_name": "Juniper Networks Certified Professional \u2013 Security",
+    "full_name": "Juniper Networks Certified Professional – Security",
     "issuing_body": "Juniper Networks (HPE)",
     "domain": [
       "network_security"
@@ -317,7 +317,7 @@
       "network_security_architecture"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 400,
     "renewal": "3 years",
     "dod_8140": false,
@@ -359,7 +359,7 @@
   {
     "id": "jncie-sec",
     "acronym": "JNCIE-SEC",
-    "full_name": "Juniper Networks Certified Expert \u2013 Security",
+    "full_name": "Juniper Networks Certified Expert – Security",
     "issuing_body": "Juniper Networks (HPE)",
     "domain": [
       "network_security"
@@ -390,7 +390,7 @@
         "jncip-sec"
       ]
     },
-    "summary": "Juniper's expert-level certification and the highest Juniper security credential \u2014 an 8-hour hands-on lab exam testing expert-level design, implementation, and troubleshooting of complex Juniper security infrastructures. 100% practical, no multiple choice component. Not DoD 8140 approved but highly respected in environments where Juniper dominates. The lab format genuinely separates JNCIE-SEC holders from paper-certified practitioners \u2014 this is a career-defining credential for senior Juniper security architects and consultants.",
+    "summary": "Juniper's expert-level certification and the highest Juniper security credential — an 8-hour hands-on lab exam testing expert-level design, implementation, and troubleshooting of complex Juniper security infrastructures. 100% practical, no multiple choice component. Not DoD 8140 approved but highly respected in environments where Juniper dominates. The lab format genuinely separates JNCIE-SEC holders from paper-certified practitioners — this is a career-defining credential for senior Juniper security architects and consultants.",
     "flags": [],
     "official_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncie-sec.html",
     "active": true,
@@ -407,8 +407,8 @@
   },
   {
     "id": "fcp-secure-networking",
-    "acronym": "FCP \u2013 Secure Networking",
-    "full_name": "Fortinet Certified Professional \u2013 Secure Networking",
+    "acronym": "FCP – Secure Networking",
+    "full_name": "Fortinet Certified Professional – Secure Networking",
     "issuing_body": "Fortinet",
     "domain": [
       "network_security"
@@ -418,7 +418,7 @@
       "network_security_engineering"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -440,7 +440,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Fortinet's professional-level network security certification introduced as part of the October 2025 program restructure \u2014 replacing the NSE 4/5 level within the new FCA \u2192 FCP \u2192 FCSS \u2192 FCX hierarchy. Covers FortiGate administration, FortiOS configuration, Security Fabric, VPN, and IDS/IPS in Fortinet environments. Not DoD 8140 approved. Fortinet has the largest market share in the firewall market globally, making Fortinet certifications broadly relevant in enterprise environments. The 2025 restructure consolidated multiple NSE exams into cleaner role-based tracks.",
+    "summary": "Fortinet's professional-level network security certification introduced as part of the October 2025 program restructure — replacing the NSE 4/5 level within the new FCA → FCP → FCSS → FCX hierarchy. Covers FortiGate administration, FortiOS configuration, Security Fabric, VPN, and IDS/IPS in Fortinet environments. Not DoD 8140 approved. Fortinet has the largest market share in the firewall market globally, making Fortinet certifications broadly relevant in enterprise environments. The 2025 restructure consolidated multiple NSE exams into cleaner role-based tracks.",
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
@@ -452,13 +452,13 @@
       "community_respect": 5,
       "salary_impact": 5,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
     "id": "fcss-secure-networking",
-    "acronym": "FCSS \u2013 Secure Networking",
-    "full_name": "Fortinet Certified Solution Specialist \u2013 Secure Networking",
+    "acronym": "FCSS – Secure Networking",
+    "full_name": "Fortinet Certified Solution Specialist – Secure Networking",
     "issuing_body": "Fortinet",
     "domain": [
       "network_security"
@@ -468,7 +468,7 @@
       "network_security_architecture"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -519,7 +519,7 @@
       "network_security_architecture"
     ],
     "level": "elite",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 800,
     "renewal": "2 years",
     "dod_8140": false,
@@ -541,7 +541,7 @@
         "fcss-secure-networking"
       ]
     },
-    "summary": "Fortinet's highest-tier expert certification \u2014 the successor to NSE 8 in the 2025 restructure. Includes a significant hands-on practical component alongside the written exam, testing expert-level design and troubleshooting of complex Fortinet security infrastructures. Not DoD 8140 approved. Held by a very small number of practitioners globally. Career-defining credential for senior Fortinet architects and consultants operating the most complex multi-product Fortinet environments. The practical component meaningfully differentiates FCX holders from practitioners who passed lower-tier Fortinet exams.",
+    "summary": "Fortinet's highest-tier expert certification — the successor to NSE 8 in the 2025 restructure. Includes a significant hands-on practical component alongside the written exam, testing expert-level design and troubleshooting of complex Fortinet security infrastructures. Not DoD 8140 approved. Held by a very small number of practitioners globally. Career-defining credential for senior Fortinet architects and consultants operating the most complex multi-product Fortinet environments. The practical component meaningfully differentiates FCX holders from practitioners who passed lower-tier Fortinet exams.",
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
@@ -570,7 +570,7 @@
       "network_security_engineering"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -591,7 +591,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Check Point's entry-level security certification covering SmartConsole administration, security policy management, NAT, and basic VPN configuration. Not DoD 8140 approved. Check Point has significant market presence in financial services, telecom, and government sectors \u2014 particularly strong in Europe and the Middle East. Entry point for the Check Point certification path and expected for administrators managing Check Point firewall deployments. Less universally recognized than Cisco equivalents but important where Check Point is the deployed platform.",
+    "summary": "Check Point's entry-level security certification covering SmartConsole administration, security policy management, NAT, and basic VPN configuration. Not DoD 8140 approved. Check Point has significant market presence in financial services, telecom, and government sectors — particularly strong in Europe and the Middle East. Entry point for the Check Point certification path and expected for administrators managing Check Point firewall deployments. Less universally recognized than Cisco equivalents but important where Check Point is the deployed platform.",
     "flags": [],
     "official_url": "https://www.checkpoint.com/support-services/training-certification/",
     "active": true,
@@ -620,7 +620,7 @@
       "firewall_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 350,
     "renewal": "2 years",
     "dod_8140": false,
@@ -670,7 +670,7 @@
       "network_security_architecture"
     ],
     "level": "expert",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "2 years",
     "dod_8140": false,
@@ -721,7 +721,7 @@
       "network_security_engineering"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -771,7 +771,7 @@
       "network_security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -824,7 +824,7 @@
       "network_monitoring"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -846,7 +846,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "Palo Alto Networks' analyst-level certification focused on monitoring, log analysis, and incident investigation using Palo Alto firewalls \u2014 the blue team counterpart to the NSP engineering cert. Part of the 2025 role-based framework. In-person only, 2-year validity. Not DoD 8140 approved. Suitable for SOC analysts and network security analysts working in Palo Alto environments who need to validate their monitoring and investigation skills specific to PAN-OS platforms.",
+    "summary": "Palo Alto Networks' analyst-level certification focused on monitoring, log analysis, and incident investigation using Palo Alto firewalls — the blue team counterpart to the NSP engineering cert. Part of the 2025 role-based framework. In-person only, 2-year validity. Not DoD 8140 approved. Suitable for SOC analysts and network security analysts working in Palo Alto environments who need to validate their monitoring and investigation skills specific to PAN-OS platforms.",
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
@@ -858,7 +858,7 @@
       "community_respect": 5,
       "salary_impact": 5,
       "time_to_prepare": 4,
-      "overall": 4.0
+      "overall": 4
     }
   },
   {
@@ -874,7 +874,7 @@
       "network_security_architecture"
     ],
     "level": "elite",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -898,7 +898,7 @@
         "panw-ngfw-engineer"
       ]
     },
-    "summary": "Palo Alto Networks' architect-level certification \u2014 the highest in the Network Security track \u2014 covering enterprise network security architecture, Zero Trust network design, and multi-site Palo Alto deployments including SASE integration. In-person only, 2-year validity. Not DoD 8140 approved. Targeted at senior architects designing organization-wide Palo Alto security strategies. Requires significant architectural experience beyond configuration and administration.",
+    "summary": "Palo Alto Networks' architect-level certification — the highest in the Network Security track — covering enterprise network security architecture, Zero Trust network design, and multi-site Palo Alto deployments including SASE integration. In-person only, 2-year validity. Not DoD 8140 approved. Targeted at senior architects designing organization-wide Palo Alto security strategies. Requires significant architectural experience beyond configuration and administration.",
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
@@ -915,8 +915,8 @@
   },
   {
     "id": "fcss-sase",
-    "acronym": "FCSS \u2013 SASE",
-    "full_name": "Fortinet Certified Solution Specialist \u2013 SASE",
+    "acronym": "FCSS – SASE",
+    "full_name": "Fortinet Certified Solution Specialist – SASE",
     "issuing_body": "Fortinet",
     "domain": [
       "network_security"
@@ -926,7 +926,7 @@
       "zero_trust_networking"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1004,7 +1004,7 @@
         "gsec"
       ]
     },
-    "summary": "GIAC's intrusion analysis certification covering deep packet inspection, protocol analysis, network forensics, and IDS/IPS tuning. DoD 8140 approved and consistently in demand for network security analyst and SOC roles. One of the more technically rigorous GIAC certs despite the MCQ format \u2014 network analysis genuinely requires pattern recognition and protocol knowledge that can't be fully memorized. Pairs naturally with GCIH for a comprehensive SOC analyst credential. Among the most respected GIAC credentials in the network security domain.",
+    "summary": "GIAC's intrusion analysis certification covering deep packet inspection, protocol analysis, network forensics, and IDS/IPS tuning. DoD 8140 approved and consistently in demand for network security analyst and SOC roles. One of the more technically rigorous GIAC certs despite the MCQ format — network analysis genuinely requires pattern recognition and protocol knowledge that can't be fully memorized. Pairs naturally with GCIH for a comprehensive SOC analyst credential. Among the most respected GIAC credentials in the network security domain.",
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
     "active": true,
@@ -1022,7 +1022,7 @@
   {
     "id": "f5-cts-ltm",
     "acronym": "F5 CTS-LTM",
-    "full_name": "F5 Certified Technology Specialist \u2013 Local Traffic Manager",
+    "full_name": "F5 Certified Technology Specialist – Local Traffic Manager",
     "issuing_body": "F5",
     "domain": [
       "network_security"
@@ -1031,7 +1031,7 @@
       "network_security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 250,
     "renewal": "3 years",
     "dod_8140": false,
@@ -1053,11 +1053,11 @@
       ],
       "recommended_certs": []
     },
-    "summary": "F5's Local Traffic Manager certification covering BIG-IP LTM administration, load balancing, SSL offloading, and iRules development. Not DoD 8140 approved. F5 BIG-IP has significant deployment in large enterprise, financial services, and government environments where application delivery and traffic management intersect with security. The security aspects of LTM \u2014 SSL inspection, traffic filtering, iRules for WAF-like functionality \u2014 make this relevant to network security practitioners in F5 environments.",
+    "summary": "F5's Local Traffic Manager certification covering BIG-IP LTM administration, load balancing, SSL offloading, and iRules development. Not DoD 8140 approved. F5 BIG-IP has significant deployment in large enterprise, financial services, and government environments where application delivery and traffic management intersect with security. The security aspects of LTM — SSL inspection, traffic filtering, iRules for WAF-like functionality — make this relevant to network security practitioners in F5 environments.",
     "flags": [
       "tool_vendor"
     ],
-    "official_url": "https://www.f5.com/content/dam/f5/corp/global/pdf/certification/exam-study-guides/F5-CA-BIG-IP-201-Exam-Study-Guide.pdf",
+    "official_url": "https://education.f5.com/learning-path/view/11",
     "active": true,
     "paths": [],
     "scores": {
@@ -1073,7 +1073,7 @@
   {
     "id": "f5-cts-asm",
     "acronym": "F5 CTS-ASM",
-    "full_name": "F5 Certified Technology Specialist \u2013 Application Security Manager",
+    "full_name": "F5 Certified Technology Specialist – Application Security Manager",
     "issuing_body": "F5",
     "domain": [
       "network_security",
@@ -1083,7 +1083,7 @@
       "waf_management"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 250,
     "renewal": "3 years",
     "dod_8140": false,
@@ -1107,11 +1107,11 @@
         "f5-cts-ltm"
       ]
     },
-    "summary": "F5's Application Security Manager certification covering BIG-IP ASM WAF configuration, policy management, DDoS protection, and bot mitigation. Not DoD 8140 approved. F5 ASM is one of the most widely deployed WAF platforms in large enterprise and government environments. This cert sits at the intersection of network security and application security \u2014 WAF administrators managing F5 ASM deployments need both network understanding and application security knowledge. A meaningful credential in environments where F5 ASM is the primary WAF.",
+    "summary": "F5's Application Security Manager certification covering BIG-IP ASM WAF configuration, policy management, DDoS protection, and bot mitigation. Not DoD 8140 approved. F5 ASM is one of the most widely deployed WAF platforms in large enterprise and government environments. This cert sits at the intersection of network security and application security — WAF administrators managing F5 ASM deployments need both network understanding and application security knowledge. A meaningful credential in environments where F5 ASM is the primary WAF.",
     "flags": [
       "tool_vendor"
     ],
-    "official_url": "https://www.f5.com/training/certification",
+    "official_url": "https://education.f5.com/learning-path/view/16",
     "active": true,
     "paths": [],
     "scores": {
@@ -1136,7 +1136,7 @@
       "wireless_security"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 350,
     "renewal": "3 years",
     "dod_8140": true,
@@ -1160,7 +1160,7 @@
         "cwna"
       ]
     },
-    "summary": "CWNP's enterprise wireless security certification covering WLAN security policy, wireless intrusion prevention systems, 802.1X/EAP frameworks, WPA3, and rogue device detection. Sits above CWNA in the CWNP stack and validates the ability to design, implement, and manage enterprise wireless security programs. More architecture and governance-focused than OSWP or GAWN \u2014 valued at organizations deploying large enterprise wireless infrastructure.",
+    "summary": "CWNP's enterprise wireless security certification covering WLAN security policy, wireless intrusion prevention systems, 802.1X/EAP frameworks, WPA3, and rogue device detection. Sits above CWNA in the CWNP stack and validates the ability to design, implement, and manage enterprise wireless security programs. More architecture and governance-focused than OSWP or GAWN — valued at organizations deploying large enterprise wireless infrastructure.",
     "flags": [],
     "official_url": "https://www.cwnp.com/certifications/cwsp",
     "active": true,
@@ -1188,12 +1188,12 @@
       "network_architecture"
     ],
     "level": "elite",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "3 years (60 CE credits, CWISA required)",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Listed on Army COOL, Navy COOL, Coast Guard COOL, DoD Civilian COOL. Application fee ~$500. No exam \u2014 portfolio + peer review process.",
+    "geographic_note": "Listed on Army COOL, Navy COOL, Coast Guard COOL, DoD Civilian COOL. Application fee ~$500. No exam — portfolio + peer review process.",
     "skills": [
       "wireless_network_security",
       "wireless_architecture",
@@ -1219,10 +1219,9 @@
         "cwisa"
       ]
     },
-    "summary": "CWNP's elite wireless networking credential and the final step in the CWNP Wi-Fi Program. Unlike most certifications, CWNE has no exam \u2014 it is earned through a rigorous application process requiring: valid and current CWNA, CWSP, CWAP, CWDP, and CWISA certifications; three years of documented enterprise Wi-Fi implementation experience; three professional recommendations; and peer review by the CWNE Board of Advisors. The ~$500 application fee covers the Board review process. As of 2025, fewer than 400 practitioners globally hold the CWNE \u2014 the combination of exam prerequisites, experience requirements, and peer review make it one of the most exclusive credentials in networking. Listed on multiple DoD COOL systems (Army, Navy, Coast Guard, DoD Civilian) for credentialing assistance. Renewal requires 60 CE credits over 3 years with CWISA mandatory. The CWNE is recognized in the wireless industry as the definitive expert-level credential for enterprise Wi-Fi professionals.",
+    "summary": "CWNP's elite wireless networking credential and the final step in the CWNP Wi-Fi Program. Unlike most certifications, CWNE has no exam — it is earned through a rigorous application process requiring: valid and current CWNA, CWSP, CWAP, CWDP, and CWISA certifications; three years of documented enterprise Wi-Fi implementation experience; three professional recommendations; and peer review by the CWNE Board of Advisors. The ~$500 application fee covers the Board review process. As of 2025, fewer than 400 practitioners globally hold the CWNE — the combination of exam prerequisites, experience requirements, and peer review make it one of the most exclusive credentials in networking. Listed on multiple DoD COOL systems (Army, Navy, Coast Guard, DoD Civilian) for credentialing assistance. Renewal requires 60 CE credits over 3 years with CWISA mandatory. The CWNE is recognized in the wireless industry as the definitive expert-level credential for enterprise Wi-Fi professionals.",
     "flags": [
-      "elite",
-      "portfolio",
+      "portfolio_based",
       "no_exam"
     ],
     "official_url": "https://www.cwnp.com/certifications/cwne/",
@@ -1256,7 +1255,7 @@
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "Owned by Chappell University / Protocol Analysis Institute \u2014 not the Wireshark Foundation. Kryterion-proctored, 100 MCQ. A 2009 Army-level DoD 8570 recognition does not carry forward to 8140.",
+    "geographic_note": "Owned by Chappell University / Protocol Analysis Institute — not the Wireshark Foundation. Kryterion-proctored, 100 MCQ. A 2009 Army-level DoD 8570 recognition does not carry forward to 8140.",
     "skills": [
       "packet_analysis",
       "protocol_analysis",
@@ -1272,7 +1271,7 @@
       ],
       "recommended_certs": []
     },
-    "summary": "The de facto Wireshark certification, owned and administered by Chappell University / Protocol Analysis Institute (Laura Chappell's organization) \u2014 not the official Wireshark Foundation. The WCNA validates packet-level analysis, protocol analysis, and network troubleshooting using Wireshark and related tools. 100-question MCQ exam delivered via Kryterion online proctoring, $299, 3-year renewal. Pure MCQ format with no hands-on lab component is a limitation versus network forensics certs like GNFA. Despite the theoretical format, WCNA is widely recognized in network forensics, network operations, and SOC analyst roles as the benchmark Wireshark credential. Useful complement to GCFE or CDSA for analysts whose workflow is packet-heavy.",
+    "summary": "The de facto Wireshark certification, owned and administered by Chappell University / Protocol Analysis Institute (Laura Chappell's organization) — not the official Wireshark Foundation. The WCNA validates packet-level analysis, protocol analysis, and network troubleshooting using Wireshark and related tools. 100-question MCQ exam delivered via Kryterion online proctoring, $299, 3-year renewal. Pure MCQ format with no hands-on lab component is a limitation versus network forensics certs like GNFA. Despite the theoretical format, WCNA is widely recognized in network forensics, network operations, and SOC analyst roles as the benchmark Wireshark credential. Useful complement to GCFE or CDSA for analysts whose workflow is packet-heavy.",
     "flags": [],
     "official_url": "https://www.wcnacertification.com/",
     "active": true,
@@ -1304,7 +1303,7 @@
     "renewal": "lifetime",
     "dod_8140": false,
     "geographic_recognition": "global",
-    "geographic_note": "pentestingexams.com / secops.group. Pass \u226560%, Pass with Merit \u226575%. No official training \u2014 syllabus + third-party resources only.",
+    "geographic_note": "pentestingexams.com / secops.group. Pass ≥60%, Pass with Merit ≥75%. No official training — syllabus + third-party resources only.",
     "skills": [
       "dfir_basics",
       "packet_analysis",
@@ -1317,7 +1316,7 @@
       "knowledge": [],
       "recommended_certs": []
     },
-    "summary": "Professional-tier (~4-5 hr practical DFIR, \u00a3250). Hands-on blue team investigation \u2014 PCAP analysis, Sysmon log analysis, memory forensics, malware triage. Live lab environment. Step toward CBTeamerX.",
+    "summary": "Professional-tier (~4-5 hr practical DFIR, £250). Hands-on blue team investigation — PCAP analysis, Sysmon log analysis, memory forensics, malware triage. Live lab environment. Step toward CBTeamerX.",
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
@@ -1329,7 +1328,7 @@
       "community_respect": 4,
       "salary_impact": 4,
       "time_to_prepare": 3,
-      "overall": 4.0
+      "overall": 4
     }
   }
 ]

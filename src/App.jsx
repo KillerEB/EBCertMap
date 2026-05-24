@@ -234,14 +234,17 @@ const LEVELS = {
 };
 
 const FLAGS = {
-  free:                  { label:"Free",        fg:"#4ade80", bg:"rgba(74,222,128,0.1)"  },
-  low_cost:              { label:"Low Cost",    fg:"#a3e635", bg:"rgba(163,230,53,0.1)"  },
-  new:                   { label:"New",         fg:"#38bdf8", bg:"rgba(56,189,248,0.1)"  },
-  paused:                { label:"Paused",      fg:"#fb923c", bg:"rgba(251,146,60,0.1)"  },
-  retiring:              { label:"Retiring",    fg:"#fb923c", bg:"rgba(251,146,60,0.1)"  },
-  low_community_respect: { label:"⚠ Contested", fg:"#f87171", bg:"rgba(248,113,113,0.1)" },
-  tool_vendor:           { label:"Vendor",      fg:"#94a3b8", bg:"rgba(148,163,184,0.1)" },
-  portfolio_based:       { label:"Portfolio",   fg:"#c084fc", bg:"rgba(192,132,252,0.1)" },
+  free:                  { label:"Free",          fg:"#4ade80", bg:"rgba(74,222,128,0.1)"  },
+  low_cost:              { label:"Low Cost",      fg:"#a3e635", bg:"rgba(163,230,53,0.1)"  },
+  new:                   { label:"New",           fg:"#38bdf8", bg:"rgba(56,189,248,0.1)"  },
+  paused:                { label:"Paused",        fg:"#fb923c", bg:"rgba(251,146,60,0.1)"  },
+  retiring:              { label:"Retiring",      fg:"#fb923c", bg:"rgba(251,146,60,0.1)"  },
+  low_community_respect: { label:"⚠ Contested",   fg:"#f87171", bg:"rgba(248,113,113,0.1)" },
+  tool_vendor:           { label:"Vendor",        fg:"#94a3b8", bg:"rgba(148,163,184,0.1)" },
+  portfolio_based:       { label:"Portfolio",     fg:"#c084fc", bg:"rgba(192,132,252,0.1)" },
+  course_tied:           { label:"Course-Tied",   fg:"#d8b4fe", bg:"rgba(216,180,254,0.1)" },
+  no_exam:               { label:"No Exam",       fg:"#94a3b8", bg:"rgba(148,163,184,0.1)" },
+  law_enforcement:       { label:"LE / Forensics",fg:"#60a5fa", bg:"rgba(96,165,250,0.1)"  },
 };
 
 // Practical weight — labelled badge
@@ -450,13 +453,13 @@ function CertCard({ cert, active, onClick, showDomain }) {
   const overall = cert.scores?.overall ?? null;
   return (
     <div className={`cert-card${active?" active":""}`} style={{ "--card-accent": col }} onClick={onClick}>
-      <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:6, marginBottom:5 }}>
-        <div style={{ display:"flex", alignItems:"center", gap:6, flex:1, minWidth:0 }}>
-          <span className="mono" style={{ fontWeight:600, fontSize:13.5, color:"#e2eaf8", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{cert.acronym}</span>
-          {cert.dod_8140 && <Badge style={{ background:"rgba(56,189,248,0.12)", color:"#38bdf8", fontSize:9 }}>DoD</Badge>}
-          {!cert.active && <Badge style={{ background:"rgba(248,113,113,0.1)", color:"#f87171", fontSize:9 }}>Inactive</Badge>}
+      <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:6, marginBottom:5, flexWrap:"wrap" }}>
+        <div style={{ display:"flex", alignItems:"center", gap:6, flex:"1 1 auto", minWidth:0 }}>
+          <span className="mono" style={{ fontWeight:600, fontSize:13.5, color:"#e2eaf8", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis", maxWidth:160 }} title={cert.acronym}>{cert.acronym}</span>
+          {cert.dod_8140 && <Badge style={{ background:"rgba(56,189,248,0.12)", color:"#38bdf8", fontSize:9, flexShrink:0 }}>DoD</Badge>}
+          {!cert.active && <Badge style={{ background:"rgba(248,113,113,0.1)", color:"#f87171", fontSize:9, flexShrink:0 }}>Inactive</Badge>}
         </div>
-        <div style={{ display:"flex", alignItems:"center", gap:5, flexShrink:0 }}>
+        <div style={{ display:"flex", alignItems:"center", gap:5, flexShrink:0, marginLeft:"auto" }}>
           {overall !== null && (
             <div className="overall-badge" style={{ background:`${scoreColor(overall)}18`, color:scoreColor(overall) }} title="Overall Score">
               {overall.toFixed(1)}
@@ -480,7 +483,7 @@ function CertCard({ cert, active, onClick, showDomain }) {
       <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between" }}>
         <span className="mono" style={{ fontSize:11, color:"var(--mid)" }}>{fmt(cert.cost_usd)}</span>
         <div style={{ display:"flex", flexWrap:"wrap", gap:3, justifyContent:"flex-end" }}>
-          {cert.flags?.slice(0,2).map(f => {
+          {cert.flags?.filter(f => !(cert.active === false && (f === "paused" || f === "retiring"))).slice(0,2).map(f => {
             const fc = FLAGS[f]; if(!fc) return null;
             return <Badge key={f} style={{ background:fc.bg, color:fc.fg, fontSize:9 }}>{fc.label}</Badge>;
           })}
@@ -519,7 +522,7 @@ function CertProfile({ cert, onClose }) {
         {cert.domain.map(d => <span key={d} className="badge" style={{ background:`${domainColor(d)}18`, color:domainColor(d), padding:"3px 8px", fontSize:10.5 }}>{domainShort(d)}</span>)}
         <span className="badge" style={{ background:lvl.bg, color:lvl.fg, padding:"3px 8px", fontSize:10.5 }}>{lvl.label}</span>
         <span className="prac-badge" style={{ background:prac.bg, color:prac.fg, padding:"3px 8px" }}>{prac.label}</span>
-        {cert.flags?.map(f => { const fc=FLAGS[f]; if(!fc) return null; return <Badge key={f} style={{ background:fc.bg, color:fc.fg, padding:"3px 8px", fontSize:10.5 }}>{fc.label}</Badge>; })}
+        {cert.flags?.filter(f => !(cert.active === false && (f === "paused" || f === "retiring"))).map(f => { const fc=FLAGS[f]; if(!fc) return null; return <Badge key={f} style={{ background:fc.bg, color:fc.fg, padding:"3px 8px", fontSize:10.5 }}>{fc.label}</Badge>; })}
       </div>
       <div className="div" />
       <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
@@ -951,6 +954,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   const [filterLevel, setFilterLevel] = useState("all");
   const [filterIssuer,setFilterIssuer]= useState("all");
   const [filterCost,  setFilterCost ] = useState("all");
+  const [filterFlag,  setFilterFlag ] = useState("all");
   const [filterDod,   setFilterDod  ] = useState(false);
   const [filterPrac,  setFilterPrac ] = useState(false);
   const [sortBy,      setSortBy     ] = useState("default");
@@ -986,6 +990,12 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   const issuers  = useMemo(() =>
     [...new Set(domainCerts.map(c => c.issuing_body))].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:"base"})),
     [domainCerts]);
+  const availableFlags = useMemo(() => {
+    const used = new Set();
+    domainCerts.forEach(c => (c.flags||[]).forEach(f => used.add(f)));
+    // Only show flags that have a rendering entry (i.e., user-meaningful labels)
+    return [...used].filter(f => FLAGS[f]).sort((a,b) => FLAGS[a].label.localeCompare(FLAGS[b].label));
+  }, [domainCerts]);
 
   const visible = useMemo(() => {
     const list = domainCerts;
@@ -995,6 +1005,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
       if (filterLevel !=="all" && c.level!==filterLevel) return false;
       if (filterIssuer!=="all" && c.issuing_body!==filterIssuer) return false;
       if (filterCost  !=="all" && costBucket(c.cost_usd)!==filterCost) return false;
+      if (filterFlag  !=="all" && !(c.flags||[]).includes(filterFlag)) return false;
       if (filterDod  && !c.dod_8140) return false;
       if (filterPrac && c.practical_weight < 50) return false;
       return true;
@@ -1006,7 +1017,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     if (sortBy==="cost")    sorted.sort((a,b)=>a.cost_usd-b.cost_usd);
     if (sortBy==="issuer")  sorted.sort((a,b)=>a.issuing_body.localeCompare(b.issuing_body));
     return sorted;
-  }, [domainCerts,search,filterLevel,filterIssuer,filterCost,filterDod,filterPrac,sortBy]);
+  }, [domainCerts,search,filterLevel,filterIssuer,filterCost,filterFlag,filterDod,filterPrac,sortBy]);
 
   const levelGroups = useMemo(() => {
     const list = domain === "all" ? [] : allCerts(CERTS).filter(c => c.domain.includes(domain));
@@ -1014,8 +1025,8 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   }, [domain, CERTS]);
 
   const selectCert = c => setCert(prev=>prev?.id===c?.id?null:c);
-  const resetFilters = () => { setSearch(""); setFilterLevel("all"); setFilterIssuer("all"); setFilterCost("all"); setFilterDod(false); setFilterPrac(false); setSortBy("default"); };
-  const hasActiveFilters = search||filterLevel!=="all"||filterIssuer!=="all"||filterCost!=="all"||filterDod||filterPrac||sortBy!=="default";
+  const resetFilters = () => { setSearch(""); setFilterLevel("all"); setFilterIssuer("all"); setFilterCost("all"); setFilterFlag("all"); setFilterDod(false); setFilterPrac(false); setSortBy("default"); };
+  const hasActiveFilters = search||filterLevel!=="all"||filterIssuer!=="all"||filterCost!=="all"||filterFlag!=="all"||filterDod||filterPrac||sortBy!=="default";
 
   const domainPills = (
     <>
@@ -1095,6 +1106,10 @@ function CertView({ CERTS, setCERTS, isMobile }) {
           <option value="500to1k">$500 – $1,000</option>
           <option value="over1k">Over $1,000</option>
         </select>
+        <select value={filterFlag} onChange={e=>setFilterFlag(e.target.value)} style={{ width:140 }}>
+          <option value="all">Any Flag</option>
+          {availableFlags.map(f=><option key={f} value={f}>{FLAGS[f].label}</option>)}
+        </select>
         <button className={`btn${filterDod?" on":""}`} onClick={()=>setFilterDod(p=>!p)}>DoD 8140</button>
         <button className={`btn${filterPrac?" on":""}`} onClick={()=>setFilterPrac(p=>!p)}>≥50% Practical</button>
         <div style={{ display:"flex", alignItems:"center", gap:5, marginLeft:4 }}>
@@ -1113,6 +1128,10 @@ function CertView({ CERTS, setCERTS, isMobile }) {
         <select value={filterLevel} onChange={e=>setFilterLevel(e.target.value)} style={{ flex:1 }}>
           <option value="all">All Levels</option>
           {LEVEL_ORDER.map(l=><option key={l} value={l}>{LEVELS[l].label}</option>)}
+        </select>
+        <select value={filterFlag} onChange={e=>setFilterFlag(e.target.value)} style={{ flex:1 }}>
+          <option value="all">Any Flag</option>
+          {availableFlags.map(f=><option key={f} value={f}>{FLAGS[f].label}</option>)}
         </select>
         <select value={sortBy} onChange={e=>setSortBy(e.target.value)} style={{ flex:1 }}>
           <option value="default">Default order</option>

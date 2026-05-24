@@ -532,7 +532,7 @@
       "network_pentesting"
     ],
     "level": "beginner",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 200,
     "renewal": "3 years ($99 renewal fee or earn a higher cert)",
     "dod_8140": false,
@@ -738,7 +738,7 @@
       "web_pentesting"
     ],
     "level": "intermediate",
-    "practical_weight": 65,
+    "practical_weight": 70,
     "cost_usd": 760,
     "renewal": "3 years (retake exam)",
     "dod_8140": false,
@@ -2289,7 +2289,7 @@
       "red_teaming"
     ],
     "level": "elite",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 4060,
     "renewal": "3 years",
     "dod_8140": false,
@@ -3334,7 +3334,7 @@
       "ai_red_teaming"
     ],
     "level": "expert",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "TBD",
     "dod_8140": false,
@@ -3581,7 +3581,7 @@
       "web_application_testing"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 297,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3634,7 +3634,7 @@
       "network_penetration_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3679,7 +3679,7 @@
       "penetration_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3722,7 +3722,7 @@
       "mobile_application_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3766,7 +3766,7 @@
       "mobile_application_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3810,7 +3810,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3854,7 +3854,7 @@
       "red_team_operations"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3899,7 +3899,7 @@
       "active_directory_attacks"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3945,7 +3945,7 @@
       "reverse_engineering"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -3991,7 +3991,7 @@
       "physical_security_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4035,7 +4035,7 @@
       "ai_security_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4081,7 +4081,7 @@
       "ai_security_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 320,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4126,7 +4126,7 @@
       "cloud_penetration_testing"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4171,7 +4171,7 @@
       "cloud_penetration_testing"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4215,7 +4215,7 @@
       "red_team_operations"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 99,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4261,7 +4261,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 199,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4308,7 +4308,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4354,7 +4354,7 @@
       "active_directory_attacks"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4400,7 +4400,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 149,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4446,7 +4446,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 299,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4492,7 +4492,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 299,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4538,7 +4538,7 @@
       "red_team_operations"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 599,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4584,7 +4584,7 @@
       "exploit_development"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 199,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4630,7 +4630,7 @@
       "red_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 59,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4677,7 +4677,7 @@
       "purple_team_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 199,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4723,7 +4723,7 @@
       "social_engineering"
     ],
     "level": "beginner",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 99,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4769,7 +4769,7 @@
       "exploit_development"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -4815,7 +4815,7 @@
       "security_architecture_design"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 199,
     "renewal": "lifetime",
     "dod_8140": false,

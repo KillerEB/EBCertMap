@@ -12,7 +12,7 @@
       "cloud_governance"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": true,
@@ -66,7 +66,7 @@
       "cloud_governance"
     ],
     "level": "intermediate",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 395,
     "renewal": "3 years",
     "dod_8140": false,
@@ -118,7 +118,7 @@
       "cloud_compliance"
     ],
     "level": "intermediate",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 395,
     "renewal": "3 years",
     "dod_8140": false,
@@ -171,7 +171,7 @@
       "cloud_iam"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 300,
     "renewal": "3 years",
     "dod_8140": true,
@@ -222,7 +222,7 @@
       "cloud_security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -327,7 +327,7 @@
       "cloud_security_fundamentals"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 358,
     "renewal": "3 years",
     "dod_8140": true,
@@ -380,7 +380,7 @@
       "cloud_security_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -404,7 +404,7 @@
     "flags": [
       "free"
     ],
-    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "official_url": "https://partneracademy.zscaler.com/zero-trust-certified-associate-exam",
     "active": true,
     "paths": [],
     "scores": {
@@ -430,7 +430,7 @@
       "zero_trust_architecture"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -456,7 +456,7 @@
     },
     "summary": "Zscaler's administrator-level certification for managing Zscaler Internet Access (ZIA) and Zscaler Private Access (ZPA) — the core Zscaler SASE products. Covers policy management, SSL inspection, and access controls. Requires access to a Zscaler environment for meaningful preparation. Not DoD 8140 approved. Valuable for administrators in organizations running Zscaler as their SASE or zero trust network access platform. Zscaler has significant enterprise and government market penetration, making this cert relevant in a meaningful number of environments.",
     "flags": [],
-    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "official_url": "https://www.zscaler.com/zscaler-cyber-academy/digital-transformation-administrator",
     "active": true,
     "paths": [],
     "scores": {
@@ -508,7 +508,7 @@
     },
     "summary": "Zscaler's advanced engineering certification covering complex Zscaler architecture design, advanced configuration, troubleshooting, and API integration. Targets engineers designing and building Zscaler deployments rather than administrators maintaining them. Not DoD 8140 approved. The highest individual technical Zscaler certification and meaningful in organizations with complex Zscaler deployments where engineering depth is needed. Requires solid networking and security architecture background beyond basic Zscaler familiarity.",
     "flags": [],
-    "official_url": "https://www.zscaler.com/partners/training-certifications",
+    "official_url": "https://www.zscaler.com/zscaler-academy/digital-transformation-engineer",
     "active": true,
     "paths": [],
     "scores": {
@@ -533,7 +533,7 @@
       "cloud_security_engineering"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -582,7 +582,7 @@
       "cloud_security_engineering"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 245,
     "renewal": "1.5 years",
     "dod_8140": false,
@@ -607,7 +607,7 @@
     },
     "summary": "Oracle's cloud security certification covering IAM, network security, data protection, and security services within Oracle Cloud Infrastructure. Updated annually — the 2025 version reflects current OCI services and security capabilities. Not DoD 8140 approved. Oracle Cloud has significant adoption in database-heavy enterprise environments and government, making this cert relevant in those specific contexts. Less commonly seen in job requirements than AWS or Azure security certs due to OCI's smaller market share, but valuable for security practitioners working specifically in Oracle Cloud environments.",
     "flags": [],
-    "official_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-security-professional/pexam_1Z0-1104-25",
+    "official_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-security-professional/pexam_1Z0-1104-25",
     "active": true,
     "paths": [],
     "scores": {
@@ -634,7 +634,7 @@
       "threat_detection"
     ],
     "level": "intermediate",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 999,
     "renewal": "4 years",
     "dod_8140": false,
@@ -687,7 +687,7 @@
       "digital_forensics"
     ],
     "level": "expert",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 510,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -732,7 +732,7 @@
       "cloud_penetration_testing"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -778,7 +778,7 @@
       "cloud_penetration_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 149,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -824,7 +824,7 @@
       "cloud_penetration_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 599,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -871,7 +871,7 @@
       "cloud_penetration_testing"
     ],
     "level": "intermediate",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 599,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -917,7 +917,7 @@
       "cloud_penetration_testing"
     ],
     "level": "expert",
-    "practical_weight": 90,
+    "practical_weight": 100,
     "cost_usd": 699,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -965,7 +965,7 @@
       "devsecops"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 449,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -1012,7 +1012,7 @@
       "container_security"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 99,
     "renewal": "lifetime",
     "dod_8140": false,
@@ -1058,7 +1058,7 @@
       "cloud_security_operations"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 49,
     "renewal": "lifetime",
     "dod_8140": false,

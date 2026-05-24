@@ -145,11 +145,11 @@
       ],
       "recommended_certs": []
     },
-    "summary": "GIAC's LLM and generative AI platform security certification covering the security of AI infrastructure — LLM deployment security, RAG pipeline security, AI supply chain, and model serving hardening. Generally available approximately July 2026. Not DoD 8140 approved. Addresses the platform security layer of AI systems — the infrastructure and architecture that LLMs run on rather than the models themselves. Particularly relevant for cloud security engineers and platform engineers deploying enterprise AI systems who need structured credentials for this rapidly emerging specialization.",
+    "summary": "**Status:** Not yet available for purchase — expected release July 28, 2026. GIAC's LLM and generative AI platform security certification covering the security of AI infrastructure — LLM deployment security, RAG pipeline security, AI supply chain, and model serving hardening. Generally available approximately July 2026. Not DoD 8140 approved. Addresses the platform security layer of AI systems — the infrastructure and architecture that LLMs run on rather than the models themselves. Particularly relevant for cloud security engineers and platform engineers deploying enterprise AI systems who need structured credentials for this rapidly emerging specialization.",
     "flags": [
       "new"
     ],
-    "official_url": "https://www.giac.org/certifications/ai-platform-security-gaips/",
+    "official_url": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
     "active": true,
     "paths": [],
     "scores": {
@@ -174,7 +174,7 @@
       "ai_governance"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -226,7 +226,7 @@
       "ai_governance"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -276,7 +276,7 @@
       "ai_governance"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 415,
     "renewal": "3 years",
     "dod_8140": false,
@@ -303,7 +303,7 @@
     "flags": [
       "new"
     ],
-    "official_url": "https://www.isaca.org/credentialing/advanced-in-ai",
+    "official_url": "https://www.isaca.org/credentialing/aair",
     "active": true,
     "paths": [],
     "scores": {
@@ -329,8 +329,8 @@
       "ai_governance"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
-    "cost_usd": 392,
+    "practical_weight": 25,
+    "cost_usd": 298,
     "renewal": "3 years",
     "dod_8140": false,
     "geographic_recognition": "global",
@@ -356,7 +356,7 @@
     "flags": [
       "new"
     ],
-    "official_url": "https://www.comptia.org/certifications/secai",
+    "official_url": "https://www.comptia.org/en/certifications/secai/",
     "active": true,
     "paths": [],
     "scores": {
@@ -382,7 +382,7 @@
       "ai_audit"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years (10 CPE/yr, 30 over cycle)",
     "dod_8140": false,
@@ -436,7 +436,7 @@
       "ai_security_management"
     ],
     "level": "expert",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 599,
     "renewal": "3 years (10 CPE/yr, 30 over cycle)",
     "dod_8140": false,

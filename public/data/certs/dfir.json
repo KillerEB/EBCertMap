@@ -89,7 +89,7 @@
     "flags": [
       "new"
     ],
-    "official_url": "https://www.giac.org/certifications/experienced-forensic-examiner-gxfe/",
+    "official_url": "https://www.giac.org/certifications/experienced-forensics-examiner-gxfe",
     "active": true,
     "paths": [],
     "scores": {
@@ -249,7 +249,7 @@
     },
     "summary": "Focused on rapid forensic triage and evidence acquisition in field environments — first responder forensics rather than lab analysis. Covers live system triage, mobile acquisition, and rapid data collection under operational constraints typical of field investigations. Primarily valued in law enforcement, military, and government sectors where speed of acquisition matters more than deep analysis. Less commonly seen in corporate DFIR job requirements, and if you're in a civilian enterprise environment this is a niche credential, but for government and LE roles it fills a genuine operational gap.",
     "flags": [
-      "law_enforcement_focused"
+      "law_enforcement"
     ],
     "official_url": "https://www.giac.org/certifications/battlefield-forensics-acquisition-gbfa/",
     "active": true,
@@ -413,7 +413,7 @@
     },
     "summary": "An advanced IR cert specifically designed for enterprise-scale and cloud-hybrid incidents — the area where GCIH falls short. Covers EDR-driven investigation, cloud incident response across AWS/Azure/GCP, threat hunting at scale, and coordinating IR across complex enterprise environments. DoD 8140 approved and increasingly relevant as organizations move infrastructure to cloud. Pairs naturally with GCFA for a comprehensive DFIR stack. The best GIAC option for senior IR practitioners who deal with large, complex incidents rather than standalone endpoint investigations.",
     "flags": [],
-    "official_url": "https://www.giac.org/certifications/enterprise-incident-response-geir/",
+    "official_url": "https://www.giac.org/certifications/enterprise-incident-responder-geir",
     "active": true,
     "paths": [],
     "scores": {
@@ -914,7 +914,7 @@
       "digital_forensics"
     ],
     "level": "beginner",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 500,
     "renewal": "3 years",
     "dod_8140": false,
@@ -968,7 +968,7 @@
       "malware_analysis"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 599,
     "renewal": "3 years",
     "dod_8140": false,
@@ -1024,7 +1024,7 @@
       "incident_response"
     ],
     "level": "beginner",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 299,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1077,7 +1077,7 @@
       "threat_hunting"
     ],
     "level": "intermediate",
-    "practical_weight": 85,
+    "practical_weight": 70,
     "cost_usd": 399,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1395,7 +1395,7 @@
       "digital_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 500,
     "renewal": "3 years",
     "dod_8140": true,
@@ -1445,7 +1445,7 @@
       "incident_response"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": true,
@@ -1543,7 +1543,7 @@
       "mobile_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 1200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1648,7 +1648,7 @@
       "mobile_forensics"
     ],
     "level": "expert",
-    "practical_weight": 65,
+    "practical_weight": 70,
     "cost_usd": 1400,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1781,7 +1781,7 @@
       "tool_vendor",
       "low_cost"
     ],
-    "official_url": "https://www.magnetforensics.com/training-certification/",
+    "official_url": "https://training.magnetforensics.com/w/courses/64-magnet-certified-forensics-examiner-mcfe",
     "active": true,
     "paths": [],
     "scores": {
@@ -1806,7 +1806,7 @@
       "digital_forensics"
     ],
     "level": "beginner",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1830,7 +1830,7 @@
       "free",
       "tool_vendor"
     ],
-    "official_url": "https://www.exterro.com/training",
+    "official_url": "https://training.exterro.com/courses/exterro-ace",
     "active": true,
     "paths": [],
     "scores": {
@@ -1955,7 +1955,7 @@
       "network_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 65,
+    "practical_weight": 70,
     "cost_usd": 1000,
     "renewal": "3 years",
     "dod_8140": false,
@@ -2007,7 +2007,7 @@
       "incident_response"
     ],
     "level": "expert",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 2000,
     "renewal": "3 years",
     "dod_8140": false,
@@ -2059,7 +2059,7 @@
       "incident_response"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 350,
     "renewal": "3 years",
     "dod_8140": true,
@@ -2160,7 +2160,7 @@
       "computer_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 80,
+    "practical_weight": 70,
     "cost_usd": 800,
     "renewal": "3 years",
     "dod_8140": false,
@@ -2186,8 +2186,7 @@
     "summary": "IACIS's flagship credential and the only digital forensics certification accredited by the Forensic Specialties Accreditation Board (FSAB) — placing it in the same accreditation tier as traditional forensic science disciplines. Founded in 1990, IACIS originally served law enforcement exclusively; the catalog opened to private-sector examiners in 2013. The CFCE uses a unique two-phase model: a mentored peer review phase (4 scenario problems with a volunteer CFCE-certified coach over 4 months) followed by a 30-day independent hard-drive practical and a 100-question written exam. Both phases require 80% to pass. The vendor-neutral format allows any tool including open-source. Core competencies cover Windows artifacts, file systems, partition schemes, data recovery, pre-examination procedures, and presentation of findings. Highly respected in US federal and municipal LE (FBI, Secret Service, HSI, Army CID, NCIS) and internationally through IACIS's EMEA reach. Not on DoD 8140 — examiners filling DCWF billets must supplement with GCFA or CHFI. The peer-review model makes CFCE arguably the most Daubert-defensible digital forensics credential available for courtroom testimony.",
     "flags": [
       "hands_on",
-      "law_enforcement",
-      "accredited"
+      "law_enforcement"
     ],
     "official_url": "https://www.iacis.com/certification/cfce/",
     "active": true,
@@ -2215,7 +2214,7 @@
       "windows_forensics"
     ],
     "level": "expert",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 800,
     "renewal": "3 years",
     "dod_8140": false,
@@ -2271,7 +2270,7 @@
       "mobile_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 60,
+    "practical_weight": 50,
     "cost_usd": 800,
     "renewal": "3 years",
     "dod_8140": false,
@@ -2385,7 +2384,7 @@
       "windows_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 795,
     "renewal": "Never expires",
     "dod_8140": false,
@@ -2440,7 +2439,7 @@
       "malware_analysis"
     ],
     "level": "intermediate",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 795,
     "renewal": "Never expires",
     "dod_8140": false,
@@ -2493,7 +2492,7 @@
       "digital_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 895,
     "renewal": "Never expires",
     "dod_8140": false,
@@ -2546,7 +2545,7 @@
       "digital_forensics"
     ],
     "level": "intermediate",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 895,
     "renewal": "Never expires",
     "dod_8140": false,

@@ -12,7 +12,7 @@
       "security_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 392,
     "renewal": "3 years",
     "dod_8140": true,
@@ -116,7 +116,7 @@
       "security_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 0,
     "renewal": "3 years",
     "dod_8140": false,
@@ -165,7 +165,7 @@
       "security_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 249,
     "renewal": "3 years",
     "dod_8140": true,
@@ -323,7 +323,7 @@
       "threat_detection"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 165,
     "renewal": "1 year",
     "dod_8140": false,
@@ -373,7 +373,7 @@
       "security_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 5,
+    "practical_weight": 0,
     "cost_usd": 165,
     "renewal": "1 year",
     "dod_8140": false,
@@ -422,7 +422,7 @@
       "security_fundamentals"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 330,
     "renewal": "3 years",
     "dod_8140": true,
@@ -473,7 +473,7 @@
       "incident_response"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 400,
     "renewal": "3 years",
     "dod_8140": true,
@@ -527,7 +527,7 @@
       "security_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 450,
     "renewal": "3 years",
     "dod_8140": true,
@@ -818,7 +818,7 @@
     "flags": [
       "retiring"
     ],
-    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-security-certified-admin.html",
+    "official_url": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html",
     "active": true,
     "paths": [],
     "scores": {
@@ -1001,7 +1001,7 @@
       "edr_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 200,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1051,7 +1051,7 @@
       "threat_detection"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1101,7 +1101,7 @@
       "soc_analysis"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1153,7 +1153,7 @@
       "soc_engineering"
     ],
     "level": "expert",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 250,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1317,7 +1317,7 @@
       "advanced_defense"
     ],
     "level": "expert",
-    "practical_weight": 35,
+    "practical_weight": 25,
     "cost_usd": 979,
     "renewal": "4 years",
     "dod_8140": true,
@@ -1375,7 +1375,7 @@
       "security_leadership"
     ],
     "level": "expert",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 949,
     "renewal": "4 years",
     "dod_8140": true,
@@ -1457,7 +1457,6 @@
     "summary": "GIAC's Applied Knowledge certification linked to GSEC — the Experienced Cybersecurity Specialist. Part of the GX-series launched in 2024, all of which are 100% CyberLive hands-on exams that test real-world capability through virtual machine-based challenges rather than MCQ. GX-CS demonstrates advanced hands-on IT systems security skills and qualifies holders for leadership-level hands-on roles. Stackable toward GSP (requires 2 GX-series) and GSE (requires 4 GX-series). Priced at $1,299 standalone or $499 with an active linked GSEC certification. DoD 8140 approved as part of the GIAC portfolio. The CyberLive format means every GX-series cert genuinely validates practical skill rather than knowledge recall.",
     "flags": [
       "new",
-      "cyberlive",
       "hands_on"
     ],
     "official_url": "https://www.giac.org/certifications/experienced-cyber-security-gxcs/",
@@ -1511,7 +1510,6 @@
     "summary": "GIAC's Applied Knowledge certification linked to GCIA — the Experienced Intrusion Analyst. Part of the GX-series (2024), 100% CyberLive hands-on exam. GX-IA validates the ability to solve complex, multi-step intrusion analysis problems incorporating various concepts and methodologies to identify malicious activity in realistic virtual environments. Stackable toward GSP and GSE portfolio certifications. Priced at $1,299 standalone or $499 with an active GCIA. Ideal for senior network security analysts, SOC leads, and intrusion analysis specialists who want to prove elite hands-on capability beyond the GCIA's MCQ validation. The network forensics and intrusion analysis depth tested at GX-IA level is rarely validated elsewhere.",
     "flags": [
       "new",
-      "cyberlive",
       "hands_on"
     ],
     "official_url": "https://www.giac.org/certifications/experienced-intrusion-analyst-gxia/",
@@ -1541,7 +1539,7 @@
       "incident_response"
     ],
     "level": "intermediate",
-    "practical_weight": 22,
+    "practical_weight": 25,
     "cost_usd": 760,
     "renewal": "3 years (CPE)",
     "dod_8140": false,
@@ -1598,7 +1596,7 @@
       "edr_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 250,
     "renewal": "3 years",
     "dod_8140": false,
@@ -1626,7 +1624,7 @@
     "flags": [
       "new"
     ],
-    "official_url": "https://www.crowdstrike.com/en-us/university/certifications/",
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "active": true,
     "paths": [],
     "scores": {
@@ -1653,7 +1651,7 @@
       "edr_operations"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 250,
     "renewal": "3 years",
     "dod_8140": false,
@@ -1681,7 +1679,7 @@
     "flags": [
       "new"
     ],
-    "official_url": "https://www.crowdstrike.com/en-us/university/certifications/",
+    "official_url": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "active": true,
     "paths": [],
     "scores": {
@@ -1824,7 +1822,7 @@
       "soc_analysis"
     ],
     "level": "beginner",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 349,
     "renewal": "3 years",
     "dod_8140": false,

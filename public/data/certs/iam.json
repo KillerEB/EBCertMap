@@ -12,7 +12,7 @@
       "access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 595,
     "renewal": "2 years",
     "dod_8140": false,
@@ -67,7 +67,7 @@
       "federation_sso"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 165,
     "renewal": "1 year",
     "dod_8140": false,
@@ -119,7 +119,7 @@
       "access_management"
     ],
     "level": "beginner",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -170,7 +170,7 @@
       "identity_governance"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -223,7 +223,7 @@
       "access_management"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -275,7 +275,7 @@
       "access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -327,7 +327,7 @@
       "identity_governance"
     ],
     "level": "elite",
-    "practical_weight": 40,
+    "practical_weight": 50,
     "cost_usd": 5000,
     "renewal": "2 years",
     "dod_8140": false,
@@ -380,7 +380,7 @@
       "federation_sso"
     ],
     "level": "intermediate",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -431,7 +431,7 @@
       "access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 150,
     "renewal": "2 years",
     "dod_8140": false,
@@ -481,7 +481,7 @@
       "privileged_access_management"
     ],
     "level": "beginner",
-    "practical_weight": 10,
+    "practical_weight": 0,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -530,7 +530,7 @@
       "privileged_access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -638,7 +638,7 @@
       "privileged_access_management"
     ],
     "level": "elite",
-    "practical_weight": 30,
+    "practical_weight": 25,
     "cost_usd": 600,
     "renewal": "2 years",
     "dod_8140": false,
@@ -689,7 +689,7 @@
       "privileged_access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -740,7 +740,7 @@
       "privileged_access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -791,7 +791,7 @@
       "identity_governance"
     ],
     "level": "beginner",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 300,
     "renewal": "2 years",
     "dod_8140": false,
@@ -841,7 +841,7 @@
       "identity_governance"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 400,
     "renewal": "2 years",
     "dod_8140": false,
@@ -895,7 +895,7 @@
       "identity_governance"
     ],
     "level": "expert",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 400,
     "renewal": "2 years",
     "dod_8140": false,
@@ -947,7 +947,7 @@
       "identity_governance"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 400,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1001,7 +1001,7 @@
       "secrets_management"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 70,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1106,7 +1106,7 @@
       "federation_sso"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1159,7 +1159,7 @@
       "federation_sso"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1211,7 +1211,7 @@
       "identity_governance"
     ],
     "level": "intermediate",
-    "practical_weight": 15,
+    "practical_weight": 25,
     "cost_usd": 0,
     "renewal": "2 years",
     "dod_8140": false,
@@ -1265,7 +1265,7 @@
       "privileged_access_management"
     ],
     "level": "intermediate",
-    "practical_weight": 20,
+    "practical_weight": 25,
     "cost_usd": 165,
     "renewal": "1 year",
     "dod_8140": false,
