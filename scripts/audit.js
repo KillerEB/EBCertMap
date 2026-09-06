@@ -417,6 +417,34 @@ async function runInBatches(items, fn, concurrency) {
 }
 
 
+// ── Skills tag coverage ─────────────────────────────
+// Every cert skill tag should resolve to a canonical skill in skills.json. Tags
+// that match nothing are invisible to the Skills filter. Reported, not yet fatal:
+// --strict will reject unmatched tags on changed certs once the normalization
+// pass has brought the backlog down.
+function checkSkillCoverage(certs) {
+  const skillsPath = path.join(ROOT, 'public', 'data', 'skills.json');
+  if (!fs.existsSync(skillsPath)) return null;
+
+  const taxonomy = JSON.parse(fs.readFileSync(skillsPath, 'utf8'));
+  const canonical = new Set(taxonomy.skills.flatMap(s => s.matches));
+
+  const uses = new Map();
+  for (const c of certs) for (const t of (c.skills || [])) uses.set(t, (uses.get(t) || 0) + 1);
+
+  const unmatched = [...uses.entries()].filter(([t]) => !canonical.has(t));
+  const totalUses = [...uses.values()].reduce((n, v) => n + v, 0);
+  const matchedUses = [...uses.entries()].filter(([t]) => canonical.has(t)).reduce((n, [, v]) => n + v, 0);
+
+  return {
+    distinctTags: uses.size,
+    matchedTags: uses.size - unmatched.length,
+    unmatchedTags: unmatched.length,
+    coveragePct: totalUses ? (100 * matchedUses / totalUses) : 0,
+    top: unmatched.sort((x, y) => y[1] - x[1]).slice(0, 25).map(([tag, n]) => ({ tag, uses: n })),
+  };
+}
+
 // ── DOMAINS count drift ───────────────────────────────────────────────────────
 // src/App.jsx renders `domainCounts[d.id] ?? d.count`: the hardcoded count is the
 // placeholder shown before cert files load. The runtime value counts certs whose
@@ -447,7 +475,7 @@ function checkDomainCounts(certs) {
 
 // ── Report generation ─────────────────────────────────────────────────────────
 
-function buildReport(auditResults, startTime) {
+function buildReport(auditResults, startTime, skillCoverage) {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   const now = new Date().toISOString().split('T')[0];
 
@@ -585,6 +613,19 @@ function buildReport(auditResults, startTime) {
     md += `\n---\n\n`;
   }
 
+  if (skillCoverage) {
+    md += `## 🏷️ Skill tag coverage\n\n`;
+    md += `${skillCoverage.matchedTags} of ${skillCoverage.distinctTags} distinct tags resolve to a canonical skill `;
+    md += `(${skillCoverage.coveragePct.toFixed(1)}% of all tag uses). Unmatched tags are invisible to the Skills filter.\n\n`;
+    if (skillCoverage.top.length) {
+      md += `Most-used unmatched tags:\n\n`;
+      md += `| Tag | Uses |\n|---|---|\n`;
+      for (const u of skillCoverage.top) md += `| ${u.tag} | ${u.uses} |\n`;
+      md += `\n`;
+    }
+    md += `---\n\n`;
+  }
+
   md += `## ✅ Clean (${clean.length} certs)\n\n`;
   md += clean.map(r => `- \`${r.cert.id}\` — ${r.cert.acronym} (${r.cert.issuing_body})`).join('\n');
   md += '\n';
@@ -612,6 +653,12 @@ async function main() {
   }));
   const schemaErrorCount = auditResults.reduce((n, r) => n + r.schemaIssues.length, 0);
   console.log(`   ${schemaErrorCount} schema issues found\n`);
+
+  const skillCoverage = checkSkillCoverage(auditResults.map(r => r.cert));
+  if (skillCoverage) {
+    console.log(`🏷️  Skill tags: ${skillCoverage.matchedTags}/${skillCoverage.distinctTags} distinct resolve (${skillCoverage.coveragePct.toFixed(1)}% of uses)`);
+    console.log();
+  }
 
   const domainCountIssues = checkDomainCounts(auditResults.map(r => r.cert));
   if (domainCountIssues.length) {
@@ -642,7 +689,7 @@ async function main() {
 
   // Report
   console.log('📝 Generating report...');
-  const { md, summary } = buildReport(auditResults, startTime);
+  const { md, summary } = buildReport(auditResults, startTime, skillCoverage);
 
   const reportPath = path.join(OUT_DIR, 'audit-report.md');
   const jsonPath = path.join(OUT_DIR, 'audit-results.json');

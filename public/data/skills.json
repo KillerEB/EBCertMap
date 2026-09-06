@@ -69,10 +69,27 @@
       "label": "Penetration Testing",
       "category": "offensive",
       "matches": [
+        "penetration_testing",
         "penetration_testing_methodology",
         "penetration_testing_basics",
         "network_penetration_testing",
         "exploitation_awareness"
+      ]
+    },
+    {
+      "id": "red_team",
+      "label": "Red Team Operations",
+      "category": "offensive",
+      "matches": [
+        "red_team_methodology",
+        "red_team_operations",
+        "cobalt_strike_operation",
+        "command_and_control",
+        "evasion_techniques",
+        "lateral_movement",
+        "edr_evasion",
+        "defense_evasion",
+        "opsec"
       ]
     },
     {
@@ -93,6 +110,7 @@
       "label": "Reconnaissance & OSINT",
       "category": "offensive",
       "matches": [
+        "reconnaissance",
         "reconnaissance_techniques",
         "web_application_recon",
         "web_recon",
@@ -114,7 +132,7 @@
       "label": "Social Engineering",
       "category": "offensive",
       "matches": [
-        "social_engineering_awareness",
+        "social_engineering",
         "phishing_analysis"
       ]
     },
@@ -202,6 +220,7 @@
       "label": "Windows Forensics",
       "category": "dfir",
       "matches": [
+        "windows_forensics",
         "windows_artifact_analysis",
         "registry_analysis",
         "lnk_file_analysis",
@@ -225,6 +244,7 @@
       "label": "Mobile Forensics",
       "category": "dfir",
       "matches": [
+        "mobile_forensics",
         "ios_forensics",
         "android_forensics",
         "mobile_artifact_analysis",
@@ -329,7 +349,8 @@
         "network_hunting",
         "hunt_documentation",
         "ot_threat_hunting",
-        "adversary_intelligence_driven_hunting"
+        "adversary_intelligence_driven_hunting",
+        "behavioral_analysis"
       ]
     },
     {
@@ -408,6 +429,7 @@
       "label": "API Security",
       "category": "appsec",
       "matches": [
+        "api_security",
         "api_security_testing",
         "api_vulnerability_testing",
         "owasp_api_top_10",
@@ -438,6 +460,7 @@
       "label": "Secure Coding",
       "category": "appsec",
       "matches": [
+        "secure_coding",
         "secure_coding_practices",
         "secure_design_principles",
         "secure_java_development",
@@ -466,6 +489,7 @@
       "label": "DevSecOps",
       "category": "appsec",
       "matches": [
+        "devsecops",
         "devsecops_practices",
         "devsecops_pipeline_design",
         "devsecops_program_design",
@@ -679,6 +703,7 @@
       "label": "AWS Security",
       "category": "cloud",
       "matches": [
+        "aws_security",
         "aws_iam",
         "aws_network_security",
         "aws_data_protection",
@@ -693,6 +718,7 @@
       "label": "Azure Security",
       "category": "cloud",
       "matches": [
+        "azure_security",
         "azure_iam",
         "azure_network_security",
         "azure_security_center",
@@ -713,6 +739,7 @@
       "label": "GCP Security",
       "category": "cloud",
       "matches": [
+        "gcp_security",
         "gcp_iam",
         "gcp_network_security",
         "gcp_data_protection",
@@ -857,7 +884,8 @@
         "ioc_collection",
         "ioc_management",
         "ioc_types",
-        "ioc_extraction"
+        "ioc_extraction",
+        "ioc_sharing"
       ]
     },
     {
@@ -887,6 +915,7 @@
       "label": "Identity Governance & Administration",
       "category": "iam",
       "matches": [
+        "identity_governance",
         "identity_governance_fundamentals",
         "identity_governance_microsoft",
         "identity_lifecycle_management",
@@ -1271,8 +1300,7 @@
         "privacy_risk_in_systems",
         "privacy_risk_technical",
         "controller_processor_requirements_technical",
-        "iso_27701_pims_implementation",
-        "privacy_information_management"
+        "iso_27701_pims_implementation"
       ]
     },
     {
@@ -1288,7 +1316,8 @@
         "dpo_responsibilities",
         "privacy_governance_basics",
         "data_protection_officer_role",
-        "data_breach_management"
+        "data_breach_management",
+        "privacy_information_management"
       ]
     },
     {
@@ -1494,6 +1523,7 @@
       "label": "AI Governance & Risk",
       "category": "ai_security",
       "matches": [
+        "ai_governance",
         "ai_governance_frameworks",
         "ai_governance_basics",
         "ai_governance_technical",
@@ -1591,7 +1621,10 @@
         "log_correlation",
         "log_source_analysis",
         "log_ingestion_and_parsing",
-        "microsoft_sentinel"
+        "microsoft_sentinel",
+        "detection_triage",
+        "detection_rule_usage",
+        "alert_management_nozomi"
       ]
     },
     {
@@ -1601,13 +1634,9 @@
       "matches": [
         "detection_engineering",
         "detection_rule_development",
-        "detection_rule_usage",
-        "detection_triage",
         "behavioral_detection",
         "behavioral_analytics",
         "behavioral_analytics_xdr",
-        "behavioral_analysis",
-        "alert_management_nozomi",
         "correlation_search_development",
         "correlation_search_management"
       ]
@@ -1680,7 +1709,8 @@
         "phishing_simulation_management",
         "behavior_change_methodology",
         "awareness_metrics",
-        "security_culture_ot"
+        "security_culture_ot",
+        "social_engineering_awareness"
       ]
     },
     {
@@ -1688,6 +1718,7 @@
       "label": "Security Report Writing",
       "category": "leadership",
       "matches": [
+        "report_writing",
         "pentest_report_writing",
         "web_report_writing",
         "web_pentest_report_writing"
