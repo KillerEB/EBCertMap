@@ -5,62 +5,74 @@
     {
       "id": "offensive",
       "label": "Offensive Security",
-      "color": "#ef4444"
+      "color": "#f87171",
+      "short": "Offensive"
     },
     {
       "id": "dfir",
       "label": "Digital Forensics & Incident Response",
-      "color": "#f97316"
+      "color": "#fb923c",
+      "short": "DFIR"
     },
     {
       "id": "network",
       "label": "Network Security",
-      "color": "#3b82f6"
+      "color": "#60a5fa",
+      "short": "Network"
     },
     {
       "id": "appsec",
       "label": "Application Security",
-      "color": "#8b5cf6"
+      "color": "#a78bfa",
+      "short": "AppSec"
     },
     {
       "id": "cloud",
       "label": "Cloud Security",
-      "color": "#06b6d4"
+      "color": "#22d3ee",
+      "short": "Cloud"
     },
     {
       "id": "threat_intel",
       "label": "Threat Intelligence",
-      "color": "#f59e0b"
+      "color": "#fbbf24",
+      "short": "Threat Intel"
     },
     {
       "id": "iam",
       "label": "Identity & Access Management",
-      "color": "#10b981"
+      "color": "#2dd4bf",
+      "short": "IAM"
     },
     {
       "id": "grc",
       "label": "Governance, Risk & Compliance",
-      "color": "#6b7280"
+      "color": "#9ca3af",
+      "short": "GRC"
     },
     {
       "id": "privacy",
       "label": "Privacy & Data Protection",
-      "color": "#ec4899"
+      "color": "#f472b6",
+      "short": "Privacy"
     },
     {
       "id": "ot_ics",
       "label": "OT / ICS / IoT Security",
-      "color": "#84cc16"
+      "color": "#a3e635",
+      "short": "OT/ICS/IoT"
     },
     {
       "id": "ai_security",
       "label": "AI Security",
-      "color": "#a855f7"
+      "color": "#c084fc",
+      "short": "AI Security"
     },
     {
       "id": "leadership",
       "label": "Security Leadership",
-      "color": "#64748b"
+      "color": "#38bdf8",
+      "short": "Leadership"
     }
   ],
   "skills": [

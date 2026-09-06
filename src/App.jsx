@@ -288,78 +288,24 @@ const costColor = v => {
 };
 const axisColor = (label, v) => COST_AXES.has(label) ? costColor(v) : scoreColor(v);
 
-const SKILL_CATS = [
-  { id:"offensive",    label:"Offensive",       color:"#f87171" },
-  { id:"dfir",         label:"DFIR",            color:"#fb923c" },
-  { id:"appsec",       label:"AppSec",          color:"#a78bfa" },
-  { id:"network",      label:"Network",         color:"#60a5fa" },
-  { id:"cloud",        label:"Cloud",           color:"#22d3ee" },
-  { id:"threat_intel", label:"Threat Intel",    color:"#fbbf24" },
-  { id:"iam",          label:"IAM",             color:"#2dd4bf" },
-  { id:"grc",          label:"GRC",             color:"#9ca3af" },
-  { id:"privacy",      label:"Privacy",         color:"#f472b6" },
-  { id:"ot_ics",       label:"OT/ICS/IoT",      color:"#a3e635" },
-  { id:"ai_security",  label:"AI Security",     color:"#c084fc" },
-  { id:"leadership",   label:"Leadership",      color:"#38bdf8" },
-];
-
-const SKILLS = [
-  { id:"penetration_testing",  label:"Penetration Testing",       cat:"offensive",    m:["penetration_testing_methodology","network_penetration_testing","exploitation_awareness","basic_exploitation"] },
-  { id:"exploit_development",  label:"Exploit Development",       cat:"offensive",    m:["exploit_development","exploit_development_basics","custom_exploit_development","shellcode_development","heap_exploitation","buffer_overflow"] },
-  { id:"reconnaissance",       label:"Reconnaissance & OSINT",    cat:"offensive",    m:["reconnaissance_techniques","web_application_recon","web_recon","open_source_intelligence","osint_basics"] },
-  { id:"ad_attacks",           label:"Active Directory Attacks",  cat:"offensive",    m:["active_directory_attacks"] },
-  { id:"privilege_escalation", label:"Privilege Escalation",      cat:"offensive",    m:["privilege_escalation","access_control_exploitation"] },
-  { id:"red_team",             label:"Red Team Operations",       cat:"offensive",    m:["red_team_methodology","cobalt_strike_operation","command_and_control","evasion_techniques","lateral_movement"] },
-  { id:"reverse_engineering",  label:"Reverse Engineering",       cat:"offensive",    m:["reverse_engineering","reverse_engineering_basics","disassembly_tools","assembly_analysis","assembly_language_reading","debugger_usage"] },
-  { id:"malware_analysis",     label:"Malware Analysis",          cat:"dfir",         m:["malware_analysis","static_malware_analysis","dynamic_malware_analysis","malware_behavior_analysis","malware_triage","sandbox_analysis","ioc_extraction","unpacking_techniques"] },
-  { id:"digital_forensics",    label:"Digital Forensics",         cat:"dfir",         m:["digital_forensics","digital_forensics_methodology","disk_forensics","file_system_forensics","file_system_analysis","evidence_handling","chain_of_custody"] },
-  { id:"windows_forensics",    label:"Windows Forensics",         cat:"dfir",         m:["windows_artifact_analysis","registry_analysis","lnk_file_analysis","browser_forensics","email_forensics"] },
-  { id:"memory_forensics",     label:"Memory Forensics",          cat:"dfir",         m:["memory_forensics","windows_memory_forensics","advanced_forensic_analysis"] },
-  { id:"network_forensics",    label:"Network Forensics",         cat:"dfir",         m:["network_forensics","pcap_analysis","network_artifact_reconstruction","full_packet_capture_analysis","dns_forensics","network_traffic_analysis"] },
-  { id:"cloud_forensics",      label:"Cloud Forensics",           cat:"dfir",         m:["cloud_forensics","aws_forensics","azure_forensics","gcp_forensics","cloud_log_analysis","cloud_ir_procedures","cloud_evidence_acquisition","container_forensics"] },
-  { id:"incident_response",    label:"Incident Response",         cat:"dfir",         m:["incident_response_process","incident_response_basics","incident_response_advanced","incident_handling_procedures","containment_procedures","incident_triage"] },
-  { id:"threat_hunting",       label:"Threat Hunting",            cat:"dfir",         m:["threat_hunting","threat_hunting_methodology","threat_hunting_advanced","hypothesis_driven_hunting","behavioral_hunting","ttp_based_hunting","edr_hunting"] },
-  { id:"sql_injection",        label:"SQL Injection",             cat:"appsec",       m:["sql_injection","sql_injection_advanced","advanced_sql_injection","nosql_injection"] },
-  { id:"xss",                  label:"Cross-Site Scripting",      cat:"appsec",       m:["xss","xss_advanced","dom_based_attacks"] },
-  { id:"web_exploitation",     label:"Web App Exploitation",      cat:"appsec",       m:["web_vulnerability_exploitation","advanced_web_exploitation","owasp_top_10_exploitation","authentication_attacks","authentication_bypass","web_cache_poisoning","prototype_pollution","ssrf","xxe","deserialization_attacks"] },
-  { id:"api_security",         label:"API Security",              cat:"appsec",       m:["api_security_testing","api_vulnerability_testing","owasp_api_top_10","graphql_attacks","jwt_attacks","oauth_attacks"] },
-  { id:"source_code_review",   label:"Source Code Review",        cat:"appsec",       m:["source_code_review","white_box_web_testing","javascript_analysis"] },
-  { id:"secure_coding",        label:"Secure Coding",             cat:"appsec",       m:["secure_coding_practices","secure_design_principles","secure_java_development","secure_dotnet_development","owasp_top_10_mitigation","input_validation"] },
-  { id:"devsecops",            label:"DevSecOps",                 cat:"appsec",       m:["devsecops_practices","ci_cd_security","sast_implementation","dast_implementation","sca_tools","iac_security","compliance_as_code","devsecops_pipeline_design"] },
-  { id:"threat_modeling",      label:"Threat Modeling",           cat:"appsec",       m:["threat_modeling","stride_methodology","pasta_methodology","code_based_threat_modeling"] },
-  { id:"networking",           label:"Networking Fundamentals",   cat:"network",      m:["networking_fundamentals","tcp_ip_protocols","routing_and_switching","network_access_control","cisco_ios_fundamentals"] },
-  { id:"firewall_mgmt",        label:"Firewall Administration",   cat:"network",      m:["firewall_management","cisco_firewall_administration","fortigate_firewall_administration","check_point_firewall_administration","palo_alto_ngfw_administration","juniper_srx_basics","fortios_configuration","pan_os_configuration"] },
-  { id:"ids_ips",              label:"IDS / IPS",                 cat:"network",      m:["intrusion_detection","intrusion_prevention","ids_ips_management","ids_ips_tuning","signature_development"] },
-  { id:"network_monitoring",   label:"Network Monitoring",        cat:"network",      m:["network_monitoring","security_monitoring","intrusion_analysis","network_intrusion_analysis"] },
-  { id:"cloud_arch",           label:"Cloud Security Architecture",cat:"cloud",       m:["cloud_security_architecture","cloud_network_design","cloud_security_design","cloud_security_fundamentals","shared_responsibility_model"] },
-  { id:"aws_security",         label:"AWS Security",              cat:"cloud",        m:["aws_iam","aws_network_security","aws_data_protection","aws_logging_monitoring","aws_incident_response","aws_security_services"] },
-  { id:"azure_security",       label:"Azure Security",            cat:"cloud",        m:["azure_iam","azure_network_security","azure_security_center","azure_defender","azure_key_vault","azure_monitor_security","azure_policy_governance"] },
-  { id:"container_security",   label:"Container & K8s Security",  cat:"cloud",        m:["container_security","container_security_basics","kubernetes_security","pod_security","rbac_kubernetes","image_scanning"] },
-  { id:"zero_trust",           label:"Zero Trust Architecture",   cat:"cloud",        m:["zero_trust_principles","zero_trust_architecture_design","zero_trust_implementation","zero_trust_fundamentals","identity_centric_security"] },
-  { id:"cti_analysis",         label:"CTI Analysis",              cat:"threat_intel", m:["threat_intelligence_analysis","intelligence_cycle","threat_report_writing","intelligence_reporting","threat_actor_profiling","attribution_methodology"] },
-  { id:"ttp_analysis",         label:"TTP Analysis / MITRE",      cat:"threat_intel", m:["ttp_analysis","ttp_mapping","mitre_attack_framework","mitre_attack_application","mitre_attack_detection"] },
-  { id:"ioc_analysis",         label:"IOC Analysis",              cat:"threat_intel", m:["ioc_analysis","ioc_collection","ioc_management","ioc_sharing"] },
-  { id:"identity_governance",  label:"Identity Governance",       cat:"iam",          m:["identity_governance_fundamentals","identity_lifecycle_management","provisioning_basics","role_management_basics","access_certification_design"] },
-  { id:"pam",                  label:"Privileged Access Mgmt",    cat:"iam",          m:["pam_fundamentals","privileged_account_concepts","privileged_session_management","vault_administration","cyberark_pam_administration","endpoint_privilege_management"] },
-  { id:"federation_sso",       label:"Federation & SSO",          cat:"iam",          m:["federation_and_sso","federated_identity","saml_federation","sso_configuration_basics","oauth_oidc_am"] },
-  { id:"risk_management",      label:"Risk Management",           cat:"grc",          m:["risk_management","risk_management_framework","it_risk_assessment","risk_response","enterprise_risk_management","iso_31000_risk_framework","fair_risk_model"] },
-  { id:"compliance_audit",     label:"Compliance & Audit",        cat:"grc",          m:["compliance_management","information_systems_audit","it_governance_audit","audit_evidence_collection","audit_reporting"] },
-  { id:"isms",                 label:"ISMS / ISO 27001",          cat:"grc",          m:["information_security_governance","iso_27001_isms_implementation","isms_documentation","isms_program_management","security_governance"] },
-  { id:"business_continuity",  label:"Business Continuity",       cat:"grc",          m:["business_continuity_program_management","business_impact_analysis","recovery_strategy_development","bcms_implementation"] },
-  { id:"gdpr",                 label:"GDPR Compliance",           cat:"privacy",      m:["gdpr_compliance","eu_data_protection_law","data_subject_rights","lawful_basis_processing","dpia_methodology"] },
-  { id:"privacy_engineering",  label:"Privacy Engineering",       cat:"privacy",      m:["privacy_engineering","privacy_by_design","anonymization_and_pseudonymization","privacy_enhancing_technologies","technical_privacy_controls"] },
-  { id:"us_privacy",           label:"US Privacy Law",            cat:"privacy",      m:["us_privacy_law","hipaa_compliance","ccpa_compliance","federal_privacy_regulations","phi_handling"] },
-  { id:"ics_security",         label:"ICS / SCADA Security",      cat:"ot_ics",       m:["ics_security_fundamentals","scada_security","industrial_protocols","isa_62443_framework","scada_vulnerability_assessment"] },
-  { id:"iot_security",         label:"IoT Security",              cat:"ot_ics",       m:["iot_security_architecture","embedded_device_security","iot_network_security","iot_device_pentesting","firmware_analysis_basics","hardware_interaction"] },
-  { id:"ot_ir",                label:"OT Incident Response",      cat:"ot_ics",       m:["ot_incident_response","ics_forensics","scada_investigation","ot_network_analysis","industrial_protocol_analysis"] },
-  { id:"ai_red_teaming",       label:"AI Red Teaming",            cat:"ai_security",  m:["ai_red_teaming_methodology","llm_red_teaming","llm_jailbreaking","prompt_injection","ai_attack_techniques","ai_system_exploitation","model_extraction"] },
-  { id:"ai_ml_security",       label:"AI/ML System Security",     cat:"ai_security",  m:["secure_ml_pipeline_design","model_security","mlops_security","llm_security_architecture","genai_pipeline_security","rag_security","ai_supply_chain_security"] },
-  { id:"ai_governance",        label:"AI Governance & Risk",      cat:"ai_security",  m:["ai_governance_frameworks","eu_ai_act","ai_risk_management","algorithmic_accountability","nist_ai_rmf","ai_ethics"] },
-  { id:"siem",                 label:"SIEM Operations",           cat:"leadership",   m:["siem_investigation","siem_management","siem_rule_development","log_analysis","alert_triage","microsoft_sentinel","splunk_es_usage"] },
-  { id:"detection_engineering",label:"Detection Engineering",     cat:"leadership",   m:["detection_engineering","detection_rule_development","behavioral_detection","behavioral_analytics"] },
-  { id:"sec_program_mgmt",     label:"Security Program Mgmt",     cat:"leadership",   m:["security_program_management","security_program_development","cybersecurity_program_management","iso_27032_framework"] },
-  { id:"sec_leadership",       label:"Security Leadership",       cat:"leadership",   m:["security_leadership","security_strategy_development","board_level_communication","security_investment_justification","executive_communication"] },
-];
+// Skills come from public/data/skills.json, not a constant: the file is the
+// canonical taxonomy (90 skills against the 55 that used to live here) and is what
+// the audit's tag-coverage check validates against. Shapes are normalised here so
+// the views keep using .cat / .m.
+function normalizeSkills(payload) {
+  const cats = (payload.categories || []).map(c => ({
+    id: c.id,
+    label: c.short || c.label,
+    color: c.color,
+  }));
+  const skills = (payload.skills || []).map(sk => ({
+    id: sk.id,
+    label: sk.label,
+    cat: sk.category,
+    m: sk.matches || [],
+  }));
+  return { cats, skills };
+}
 
 // ── ROLE CATEGORIES ──────────────────────────────────────────────────────────
 const ROLE_CATEGORIES = [
@@ -1296,7 +1242,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
 // SKILLS VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
-function SkillsView({ CERTS, isMobile }) {
+function SkillsView({ CERTS, SKILLS, SKILL_CATS, isMobile }) {
   const [selected,      setSelected     ] = useState(new Set());
   const [open,          setOpen         ] = useState(new Set());
   const [cert,          setCert         ] = useState(null);
@@ -1310,15 +1256,15 @@ function SkillsView({ CERTS, isMobile }) {
     if (!search) return SKILLS;
     const q=search.toLowerCase();
     return SKILLS.filter(s=>s.label.toLowerCase().includes(q));
-  },[search]);
+  },[search,SKILLS]);
 
-  const cats = useMemo(()=>SKILL_CATS.map(c=>({...c,skills:filteredSkills.filter(s=>s.cat===c.id)})).filter(c=>c.skills.length>0),[filteredSkills]);
+  const cats = useMemo(()=>SKILL_CATS.map(c=>({...c,skills:filteredSkills.filter(s=>s.cat===c.id)})).filter(c=>c.skills.length>0),[filteredSkills,SKILL_CATS]);
 
   const matchingCerts = useMemo(()=>{
     if (!selected.size) return [];
     const matchSets=SKILLS.filter(s=>selected.has(s.id)).map(s=>new Set(s.m));
     return allCerts(CERTS).filter(cert=>matchSets.every(ms=>cert.skills?.some(sk=>ms.has(sk))));
-  },[selected,CERTS]);
+  },[selected,CERTS,SKILLS]);
 
   const skillPanelContent = (
     <>
@@ -1665,7 +1611,7 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
 // ABOUT MODAL
 // ═══════════════════════════════════════════════════════════════════════════
 
-function AboutModal({ onClose, CERTS }) {
+function AboutModal({ onClose, CERTS, SKILLS }) {
   const [tab,  setTab ] = useState("about");
   const [data, setData] = useState(null);
   const total = allCerts(CERTS).length;
@@ -1864,7 +1810,7 @@ function useIsMobile() {
 // NAV
 // ═══════════════════════════════════════════════════════════════════════════
 
-function Nav({ view, setView, CERTS, onAbout, isMobile }) {
+function Nav({ view, setView, CERTS, SKILLS, onAbout, isMobile }) {
   return (
     <header style={{
       background:"var(--surface)", borderBottom:"1px solid var(--border)",
@@ -1901,6 +1847,8 @@ export default function App() {
   const isMobile = useIsMobile();
   const [view,    setView  ] = useState("cert");
   const [CERTS,   setCERTS ] = useState({});
+  const [SKILLS,  setSKILLS] = useState([]);
+  const [SKILL_CATS, setSKILL_CATS] = useState([]);
   const [about,   setAbout ] = useState(false);
 
   useEffect(() => {
@@ -1912,15 +1860,26 @@ export default function App() {
     });
   }, []);
 
+  useEffect(() => {
+    fetch("/data/skills.json")
+      .then(r => r.json())
+      .then(payload => {
+        const { cats, skills } = normalizeSkills(payload);
+        setSKILL_CATS(cats);
+        setSKILLS(skills);
+      })
+      .catch(() => {});
+  }, []);
+
   return (
     <div className="gridbg" style={{ height:"100vh", display:"flex", flexDirection:"column", overflow:"hidden" }}>
-      <Nav view={view} setView={setView} CERTS={CERTS} onAbout={()=>setAbout(true)} isMobile={isMobile} />
+      <Nav view={view} setView={setView} CERTS={CERTS} SKILLS={SKILLS} onAbout={()=>setAbout(true)} isMobile={isMobile} />
       <div style={{ flex:1, display:"flex", overflow:"hidden" }}>
         {view==="cert"  && <CertView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
-        {view==="skill" && <SkillsView CERTS={CERTS} isMobile={isMobile} />}
+        {view==="skill" && <SkillsView CERTS={CERTS} SKILLS={SKILLS} SKILL_CATS={SKILL_CATS} isMobile={isMobile} />}
         {view==="role"  && <RoleView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
       </div>
-      {about && <AboutModal CERTS={CERTS} onClose={()=>setAbout(false)} />}
+      {about && <AboutModal CERTS={CERTS} SKILLS={SKILLS} onClose={()=>setAbout(false)} />}
     </div>
   );
 }
