@@ -54,7 +54,7 @@ If you're not sure whether a cert belongs in the catalog, open an issue first an
 
 | Layer | Tech |
 |---|---|
-| Framework | [React 18](https://react.dev/) |
+| Framework | [React 19](https://react.dev/) |
 | Build tool | [Vite](https://vitejs.dev/) |
 | Styling | Inline styles + injected CSS (no external CSS framework) |
 | Data | Static JSON files served from `/public/data/` |
@@ -70,23 +70,34 @@ No backend. No database. Fully static — can be deployed anywhere.
 EBCertMap/
 ├── public/
 │   └── data/
-│       ├── certs/          # One JSON file per domain (15 files)
-│       ├── paths/          # One JSON file per role (40+ files)
+│       ├── certs/          # One JSON file per domain (15 files, 426 certs)
+│       ├── paths/          # One JSON file per role (49 files)
 │       ├── roles.json      # Role index (id, label, category, path_ids)
+│       ├── domains.json    # Domain metadata (build-time only, see note)
+│       ├── skills.json     # Master skills taxonomy
 │       └── about.json      # News and changelog entries
+├── scripts/
+│   ├── audit.js                  # Cert data auditor (schema + link checks)
+│   └── static-content-plugin.js  # Build-time JSON-LD and noscript injection
 ├── src/
 │   ├── App.jsx             # All components and logic (single-file architecture)
 │   ├── main.jsx
 │   └── index.css           # Minimal reset only
+├── .github/workflows/      # PR schema gate + weekly link audit
 ├── index.html
+├── wrangler.toml           # Cloudflare Pages config
 └── vite.config.js
 ```
+
+> **Note:** `DOMAINS` and `SKILLS` are currently hardcoded constants in `App.jsx`.
+> `domains.json` is read only at build time by the static-content plugin, and
+> `skills.json` is not yet wired into the app.
 
 ---
 
 ## Running Locally
 
-**Requirements:** Node.js 18+
+**Requirements:** Node.js 20.19+ or 22.12+ (required by `@vitejs/plugin-react` 5.x)
 
 ```bash
 git clone https://github.com/KillerEB/EBCertMap.git
@@ -106,25 +117,25 @@ Open [http://localhost:5173](http://localhost:5173).
 {
   "id": "oscp",
   "acronym": "OSCP",
-  "full_name": "Offensive Security Certified Professional",
-  "issuing_body": "Offensive Security",
+  "full_name": "OffSec Certified Professional",
+  "issuing_body": "OffSec",
   "domain": ["offensive"],
   "level": "intermediate",
-  "cost_usd": 1499,
+  "cost_usd": 1749,
   "practical_weight": 100,
-  "renewal": "3 years",
+  "renewal": "Lifetime (OSCP) / 3 years (OSCP+, via CPE + $299/yr AMP or retake)",
   "active": true,
-  "dod_8140": true,
+  "dod_8140": false,
   "flags": [],
-  "skills": ["penetration_testing_methodology", "exploitation_awareness"],
+  "skills": ["penetration_testing_methodology", "privilege_escalation", "active_directory_attacks"],
   "scores": {
     "overall": 9.2,
-    "practical_depth": 10,
-    "employer_recognition": 9,
+    "practical_depth": 9,
+    "employer_recognition": 10,
     "community_respect": 10,
-    "exam_difficulty": 9,
-    "salary_impact": 9,
-    "time_to_prepare": 7
+    "exam_difficulty": 8,
+    "salary_impact": 8,
+    "time_to_prepare": 8
   },
   "summary": "...",
   "prerequisites": { "knowledge": [], "recommended_certs": [] },

@@ -1,0 +1,48 @@
+name: Data check
+
+# Schema gate for cert data. Runs on every PR and on pushes to main.
+# --strict makes schema-severity issues and DOMAINS count drift fatal; without it
+# only hard-critical issues (duplicate IDs, non-https URLs) fail the build.
+on:
+  pull_request:
+    paths:
+      - 'public/data/**'
+      - 'src/**'
+      - 'scripts/**'
+      - '.github/workflows/data-check.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # @vitejs/plugin-react 5.x requires ^20.19.0 || >=22.12.0
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Validate cert schema
+        run: node scripts/audit.js --schema-only --strict
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: |
+            scripts/audit-report.md
+            scripts/audit-results.json
+          if-no-files-found: ignore

@@ -26,4 +26,9 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
+  {
+    // Build tooling and the auditor run in Node, not the browser.
+    files: ['scripts/**/*.js', '*.config.js'],
+    languageOptions: { globals: globals.node },
+  },
 ])

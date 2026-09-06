@@ -9,6 +9,7 @@
  * Usage:
  *   node scripts/audit.js
  *   node scripts/audit.js --schema-only       (skip network checks)
+ *   node scripts/audit.js --strict            (exit non-zero on schema issues too)
  *   node scripts/audit.js --domain offensive  (single domain)
  *   node scripts/audit.js --include-inactive  (also check active:false certs;
  *                                              by default they're skipped since
@@ -50,10 +51,15 @@ const VALID_FLAGS = new Set([
   'law_enforcement', 'no_exam',
 ]);
 
+// Strong keywords assert the cert is gone. Weak ones are ambiguous on a live page
+// ("OSCP+ labs coming soon"), so they land in a lower-severity review tier instead
+// of being reported as a probable discontinuation.
 const DISCONTINUED_KEYWORDS = [
   'retired', 'discontinued', 'no longer available', 'no longer offered',
-  'end of life', 'sunset', 'deprecated', 'coming soon', 'not available'
+  'end of life', 'sunset', 'deprecated'
 ];
+
+const WEAK_DISCONTINUED_KEYWORDS = ['coming soon', 'not available'];
 
 const REQUIRED_FIELDS = [
   'id', 'acronym', 'full_name', 'issuing_body', 'domain', 'level',
@@ -67,6 +73,8 @@ const VALID_LEVELS = new Set(['beginner', 'intermediate', 'expert', 'elite']);
 const args = process.argv.slice(2);
 const schemaOnly = args.includes('--schema-only');
 const includeInactive = args.includes('--include-inactive');
+// CI gate: schema-severity issues are advisory by default, fatal under --strict
+const strict = args.includes('--strict');
 const domainFilter = (() => {
   const i = args.indexOf('--domain');
   return i !== -1 ? args[i + 1] : null;
@@ -213,13 +221,23 @@ function validateSchema(cert) {
 
   // URL format
   if (cert.official_url) {
+    let parsed = null;
     try {
-      new URL(cert.official_url);
+      parsed = new URL(cert.official_url);
     } catch {
       issues.push({
         severity: 'schema',
         field: 'official_url',
         message: `Invalid URL format: "${cert.official_url}"`
+      });
+    }
+    // new URL() accepts javascript: and data:, which become live hrefs in the UI
+    // and in the generated noscript catalog. Only https is a valid cert homepage.
+    if (parsed && parsed.protocol !== 'https:') {
+      issues.push({
+        severity: 'critical',
+        field: 'official_url',
+        message: `official_url must use https, got "${parsed.protocol}" in "${cert.official_url}"`
       });
     }
   }
@@ -257,6 +275,8 @@ async function checkUrl(cert) {
     reachable: false,
     discontinued: false,
     discontinuedKeyword: null,
+    discontinuedSuspect: false,
+    discontinuedSuspectKeyword: null,
     nameFound: false,
     priceMismatch: false,
     priceMismatchSuspect: false,
@@ -267,8 +287,8 @@ async function checkUrl(cert) {
 
   if (!cert.official_url) return result;
 
-  let url;
-  try { url = new URL(cert.official_url); } catch { return result; }
+  // parsed only as a validity guard — the value itself is unused
+  try { new URL(cert.official_url); } catch { return result; }
 
   const start = Date.now();
 
@@ -304,21 +324,36 @@ async function checkUrl(cert) {
       const nameLower = (cert.full_name || '').toLowerCase();
       const PROXIMITY = 200; // chars either side of the keyword
 
+      // Every occurrence is checked, not just the first: a keyword in a nav or
+      // footer used to shadow a real one further down the page.
+      const nearCertName = (kw) => {
+        for (let i = lower.indexOf(kw); i !== -1; i = lower.indexOf(kw, i + 1)) {
+          const nearby = lower.slice(
+            Math.max(0, i - PROXIMITY),
+            Math.min(lower.length, i + kw.length + PROXIMITY)
+          );
+          if (
+            (acronymLower.length > 1 && nearby.includes(acronymLower)) ||
+            (nameLower.length > 4 && nearby.includes(nameLower.slice(0, 20)))
+          ) return true;
+        }
+        return false;
+      };
+
       for (const kw of DISCONTINUED_KEYWORDS) {
-        const kwIdx = lower.indexOf(kw);
-        if (kwIdx === -1) continue;
-        // check if cert name or acronym appears within PROXIMITY chars
-        const nearby = lower.slice(
-          Math.max(0, kwIdx - PROXIMITY),
-          Math.min(lower.length, kwIdx + kw.length + PROXIMITY)
-        );
-        if (
-          (acronymLower.length > 1 && nearby.includes(acronymLower)) ||
-          (nameLower.length > 4 && nearby.includes(nameLower.slice(0, 20)))
-        ) {
+        if (nearCertName(kw)) {
           result.discontinued = true;
           result.discontinuedKeyword = kw;
           break;
+        }
+      }
+      if (!result.discontinued) {
+        for (const kw of WEAK_DISCONTINUED_KEYWORDS) {
+          if (nearCertName(kw)) {
+            result.discontinuedSuspect = true;
+            result.discontinuedSuspectKeyword = kw;
+            break;
+          }
         }
       }
 
@@ -381,6 +416,35 @@ async function runInBatches(items, fn, concurrency) {
   return results;
 }
 
+
+// ── DOMAINS count drift ───────────────────────────────────────────────────────
+// src/App.jsx renders `domainCounts[d.id] ?? d.count`: the hardcoded count is the
+// placeholder shown before cert files load. The runtime value counts certs whose
+// domain array includes the id, so the placeholder must use that same metric or
+// the sidebar number visibly jumps once the data lands.
+function checkDomainCounts(certs) {
+  const issues = [];
+  const appPath = path.join(ROOT, 'src', 'App.jsx');
+  if (!fs.existsSync(appPath)) return issues;
+
+  const src = fs.readFileSync(appPath, 'utf8');
+  const start = src.indexOf('const DOMAINS = [');
+  const end = src.indexOf('const domainColor');
+  if (start === -1 || end === -1) return issues;
+
+  const seen = new Set();
+  const uniq = certs.filter(c => (seen.has(c.id) ? false : seen.add(c.id)));
+
+  for (const m of src.slice(start, end).matchAll(/id:\s*"([a-z_]+)"[\s\S]*?count:\s*(\d+)/g)) {
+    const [, id, declared] = m;
+    const actual = uniq.filter(c => Array.isArray(c.domain) && c.domain.includes(id)).length;
+    if (Number(declared) !== actual) {
+      issues.push({ domain: id, declared: Number(declared), actual });
+    }
+  }
+  return issues;
+}
+
 // ── Report generation ─────────────────────────────────────────────────────────
 
 function buildReport(auditResults, startTime) {
@@ -409,8 +473,15 @@ function buildReport(auditResults, startTime) {
     r.schemaIssues.some(i => i.severity === 'schema')
   );
 
+  // Lower-severity tier: weak keywords worth a human glance, not a finding.
+  // Deliberately excluded from the issue-opening condition in the weekly workflow.
+  const review = auditResults.filter(r =>
+    !critical.includes(r) && !warnings.includes(r) && r.network?.discontinuedSuspect
+  );
+
   const clean = auditResults.filter(r =>
-    !critical.includes(r) && !warnings.includes(r) && !schemaIssues.includes(r)
+    !critical.includes(r) && !warnings.includes(r) &&
+    !schemaIssues.includes(r) && !review.includes(r)
   );
 
   let md = `# EBCertMap Audit Report\n\n`;
@@ -424,6 +495,7 @@ function buildReport(auditResults, startTime) {
   md += `| 🔴 Critical | ${critical.length} |\n`;
   md += `| 🟡 Warning | ${warnings.length} |\n`;
   md += `| 🟠 Schema | ${schemaIssues.length} |\n`;
+  md += `| 🔵 Review | ${review.length} |\n`;
   md += `| ✅ Clean | ${clean.length} |\n\n`;
   md += `---\n\n`;
 
@@ -504,11 +576,20 @@ function buildReport(auditResults, startTime) {
   }
 
   // ── Clean ──
+  if (review.length) {
+    md += `## 🔵 Review (${review.length})\n\n`;
+    md += `Weak keyword found near the cert name. Ambiguous on a live page — check, do not act.\n\n`;
+    for (const r of review) {
+      md += `- **${r.cert.acronym}** — "${r.network.discontinuedSuspectKeyword}" — ${r.cert.official_url}\n`;
+    }
+    md += `\n---\n\n`;
+  }
+
   md += `## ✅ Clean (${clean.length} certs)\n\n`;
   md += clean.map(r => `- \`${r.cert.id}\` — ${r.cert.acronym} (${r.cert.issuing_body})`).join('\n');
   md += '\n';
 
-  return { md, summary: { critical: critical.length, warnings: warnings.length, schema: schemaIssues.length, clean: clean.length } };
+  return { md, summary: { critical: critical.length, warnings: warnings.length, schema: schemaIssues.length, review: review.length, clean: clean.length } };
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -531,6 +612,15 @@ async function main() {
   }));
   const schemaErrorCount = auditResults.reduce((n, r) => n + r.schemaIssues.length, 0);
   console.log(`   ${schemaErrorCount} schema issues found\n`);
+
+  const domainCountIssues = checkDomainCounts(auditResults.map(r => r.cert));
+  if (domainCountIssues.length) {
+    console.log('⚠️  DOMAINS count drift in src/App.jsx:');
+    for (const d of domainCountIssues) {
+      console.log(`   ${d.domain}: declared ${d.declared}, actual ${d.actual}`);
+    }
+    console.log();
+  }
 
   // Network — by default skip active:false certs (their URLs being dead is expected)
   if (!schemaOnly) {
@@ -576,10 +666,16 @@ async function main() {
   console.log(`🔴 Critical: ${summary.critical}`);
   console.log(`🟡 Warnings: ${summary.warnings}`);
   console.log(`🟠 Schema:   ${summary.schema}`);
+  console.log(`🔵 Review:   ${summary.review}`);
   console.log(`✅ Clean:    ${summary.clean}`);
   console.log(`─────────────────────────────────────\n`);
 
-  if (summary.critical > 0) process.exit(1); // non-zero exit for CI
+  if (domainCountIssues.length) console.log(`⚠️  Domain count drift: ${domainCountIssues.length}`);
+
+  // Default: only hard-critical issues break the build. --strict (used by CI on
+  // pull requests) also fails on schema issues and DOMAINS count drift.
+  const fatal = summary.critical + (strict ? summary.schema + domainCountIssues.length : 0);
+  if (fatal > 0) process.exit(1); // non-zero exit for CI
 }
 
 main().catch(err => {

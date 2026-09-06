@@ -204,21 +204,21 @@ document.head.appendChild(_style);
 // ═══════════════════════════════════════════════════════════════════════════
 
 const DOMAINS = [
-  { id:"offensive",              label:"Offensive Security",         short:"Offensive",   color:"#f87171", count:108,description:"Penetration testing, exploit development, red teaming, adversary simulation, and offensive security research across networks, applications, and systems." },
-  { id:"dfir",                   label:"Digital Forensics & IR",     short:"DFIR",        color:"#fb923c", count:52, description:"Digital forensics, memory and mobile forensics, malware analysis, incident response, threat hunting, and cloud forensics across enterprise and cloud environments." },
-  { id:"defensive_soc",          label:"Defensive / SOC",            short:"SOC",         color:"#fbbf24", count:43, description:"Security operations, SOC analysis, SIEM operations, detection engineering, and endpoint detection and response platforms." },
-  { id:"cloud_security",         label:"Cloud Security",             short:"Cloud",       color:"#22d3ee", count:28, description:"Cloud security architecture, AWS/Azure/GCP security engineering, container and Kubernetes security, Zero Trust design, and cloud-native security operations." },
-  { id:"appsec",                 label:"Application Security",       short:"AppSec",      color:"#a78bfa", count:15, description:"Web application penetration testing, secure software development lifecycle, DevSecOps, API security, source code review, and software supply chain security." },
-  { id:"threat_intelligence",    label:"Threat Intelligence",        short:"CTI",         color:"#f59e0b", count:14, description:"Cyber threat intelligence analysis, threat actor profiling, TTP analysis, IOC management, and intelligence platform operations." },
-  { id:"vulnerability_management",label:"Vulnerability Mgmt",        short:"Vuln Mgmt",   color:"#34d399", count:16, description:"Vulnerability scanning, risk-based prioritization, remediation tracking, and enterprise vulnerability management program design across major platforms." },
-  { id:"network_security",       label:"Network Security",           short:"Network",     color:"#60a5fa", count:26, description:"Network security engineering, firewall administration, IDS/IPS, VPN, SASE, and network security architecture across Cisco, Juniper, Palo Alto, Fortinet, and Check Point." },
-  { id:"security_architecture",  label:"Security Architecture",      short:"Architecture",color:"#94a3b8", count:14, description:"Enterprise security architecture design, SABSA methodology, Zero Trust architecture, cryptography and PKI design, and security program leadership." },
-  { id:"iam",                    label:"Identity & Access Mgmt",     short:"IAM",         color:"#2dd4bf", count:25, description:"Identity governance, privileged access management, authentication and MFA, federation and SSO, and identity platform administration across Okta, CyberArk, SailPoint, and Microsoft." },
-  { id:"ot_ics_iot",             label:"OT / ICS / IoT",             short:"OT/ICS",      color:"#a3e635", count:15, description:"Operational technology security, industrial control systems, SCADA security, ISA/IEC 62443 compliance, critical infrastructure protection, and IoT security." },
-  { id:"grc",                    label:"GRC",                        short:"GRC",         color:"#9ca3af", count:29, description:"IT audit, risk management, ISO 27001, business continuity, third-party risk, and information security governance across ISACA, ISC2, DRI, BCI, and ISO frameworks." },
+  { id:"offensive",              label:"Offensive Security",         short:"Offensive",   color:"#f87171", count:109,description:"Penetration testing, exploit development, red teaming, adversary simulation, and offensive security research across networks, applications, and systems." },
+  { id:"dfir",                   label:"Digital Forensics & IR",     short:"DFIR",        color:"#fb923c", count:56, description:"Digital forensics, memory and mobile forensics, malware analysis, incident response, threat hunting, and cloud forensics across enterprise and cloud environments." },
+  { id:"defensive_soc",          label:"Defensive / SOC",            short:"SOC",         color:"#fbbf24", count:53, description:"Security operations, SOC analysis, SIEM operations, detection engineering, and endpoint detection and response platforms." },
+  { id:"cloud_security",         label:"Cloud Security",             short:"Cloud",       color:"#22d3ee", count:44, description:"Cloud security architecture, AWS/Azure/GCP security engineering, container and Kubernetes security, Zero Trust design, and cloud-native security operations." },
+  { id:"appsec",                 label:"Application Security",       short:"AppSec",      color:"#a78bfa", count:38, description:"Web application penetration testing, secure software development lifecycle, DevSecOps, API security, source code review, and software supply chain security." },
+  { id:"threat_intelligence",    label:"Threat Intelligence",        short:"CTI",         color:"#f59e0b", count:16, description:"Cyber threat intelligence analysis, threat actor profiling, TTP analysis, IOC management, and intelligence platform operations." },
+  { id:"vulnerability_management",label:"Vulnerability Mgmt",        short:"Vuln Mgmt",   color:"#34d399", count:20, description:"Vulnerability scanning, risk-based prioritization, remediation tracking, and enterprise vulnerability management program design across major platforms." },
+  { id:"network_security",       label:"Network Security",           short:"Network",     color:"#60a5fa", count:29, description:"Network security engineering, firewall administration, IDS/IPS, VPN, SASE, and network security architecture across Cisco, Juniper, Palo Alto, Fortinet, and Check Point." },
+  { id:"security_architecture",  label:"Security Architecture",      short:"Architecture",color:"#94a3b8", count:27, description:"Enterprise security architecture design, SABSA methodology, Zero Trust architecture, cryptography and PKI design, and security program leadership." },
+  { id:"iam",                    label:"Identity & Access Mgmt",     short:"IAM",         color:"#2dd4bf", count:28, description:"Identity governance, privileged access management, authentication and MFA, federation and SSO, and identity platform administration across Okta, CyberArk, SailPoint, and Microsoft." },
+  { id:"ot_ics_iot",             label:"OT / ICS / IoT",             short:"OT/ICS",      color:"#a3e635", count:17, description:"Operational technology security, industrial control systems, SCADA security, ISA/IEC 62443 compliance, critical infrastructure protection, and IoT security." },
+  { id:"grc",                    label:"GRC",                        short:"GRC",         color:"#9ca3af", count:35, description:"IT audit, risk management, ISO 27001, business continuity, third-party risk, and information security governance across ISACA, ISC2, DRI, BCI, and ISO frameworks." },
   { id:"data_privacy",           label:"Data Security & Privacy",    short:"Privacy",     color:"#f472b6", count:17, description:"Privacy law and compliance, GDPR, privacy engineering, data loss prevention, data classification, and privacy program management across IAPP, ISACA, and ISO 27701." },
-  { id:"ai_security",            label:"AI Security",                short:"AI Sec",      color:"#c084fc", count:12, description:"AI/ML system security, LLM red teaming, prompt injection, AI governance and risk, adversarial machine learning, and responsible AI frameworks including ISO 42001." },
-  { id:"oversight_leadership",   label:"Oversight & Leadership",     short:"Leadership",  color:"#38bdf8", count:12, description:"CISO and executive leadership, security program management, security awareness and human risk management, and board-level security governance." },
+  { id:"ai_security",            label:"AI Security",                short:"AI Sec",      color:"#c084fc", count:20, description:"AI/ML system security, LLM red teaming, prompt injection, AI governance and risk, adversarial machine learning, and responsible AI frameworks including ISO 42001." },
+  { id:"oversight_leadership",   label:"Oversight & Leadership",     short:"Leadership",  color:"#38bdf8", count:18, description:"CISO and executive leadership, security program management, security awareness and human risk management, and board-level security governance." },
 ];
 
 const domainColor = id => DOMAINS.find(d => d.id === id)?.color ?? "#64748b";
@@ -272,6 +272,21 @@ const scoreColor = v => {
   if (v >= 2) return "#fb923c";
   return "#f87171";
 };
+
+// time_to_prepare is a pure cost: a 9 means "expensive", not "excellent", so it
+// gets a neutral intensity ramp rather than the green benefit scale.
+// exam_difficulty stays green as an editorial call: a hard exam is what makes the
+// credential a signal. Note its r=0.90 with scores.overall is NOT evidence for this —
+// overall was hand-set under that same belief, so the correlation only shows the
+// prior existed. The supporting check is the quadrant test in the methodology notes.
+const COST_AXES = new Set(["Time to Prepare"]);
+const costColor = v => {
+  if (v >= 8) return "#7dd3fc";
+  if (v >= 6) return "#93b4d8";
+  if (v >= 4) return "#8fa3bf";
+  return "#6b7f9c";
+};
+const axisColor = (label, v) => COST_AXES.has(label) ? costColor(v) : scoreColor(v);
 
 const SKILL_CATS = [
   { id:"offensive",    label:"Offensive",       color:"#f87171" },
@@ -363,8 +378,7 @@ const catFor = id => ROLE_CATEGORIES.find(c => c.id === id) ?? ROLE_CATEGORIES[0
 
 const allCerts    = (cm={}) => { const seen=new Set(); return Object.values(cm).flat().filter(c=>seen.has(c.id)?false:seen.add(c.id)); };
 const getCertById = (id, cm={}) => allCerts(cm).find(c => c.id === id);
-const fmt = cost => cost === 0 ? "Free" : `$${cost.toLocaleString()}`;
-const getIssuers  = (domain, cm) => [...new Set((cm[domain]||[]).map(c=>c.issuing_body))].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:"base"}));
+const fmt = cost => cost === 0 ? "Free" : `${cost.toLocaleString()}`;
 
 // ═══════════════════════════════════════════════════════════════════════════
 // SHARED COMPONENTS
@@ -560,8 +574,8 @@ function CertProfile({ cert, onClose }) {
             {[["Practical Depth",cert.scores.practical_depth,"How much does passing prove you can DO the work?"],["Employer Recognition",cert.scores.employer_recognition,"Recruiter & hiring manager value"],["Community Respect",cert.scores.community_respect,"Practitioner community sentiment"],["Exam Difficulty",cert.scores.exam_difficulty,"How hard is the exam itself?"],["Salary Impact",cert.scores.salary_impact,"How much does it move compensation?"],["Time to Prepare",cert.scores.time_to_prepare,"Study / lab hours investment needed"]].map(([label,val,tip]) => (
               <div key={label} style={{ display:"flex", alignItems:"center", gap:8 }}>
                 <div style={{ width:130, fontSize:10.5, color:"var(--mid)", flexShrink:0 }} title={tip}>{label}</div>
-                <div className="score-bar"><div className="score-bar-fill" style={{ width:`${val*10}%`, background:scoreColor(val) }} /></div>
-                <div className="mono" style={{ fontSize:11, fontWeight:600, color:scoreColor(val), width:18, textAlign:"right", flexShrink:0 }}>{val}</div>
+                <div className="score-bar"><div className="score-bar-fill" style={{ width:`${val*10}%`, background:axisColor(label,val) }} /></div>
+                <div className="mono" style={{ fontSize:11, fontWeight:600, color:axisColor(label,val), width:18, textAlign:"right", flexShrink:0 }}>{val}</div>
               </div>
             ))}
           </div>
@@ -757,7 +771,7 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
       if (!issuersByAcronym[c.acronym]) issuersByAcronym[c.acronym] = new Set();
       issuersByAcronym[c.acronym].add(c.issuing_body);
     });
-    return new Set(Object.entries(issuersByAcronym).filter(([_, s]) => s.size > 1).map(([a]) => a));
+    return new Set(Object.entries(issuersByAcronym).filter(([, s]) => s.size > 1).map(([a]) => a));
   }, [certs]);
 
   // Group certs by level — for both modes
@@ -959,7 +973,6 @@ function CertView({ CERTS, setCERTS, isMobile }) {
   const [filterPrac,  setFilterPrac ] = useState(false);
   const [sortBy,      setSortBy     ] = useState("default");
   const [expanded,    setExpanded   ] = useState(new Set());
-  const [showFilters, setShowFilters] = useState(false);
   const [mapMode,     setMapMode    ] = useState(false);
   const [colorBy,     setColorBy    ] = useState("domain");
 
@@ -1416,7 +1429,7 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
   const [roles,      setRoles     ] = useState([]);
   const [PATHS,      setPATHS     ] = useState({});
   const [role,       setRole      ] = useState(null);
-  const [path,       setPath      ] = useState(null);
+  const [pickedPath, setPickedPath] = useState(null);
   const [cert,       setCert      ] = useState(null);
   const [mobileStep, setMobileStep] = useState("list");
 
@@ -1441,14 +1454,16 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
 
   const pickRole = r => {
     if (role?.id === r.id) { if (isMobile) setMobileStep("paths"); return; }
-    setRole(r); setPath(null); setCert(null);
+    setRole(r); setPickedPath(null); setCert(null);
     if (isMobile) setMobileStep("paths");
   };
-  const pickPath = p => { setPath(p); setCert(null); };
+  const pickPath = p => { setPickedPath(p); setCert(null); };
 
-  useEffect(() => {
-    if (rolePaths.length && !path) setPath(rolePaths[0]);
-  }, [rolePaths]);
+  // Derived, not stored: rolePaths is a fresh array each render, so the effect
+  // that used to seed this ran on every render and set state from inside it.
+  // Falling back here gives the same behaviour — picking a role selects its first
+  // path — without the cascading render.
+  const path = pickedPath ?? rolePaths[0] ?? null;
 
   const seq = path?.cert_sequence ?? [];
 

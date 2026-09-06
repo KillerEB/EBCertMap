@@ -32,6 +32,19 @@ function escapeHtml(s) {
   ));
 }
 
+// JSON.stringify does not escape "</script>", so any cert field containing it
+// would break out of the <script type="application/ld+json"> block. Escaping "<"
+// as < is still valid JSON and parses back to "<" for consumers.
+// U+2028/U+2029 are escaped as defence in depth, not to fix a parse error here:
+// ld+json is data, not executed, and both JSON and (since ES2019) JS string
+// literals accept them raw. The escape costs nothing and holds if this ever
+// moves into a real inline script.
+function jsonLdSafe(value) {
+  return JSON.stringify(value).replace(/[<\u2028\u2029]/g, ch => (
+    { "<": "\\u003c", "\u2028": "\\u2028", "\u2029": "\\u2029" }[ch]
+  ));
+}
+
 function loadCerts(certsDir) {
   const all = [];
   for (const file of fs.readdirSync(certsDir)) {
@@ -176,7 +189,7 @@ export function staticContentPlugin() {
       order: "post",
       handler(html) {
         const { certs, domains, about, lastmod } = init();
-        const ldScript = `<script type="application/ld+json">${JSON.stringify(buildJsonLd(certs))}</script>`;
+        const ldScript = `<script type="application/ld+json">${jsonLdSafe(buildJsonLd(certs))}</script>`;
         const noscript = buildNoscript(certs, domains, about);
         const ogUpdated = `<meta property="og:updated_time" content="${lastmod}T00:00:00Z" />\n    <meta property="article:modified_time" content="${lastmod}T00:00:00Z" />`;
 
