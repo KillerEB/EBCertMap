@@ -46,8 +46,7 @@
       "employer_recognition": 8,
       "community_respect": 8,
       "salary_impact": 8,
-      "time_to_prepare": 6,
-      "overall": 6
+      "time_to_prepare": 6
     }
   },
   {
@@ -100,8 +99,7 @@
       "employer_recognition": 7,
       "community_respect": 7,
       "salary_impact": 7,
-      "time_to_prepare": 6,
-      "overall": 5.6
+      "time_to_prepare": 6
     }
   },
   {
@@ -152,8 +150,7 @@
       "employer_recognition": 6,
       "community_respect": 6,
       "salary_impact": 6,
-      "time_to_prepare": 6,
-      "overall": 4.9
+      "time_to_prepare": 6
     }
   },
   {
@@ -201,8 +198,7 @@
       "employer_recognition": 6,
       "community_respect": 6,
       "salary_impact": 6,
-      "time_to_prepare": 3,
-      "overall": 4.3
+      "time_to_prepare": 3
     }
   },
   {
@@ -253,8 +249,7 @@
       "employer_recognition": 6,
       "community_respect": 6,
       "salary_impact": 6,
-      "time_to_prepare": 4,
-      "overall": 4.8
+      "time_to_prepare": 4
     }
   },
   {
@@ -305,8 +300,7 @@
       "employer_recognition": 6,
       "community_respect": 6,
       "salary_impact": 6,
-      "time_to_prepare": 5,
-      "overall": 4.9
+      "time_to_prepare": 5
     }
   },
   {
@@ -355,8 +349,7 @@
       "employer_recognition": 5,
       "community_respect": 5,
       "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 4.2
+      "time_to_prepare": 4
     }
   },
   {
@@ -409,8 +402,7 @@
       "employer_recognition": 7,
       "community_respect": 7,
       "salary_impact": 7,
-      "time_to_prepare": 7,
-      "overall": 6.1
+      "time_to_prepare": 7
     }
   },
   {
@@ -459,8 +451,7 @@
       "employer_recognition": 4,
       "community_respect": 4,
       "salary_impact": 4,
-      "time_to_prepare": 5,
-      "overall": 4.2
+      "time_to_prepare": 5
     }
   },
   {
@@ -509,8 +500,7 @@
       "employer_recognition": 5,
       "community_respect": 5,
       "salary_impact": 5,
-      "time_to_prepare": 4,
-      "overall": 4.2
+      "time_to_prepare": 4
     }
   },
   {
@@ -556,8 +546,7 @@
       "employer_recognition": 3,
       "community_respect": 3,
       "salary_impact": 3,
-      "time_to_prepare": 2,
-      "overall": 2.5
+      "time_to_prepare": 2
     }
   },
   {
@@ -607,8 +596,7 @@
       "employer_recognition": 3,
       "community_respect": 3,
       "salary_impact": 2,
-      "time_to_prepare": 2,
-      "overall": 2.5
+      "time_to_prepare": 2
     }
   },
   {
@@ -655,8 +643,7 @@
       "employer_recognition": 2,
       "community_respect": 2,
       "salary_impact": 1,
-      "time_to_prepare": 1,
-      "overall": 1.5
+      "time_to_prepare": 1
     }
   },
   {
@@ -707,8 +694,7 @@
       "employer_recognition": 4,
       "community_respect": 4,
       "salary_impact": 3,
-      "time_to_prepare": 3,
-      "overall": 3.8
+      "time_to_prepare": 3
     }
   },
   {
@@ -761,8 +747,7 @@
       "employer_recognition": 5,
       "community_respect": 5,
       "salary_impact": 5,
-      "time_to_prepare": 5,
-      "overall": 4.4
+      "time_to_prepare": 5
     }
   }
 ]

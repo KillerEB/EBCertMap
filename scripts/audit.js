@@ -205,15 +205,15 @@ function validateSchema(cert) {
         });
       }
     }
+    // scores.overall is derived from the other axes and computed at load. A
+    // hand-written value here silently overrides nothing and drifts from the
+    // formula, so the field is rejected outright rather than range-checked.
     if (cert.scores.overall !== undefined) {
-      const o = cert.scores.overall;
-      if (typeof o !== 'number' || o < 0 || o > 10) {
-        issues.push({
-          severity: 'schema',
-          field: 'scores.overall',
-          message: `scores.overall must be a number 0-10, got: ${o}`
-        });
-      }
+      issues.push({
+        severity: 'schema',
+        field: 'scores.overall',
+        message: `scores.overall is computed, not stored — remove it (found: ${cert.scores.overall})`
+      });
     }
   } else {
     issues.push({ severity: 'schema', field: 'scores', message: 'Missing scores object' });

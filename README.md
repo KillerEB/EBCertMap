@@ -129,7 +129,6 @@ Open [http://localhost:5173](http://localhost:5173).
   "flags": [],
   "skills": ["penetration_testing_methodology", "privilege_escalation", "active_directory_attacks"],
   "scores": {
-    "overall": 9.2,
     "practical_depth": 9,
     "employer_recognition": 10,
     "community_respect": 10,

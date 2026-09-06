@@ -326,6 +326,29 @@ const allCerts    = (cm={}) => { const seen=new Set(); return Object.values(cm).
 const getCertById = (id, cm={}) => allCerts(cm).find(c => c.id === id);
 const fmt = cost => cost === 0 ? "Free" : `${cost.toLocaleString()}`;
 
+// scores.overall is computed, never stored. The weights are deliberate rather
+// than fitted: salary_impact correlates 0.91 with employer_recognition and
+// time_to_prepare 0.94 with exam_difficulty, so both are already represented and
+// are shown as context rather than counted. exam_difficulty is 0.65 with
+// practical_depth, so it is substantially covered too and carries the single
+// weight. The audit rejects a hand-written overall field.
+const computeOverall = sc => sc == null ? null : Math.round(
+  ((2 * sc.practical_depth + 2 * sc.employer_recognition +
+    2 * sc.community_respect + sc.exam_difficulty) / 7) * 10
+) / 10;
+
+const hydrateCerts = list => (Array.isArray(list) ? list : []).map(c =>
+  c.scores ? { ...c, scores: { ...c.scores, overall: computeOverall(c.scores) } } : c
+);
+
+// Scores round to one decimal, so ties are common and their order must be
+// deterministic rather than incidental to file order.
+const byOverall = (a, b) =>
+  (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0) ||
+  (b.scores?.practical_depth ?? 0) - (a.scores?.practical_depth ?? 0) ||
+  (b.scores?.employer_recognition ?? 0) - (a.scores?.employer_recognition ?? 0) ||
+  (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+
 // ═══════════════════════════════════════════════════════════════════════════
 // SHARED COMPONENTS
 // ═══════════════════════════════════════════════════════════════════════════
@@ -724,7 +747,7 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
   const certsByLevel = useMemo(() => {
     const m = {}; LEVEL_ORDER.forEach(lv => m[lv] = []);
     certs.forEach(c => { if (m[c.level]) m[c.level].push(c); });
-    Object.values(m).forEach(list => list.sort((a,b) => (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0)));
+    Object.values(m).forEach(list => list.sort(byOverall));
     return m;
   }, [certs]);
 
@@ -740,7 +763,7 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
       });
     });
     Object.values(m).forEach(byLvl => Object.values(byLvl).forEach(list =>
-      list.sort((a,b) => (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0))
+      list.sort(byOverall)
     ));
     return m;
   }, [certs, useLeaderboard]);
@@ -924,7 +947,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
 
   useEffect(() => {
     if (domain === "all" || CERTS[domain]) return;
-    fetch(`/data/certs/${domain}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[domain]:data}))).catch(()=>{});
+    fetch(`/data/certs/${domain}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[domain]:hydrateCerts(data)}))).catch(()=>{});
   }, [domain]);
 
   // Map mode needs every domain loaded so the grid isn't sparse
@@ -932,7 +955,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     if (!mapMode) return;
     DOMAINS.forEach(({ id }) => {
       if (CERTS[id]) return;
-      fetch(`/data/certs/${id}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[id]:data}))).catch(()=>{});
+      fetch(`/data/certs/${id}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[id]:hydrateCerts(data)}))).catch(()=>{});
     });
   }, [mapMode]);
 
@@ -970,7 +993,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
       return true;
     });
     const sorted = [...filtered];
-    if (sortBy==="overall") sorted.sort((a,b)=>(b.scores?.overall??0)-(a.scores?.overall??0));
+    if (sortBy==="overall") sorted.sort(byOverall);
     if (sortBy==="alpha")   sorted.sort((a,b)=>a.acronym.localeCompare(b.acronym));
     if (sortBy==="level")   sorted.sort((a,b)=>(LEVELS[a.level]?.order??0)-(LEVELS[b.level]?.order??0));
     if (sortBy==="cost")    sorted.sort((a,b)=>a.cost_usd-b.cost_usd);
@@ -1386,7 +1409,7 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
   useEffect(() => {
     DOMAINS.forEach(({ id }) => {
       if (CERTS[id]) return;
-      fetch(`/data/certs/${id}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[id]:data}))).catch(()=>{});
+      fetch(`/data/certs/${id}.json`).then(r=>r.json()).then(data=>setCERTS(prev=>({...prev,[id]:hydrateCerts(data)}))).catch(()=>{});
     });
   }, []);
 
@@ -1855,7 +1878,7 @@ export default function App() {
     DOMAINS.forEach(({ id }) => {
       fetch(`/data/certs/${id}.json`)
         .then(r => r.json())
-        .then(data => setCERTS(prev => ({ ...prev, [id]: data })))
+        .then(data => setCERTS(prev => ({ ...prev, [id]: hydrateCerts(data) })))
         .catch(() => {});
     });
   }, []);

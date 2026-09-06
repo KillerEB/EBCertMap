@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-09-07",
+      "title": "Overall scores are now computed, and rankings have moved",
+      "body": "The overall score used to be typed in by hand alongside the six component scores. That made it unauditable — you could not reproduce it from the components, and nobody could tell you why one cert outranked another. It is now derived: overall = (2·practical_depth + 2·employer_recognition + 2·community_respect + exam_difficulty) / 7. Salary impact and prep time are deliberately not in the formula. They are not unimportant; they are near-duplicates of scores already counted (salary tracks employer recognition at r=0.91, prep time tracks exam difficulty at r=0.94), so including them would weight the same thing twice. Both are still scored and shown as context. Rankings have shifted as a result — 245 certs move more than two places within their level, and a few move a lot. To be clear about what that is and is not: no individual cert was re-judged. The same component scores are being combined more honestly, and where two certs tie the order is now fixed by practical depth, then employer recognition, then id, instead of by whatever order the file happened to be in."
+    },
+    {
       "date": "2026-05-24",
       "title": "Big data refresh — v1 of the auto-auditor is live",
       "body": "Been taking my time on one of the most important components of this project: the updater. The first version of audit.js is live — it validates the data against the schema, hits every cert's official URL, and flags dead links, redirects, price drifts, and discontinued certs. Still rough around the edges, but its first run already paid off — fixed a bunch of dead URLs (Cisco CCNA, ISA 62443, F5, GIAC and more), retired a few certs that are no longer offered (GEVA, Anomali, OneTrust OTCPP), and quietly cleaned up a lot of score and flag data behind the scenes. Full breakdown is in the changelog. Plan is to run this automatically once a week so the catalog stays accurate without me having to chase URLs manually — will let you know when it's wired up!"
@@ -57,6 +62,24 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-09-07",
+      "title": "Computed Overall Score, CI Schema Gate & Skills Taxonomy",
+      "items": [
+        "scores.overall is now computed from the component scores instead of hand-entered, and removed from all 426 cert records. The audit rejects the field if it reappears.",
+        "Ties in any ranked view now resolve deterministically: practical_depth, then employer_recognition, then id.",
+        "Skills view now loads the 90-skill taxonomy from public/data/skills.json instead of a 55-skill hardcoded list. Tag coverage rises from 29.3% to 60.9%, surfacing 147 more certs across the shared skills.",
+        "Fixed the skills taxonomy before wiring it up: 14 skills that did not match their own name, 6 tags filed under skills that consume them rather than perform them, and the missing red_team skill.",
+        "Added CI: lint, strict schema validation and a build run on every pull request; a weekly link audit opens or updates a single issue.",
+        "Added --strict to the auditor. Only 1 of 14 schema checks was previously fatal, so most data errors passed silently.",
+        "Escaped the injected JSON-LD so a cert field containing a closing script tag cannot break out of the block.",
+        "official_url must now use https; the previous check accepted javascript: and data: URLs.",
+        "The discontinued-keyword scan now checks every occurrence on a page, not just the first — a match in a nav or footer used to hide a real one further down. Ambiguous phrases moved to a lower-severity review tier.",
+        "Fixed the domain cert counts in the sidebar, which used a different metric before the data loaded and visibly jumped (AppSec showed 15, then 38).",
+        "Time to Prepare is no longer coloured on the green \"higher is better\" scale — it is a cost, not a benefit.",
+        "Removed public/data/index.json, which nothing read and whose counts were wrong on all 14 entries."
+      ]
+    },
     {
       "date": "2026-05-24",
       "title": "Audit Script v1, Schema Cleanup, 34 URL Fixes & New Filter",

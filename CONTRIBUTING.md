@@ -78,8 +78,7 @@ The required fields for every cert entry:
     "employer_recognition": 5,
     "community_respect": 5,
     "salary_impact": 5,
-    "time_to_prepare": 5,
-    "overall": 5.0
+    "time_to_prepare": 5
   }
 }
 ```
@@ -107,7 +106,19 @@ Use these values only — no other numbers:
 
 ### Scores
 
-All six component scores are **integers from 0 to 10** (use 0 only when truly absent — e.g. `practical_depth: 0` for pure MCQ certs). The `overall` field is a **single decimal** (e.g. `7.2`). Scores should reflect honest community consensus, not vendor marketing. If you are unsure, look at how similar certs in the same domain are scored and calibrate against those.
+All six component scores are **integers from 0 to 10** (use 0 only when truly absent — e.g. `practical_depth: 0` for pure MCQ certs). Scores should reflect honest community consensus, not vendor marketing. If you are unsure, look at how similar certs in the same domain are scored and calibrate against those.
+
+**Do not add an `overall` field.** It is computed from the others, and the audit will reject a stored one:
+
+```
+overall = (2·practical_depth + 2·employer_recognition + 2·community_respect + exam_difficulty) / 7
+```
+
+`salary_impact` and `time_to_prepare` are not in the formula. That is not a judgement that they do not matter — across the catalogue `salary_impact` correlates 0.91 with `employer_recognition` and `time_to_prepare` correlates 0.94 with `exam_difficulty`, so counting them again would double-weight what is already there. Both are still scored and displayed as context.
+
+`exam_difficulty` carries a single weight rather than a double one because it too is substantially covered — 0.65 with `practical_depth`, rising to 0.80 among elite certs.
+
+Where two certs tie, they are ordered by `practical_depth`, then `employer_recognition`, then id — so the ordering is deterministic rather than dependent on file order.
 
 ### Flags
 
