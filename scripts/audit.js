@@ -208,9 +208,13 @@ function validateSchema(cert) {
     // scores.overall is derived from the other axes and computed at load. A
     // hand-written value here silently overrides nothing and drifts from the
     // formula, so the field is rejected outright rather than range-checked.
+    // Critical rather than schema: other schema issues can be legitimate
+    // work-in-progress, but a present overall field never is, and a contributor
+    // running the audit without --strict should not see green and find out at PR
+    // time.
     if (cert.scores.overall !== undefined) {
       issues.push({
-        severity: 'schema',
+        severity: 'critical',
         field: 'scores.overall',
         message: `scores.overall is computed, not stored — remove it (found: ${cert.scores.overall})`
       });
