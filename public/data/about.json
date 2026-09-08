@@ -1,7 +1,7 @@
 {
   "news": [
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "title": "Overall scores are now computed, and rankings have moved",
       "body": "The overall score used to be typed in by hand alongside the six component scores. That made it unauditable — you could not reproduce it from the components, and nobody could tell you why one cert outranked another. It is now derived: overall = (2·practical_depth + 2·employer_recognition + 2·community_respect + exam_difficulty) / 7. Salary impact and prep time are deliberately not in the formula. They are not unimportant; they are near-duplicates of scores already counted (salary tracks employer recognition at r=0.91, prep time tracks exam difficulty at r=0.94), so including them would weight the same thing twice. Both are still scored and shown as context. Rankings have shifted as a result — 245 certs move more than two places within their level, and a few move a lot. To be clear about what that is and is not: no individual cert was re-judged. The same component scores are being combined more honestly, and where two certs tie the order is now fixed by practical depth, then employer recognition, then id, instead of by whatever order the file happened to be in."
     },
@@ -63,7 +63,7 @@
   ],
   "changelog": [
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "title": "Computed Overall Score, CI Schema Gate & Skills Taxonomy",
       "items": [
         "scores.overall is now computed from the component scores instead of hand-entered, and removed from all 426 cert records. The audit rejects the field if it reappears.",
@@ -77,7 +77,9 @@
         "The discontinued-keyword scan now checks every occurrence on a page, not just the first — a match in a nav or footer used to hide a real one further down. Ambiguous phrases moved to a lower-severity review tier.",
         "Fixed the domain cert counts in the sidebar, which used a different metric before the data loaded and visibly jumped (AppSec showed 15, then 38).",
         "Time to Prepare is no longer coloured on the green \"higher is better\" scale — it is a cost, not a benefit.",
-        "Removed public/data/index.json, which nothing read and whose counts were wrong on all 14 entries."
+        "Removed public/data/index.json, which nothing read and whose counts were wrong on all 14 entries.",
+        "Fixed a re-render loop in the Roles view: the path-selection effect ran on every render because its dependency was rebuilt each time.",
+        "CONTRIBUTING now documents the overall-score formula, why salary impact and prep time are excluded from it, and the tie-break rule."
       ]
     },
     {
