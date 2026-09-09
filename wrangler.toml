@@ -3,3 +3,7 @@ compatibility_date = "2026-04-20"
 
 [assets]
 directory = "./dist"
+# Unmatched paths fall back to the SPA shell so client-side routes still resolve.
+# Prerendered files (/, /skills, /roles, /cert/<id>) are real assets and are
+# served directly; this only catches what is not on disk.
+not_found_handling = "single-page-application"

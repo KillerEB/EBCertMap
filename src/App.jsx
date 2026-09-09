@@ -349,6 +349,22 @@ const byOverall = (a, b) =>
   (b.scores?.employer_recognition ?? 0) - (a.scores?.employer_recognition ?? 0) ||
   (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 
+// ── Routing ─────────────────────────────────────────────────────────────────
+// The app has four addressable states, so using the History API directly costs
+// less than a router dependency. Cert pages are prerendered at build, so
+// /cert/<id> is a real document a crawler can read and a person can link to.
+const VIEW_PATH = { cert: "/", skill: "/skills", role: "/roles" };
+
+function parseRoute(pathname) {
+  const m = pathname.match(/^\/cert\/([A-Za-z0-9_.+-]+)\/?$/);
+  if (m) return { view: "cert", certId: m[1] };
+  if (/^\/skills\/?$/.test(pathname)) return { view: "skill", certId: null };
+  if (/^\/roles\/?$/.test(pathname))  return { view: "role",  certId: null };
+  return { view: "cert", certId: null };
+}
+
+const routePath = r => (r.certId ? `/cert/${r.certId}` : (VIEW_PATH[r.view] ?? "/"));
+
 // ═══════════════════════════════════════════════════════════════════════════
 // SHARED COMPONENTS
 // ═══════════════════════════════════════════════════════════════════════════
@@ -930,9 +946,11 @@ function MapGrid({ certs, cert, setCert, colorBy, domain, isMobile }) {
 // CERT VIEW
 // ═══════════════════════════════════════════════════════════════════════════
 
-function CertView({ CERTS, setCERTS, isMobile }) {
+function CertView({ CERTS, setCERTS, certId, setCertId, isMobile }) {
   const [domain,      setDomain     ] = useState("all");
-  const [cert,        setCert       ] = useState(null);
+  // The open cert lives in the URL, so a profile can be linked to and restored.
+  const cert = useMemo(() => (certId ? getCertById(certId, CERTS) : null), [certId, CERTS]);
+  const setCert = useCallback(c => setCertId(c?.id ?? null), [setCertId]);
   const [search,      setSearch     ] = useState("");
   const [filterLevel, setFilterLevel] = useState("all");
   const [filterIssuer,setFilterIssuer]= useState("all");
@@ -1006,7 +1024,7 @@ function CertView({ CERTS, setCERTS, isMobile }) {
     return LEVEL_ORDER.map(lvl=>({level:lvl,certs:list.filter(c=>c.level===lvl)})).filter(g=>g.certs.length>0);
   }, [domain, CERTS]);
 
-  const selectCert = c => setCert(prev=>prev?.id===c?.id?null:c);
+  const selectCert = c => setCertId(certId === c?.id ? null : (c?.id ?? null));
   const resetFilters = () => { setSearch(""); setFilterLevel("all"); setFilterIssuer("all"); setFilterCost("all"); setFilterFlag("all"); setFilterDod(false); setFilterPrac(false); setSortBy("default"); };
   const hasActiveFilters = search||filterLevel!=="all"||filterIssuer!=="all"||filterCost!=="all"||filterFlag!=="all"||filterDod||filterPrac||sortBy!=="default";
 
@@ -1868,7 +1886,26 @@ function Nav({ view, setView, CERTS, SKILLS, onAbout, isMobile }) {
 
 export default function App() {
   const isMobile = useIsMobile();
-  const [view,    setView  ] = useState("cert");
+  const [route,   setRoute ] = useState(() => parseRoute(window.location.pathname));
+  const view = route.view;
+
+  useEffect(() => {
+    const onPop = () => setRoute(parseRoute(window.location.pathname));
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  const navigate = useCallback(next => {
+    setRoute(prev => {
+      const merged = { ...prev, ...next };
+      const path = routePath(merged);
+      if (path !== window.location.pathname) window.history.pushState(null, "", path);
+      return merged;
+    });
+  }, []);
+
+  const setView   = useCallback(v  => navigate({ view: v, certId: null }), [navigate]);
+  const setCertId = useCallback(id => navigate({ view: "cert", certId: id ?? null }), [navigate]);
   const [CERTS,   setCERTS ] = useState({});
   const [SKILLS,  setSKILLS] = useState([]);
   const [SKILL_CATS, setSKILL_CATS] = useState([]);
@@ -1898,7 +1935,7 @@ export default function App() {
     <div className="gridbg" style={{ height:"100vh", display:"flex", flexDirection:"column", overflow:"hidden" }}>
       <Nav view={view} setView={setView} CERTS={CERTS} SKILLS={SKILLS} onAbout={()=>setAbout(true)} isMobile={isMobile} />
       <div style={{ flex:1, display:"flex", overflow:"hidden" }}>
-        {view==="cert"  && <CertView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
+        {view==="cert"  && <CertView  CERTS={CERTS} setCERTS={setCERTS} certId={route.certId} setCertId={setCertId} isMobile={isMobile} />}
         {view==="skill" && <SkillsView CERTS={CERTS} SKILLS={SKILLS} SKILL_CATS={SKILL_CATS} isMobile={isMobile} />}
         {view==="role"  && <RoleView  CERTS={CERTS} setCERTS={setCERTS} isMobile={isMobile} />}
       </div>

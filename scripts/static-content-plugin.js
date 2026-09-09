@@ -20,30 +20,19 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import {
+  SITE_URL,
+  escapeHtml,
+  jsonLdSafe,
+  buildCertPage,
+  buildViewPage,
+  buildSitemap,
+  VIEW_KEYS,
+} from "./prerender.js";
+
 const NEWS_LIMIT = 5;
 const CHANGELOG_LIMIT = 5;
 const NOSCRIPT_SUMMARY_CHARS = 220;
-const SITE_URL = "https://ebcertmap.com/";
-
-function escapeHtml(s) {
-  if (s == null) return "";
-  return String(s).replace(/[&<>"']/g, m => (
-    { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[m]
-  ));
-}
-
-// JSON.stringify does not escape "</script>", so any cert field containing it
-// would break out of the <script type="application/ld+json"> block. Escaping "<"
-// as < is still valid JSON and parses back to "<" for consumers.
-// U+2028/U+2029 are escaped as defence in depth, not to fix a parse error here:
-// ld+json is data, not executed, and both JSON and (since ES2019) JS string
-// literals accept them raw. The escape costs nothing and holds if this ever
-// moves into a real inline script.
-function jsonLdSafe(value) {
-  return JSON.stringify(value).replace(/[<\u2028\u2029]/g, ch => (
-    { "<": "\\u003c", "\u2028": "\\u2028", "\u2029": "\\u2029" }[ch]
-  ));
-}
 
 function loadCerts(certsDir) {
   const all = [];
@@ -149,19 +138,6 @@ ${domainsHtml}
 </noscript>`;
 }
 
-function buildSitemap(lastmod) {
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>${SITE_URL}</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
-`;
-}
-
 export function staticContentPlugin() {
   // Read everything once at plugin instantiation so all hooks have it available
   // regardless of which fires first.
@@ -199,14 +175,14 @@ export function staticContentPlugin() {
           `<div id="root"></div>${noscript}`
         );
 
-        console.log(`[static-content] injected JSON-LD ItemList (${certs.length} certs), noscript fallback, OG updated=${lastmod}`);
+      console.log(`[static-content] injected JSON-LD ItemList (${certs.length} certs), noscript fallback, OG updated=${lastmod}`);
         return html;
       },
     },
 
     generateBundle(_options, bundle) {
-      const { lastmod } = init();
-      const xml = buildSitemap(lastmod);
+      const { lastmod, certs } = init();
+      const xml = buildSitemap(lastmod, certs);
       const sitemapKey = Object.keys(bundle).find(k => k.endsWith("sitemap.xml"));
       if (sitemapKey) {
         bundle[sitemapKey].source = xml;
@@ -215,6 +191,40 @@ export function staticContentPlugin() {
         this.emitFile({ type: "asset", fileName: "sitemap.xml", source: xml });
         console.log(`[static-content] emitted sitemap.xml lastmod=${lastmod}`);
       }
+    },
+
+    // Runs after Vite has written dist/, so dist/index.html is the finished
+    // document (hashed asset URLs and all) and each cert page can be derived
+    // from it rather than rebuilt from scratch.
+    writeBundle(options) {
+      const { certs, domains } = init();
+      const outDir = options.dir || path.join(root, "dist");
+      const indexPath = path.join(outDir, "index.html");
+      if (!fs.existsSync(indexPath)) {
+        console.warn("[static-content] dist/index.html missing — skipped cert pages");
+        return;
+      }
+
+      const baseHtml = fs.readFileSync(indexPath, "utf8");
+      let written = 0, bytes = 0;
+      for (const cert of certs) {
+        const html = buildCertPage(baseHtml, cert, domains, certs.length);
+        const dir = path.join(outDir, "cert", cert.id);
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(path.join(dir, "index.html"), html, "utf8");
+        written++;
+        bytes += Buffer.byteLength(html);
+      }
+
+      for (const key of VIEW_KEYS) {
+        const dir = path.join(outDir, key);
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(path.join(dir, "index.html"), buildViewPage(baseHtml, key), "utf8");
+      }
+      console.log(
+        `[static-content] prerendered ${written} cert pages + ${VIEW_KEYS.length} view pages ` +
+        `(${(bytes / 1024 / 1024).toFixed(1)} MB, avg ${Math.round(bytes / written / 1024)} KB)`
+      );
     },
   };
 }
