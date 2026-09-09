@@ -2,6 +2,11 @@
   "news": [
     {
       "date": "2026-09-09",
+      "title": "Every certification now has its own page you can link to",
+      "body": "Until now the whole site lived at one address. You could find a cert but you could not send it to anyone — sharing OSCP meant sharing the homepage and telling someone what to search for. Every certification now has a real page at /cert/<id>, so you can link to it, bookmark it, and open it directly. The back button works the way you would expect, and the Skills and Career Paths views have their own addresses too. Each cert page is also a complete document on its own: it carries that cert full name, issuer, level, cost, renewal terms and skills in the page itself, so search engines and AI assistants can read a specific certification instead of guessing from a directory listing. All 429 pages are listed in the sitemap."
+    },
+    {
+      "date": "2026-09-09",
       "title": "Overall scores are now computed, and rankings have moved",
       "body": "The overall score used to be typed in by hand alongside the six component scores. That made it unauditable — you could not reproduce it from the components, and nobody could tell you why one cert outranked another. It is now derived: overall = (2·practical_depth + 2·employer_recognition + 2·community_respect + exam_difficulty) / 7. Salary impact and prep time are deliberately not in the formula. They are not unimportant; they are near-duplicates of scores already counted (salary tracks employer recognition at r=0.91, prep time tracks exam difficulty at r=0.94), so including them would weight the same thing twice. Both are still scored and shown as context. Rankings have shifted as a result. Comparing the old on-screen order with the new one, 251 certs move more than two places within their level, and a few move a lot. To be clear about what that is and is not: no individual cert was re-judged. The same component scores are being combined by a published rule, so the ordering is now reproducible from documented inputs rather than taken on trust. Part of the movement is the tie-break: where two certs score the same, the order is now fixed by practical depth, then employer recognition, then id, instead of by whatever order the file happened to be in."
     },
@@ -62,6 +67,18 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-09-09",
+      "title": "Per-Cert Pages, Deep Linking & Prerendering",
+      "items": [
+        "Added /cert/<id> routes: every certification is now linkable, bookmarkable and reachable directly. Browser back and forward work through cert selections.",
+        "Added /skills and /roles addresses for the other two views, so they can be linked and reloaded in place.",
+        "All 426 cert pages are prerendered at build with their own title, description, canonical URL, Open Graph tags and schema.org EducationalOccupationalCredential data.",
+        "Each cert page carries its full details in a noscript block, so it is readable without JavaScript rather than falling back to a directory listing.",
+        "sitemap.xml now lists all 429 URLs instead of only the homepage.",
+        "Unknown paths fall back to the app shell rather than erroring."
+      ]
+    },
     {
       "date": "2026-09-09",
       "title": "Computed Overall Score, CI Schema Gate & Skills Taxonomy",
