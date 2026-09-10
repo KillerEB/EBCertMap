@@ -1,7 +1,7 @@
 {
   "role_id": "wireless_specialist",
   "label": "Wireless Security Specialist",
-  "description": "Specializes in wireless network security assessment \u2014 WPA2/WPA3 attacks, enterprise wireless, rogue access points, Bluetooth attacks, and wireless intrusion detection.",
+  "description": "Specializes in wireless network security assessment — WPA2/WPA3 attacks, enterprise wireless, rogue access points, Bluetooth attacks, and wireless intrusion detection.",
   "job_titles": [
     "Wireless Security Specialist",
     "Wireless Pentester",
@@ -15,7 +15,6 @@
       "name": "Wireless Security Track",
       "rationale": "OSWP, GAWN, and CWSP cover wireless security from practical exploitation through advanced attacks to enterprise wireless architecture.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1797,
       "pros": [
         "OSWP proves hands-on wireless attack capability",
         "GAWN covers advanced attacks beyond OSWP scope",
@@ -33,7 +32,7 @@
           "Basic security concepts"
         ],
         "recommended_certs": [],
-        "experience": "Requires dedicated wireless testing hardware \u2014 a compatible USB wireless adapter with monitor mode and injection support."
+        "experience": "Requires dedicated wireless testing hardware — a compatible USB wireless adapter with monitor mode and injection support."
       },
       "cert_sequence": [
         {
@@ -46,13 +45,13 @@
           "cert_id": "gawn",
           "order": 2,
           "estimated_time": "3-5 months",
-          "notes": "GIAC wireless security cert \u2014 advanced attacks beyond OSWP including enterprise wireless (WPA2-Enterprise/802.1X) and Bluetooth attacks. Open-book. Associated with SANS SEC617. DoD 8140 approved."
+          "notes": "GIAC wireless security cert — advanced attacks beyond OSWP including enterprise wireless (WPA2-Enterprise/802.1X) and Bluetooth attacks. Open-book. Associated with SANS SEC617. DoD 8140 approved."
         },
         {
           "cert_id": "cwsp",
           "order": 3,
           "estimated_time": "2-4 months",
-          "notes": "CWNP enterprise wireless security cert covering WLAN security policies and wireless intrusion prevention. More defensive and architecture-focused \u2014 adds enterprise design perspective for network security engineer roles with wireless scope."
+          "notes": "CWNP enterprise wireless security cert covering WLAN security policies and wireless intrusion prevention. More defensive and architecture-focused — adds enterprise design perspective for network security engineer roles with wireless scope."
         }
       ]
     }

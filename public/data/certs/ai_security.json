@@ -42,7 +42,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/machine-learning-engineer-gmle/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 4,
@@ -96,7 +95,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -149,7 +147,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -200,7 +197,6 @@
     ],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-42001",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -249,7 +245,6 @@
     ],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-42001",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -300,7 +295,6 @@
     ],
     "official_url": "https://www.isaca.org/credentialing/aair",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -352,7 +346,6 @@
     ],
     "official_url": "https://www.comptia.org/en/certifications/secai/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -405,7 +398,6 @@
     ],
     "official_url": "https://www.isaca.org/credentialing/aaia",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -458,7 +450,6 @@
     ],
     "official_url": "https://www.isaca.org/credentialing/aaism",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -511,7 +502,6 @@
     ],
     "official_url": "https://learnprompting.org/certificates/ai-red-teaming-professional-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 6,
@@ -565,7 +555,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -623,7 +612,6 @@
     "flags": [],
     "official_url": "https://www.practical-devsecops.com/certified-ai-security-professional/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,

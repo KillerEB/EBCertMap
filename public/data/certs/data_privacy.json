@@ -36,7 +36,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -84,7 +83,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -131,7 +129,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -177,7 +174,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -227,7 +223,6 @@
     ],
     "official_url": "https://iapp.org/certify/cipp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -276,7 +271,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipm/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -326,7 +320,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/cipt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -379,7 +372,6 @@
     ],
     "official_url": "https://iapp.org/certify/aigp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -428,7 +420,6 @@
     "flags": [],
     "official_url": "https://iapp.org/certify/fip/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -478,7 +469,6 @@
     "flags": [],
     "official_url": "https://www.isaca.org/credentialing/cdpse",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -530,7 +520,6 @@
     ],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -577,7 +566,6 @@
     ],
     "official_url": "https://www.exin.com/data-protection-security/exin-privacy-and-data-protection/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 1,
@@ -625,7 +613,6 @@
     "flags": [],
     "official_url": "https://www.exin.com/data-protection-security/exin-privacy-and-data-protection/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -675,7 +662,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27701",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -726,7 +712,6 @@
     ],
     "official_url": "https://www.onetrust.com/training/certification/",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -776,7 +761,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/hcispp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -825,7 +809,6 @@
     "flags": [],
     "official_url": "https://www.dama.org/cpages/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,

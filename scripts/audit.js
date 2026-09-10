@@ -24,6 +24,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+import { validatePaths, pathCoverage } from './validate-paths.js';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const CERTS_DIR = path.join(ROOT, 'public', 'data', 'certs');
@@ -205,6 +207,15 @@ function validateSchema(cert) {
         });
       }
     }
+    // A cert's paths are derived by inverting paths/*.json, never stored.
+    if (cert.paths !== undefined) {
+      issues.push({
+        severity: 'schema',
+        field: 'paths',
+        message: `paths is derived from paths/*.json — remove it`
+      });
+    }
+
     // scores.overall is derived from the other axes and computed at load. A
     // hand-written value here silently overrides nothing and drifts from the
     // formula, so the field is rejected outright rather than range-checked.
@@ -421,6 +432,39 @@ async function runInBatches(items, fn, concurrency) {
 }
 
 
+// ── Roles and paths ───────────────────────────────────────
+// Structural checks across roles.json and paths/*.json. Nothing previously
+// verified that a path referenced a cert that exists or is still purchasable.
+function runPathValidation(certs) {
+  const rolesPath = path.join(ROOT, 'public', 'data', 'roles.json');
+  const pathsDir = path.join(ROOT, 'public', 'data', 'paths');
+  const domainsPath = path.join(ROOT, 'public', 'data', 'domains.json');
+  if (!fs.existsSync(rolesPath) || !fs.existsSync(pathsDir)) return null;
+
+  const roles = JSON.parse(fs.readFileSync(rolesPath, 'utf8'));
+  const domains = fs.existsSync(domainsPath)
+    ? JSON.parse(fs.readFileSync(domainsPath, 'utf8'))
+    : [];
+
+  const pathDocs = new Map();
+  for (const file of fs.readdirSync(pathsDir)) {
+    if (!file.endsWith('.json')) continue;
+    pathDocs.set(file.replace(/\.json$/, ''), JSON.parse(fs.readFileSync(path.join(pathsDir, file), 'utf8')));
+  }
+
+  const seen = new Set();
+  const certsById = new Map(
+    certs.filter(c => (seen.has(c.id) ? false : seen.add(c.id))).map(c => [c.id, c])
+  );
+
+  return {
+    issues: validatePaths(certsById, roles, pathDocs),
+    coverage: pathCoverage(certsById, pathDocs, domains),
+    roleCount: roles.length,
+    pathCount: [...pathDocs.values()].reduce((n, d) => n + (d.paths || []).length, 0),
+  };
+}
+
 // ── Skills tag coverage ─────────────────────────────
 // Every cert skill tag should resolve to a canonical skill in skills.json. Tags
 // that match nothing are invisible to the Skills filter. Reported, not yet fatal:
@@ -479,7 +523,7 @@ function checkDomainCounts(certs) {
 
 // ── Report generation ─────────────────────────────────────────────────────────
 
-function buildReport(auditResults, startTime, skillCoverage) {
+function buildReport(auditResults, startTime, skillCoverage, pathAudit) {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   const now = new Date().toISOString().split('T')[0];
 
@@ -617,6 +661,30 @@ function buildReport(auditResults, startTime, skillCoverage) {
     md += `\n---\n\n`;
   }
 
+  if (pathAudit) {
+    const bySev = sev => pathAudit.issues.filter(i => i.severity === sev);
+    md += `## \u{1F5FA}\uFE0F Roles and paths\n\n`;
+    md += `${pathAudit.pathCount} paths across ${pathAudit.roleCount} roles. `;
+    md += `${pathAudit.coverage.referenced} of ${pathAudit.coverage.total} certs appear in at least one path `;
+    md += `(${pathAudit.coverage.pct.toFixed(1)}%).\n\n`;
+
+    for (const [sev, label] of [['critical', '\u{1F534} Critical'], ['warning', '\u{1F7E1} Warning'], ['schema', '\u{1F7E0} Schema'], ['review', '\u{1F535} Review']]) {
+      const list = bySev(sev);
+      if (!list.length) continue;
+      md += `### ${label} (${list.length})\n\n`;
+      for (const i of list.slice(0, 40)) md += `- **${i.scope}** — ${i.message}\n`;
+      if (list.length > 40) md += `- _(${list.length - 40} more)_\n`;
+      md += `\n`;
+    }
+
+    md += `### Path coverage by domain\n\n`;
+    md += `| Domain | In a path | Certs | Coverage |\n|---|---|---|---|\n`;
+    for (const d of pathAudit.coverage.byDomain) {
+      md += `| ${d.label} | ${d.covered} | ${d.total} | ${d.pct.toFixed(0)}% |\n`;
+    }
+    md += `\n---\n\n`;
+  }
+
   if (skillCoverage) {
     md += `## 🏷️ Skill tag coverage\n\n`;
     md += `${skillCoverage.matchedTags} of ${skillCoverage.distinctTags} distinct tags resolve to a canonical skill `;
@@ -658,6 +726,17 @@ async function main() {
   const schemaErrorCount = auditResults.reduce((n, r) => n + r.schemaIssues.length, 0);
   console.log(`   ${schemaErrorCount} schema issues found\n`);
 
+  const pathAudit = runPathValidation(auditResults.map(r => r.cert));
+  if (pathAudit) {
+    const n = sev => pathAudit.issues.filter(i => i.severity === sev).length;
+    console.log(`\u{1F5FA}\uFE0F  Paths: ${pathAudit.pathCount} across ${pathAudit.roleCount} roles — ` +
+      `${n('critical')} critical, ${n('warning')} warning, ${n('schema')} schema, ${n('review')} review`);
+    for (const i of pathAudit.issues.filter(i => i.severity === 'critical')) {
+      console.log(`   \u{1F534} ${i.scope}: ${i.message}`);
+    }
+    console.log();
+  }
+
   const skillCoverage = checkSkillCoverage(auditResults.map(r => r.cert));
   if (skillCoverage) {
     console.log(`🏷️  Skill tags: ${skillCoverage.matchedTags}/${skillCoverage.distinctTags} distinct resolve (${skillCoverage.coveragePct.toFixed(1)}% of uses)`);
@@ -693,7 +772,7 @@ async function main() {
 
   // Report
   console.log('📝 Generating report...');
-  const { md, summary } = buildReport(auditResults, startTime, skillCoverage);
+  const { md, summary } = buildReport(auditResults, startTime, skillCoverage, pathAudit);
 
   const reportPath = path.join(OUT_DIR, 'audit-report.md');
   const jsonPath = path.join(OUT_DIR, 'audit-results.json');
@@ -725,7 +804,12 @@ async function main() {
 
   // Default: only hard-critical issues break the build. --strict (used by CI on
   // pull requests) also fails on schema issues and DOMAINS count drift.
-  const fatal = summary.critical + (strict ? summary.schema + domainCountIssues.length : 0);
+  const pathIssues = pathAudit ? pathAudit.issues : [];
+  const pathCritical = pathIssues.filter(i => i.severity === 'critical').length;
+  const pathSchema = pathIssues.filter(i => i.severity === 'schema').length;
+
+  const fatal = summary.critical + pathCritical +
+    (strict ? summary.schema + domainCountIssues.length + pathSchema : 0);
   if (fatal > 0) process.exit(1); // non-zero exit for CI
 }
 

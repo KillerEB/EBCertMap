@@ -17,9 +17,8 @@
     {
       "id": "iam_microsoft",
       "name": "Microsoft Identity Track",
-      "rationale": "For IAM engineers in Microsoft-first organizations. Entra ID is the dominant enterprise identity platform \u2014 the Microsoft certification stack is increasingly required for identity engineering roles at Microsoft shops.",
+      "rationale": "For IAM engineers in Microsoft-first organizations. Entra ID is the dominant enterprise identity platform — the Microsoft certification stack is increasingly required for identity engineering roles at Microsoft shops.",
       "estimated_timeline": "10-16 months",
-      "total_cost_usd": 494,
       "pros": [
         "SC-300 is listed as required or preferred in most Microsoft identity engineering job postings",
         "Low cost compared to vendor platform certifications",
@@ -46,28 +45,27 @@
           "cert_id": "sc-300",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "Microsoft Identity and Access Administrator \u2014 the primary Entra ID engineering credential. Covers Conditional Access, identity governance, privileged identity management, external identities, and hybrid identity. Study with John Savill's Microsoft Azure Master Class and Microsoft Learn. Hands-on labs in a real Entra ID tenant are essential \u2014 use a free Microsoft 365 developer tenant."
+          "notes": "Microsoft Identity and Access Administrator — the primary Entra ID engineering credential. Covers Conditional Access, identity governance, privileged identity management, external identities, and hybrid identity. Study with John Savill's Microsoft Azure Master Class and Microsoft Learn. Hands-on labs in a real Entra ID tenant are essential — use a free Microsoft 365 developer tenant."
         },
         {
           "cert_id": "az-500",
           "order": 2,
           "estimated_time": "2-4 months",
-          "notes": "Azure Security Engineer \u2014 adds the security engineering context around identity. Covers Defender for Identity, Key Vault, and the broader Azure security posture that identity controls sit within. SC-300 + AZ-500 is the most recognized Microsoft identity security combination."
+          "notes": "Azure Security Engineer — adds the security engineering context around identity. Covers Defender for Identity, Key Vault, and the broader Azure security posture that identity controls sit within. SC-300 + AZ-500 is the most recognized Microsoft identity security combination."
         },
         {
           "cert_id": "sc-100",
           "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "Microsoft Cybersecurity Architect \u2014 the strategic capstone covering Zero Trust architecture, identity-centric security design, and security operations architecture. Opens senior architect and lead engineer roles. With SC-300 and AZ-500 completed, the architectural perspective feels grounded in operational reality."
+          "notes": "Microsoft Cybersecurity Architect — the strategic capstone covering Zero Trust architecture, identity-centric security design, and security operations architecture. Opens senior architect and lead engineer roles. With SC-300 and AZ-500 completed, the architectural perspective feels grounded in operational reality."
         }
       ]
     },
     {
       "id": "iam_okta",
       "name": "Okta Identity Track",
-      "rationale": "For IAM engineers on the Okta platform \u2014 the leading independent identity provider used across cloud-first organizations. Okta certifications are increasingly required for identity engineering roles at Okta shops.",
+      "rationale": "For IAM engineers on the Okta platform — the leading independent identity provider used across cloud-first organizations. Okta certifications are increasingly required for identity engineering roles at Okta shops.",
       "estimated_timeline": "10-16 months",
-      "total_cost_usd": 995,
       "pros": [
         "Okta Professional and Consultant are widely required at Okta customer organizations",
         "CIDPRO adds vendor-neutral identity governance foundation",
@@ -93,38 +91,37 @@
           "cert_id": "cidpro",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "IDPro's vendor-neutral identity professional certification \u2014 covers identity fundamentals, digital identity concepts, IAM program structure, and identity protocols independent of any platform. Good foundational credential before platform-specific Okta certifications. IDPro is building recognition as the professional body for identity practitioners."
+          "notes": "IDPro's vendor-neutral identity professional certification — covers identity fundamentals, digital identity concepts, IAM program structure, and identity protocols independent of any platform. Good foundational credential before platform-specific Okta certifications. IDPro is building recognition as the professional body for identity practitioners."
         },
         {
           "cert_id": "oca",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "Okta Certified Administrator \u2014 the Okta entry-level credential covering platform administration, user management, application integration, and policy configuration. Take Okta's official training and use the developer tenant extensively for hands-on practice."
+          "notes": "Okta Certified Administrator — the Okta entry-level credential covering platform administration, user management, application integration, and policy configuration. Take Okta's official training and use the developer tenant extensively for hands-on practice."
         },
         {
           "cert_id": "octa",
           "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "Okta Certified Technical Architect \u2014 Okta's advanced technical credential covering complex integration design, advanced federation scenarios, and multi-tenant architecture. A significant step up from OCA in both depth and difficulty. At this level you're designing Okta implementations for complex enterprise requirements, not just administering a configured tenant."
+          "notes": "Okta Certified Technical Architect — Okta's advanced technical credential covering complex integration design, advanced federation scenarios, and multi-tenant architecture. A significant step up from OCA in both depth and difficulty. At this level you're designing Okta implementations for complex enterprise requirements, not just administering a configured tenant."
         }
       ]
     },
     {
       "id": "iam_pam",
       "name": "Privileged Access Management Track",
-      "rationale": "For IAM engineers specializing in PAM \u2014 the highest-risk segment of identity management. CyberArk dominates the PAM market; CyberArk certifications are near-mandatory for PAM engineering roles.",
+      "rationale": "For IAM engineers specializing in PAM — the highest-risk segment of identity management. CyberArk dominates the PAM market; CyberArk certifications are near-mandatory for PAM engineering roles.",
       "estimated_timeline": "12-20 months",
-      "total_cost_usd": 1495,
       "pros": [
         "CyberArk Sentry and Guardian are required by name at most CyberArk customer organizations",
-        "PAM specialization commands premium compensation \u2014 high demand, low supply of skilled PAM engineers",
+        "PAM specialization commands premium compensation — high demand, low supply of skilled PAM engineers",
         "HashiCorp Vault adds secrets management for DevOps and cloud PAM scope",
         "CIDPRO adds vendor-neutral identity governance foundation"
       ],
       "cons": [
-        "Platform-specific \u2014 limited transferability outside CyberArk environments",
+        "Platform-specific — limited transferability outside CyberArk environments",
         "No DoD 8140 coverage",
-        "CyberArk Guardian is advanced \u2014 requires substantial platform experience"
+        "CyberArk Guardian is advanced — requires substantial platform experience"
       ],
       "prerequisites": {
         "knowledge": [
@@ -147,19 +144,19 @@
           "cert_id": "cyberark-defender-pam",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "CyberArk Defender PAM \u2014 the CyberArk entry-level PAM credential covering Vault administration, account management, and core PAM platform operation. CyberArk's official training is the primary preparation resource. Access to a CyberArk lab environment (either employer-provided or CyberArk's training environment) is essential."
+          "notes": "CyberArk Defender PAM — the CyberArk entry-level PAM credential covering Vault administration, account management, and core PAM platform operation. CyberArk's official training is the primary preparation resource. Access to a CyberArk lab environment (either employer-provided or CyberArk's training environment) is essential."
         },
         {
           "cert_id": "cyberark-sentry-pam",
           "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "CyberArk Sentry PAM \u2014 the intermediate credential covering advanced platform configuration, PSM, CPM, and complex privileged session management scenarios. The credential most commonly listed in CyberArk engineer job postings. Requires hands-on CyberArk experience \u2014 cannot be passed through study alone."
+          "notes": "CyberArk Sentry PAM — the intermediate credential covering advanced platform configuration, PSM, CPM, and complex privileged session management scenarios. The credential most commonly listed in CyberArk engineer job postings. Requires hands-on CyberArk experience — cannot be passed through study alone."
         },
         {
           "cert_id": "hashicorp-vault-professional",
           "order": 4,
           "estimated_time": "3-5 months",
-          "notes": "HashiCorp Vault Professional \u2014 adds secrets management and cloud-native PAM coverage that extends your PAM skills into DevOps and cloud environments where CyberArk's traditional privileged account vault model needs supplementing. Vault is the dominant secrets management platform in cloud-native and DevOps environments. The practical exam requires real Vault configuration and policy writing skill."
+          "notes": "HashiCorp Vault Professional — adds secrets management and cloud-native PAM coverage that extends your PAM skills into DevOps and cloud environments where CyberArk's traditional privileged account vault model needs supplementing. Vault is the dominant secrets management platform in cloud-native and DevOps environments. The practical exam requires real Vault configuration and policy writing skill."
         }
       ]
     }

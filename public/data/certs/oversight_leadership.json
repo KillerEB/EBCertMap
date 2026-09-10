@@ -41,7 +41,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-chief-information-security-officer-cciso/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -86,7 +85,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/associate-cciso/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -138,7 +136,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issmp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -189,7 +186,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/security-leadership-gslc/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -242,7 +238,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/strategic-planning-policy-leadership-gstrt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -297,7 +292,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/cyber-incident-leader-gcil/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -346,7 +340,6 @@
     "flags": [],
     "official_url": "https://www.asisonline.org/certification/certified-protection-professional-cpp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -395,7 +388,6 @@
     "flags": [],
     "official_url": "https://www.sans.org/cyber-security-certifications/sans-security-awareness-professional-credential",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -443,7 +435,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/cybersecurity-management/lead-cybersecurity-manager",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -491,7 +482,6 @@
     "flags": [],
     "official_url": "https://www.sei.cmu.edu/credentials/national-association-of-corporate-directors-nacd-cyber-risk-oversight-program/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -546,7 +536,6 @@
     ],
     "official_url": "https://www.giac.org/get-certified/giac-portfolio-certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 10,
       "practical_depth": 9,
@@ -596,7 +585,6 @@
     ],
     "official_url": "https://www.giac.org/get-certified/giac-portfolio-certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 7,

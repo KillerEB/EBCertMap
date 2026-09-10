@@ -153,7 +153,6 @@ Open [http://localhost:5173](http://localhost:5173).
       "name": "Standard Track",
       "rationale": "...",
       "estimated_timeline": "12-18 months",
-      "total_cost_usd": 2500,
       "pros": ["..."],
       "cons": ["..."],
       "prerequisites": { "experience": "...", "knowledge": [] },

@@ -1,7 +1,7 @@
 {
   "role_id": "container_kubernetes_security",
   "label": "Container / Kubernetes Security Engineer",
-  "description": "Secures containerized workloads and Kubernetes clusters \u2014 pod security, RBAC design, network policies, runtime security, image scanning, and service mesh security.",
+  "description": "Secures containerized workloads and Kubernetes clusters — pod security, RBAC design, network policies, runtime security, image scanning, and service mesh security.",
   "job_titles": [
     "Kubernetes Security Engineer",
     "Container Security Engineer",
@@ -16,17 +16,16 @@
       "name": "CNCF Track",
       "rationale": "CNCF CKS is the only widely recognized Kubernetes security certification. Performance-based exam in real clusters proves actual K8s security skill.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1095,
       "pros": [
         "CKS required by name in most Kubernetes security roles",
-        "Performance-based exam in real clusters \u2014 proves actual K8s security skill",
+        "Performance-based exam in real clusters — proves actual K8s security skill",
         "KCSA provides accessible entry point without CKA prerequisite",
-        "Cloud provider agnostic \u2014 applies across EKS, AKS, GKE"
+        "Cloud provider agnostic — applies across EKS, AKS, GKE"
       ],
       "cons": [
-        "CKS requires active CKA certification as prerequisite \u2014 adds time and cost",
-        "Kubernetes evolves rapidly \u2014 certification content updates with each release",
-        "Requires hands-on cluster experience \u2014 cannot be studied theoretically"
+        "CKS requires active CKA certification as prerequisite — adds time and cost",
+        "Kubernetes evolves rapidly — certification content updates with each release",
+        "Requires hands-on cluster experience — cannot be studied theoretically"
       ],
       "prerequisites": {
         "knowledge": [
@@ -43,29 +42,28 @@
           "cert_id": "kcsa",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "Kubernetes and Cloud Native Security Associate \u2014 foundational K8s security concepts without the CKA prerequisite. Good orientation to the security landscape. Killer.sh simulator provides excellent hands-on preparation."
+          "notes": "Kubernetes and Cloud Native Security Associate — foundational K8s security concepts without the CKA prerequisite. Good orientation to the security landscape. Killer.sh simulator provides excellent hands-on preparation."
         },
         {
           "cert_id": "cks",
           "order": 2,
           "estimated_time": "4-8 months",
-          "notes": "Certified Kubernetes Security Specialist \u2014 the definitive K8s security credential. 2-hour performance-based exam in real Kubernetes environments. Cluster hardening, system hardening, microservice vulnerabilities, supply chain security, monitoring and runtime security. Practice daily in a kubeadm-provisioned cluster \u2014 not just minikube."
+          "notes": "Certified Kubernetes Security Specialist — the definitive K8s security credential. 2-hour performance-based exam in real Kubernetes environments. Cluster hardening, system hardening, microservice vulnerabilities, supply chain security, monitoring and runtime security. Practice daily in a kubeadm-provisioned cluster — not just minikube."
         }
       ]
     },
     {
       "id": "k8s_devsecops",
       "name": "DevSecOps + Container Track",
-      "rationale": "For security engineers who combine container security with DevSecOps pipeline work \u2014 the most common combined role in cloud-native organizations.",
+      "rationale": "For security engineers who combine container security with DevSecOps pipeline work — the most common combined role in cloud-native organizations.",
       "estimated_timeline": "10-16 months",
-      "total_cost_usd": 1893,
       "pros": [
         "CDP + CKS covers the full DevSecOps and container security scope",
         "Strong combination for platform security engineer roles",
         "Both practical exams"
       ],
       "cons": [
-        "Long timeline \u2014 both CDP and CKS require significant preparation",
+        "Long timeline — both CDP and CKS require significant preparation",
         "CKS still requires CKA prerequisite"
       ],
       "prerequisites": {
@@ -86,16 +84,16 @@
           "notes": "Container and K8s security foundation before pipeline integration."
         },
         {
-          "cert_id": "cdp",
+          "cert_id": "pdso-cdp",
           "order": 2,
           "estimated_time": "4-6 months",
-          "notes": "Practical DevSecOps Professional \u2014 adds CI/CD pipeline security context. How containers get built and deployed is as important as how they run securely."
+          "notes": "Practical DevSecOps Professional — adds CI/CD pipeline security context. How containers get built and deployed is as important as how they run securely."
         },
         {
           "cert_id": "cks",
           "order": 3,
           "estimated_time": "4-6 months",
-          "notes": "Certified Kubernetes Security Specialist \u2014 container runtime security capstone. With CDP pipeline context and KCSA foundations, CKS focuses on cluster runtime security rather than starting from scratch."
+          "notes": "Certified Kubernetes Security Specialist — container runtime security capstone. With CDP pipeline context and KCSA foundations, CKS focuses on cluster runtime security rather than starting from scratch."
         }
       ]
     }

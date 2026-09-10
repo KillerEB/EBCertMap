@@ -19,15 +19,14 @@
       "name": "Entry-Level Track",
       "rationale": "For career changers and beginners with no prior security experience. TryHackMe SAL1 provides an affordable practical SOC foundation with hybrid MCQ + SOC simulation format. BTL1 adds hands-on blue team depth. CySA+ closes the loop with DoD-recognized HR credentialing. This path prioritizes accessibility and skills validation before major cert investment.",
       "estimated_timeline": "8-12 months",
-      "total_cost_usd": 1607,
       "pros": [
         "SAL1 is the most affordable practical SOC cert on the market at $349",
         "BTL1 is universally respected as the entry-level blue team practical benchmark",
         "CySA+ provides DoD 8140 recognition and HR keyword coverage",
-        "Progressive difficulty \u2014 each cert builds on the last"
+        "Progressive difficulty — each cert builds on the last"
       ],
       "cons": [
-        "SAL1 is new (Feb 2025) \u2014 HR recognition is still building",
+        "SAL1 is new (Feb 2025) — HR recognition is still building",
         "Unproctored exams (SAL1 and BTL1) may be discounted by some employers",
         "CySA+ adds MCQ overhead after two practical certs",
         "Total cost still exceeds $1,500 for entry-level"
@@ -46,19 +45,19 @@
           "cert_id": "thm-sal1",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "TryHackMe Security Analyst Level 1 \u2014 launched February 2025, developed with Accenture and Salesforce. 24-hour exam combining 80 MCQs with two Splunk-based SOC simulations. $349 with 3 months Premium and one free retake included. Community verdict: excellent skills builder and accessible entry point, but HR recognition is still developing \u2014 pair with BTL1 and CySA+ for resume credibility. Complete the TryHackMe SOC Level 1 learning path before attempting."
+          "notes": "TryHackMe Security Analyst Level 1 — launched February 2025, developed with Accenture and Salesforce. 24-hour exam combining 80 MCQs with two Splunk-based SOC simulations. $349 with 3 months Premium and one free retake included. Community verdict: excellent skills builder and accessible entry point, but HR recognition is still developing — pair with BTL1 and CySA+ for resume credibility. Complete the TryHackMe SOC Level 1 learning path before attempting."
         },
         {
           "cert_id": "btl1",
           "order": 2,
           "estimated_time": "3-4 months",
-          "notes": "Blue Team Labs Level 1 \u2014 the community gold standard for entry-level SOC practical certification. 24-hour hands-on exam covering SIEM investigation, PCAP analysis, threat hunting, and incident response. Strong employer recognition in blue team hiring. SAL1 prepares you well for BTL1's SIEM-focused sections."
+          "notes": "Blue Team Labs Level 1 — the community gold standard for entry-level SOC practical certification. 24-hour hands-on exam covering SIEM investigation, PCAP analysis, threat hunting, and incident response. Strong employer recognition in blue team hiring. SAL1 prepares you well for BTL1's SIEM-focused sections."
         },
         {
           "cert_id": "cysa-plus",
           "order": 3,
           "estimated_time": "2-3 months",
-          "notes": "CompTIA CySA+ \u2014 DoD 8140 approved, widely recognized HR keyword. Adds the compliance and governance layer that SAL1 and BTL1 don't cover. With 6+ months of practical SOC cert experience, CySA+'s MCQ format is significantly more approachable. Renews every 3 years via CEUs."
+          "notes": "CompTIA CySA+ — DoD 8140 approved, widely recognized HR keyword. Adds the compliance and governance layer that SAL1 and BTL1 don't cover. With 6+ months of practical SOC cert experience, CySA+'s MCQ format is significantly more approachable. Renews every 3 years via CEUs."
         }
       ]
     },
@@ -67,7 +66,6 @@
       "name": "Government / DoD Track",
       "rationale": "Maximizes DoD 8140 approved credentials. Essential for government, military, and cleared contractor SOC positions where compliance-approved certs are mandatory. Every cert in this path is DoD 8140 approved and covers the DCWF work roles relevant to cyber defense analysis.",
       "estimated_timeline": "12-18 months",
-      "total_cost_usd": 1784,
       "pros": [
         "DoD 8140 compliant throughout",
         "Satisfies FISMA and contract requirements",
@@ -83,7 +81,7 @@
         "knowledge": [
           "Basic networking (TCP/IP, DNS, HTTP)",
           "Windows and Linux fundamentals",
-          "Basic security concepts \u2014 CIA triad, common attack types",
+          "Basic security concepts — CIA triad, common attack types",
           "Familiarity with at least one OS at command line level"
         ],
         "recommended_certs": [],
@@ -94,43 +92,42 @@
           "cert_id": "security-plus",
           "order": 1,
           "estimated_time": "1-3 months",
-          "notes": "Start here \u2014 the universal entry-level gate for government and contractor roles. Study with Jason Dion's course on Udemy or Professor Messer's free materials. Highly crammable if you have IT background. Don't overthink it \u2014 pass it, move on."
+          "notes": "Start here — the universal entry-level gate for government and contractor roles. Study with Jason Dion's course on Udemy or Professor Messer's free materials. Highly crammable if you have IT background. Don't overthink it — pass it, move on."
         },
         {
           "cert_id": "cysa-plus",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "Natural DoD-approved step up from Security+. Covers threat detection, vulnerability management, and incident response from a SOC analyst perspective. Performance-based questions require some hands-on practice \u2014 use CertMaster Labs or TryHackMe's SOC Level 1 path alongside study."
+          "notes": "Natural DoD-approved step up from Security+. Covers threat detection, vulnerability management, and incident response from a SOC analyst perspective. Performance-based questions require some hands-on practice — use CertMaster Labs or TryHackMe's SOC Level 1 path alongside study."
         },
         {
           "cert_id": "gcih",
           "order": 3,
           "estimated_time": "2-4 months",
-          "notes": "The most recognized IR credential and the DoD-approved capstone for this track. Open-book exam \u2014 build thorough, well-indexed notes. SANS training is expensive; community index notes and practice tests are available. Passing GCIH alongside Security+ satisfies the majority of cleared SOC Analyst job requirements."
+          "notes": "The most recognized IR credential and the DoD-approved capstone for this track. Open-book exam — build thorough, well-indexed notes. SANS training is expensive; community index notes and practice tests are available. Passing GCIH alongside Security+ satisfies the majority of cleared SOC Analyst job requirements."
         }
       ]
     },
     {
       "id": "soc_analyst_practical",
       "name": "Practical Skills Track",
-      "rationale": "Maximizes hands-on skill validation with practical exams. Best for commercial SOC roles where employers value demonstrated ability over compliance checkboxes. Every cert in this path requires actual investigation and analysis work \u2014 no multiple choice.",
+      "rationale": "Maximizes hands-on skill validation with practical exams. Best for commercial SOC roles where employers value demonstrated ability over compliance checkboxes. Every cert in this path requires actual investigation and analysis work — no multiple choice.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1459,
       "pros": [
         "100% practical exams prove you can do actual SOC work",
-        "Strong community recognition \u2014 BTL1 is increasingly required in UK/EU",
+        "Strong community recognition — BTL1 is increasingly required in UK/EU",
         "Better preparation for real Tier 1 and Tier 2 analyst work",
         "GCIH adds recognised vendor-neutral IR credential at the end"
       ],
       "cons": [
-        "Less DoD recognition \u2014 not suitable for cleared positions",
+        "Less DoD recognition — not suitable for cleared positions",
         "GCIH cost is significant without employer sponsorship"
       ],
       "prerequisites": {
         "knowledge": [
           "Basic networking (TCP/IP, DNS, HTTP)",
           "Windows and Linux fundamentals",
-          "Basic security concepts \u2014 CIA triad, common attack types",
+          "Basic security concepts — CIA triad, common attack types",
           "Comfort navigating a command line"
         ],
         "recommended_certs": [],
@@ -141,19 +138,19 @@
           "cert_id": "btl1",
           "order": 1,
           "estimated_time": "2-4 months",
-          "notes": "The best entry-level blue team cert on the market. 24-hour practical exam covering phishing analysis, digital forensics, SIEM investigation, and network analysis. Study the Security Blue Team course material thoroughly \u2014 the exam requires hands-on tool operation, not memorization. Use TryHackMe's SOC Level 1 path and Blue Team Labs Online for practice."
+          "notes": "The best entry-level blue team cert on the market. 24-hour practical exam covering phishing analysis, digital forensics, SIEM investigation, and network analysis. Study the Security Blue Team course material thoroughly — the exam requires hands-on tool operation, not memorization. Use TryHackMe's SOC Level 1 path and Blue Team Labs Online for practice."
         },
         {
           "cert_id": "cdsa",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "HTB's SOC analyst certification covering the full Tier 1 and Tier 2 analyst workflow in a 100% practical exam. Strong complement to BTL1 \u2014 where BTL1 is broader and foundational, CDSA goes deeper on detection engineering, SIEM, and threat hunting. Work through HTB Academy's SOC Analyst job role path before sitting the exam."
+          "notes": "HTB's SOC analyst certification covering the full Tier 1 and Tier 2 analyst workflow in a 100% practical exam. Strong complement to BTL1 — where BTL1 is broader and foundational, CDSA goes deeper on detection engineering, SIEM, and threat hunting. Work through HTB Academy's SOC Analyst job role path before sitting the exam."
         },
         {
           "cert_id": "gcih",
           "order": 3,
           "estimated_time": "2-4 months",
-          "notes": "Adds the most recognized incident response credential to your practical foundation. Opens senior SOC and IR roles that require a GIAC cert by name. Open-book \u2014 build indexed notes. Community GCIH prep materials are widely available. With BTL1 and CDSA already completed, you'll have the practical foundation to genuinely understand the GCIH content rather than just memorize it."
+          "notes": "Adds the most recognized incident response credential to your practical foundation. Opens senior SOC and IR roles that require a GIAC cert by name. Open-book — build indexed notes. Community GCIH prep materials are widely available. With BTL1 and CDSA already completed, you'll have the practical foundation to genuinely understand the GCIH content rather than just memorize it."
         }
       ]
     },
@@ -162,15 +159,14 @@
       "name": "Budget Track",
       "rationale": "Best value path for self-funded students. All certs include training, never expire, and use 100% practical exam formats. Gets you job-ready for commercial Tier 1 SOC roles at under $1,000 total investment.",
       "estimated_timeline": "6-10 months",
-      "total_cost_usd": 998,
       "pros": [
-        "Lowest total cost of any SOC path \u2014 under $1,000 including training",
-        "All exams are 100% practical \u2014 no MCQ cramming",
-        "Neither cert expires \u2014 no renewal fees",
+        "Lowest total cost of any SOC path — under $1,000 including training",
+        "All exams are 100% practical — no MCQ cramming",
+        "Neither cert expires — no renewal fees",
         "Demonstrates real skill rather than exam performance"
       ],
       "cons": [
-        "Not DoD 8140 approved \u2014 unsuitable for cleared positions",
+        "Not DoD 8140 approved — unsuitable for cleared positions",
         "Less name recognition than GIAC in large enterprise environments",
         "No GCIH means missing the most recognized IR credential at senior level"
       ],
@@ -188,22 +184,21 @@
           "cert_id": "btl1",
           "order": 1,
           "estimated_time": "2-4 months",
-          "notes": "Start here. 24-hour practical exam, $500 including training, never expires. The single best value entry-level SOC credential available. Recognized enough to land first SOC jobs \u2014 particularly in UK, Europe, and at companies that value practical skill over brand names. Use Blue Team Labs Online free tier and TryHackMe for additional practice."
+          "notes": "Start here. 24-hour practical exam, $500 including training, never expires. The single best value entry-level SOC credential available. Recognized enough to land first SOC jobs — particularly in UK, Europe, and at companies that value practical skill over brand names. Use Blue Team Labs Online free tier and TryHackMe for additional practice."
         },
         {
           "cert_id": "psaa",
           "order": 2,
           "estimated_time": "1-2 months",
-          "notes": "TCM Security's SOC analyst cert at $249 including training. 100% practical exam with human-reviewed report \u2014 not flags. Complements BTL1 well since it approaches SOC analysis from a slightly different angle with stronger emphasis on report writing. The two together demonstrate practical breadth that many hiring managers find more convincing than a single MCQ cert. Never expires."
+          "notes": "TCM Security's SOC analyst cert at $249 including training. 100% practical exam with human-reviewed report — not flags. Complements BTL1 well since it approaches SOC analysis from a slightly different angle with stronger emphasis on report writing. The two together demonstrate practical breadth that many hiring managers find more convincing than a single MCQ cert. Never expires."
         }
       ]
     },
     {
       "id": "soc_microsoft",
       "name": "Microsoft Defender Track",
-      "rationale": "For SOC analysts working in Microsoft-dominant environments \u2014 the most common enterprise stack in large organizations. SC-200 is increasingly required for analyst roles at Microsoft-tooled SOCs. Paired with CySA+ for DoD recognition and broad threat analysis coverage.",
+      "rationale": "For SOC analysts working in Microsoft-dominant environments — the most common enterprise stack in large organizations. SC-200 is increasingly required for analyst roles at Microsoft-tooled SOCs. Paired with CySA+ for DoD recognition and broad threat analysis coverage.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 957,
       "pros": [
         "SC-200 required by name at most Microsoft-centric SOC roles",
         "CySA+ adds DoD 8140 recognition alongside Microsoft credentials",
@@ -213,7 +208,7 @@
       "cons": [
         "SC-200 annual renewal cycle",
         "Less recognized outside Microsoft-tooled environments",
-        "MCQ-heavy \u2014 limited practical validation"
+        "MCQ-heavy — limited practical validation"
       ],
       "prerequisites": {
         "knowledge": [
@@ -229,13 +224,13 @@
           "cert_id": "sc-900",
           "order": 1,
           "estimated_time": "1 month",
-          "notes": "Microsoft Security, Compliance, and Identity Fundamentals \u2014 the entry-level Microsoft security credential. Very accessible, cheap ($165), and provides the Microsoft security ecosystem overview needed before SC-200. Skip if you already have SC-200 level knowledge."
+          "notes": "Microsoft Security, Compliance, and Identity Fundamentals — the entry-level Microsoft security credential. Very accessible, cheap ($165), and provides the Microsoft security ecosystem overview needed before SC-200. Skip if you already have SC-200 level knowledge."
         },
         {
           "cert_id": "sc-200",
           "order": 2,
           "estimated_time": "2-4 months",
-          "notes": "Microsoft Security Operations Analyst \u2014 the primary credential for Sentinel and Defender XDR operations. KQL is the most tested skill \u2014 practice daily in Microsoft's free Sentinel learning environment. Microsoft Learn SC-200 path is comprehensive free preparation."
+          "notes": "Microsoft Security Operations Analyst — the primary credential for Sentinel and Defender XDR operations. KQL is the most tested skill — practice daily in Microsoft's free Sentinel learning environment. Microsoft Learn SC-200 path is comprehensive free preparation."
         },
         {
           "cert_id": "cysa-plus",
@@ -248,17 +243,16 @@
     {
       "id": "soc_crowdstrike",
       "name": "CrowdStrike / Falcon Track",
-      "rationale": "For SOC analysts working in CrowdStrike Falcon-deployed environments \u2014 the dominant EDR platform. The Falcon certification stack (Administrator \u2192 Responder \u2192 Hunter) directly validates operational capability on the most widely deployed enterprise EDR. Highly valued at CrowdStrike-deployed organizations where these certs are required by name.",
+      "rationale": "For SOC analysts working in CrowdStrike Falcon-deployed environments — the dominant EDR platform. The Falcon certification stack (Administrator → Responder → Hunter) directly validates operational capability on the most widely deployed enterprise EDR. Highly valued at CrowdStrike-deployed organizations where these certs are required by name.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1157,
       "pros": [
         "CrowdStrike certs required by name at Falcon-deployed organizations",
-        "Covers the full SOC operational workflow \u2014 admin, response, and hunting \u2014 on a single platform",
+        "Covers the full SOC operational workflow — admin, response, and hunting — on a single platform",
         "CCFH (Falcon Hunter) validates advanced threat hunting capability",
-        "CrowdStrike Falcon is the dominant enterprise EDR \u2014 skills in high demand"
+        "CrowdStrike Falcon is the dominant enterprise EDR — skills in high demand"
       ],
       "cons": [
-        "Platform-specific \u2014 limited outside CrowdStrike environments",
+        "Platform-specific — limited outside CrowdStrike environments",
         "Requires CrowdStrike Falcon access for training and exam preparation",
         "Less recognized at organizations running different EDR platforms"
       ],
@@ -284,28 +278,27 @@
           "cert_id": "ccfa",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "CrowdStrike Certified Falcon Administrator \u2014 covers Falcon platform administration, sensor deployment, policy configuration, and basic detection management. The prerequisite for CCFR. Falcon-specific training is required \u2014 access through CrowdStrike University."
+          "notes": "CrowdStrike Certified Falcon Administrator — covers Falcon platform administration, sensor deployment, policy configuration, and basic detection management. The prerequisite for CCFR. Falcon-specific training is required — access through CrowdStrike University."
         },
         {
           "cert_id": "ccfr",
           "order": 3,
           "estimated_time": "2-3 months",
-          "notes": "CrowdStrike Certified Falcon Responder \u2014 covers investigating detections, real-time response, and incident investigation in Falcon. The core SOC analyst credential for CrowdStrike environments. Validates the day-to-day alert triage and investigation workflow."
+          "notes": "CrowdStrike Certified Falcon Responder — covers investigating detections, real-time response, and incident investigation in Falcon. The core SOC analyst credential for CrowdStrike environments. Validates the day-to-day alert triage and investigation workflow."
         },
         {
           "cert_id": "ccfh",
           "order": 4,
           "estimated_time": "2-4 months",
-          "notes": "CrowdStrike Certified Falcon Hunter \u2014 the advanced threat hunting credential covering custom detection development, behavioral hunting queries in Falcon, and proactive threat hunting methodology within the CrowdStrike ecosystem. The senior SOC analyst credential in CrowdStrike environments."
+          "notes": "CrowdStrike Certified Falcon Hunter — the advanced threat hunting credential covering custom detection development, behavioral hunting queries in Falcon, and proactive threat hunting methodology within the CrowdStrike ecosystem. The senior SOC analyst credential in CrowdStrike environments."
         }
       ]
     },
     {
       "id": "soc_paloalto",
       "name": "Palo Alto XDR Track",
-      "rationale": "For SOC analysts in Palo Alto Cortex XSIEM/XDR environments. The Palo Alto SecOps certification stack covers Cortex XDR analysis and XSOAR automation \u2014 increasingly common at enterprise and government organizations deploying Palo Alto's security operations platform.",
+      "rationale": "For SOC analysts in Palo Alto Cortex XSIEM/XDR environments. The Palo Alto SecOps certification stack covers Cortex XDR analysis and XSOAR automation — increasingly common at enterprise and government organizations deploying Palo Alto's security operations platform.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1157,
       "pros": [
         "Directly applicable to Cortex XDR and XSOAR operations",
         "PANW SecOps Professional broadly covers the Palo Alto security operations ecosystem",
@@ -339,19 +332,19 @@
           "cert_id": "panw-xdr-analyst",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "Palo Alto Networks Certified XDR Analyst \u2014 covers Cortex XDR detection, investigation, and response workflows. The entry point for Palo Alto SOC operations. Complete Palo Alto's free Beacon training path before attempting."
+          "notes": "Palo Alto Networks Certified XDR Analyst — covers Cortex XDR detection, investigation, and response workflows. The entry point for Palo Alto SOC operations. Complete Palo Alto's free Beacon training path before attempting."
         },
         {
           "cert_id": "panw-xsoar-engineer",
           "order": 3,
           "estimated_time": "2-4 months",
-          "notes": "Palo Alto Networks Certified XSOAR Engineer \u2014 covers XSOAR playbook development, automation, and SOC orchestration. High-value skill as SOAR adoption accelerates. Engineers who can build XSOAR automation are in significantly shorter supply than those who can just operate it."
+          "notes": "Palo Alto Networks Certified XSOAR Engineer — covers XSOAR playbook development, automation, and SOC orchestration. High-value skill as SOAR adoption accelerates. Engineers who can build XSOAR automation are in significantly shorter supply than those who can just operate it."
         },
         {
           "cert_id": "panw-soc-professional",
           "order": 4,
           "estimated_time": "2-3 months",
-          "notes": "Palo Alto Networks Certified Security Operations Professional \u2014 the capstone Palo Alto SOC credential covering the full Cortex ecosystem. With XDR Analyst and XSOAR Engineer completed, this validates comprehensive Palo Alto SOC platform mastery."
+          "notes": "Palo Alto Networks Certified Security Operations Professional — the capstone Palo Alto SOC credential covering the full Cortex ecosystem. With XDR Analyst and XSOAR Engineer completed, this validates comprehensive Palo Alto SOC platform mastery."
         }
       ]
     }

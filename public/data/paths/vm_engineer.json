@@ -19,7 +19,6 @@
       "name": "Tenable Platform Track",
       "rationale": "For VM engineers on the Tenable platform. Tenable (Nessus) is the most widely deployed vulnerability scanning platform globally. Specialist certification validates platform-specific depth that employers running Tenable directly look for.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1391,
       "pros": [
         "Tenable certifications are recognized at Tenable customer organizations",
         "CySA+ adds DoD 8140 approved vendor-neutral VM credential",
@@ -27,7 +26,7 @@
       ],
       "cons": [
         "Tenable certs not DoD 8140 approved",
-        "Platform-specific \u2014 limited applicability outside Tenable environments",
+        "Platform-specific — limited applicability outside Tenable environments",
         "2-year renewal requires re-certification"
       ],
       "prerequisites": {
@@ -51,13 +50,13 @@
           "cert_id": "tenable-vm-specialist",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "Tenable Vulnerability Management Specialist \u2014 both the written and practical exam components required. 80% passing threshold on both. Study through Tenable University's official curriculum. Hands-on platform access is mandatory \u2014 the practical exam requires actual vulnerability management workflows in the Tenable.io or Tenable.sc environment."
+          "notes": "Tenable Vulnerability Management Specialist — both the written and practical exam components required. 80% passing threshold on both. Study through Tenable University's official curriculum. Hands-on platform access is mandatory — the practical exam requires actual vulnerability management workflows in the Tenable.io or Tenable.sc environment."
         },
         {
           "cert_id": "tenable-vm-expert",
           "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "Tenable Vulnerability Management Expert \u2014 advanced platform credential covering complex scan policies, dashboard creation, API integration, and enterprise-scale VM workflows. Contact Tenable directly for Expert-level exam availability and pricing. At this level you're demonstrating deep Tenable platform mastery beyond standard deployment."
+          "notes": "Tenable Vulnerability Management Expert — advanced platform credential covering complex scan policies, dashboard creation, API integration, and enterprise-scale VM workflows. Contact Tenable directly for Expert-level exam availability and pricing. At this level you're demonstrating deep Tenable platform mastery beyond standard deployment."
         }
       ]
     },
@@ -66,16 +65,15 @@
       "name": "Qualys Platform Track",
       "rationale": "For VM engineers on the Qualys platform. Qualys is the second most widely deployed VM platform globally, dominant in cloud and SaaS environments. All Qualys certifications are free.",
       "estimated_timeline": "6-10 months",
-      "total_cost_usd": 392,
       "pros": [
-        "All Qualys certifications are free \u2014 lowest cost path possible",
+        "All Qualys certifications are free — lowest cost path possible",
         "Covers VMDR, CSAM, cloud agent, and TotalCloud for broad platform coverage",
         "CySA+ adds DoD 8140 approved vendor-neutral foundation"
       ],
       "cons": [
         "Qualys certs not DoD 8140 approved",
-        "Non-proctored, open-book \u2014 limited employer credentialing weight",
-        "Platform-specific \u2014 limited outside Qualys environments"
+        "Non-proctored, open-book — limited employer credentialing weight",
+        "Platform-specific — limited outside Qualys environments"
       ],
       "prerequisites": {
         "knowledge": [
@@ -97,38 +95,37 @@
           "cert_id": "qualys-vmdr",
           "order": 2,
           "estimated_time": "1-2 months",
-          "notes": "Qualys VMDR (Vulnerability Management, Detection and Response) certification \u2014 free, covers the core Qualys VM workflow. Complete Qualys's free training on Qualys University before the assessment."
+          "notes": "Qualys VMDR (Vulnerability Management, Detection and Response) certification — free, covers the core Qualys VM workflow. Complete Qualys's free training on Qualys University before the assessment."
         },
         {
           "cert_id": "qualys-csam",
           "order": 3,
           "estimated_time": "1-2 months",
-          "notes": "Qualys Cyber Security Asset Management \u2014 free certification covering asset discovery and inventory management. CSAM + VMDR together provide the full asset-to-vulnerability workflow coverage."
+          "notes": "Qualys Cyber Security Asset Management — free certification covering asset discovery and inventory management. CSAM + VMDR together provide the full asset-to-vulnerability workflow coverage."
         },
         {
           "cert_id": "qualys-totalcloud",
           "order": 4,
           "estimated_time": "1-2 months",
-          "notes": "Qualys TotalCloud \u2014 cloud-native vulnerability and security posture management. Extends VM skills into cloud environments where traditional scan-based approaches need supplementing with CSPM capabilities."
+          "notes": "Qualys TotalCloud — cloud-native vulnerability and security posture management. Extends VM skills into cloud environments where traditional scan-based approaches need supplementing with CSPM capabilities."
         }
       ]
     },
     {
       "id": "vm_giac",
-      "name": "GIAC / Vendor-Neutral Track",
-      "rationale": "For vulnerability management engineers who need platform-independent expertise and DoD recognition. GEVA is the only dedicated GIAC vulnerability management credential. Paired with CySA+ for DoD baseline and CRISC for the risk management framework that elevates VM from a scanning function to a risk governance program.",
-      "estimated_timeline": "12-20 months",
-      "total_cost_usd": 2256,
+      "name": "Vendor-Neutral Track",
+      "rationale": "For vulnerability management engineers who need platform-independent expertise and DoD recognition. CySA+ provides the DoD baseline and the analytical methodology for interpreting scan results, and CRISC supplies the risk management framework that elevates VM from a scanning function to a risk governance program.",
+      "estimated_timeline": "8-14 months",
       "pros": [
-        "GEVA is the only dedicated GIAC VM credential \u2014 DoD approved",
+        "Vendor-neutral stack applicable across all scanning platforms",
         "CRISC elevates VM practitioners from technicians to risk-informed program managers",
         "CySA+ adds broad threat analysis context to vulnerability prioritization",
-        "Vendor-neutral stack applicable across all scanning platforms"
+        "CySA+ is DoD 8140 approved"
       ],
       "cons": [
-        "Higher cost than vendor-specific paths",
         "CRISC requires 3 years IT risk management experience",
-        "GEVA has lower employer name recognition than tool-specific certs at some organizations"
+        "No dedicated vulnerability-management credential remains in this track — GIAC placed GEVA in abeyance in May 2026 and has not replaced it",
+        "Less tool-specific depth than the Tenable or Qualys tracks"
       ],
       "prerequisites": {
         "knowledge": [
@@ -145,19 +142,13 @@
           "cert_id": "cysa-plus",
           "order": 1,
           "estimated_time": "3-5 months",
-          "notes": "CompTIA CySA+ \u2014 DoD approved threat analysis and vulnerability management foundation. Covers the analytical methodology for interpreting vulnerability scan results and prioritizing remediation based on threat context."
-        },
-        {
-          "cert_id": "geva",
-          "order": 2,
-          "estimated_time": "4-6 months",
-          "notes": "GIAC Enterprise Vulnerability Assessor \u2014 the only dedicated GIAC VM certification. Covers enterprise vulnerability assessment methodology, scanning tool operation, risk-based prioritization, and remediation program management. DoD approved. Open-book exam \u2014 build notes indexed by assessment phase."
+          "notes": "CompTIA CySA+ — DoD approved threat analysis and vulnerability management foundation. Covers the analytical methodology for interpreting vulnerability scan results and prioritizing remediation based on threat context."
         },
         {
           "cert_id": "crisc",
-          "order": 3,
+          "order": 2,
           "estimated_time": "4-6 months",
-          "notes": "ISACA Certified in Risk and Information Systems Control \u2014 elevates the VM program from a scanning function to a formal risk management capability. Vulnerability management practitioners with CRISC can speak directly to board-level risk language \u2014 translating CVSS scores into business risk impact. Requires 3 years IT risk management experience for certification."
+          "notes": "ISACA Certified in Risk and Information Systems Control — elevates the VM program from a scanning function to a formal risk management capability. Vulnerability management practitioners with CRISC can speak directly to board-level risk language — translating CVSS scores into business risk impact. Requires 3 years IT risk management experience for certification."
         }
       ]
     }

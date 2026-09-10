@@ -41,7 +41,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -93,7 +92,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/csslp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -142,7 +140,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -191,7 +188,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -244,7 +240,6 @@
     ],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -287,7 +282,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -331,7 +325,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -375,7 +368,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -419,7 +411,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -462,7 +453,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -507,7 +497,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -552,7 +541,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -600,7 +588,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -655,7 +642,6 @@
     "flags": [],
     "official_url": "https://www.practical-devsecops.com/certified-api-security-professional/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 9,
@@ -706,7 +692,6 @@
     ],
     "official_url": "https://www.practical-devsecops.com/certified-security-champion/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 8,

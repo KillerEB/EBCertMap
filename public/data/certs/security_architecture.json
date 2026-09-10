@@ -45,7 +45,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/cissp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 2,
@@ -96,7 +95,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issap",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -145,7 +143,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/issep",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -193,7 +190,6 @@
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -242,7 +238,6 @@
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 5,
@@ -289,7 +284,6 @@
     "flags": [],
     "official_url": "https://sabsa.org/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 6,
@@ -346,7 +340,6 @@
     ],
     "official_url": "https://www.comptia.org/certifications/securityx",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -399,7 +392,6 @@
     "flags": [],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -454,7 +446,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/defensible-security-architecture-gdsa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -506,7 +497,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -556,7 +546,6 @@
     "flags": [],
     "official_url": "https://www.opengroup.org/certifications/openfair",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -607,7 +596,6 @@
     "flags": [],
     "official_url": "https://cloudsecurityalliance.org/education/cczt",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -654,7 +642,6 @@
     "flags": [],
     "official_url": "https://www.opengroup.org/certifications/integrating-risk-and-security",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -707,7 +694,6 @@
     "flags": [],
     "official_url": "https://www.practical-devsecops.com/certified-threat-modeling-professional/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 9,

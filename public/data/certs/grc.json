@@ -40,7 +40,6 @@
     "flags": [],
     "official_url": "https://www.isaca.org/credentialing/cisa",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -89,7 +88,6 @@
     "flags": [],
     "official_url": "https://www.isaca.org/credentialing/cism",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -140,7 +138,6 @@
     "flags": [],
     "official_url": "https://www.isaca.org/credentialing/crisc",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -191,7 +188,6 @@
     "flags": [],
     "official_url": "https://www.isaca.org/credentialing/cgeit",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -242,7 +238,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/cgrc",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -291,7 +286,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -340,7 +334,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -384,7 +377,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 1,
@@ -431,7 +423,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-31000",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -480,7 +471,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -527,7 +517,6 @@
     "flags": [],
     "official_url": "https://pecb.com/en/education-and-certification-for-individuals/iso-22301",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -577,7 +566,6 @@
     "flags": [],
     "official_url": "https://www.oceg.org/certifications/grc-professional-certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -626,7 +614,6 @@
     "flags": [],
     "official_url": "https://www.oceg.org/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -673,7 +660,6 @@
     "flags": [],
     "official_url": "https://drii.org/certification/cbcp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -721,7 +707,6 @@
     "flags": [],
     "official_url": "https://drii.org/certification/mbcp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -767,7 +752,6 @@
     ],
     "official_url": "https://drii.org/certification/abcp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 1,
@@ -815,7 +799,6 @@
     "flags": [],
     "official_url": "https://drii.org/certificationoverview",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -862,7 +845,6 @@
     "flags": [],
     "official_url": "https://www.thebci.org/membership/individual-membership.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -907,7 +889,6 @@
     "flags": [],
     "official_url": "https://www.thebci.org/certification-training/business-continuity-certification-cbci.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -956,7 +937,6 @@
     "flags": [],
     "official_url": "https://www.theiia.org/en/certifications/cia/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -1005,7 +985,6 @@
     "flags": [],
     "official_url": "https://sharedassessments.org/ctprp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -1053,7 +1032,6 @@
     "flags": [],
     "official_url": "https://sharedassessments.org/ctpra/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -1101,7 +1079,6 @@
     "flags": [],
     "official_url": "https://hitrustalliance.net/ccsfp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -1152,7 +1129,6 @@
     ],
     "official_url": "https://www.fairinstitute.org/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -1203,7 +1179,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/systems-network-auditor-gsna/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -1249,7 +1224,6 @@
     "flags": [],
     "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/RESILIA",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 1,
@@ -1297,7 +1271,6 @@
     "flags": [],
     "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/RESILIA",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 1,
@@ -1344,7 +1317,6 @@
     "flags": [],
     "official_url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-4",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 1,
@@ -1392,7 +1364,6 @@
     "flags": [],
     "official_url": "https://www.pcisecuritystandards.org/program_training_and_qualification/pci_professional_qualification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 1,

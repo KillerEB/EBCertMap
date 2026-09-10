@@ -42,7 +42,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cyber-threat-intelligence-gcti/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -92,7 +91,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -142,7 +140,6 @@
     ],
     "official_url": "https://cyberdefenders.org/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 6,
@@ -193,7 +190,6 @@
     ],
     "official_url": "https://www.misp-project.org/misp-training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 4,
@@ -244,7 +240,6 @@
     ],
     "official_url": "https://university.recordedfuture.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -293,7 +288,6 @@
     ],
     "official_url": "https://www.anomali.com/training",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -341,7 +335,6 @@
     ],
     "official_url": "https://www.opswat.com/academy",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 1,
       "practical_depth": 1,
@@ -390,7 +383,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 5,
@@ -443,7 +435,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/strategic-osint-analyst-gsoa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 5,
@@ -494,7 +485,6 @@
     ],
     "official_url": "https://www.inteltechniques.net/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -541,7 +531,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/open-source-intelligence-gosi/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -590,7 +579,6 @@
     "flags": [],
     "official_url": "https://www.mandiant.com/academy/certifications/mctia-exam-details",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 1,
@@ -637,7 +625,6 @@
     ],
     "official_url": "https://arcx.io/courses/cyber-threat-intelligence-101",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 1,
@@ -691,7 +678,6 @@
     ],
     "official_url": "https://arcx.io/courses/cyber-threat-intelligence-practitioner",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,

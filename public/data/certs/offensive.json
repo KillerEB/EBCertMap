@@ -43,7 +43,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-200/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -93,7 +92,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/penetration-tester-gpen/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -146,7 +144,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/experienced-penetration-tester-gxpt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -200,7 +197,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 8,
@@ -247,7 +243,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 8,
@@ -299,7 +294,6 @@
     ],
     "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 1,
@@ -347,7 +341,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 6,
@@ -396,7 +389,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 5,
@@ -448,7 +440,6 @@
     "flags": [],
     "official_url": "https://www.comptia.org/certifications/pentest",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -500,7 +491,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 8,
@@ -549,7 +539,6 @@
     ],
     "official_url": "https://ine.com/security/certifications/ejpt-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 5,
@@ -600,7 +589,6 @@
     "flags": [],
     "official_url": "https://ine.com/security/certifications/ecppt-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 7,
@@ -649,7 +637,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pjpt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 7,
@@ -701,7 +688,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pnpt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -749,7 +735,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 7,
@@ -799,7 +784,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-infrastructure-tester/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 8,
@@ -846,7 +830,6 @@
     ],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-security-analyst/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 1,
@@ -894,7 +877,6 @@
     ],
     "official_url": "https://mile2.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 1,
@@ -943,7 +925,6 @@
     ],
     "official_url": "https://www.virtualhackinglabs.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -993,7 +974,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/web-200/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -1047,7 +1027,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/web-300/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 10,
@@ -1100,7 +1079,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -1154,7 +1132,6 @@
     "flags": [],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -1211,7 +1188,6 @@
     ],
     "official_url": "https://portswigger.net/web-security/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 10,
@@ -1260,7 +1236,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/web-application-penetration-tester-gwapt/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -1312,7 +1287,6 @@
     "flags": [],
     "official_url": "https://ine.com/security/certifications/ewpt-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 7,
@@ -1365,7 +1339,6 @@
     "flags": [],
     "official_url": "https://ine.com/security/certifications/ewptx-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 8,
@@ -1415,7 +1388,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-web-application-tester/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 8,
@@ -1467,7 +1439,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pwpa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 7,
@@ -1519,7 +1490,6 @@
     "flags": [],
     "official_url": "https://certifications.tcm-sec.com/pwpp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -1574,7 +1544,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pwpe/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1622,7 +1591,6 @@
     "flags": [],
     "official_url": "https://ine.com/security/certifications/emapt-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -1669,7 +1637,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/mobile-device-security-analyst-gmob/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -1718,7 +1685,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pmpa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 7,
@@ -1763,7 +1729,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-210/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -1810,7 +1775,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/assessing-auditing-wireless-networks-gawn/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -1857,7 +1821,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1911,7 +1874,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-300/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 10,
@@ -1967,7 +1929,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 10,
       "practical_depth": 10,
@@ -2020,7 +1981,6 @@
     ],
     "official_url": "https://www.zeropointsecurity.co.uk/course/red-team-ops",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 9,
@@ -2071,7 +2031,6 @@
     "flags": [],
     "official_url": "https://www.zeropointsecurity.co.uk/course/red-team-ops-ii",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -2122,7 +2081,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/red-team-professional-grtp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -2173,7 +2131,6 @@
     ],
     "official_url": "https://www.alteredsecurity.com/evasionlab",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -2222,7 +2179,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-specialist/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 8,
@@ -2270,7 +2226,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 4,
@@ -2322,7 +2277,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/exp-301/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 10,
@@ -2374,7 +2328,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/exp-401/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 10,
       "practical_depth": 10,
@@ -2428,7 +2381,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 4,
@@ -2478,7 +2430,6 @@
     ],
     "official_url": "https://www.offsec.com/courses/exp-312/",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2530,7 +2481,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pipa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 8,
@@ -2579,7 +2529,6 @@
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/arte/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2628,7 +2577,6 @@
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/azrte/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2676,7 +2624,6 @@
     "flags": [],
     "official_url": "https://hacktricks-training.com/courses/grte/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2727,7 +2674,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-penetration-tester-gcpn/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -2781,7 +2727,6 @@
     ],
     "official_url": "https://www.alteredsecurity.com/cartp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -2833,7 +2778,6 @@
     "flags": [],
     "official_url": "https://www.alteredsecurity.com/azureadvanced",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 8,
@@ -2883,7 +2827,6 @@
     ],
     "official_url": "https://www.alteredsecurity.com/adlab",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 8,
@@ -2935,7 +2878,6 @@
     ],
     "official_url": "https://www.alteredsecurity.com/redteamlab",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -2987,7 +2929,6 @@
     "flags": [],
     "official_url": "https://www.alteredsecurity.com/gcb",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -3037,7 +2978,6 @@
     "flags": [],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -3086,7 +3026,6 @@
     ],
     "official_url": "https://www.alteredsecurity.com/adcs",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -3141,7 +3080,6 @@
     ],
     "official_url": "https://www.offsec.com/courses/ai-300/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -3196,7 +3134,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 9,
@@ -3247,7 +3184,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/offensive-ai-analyst-goaa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -3299,7 +3235,6 @@
     ],
     "official_url": "https://www.eccouncil.org/ai-courses/certified-offensive-ai-security-professional-coasp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 4,
@@ -3351,7 +3286,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/papa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 7,
@@ -3396,7 +3330,6 @@
     "flags": [],
     "official_url": "https://certifications.tcm-sec.com/porp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -3445,7 +3378,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 6,
@@ -3489,7 +3421,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/pen-103/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 1,
       "practical_depth": 1,
@@ -3542,7 +3473,6 @@
     ],
     "official_url": "https://tryhackme.com/certifications/pt1",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -3586,7 +3516,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3628,7 +3557,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3671,7 +3599,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3714,7 +3641,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3757,7 +3683,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3801,7 +3726,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3846,7 +3770,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3891,7 +3814,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3933,7 +3855,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -3978,7 +3899,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4023,7 +3943,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4067,7 +3986,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4110,7 +4028,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4155,7 +4072,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4201,7 +4117,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4246,7 +4161,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4291,7 +4205,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4336,7 +4249,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4381,7 +4293,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4426,7 +4337,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4471,7 +4381,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4516,7 +4425,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4561,7 +4469,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -4607,7 +4514,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4652,7 +4558,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4696,7 +4601,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -4741,7 +4645,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -4787,7 +4690,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -4834,7 +4736,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -4881,7 +4782,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -4929,7 +4829,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -4984,7 +4883,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 10,
@@ -5037,7 +4935,6 @@
     ],
     "official_url": "https://8ksec.io/cmse/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -5089,7 +4986,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 9,
@@ -5141,7 +5037,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -5193,7 +5088,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -5247,7 +5141,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -5301,7 +5194,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,

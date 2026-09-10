@@ -38,7 +38,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-forensic-examiner-gcfe/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -90,7 +89,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/experienced-forensics-examiner-gxfe",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -144,7 +142,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -198,7 +195,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/experienced-forensic-analyst-gxfa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 10,
@@ -249,7 +245,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/battlefield-forensics-acquisition-gbfa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -299,7 +294,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -352,7 +346,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/experienced-incident-handler-gxih/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -408,7 +401,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/enterprise-incident-responder-geir",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -460,7 +452,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/linux-incident-responder-glir/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -511,7 +502,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/network-forensic-analyst-gnfa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -564,7 +554,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-forensics-responder-gcfr/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -617,7 +606,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 3,
@@ -668,7 +656,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/advanced-smartphone-forensics-gasf/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -719,7 +706,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/ios-macos-examiner-gime/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -769,7 +755,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/soc-200/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -822,7 +807,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/th-200/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -874,7 +858,6 @@
     "flags": [],
     "official_url": "https://www.offsec.com/courses/ir-200/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -926,7 +909,6 @@
     ],
     "official_url": "https://www.securityblue.team/certifications/blue-team-level-1",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -983,7 +965,6 @@
     ],
     "official_url": "https://www.securityblue.team/certifications/blue-team-level-2",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -1034,7 +1015,6 @@
     ],
     "official_url": "https://cyberdefenders.org/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 7,
@@ -1089,7 +1069,6 @@
     ],
     "official_url": "https://cyberdefenders.org/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -1142,7 +1121,6 @@
     ],
     "official_url": "https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 8,
@@ -1194,7 +1172,6 @@
     ],
     "official_url": "https://certifications.tcm-sec.com/pmrp/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1246,7 +1223,6 @@
     ],
     "official_url": "https://www.mosse-institute.com/certifications/mdfir-certified-dfir-specialist.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1297,7 +1273,6 @@
     ],
     "official_url": "https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 7,
@@ -1347,7 +1322,6 @@
     ],
     "official_url": "https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1396,7 +1370,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -1444,7 +1417,6 @@
     "flags": [],
     "official_url": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 6,
@@ -1492,7 +1464,6 @@
     ],
     "official_url": "https://cellebrite.com/en/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1543,7 +1514,6 @@
     ],
     "official_url": "https://cellebrite.com/en/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1595,7 +1565,6 @@
     ],
     "official_url": "https://cellebrite.com/en/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1647,7 +1616,6 @@
     ],
     "official_url": "https://cellebrite.com/en/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1699,7 +1667,6 @@
     ],
     "official_url": "https://cellebrite.com/en/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -1750,7 +1717,6 @@
     ],
     "official_url": "https://training.magnetforensics.com/w/courses/64-magnet-certified-forensics-examiner-mcfe",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 7,
@@ -1798,7 +1764,6 @@
     ],
     "official_url": "https://training.exterro.com/courses/exterro-ace",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -1847,7 +1812,6 @@
     ],
     "official_url": "https://www.opentext.com/products/encase-forensic",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -1895,7 +1859,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -1947,7 +1910,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -1998,7 +1960,6 @@
     "flags": [],
     "official_url": "https://www.crest-approved.org/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -2046,7 +2007,6 @@
     "flags": [],
     "official_url": "https://certnexus.com/certification/cfr/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -2096,7 +2056,6 @@
     ],
     "official_url": "https://ine.com/security/certifications/ecdfp-certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 6,
@@ -2149,7 +2108,6 @@
     ],
     "official_url": "https://www.iacis.com/certification/cfce/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -2204,7 +2162,6 @@
     ],
     "official_url": "https://www.iacis.com/certification/cawfe/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2259,7 +2216,6 @@
     ],
     "official_url": "https://www.iacis.com/certification/mobile-cert/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 8,
@@ -2316,7 +2272,6 @@
     ],
     "official_url": "https://courses.zero2auto.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,
@@ -2370,7 +2325,6 @@
     ],
     "official_url": "https://training.13cubed.com/investigating-windows-endpoints",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 7,
@@ -2423,7 +2377,6 @@
     ],
     "official_url": "https://training.13cubed.com/investigating-windows-memory",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 8,
@@ -2475,7 +2428,6 @@
     ],
     "official_url": "https://training.13cubed.com/investigating-linux-devices",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 7,
@@ -2526,7 +2478,6 @@
     ],
     "official_url": "https://training.13cubed.com/investigating-macos-endpoints",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 7,
@@ -2579,7 +2530,6 @@
     ],
     "official_url": "https://8ksec.io/camre/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -2630,7 +2580,6 @@
     ],
     "official_url": "https://8ksec.io/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -2686,7 +2635,6 @@
     ],
     "official_url": "https://8ksec.io/cmmre/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 8,
       "practical_depth": 9,

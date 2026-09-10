@@ -1,7 +1,7 @@
 {
   "role_id": "red_team_operator",
   "label": "Red Team Operator",
-  "description": "Conducts full-scope adversary simulation engagements \u2014 C2 infrastructure, EDR evasion, persistence, lateral movement, and objective-based operations simulating real threat actors.",
+  "description": "Conducts full-scope adversary simulation engagements — C2 infrastructure, EDR evasion, persistence, lateral movement, and objective-based operations simulating real threat actors.",
   "job_titles": [
     "Red Team Operator",
     "Adversary Emulation Specialist",
@@ -17,16 +17,15 @@
       "name": "Standard Red Team Track",
       "rationale": "OSCP provides the foundation; CRTO adds the most respected dedicated red team credential covering Cobalt Strike and adversary simulation; CRTO II (CRTL) adds advanced EDR evasion, WDAC bypass, and modern C2 tradecraft at a fraction of OSEP's cost.",
       "estimated_timeline": "18-30 months",
-      "total_cost_usd": 2999,
       "pros": [
-        "CRTO is the most recognized dedicated red team credential \u2014 required by name at many red team roles",
+        "CRTO is the most recognized dedicated red team credential — required by name at many red team roles",
         "CRTO II covers modern EDR evasion, WDAC bypass, and advanced C2 at ~$500 vs OSEP's $1,749",
-        "Both Zero-Point Security certs now backed by Fortra \u2014 boosting enterprise credibility",
+        "Both Zero-Point Security certs now backed by Fortra — boosting enterprise credibility",
         "All 100% practical, unlimited retakes"
       ],
       "cons": [
-        "Lower HR brand recognition than OSEP for DoD/federal roles \u2014 keep OSEP Elite track for those",
-        "CRTO II is newer \u2014 building market presence vs OSEP's established name",
+        "Lower HR brand recognition than OSEP for DoD/federal roles — keep OSEP Elite track for those",
+        "CRTO II is newer — building market presence vs OSEP's established name",
         "Fortra acquisition may affect Zero-Point pricing/availability long-term"
       ],
       "prerequisites": {
@@ -52,13 +51,13 @@
           "cert_id": "crto",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "Zero-Point Security red team ops cert \u2014 the most respected dedicated red team credential. Cobalt Strike operation, C2 profile customization, OPSEC, multi-stage engagements. Unlimited retakes. 4-day practical exam. With OSCP completed focus on C2 tradecraft and OPSEC."
+          "notes": "Zero-Point Security red team ops cert — the most respected dedicated red team credential. Cobalt Strike operation, C2 profile customization, OPSEC, multi-stage engagements. Unlimited retakes. 4-day practical exam. With OSCP completed focus on C2 tradecraft and OPSEC."
         },
         {
           "cert_id": "crto-ii",
           "order": 3,
           "estimated_time": "2-4 months",
-          "notes": "CRTO II (CRTL) \u2014 Zero-Point Security's advanced red team cert. Builds directly on CRTO with modern EDR bypass, WDAC evasion, advanced C2 profile customization, and multi-stage engagement tradecraft. At ~$500 with unlimited retakes it delivers more current evasion content than OSEP at roughly one-third the cost. With CRTO's Cobalt Strike foundation already established, CRTO II focuses your attention on operating against hardened defensive environments."
+          "notes": "CRTO II (CRTL) — Zero-Point Security's advanced red team cert. Builds directly on CRTO with modern EDR bypass, WDAC evasion, advanced C2 profile customization, and multi-stage engagement tradecraft. At ~$500 with unlimited retakes it delivers more current evasion content than OSEP at roughly one-third the cost. With CRTO's Cobalt Strike foundation already established, CRTO II focuses your attention on operating against hardened defensive environments."
         }
       ]
     },
@@ -67,14 +66,13 @@
       "name": "CREST-Aligned Track",
       "rationale": "For red team operators targeting UK, Australian, and European markets where CREST accreditation is required for regulated red team engagements.",
       "estimated_timeline": "18-28 months",
-      "total_cost_usd": 4746,
       "pros": [
         "CREST CCRTS required for regulated red team engagements in UK/AU/EU",
         "Opens government and financial sector red team work",
         "Structured methodology assessment"
       ],
       "cons": [
-        "Primarily recognized in UK/AU/EU \u2014 limited US recognition",
+        "Primarily recognized in UK/AU/EU — limited US recognition",
         "High cost including CREST examination fees"
       ],
       "prerequisites": {
@@ -107,27 +105,26 @@
           "cert_id": "ccrts",
           "order": 3,
           "estimated_time": "6-12 months",
-          "notes": "CREST Certified Red Team Specialist \u2014 team-based adversary simulation, threat intelligence-led testing. Written and practical components. Requires genuine red team engagement experience beyond lab work."
+          "notes": "CREST Certified Red Team Specialist — team-based adversary simulation, threat intelligence-led testing. Written and practical components. Requires genuine red team engagement experience beyond lab work."
         }
       ]
     },
     {
       "id": "red_team_offsec_elite",
       "name": "OffSec Elite Track",
-      "rationale": "The pure OffSec prestige ladder. OSCP \u2192 OSEP \u2192 OSCE\u00b3 is the most credentialed offensive career path available. OSCE\u00b3 requires passing OSWE, OSED, and OSEP \u2014 a combination that proves white-box web exploitation, Windows exploit development, and advanced red team evasion. Held by a very small number of practitioners globally.",
+      "rationale": "The pure OffSec prestige ladder. OSCP → OSEP → OSCE³ is the most credentialed offensive career path available. OSCE³ requires passing OSWE, OSED, and OSEP — a combination that proves white-box web exploitation, Windows exploit development, and advanced red team evasion. Held by a very small number of practitioners globally.",
       "estimated_timeline": "36-60 months",
-      "total_cost_usd": 6996,
       "pros": [
-        "OSCE\u00b3 is the most prestigious offensive security credential that exists",
+        "OSCE³ is the most prestigious offensive security credential that exists",
         "Each cert proves genuine hands-on skill at increasing difficulty",
         "OSEP specifically validates advanced EDR evasion and red team tradecraft",
         "Career-defining credential set for serious offensive practitioners"
       ],
       "cons": [
-        "OSCE\u00b3 requires OSWE + OSED + OSEP \u2014 years of preparation each",
+        "OSCE³ requires OSWE + OSED + OSEP — years of preparation each",
         "Extremely high total cost and time investment",
         "Diminishing returns after OSCP + OSEP for most red team roles",
-        "OSCE\u00b3 is aspirational \u2014 most red team leads don't hold it"
+        "OSCE³ is aspirational — most red team leads don't hold it"
       ],
       "prerequisites": {
         "knowledge": [
@@ -159,13 +156,13 @@
           "cert_id": "osep",
           "order": 3,
           "estimated_time": "4-8 months",
-          "notes": "OffSec Experienced Penetration Tester \u2014 the red team evasion cert. AV/EDR bypass, process injection, living-off-the-land. 48-hour defended environment exam. One of the three certs required for OSCE\u00b3."
+          "notes": "OffSec Experienced Penetration Tester — the red team evasion cert. AV/EDR bypass, process injection, living-off-the-land. 48-hour defended environment exam. One of the three certs required for OSCE³."
         },
         {
           "cert_id": "osce3",
           "order": 4,
           "estimated_time": "24-36 months",
-          "notes": "OffSec Certified Expert 3 \u2014 requires passing OSWE (white-box web), OSED (Windows exploit development), and OSEP. Not a single exam \u2014 you earn OSCE\u00b3 by completing all three. Plan 12+ months for OSED and 6+ months for OSWE after OSEP. This is a multi-year commitment. Most practitioners who attempt it spend 3-5 years on the full progression."
+          "notes": "OffSec Certified Expert 3 — requires passing OSWE (white-box web), OSED (Windows exploit development), and OSEP. Not a single exam — you earn OSCE³ by completing all three. Plan 12+ months for OSED and 6+ months for OSWE after OSEP. This is a multi-year commitment. Most practitioners who attempt it spend 3-5 years on the full progression."
         }
       ]
     }

@@ -42,7 +42,6 @@
     "flags": [],
     "official_url": "https://www.isc2.org/certifications/ccsp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -92,7 +91,6 @@
     "flags": [],
     "official_url": "https://cloudsecurityalliance.org/education/ccsk",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -145,7 +143,6 @@
     "flags": [],
     "official_url": "https://cloudsecurityalliance.org/education/ccak",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -196,7 +193,6 @@
     "flags": [],
     "official_url": "https://aws.amazon.com/certification/certified-security-specialty/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -246,7 +242,6 @@
     "flags": [],
     "official_url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -299,7 +294,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/cloud-security-automation-gcsa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -350,7 +344,6 @@
     "flags": [],
     "official_url": "https://www.comptia.org/certifications/cloud",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -399,7 +392,6 @@
     ],
     "official_url": "https://partneracademy.zscaler.com/zero-trust-certified-associate-exam",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -450,7 +442,6 @@
     "flags": [],
     "official_url": "https://www.zscaler.com/zscaler-cyber-academy/digital-transformation-administrator",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -501,7 +492,6 @@
     "flags": [],
     "official_url": "https://www.zscaler.com/zscaler-academy/digital-transformation-engineer",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -549,7 +539,6 @@
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -598,7 +587,6 @@
     "flags": [],
     "official_url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-security-professional/pexam_1Z0-1104-25",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -652,7 +640,6 @@
     ],
     "official_url": "https://www.giac.org/certifications/cloud-threat-detection-gctd/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -696,7 +683,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -741,7 +727,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -786,7 +771,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -832,7 +816,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -877,7 +860,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -923,7 +905,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -970,7 +951,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -1015,7 +995,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -1061,7 +1040,6 @@
     ],
     "official_url": "https://cyberwarfare.live/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,
@@ -1108,7 +1086,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1155,7 +1132,6 @@
     ],
     "official_url": "https://training.whiteknightlabs.com/certifications/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1207,7 +1183,6 @@
     ],
     "official_url": "https://www.practical-devsecops.com/certified-container-security-expert/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 9,
@@ -1265,7 +1240,6 @@
     "flags": [],
     "official_url": "https://www.practical-devsecops.com/certified-cloud-native-security-expert/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1323,7 +1297,6 @@
     ],
     "official_url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 9,
@@ -1375,7 +1348,6 @@
     ],
     "official_url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 0,

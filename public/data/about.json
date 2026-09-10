@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-09-10",
+      "title": "Career path fixes: broken steps, a retired cert, and costs that were wrong",
+      "body": "A structural check across all 128 career paths turned up problems no one could see from the site. Eleven steps pointed at certifications that did not exist — a batch of Practical DevSecOps and AI governance certs had been renamed without the paths following, so those steps silently resolved to nothing. The vulnerability management GIAC track still recommended GEVA, which GIAC placed in abeyance in May: you cannot buy the exam any more. That path is now a vendor-neutral CySA+ to CRISC track, and it says plainly that no dedicated VM credential remains in it. Path costs were the worst of it: 99 of 121 were wrong by more than $50, some by thousands in both directions, because the total was typed in by hand and every cert price correction invalidated it silently. Totals are now added up from the steps, so they cannot drift again. All of this is now checked automatically on every change."
+    },
+    {
       "date": "2026-09-09",
       "title": "Every certification now has its own page you can link to",
       "body": "Until now the whole site lived at one address. You could find a cert but you could not send it to anyone — sharing OSCP meant sharing the homepage and telling someone what to search for. Every certification now has a real page at /cert/<id>, so you can link to it, bookmark it, and open it directly. The back button works the way you would expect, and the Skills and Career Paths views have their own addresses too. Each cert page is also a complete document on its own: it carries that cert full name, issuer, level, cost, renewal terms and skills in the page itself, so search engines and AI assistants can read a specific certification instead of guessing from a directory listing. All 429 pages are listed in the sitemap."
@@ -67,6 +72,20 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-09-10",
+      "title": "Path Validator, Broken Step Repairs & Computed Path Costs",
+      "items": [
+        "Fixed 11 path steps referencing cert ids that did not exist (pdso-caisp, pdso-cdp, pdso-cde, pdso-csse, aigp, aaia), across 4 role files.",
+        "Removed GEVA from the vulnerability management track — GIAC placed it in abeyance in May 2026. The path is retitled Vendor-Neutral Track and now states that no dedicated VM credential remains in it.",
+        "Path total_cost_usd is now computed from the sequence instead of stored. 99 of 121 stored totals were wrong by more than $50, with gaps up to $9,370.",
+        "Removed the duplicate PCIP step from the payment Internal Assessor track; the ISA sponsorship detail moved into the path description, since ISA is employer-gated and not individually purchasable.",
+        "Removed the paths field from all 426 certs — it was empty everywhere and is derivable by inverting the path files.",
+        "New path validator in the audit: unresolved cert ids fail the build, references to inactive certs raise a warning, and sequencing problems (order gaps, duplicate certs, level regressions, prerequisite inversions) are reported.",
+        "New path coverage report: 217 of 426 certs appear in at least one path, broken down by domain so the thinnest areas are visible.",
+        "The audit now flags job titles that duplicate another role label, and experience_level values that disagree between roles.json and the path file."
+      ]
+    },
     {
       "date": "2026-09-09",
       "title": "Per-Cert Pages, Deep Linking & Prerendering",

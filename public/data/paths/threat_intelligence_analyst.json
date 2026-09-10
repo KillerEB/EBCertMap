@@ -19,7 +19,6 @@
       "name": "Commercial CTI Track",
       "rationale": "The most recognized combination for commercial CTI teams, MSSPs, and threat intelligence vendors. GCTI is the benchmark credential; supplementing with platform-specific certifications builds operational tool fluency.",
       "estimated_timeline": "10-16 months",
-      "total_cost_usd": 1298,
       "pros": [
         "GCTI is the most recognized vendor-neutral CTI credential globally",
         "MISP provides practical threat sharing platform skills valued in CERT/CSIRT environments",
@@ -38,14 +37,14 @@
           "Understanding of threat actor concepts"
         ],
         "recommended_certs": [],
-        "experience": "SOC analyst or security operations experience is strongly beneficial. CTI is a mid-career specialization \u2014 foundational security operations exposure first is recommended."
+        "experience": "SOC analyst or security operations experience is strongly beneficial. CTI is a mid-career specialization — foundational security operations exposure first is recommended."
       },
       "cert_sequence": [
         {
           "cert_id": "gcti",
           "order": 1,
           "estimated_time": "3-5 months",
-          "notes": "The primary CTI cert. Open-book \u2014 build comprehensive indexed notes organized by intelligence cycle phase, MITRE ATT&CK concepts, and threat actor profiling methodology. Associated with SANS FOR578. Without SANS training use the free MITRE ATT&CK training, Mandiant threat intelligence reports, and the SANS Cyber Threat Intelligence Summit talks available on YouTube. GCTI genuinely requires understanding analytical tradecraft \u2014 it cannot be pure memorization."
+          "notes": "The primary CTI cert. Open-book — build comprehensive indexed notes organized by intelligence cycle phase, MITRE ATT&CK concepts, and threat actor profiling methodology. Associated with SANS FOR578. Without SANS training use the free MITRE ATT&CK training, Mandiant threat intelligence reports, and the SANS Cyber Threat Intelligence Summit talks available on YouTube. GCTI genuinely requires understanding analytical tradecraft — it cannot be pure memorization."
         },
         {
           "cert_id": "cd-ctia",
@@ -66,14 +65,13 @@
       "name": "Government / DoD Track",
       "rationale": "For CTI analysts targeting government, intelligence community, or cleared contractor positions. GCTI provides DoD 8140 coverage; CREST CIP adds senior government intelligence credibility for UK and allied-nation positions.",
       "estimated_timeline": "14-24 months",
-      "total_cost_usd": 2499,
       "pros": [
         "GCTI is DoD 8140 approved for cyber intelligence roles",
         "CREST CIP is the most rigorous CTI credential with significant practical weight",
         "Strongest path for senior government intelligence analyst roles"
       ],
       "cons": [
-        "CREST CIP primarily recognized in UK, Australia, Singapore, EU \u2014 limited US recognition",
+        "CREST CIP primarily recognized in UK, Australia, Singapore, EU — limited US recognition",
         "High total cost",
         "Long timeline"
       ],
@@ -100,26 +98,25 @@
           "cert_id": "crest-cip",
           "order": 2,
           "estimated_time": "6-12 months",
-          "notes": "CREST's advanced CTI credential \u2014 the most rigorous and practically weighted intelligence certification available. Significant written and practical components covering strategic intelligence, attribution, collection management, and intelligence product development for senior stakeholders. Targets senior practitioners with substantial CTI experience. Preparation requires real analytical work, not just study \u2014 your GCTI foundation and operational CTI experience are both essential inputs."
+          "notes": "CREST's advanced CTI credential — the most rigorous and practically weighted intelligence certification available. Significant written and practical components covering strategic intelligence, attribution, collection management, and intelligence product development for senior stakeholders. Targets senior practitioners with substantial CTI experience. Preparation requires real analytical work, not just study — your GCTI foundation and operational CTI experience are both essential inputs."
         }
       ]
     },
     {
       "id": "cti_budget",
       "name": "Budget CTI Track",
-      "rationale": "arcX FTIA provides a free CTI foundation from a CREST-accredited provider. arcX PTIA covers the full CREST CPTIA syllabus at ~$380 \u2014 the most affordable CREST-aligned CTI preparation available. MCTIA adds a genuinely proctored Mandiant-branded credential at $250. Total under $650 \u2014 the most accessible credentialed CTI path before committing to GCTI.",
+      "rationale": "arcX FTIA provides a free CTI foundation from a CREST-accredited provider. arcX PTIA covers the full CREST CPTIA syllabus at ~$380 — the most affordable CREST-aligned CTI preparation available. MCTIA adds a genuinely proctored Mandiant-branded credential at $250. Total under $650 — the most accessible credentialed CTI path before committing to GCTI.",
       "estimated_timeline": "5-8 months",
-      "total_cost_usd": 630,
       "pros": [
-        "arcX FTIA is free \u2014 zero cost entry point",
-        "arcX PTIA covers the full CREST CPTIA syllabus \u2014 CREST-aligned at fraction of CPTIA cost",
+        "arcX FTIA is free — zero cost entry point",
+        "arcX PTIA covers the full CREST CPTIA syllabus — CREST-aligned at fraction of CPTIA cost",
         "MCTIA is a genuinely proctored, renewable cert with Mandiant/Google Cloud brand recognition",
-        "Under $650 total \u2014 the cheapest credentialed CTI path available"
+        "Under $650 total — the cheapest credentialed CTI path available"
       ],
       "cons": [
         "arcX credentials are course-completion, not externally proctored",
         "Lower HR brand recognition than GCTI or CREST CPTIA",
-        "MCTIA MCQ-only \u2014 no practical tradecraft component",
+        "MCTIA MCQ-only — no practical tradecraft component",
         "Path assumes self-study for analytical methodology beyond course content"
       ],
       "prerequisites": {
@@ -136,19 +133,19 @@
           "cert_id": "arcx-ftia",
           "order": 1,
           "estimated_time": "1 week",
-          "notes": "arcX Foundation Level Threat Intelligence Analyst \u2014 free, ~2.5 hours, covers CTI fundamentals and intelligence lifecycle. CREST-accredited training provider. Start here to validate interest in CTI before investing further. Complete the free CTI 101 course and pass the embedded final exam."
+          "notes": "arcX Foundation Level Threat Intelligence Analyst — free, ~2.5 hours, covers CTI fundamentals and intelligence lifecycle. CREST-accredited training provider. Start here to validate interest in CTI before investing further. Complete the free CTI 101 course and pass the embedded final exam."
         },
         {
           "cert_id": "arcx-ptia",
           "order": 2,
           "estimated_time": "2-3 months",
-          "notes": "arcX Practitioner Threat Intelligence Analyst \u2014 ~\u00a3300 (~$380), 17+ hours covering the full CREST CPTIA syllabus. The most affordable CREST-aligned CTI credential. Covers collection planning, structured analytic techniques, intelligence reporting, legal/ethical frameworks, and geopolitical threat context. Practitioners who want the actual CREST CPTIA badge can sit the separate Pearson VUE exam after completing this course."
+          "notes": "arcX Practitioner Threat Intelligence Analyst — ~£300 (~$380), 17+ hours covering the full CREST CPTIA syllabus. The most affordable CREST-aligned CTI credential. Covers collection planning, structured analytic techniques, intelligence reporting, legal/ethical frameworks, and geopolitical threat context. Practitioners who want the actual CREST CPTIA badge can sit the separate Pearson VUE exam after completing this course."
         },
         {
           "cert_id": "mctia",
           "order": 3,
           "estimated_time": "2-3 months",
-          "notes": "Mandiant Cyber Threat Intelligence Analysis \u2014 $250, Kryterion OLP proctored, 70% pass. The only genuinely proctored CTI cert in this stack. Mandiant/Google Cloud brand recognition adds credibility beyond the arcX credentials. Objectives mapped to NIST/NICE AN-ASA-001. 3-year renewal with CPE or retake. With arcX PTIA foundations established, MCTIA content is directly reinforced \u2014 cover IOC analysis, threat actor profiling, and cognitive bias mitigation before the exam."
+          "notes": "Mandiant Cyber Threat Intelligence Analysis — $250, Kryterion OLP proctored, 70% pass. The only genuinely proctored CTI cert in this stack. Mandiant/Google Cloud brand recognition adds credibility beyond the arcX credentials. Objectives mapped to NIST/NICE AN-ASA-001. 3-year renewal with CPE or retake. With arcX PTIA foundations established, MCTIA content is directly reinforced — cover IOC analysis, threat actor profiling, and cognitive bias mitigation before the exam."
         }
       ]
     }

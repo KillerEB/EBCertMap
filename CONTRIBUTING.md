@@ -71,7 +71,6 @@ The required fields for every cert entry:
   "flags": [],
   "official_url": "https://...",
   "active": true,
-  "paths": [],
   "scores": {
     "exam_difficulty": 5,
     "practical_depth": 5,
@@ -119,6 +118,18 @@ overall = (2·practical_depth + 2·employer_recognition + 2·community_respect +
 `exam_difficulty` carries a single weight rather than a double one because it too is substantially covered — 0.65 with `practical_depth`, rising to 0.80 among elite certs.
 
 Where two certs tie, they are ordered by `practical_depth`, then `employer_recognition`, then id — so the ordering is deterministic rather than dependent on file order.
+
+### Other computed fields
+
+The same rule applies elsewhere: anything that is a function of other data is computed, never stored, and the audit rejects it if it reappears.
+
+| Field | Where it comes from |
+|---|---|
+| `scores.overall` | the four component scores above |
+| `total_cost_usd` on a path | the sum of its `cert_sequence` step costs |
+| `paths` on a cert | inverted from `paths/*.json` |
+
+Hand-entered copies drift silently. Every cert price correction used to invalidate the stored path totals, and 99 of 121 were wrong by more than $50 before they were removed.
 
 ### Flags
 

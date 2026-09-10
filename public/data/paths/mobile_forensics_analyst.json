@@ -14,16 +14,15 @@
     {
       "id": "mobile_forensics_vendor",
       "name": "Vendor Tool Track (Cellebrite)",
-      "rationale": "Cellebrite dominates the mobile forensics tool market \u2014 particularly in law enforcement. UFED-based certifications are required by name in most government and LE mobile forensics positions.",
+      "rationale": "Cellebrite dominates the mobile forensics tool market — particularly in law enforcement. UFED-based certifications are required by name in most government and LE mobile forensics positions.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1995,
       "pros": [
         "Cellebrite certs required by name at most LE mobile forensics positions",
         "UFED is the dominant tool in government and law enforcement",
         "Widely recognized in courts as practitioner qualification"
       ],
       "cons": [
-        "Platform-specific \u2014 limited value outside Cellebrite environments",
+        "Platform-specific — limited value outside Cellebrite environments",
         "Tool-dependent certification becomes outdated as tools evolve"
       ],
       "prerequisites": {
@@ -40,28 +39,27 @@
           "cert_id": "cco",
           "order": 1,
           "estimated_time": "2-3 months",
-          "notes": "Cellebrite Certified Operator \u2014 entry-level covering UFED operation, physical and logical acquisition. Required before CCPA. Register through Cellebrite's training portal."
+          "notes": "Cellebrite Certified Operator — entry-level covering UFED operation, physical and logical acquisition. Required before CCPA. Register through Cellebrite's training portal."
         },
         {
           "cert_id": "ccpa",
           "order": 2,
           "estimated_time": "2-4 months",
-          "notes": "Cellebrite Certified Physical Analyst \u2014 advanced analysis of UFED extraction data, file system structures, deleted data recovery, and app artifact analysis. Primary Cellebrite credential for practicing mobile forensics examiners."
+          "notes": "Cellebrite Certified Physical Analyst — advanced analysis of UFED extraction data, file system structures, deleted data recovery, and app artifact analysis. Primary Cellebrite credential for practicing mobile forensics examiners."
         },
         {
           "cert_id": "ccme",
           "order": 3,
           "estimated_time": "3-5 months",
-          "notes": "Cellebrite Certified Mobile Examiner \u2014 complex extractions, encrypted devices, cloud data acquisition, specialized app analysis. Capstone Cellebrite certification for senior mobile forensics roles."
+          "notes": "Cellebrite Certified Mobile Examiner — complex extractions, encrypted devices, cloud data acquisition, specialized app analysis. Capstone Cellebrite certification for senior mobile forensics roles."
         }
       ]
     },
     {
       "id": "mobile_forensics_neutral",
       "name": "Vendor-Neutral Track",
-      "rationale": "GASF is the recognized vendor-neutral mobile forensics standard \u2014 covering both Android and iOS methodology without tool vendor lock-in.",
+      "rationale": "GASF is the recognized vendor-neutral mobile forensics standard — covering both Android and iOS methodology without tool vendor lock-in.",
       "estimated_timeline": "8-14 months",
-      "total_cost_usd": 1797,
       "pros": [
         "GASF is vendor-neutral and DoD approved",
         "Platform-independent methodology transfers across tools",
@@ -84,13 +82,13 @@
           "cert_id": "gasf",
           "order": 1,
           "estimated_time": "4-6 months",
-          "notes": "GIAC Advanced Smartphone Forensics \u2014 iOS and Android forensics including physical, logical, and filesystem acquisition, app artifact analysis, cloud data forensics. DoD 8140 approved. Open-book \u2014 build comprehensive notes. Associated with SANS FOR585."
+          "notes": "GIAC Advanced Smartphone Forensics — iOS and Android forensics including physical, logical, and filesystem acquisition, app artifact analysis, cloud data forensics. DoD 8140 approved. Open-book — build comprehensive notes. Associated with SANS FOR585."
         },
         {
           "cert_id": "gime",
           "order": 2,
           "estimated_time": "3-5 months",
-          "notes": "GIAC iOS and macOS Examiner \u2014 specialized iOS forensics including newer iOS security features, iPhone file system analysis, and macOS mobile integration. Extends GASF iOS coverage significantly."
+          "notes": "GIAC iOS and macOS Examiner — specialized iOS forensics including newer iOS security features, iPhone file system analysis, and macOS mobile integration. Extends GASF iOS coverage significantly."
         }
       ]
     }

@@ -37,7 +37,6 @@
     "flags": [],
     "official_url": "https://www.comptia.org/certifications/network",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 2,
@@ -85,7 +84,6 @@
     "flags": [],
     "official_url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -137,7 +135,6 @@
     "flags": [],
     "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -189,7 +186,6 @@
     "flags": [],
     "official_url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 6,
@@ -237,7 +233,6 @@
     "flags": [],
     "official_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncia-sec.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -288,7 +283,6 @@
     "flags": [],
     "official_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncis-sec.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -339,7 +333,6 @@
     "flags": [],
     "official_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncip-sec.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -387,7 +380,6 @@
     "flags": [],
     "official_url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncie-sec.html",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 8,
@@ -436,7 +428,6 @@
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -486,7 +477,6 @@
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -535,7 +525,6 @@
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 5,
@@ -584,7 +573,6 @@
     "flags": [],
     "official_url": "https://www.checkpoint.com/support-services/training-certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 2,
@@ -635,7 +623,6 @@
     "flags": [],
     "official_url": "https://www.checkpoint.com/support-services/training-certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -684,7 +671,6 @@
     "flags": [],
     "official_url": "https://www.checkpoint.com/support-services/training-certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 4,
@@ -734,7 +720,6 @@
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -784,7 +769,6 @@
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -834,7 +818,6 @@
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -885,7 +868,6 @@
     "flags": [],
     "official_url": "https://www.paloaltonetworks.com/services/education/certification",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 2,
@@ -936,7 +918,6 @@
     "flags": [],
     "official_url": "https://training.fortinet.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -989,7 +970,6 @@
     "flags": [],
     "official_url": "https://www.giac.org/certifications/certified-intrusion-analyst-gcia/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -1039,7 +1019,6 @@
     ],
     "official_url": "https://education.f5.com/learning-path/view/11",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -1092,7 +1071,6 @@
     ],
     "official_url": "https://education.f5.com/learning-path/view/16",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -1142,7 +1120,6 @@
     "flags": [],
     "official_url": "https://www.cwnp.com/certifications/cwsp",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 3,
@@ -1203,7 +1180,6 @@
     ],
     "official_url": "https://www.cwnp.com/certifications/cwne/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 9,
       "practical_depth": 7,
@@ -1251,7 +1227,6 @@
     "flags": [],
     "official_url": "https://www.wcnacertification.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 2,
@@ -1295,7 +1270,6 @@
     "flags": [],
     "official_url": "https://pentestingexams.com/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 5,

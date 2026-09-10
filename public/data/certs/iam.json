@@ -41,7 +41,6 @@
     ],
     "official_url": "https://idpro.org/cidpro/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 2,
@@ -94,7 +93,6 @@
     "flags": [],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -143,7 +141,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 2,
       "practical_depth": 2,
@@ -196,7 +193,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 3,
@@ -247,7 +243,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,
@@ -297,7 +292,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -350,7 +344,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 7,
@@ -400,7 +393,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -450,7 +442,6 @@
     "flags": [],
     "official_url": "https://www.okta.com/services/certification/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -498,7 +489,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 1,
       "practical_depth": 1,
@@ -551,7 +541,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -604,7 +593,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 5,
@@ -654,7 +642,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 7,
       "practical_depth": 6,
@@ -703,7 +690,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -754,7 +740,6 @@
     ],
     "official_url": "https://www.cyberark.com/services-support/training/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -803,7 +788,6 @@
     ],
     "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -856,7 +840,6 @@
     ],
     "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 5,
@@ -907,7 +890,6 @@
     ],
     "official_url": "https://university.sailpoint.com/page/professional-certifications-and-knowledge-credentials",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 5,
@@ -959,7 +941,6 @@
     ],
     "official_url": "https://university.sailpoint.com/sailpoint-certified-identity-security-administrator",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -1011,7 +992,6 @@
     ],
     "official_url": "https://www.hashicorp.com/certification/vault-associate",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 3,
       "practical_depth": 3,
@@ -1063,7 +1043,6 @@
     "flags": [],
     "official_url": "https://www.hashicorp.com/certification/vault-operations-professional",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 6,
       "practical_depth": 6,
@@ -1114,7 +1093,6 @@
     ],
     "official_url": "https://training.pingidentity.com/",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -1166,7 +1144,6 @@
     ],
     "official_url": "https://training.pingidentity.com/",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -1217,7 +1194,6 @@
     ],
     "official_url": "https://training.pingidentity.com/",
     "active": false,
-    "paths": [],
     "scores": {
       "exam_difficulty": 4,
       "practical_depth": 4,
@@ -1268,7 +1244,6 @@
     "flags": [],
     "official_url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
     "active": true,
-    "paths": [],
     "scores": {
       "exam_difficulty": 5,
       "practical_depth": 3,

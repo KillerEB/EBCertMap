@@ -349,6 +349,16 @@ const byOverall = (a, b) =>
   (b.scores?.employer_recognition ?? 0) - (a.scores?.employer_recognition ?? 0) ||
   (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 
+// A path's cost is the sum of its steps, so it is computed rather than stored.
+// The hand-entered totals had drifted on 99 of 121 paths — every cert price
+// correction silently invalidated them. Steps may carry their own cost_usd
+// (courses, labs) or resolve one from the referenced cert.
+const pathCost = (path, cm) => (path?.cert_sequence ?? []).reduce((sum, step) => {
+  if (typeof step.cost_usd === "number") return sum + step.cost_usd;
+  const cert = step.cert_id ? getCertById(step.cert_id, cm) : null;
+  return sum + (typeof cert?.cost_usd === "number" ? cert.cost_usd : 0);
+}, 0);
+
 // ── Routing ─────────────────────────────────────────────────────────────────
 // The app has four addressable states, so using the History API directly costs
 // less than a router dependency. Cert pages are prerendered at build, so
@@ -1556,7 +1566,7 @@ function RoleView({ CERTS, setCERTS, isMobile }) {
                   </div>
                   <div style={{ flexShrink:0, textAlign:"right" }}>
                     <div style={{ fontSize:9.5, color:"var(--muted)", textTransform:"uppercase", letterSpacing:"0.07em", marginBottom:2 }}>Total Cost</div>
-                    <div className="mono heading" style={{ fontSize:20, fontWeight:700, color:"var(--accent)" }}>${path.total_cost_usd?.toLocaleString()??"—"}</div>
+                    <div className="mono heading" style={{ fontSize:20, fontWeight:700, color:"var(--accent)" }}>${pathCost(path, CERTS).toLocaleString()}</div>
                     {path.estimated_timeline && <div style={{ fontSize:10.5, color:"var(--muted)", marginTop:4 }}>⏱ {path.estimated_timeline}</div>}
                   </div>
                 </div>
